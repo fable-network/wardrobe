@@ -18,7 +18,7 @@ module.exports = {
   },
 
   styleguideComponents: {
-    Wrapper: path.join(__dirname, 'styleguide/ThemeWrapper'),
+    Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
   },
 
   webpackConfig: {
