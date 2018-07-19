@@ -1,0 +1,13 @@
+.DS_Store
+.env
+npm-debug.log
+node_modules/
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+.eslintcache
+package-lock.json
+yarn.lock
