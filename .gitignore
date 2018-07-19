@@ -11,3 +11,4 @@ Thumbs.db
 .eslintcache
 package-lock.json
 yarn.lock
+styleguide/
