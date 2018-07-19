@@ -32,8 +32,7 @@
   },
   "scripts": {
     "start": "styleguidist server",
-    "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "build": "styleguidist build"
   },
   "devDependencies": {
     "prettier": "1.13.7"

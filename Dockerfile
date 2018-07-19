@@ -2,7 +2,7 @@ FROM nginx:1.12-alpine
 
 COPY nginx-configuration.conf /etc/nginx/conf.d/default.conf
 
-COPY build /usr/share/nginx/html
+COPY styleguide/build /usr/share/nginx/html
 
 LABEL \
   meta.attributes.id="wardrobe" \
