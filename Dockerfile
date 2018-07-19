@@ -2,8 +2,6 @@ FROM nginx:1.12-alpine
 
 COPY nginx-configuration.conf /etc/nginx/conf.d/default.conf
 
-RUN rm /etc/nginx/nginx.conf.default
-
 COPY styleguide/build /usr/share/nginx/html
 
 LABEL \
