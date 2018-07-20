@@ -14,7 +14,7 @@ module.exports = {
   getComponentPathLine(componentPath) {
     const name = path.basename(componentPath, '.js');
     const dir = path.dirname(componentPath);
-    return `import { ${name} } from 'fashiontrade-component-library';`; // TODO: change name
+    return `import { ${name} } from 'wardrobe';`;
   },
 
   styleguideComponents: {
@@ -35,5 +35,11 @@ module.exports = {
         },
       ],
     },
-  },
+    resolve: {
+      alias:{
+        constants: path.resolve( __dirname, 'constants' )
+      },
+      extensions: ['.js']
+    }
+  }
 };
