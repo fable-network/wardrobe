@@ -1,0 +1,53 @@
+//
+// Button
+//
+
+@import '../../globals/scss/colors';
+@import '../../globals/scss/typography';
+@import '../../globals/scss/variables';
+@import '../../globals/scss/import-once';
+
+// Import this only once
+@include exports('button') {
+
+  .#{$prefix}--btn {
+    background-color: $color__skyBlue;
+    display: inline-block;
+    padding: 5px 20px;
+    font-family: $font-family-sans;
+    font-weight: 300;
+    color: $color__pearlWhite;
+    font-size: 18px;
+    border: 0;
+    transition: background-color 150ms linear, box-shadow 150ms linear;
+
+    &:disabled {
+      cursor: not-allowed;
+      background: lighten($color__skyBlue, 30%);
+    }
+
+    &:hover {
+      background-color: darken($color__skyBlue, 20%);
+      box-shadow: 0 2px 4px 0 rgba(49, 50, 51, 0.2);
+      transition: background-color 150ms linear, box-shadow 150ms linear;
+    }
+
+    &:hover:disabled {
+      background: lighten($color__skyBlue, 30%);
+      box-shadow: none;
+    }
+  }
+
+  .#{$prefix}--btn--primary {
+
+  }
+
+  .#{$prefix}--btn--secondary {
+
+  }
+
+  .#{$prefix}--btn--sm {
+
+  }
+
+}
