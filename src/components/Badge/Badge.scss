@@ -1,0 +1,59 @@
+//
+// Badge
+//
+@import '../../globals/scss/colors';
+@import '../../globals/scss/typography';
+@import '../../globals/scss/variables';
+@import '../../globals/scss/import-once';
+@import '../../globals/scss/animations';
+
+@include exports('badge') {
+  .#{$prefix}--badge {
+    display: inline-block;
+    padding: 0.15em 0.8em;
+    font-size: 80%;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFF; 
+    background-color: $color__skyBlue;
+
+    &--primary {
+      color: #FFF; 
+      background-color: $color__skyBlue;
+    }
+
+    &--secondary {
+      color: #FFF;
+      background-color: $color__stoneGrey;
+    }
+
+    &--success {
+      color: #FFF;
+      background-color: $color__limeGreen;
+    }
+
+    &--danger {
+      color: #FFF;
+      background-color: $color__flameRed;
+    }
+
+    &--warning {
+      color: #FFF;
+      background-color: $color__apricotOrange;
+    }
+
+    &--light {
+      color: $color__ravenBlack;
+      background-color: $color__pearlWhite;
+    }
+
+    &--dark {
+      color: #FFF;
+      background-color: $color__ravenBlack;
+    }
+
+    &--pulsating {
+      animation: pulseInfinite 3s infinite ease;
+    }
+  }
+}
