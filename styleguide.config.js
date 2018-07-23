@@ -11,6 +11,24 @@ module.exports = {
     { name: 'Style', components: 'src/style/**/*.js' },
   ],
 
+  // Global component style guide styling
+  components: 'src/components/**/*.js',
+  styles: {
+    StyleGuide: {
+      '@global body': {
+        fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
+        fontSize: '16px',
+      }
+    }
+  },
+
+  // Styleguidist styling
+  theme: {
+    fontFamily: {
+      base: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
+    }
+  },
+
   getComponentPathLine(componentPath) {
     // Format code snippet.
     const name = path.basename(componentPath, '.js');

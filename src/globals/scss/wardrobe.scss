@@ -1,6 +1,10 @@
 // Globals
 @import 'colors';
 @import 'import-once';
-
 // Components
 @import '../../components/Button/Button';
+
+html, body {
+  font-family: "Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+}

@@ -33,7 +33,7 @@ Button.propTypes = {
    */
   children: PropTypes.string.isRequired,
   className: PropTypes.string,
-  size: PropTypes.oneOf(['small, normal']),
+  size: PropTypes.oneOf(['small', 'normal']),
   disabled: PropTypes.bool,
   type: PropTypes.oneOf(['button', 'reset', 'submit']),
   appearance: PropTypes.oneOf(['primary', 'secondary']),
@@ -43,11 +43,7 @@ Button.defaultProps = {
   size: 'normal',
   disabled: false,
   appearance: 'secondary',
-  type: 'button,'
-};
-
-Button.sizes = {
-  normal: '18px',
+  type: 'button',
 };
 
 /** @component */
