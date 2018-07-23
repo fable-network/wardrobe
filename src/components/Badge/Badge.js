@@ -29,8 +29,7 @@ Badge.propTypes = {
     'dark'
   ]),
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  pulsating: PropTypes.bool,
-  theme: PropTypes.object.isRequired
+  pulsating: PropTypes.bool
 };
 
 export default Badge;
