@@ -7,18 +7,20 @@ import './Button.scss';
 /**
  * An element of a graphical user interface which a user can select to perform a particular action.
  */
-const Button = ({ size, disabled, type, children }) => {
-  const buttonClasses = classNames({
+const Button = ({ size, className, disabled, type, appearance, children, ...other }) => {
+  const buttonClasses = classNames(className, {
     'ft--btn': true,
     'ft--btn--sm': size === 'small',
-    'ft--btn--primary': type === 'primary',
-    'ft--btn--secondary': type === 'secondary',
+    'ft--btn--primary': appearance === 'primary',
+    'ft--btn--secondary': appearance === 'secondary',
   });
 
   return (
     <button
+      {...other}
       className={buttonClasses}
       disabled={disabled}
+      type={type}
     >
       {children}
     </button>
@@ -30,16 +32,18 @@ Button.propTypes = {
    * Button label.
    */
   children: PropTypes.string.isRequired,
+  className: PropTypes.string,
   size: PropTypes.oneOf(['small, normal']),
   disabled: PropTypes.bool,
-  theme: PropTypes.object.isRequired,
-  type: PropTypes.oneOf(['primary', 'secondary'])
+  type: PropTypes.oneOf(['button', 'reset', 'submit']),
+  appearance: PropTypes.oneOf(['primary', 'secondary']),
 };
 
 Button.defaultProps = {
   size: 'normal',
   disabled: false,
-  type: 'secondary',
+  appearance: 'secondary',
+  type: 'button,'
 };
 
 Button.sizes = {
