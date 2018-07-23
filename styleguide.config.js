@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'FashionTrade Style Guide',
+  title: 'Wardrobe',
   defaultExample: true,
   pagePerSection: true,
   skipComponentsWithoutExample: true,
@@ -11,10 +11,22 @@ module.exports = {
     { name: 'Style', components: 'src/style/**/*.js' },
   ],
 
+  // Global component style guide styling
+  components: 'src/components/**/*.js',
+  styles: {
+    StyleGuide: {
+      '@global body': {
+        fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
+        fontSize: '16px',
+      }
+    }
+  },
+
   getComponentPathLine(componentPath) {
+    // Format code snippet.
     const name = path.basename(componentPath, '.js');
     const dir = path.dirname(componentPath);
-    return `import { ${name} } from 'wardrobe';`;
+    return `import { ${name} } from '@fashiontrade/wardrobe';`;
   },
 
   styleguideComponents: {
@@ -23,7 +35,7 @@ module.exports = {
 
   webpackConfig: {
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.jsx?$/,
           exclude: /node_modules/,
@@ -33,13 +45,29 @@ module.exports = {
           test: /\.css$/,
           loader: 'style-loader!css-loader?modules&importLoaders=1',
         },
+        {
+          test: /\.scss$/,
+          use: [
+            {
+              loader: "style-loader" // creates style nodes from JS strings
+            },
+            {
+              loader: "css-loader" // translates CSS into CommonJS
+            },
+            {
+              loader: "sass-loader" // compiles Sass to CSS
+            }
+          ]
+        },
       ],
     },
     resolve: {
-      alias:{
-        constants: path.resolve( __dirname, 'constants' )
-      },
-      extensions: ['.js']
+      modules: [
+        path.join(__dirname, 'src'),
+        path.join(__dirname, 'src/components'),
+        'node_modules'
+      ],
+      extensions: ['.js', '.scss'],
     }
   }
 };
