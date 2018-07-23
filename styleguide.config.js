@@ -22,13 +22,6 @@ module.exports = {
     }
   },
 
-  // Styleguidist styling
-  theme: {
-    fontFamily: {
-      base: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
-    }
-  },
-
   getComponentPathLine(componentPath) {
     // Format code snippet.
     const name = path.basename(componentPath, '.js');

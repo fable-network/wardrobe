@@ -11,8 +11,7 @@ const Button = ({ size, className, disabled, type, appearance, children, ...othe
   const buttonClasses = classNames(className, {
     'ft--btn': true,
     'ft--btn--sm': size === 'small',
-    'ft--btn--primary': appearance === 'primary',
-    'ft--btn--secondary': appearance === 'secondary',
+    [`ft--btn--${appearance}`]: true,
   });
 
   return (
@@ -28,9 +27,7 @@ const Button = ({ size, className, disabled, type, appearance, children, ...othe
 };
 
 Button.propTypes = {
-  /**
-   * Button label.
-   */
+  /** Button label */
   children: PropTypes.string.isRequired,
   className: PropTypes.string,
   size: PropTypes.oneOf(['small', 'normal']),
