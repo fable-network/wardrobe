@@ -14,31 +14,26 @@
     font-size: 80%;
     border-radius: 20px;
     text-align: center;
-    color: #FFF; 
+    color: #FFF;
     background-color: $color__skyBlue;
 
     &--primary {
-      color: #FFF; 
       background-color: $color__skyBlue;
     }
 
     &--secondary {
-      color: #FFF;
       background-color: $color__stoneGrey;
     }
 
     &--success {
-      color: #FFF;
       background-color: $color__limeGreen;
     }
 
     &--danger {
-      color: #FFF;
       background-color: $color__flameRed;
     }
 
     &--warning {
-      color: #FFF;
       background-color: $color__apricotOrange;
     }
 
@@ -48,7 +43,6 @@
     }
 
     &--dark {
-      color: #FFF;
       background-color: $color__ravenBlack;
     }
 
