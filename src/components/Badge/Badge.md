@@ -13,7 +13,7 @@ Badge different color:
 Badge with animation:
 
 ```jsx
-<Badge appearance="success" pulsating>9</Badge>
+<Badge appearance="success" animated>9</Badge>
 ```
 
 Badge with custom parent font-size:

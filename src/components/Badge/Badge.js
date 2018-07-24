@@ -4,11 +4,11 @@ import classNames from 'classnames';
 
 import './Badge.scss';
 
-const Badge = ({ appearance, children, pulsating, theme }) => {
+const Badge = ({ appearance, children, animated, theme }) => {
   const classes = classNames({
     'ft--badge': true,
     [`ft--badge--${appearance}`]: true,
-    'ft--badge--pulsating': pulsating
+    'ft--badge--animated': animated
   });
 
   return (
@@ -29,7 +29,7 @@ Badge.propTypes = {
     'dark'
   ]),
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  pulsating: PropTypes.bool
+  animated: PropTypes.bool
 };
 
 export default Badge;
