@@ -61,5 +61,13 @@ module.exports = {
         },
       ],
     },
-  },
+    resolve: {
+      modules: [
+        path.join(__dirname, 'src'),
+        path.join(__dirname, 'src/components'),
+        'node_modules'
+      ],
+      extensions: ['.js', '.scss'],
+    }
+  }
 };
