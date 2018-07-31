@@ -1,0 +1,47 @@
+//
+// ColorSelector
+//
+@import '../../globals/scss/colors';
+@import '../../globals/scss/typography';
+@import '../../globals/scss/variables';
+@import '../../globals/scss/import-once';
+
+@include exports('colorSelector') {
+  .#{$prefix}--colorSelector {
+    
+    &--colorCircle {
+      background-color: #fff;
+      border-radius: 100%;
+      box-shadow: 0px 0px 0px 1px #cecece;
+      border: 2px solid #FFF;
+      transform: scale(.8);
+      display: inline-block;
+      vertical-align: middle;
+      overflow: hidden;
+      padding: 1em;
+      transition: all .3s ease;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+
+    &:hover,
+    &--state--noInteraction,
+    &--state--selected {
+      .#{$prefix}--colorSelector--colorCircle {
+        transform: scale(1);
+      }
+    }
+
+    &--hasPointerCursor {
+      cursor: pointer;
+    }
+
+    &--text {
+      vertical-align: middle;
+      margin-left: 5px;
+      &--state--selected {
+        font-weight: 500;
+      }
+    }
+  }
+}

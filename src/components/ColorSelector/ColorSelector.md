@@ -1,9 +1,9 @@
-Static color selector:
+Color selector (without interaction):
 
 ```jsx
 <ColorSelector
   color="#e25454"
-  isStatic={true}
+  disableInteraction={true}
 />
 ```
 
@@ -20,7 +20,7 @@ Color selector with pattern image:
 
 ```jsx
 <ColorSelector
-  patternImage="https://app.fashiontrade.construction/api/image/be8eb3d59eabe9dcaa41383eba5ba43bc641e7a9980ed4af02714401871a314a.jpg?w=265&h=330"
+  patternImage="src/static/images/patternImage.jpg"
 />
 ```
 
@@ -42,3 +42,37 @@ Selected color selector:
   text="Lime green"
 />
 ```
+
+As part of a group:
+
+```jsx
+<div>
+  <ColorSelector
+    color="#5F9DC7"
+    onClick={() => alert('#5F9DC7')}
+    text="Sky blue"
+  />
+</div>
+<div>
+  <ColorSelector
+    color="#aecc76"
+    text="Lime green"
+    onClick={() => alert('#aecc76')}
+  />
+</div>
+<div>
+  <ColorSelector
+    color="#e25454"
+    disableInteraction={true}
+    text="Flame red (Selected)"
+    onClick={() => alert('#e25454')}
+    selected={true}
+  />
+</div>
+<div>
+  <ColorSelector
+    patternImage="src/static/images/patternImage.jpg"
+    onClick={() => alert('Pattern image')}
+    text="Pattern image"
+  />
+</div>
