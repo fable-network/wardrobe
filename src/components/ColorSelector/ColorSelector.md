@@ -63,7 +63,6 @@ As part of a group:
 <div>
   <ColorSelector
     color="#e25454"
-    disableInteraction={true}
     text="Flame red (Selected)"
     onClick={() => alert('#e25454')}
     selected={true}

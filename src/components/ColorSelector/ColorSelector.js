@@ -8,7 +8,7 @@ const ColorSelector = ({ onClick, patternImage, color, disableInteraction, text,
   const wrapperClasses = classNames('ft--colorSelector', {
     'ft--colorSelector--state--noInteraction': disableInteraction,
     'ft--colorSelector--state--selected': selected,
-    'ft--colorSelector--hasPointerCursor': !!onClick
+    'ft--colorSelector--cursor--pointer': !!onClick
   });
 
   const colorCirlcleClasses = classNames('ft--colorSelector--colorCircle');
