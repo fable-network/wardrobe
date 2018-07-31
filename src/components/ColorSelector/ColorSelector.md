@@ -46,21 +46,21 @@ Selected color selector:
 As part of a group:
 
 ```jsx
-<div>
+<div style={{padding: '3px 0'}}>
   <ColorSelector
     color="#5F9DC7"
     onClick={() => alert('#5F9DC7')}
     text="Sky blue"
   />
 </div>
-<div>
+<div style={{padding: '3px 0'}}>
   <ColorSelector
     color="#aecc76"
     text="Lime green"
     onClick={() => alert('#aecc76')}
   />
 </div>
-<div>
+<div style={{padding: '3px 0'}}>
   <ColorSelector
     color="#e25454"
     text="Flame red (Selected)"
@@ -68,7 +68,7 @@ As part of a group:
     selected={true}
   />
 </div>
-<div>
+<div style={{padding: '3px 0'}}>
   <ColorSelector
     patternImage="src/static/images/patternImage.jpg"
     onClick={() => alert('Pattern image')}
