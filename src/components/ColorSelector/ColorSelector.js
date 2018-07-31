@@ -6,7 +6,7 @@ import './ColorSelector.scss';
 
 const ColorSelector = ({ onClick, patternImage, color, disableInteraction, text, selected }) => {
   const wrapperClasses = classNames('ft--colorSelector', {
-    'ft--colorSelector--state-noInteraction': disableInteraction,
+    'ft--colorSelector--state--noInteraction': disableInteraction,
     'ft--colorSelector--state--selected': selected,
     'ft--colorSelector--hasPointerCursor': !!onClick
   });
