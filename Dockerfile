@@ -14,7 +14,7 @@ LABEL \
   meta.ports.http.service="80" \
   meta.ports.http.container="80" \
   meta.routing.gateway.mapping.dns-prefix="wardrobe" \
-  meta.routing.gateway.authentication.login-redirect="true"
+  meta.routing.gateway.authentication.required="false"
 
 # Nginx start command copied from original Dockerfile:
 # https://github.com/nginxinc/docker-nginx/blob/7b33a90d7441909664a920b0687db8d984ac314b/mainline/alpine/Dockerfile#L135
