@@ -31,8 +31,18 @@ componentNames.forEach(name => {
     if (err) {
       throw (err);
     }
+
     const file = out.toString();
-    const matches = file.match(/```jsx\n(<[A-Z0-9][\s\S]+?)\n```\n[\s\S]*?/g);
+
+    const regexString =  `\`\`\`jsx\\n<${name}[\\s\\S]+?(\\/>|<\\/${name}>)`;
+    // ```jsx\n (starts matching when it finds a code block that begins with this string)
+    // <${name} (Ensures that the string begins with the component we are currently on)
+    // [\s\S]+? (matches any white space character as few times as possible)
+    // (\/>|<\/${name}>) untill it reaches "/>" or "</ComponentName>"
+
+    const regex = new RegExp(regexString, 'g')
+    const matches = file.match(regex);
+    // removes the extra characters from the matched strings (jsx & ```).
     const components = matches.map(match => match.replace(/```/g, '').replace(/jsx/g, ''));
     const snapshotCode = components.map((component, i) => (
       `
