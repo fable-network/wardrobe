@@ -43,6 +43,16 @@ Selected color selector:
 />
 ```
 
+Color Selector with a fixed size of 40px:
+
+```jsx
+<ColorSelector
+  color="#e25454"
+  fixedSize='40px'
+  onClick={() => alert('40px')}
+/>
+```
+
 As part of a group:
 
 ```jsx

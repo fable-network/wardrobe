@@ -18,10 +18,13 @@
       display: inline-block;
       vertical-align: middle;
       overflow: hidden;
-      padding: 1em;
       transition: all .3s ease;
       background-repeat: no-repeat;
       background-position: 50% 50%;
+
+      &--size--dynamic {
+        padding: .75em;
+      }
     }
 
     &:hover,
