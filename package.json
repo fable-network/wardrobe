@@ -38,7 +38,8 @@
     "start": "styleguidist server",
     "build": "styleguidist build",
     "test": "NODE_ENV=test jest --no-cache",
-    "snapshots": "jest --updateSnapshot"
+    "snapshots": "jest --updateSnapshot",
+    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
     "prettier": "1.13.7"
