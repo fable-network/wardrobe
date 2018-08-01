@@ -1,0 +1,735 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector Component snapshots should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#e25454"
+    disableInteraction={true}
+    selected={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+          selected={false}
+          style={
+            Object {
+              "backgroundColor": "#e25454",
+            }
+          }
+        />,
+        undefined,
+      ],
+      "className": "ft--colorSelector ft--colorSelector--state--noInteraction",
+      "onClick": null,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+          "selected": false,
+          "style": Object {
+            "backgroundColor": "#e25454",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      undefined,
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+            selected={false}
+            style={
+              Object {
+                "backgroundColor": "#e25454",
+              }
+            }
+          />,
+          undefined,
+        ],
+        "className": "ft--colorSelector ft--colorSelector--state--noInteraction",
+        "onClick": null,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+            "selected": false,
+            "style": Object {
+              "backgroundColor": "#e25454",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        undefined,
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`ColorSelector Component snapshots should match snapshot 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#5F9DC7"
+    disableInteraction={false}
+    onClick={[Function]}
+    selected={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+          selected={false}
+          style={
+            Object {
+              "backgroundColor": "#5F9DC7",
+            }
+          }
+        />,
+        undefined,
+      ],
+      "className": "ft--colorSelector ft--colorSelector--cursor--pointer",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+          "selected": false,
+          "style": Object {
+            "backgroundColor": "#5F9DC7",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      undefined,
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+            selected={false}
+            style={
+              Object {
+                "backgroundColor": "#5F9DC7",
+              }
+            }
+          />,
+          undefined,
+        ],
+        "className": "ft--colorSelector ft--colorSelector--cursor--pointer",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+            "selected": false,
+            "style": Object {
+              "backgroundColor": "#5F9DC7",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        undefined,
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`ColorSelector Component snapshots should match snapshot 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#FFF"
+    disableInteraction={false}
+    patternImage="src/static/images/patternImage.jpg"
+    selected={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+          selected={false}
+          style={
+            Object {
+              "backgroundImage": "url(src/static/images/patternImage.jpg)",
+            }
+          }
+        />,
+        undefined,
+      ],
+      "className": "ft--colorSelector",
+      "onClick": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+          "selected": false,
+          "style": Object {
+            "backgroundImage": "url(src/static/images/patternImage.jpg)",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      undefined,
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+            selected={false}
+            style={
+              Object {
+                "backgroundImage": "url(src/static/images/patternImage.jpg)",
+              }
+            }
+          />,
+          undefined,
+        ],
+        "className": "ft--colorSelector",
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+            "selected": false,
+            "style": Object {
+              "backgroundImage": "url(src/static/images/patternImage.jpg)",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        undefined,
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`ColorSelector Component snapshots should match snapshot 4`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#aecc76"
+    disableInteraction={false}
+    selected={false}
+    text="Lime green"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+          selected={false}
+          style={
+            Object {
+              "backgroundColor": "#aecc76",
+            }
+          }
+        />,
+        <span
+          className="ft--colorSelector--text"
+        >
+          Lime green
+        </span>,
+      ],
+      "className": "ft--colorSelector",
+      "onClick": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+          "selected": false,
+          "style": Object {
+            "backgroundColor": "#aecc76",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lime green",
+          "className": "ft--colorSelector--text",
+        },
+        "ref": null,
+        "rendered": "Lime green",
+        "type": "span",
+      },
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+            selected={false}
+            style={
+              Object {
+                "backgroundColor": "#aecc76",
+              }
+            }
+          />,
+          <span
+            className="ft--colorSelector--text"
+          >
+            Lime green
+          </span>,
+        ],
+        "className": "ft--colorSelector",
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+            "selected": false,
+            "style": Object {
+              "backgroundColor": "#aecc76",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lime green",
+            "className": "ft--colorSelector--text",
+          },
+          "ref": null,
+          "rendered": "Lime green",
+          "type": "span",
+        },
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`ColorSelector Component snapshots should match snapshot 5`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#aecc76"
+    disableInteraction={false}
+    selected={true}
+    text="Lime green"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+          selected={true}
+          style={
+            Object {
+              "backgroundColor": "#aecc76",
+            }
+          }
+        />,
+        <span
+          className="ft--colorSelector--text ft--colorSelector--text--state--selected"
+        >
+          Lime green
+        </span>,
+      ],
+      "className": "ft--colorSelector ft--colorSelector--state--selected",
+      "onClick": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+          "selected": true,
+          "style": Object {
+            "backgroundColor": "#aecc76",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lime green",
+          "className": "ft--colorSelector--text ft--colorSelector--text--state--selected",
+        },
+        "ref": null,
+        "rendered": "Lime green",
+        "type": "span",
+      },
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic"
+            selected={true}
+            style={
+              Object {
+                "backgroundColor": "#aecc76",
+              }
+            }
+          />,
+          <span
+            className="ft--colorSelector--text ft--colorSelector--text--state--selected"
+          >
+            Lime green
+          </span>,
+        ],
+        "className": "ft--colorSelector ft--colorSelector--state--selected",
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
+            "selected": true,
+            "style": Object {
+              "backgroundColor": "#aecc76",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lime green",
+            "className": "ft--colorSelector--text ft--colorSelector--text--state--selected",
+          },
+          "ref": null,
+          "rendered": "Lime green",
+          "type": "span",
+        },
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`ColorSelector Component snapshots should match snapshot 6`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ColorSelector
+    color="#e25454"
+    disableInteraction={false}
+    fixedSize="40px"
+    onClick={[Function]}
+    selected={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="ft--colorSelector--colorCircle"
+          selected={false}
+          style={
+            Object {
+              "backgroundColor": "#e25454",
+              "height": "40px",
+              "width": "40px",
+            }
+          }
+        />,
+        undefined,
+      ],
+      "className": "ft--colorSelector ft--colorSelector--cursor--pointer",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "ft--colorSelector--colorCircle",
+          "selected": false,
+          "style": Object {
+            "backgroundColor": "#e25454",
+            "height": "40px",
+            "width": "40px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      undefined,
+    ],
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="ft--colorSelector--colorCircle"
+            selected={false}
+            style={
+              Object {
+                "backgroundColor": "#e25454",
+                "height": "40px",
+                "width": "40px",
+              }
+            }
+          />,
+          undefined,
+        ],
+        "className": "ft--colorSelector ft--colorSelector--cursor--pointer",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "ft--colorSelector--colorCircle",
+            "selected": false,
+            "style": Object {
+              "backgroundColor": "#e25454",
+              "height": "40px",
+              "width": "40px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        undefined,
+      ],
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
