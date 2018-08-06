@@ -8,14 +8,14 @@ FashionTrade Component Library.
 * `npm start` (Uses [Styleguidist](https://github.com/styleguidist/react-styleguidist))
 
 ## Workflow & conventions
-#### To create a new component 
+#### Creating a new component:
 1. Create a folder with component name in `src/components` following the current naming conventions.
-2. Create the component JS file with the same name as the folder name `.js`
-3. Create the component styles file with the same name as the folder `.scss`
-4. Create the markdown file with the same name as the folder `.md`
+2. Create the component JS file with the same name as the folder name `.js`.
+3. Create the component styles file with the same name as the folder `.scss` (following [BEM](http://getbem.com/) conventions).
+4. Create the markdown file with the same name as the folder `.md`.
 5. Inside the markdown file (Built with [Styleguidist](https://github.com/styleguidist/react-styleguidist))) create all possible states of the component, to illustrate how it is used and how it looks with different prop values.
 
-#### Generating Tests
+#### Generating Tests:
 After you have created your component and ensured that it looks good in the styleguide. run the follwing command
 ```sh
 npm run generate-tests
