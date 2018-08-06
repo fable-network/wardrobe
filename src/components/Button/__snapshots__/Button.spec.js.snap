@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component snapshots should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="primary"
+    disabled={false}
+    size="normal"
+    type="button"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Push Me",
+      "className": "ft--btn ft--btn--primary",
+      "disabled": false,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Push Me",
+        "className": "ft--btn ft--btn--primary",
+        "disabled": false,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="primary"
+    disabled={true}
+    size="normal"
+    type="button"
+  >
+    Don't Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Don't Push Me",
+      "className": "ft--btn ft--btn--primary",
+      "disabled": true,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "Don't Push Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Don't Push Me",
+        "className": "ft--btn ft--btn--primary",
+        "disabled": true,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "Don't Push Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="secondary"
+    disabled={false}
+    size="normal"
+    type="button"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Push Me",
+      "className": "ft--btn ft--btn--secondary",
+      "disabled": false,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Push Me",
+        "className": "ft--btn ft--btn--secondary",
+        "disabled": false,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 4`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="secondary"
+    disabled={true}
+    size="normal"
+    type="button"
+  >
+    Don't Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Don't Push Me",
+      "className": "ft--btn ft--btn--secondary",
+      "disabled": true,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "Don't Push Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Don't Push Me",
+        "className": "ft--btn ft--btn--secondary",
+        "disabled": true,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "Don't Push Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 5`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="secondary"
+    disabled={false}
+    size="small"
+    type="button"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Push Me",
+      "className": "ft--btn ft--btn--sm ft--btn--secondary",
+      "disabled": false,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Push Me",
+        "className": "ft--btn ft--btn--sm ft--btn--secondary",
+        "disabled": false,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -85,3 +85,4 @@ As part of a group:
     text="Pattern image"
   />
 </div>
+```
