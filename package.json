@@ -1,6 +1,7 @@
 {
   "name": "wardrobe",
   "description": "FashionTrade Component Library",
+  "main": "./src/index.js",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://github.com/fashiontrade/wardrobe",
