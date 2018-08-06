@@ -5,6 +5,7 @@
     "stage-0"
   ],
   "plugins": [
-    "babel-plugin-styled-components"
+    "babel-plugin-styled-components",
+    "transform-es2015-modules-commonjs"
   ]
 }
