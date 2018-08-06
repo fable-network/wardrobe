@@ -1,10 +1,15 @@
 const fs = require('fs');
+const { join } = require('path');
+const COMPONENTS_PATH = './src/components';
 
-const componentNames = [
-  'Badge',
-  'Button',
-  'ColorSelector'
-];
+const isDirectory = name => fs.lstatSync(`${COMPONENTS_PATH}/${name}`).isDirectory();
+// Place any folders inside `/src/compoentns' you want to be excluded from test generation here.
+// e.g const excludedFolders = ['Badge']; will exclude the Badge component.
+const excludedFolders = [];
+const notExcluded = name => excludedFolders.indexOf(name) === -1;
+const componentNames = fs.readdirSync(COMPONENTS_PATH).map(name => name)
+  .filter(isDirectory)
+  .filter(notExcluded);
 
 const boilerPlate = `// This file was automatically generated
 import React from 'react';
@@ -22,7 +27,7 @@ describe('~COMPONENT_NAME~ Component', () => {
 
 const writeTests = (tests) => {
   tests.forEach(test => {
-    const path = `./src/components/${test.name}/${test.name}.spec.js`;
+    const path = `${COMPONENTS_PATH}/${test.name}/${test.name}.spec.js`;
       fs.writeFile(path, test.code, (err) => {
       if (err) throw err;
       console.log(`Writing file to src/component/${test.name}/${test.name}.spec.js`);
