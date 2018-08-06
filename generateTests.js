@@ -57,6 +57,8 @@ const readMarkdownFile = (fileName, callBack) => {
 };
 
 const getMatchingComponents = (file, componentName) => {
+  // To check which components will match the regex use this link https://regex101.com/r/7BlXLf/2
+  // and replace 'Badge' with your component name.
   const regexString =  `\`\`\`jsx\\n<${componentName}[\\s\\S]+?(\\/>|<\\/${componentName}>)`;
   // ```jsx\n (starts matching when it finds a code block that begins with this string)
   // <${componentName} (Ensures that the string begins with the component we are currently on)
