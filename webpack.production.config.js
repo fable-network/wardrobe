@@ -13,13 +13,15 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: path.join(__dirname, 'src'),
-        exclude: /node_modules/,
+        exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
+        options: {
+          presets: ['babel-preset-env', 'babel-preset-react']
+        }
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader?modules&importLoaders=1',
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.scss$/,
@@ -34,7 +36,7 @@ module.exports = {
             loader: "sass-loader" // compiles Sass to CSS
           }
         ]
-      },
-    ],
+      }
+    ]
   }
 };
