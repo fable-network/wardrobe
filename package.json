@@ -43,8 +43,7 @@
     "build": "NODE_ENV=production webpack --config webpack.production.config.js && styleguidist build",
     "test": "NODE_ENV=test jest --no-cache",
     "snapshots": "jest --updateSnapshot",
-    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest",
-    "install": "npm run build"
+    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
     "babel-plugin-transform-export-extensions": "^6.22.0",
