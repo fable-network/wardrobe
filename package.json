@@ -1,7 +1,6 @@
 {
   "name": "wardrobe",
   "description": "FashionTrade Component Library",
-  "main": "./build/lib/index.js",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://github.com/fashiontrade/wardrobe",
@@ -40,7 +39,7 @@
   },
   "scripts": {
     "start": "styleguidist server",
-    "build": "NODE_ENV=production webpack --config webpack.production.config.js && styleguidist build",
+    "build": "styleguidist build",
     "test": "NODE_ENV=test jest --no-cache",
     "snapshots": "jest --updateSnapshot",
     "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"

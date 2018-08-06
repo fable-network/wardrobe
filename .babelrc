@@ -5,9 +5,6 @@
     "stage-0",
   ],
   "plugins": [
-    "babel-plugin-styled-components",
-    "transform-runtime",
-    "transform-es2015-modules-commonjs",
-    "transform-export-extensions"
+    "babel-plugin-styled-components"
   ]
 }
