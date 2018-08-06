@@ -46,6 +46,7 @@
     "install": "npm run build"
   },
   "devDependencies": {
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "prettier": "1.13.7"
   },
   "jest": {
