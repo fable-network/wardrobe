@@ -1,23 +1,10 @@
 const path = require('path');
-const fs = require('fs');
-const COMPONENTS_PATH = './src/components';
-
-const isDirectory = name => fs.lstatSync(`${COMPONENTS_PATH}/${name}`).isDirectory();
-
-// Gets all directories in the components folder, and creates entry points for them.
-const getEntryPoints = () => {
-  const componentNames = fs.readdirSync(COMPONENTS_PATH).filter(isDirectory);
-  return componentNames.reduce((result, name) => {
-    result[name] = path.resolve(__dirname, `${COMPONENTS_PATH}/index.js`);
-    return result;
-  }, {});
-}
 
 module.exports = {
-  entry: getEntryPoints(),
+  entry: path.resolve(__dirname, 'src/components/index.js'),
   output: {
-    path: path.resolve(__dirname, './dist/components'),
-    filename: '[name].js',
+    path: path.resolve(__dirname, './dist'),
+    filename: 'index.js',
     library: 'wardrobe',
     libraryTarget: 'commonjs2'
   },

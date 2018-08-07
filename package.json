@@ -1,7 +1,7 @@
 {
   "name": "ft-wardrobe",
   "description": "FashionTrade Component Library",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "files": [
     "dist"
@@ -20,11 +20,11 @@
   },
   "scripts": {
     "start": "styleguidist server",
-    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js && node build.js",
+    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
     "prepublish": "rm -rf ./dist && npm run test && npm run build",
     "test": "NODE_ENV=test jest --no-cache",
     "snapshots": "jest --updateSnapshot",
-    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
+    "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
