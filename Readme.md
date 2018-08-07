@@ -14,6 +14,7 @@ FashionTrade Component Library.
 3. Create the component styles file with the same name as the folder `.scss` (following [BEM](http://getbem.com/) conventions).
 4. Create the markdown file with the same name as the folder `.md`.
 5. Inside the markdown file (Built with [Styleguidist](https://github.com/styleguidist/react-styleguidist))) create all possible states of the component, to illustrate how it is used and how it looks with different prop values.
+6. Finally export your component in `src/components/index.js` to be bundled with the build.
 
 #### Generating Tests:
 After you have created your component and ensured that it looks good in the styleguide. run the follwing command
