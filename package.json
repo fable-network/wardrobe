@@ -1,13 +1,17 @@
 {
-  "name": "wardrobe",
+  "name": "ft-wardrobe",
   "description": "FashionTrade Component Library",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.5",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/fashiontrade/wardrobe",
   "repository": {
     "type": "git",
     "url": "https://github.com/fashiontrade/wardrobe.git"
   },
+
   "license": "MIT",
   "engines": {
     "node": ">=4"
@@ -39,7 +43,8 @@
   },
   "scripts": {
     "start": "styleguidist server",
-    "build": "webpack --mode=production --config webpack.production.config.js",
+    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
+    "prepublish": "rm -rf ./dist && npm run test && npm run build",
     "test": "NODE_ENV=test jest --no-cache",
     "snapshots": "jest --updateSnapshot",
     "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
