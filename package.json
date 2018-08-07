@@ -1,8 +1,11 @@
 {
-  "name": "wardrobe",
+  "name": "ft-wardrobe",
   "description": "FashionTrade Component Library",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.1.1",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/fashiontrade/wardrobe",
   "repository": {
     "type": "git",
@@ -12,7 +15,17 @@
   "engines": {
     "node": ">=4"
   },
-  "dependencies": {
+  "dependencies": {},
+  "scripts": {
+    "start": "styleguidist server",
+    "build-styleguidist": "styleguidist build",
+    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
+    "prepublish": "rm -rf ./dist && npm run test && npm run build",
+    "test": "NODE_ENV=test jest --no-cache",
+    "snapshots": "jest --updateSnapshot",
+    "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-jest": "^23.4.2",
     "babel-loader": "^7.1.4",
@@ -28,25 +41,16 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^23.4.2",
     "node-sass": "^4.9.2",
+    "prettier": "1.13.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-styleguidist": "^7.1.3",
     "sass-loader": "^7.0.3",
     "styled-components": "^3.3.3",
-    "webpack": "^3.4.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
     "webpack-node-externals": "^1.7.2"
-  },
-  "scripts": {
-    "start": "styleguidist server",
-    "build": "styleguidist build",
-    "test": "NODE_ENV=test jest --no-cache",
-    "snapshots": "jest --updateSnapshot",
-    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-export-extensions": "^6.22.0",
-    "prettier": "1.13.7"
   },
   "jest": {
     "globals": {
