@@ -22,12 +22,11 @@
   "dependencies": {},
   "scripts": {
     "start": "styleguidist server",
-    "build-styleguidist": "styleguidist build",
-    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
     "prepublishOnly": "rm -rf ./dist && npm run test && npm run build",
-    "test": "NODE_ENV=test jest --no-cache",
     "lint": "eslint src scripts tools",
-    "snapshots": "jest --updateSnapshot",
+    "test": "NODE_ENV=test jest --no-cache",
+    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js && styleguidist build",
+    "update-snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
