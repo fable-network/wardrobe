@@ -43,13 +43,13 @@ const ColorSelector = (props) => {
       {text && <span className={textClasses}>{text}</span>}
     </span>
   );
-}
+};
 
 ColorSelector.defaultProps = {
   color: '#FFF',
   selected: false,
   disableInteraction: false
-}
+};
 
 ColorSelector.propTypes = {
   color: PropTypes.string,

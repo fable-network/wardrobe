@@ -15,18 +15,24 @@
   "engines": {
     "node": ">=4"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "dependencies": {},
   "scripts": {
     "start": "styleguidist server",
     "build-styleguidist": "styleguidist build",
     "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
-    "prepublish": "rm -rf ./dist && npm run test && npm run build",
+    "prepublishOnly": "rm -rf ./dist && npm run test && npm run build",
     "test": "NODE_ENV=test jest --no-cache",
+    "lint": "eslint src scripts tools",
     "snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
     "babel-jest": "^23.4.2",
     "babel-loader": "^7.1.4",
     "babel-plugin-styled-components": "^1.5.1",
@@ -39,8 +45,16 @@
     "downshift": "^2.0.16",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-mocha-no-only": "^1.0.0",
+    "eslint-plugin-react": "^7.10.0",
     "jest": "^23.4.2",
     "node-sass": "^4.9.2",
+    "pre-commit": "^1.2.2",
     "prettier": "1.13.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",

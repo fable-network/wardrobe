@@ -3,7 +3,7 @@
 // Try not to use nested variables. The name of the key should indicate what kind of item it is.
 // Using props.theme.skyBlue is a bit nicer then props.theme.colors.skyBlue
 
-const fonts = {};
+// const fonts = {};
 
 const colors = {
   ravenBlack: '#313233',
