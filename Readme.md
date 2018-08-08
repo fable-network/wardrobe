@@ -23,7 +23,7 @@ After you have created your component and ensured that it looks good in the styl
 ```sh
 npm run generate-tests
 ```
-This runs the script found in [generateTests.js](generateTests.js). which will generate snapshots tests found in `src/components/ComponentName/ComponentName.spec.js`. **with some conditions:**
+This runs the script found in [scripts/generateTests.js](scripts/generateTests.js). which will generate snapshots tests found in `src/components/ComponentName/ComponentName.spec.js`. **with some conditions:**
 
 **Only single components in a code block will be captured (that means that siblings will be ignored).**
 
