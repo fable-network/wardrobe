@@ -2,6 +2,8 @@
 
 FashionTrade Component Library.
 
+[Components styleguide](http://wardrobe.fashiontrade.com)
+
 
 ## How to run
 * `npm install`
