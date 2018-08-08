@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
-    library: 'wardrobe',
+    library: '',
     libraryTarget: 'commonjs2'
   },
   module: {
