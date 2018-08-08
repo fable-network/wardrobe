@@ -53,7 +53,7 @@ ColorSelector.defaultProps = {
 
 ColorSelector.propTypes = {
   color: PropTypes.string,
-  patternImage: PropTypes.string, //overrides color if available
+  patternImage: PropTypes.string, // overrides color if available
   onClick: PropTypes.func,
   disableInteraction: PropTypes.bool, // ignores click handler if true
   text: PropTypes.string,

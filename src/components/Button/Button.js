@@ -41,6 +41,7 @@ Button.defaultProps = {
   disabled: false,
   appearance: 'secondary',
   type: 'button',
+  className: ''
 };
 
 /** @component */

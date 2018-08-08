@@ -76,7 +76,10 @@ const getMatchingComponents = (file, componentName) => {
 
 const generateTests = () => {
   const tests = [];
-  const progress = componentNames.reduce((acc, name) => acc[name] = false, {});
+  const progress = componentNames.reduce((acc, name) => {
+    acc[name] = false;
+    return acc;
+  }, {});
   componentNames.forEach(name => {
     readMarkdownFile(name, (file) => {
       const components = getMatchingComponents(file, name);

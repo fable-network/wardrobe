@@ -10,7 +10,7 @@ class ThemeWrapper extends PureComponent {
 }
 
 ThemeWrapper.propTypes = {
-  children: PropTypes.any
+  children: PropTypes.node
 };
 
 export default ThemeWrapper;

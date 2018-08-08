@@ -1,1 +1,1 @@
-export default from './ColorSelector.js';
+export default from './ColorSelector';

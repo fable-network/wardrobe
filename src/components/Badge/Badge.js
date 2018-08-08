@@ -18,6 +18,12 @@ const Badge = ({ appearance, children, animated }) => {
   );
 };
 
+Badge.defaultProps = {
+  appearance: 'primary',
+  children: null,
+  animated: false
+};
+
 Badge.propTypes = {
   appearance: PropTypes.oneOf([
     'primary',
