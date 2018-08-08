@@ -45,7 +45,12 @@ const injectSnapshotCode = (code, componentName) =>
 
 // removes the extra characters from the matched strings (jsx & ```).
 const cleanComponentCode = (code) =>
-  code.map(component => component.replace(/```/g, '').replace(/jsx/g, ''));
+  code.map(component =>
+    component
+      .replace(/```/g, '') // remove all occurences of the string "```".
+      .replace(/jsx/g, '') // remove all occurences of the string "jsx".
+      .replace(/\s\s+/g, ' ') // replace double spaces with single space.
+      .replace(/\n/g, '')); // remove all line breaks.
 
 const readMarkdownFile = (fileName, callBack) => {
   fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
@@ -86,7 +91,7 @@ const generateTests = () => {
       const components = getMatchingComponents(file, name);
       const snapshotCode = components.map((component, i) => (
         `
-      const wrapper${i + 1} = shallow(${component.replace(/\n/g, '')});
+      const wrapper${i + 1} = shallow(${component});
       expect(wrapper${i + 1}).toMatchSnapshot();
         `
       )).join('');
