@@ -18,8 +18,7 @@
   "dependencies": {},
   "scripts": {
     "start": "styleguidist server",
-    "build-styleguidist": "styleguidist build",
-    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js",
+    "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js && styleguidist build",
     "prepublish": "rm -rf ./dist && npm run test && npm run build",
     "test": "NODE_ENV=test jest --no-cache",
     "snapshots": "jest --updateSnapshot",
