@@ -62,6 +62,7 @@ const getMatchingComponents = (file, componentName) => {
   // To check which components will match the regex use this link https://regex101.com/r/7BlXLf/2
   // and replace 'Badge' with your component name.
   const regexString = `\`\`\`jsx\\n<${componentName}[\\s\\S]+?(\\/>|<\\/${componentName}>)`;
+  // Result regex is ```jsx\n<Button[\s\S]+?(\/>|<\/Button>)
   // ```jsx\n (starts matching when it finds a code block that begins with this string)
   // <${componentName} (Ensures that the string begins with the component we are currently on)
   // [\s\S]+? (matches any white space character as few times as possible)
