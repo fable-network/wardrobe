@@ -15,13 +15,16 @@
   "engines": {
     "node": ">=4"
   },
+  "pre-commit": [
+    "test"
+  ],
   "dependencies": {},
   "scripts": {
     "start": "styleguidist server",
     "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js && styleguidist build",
     "prepublish": "rm -rf ./dist && npm run test && npm run build",
     "test": "NODE_ENV=test jest --no-cache",
-    "snapshots": "jest --updateSnapshot",
+    "update-snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
@@ -40,6 +43,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^23.4.2",
     "node-sass": "^4.9.2",
+    "pre-commit": "^1.2.2",
     "prettier": "1.13.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
