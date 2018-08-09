@@ -12,6 +12,13 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "grunt && styleguidist build",
+    "test": "NODE_ENV=test jest --no-cache",
+    "snapshots": "jest --updateSnapshot",
+    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-jest": "^23.4.2",
@@ -38,13 +45,6 @@
     "url-loader": "^1.0.1",
     "webpack": "^3.4.1",
     "webpack-node-externals": "^1.7.2"
-  },
-  "scripts": {
-    "start": "styleguidist server",
-    "build": "styleguidist build",
-    "test": "NODE_ENV=test jest --no-cache",
-    "snapshots": "jest --updateSnapshot",
-    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
   },
   "devDependencies": {
     "babel-plugin-transform-export-extensions": "^6.22.0",
