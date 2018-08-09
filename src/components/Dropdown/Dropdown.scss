@@ -1,0 +1,35 @@
+//
+// Dropdown
+//
+@import '../../globals/scss/colors';
+@import '../../globals/scss/typography';
+@import '../../globals/scss/variables';
+@import '../../globals/scss/import-once';
+
+// Import this only once
+@include exports('dropdown') {
+  .#{$prefix}--dropdown {
+
+    &__button {
+      display: inline-block;
+      background-color: #ffffff;
+      border: solid 1px #9b9b9b;
+      font-family: inherit;
+      font-size: 16px;
+      line-height: 1;
+      color: #313233;
+      padding: 6px 10px;
+
+      > .ft-icon {
+        margin-left: 0.4em;
+        transition-duration: 100ms;
+
+        // Rotate if dropdown is open
+        .#{$prefix}--dropdown--is-open & {
+          transform: rotateX(-180deg);
+          transition: all .15s ease-in-out;
+        }
+      }
+    }
+  }
+}

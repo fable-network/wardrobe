@@ -5,6 +5,7 @@ module.exports = {
   defaultExample: true,
   pagePerSection: true,
   skipComponentsWithoutExample: true,
+  assetsDir: 'src/static',
 
   sections: [
     { name: 'Components', components: 'src/components/**/*.js' },
@@ -44,6 +45,10 @@ module.exports = {
         {
           test: /\.css$/,
           loader: 'style-loader!css-loader?modules&importLoaders=1',
+        },
+        {
+          test: /\.svg$/,
+          loader: 'svg-inline-loader'
         },
         {
           test: /\.scss$/,
