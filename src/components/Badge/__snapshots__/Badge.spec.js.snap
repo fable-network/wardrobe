@@ -4,6 +4,7 @@ exports[`Badge Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Badge
+    animated={false}
     appearance="primary"
   >
     9
@@ -63,6 +64,7 @@ exports[`Badge Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Badge
+    animated={false}
     appearance="danger"
   >
     9
