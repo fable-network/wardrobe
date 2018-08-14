@@ -13,7 +13,7 @@ FashionTrade Component Library.
 #### Creating a new component:
 **Using the script**
 
-`node generate-component --name <ComponentName>`
+`node scripts/generateComponent.js --name <ComponentName>`
 
 OR
 
