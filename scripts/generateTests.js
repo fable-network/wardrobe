@@ -55,7 +55,7 @@ const cleanComponentCode = (code) =>
 const readMarkdownFile = (fileName, callBack) => {
   fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
     if (err) {
-      throw (err);
+      console.log(`Could not find markdown file for ${fileName}`);
     } else {
       const file = out.toString();
       callBack(file);
@@ -75,10 +75,18 @@ const getMatchingComponents = (file, componentName) => {
 
   const regex = new RegExp(regexString, 'g');
   const matches = file.match(regex);
+  if (!matches) {
+    return null;
+  }
   const components = cleanComponentCode(matches);
 
   return components;
 };
+
+const getSnapshotCode = (component, index) => `
+      const wrapper${index + 1} = shallow(${component});
+      expect(wrapper${index + 1}).toMatchSnapshot();
+`;
 
 const generateTests = () => {
   const tests = [];
@@ -89,15 +97,14 @@ const generateTests = () => {
   componentNames.forEach(name => {
     readMarkdownFile(name, (file) => {
       const components = getMatchingComponents(file, name);
-      const snapshotCode = components.map((component, i) => (
-        `
-      const wrapper${i + 1} = shallow(${component});
-      expect(wrapper${i + 1}).toMatchSnapshot();
-        `
-      )).join('');
+      if (components && components.length) {
+        const snapshotCode = components.map(getSnapshotCode).join('');
 
-      const result = injectSnapshotCode(snapshotCode, name);
-      tests.push({ name, code: result });
+        const result = injectSnapshotCode(snapshotCode, name);
+        tests.push({ name, code: result });
+      } else {
+        console.log(`No matching components found for ${name}`);
+      }
 
       progress[name] = true;
       if (finishedGeneration(progress)) {
