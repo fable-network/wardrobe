@@ -11,6 +11,16 @@ FashionTrade Component Library.
 
 ## Workflow & conventions
 #### Creating a new component:
+**Using the script**
+
+`node generate-component --name <ComponentName>`
+
+OR
+
+`npm run generate-component -- --name <ComponentName>`
+
+This runs the script found in [scripts/generateComponent.js](scripts/generateComponent.js). which will create all the files listed below.
+
 1. Create a folder with component name in `src/components` following the current naming conventions.
 2. Create the component JS file with the same name as the folder name `.js`.
 3. Create the component styles file with the same name as the folder `.scss` (following [BEM](http://getbem.com/) conventions).
