@@ -15,12 +15,18 @@ module.exports = {
   // Global component style guide styling
   components: 'src/components/**/*.js',
   styles: {
+    Playground: {
+      preview: {
+        overflow: 'hidden',
+        resize: 'horizontal',
+      },
+    },
     StyleGuide: {
       '@global body': {
         fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
         fontSize: '16px',
-      }
-    }
+      },
+    },
   },
 
   getComponentPathLine(componentPath) {
@@ -48,21 +54,21 @@ module.exports = {
         },
         {
           test: /\.svg$/,
-          loader: 'svg-inline-loader'
+          loader: 'svg-inline-loader',
         },
         {
           test: /\.scss$/,
           use: [
             {
-              loader: "style-loader" // creates style nodes from JS strings
+              loader: 'style-loader', // creates style nodes from JS strings
             },
             {
-              loader: "css-loader" // translates CSS into CommonJS
+              loader: 'css-loader', // translates CSS into CommonJS
             },
             {
-              loader: "sass-loader" // compiles Sass to CSS
-            }
-          ]
+              loader: 'sass-loader', // compiles Sass to CSS
+            },
+          ],
         },
       ],
     },
@@ -70,9 +76,9 @@ module.exports = {
       modules: [
         path.join(__dirname, 'src'),
         path.join(__dirname, 'src/components'),
-        'node_modules'
+        'node_modules',
       ],
       extensions: ['.js', '.scss'],
-    }
-  }
+    },
+  },
 };
