@@ -29,7 +29,7 @@ describe('~COMPONENT_NAME~ Component', () => {
 
 const writeTests = (tests) => {
   tests.forEach(test => {
-    const path = `${COMPONENTS_PATH}/${test.name}/${test.name}.spec.js`;
+    const path = `${COMPONENTS_PATH}/${test.name}/${test.name}_snapshot.spec.js`;
     fs.writeFile(path, test.code, (err) => {
       if (err) throw err;
       console.log(`Writing file to src/component/${test.name}/${test.name}.spec.js`);
