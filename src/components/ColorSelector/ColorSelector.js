@@ -43,17 +43,17 @@ const ColorSelector = (props) => {
       {text && <span className={textClasses}>{text}</span>}
     </span>
   );
-}
+};
 
 ColorSelector.defaultProps = {
   color: '#FFF',
   selected: false,
   disableInteraction: false
-}
+};
 
 ColorSelector.propTypes = {
   color: PropTypes.string,
-  patternImage: PropTypes.string, //overrides color if available
+  patternImage: PropTypes.string, // overrides color if available
   onClick: PropTypes.func,
   disableInteraction: PropTypes.bool, // ignores click handler if true
   text: PropTypes.string,

@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import './Badge.scss';
 
-const Badge = ({ appearance, children, animated, theme }) => {
+const Badge = ({ appearance, children, animated }) => {
   const classes = classNames({
     'ft--badge': true,
     [`ft--badge--${appearance}`]: true,
@@ -16,6 +16,12 @@ const Badge = ({ appearance, children, animated, theme }) => {
       {children}
     </span>
   );
+};
+
+Badge.defaultProps = {
+  appearance: 'primary',
+  children: null,
+  animated: false
 };
 
 Badge.propTypes = {

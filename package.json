@@ -1,8 +1,11 @@
 {
-  "name": "wardrobe",
+  "name": "@fashiontrade/wardrobe",
   "description": "FashionTrade Component Library",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.2.0",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/fashiontrade/wardrobe",
   "repository": {
     "type": "git",
@@ -12,15 +15,24 @@
   "engines": {
     "node": ">=4"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {},
   "scripts": {
     "start": "styleguidist server",
-    "build": "grunt && styleguidist build",
+    "prepublishOnly": "rm -rf ./dist && npm run test && npm run build",
+    "lint": "eslint src scripts tools",
     "test": "NODE_ENV=test jest --no-cache",
-    "snapshots": "jest --updateSnapshot",
-    "generate-tests": "node generateTests.js && jest --updateSnapshot && jest"
+    "build": "rm -rf ./dist && grunt && webpack --mode=production --config webpack.production.config.js && styleguidist build",
+    "update-snapshots": "jest --updateSnapshot",
+    "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest",
+    "generate-component": "node scripts/generateComponent.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
     "babel-jest": "^23.4.2",
     "babel-loader": "^7.1.4",
     "babel-plugin-styled-components": "^1.5.1",
@@ -33,8 +45,22 @@
     "downshift": "^2.0.16",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-mocha-no-only": "^1.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-svgmin": "^5.0.0",
+    "grunt-svgstore": "^1.0.0",
     "jest": "^23.4.2",
     "node-sass": "^4.9.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "1.13.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -43,17 +69,9 @@
     "styled-components": "^3.4.2",
     "svg-inline-loader": "^0.8.0",
     "url-loader": "^1.0.1",
-    "webpack": "^3.4.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
     "webpack-node-externals": "^1.7.2"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-export-extensions": "^6.22.0",
-    "grunt": "^1.0.3",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-svgmin": "^5.0.0",
-    "grunt-svgstore": "^1.0.0",
-    "prettier": "1.13.7"
   },
   "jest": {
     "globals": {

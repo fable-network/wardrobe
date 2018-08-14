@@ -1,3 +1,4 @@
+/* eslint-disable */
 // This file was automatically generated
 import React from 'react';
 import { shallow } from 'enzyme';
