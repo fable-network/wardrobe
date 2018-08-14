@@ -2,6 +2,7 @@
 .env
 /build
 /dist
+/grunt-temp
 npm-debug.log
 node_modules/
 Thumbs.db

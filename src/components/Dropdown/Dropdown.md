@@ -38,6 +38,16 @@ Dropdown selected.
 </Dropdown>
 ```
 
+Dropdown disabled.
+
+```jsx
+<Dropdown disabled>
+  <DropdownItem>
+      I'll never be seen
+    </DropdownItem>
+</Dropdown>
+```
+
 Dropdown panel is limited to 75% to the device height
 
 ```jsx

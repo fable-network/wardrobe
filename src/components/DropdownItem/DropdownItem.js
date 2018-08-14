@@ -19,7 +19,12 @@ const DropdownItem = ({ children, onClick }) => (
 
 DropdownItem.propTypes = {
   /** Label or other contents of the item */
-  children: PropTypes.any,
+  children: PropTypes.node,
+  onClick: PropTypes.func,
+};
+
+DropdownItem.defaultProps = {
+  onClick: () => null,
 };
 
 export default DropdownItem;

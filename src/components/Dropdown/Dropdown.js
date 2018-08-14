@@ -12,23 +12,24 @@ const Wrapper = styled.div`
 const DropdownButton = styled.button`
   display: inline-block;
   background-color: #ffffff;
-  border: solid 1px #9b9b9b;
+  border: solid 1px ${props => (props.disabled ? '#cdcdcd' : '#313233')};
   font-family: inherit;
   font-size: 16px;
   line-height: 1;
-  color: #313233;
+  color: ${props => (props.disabled ? '#cdcdcd' : '#313233')};
   padding: 8px 10px;
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'inherit')};
 `;
 
 const ToggleIcon = styled(Icon)`
-  margin-left: ${props => props.isSelected ? 11 : 6}px;
-  transform: rotateX(${props => props.open && props.animate ? '-180deg' : '0deg'});
+  margin-left: ${props => (props.selected ? 11 : 6)}px;
+  transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
 `;
 
 const DropdownPanel = styled.div`
-  position: absolute;
-  display: ${props => props.open ? 'block' : 'none'};
+  position: relative;
+  display: ${(props) => (props.open ? 'block' : 'none')};
   margin-top: 4px;
   background: white;
   border: solid 1px #9b9b9b;
@@ -49,6 +50,22 @@ class Dropdown extends Component {
     };
   }
 
+  getIcon = () => {
+    const { isSelected } = this.props;
+
+    return isSelected ? 'caret-selected' : 'caret-down';
+  };
+
+  getIconColor = () => {
+    const { disabled, isSelected } = this.props;
+
+    if (disabled) {
+      return '#cdcdcd';
+    }
+
+    return isSelected ? '#89ac52' : '#313233';
+  };
+
   showMenu = (event) => {
     event.preventDefault();
 
@@ -66,22 +83,18 @@ class Dropdown extends Component {
   };
 
   render() {
-    const { label, className, isSelected, children } = this.props;
+    const { label, className, disabled, isSelected, children } = this.props;
     const { showMenu } = this.state;
-
-    const icon = isSelected ? 'caret-selected' : 'caret-down';
-    const iconColor = isSelected ? '#89ac52' : '#313233';
 
     return (
       <Wrapper className={className}>
-        <DropdownButton onClick={this.showMenu}>
-          {label}
+        <DropdownButton onClick={this.showMenu} disabled={disabled}>
+          {label || 'Select...'}
           <ToggleIcon
             open={showMenu}
-            animate={!isSelected}
-            isSelected={isSelected}
-            name={icon}
-            color={iconColor}
+            selected={isSelected}
+            name={this.getIcon()}
+            color={this.getIconColor()}
             width={isSelected ? 11 : 16}
             height={9}
           />
@@ -104,17 +117,16 @@ Dropdown.propTypes = {
   label: PropTypes.string,
   /** Custom class name */
   className: PropTypes.string,
+  /** Disable dropdown */
+  disabled: PropTypes.bool,
   /** Show checkmark instead of dropdown caret */
   isSelected: PropTypes.bool,
   /** Contents of the dropdown */
-  children: PropTypes.any,
+  children: PropTypes.node,
 };
 
 Dropdown.defaultProps = {
-  size: 'normal',
   disabled: false,
-  appearance: 'secondary',
-  type: 'button',
   isSelected: false,
 };
 export default Dropdown;

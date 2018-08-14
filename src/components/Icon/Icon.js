@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 /**
  * Uses a SVG sprite to show icons based on name
  */
-const Icon = ({ name, color, width, height, animate, ...otherProps }) => (
+const Icon = ({ name, color, width, height, ...otherProps }) => (
   <svg
     className="ft-icon"
     width={width}
@@ -29,8 +29,8 @@ Icon.propTypes = {
   /** Change height; SVG ratio will be preserved */
   height: PropTypes.oneOfType([
     PropTypes.string,
-    PropTypes.number],
-  ),
+    PropTypes.number,
+  ]),
 };
 
 Icon.defaultProps = {

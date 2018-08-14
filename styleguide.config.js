@@ -15,12 +15,6 @@ module.exports = {
   // Global component style guide styling
   components: 'src/components/**/*.js',
   styles: {
-    Playground: {
-      preview: {
-        overflow: 'hidden',
-        resize: 'horizontal',
-      },
-    },
     StyleGuide: {
       '@global body': {
         fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
