@@ -13,3 +13,4 @@ Thumbs.db
 package-lock.json
 yarn.lock
 styleguide/
+src/static/iconsprite-demo.html

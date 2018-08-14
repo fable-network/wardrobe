@@ -1,6 +1,7 @@
 **Default icon display**
 
-The fill color that was provided in the original SVG are removed during the build process so the inherit fill attribute is used (normally `#000`). 
+The fill color that was provided in the original SVG are removed during the build process so the 
+inherit fill attribute is used (normally `#000`). 
 
 ```jsx
 <Icon name="caret-down" />

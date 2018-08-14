@@ -58,7 +58,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-svgstore');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('svg-demo-page', ['svgstore:demo']);
+  grunt.registerTask('svg-demo-page', ['svgstore:demo', 'default']);
 
   grunt.registerTask('default', ['svgmin', 'svgstore:default', 'clean']);
 };
