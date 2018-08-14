@@ -1,17 +1,46 @@
+const tempDir = 'grunt-temp/';
+
 module.exports = function(grunt) {
   grunt.initConfig({
+    clean: {
+      src: [tempDir],
+    },
+    svgmin: {
+      options: {
+        plugins: [
+          {
+            removeComments: true,
+          },
+          {
+            removeAttrs: {
+              attrs: 'fill',
+            },
+          },
+        ],
+      },
+      default: {
+        files: [{
+          expand: true,
+          src: ['src/globals/icons/*.svg'],
+          flatten: true,
+          dest: tempDir,
+        }],
+      },
+    },
     svgstore: {
       options: {
         prefix: 'icon-', // This will prefix each ID
+        symbol: {
+          preserveAspectRatio: 'xMidYMid',
+        },
         formatting: {
           indent_size: 2,
           end_with_newline: true,
         },
-        emptyFills: true, // Remove fill colors so it can be set by the components.
       },
       default: {
         files: {
-          'src/static/iconsprite.svg': ['src/globals/icons/*.svg'],
+          'src/static/iconsprite.svg': [`${tempDir}*.svg`],
         },
       },
       demo: {
@@ -23,20 +52,13 @@ module.exports = function(grunt) {
         },
       },
     },
-    dom_munger: {
-      options: {
-        update: { selector: 'path', attribute: 'fill', value: 'inherit' },
-      },
-      files: {
-        src: 'src/static/iconsprite.svg',
-      },
-    },
   });
 
+  grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-svgstore');
-  grunt.loadNpmTasks('grunt-dom-munger');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('svg-demo-page', ['svgstore:demo']);
 
-  grunt.registerTask('default', ['svgstore:default', 'dom_munger']);
+  grunt.registerTask('default', ['svgmin', 'svgstore:default', 'clean']);
 };

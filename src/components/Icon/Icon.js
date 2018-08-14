@@ -4,8 +4,14 @@ import PropTypes from 'prop-types';
 /**
  * Uses a SVG sprite to show icons based on name
  */
-const Icon = ({ name, color, width, height, ...otherProps }) => (
-  <svg className="ft-icon" fill={color} width={width} height={height} {...otherProps}>
+const Icon = ({ name, color, width, height, animate, ...otherProps }) => (
+  <svg
+    className="ft-icon"
+    width={width}
+    height={height}
+    fill={color}
+    {...otherProps}
+  >
     <use xlinkHref={`/iconsprite.svg#icon-${name}`} />
   </svg>
 );
@@ -16,9 +22,15 @@ Icon.propTypes = {
   /** Color for the SVG `fill`  attributes */
   color: PropTypes.string,
   /** Change width; SVG ratio will be preserved */
-  width: PropTypes.string,
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
   /** Change height; SVG ratio will be preserved */
-  height: PropTypes.string,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number],
+  ),
 };
 
 Icon.defaultProps = {

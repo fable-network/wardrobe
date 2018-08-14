@@ -28,12 +28,23 @@ Dropdown panel will expand horizontally when content does not allow wrapping.
 </Dropdown>
 ```
 
+Dropdown selected.
+
+```jsx
+<Dropdown isSelected={true} label="Push Me">
+  <DropdownItem>
+      Check that checkmark
+    </DropdownItem>
+</Dropdown>
+```
+
 Dropdown panel is limited to 75% to the device height
 
 ```jsx
-const largeList = new Array(30);
-largeList.fill(<DropdownItem>Scrolling</DropdownItem>);
-
+const largeList = [];
+for (i=0; i<30; i++) {
+  largeList.push(<DropdownItem key={i}>Scrolling</DropdownItem>);
+}
 <Dropdown label="Push Me">
   {largeList}
 </Dropdown>

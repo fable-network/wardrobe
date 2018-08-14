@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import classNames from 'classnames';
 
 import Icon from '../Icon';
 
@@ -22,15 +21,14 @@ const DropdownButton = styled.button`
 `;
 
 const ToggleIcon = styled(Icon)`
-  margin-left: 0.4em;
-  transition-duration: 100ms;
-  vertical-align: middle;
-  transform: rotateX(${props => props.open ? '-180deg' : '0deg'});
-  transition: all .15s ease-in-out;
+  margin-left: ${props => props.isSelected ? 11 : 6}px;
+  transform: rotateX(${props => props.open && props.animate ? '-180deg' : '0deg'});
+  transition: transform 150ms ease-in-out;
 `;
 
 const DropdownPanel = styled.div`
   position: absolute;
+  display: ${props => props.open ? 'block' : 'none'};
   margin-top: 4px;
   background: white;
   border: solid 1px #9b9b9b;
@@ -68,25 +66,34 @@ class Dropdown extends Component {
   };
 
   render() {
-    const { label, className, children } = this.props;
+    const { label, className, isSelected, children } = this.props;
     const { showMenu } = this.state;
+
+    const icon = isSelected ? 'caret-selected' : 'caret-down';
+    const iconColor = isSelected ? '#89ac52' : '#313233';
 
     return (
       <Wrapper className={className}>
         <DropdownButton onClick={this.showMenu}>
           {label}
-          <ToggleIcon open={showMenu} name="caret-down" color="#9b9b9b" />
+          <ToggleIcon
+            open={showMenu}
+            animate={!isSelected}
+            isSelected={isSelected}
+            name={icon}
+            color={iconColor}
+            width={isSelected ? 11 : 16}
+            height={9}
+          />
         </DropdownButton>
-
-        {this.state.showMenu && (
-          <DropdownPanel
-            innerRef={element => {
-              this.dropdownPanel = element;
-            }}
-          >
-            {children}
-          </DropdownPanel>
-        )}
+        <DropdownPanel
+          open={this.state.showMenu}
+          innerRef={element => {
+            this.dropdownPanel = element;
+          }}
+        >
+          {children}
+        </DropdownPanel>
       </Wrapper>
     );
   }
@@ -97,6 +104,8 @@ Dropdown.propTypes = {
   label: PropTypes.string,
   /** Custom class name */
   className: PropTypes.string,
+  /** Show checkmark instead of dropdown caret */
+  isSelected: PropTypes.bool,
   /** Contents of the dropdown */
   children: PropTypes.any,
 };
@@ -106,5 +115,6 @@ Dropdown.defaultProps = {
   disabled: false,
   appearance: 'secondary',
   type: 'button',
+  isSelected: false,
 };
 export default Dropdown;
