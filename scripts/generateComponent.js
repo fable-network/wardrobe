@@ -1,3 +1,4 @@
+/* eslint no-console: 0 */
 const fs = require('fs');
 
 const COMPONENTS_PATH = './src/components';
