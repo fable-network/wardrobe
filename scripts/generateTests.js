@@ -17,7 +17,7 @@ const boilerPlate = `/* eslint-disable */
 import React from 'react';
 import { shallow } from 'enzyme';
 import ~COMPONENT_NAME~ from './~COMPONENT_NAME~';
-
+~OPTIONAL_IMPORTS~
 describe('~COMPONENT_NAME~ Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
@@ -40,8 +40,29 @@ const writeTests = (tests) => {
 const finishedGeneration = (progress) =>
   Object.keys(progress).filter(key => progress[key] === false).length === 0;
 
-const injectSnapshotCode = (code, componentName) =>
-  boilerPlate.replace('~YIELD~', code).replace(/~COMPONENT_NAME~/g, componentName);
+const cleanAndGetImport = (componentName) => {
+  const cleanComponent = componentName
+    .replace(/</g, '')
+    .replace(/>/g, '')
+    .replace(/\s/g, '');
+
+  return `import ${cleanComponent} from '../${cleanComponent}'`;
+};
+
+const injectSnapshotCode = (code, componentName) => {
+  const otherComponentRegexString = `(?!<${componentName}( |>))<([A-Z].+?)( |>)`;
+  const otherComponentRegex = new RegExp(otherComponentRegexString, 'g');
+  const otherComponents = code.match(otherComponentRegex);
+  let optionalImports = [];
+  if (otherComponents && otherComponents.length) {
+    optionalImports = otherComponents.map(cleanAndGetImport)
+      .filter((elem, pos, arr) => arr.indexOf(elem) === pos);
+  }
+  return boilerPlate
+    .replace('~YIELD~', code)
+    .replace(/~COMPONENT_NAME~/g, componentName)
+    .replace('~OPTIONAL_IMPORTS~', optionalImports.join('\n'));
+};
 
 // removes the extra characters from the matched strings (jsx & ```).
 const cleanComponentCode = (code) =>
@@ -99,8 +120,8 @@ const generateTests = () => {
       const components = getMatchingComponents(file, name);
       if (components && components.length) {
         const snapshotCode = components.map(getSnapshotCode).join('');
-
         const result = injectSnapshotCode(snapshotCode, name);
+
         tests.push({ name, code: result });
       } else {
         console.log(`No matching components found for ${name}`);
