@@ -41,6 +41,9 @@ const finishedGeneration = (progress) =>
   Object.keys(progress).filter(key => progress[key] === false).length === 0;
 
 const cleanAndGetImport = (componentName) => {
+  if (componentName.indexOf('.') > -1) {
+    return '';
+  }
   const cleanComponent = componentName
     .replace(/</g, '')
     .replace(/>/g, '')
