@@ -27,7 +27,8 @@
     "test": "NODE_ENV=test jest --no-cache",
     "build": "rm -rf ./dist && webpack --mode=production --config webpack.production.config.js && styleguidist build",
     "update-snapshots": "jest --updateSnapshot",
-    "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest"
+    "generate-tests": "node scripts/generateTests.js && jest --updateSnapshot && jest",
+    "generate-component": "node scripts/generateComponent.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
