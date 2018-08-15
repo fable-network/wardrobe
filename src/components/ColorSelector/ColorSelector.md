@@ -20,7 +20,7 @@ Color selector with pattern image:
 
 ```jsx
 <ColorSelector
-  patternImage="src/static/images/patternImage.jpg"
+  patternImage="images/patternImage.jpg"
 />
 ```
 
