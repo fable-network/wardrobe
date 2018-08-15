@@ -1,13 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './OverflowMenu.scss';
+import styled from 'styled-components';
+
+const Wrapper = styled('div')``;
 
 const OverflowMenu = (props) => (
-
+  <Wrapper {...props} />
 );
 
 OverflowMenu.defaultProps = {};
 
-OverflowMenu.propTypes = {};
+OverflowMenu.propTypes = {
+  color: PropTypes.string
+};
 
 export default OverflowMenu;
