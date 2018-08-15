@@ -1,0 +1,1326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component snapshots should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    disabled={false}
+    isSelected={false}
+    label="Don't push me..."
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       
+      <nobr>
+        ...cause I'm close to the edge
+      </nobr>
+       
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       
+      <nobr>
+        I'm trying not to lose my head
+      </nobr>
+       
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       
+      <nobr>
+        It's like a jungle sometimes
+      </nobr>
+       
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       
+      <nobr>
+        It makes me wonder how I keep from goin' under
+      </nobr>
+       
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       
+      <nobr>
+        -- Grandmaster Flash
+      </nobr>
+       
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Dropdown__DropdownButton
+          disabled={false}
+          onClick={[Function]}
+        >
+          Don't push me...
+          <Dropdown__ToggleIcon
+            color="#313233"
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__DropdownButton>,
+        <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          open={false}
+        >
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             
+            <nobr>
+              ...cause I'm close to the edge
+            </nobr>
+             
+          </DropdownItem>
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             
+            <nobr>
+              I'm trying not to lose my head
+            </nobr>
+             
+          </DropdownItem>
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             
+            <nobr>
+              It's like a jungle sometimes
+            </nobr>
+             
+          </DropdownItem>
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             
+            <nobr>
+              It makes me wonder how I keep from goin' under
+            </nobr>
+             
+          </DropdownItem>
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             
+            <nobr>
+              -- Grandmaster Flash
+            </nobr>
+             
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+      ],
+      "className": null,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Don't push me...",
+            <Dropdown__ToggleIcon
+              color="#313233"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />,
+          ],
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Don't push me...",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#313233",
+              "height": 9,
+              "name": "caret-down",
+              "open": false,
+              "selected": false,
+              "width": 16,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                ...cause I'm close to the edge
+              </nobr>
+               
+            </DropdownItem>,
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                I'm trying not to lose my head
+              </nobr>
+               
+            </DropdownItem>,
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                It's like a jungle sometimes
+              </nobr>
+               
+            </DropdownItem>,
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                It makes me wonder how I keep from goin' under
+              </nobr>
+               
+            </DropdownItem>,
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                -- Grandmaster Flash
+              </nobr>
+               
+            </DropdownItem>,
+          ],
+          "innerRef": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                <nobr>
+                  ...cause I'm close to the edge
+                </nobr>,
+                " ",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "...cause I'm close to the edge",
+                },
+                "ref": null,
+                "rendered": "...cause I'm close to the edge",
+                "type": "nobr",
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                <nobr>
+                  I'm trying not to lose my head
+                </nobr>,
+                " ",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I'm trying not to lose my head",
+                },
+                "ref": null,
+                "rendered": "I'm trying not to lose my head",
+                "type": "nobr",
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                <nobr>
+                  It's like a jungle sometimes
+                </nobr>,
+                " ",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "It's like a jungle sometimes",
+                },
+                "ref": null,
+                "rendered": "It's like a jungle sometimes",
+                "type": "nobr",
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                <nobr>
+                  It makes me wonder how I keep from goin' under
+                </nobr>,
+                " ",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "It makes me wonder how I keep from goin' under",
+                },
+                "ref": null,
+                "rendered": "It makes me wonder how I keep from goin' under",
+                "type": "nobr",
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                <nobr>
+                  -- Grandmaster Flash
+                </nobr>,
+                " ",
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "-- Grandmaster Flash",
+                },
+                "ref": null,
+                "rendered": "-- Grandmaster Flash",
+                "type": "nobr",
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Dropdown__DropdownButton
+            disabled={false}
+            onClick={[Function]}
+          >
+            Don't push me...
+            <Dropdown__ToggleIcon
+              color="#313233"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__DropdownButton>,
+          <Dropdown__DropdownPanel
+            innerRef={[Function]}
+            open={false}
+          >
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                ...cause I'm close to the edge
+              </nobr>
+               
+            </DropdownItem>
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                I'm trying not to lose my head
+              </nobr>
+               
+            </DropdownItem>
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                It's like a jungle sometimes
+              </nobr>
+               
+            </DropdownItem>
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                It makes me wonder how I keep from goin' under
+              </nobr>
+               
+            </DropdownItem>
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               
+              <nobr>
+                -- Grandmaster Flash
+              </nobr>
+               
+            </DropdownItem>
+          </Dropdown__DropdownPanel>,
+        ],
+        "className": null,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Don't push me...",
+              <Dropdown__ToggleIcon
+                color="#313233"
+                height={9}
+                name="caret-down"
+                open={false}
+                selected={false}
+                width={16}
+              />,
+            ],
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Don't push me...",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#313233",
+                "height": 9,
+                "name": "caret-down",
+                "open": false,
+                "selected": false,
+                "width": 16,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 
+                <nobr>
+                  ...cause I'm close to the edge
+                </nobr>
+                 
+              </DropdownItem>,
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 
+                <nobr>
+                  I'm trying not to lose my head
+                </nobr>
+                 
+              </DropdownItem>,
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 
+                <nobr>
+                  It's like a jungle sometimes
+                </nobr>
+                 
+              </DropdownItem>,
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 
+                <nobr>
+                  It makes me wonder how I keep from goin' under
+                </nobr>
+                 
+              </DropdownItem>,
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 
+                <nobr>
+                  -- Grandmaster Flash
+                </nobr>
+                 
+              </DropdownItem>,
+            ],
+            "innerRef": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <nobr>
+                    ...cause I'm close to the edge
+                  </nobr>,
+                  " ",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "...cause I'm close to the edge",
+                  },
+                  "ref": null,
+                  "rendered": "...cause I'm close to the edge",
+                  "type": "nobr",
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <nobr>
+                    I'm trying not to lose my head
+                  </nobr>,
+                  " ",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "I'm trying not to lose my head",
+                  },
+                  "ref": null,
+                  "rendered": "I'm trying not to lose my head",
+                  "type": "nobr",
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <nobr>
+                    It's like a jungle sometimes
+                  </nobr>,
+                  " ",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "It's like a jungle sometimes",
+                  },
+                  "ref": null,
+                  "rendered": "It's like a jungle sometimes",
+                  "type": "nobr",
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <nobr>
+                    It makes me wonder how I keep from goin' under
+                  </nobr>,
+                  " ",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "It makes me wonder how I keep from goin' under",
+                  },
+                  "ref": null,
+                  "rendered": "It makes me wonder how I keep from goin' under",
+                  "type": "nobr",
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <nobr>
+                    -- Grandmaster Flash
+                  </nobr>,
+                  " ",
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "-- Grandmaster Flash",
+                  },
+                  "ref": null,
+                  "rendered": "-- Grandmaster Flash",
+                  "type": "nobr",
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Dropdown Component snapshots should match snapshot 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    disabled={false}
+    isSelected={false}
+    label="Push Me"
+  >
+     
+    <nobr>
+      You can place any content you prefer here.
+    </nobr>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Dropdown__DropdownButton
+          disabled={false}
+          onClick={[Function]}
+        >
+          Push Me
+          <Dropdown__ToggleIcon
+            color="#313233"
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__DropdownButton>,
+        <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          open={false}
+        >
+           
+          <nobr>
+            You can place any content you prefer here.
+          </nobr>
+        </Dropdown__DropdownPanel>,
+      ],
+      "className": null,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Push Me",
+            <Dropdown__ToggleIcon
+              color="#313233"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />,
+          ],
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Push Me",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#313233",
+              "height": 9,
+              "name": "caret-down",
+              "open": false,
+              "selected": false,
+              "width": 16,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <nobr>
+              You can place any content you prefer here.
+            </nobr>,
+          ],
+          "innerRef": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "You can place any content you prefer here.",
+            },
+            "ref": null,
+            "rendered": "You can place any content you prefer here.",
+            "type": "nobr",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Dropdown__DropdownButton
+            disabled={false}
+            onClick={[Function]}
+          >
+            Push Me
+            <Dropdown__ToggleIcon
+              color="#313233"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__DropdownButton>,
+          <Dropdown__DropdownPanel
+            innerRef={[Function]}
+            open={false}
+          >
+             
+            <nobr>
+              You can place any content you prefer here.
+            </nobr>
+          </Dropdown__DropdownPanel>,
+        ],
+        "className": null,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Push Me",
+              <Dropdown__ToggleIcon
+                color="#313233"
+                height={9}
+                name="caret-down"
+                open={false}
+                selected={false}
+                width={16}
+              />,
+            ],
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Push Me",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#313233",
+                "height": 9,
+                "name": "caret-down",
+                "open": false,
+                "selected": false,
+                "width": 16,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <nobr>
+                You can place any content you prefer here.
+              </nobr>,
+            ],
+            "innerRef": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "You can place any content you prefer here.",
+              },
+              "ref": null,
+              "rendered": "You can place any content you prefer here.",
+              "type": "nobr",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Dropdown Component snapshots should match snapshot 3`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    disabled={false}
+    isSelected={true}
+    label="Push Me"
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Check that checkmark 
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Dropdown__DropdownButton
+          disabled={false}
+          onClick={[Function]}
+        >
+          Push Me
+          <Dropdown__ToggleIcon
+            color="#89ac52"
+            height={9}
+            name="caret-selected"
+            open={false}
+            selected={true}
+            width={11}
+          />
+        </Dropdown__DropdownButton>,
+        <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          open={false}
+        >
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             Check that checkmark 
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+      ],
+      "className": null,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Push Me",
+            <Dropdown__ToggleIcon
+              color="#89ac52"
+              height={9}
+              name="caret-selected"
+              open={false}
+              selected={true}
+              width={11}
+            />,
+          ],
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Push Me",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#89ac52",
+              "height": 9,
+              "name": "caret-selected",
+              "open": false,
+              "selected": true,
+              "width": 11,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               Check that checkmark 
+            </DropdownItem>,
+          ],
+          "innerRef": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " Check that checkmark ",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": " Check that checkmark ",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Dropdown__DropdownButton
+            disabled={false}
+            onClick={[Function]}
+          >
+            Push Me
+            <Dropdown__ToggleIcon
+              color="#89ac52"
+              height={9}
+              name="caret-selected"
+              open={false}
+              selected={true}
+              width={11}
+            />
+          </Dropdown__DropdownButton>,
+          <Dropdown__DropdownPanel
+            innerRef={[Function]}
+            open={false}
+          >
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               Check that checkmark 
+            </DropdownItem>
+          </Dropdown__DropdownPanel>,
+        ],
+        "className": null,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Push Me",
+              <Dropdown__ToggleIcon
+                color="#89ac52"
+                height={9}
+                name="caret-selected"
+                open={false}
+                selected={true}
+                width={11}
+              />,
+            ],
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Push Me",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#89ac52",
+                "height": 9,
+                "name": "caret-selected",
+                "open": false,
+                "selected": true,
+                "width": 11,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 Check that checkmark 
+              </DropdownItem>,
+            ],
+            "innerRef": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " Check that checkmark ",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": " Check that checkmark ",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

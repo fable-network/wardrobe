@@ -5,6 +5,7 @@ module.exports = {
   defaultExample: true,
   pagePerSection: true,
   skipComponentsWithoutExample: true,
+  assetsDir: 'src/static',
 
   sections: [
     { name: 'Components', components: 'src/components/**/*.js' },
@@ -18,15 +19,14 @@ module.exports = {
       '@global body': {
         fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
         fontSize: '16px',
-      }
-    }
+      },
+    },
   },
 
+  // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
+  // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
   getComponentPathLine(componentPath) {
-    // Format code snippet.
-    const name = path.basename(componentPath, '.js');
-    const dir = path.dirname(componentPath);
-    return `import { ${name} } from '@fashiontrade/wardrobe';`;
+    return null;
   },
 
   styleguideComponents: {
@@ -46,18 +46,22 @@ module.exports = {
           loader: 'style-loader!css-loader?modules&importLoaders=1',
         },
         {
+          test: /\.svg$/,
+          loader: 'svg-inline-loader',
+        },
+        {
           test: /\.scss$/,
           use: [
             {
-              loader: "style-loader" // creates style nodes from JS strings
+              loader: 'style-loader', // creates style nodes from JS strings
             },
             {
-              loader: "css-loader" // translates CSS into CommonJS
+              loader: 'css-loader', // translates CSS into CommonJS
             },
             {
-              loader: "sass-loader" // compiles Sass to CSS
-            }
-          ]
+              loader: 'sass-loader', // compiles Sass to CSS
+            },
+          ],
         },
       ],
     },
@@ -65,9 +69,9 @@ module.exports = {
       modules: [
         path.join(__dirname, 'src'),
         path.join(__dirname, 'src/components'),
-        'node_modules'
+        'node_modules',
       ],
       extensions: ['.js', '.scss'],
-    }
-  }
+    },
+  },
 };
