@@ -1324,3 +1324,274 @@ ShallowWrapper {
   },
 }
 `;
+
+exports[`Dropdown Component snapshots should match snapshot 4`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    disabled={true}
+    isSelected={false}
+    label="Select..."
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       I'll never be seen 
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Dropdown__DropdownButton
+          disabled={true}
+          onClick={[Function]}
+        >
+          Select...
+          <Dropdown__ToggleIcon
+            color="#cdcdcd"
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__DropdownButton>,
+        <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          open={false}
+        >
+           
+          <DropdownItem
+            onClick={[Function]}
+          >
+             I'll never be seen 
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+      ],
+      "className": null,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Select...",
+            <Dropdown__ToggleIcon
+              color="#cdcdcd"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />,
+          ],
+          "disabled": true,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Select...",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#cdcdcd",
+              "height": 9,
+              "name": "caret-down",
+              "open": false,
+              "selected": false,
+              "width": 16,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <DropdownItem
+              onClick={[Function]}
+            >
+               I'll never be seen 
+            </DropdownItem>,
+          ],
+          "innerRef": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " I'll never be seen ",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": " I'll never be seen ",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Dropdown__DropdownButton
+            disabled={true}
+            onClick={[Function]}
+          >
+            Select...
+            <Dropdown__ToggleIcon
+              color="#cdcdcd"
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__DropdownButton>,
+          <Dropdown__DropdownPanel
+            innerRef={[Function]}
+            open={false}
+          >
+             
+            <DropdownItem
+              onClick={[Function]}
+            >
+               I'll never be seen 
+            </DropdownItem>
+          </Dropdown__DropdownPanel>,
+        ],
+        "className": null,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Select...",
+              <Dropdown__ToggleIcon
+                color="#cdcdcd"
+                height={9}
+                name="caret-down"
+                open={false}
+                selected={false}
+                width={16}
+              />,
+            ],
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Select...",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#cdcdcd",
+                "height": 9,
+                "name": "caret-down",
+                "open": false,
+                "selected": false,
+                "width": 16,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <DropdownItem
+                onClick={[Function]}
+              >
+                 I'll never be seen 
+              </DropdownItem>,
+            ],
+            "innerRef": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " I'll never be seen ",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": " I'll never be seen ",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
