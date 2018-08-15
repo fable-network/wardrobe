@@ -2,21 +2,21 @@ Dropdown:
 
 ```jsx
 <Dropdown label="Don't push me...">
-  <DropdownItem onClick={() => alert('Clicked 1')}>
+  <Dropdown.Item onClick={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
-  </DropdownItem>
-  <DropdownItem onClick={() => alert('Clicked 2')}>
+  </Dropdown.Item>
+  <Dropdown.Item onClick={() => alert('Clicked 2')}>
     <nobr>I'm trying not to lose my head</nobr>
-  </DropdownItem>
-  <DropdownItem onClick={() => alert('Clicked 3')}>
+  </Dropdown.Item>
+  <Dropdown.Item onClick={() => alert('Clicked 3')}>
     <nobr>It's like a jungle sometimes</nobr>
-  </DropdownItem>
-  <DropdownItem onClick={() => alert('Clicked 4')}>
+  </Dropdown.Item>
+  <Dropdown.Item onClick={() => alert('Clicked 4')}>
     <nobr>It makes me wonder how I keep from goin' under</nobr>
-  </DropdownItem>
-  <DropdownItem onClick={() => alert('Don\'t push me')}>
+  </Dropdown.Item>
+  <Dropdown.Item onClick={() => alert('Don\'t push me')}>
     <nobr>-- Grandmaster Flash</nobr>
-  </DropdownItem>
+  </Dropdown.Item>
 </Dropdown>
 ```
 
@@ -32,9 +32,9 @@ Dropdown selected.
 
 ```jsx
 <Dropdown isSelected={true} label="Push Me">
-  <DropdownItem>
-      Check that checkmark
-    </DropdownItem>
+  <Dropdown.Item>
+    Check that checkmark
+  </Dropdown.Item>
 </Dropdown>
 ```
 
@@ -42,9 +42,9 @@ Dropdown disabled.
 
 ```jsx
 <Dropdown disabled>
-  <DropdownItem>
-      I'll never be seen
-    </DropdownItem>
+  <Dropdown.Item>
+    I'll never be seen
+  </Dropdown.Item>
 </Dropdown>
 ```
 
@@ -53,7 +53,7 @@ Dropdown panel is limited to 75% to the device height
 ```jsx
 const largeList = [];
 for (i=0; i<30; i++) {
-  largeList.push(<DropdownItem key={i}>Scrolling</DropdownItem>);
+  largeList.push(<Dropdown.Item key={i}>Scrolling</Dropdown.Item>);
 }
 <Dropdown label="Push Me">
   {largeList}

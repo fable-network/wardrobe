@@ -4,6 +4,7 @@ exports[`Dropdown Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
     disabled={false}
     isSelected={false}
     label="Don't push me..."
@@ -142,7 +143,7 @@ ShallowWrapper {
           </DropdownItem>
         </Dropdown__DropdownPanel>,
       ],
-      "className": undefined,
+      "className": null,
     },
     "ref": null,
     "rendered": Array [
@@ -497,7 +498,7 @@ ShallowWrapper {
             </DropdownItem>
           </Dropdown__DropdownPanel>,
         ],
-        "className": undefined,
+        "className": null,
       },
       "ref": null,
       "rendered": Array [
@@ -798,6 +799,7 @@ exports[`Dropdown Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
     disabled={false}
     isSelected={false}
     label="Push Me"
@@ -844,7 +846,7 @@ ShallowWrapper {
           </nobr>
         </Dropdown__DropdownPanel>,
       ],
-      "className": undefined,
+      "className": null,
     },
     "ref": null,
     "rendered": Array [
@@ -954,7 +956,7 @@ ShallowWrapper {
             </nobr>
           </Dropdown__DropdownPanel>,
         ],
-        "className": undefined,
+        "className": null,
       },
       "ref": null,
       "rendered": Array [
@@ -1056,6 +1058,7 @@ exports[`Dropdown Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
     disabled={false}
     isSelected={true}
     label="Push Me"
@@ -1106,7 +1109,7 @@ ShallowWrapper {
           </DropdownItem>
         </Dropdown__DropdownPanel>,
       ],
-      "className": undefined,
+      "className": null,
     },
     "ref": null,
     "rendered": Array [
@@ -1221,7 +1224,7 @@ ShallowWrapper {
             </DropdownItem>
           </Dropdown__DropdownPanel>,
         ],
-        "className": undefined,
+        "className": null,
       },
       "ref": null,
       "rendered": Array [

@@ -11,6 +11,11 @@ const Wrapper = styled.div`
   }
 `;
 
+/**
+ * Single item in the dropdown panel. This adds the necessary padding for simple text labels.
+ *
+ * @visibleName Dropdown.Item
+ */
 const DropdownItem = ({ children, onClick }) => (
   <Wrapper onClick={onClick}>
     {children}

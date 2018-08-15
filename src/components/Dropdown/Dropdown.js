@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import DropdownItem from '../DropdownItem';
 import Icon from '../Icon';
 
 const Wrapper = styled.div`
@@ -28,7 +29,7 @@ const ToggleIcon = styled(Icon)`
 `;
 
 const DropdownPanel = styled.div`
-  position: relative;
+  position: absolute;
   display: ${(props) => (props.open ? 'block' : 'none')};
   margin-top: 4px;
   background: white;
@@ -89,7 +90,7 @@ class Dropdown extends Component {
     return (
       <Wrapper className={className}>
         <DropdownButton onClick={this.showMenu} disabled={disabled}>
-          {label || 'Select...'}
+          {label}
           <ToggleIcon
             open={showMenu}
             selected={isSelected}
@@ -122,11 +123,16 @@ Dropdown.propTypes = {
   /** Show checkmark instead of dropdown caret */
   isSelected: PropTypes.bool,
   /** Contents of the dropdown */
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
 };
 
 Dropdown.defaultProps = {
+  label: 'Select...',
+  className: null,
   disabled: false,
   isSelected: false,
 };
+
+Dropdown.Item = DropdownItem;
+
 export default Dropdown;

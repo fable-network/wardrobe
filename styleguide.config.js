@@ -23,11 +23,10 @@ module.exports = {
     },
   },
 
+  // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
+  // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
   getComponentPathLine(componentPath) {
-    // Format code snippet.
-    const name = path.basename(componentPath, '.js');
-    const dir = path.dirname(componentPath);
-    return `import { ${name} } from '@fashiontrade/wardrobe';`;
+    return null;
   },
 
   styleguideComponents: {
