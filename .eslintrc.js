@@ -15,5 +15,8 @@ module.exports = {
     "react/require-default-props": 0, // dont need every prop to have a default
     "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": 0
+  },
+  "globals": {
+    "document": true,
   }
 };

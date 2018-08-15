@@ -17,7 +17,7 @@ const boilerPlate = `/* eslint-disable */
 import React from 'react';
 import { shallow } from 'enzyme';
 import ~COMPONENT_NAME~ from './~COMPONENT_NAME~';
-
+~OPTIONAL_IMPORTS~
 describe('~COMPONENT_NAME~ Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
@@ -40,8 +40,32 @@ const writeTests = (tests) => {
 const finishedGeneration = (progress) =>
   Object.keys(progress).filter(key => progress[key] === false).length === 0;
 
-const injectSnapshotCode = (code, componentName) =>
-  boilerPlate.replace('~YIELD~', code).replace(/~COMPONENT_NAME~/g, componentName);
+const cleanAndGetImport = (componentName) => {
+  if (componentName.indexOf('.') > -1) {
+    return '';
+  }
+  const cleanComponent = componentName
+    .replace(/</g, '')
+    .replace(/>/g, '')
+    .replace(/\s/g, '');
+
+  return `import ${cleanComponent} from '../${cleanComponent}'`;
+};
+
+const injectSnapshotCode = (code, componentName) => {
+  const otherComponentRegexString = `(?!<${componentName}( |>))<([A-Z].+?)( |>)`;
+  const otherComponentRegex = new RegExp(otherComponentRegexString, 'g');
+  const otherComponents = code.match(otherComponentRegex);
+  let optionalImports = [];
+  if (otherComponents && otherComponents.length) {
+    optionalImports = otherComponents.map(cleanAndGetImport)
+      .filter((elem, pos, arr) => arr.indexOf(elem) === pos);
+  }
+  return boilerPlate
+    .replace('~YIELD~', code)
+    .replace(/~COMPONENT_NAME~/g, componentName)
+    .replace('~OPTIONAL_IMPORTS~', optionalImports.join('\n'));
+};
 
 // removes the extra characters from the matched strings (jsx & ```).
 const cleanComponentCode = (code) =>
@@ -55,7 +79,7 @@ const cleanComponentCode = (code) =>
 const readMarkdownFile = (fileName, callBack) => {
   fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
     if (err) {
-      throw (err);
+      console.log(`Could not find markdown file for ${fileName}`);
     } else {
       const file = out.toString();
       callBack(file);
@@ -75,10 +99,18 @@ const getMatchingComponents = (file, componentName) => {
 
   const regex = new RegExp(regexString, 'g');
   const matches = file.match(regex);
+  if (!matches) {
+    return null;
+  }
   const components = cleanComponentCode(matches);
 
   return components;
 };
+
+const getSnapshotCode = (component, index) => `
+      const wrapper${index + 1} = shallow(${component});
+      expect(wrapper${index + 1}).toMatchSnapshot();
+`;
 
 const generateTests = () => {
   const tests = [];
@@ -89,15 +121,14 @@ const generateTests = () => {
   componentNames.forEach(name => {
     readMarkdownFile(name, (file) => {
       const components = getMatchingComponents(file, name);
-      const snapshotCode = components.map((component, i) => (
-        `
-      const wrapper${i + 1} = shallow(${component});
-      expect(wrapper${i + 1}).toMatchSnapshot();
-        `
-      )).join('');
+      if (components && components.length) {
+        const snapshotCode = components.map(getSnapshotCode).join('');
+        const result = injectSnapshotCode(snapshotCode, name);
 
-      const result = injectSnapshotCode(snapshotCode, name);
-      tests.push({ name, code: result });
+        tests.push({ name, code: result });
+      } else {
+        console.log(`No matching components found for ${name}`);
+      }
 
       progress[name] = true;
       if (finishedGeneration(progress)) {
