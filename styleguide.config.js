@@ -12,16 +12,7 @@ module.exports = {
     { name: 'Style', components: 'src/style/**/*.js' },
   ],
 
-  // Global component style guide styling
   components: 'src/components/**/*.js',
-  styles: {
-    StyleGuide: {
-      '@global body': {
-        fontFamily: '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif',
-        fontSize: '16px',
-      },
-    },
-  },
 
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
   // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
@@ -33,11 +24,23 @@ module.exports = {
     Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
   },
 
+  template: {
+    head: {
+      links: [
+        {
+          rel: 'stylesheet',
+          href:
+            'style.css',
+        },
+      ],
+    },
+  },
+
   webpackConfig: {
     module: {
       rules: [
         {
-          test: /\.jsx?$/,
+          test: /\.js?$/,
           exclude: /node_modules/,
           loader: 'babel-loader',
         },

@@ -79,7 +79,6 @@ ShallowWrapper {
         >
           Don't push me...
           <Dropdown__ToggleIcon
-            color="#313233"
             height={9}
             name="caret-down"
             open={false}
@@ -155,7 +154,6 @@ ShallowWrapper {
           "children": Array [
             "Don't push me...",
             <Dropdown__ToggleIcon
-              color="#313233"
               height={9}
               name="caret-down"
               open={false}
@@ -174,7 +172,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "color": "#313233",
               "height": 9,
               "name": "caret-down",
               "open": false,
@@ -434,7 +431,6 @@ ShallowWrapper {
           >
             Don't push me...
             <Dropdown__ToggleIcon
-              color="#313233"
               height={9}
               name="caret-down"
               open={false}
@@ -510,7 +506,6 @@ ShallowWrapper {
             "children": Array [
               "Don't push me...",
               <Dropdown__ToggleIcon
-                color="#313233"
                 height={9}
                 name="caret-down"
                 open={false}
@@ -529,7 +524,6 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "color": "#313233",
                 "height": 9,
                 "name": "caret-down",
                 "open": false,
@@ -828,7 +822,6 @@ ShallowWrapper {
         >
           Push Me
           <Dropdown__ToggleIcon
-            color="#313233"
             height={9}
             name="caret-down"
             open={false}
@@ -858,7 +851,6 @@ ShallowWrapper {
           "children": Array [
             "Push Me",
             <Dropdown__ToggleIcon
-              color="#313233"
               height={9}
               name="caret-down"
               open={false}
@@ -877,7 +869,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "color": "#313233",
               "height": 9,
               "name": "caret-down",
               "open": false,
@@ -938,7 +929,6 @@ ShallowWrapper {
           >
             Push Me
             <Dropdown__ToggleIcon
-              color="#313233"
               height={9}
               name="caret-down"
               open={false}
@@ -968,7 +958,6 @@ ShallowWrapper {
             "children": Array [
               "Push Me",
               <Dropdown__ToggleIcon
-                color="#313233"
                 height={9}
                 name="caret-down"
                 open={false}
@@ -987,7 +976,6 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "color": "#313233",
                 "height": 9,
                 "name": "caret-down",
                 "open": false,
@@ -1089,7 +1077,6 @@ ShallowWrapper {
         >
           Push Me
           <Dropdown__ToggleIcon
-            color="#89ac52"
             height={9}
             name="caret-selected"
             open={false}
@@ -1121,7 +1108,6 @@ ShallowWrapper {
           "children": Array [
             "Push Me",
             <Dropdown__ToggleIcon
-              color="#89ac52"
               height={9}
               name="caret-selected"
               open={false}
@@ -1140,7 +1126,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "color": "#89ac52",
               "height": 9,
               "name": "caret-selected",
               "open": false,
@@ -1204,7 +1189,6 @@ ShallowWrapper {
           >
             Push Me
             <Dropdown__ToggleIcon
-              color="#89ac52"
               height={9}
               name="caret-selected"
               open={false}
@@ -1236,7 +1220,6 @@ ShallowWrapper {
             "children": Array [
               "Push Me",
               <Dropdown__ToggleIcon
-                color="#89ac52"
                 height={9}
                 name="caret-selected"
                 open={false}
@@ -1255,7 +1238,6 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "color": "#89ac52",
                 "height": 9,
                 "name": "caret-selected",
                 "open": false,
@@ -1360,7 +1342,6 @@ ShallowWrapper {
         >
           Select...
           <Dropdown__ToggleIcon
-            color="#cdcdcd"
             height={9}
             name="caret-down"
             open={false}
@@ -1392,7 +1373,6 @@ ShallowWrapper {
           "children": Array [
             "Select...",
             <Dropdown__ToggleIcon
-              color="#cdcdcd"
               height={9}
               name="caret-down"
               open={false}
@@ -1411,7 +1391,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "color": "#cdcdcd",
               "height": 9,
               "name": "caret-down",
               "open": false,
@@ -1475,7 +1454,6 @@ ShallowWrapper {
           >
             Select...
             <Dropdown__ToggleIcon
-              color="#cdcdcd"
               height={9}
               name="caret-down"
               open={false}
@@ -1507,7 +1485,6 @@ ShallowWrapper {
             "children": Array [
               "Select...",
               <Dropdown__ToggleIcon
-                color="#cdcdcd"
                 height={9}
                 name="caret-down"
                 open={false}
@@ -1526,7 +1503,6 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "color": "#cdcdcd",
                 "height": 9,
                 "name": "caret-down",
                 "open": false,
