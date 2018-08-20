@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import fashiontradeTheme from '../../theme/default';
+import styled, { withTheme } from 'styled-components';
 
 import Icon from '../Icon';
 import ToggleMenu from '../ToggleMenu';
@@ -13,7 +12,8 @@ const Trigger = styled.div`
   padding: 10px;
   text-align: center;
   cursor: pointer;
-  border: solid 1px ${props => (props.active ? props.activeColor : 'transparent')};
+  transition: .2s linear;
+  border: solid 1px ${props => (props.active ? props.color : 'transparent')};
 `;
 
 const Menu = styled.div`
@@ -33,25 +33,48 @@ class OverflowMenu extends Component {
     };
   }
 
+  getColorFromAppearance = () => {
+    const { appearance, theme } = this.props;
+    switch (appearance) {
+      case 'primary':
+        return theme.skyBlue;
+      case 'secondary':
+        return theme.stoneGrey;
+      case 'success':
+        return theme.limeGreen;
+      case 'warning':
+        return theme.apricotOrange;
+      case 'light':
+        return theme.pearlWhite;
+      case 'dark':
+        return theme.ravenBlack;
+      default:
+        return theme.skyBlue;
+    }
+  }
+
   handleMenuOpen = () => {
+    this.props.onOpen();
     this.setState({ menuOpen: true });
   }
 
   handleMenuClose = () => {
+    this.props.onClose();
     this.setState({ menuOpen: false });
   }
 
   renderTrigger = () => {
-    const { color, activeColor } = this.props;
     const { menuOpen } = this.state;
+    const defaultColor = this.props.color || this.getColorFromAppearance();
+    const color = (menuOpen && this.props.activeColor) || defaultColor;
 
     return (
-      <Trigger active={menuOpen} activeColor={activeColor}>
+      <Trigger color={color} active={menuOpen}>
         <Icon
           name="vertical-menu"
           width="5" // TODO make the size dynamic based on size prop
           height="21"
-          color={menuOpen ? activeColor : color}
+          color={color}
         />
       </Trigger>
     );
@@ -77,21 +100,36 @@ class OverflowMenu extends Component {
 }
 
 OverflowMenu.defaultProps = {
-  color: fashiontradeTheme.ravenBlack,
-  activeColor: fashiontradeTheme.skyBlue,
+  appearance: 'dark',
   position: 'right',
-  openByDefault: false
+  openByDefault: false,
+  onOpen: () => {},
+  onClose: () => null
 };
 
 OverflowMenu.propTypes = {
+  appearance: PropTypes.oneOf([
+    'primary',
+    'secondary',
+    'success',
+    'danger',
+    'warning',
+    'light',
+    'dark'
+  ]),
+  /** Static color of the icon (Overrides appearance) */
   color: PropTypes.string,
+  /** Active color of the icon (Overrides appearance) */
+  activeColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   position: PropTypes.string,
-  activeColor: PropTypes.string,
-  openByDefault: PropTypes.bool
+  openByDefault: PropTypes.bool,
+  theme: PropTypes.object,
+  onOpen: PropTypes.func,
+  onClose: PropTypes.func
 };
 
 OverflowMenu.Item = DropdownItem;
 OverflowMenu.Title = DropdownTitle;
 
-export default OverflowMenu;
+export default withTheme(OverflowMenu);

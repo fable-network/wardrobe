@@ -3,12 +3,7 @@
 exports[`OverflowMenu Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OverflowMenu
-    activeColor="#5f9dc7"
-    color="#313233"
-    openByDefault={false}
-    position="right"
-  >
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)>
      
     <DropdownItem
       onClick={[Function]}
@@ -21,7 +16,7 @@ ShallowWrapper {
     >
        Delete 
     </DropdownItem>
-  </OverflowMenu>,
+  </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -34,45 +29,65 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <OverflowMenu__Menu>
-         
+      "appearance": "dark",
+      "children": Array [
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Edit 
-        </DropdownItem>
-         
+        </DropdownItem>,
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Delete 
-        </DropdownItem>
-      </OverflowMenu__Menu>,
-      "closeOnOutsideClick": true,
-      "menuOffset": "5px",
+        </DropdownItem>,
+      ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
-      "preventOutOfBounds": false,
-      "trigger": <OverflowMenu__Trigger
-        active={false}
-        activeColor="#5f9dc7"
-      >
-        <Icon
-          color="#313233"
-          height="21"
-          name="vertical-menu"
-          width="5"
-        />
-      </OverflowMenu__Trigger>,
+      "theme": undefined,
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Edit ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Edit ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Delete ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Delete ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "appearance": "dark",
         "children": Array [
           " ",
           <DropdownItem
@@ -87,6 +102,11 @@ ShallowWrapper {
              Delete 
           </DropdownItem>,
         ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -117,101 +137,6 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <OverflowMenu__Menu>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Edit 
-          </DropdownItem>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Delete 
-          </DropdownItem>
-        </OverflowMenu__Menu>,
-        "closeOnOutsideClick": true,
-        "menuOffset": "5px",
-        "onClose": [Function],
-        "onOpen": [Function],
-        "openByDefault": false,
-        "position": "right",
-        "preventOutOfBounds": false,
-        "trigger": <OverflowMenu__Trigger
-          active={false}
-          activeColor="#5f9dc7"
-        >
-          <Icon
-            color="#313233"
-            height="21"
-            name="vertical-menu"
-            width="5"
-          />
-        </OverflowMenu__Trigger>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Edit 
-            </DropdownItem>,
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Delete 
-            </DropdownItem>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Edit ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Edit ",
-            "type": [Function],
-          },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Delete ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Delete ",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
       "type": [Function],
     },
   ],
@@ -236,10 +161,7 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OverflowMenu
-    activeColor="#5f9dc7"
-    color="#313233"
-    openByDefault={false}
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
     position="left"
   >
      
@@ -254,7 +176,7 @@ ShallowWrapper {
     >
        Delete 
     </DropdownItem>
-  </OverflowMenu>,
+  </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -267,45 +189,65 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <OverflowMenu__Menu>
-         
+      "appearance": "dark",
+      "children": Array [
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Edit 
-        </DropdownItem>
-         
+        </DropdownItem>,
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Delete 
-        </DropdownItem>
-      </OverflowMenu__Menu>,
-      "closeOnOutsideClick": true,
-      "menuOffset": "5px",
+        </DropdownItem>,
+      ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "left",
-      "preventOutOfBounds": false,
-      "trigger": <OverflowMenu__Trigger
-        active={false}
-        activeColor="#5f9dc7"
-      >
-        <Icon
-          color="#313233"
-          height="21"
-          name="vertical-menu"
-          width="5"
-        />
-      </OverflowMenu__Trigger>,
+      "theme": undefined,
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Edit ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Edit ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Delete ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Delete ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "appearance": "dark",
         "children": Array [
           " ",
           <DropdownItem
@@ -320,6 +262,11 @@ ShallowWrapper {
              Delete 
           </DropdownItem>,
         ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "left",
+        "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -352,101 +299,6 @@ ShallowWrapper {
       ],
       "type": [Function],
     },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <OverflowMenu__Menu>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Edit 
-          </DropdownItem>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Delete 
-          </DropdownItem>
-        </OverflowMenu__Menu>,
-        "closeOnOutsideClick": true,
-        "menuOffset": "5px",
-        "onClose": [Function],
-        "onOpen": [Function],
-        "openByDefault": false,
-        "position": "left",
-        "preventOutOfBounds": false,
-        "trigger": <OverflowMenu__Trigger
-          active={false}
-          activeColor="#5f9dc7"
-        >
-          <Icon
-            color="#313233"
-            height="21"
-            name="vertical-menu"
-            width="5"
-          />
-        </OverflowMenu__Trigger>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Edit 
-            </DropdownItem>,
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Delete 
-            </DropdownItem>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Edit ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Edit ",
-            "type": [Function],
-          },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Delete ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Delete ",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      "type": [Function],
-    },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
@@ -469,11 +321,328 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OverflowMenu
-    activeColor="orange"
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+    appearance="primary"
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Edit 
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Delete 
+    </DropdownItem>
+  </WithTheme(OverflowMenu)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "appearance": "primary",
+      "children": Array [
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Edit 
+        </DropdownItem>,
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Delete 
+        </DropdownItem>,
+      ],
+      "onClose": [Function],
+      "onOpen": [Function],
+      "openByDefault": false,
+      "position": "right",
+      "theme": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Edit ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Edit ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Delete ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Delete ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "appearance": "primary",
+        "children": Array [
+          " ",
+          <DropdownItem
+            onClick={[Function]}
+          >
+             Edit 
+          </DropdownItem>,
+          " ",
+          <DropdownItem
+            onClick={[Function]}
+          >
+             Delete 
+          </DropdownItem>,
+        ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "theme": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Edit ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": " Edit ",
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Delete ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": " Delete ",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`OverflowMenu Component snapshots should match snapshot 4`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+    appearance="secondary"
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Edit 
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Delete 
+    </DropdownItem>
+  </WithTheme(OverflowMenu)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "appearance": "secondary",
+      "children": Array [
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Edit 
+        </DropdownItem>,
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Delete 
+        </DropdownItem>,
+      ],
+      "onClose": [Function],
+      "onOpen": [Function],
+      "openByDefault": false,
+      "position": "right",
+      "theme": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Edit ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Edit ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Delete ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Delete ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "appearance": "secondary",
+        "children": Array [
+          " ",
+          <DropdownItem
+            onClick={[Function]}
+          >
+             Edit 
+          </DropdownItem>,
+          " ",
+          <DropdownItem
+            onClick={[Function]}
+          >
+             Delete 
+          </DropdownItem>,
+        ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "theme": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Edit ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": " Edit ",
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Delete ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": " Delete ",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`OverflowMenu Component snapshots should match snapshot 5`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
     color="red"
-    openByDefault={false}
-    position="right"
   >
      
     <DropdownItem
@@ -487,7 +656,7 @@ ShallowWrapper {
     >
        Action 2 
     </DropdownItem>
-  </OverflowMenu>,
+  </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -500,45 +669,66 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <OverflowMenu__Menu>
-         
+      "appearance": "dark",
+      "children": Array [
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Action 1 
-        </DropdownItem>
-         
+        </DropdownItem>,
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Action 2 
-        </DropdownItem>
-      </OverflowMenu__Menu>,
-      "closeOnOutsideClick": true,
-      "menuOffset": "5px",
+        </DropdownItem>,
+      ],
+      "color": "red",
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
-      "preventOutOfBounds": false,
-      "trigger": <OverflowMenu__Trigger
-        active={false}
-        activeColor="orange"
-      >
-        <Icon
-          color="red"
-          height="21"
-          name="vertical-menu"
-          width="5"
-        />
-      </OverflowMenu__Trigger>,
+      "theme": undefined,
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 1 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 1 ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 2 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 2 ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "appearance": "dark",
         "children": Array [
           " ",
           <DropdownItem
@@ -553,6 +743,12 @@ ShallowWrapper {
              Action 2 
           </DropdownItem>,
         ],
+        "color": "red",
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -585,101 +781,6 @@ ShallowWrapper {
       ],
       "type": [Function],
     },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <OverflowMenu__Menu>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Action 1 
-          </DropdownItem>
-           
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Action 2 
-          </DropdownItem>
-        </OverflowMenu__Menu>,
-        "closeOnOutsideClick": true,
-        "menuOffset": "5px",
-        "onClose": [Function],
-        "onOpen": [Function],
-        "openByDefault": false,
-        "position": "right",
-        "preventOutOfBounds": false,
-        "trigger": <OverflowMenu__Trigger
-          active={false}
-          activeColor="orange"
-        >
-          <Icon
-            color="red"
-            height="21"
-            name="vertical-menu"
-            width="5"
-          />
-        </OverflowMenu__Trigger>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Action 1 
-            </DropdownItem>,
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Action 2 
-            </DropdownItem>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Action 1 ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Action 1 ",
-            "type": [Function],
-          },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Action 2 ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Action 2 ",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      "type": [Function],
-    },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
@@ -699,14 +800,11 @@ ShallowWrapper {
 }
 `;
 
-exports[`OverflowMenu Component snapshots should match snapshot 4`] = `
+exports[`OverflowMenu Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OverflowMenu
-    activeColor="#5f9dc7"
-    color="#313233"
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
     openByDefault={true}
-    position="right"
   >
      
     <DropdownTitle>
@@ -724,7 +822,7 @@ ShallowWrapper {
     >
        Action 2 
     </DropdownItem>
-  </OverflowMenu>,
+  </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -737,49 +835,81 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <OverflowMenu__Menu>
-         
+      "appearance": "dark",
+      "children": Array [
+        " ",
         <DropdownTitle>
           Use the trigger to close me
-        </DropdownTitle>
-         
+        </DropdownTitle>,
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Action 1 
-        </DropdownItem>
-         
+        </DropdownItem>,
+        " ",
         <DropdownItem
           onClick={[Function]}
         >
            Action 2 
-        </DropdownItem>
-      </OverflowMenu__Menu>,
-      "closeOnOutsideClick": true,
-      "menuOffset": "5px",
+        </DropdownItem>,
+      ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": true,
       "position": "right",
-      "preventOutOfBounds": false,
-      "trigger": <OverflowMenu__Trigger
-        active={true}
-        activeColor="#5f9dc7"
-      >
-        <Icon
-          color="#5f9dc7"
-          height="21"
-          name="vertical-menu"
-          width="5"
-        />
-      </OverflowMenu__Trigger>,
+      "theme": undefined,
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Use the trigger to close me",
+        },
+        "ref": null,
+        "rendered": "Use the trigger to close me",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 1 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 1 ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 2 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 2 ",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "appearance": "dark",
         "children": Array [
           " ",
           <DropdownTitle>
@@ -798,6 +928,11 @@ ShallowWrapper {
              Action 2 
           </DropdownItem>,
         ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": true,
+        "position": "right",
+        "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -842,6 +977,107 @@ ShallowWrapper {
       ],
       "type": [Function],
     },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`OverflowMenu Component snapshots should match snapshot 7`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+    appearance="primary"
+    openByDefault={true}
+  >
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Action 1 
+    </DropdownItem>
+     
+    <DropdownItem
+      onClick={[Function]}
+    >
+       Action 2 
+    </DropdownItem>
+  </WithTheme(OverflowMenu)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "appearance": "primary",
+      "children": Array [
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Action 1 
+        </DropdownItem>,
+        " ",
+        <DropdownItem
+          onClick={[Function]}
+        >
+           Action 2 
+        </DropdownItem>,
+      ],
+      "onClose": [Function],
+      "onOpen": [Function],
+      "openByDefault": true,
+      "position": "right",
+      "theme": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 1 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 1 ",
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Action 2 ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": " Action 2 ",
+        "type": [Function],
+      },
+    ],
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -850,111 +1086,56 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <OverflowMenu__Menu>
-           
-          <DropdownTitle>
-            Use the trigger to close me
-          </DropdownTitle>
-           
+        "appearance": "primary",
+        "children": Array [
+          " ",
           <DropdownItem
             onClick={[Function]}
           >
              Action 1 
-          </DropdownItem>
-           
+          </DropdownItem>,
+          " ",
           <DropdownItem
             onClick={[Function]}
           >
              Action 2 
-          </DropdownItem>
-        </OverflowMenu__Menu>,
-        "closeOnOutsideClick": true,
-        "menuOffset": "5px",
+          </DropdownItem>,
+        ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": true,
         "position": "right",
-        "preventOutOfBounds": false,
-        "trigger": <OverflowMenu__Trigger
-          active={true}
-          activeColor="#5f9dc7"
-        >
-          <Icon
-            color="#5f9dc7"
-            height="21"
-            name="vertical-menu"
-            width="5"
-          />
-        </OverflowMenu__Trigger>,
+        "theme": undefined,
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            " ",
-            <DropdownTitle>
-              Use the trigger to close me
-            </DropdownTitle>,
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Action 1 
-            </DropdownItem>,
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Action 2 
-            </DropdownItem>,
-          ],
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Action 1 ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": " Action 1 ",
+          "type": [Function],
         },
-        "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Use the trigger to close me",
-            },
-            "ref": null,
-            "rendered": "Use the trigger to close me",
-            "type": [Function],
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Action 2 ",
+            "onClick": [Function],
           },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Action 1 ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Action 1 ",
-            "type": [Function],
-          },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Action 2 ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Action 2 ",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
+          "ref": null,
+          "rendered": " Action 2 ",
+          "type": [Function],
+        },
+      ],
       "type": [Function],
     },
   ],
