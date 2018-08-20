@@ -6,6 +6,7 @@ import fashiontradeTheme from '../../theme/default';
 import Icon from '../Icon';
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
+import DropdownTitle from '../DropdownTitle';
 
 const Trigger = styled.div`
   display: flex;
@@ -25,10 +26,10 @@ const Menu = styled.div`
 `;
 
 class OverflowMenu extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      menuOpen: false
+      menuOpen: props.openByDefault
     };
   }
 
@@ -57,7 +58,7 @@ class OverflowMenu extends Component {
   }
 
   render() {
-    const { children, position } = this.props;
+    const { children, position, openByDefault } = this.props;
 
     return (
       <ToggleMenu
@@ -65,6 +66,7 @@ class OverflowMenu extends Component {
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
+        openByDefault={openByDefault}
       >
         <Menu>
           {children}
@@ -77,16 +79,19 @@ class OverflowMenu extends Component {
 OverflowMenu.defaultProps = {
   color: fashiontradeTheme.ravenBlack,
   activeColor: fashiontradeTheme.skyBlue,
-  position: 'right'
+  position: 'right',
+  openByDefault: false
 };
 
 OverflowMenu.propTypes = {
   color: PropTypes.string,
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
   position: PropTypes.string,
-  activeColor: PropTypes.string
+  activeColor: PropTypes.string,
+  openByDefault: PropTypes.bool
 };
 
 OverflowMenu.Item = DropdownItem;
+OverflowMenu.Title = DropdownTitle;
 
 export default OverflowMenu;
