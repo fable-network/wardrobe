@@ -42,6 +42,10 @@ class ToggleMenu extends Component {
     }
   }
 
+  handleOutOfBounds = () => {
+    console.log(this.menuRef)
+  }
+
   handleOpen = (event) => {
     event.preventDefault();
 
@@ -49,6 +53,9 @@ class ToggleMenu extends Component {
     this.setState({ open: true }, () => {
       if (this.props.closeOnOutsideClick) {
         document.addEventListener('click', this.handleClose);
+      }
+      if (this.props.preventOutOfBounds) {
+        this.handleOutOfBounds();
       }
     });
   }
@@ -82,6 +89,7 @@ class ToggleMenu extends Component {
       <TriggerWrapper onClick={this.toggleMenu} className={className}>
         {trigger}
         <MenuWrapper
+          innerRef={(comp) => { this.menuRef = comp }}
           top={top}
           bottom={bottom}
           left={left}

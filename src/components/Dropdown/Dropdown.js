@@ -8,29 +8,43 @@ import Icon from '../Icon';
 
 const DropdownButton = styled.button`
   display: inline-block;
-  background-color: #ffffff;
-  border: solid 1px ${props => (props.disabled ? '#cdcdcd' : '#313233')};
+  background-color: ${props => props.theme.white};
+  border: solid 1px ${props => (
+    props.disabled ? props.theme.stoneGrey : props.theme.ravenBlack
+  )};
   font-family: inherit;
-  font-size: 16px;
-  line-height: 1;
-  color: ${props => (props.disabled ? '#cdcdcd' : '#313233')};
+  font-size: inherit;
+  color: ${props => (
+    props.disabled ? props.theme.stoneGrey : props.theme.ravenBlack
+  )};
   padding: 8px 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'inherit')};
 `;
 
-const ToggleIcon = styled(Icon)`
+const ToggleIcon = styled(Icon).attrs({
+  color: props => {
+    // Set Icon color attribute
+    if (props.disabled) {
+      return props.theme.stoneGrey;
+    }
+    return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
+  },
+})`
   margin-left: ${props => (props.selected ? 11 : 6)}px;
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
 `;
 
 const DropdownPanel = styled.div`
-  background: white;
-  border: solid 1px #9b9b9b;
+  position: absolute;
+  display: block;
+  margin-top: 4px;
+  background: ${props => props.theme.white};
+  border: solid 1px ${props => props.theme.stoneGrey};
   min-width: 100%; // Minimally the width of the dropdown button
   z-index: 11;
   max-height: 75vh;
-  box-shadow: 0 2px 10px #ccc;
+  box-shadow: 0 2px 10px ${props => props.theme.stoneGrey};
   overflow: auto;
 `;
 
@@ -47,16 +61,6 @@ class Dropdown extends Component {
     const { isSelected } = this.props;
 
     return isSelected ? 'caret-selected' : 'caret-down';
-  };
-
-  getIconColor = () => {
-    const { disabled, isSelected } = this.props;
-
-    if (disabled) {
-      return '#cdcdcd';
-    }
-
-    return isSelected ? '#89ac52' : '#313233';
   };
 
   handleMenuOpen = () => {
@@ -78,7 +82,6 @@ class Dropdown extends Component {
           open={menuOpen}
           selected={isSelected}
           name={this.getIcon()}
-          color={this.getIconColor()}
           width={isSelected ? 11 : 16}
           height={9}
         />

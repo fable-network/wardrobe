@@ -18,6 +18,7 @@
   "pre-commit": [
     "lint",
     "test"
+    "dist"
   ],
   "dependencies": {},
   "scripts": {
