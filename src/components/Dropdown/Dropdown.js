@@ -41,7 +41,6 @@ const DropdownPanel = styled.div`
   background: ${props => props.theme.white};
   border: solid 1px ${props => props.theme.stoneGrey};
   min-width: 100%; // Minimally the width of the dropdown button
-  z-index: 11;
   max-height: 75vh;
   box-shadow: 0 2px 10px ${props => props.theme.stoneGrey};
   overflow: auto;

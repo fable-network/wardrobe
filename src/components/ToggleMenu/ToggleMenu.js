@@ -9,8 +9,8 @@ const TriggerWrapper = styled.span`
 
 const MenuWrapper = styled.div`
   position: absolute;
-  z-index: 1;
   visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+  z-index: 1;
   top: ${props => props.top};
   bottom: ${props => props.bottom};
   left: ${props => props.left};
@@ -91,6 +91,13 @@ class ToggleMenu extends Component {
     }
   }
 
+  handleKeyDown = (event) => {
+    if (event && event.keyCode === 27) {
+      // escape key pressed;
+      this.handleClose(event);
+    }
+  }
+
   handleOpen = (event) => {
     event.preventDefault();
 
@@ -98,6 +105,7 @@ class ToggleMenu extends Component {
     this.setState({ open: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
         document.addEventListener('click', this.handleClose);
+        document.addEventListener('keydown', this.handleKeyDown);
       }
       if (this.props.preventOutOfBounds) {
         this.handleOutOfBounds();
@@ -107,11 +115,15 @@ class ToggleMenu extends Component {
 
   handleClose = (event) => {
     event.preventDefault();
+    if (this.menuRef.contains(event.target)) {
+      return;
+    }
 
     this.props.onClose();
     this.setState({ open: false }, () => {
       if (this.props.closeOnOutsideClick) {
         document.removeEventListener('click', this.handleClose);
+        document.removeEventListener('keydown', this.handleKeyDown);
       }
     });
   }
