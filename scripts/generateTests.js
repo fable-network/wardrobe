@@ -1,5 +1,6 @@
 /* eslint no-console: 0 */
 const fs = require('fs');
+const colors = require('colors');
 
 const COMPONENTS_PATH = './src/components';
 
@@ -27,12 +28,27 @@ describe('~COMPONENT_NAME~ Component', () => {
 });
 `;
 
+const logInfo = (message) => {
+  console.log(colors.blue(message));
+};
+
+const logWarning = (message) => {
+  console.log(colors.yellow(message));
+};
+
+const logError = (message) => {
+  console.log(colors.red(message));
+};
+
 const writeTests = (tests) => {
   tests.forEach(test => {
     const path = `${COMPONENTS_PATH}/${test.name}/${test.name}_snapshot.spec.js`;
     fs.writeFile(path, test.code, (err) => {
-      if (err) throw err;
-      console.log(`Writing file to src/component/${test.name}/${test.name}.spec.js`);
+      if (err) {
+        logError(`Error writing file ${test.name}`);
+        throw err;
+      }
+      logInfo(`Writing file to src/component/${test.name}/${test.name}_snapshot.spec.js`);
     });
   });
 };
@@ -76,10 +92,11 @@ const cleanComponentCode = (code) =>
       .replace(/\s\s+/g, ' ') // replace double spaces with single space.
       .replace(/\n/g, '')); // remove all line breaks.
 
-const readMarkdownFile = (fileName, callBack) => {
+const readMarkdownFile = (fileName, callBack, errorCallBack) => {
   fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
     if (err) {
-      console.log(`Could not find markdown file for ${fileName}`);
+      logWarning(`Could not find markdown file for ${fileName}`);
+      errorCallBack();
     } else {
       const file = out.toString();
       callBack(file);
@@ -124,12 +141,18 @@ const generateTests = () => {
       if (components && components.length) {
         const snapshotCode = components.map(getSnapshotCode).join('');
         const result = injectSnapshotCode(snapshotCode, name);
-
         tests.push({ name, code: result });
       } else {
-        console.log(`No matching components found for ${name}`);
+        logWarning(`No matching components found for ${name}`);
       }
 
+      progress[name] = true;
+      if (finishedGeneration(progress)) {
+        writeTests(tests);
+      }
+    },
+    () => {
+      // error callback
       progress[name] = true;
       if (finishedGeneration(progress)) {
         writeTests(tests);

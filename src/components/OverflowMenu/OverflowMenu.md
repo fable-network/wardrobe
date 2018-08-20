@@ -10,6 +10,18 @@ Basic usage:
 </OverflowMenu>
 ```
 
+Different position:
+```jsx
+<OverflowMenu position="left">
+  <OverflowMenu.Item>
+    Edit
+  </OverflowMenu.Item>
+  <OverflowMenu.Item>
+    Delete
+  </OverflowMenu.Item>
+</OverflowMenu>
+```
+
 Custom colors:
 ```jsx
 <OverflowMenu color='red' activeColor='orange'>

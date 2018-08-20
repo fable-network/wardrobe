@@ -241,7 +241,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <ColorSelector
     color="#FFF"
     disableInteraction={false}
-    patternImage="src/static/images/patternImage.jpg"
+    patternImage="images/patternImage.jpg"
     selected={false}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -262,7 +262,7 @@ ShallowWrapper {
           selected={false}
           style={
             Object {
-              "backgroundImage": "url(src/static/images/patternImage.jpg)",
+              "backgroundImage": "url(images/patternImage.jpg)",
             }
           }
         />,
@@ -281,7 +281,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
           "selected": false,
           "style": Object {
-            "backgroundImage": "url(src/static/images/patternImage.jpg)",
+            "backgroundImage": "url(images/patternImage.jpg)",
           },
         },
         "ref": null,
@@ -304,7 +304,7 @@ ShallowWrapper {
             selected={false}
             style={
               Object {
-                "backgroundImage": "url(src/static/images/patternImage.jpg)",
+                "backgroundImage": "url(images/patternImage.jpg)",
               }
             }
           />,
@@ -323,7 +323,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
             "selected": false,
             "style": Object {
-              "backgroundImage": "url(src/static/images/patternImage.jpg)",
+              "backgroundImage": "url(images/patternImage.jpg)",
             },
           },
           "ref": null,
