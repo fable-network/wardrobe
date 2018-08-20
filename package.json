@@ -18,7 +18,7 @@
   "pre-commit": [
     "lint",
     "test",
-    "commit-dist"
+    "add-dist"
   ],
   "dependencies": {},
   "scripts": {
@@ -27,7 +27,7 @@
     "lint": "eslint src scripts tools",
     "test": "NODE_ENV=test jest --no-cache",
     "dist": "rm -rf ./dist && grunt && webpack --mode=production --config webpack.production.config.js",
-    "commit-dist": "./commit-dist.sh",
+    "add-dist": "./add-dist.sh",
     "build": "styleguidist build",
     "update-snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest",
