@@ -36,7 +36,6 @@ const ToggleIcon = styled(Icon).attrs({
 `;
 
 const DropdownPanel = styled.div`
-  position: absolute;
   display: block;
   margin-top: 4px;
   background: ${props => props.theme.white};

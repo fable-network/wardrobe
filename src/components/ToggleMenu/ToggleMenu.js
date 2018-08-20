@@ -22,7 +22,8 @@ class ToggleMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: props.openByDefault
+      open: props.openByDefault,
+      position: props.position
     };
   }
 
@@ -42,15 +43,59 @@ class ToggleMenu extends Component {
     }
   }
 
-  handleOutOfBounds = () => {
-    console.log(this.menuRef)
+  getOppositePosition = (position) => {
+    switch (position) {
+      case 'top':
+        return 'bottom';
+      case 'bottom':
+        return 'top';
+      case 'left':
+        return 'right';
+      case 'right':
+        return 'left';
+      default:
+        return position;
+    }
+  }
+
+  isMenuInViewport = () => {
+    if (!this.menuRef) {
+      return null;
+    }
+
+    const rect = this.menuRef.getBoundingClientRect();
+
+    return {
+      top: rect.top >= 0,
+      left: rect.left >= 0,
+      bottom: rect.bottom <= (window.innerHeight || document.documentElement.clientHeight),
+      right: rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    };
+  }
+
+  handleOutOfBounds = (restoreOriginalPosition = false) => {
+    const withinBounds = this.isMenuInViewport();
+    const outOfBoundsSide = Object.keys(withinBounds).find(key => withinBounds[key] === false);
+    if (!outOfBoundsSide) {
+      // not out of bounds.
+      return;
+    }
+
+    if (!restoreOriginalPosition) {
+      this.setState({ position: this.getOppositePosition(outOfBoundsSide) }, () => {
+        this.handleOutOfBounds(true);
+      });
+    } else {
+      // restores the original position if both opposite sides are out of bounds.
+      this.setState({ position: this.props.position });
+    }
   }
 
   handleOpen = (event) => {
     event.preventDefault();
 
     this.props.onOpen();
-    this.setState({ open: true }, () => {
+    this.setState({ open: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
         document.addEventListener('click', this.handleClose);
       }
@@ -81,7 +126,8 @@ class ToggleMenu extends Component {
   }
 
   render() {
-    const { trigger, children, position, className } = this.props;
+    const { trigger, children, className } = this.props;
+    const { position } = this.state;
     const { top, bottom, left, right, margin } = this.getPositionValues(position);
     const { open } = this.state;
 
@@ -89,7 +135,7 @@ class ToggleMenu extends Component {
       <TriggerWrapper onClick={this.toggleMenu} className={className}>
         {trigger}
         <MenuWrapper
-          innerRef={(comp) => { this.menuRef = comp }}
+          innerRef={c => { this.menuRef = c; }}
           top={top}
           bottom={bottom}
           left={left}
@@ -120,7 +166,7 @@ ToggleMenu.propTypes = {
 ToggleMenu.defaultProps = {
   openByDefault: false,
   position: 'bottom',
-  preventOutOfBounds: true,
+  preventOutOfBounds: false,
   onOpen: () => {},
   onClose: () => {},
   closeOnOutsideClick: true,
