@@ -17,7 +17,8 @@
   },
   "pre-commit": [
     "lint",
-    "test"
+    "test",
+    "dist"
   ],
   "dependencies": {},
   "scripts": {
