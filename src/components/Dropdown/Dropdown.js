@@ -8,7 +8,7 @@ import Icon from '../Icon';
 const Wrapper = styled.div`
   position: relative;
   display: inline-block;
-  line-height: 2;
+  line-height: 1;
 `;
 
 const DropdownButton = styled.button`
