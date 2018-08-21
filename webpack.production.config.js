@@ -5,8 +5,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
-    library: '',
-    libraryTarget: 'commonjs2'
+    library: '@fashiontrade/wardrobe',
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [
