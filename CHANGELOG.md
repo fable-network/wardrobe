@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.3.0] - 2018-08-21
 ### Added
 - Dropdown component
 - Component generation script.
