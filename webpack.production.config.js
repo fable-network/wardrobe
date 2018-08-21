@@ -14,11 +14,7 @@ module.exports = {
         test: /\.js$/,
         include: path.join(__dirname, 'src'),
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['env', 'react'],
-          plugins: ['babel-plugin-transform-class-properties']
-        },
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
