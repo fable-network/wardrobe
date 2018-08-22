@@ -23,10 +23,10 @@ describe('OverflowMenu Component', () => {
       const wrapper5 = shallow(<OverflowMenu color='red'> <OverflowMenu.Item> Action 1 </OverflowMenu.Item> <OverflowMenu.Item> Action 2 </OverflowMenu.Item></OverflowMenu>);
       expect(wrapper5).toMatchSnapshot();
 
-      const wrapper6 = shallow(<OverflowMenu openByDefault={true}> <OverflowMenu.Title>Use the trigger to close me</OverflowMenu.Title> <OverflowMenu.Item> Action 1 </OverflowMenu.Item> <OverflowMenu.Item> Action 2 </OverflowMenu.Item></OverflowMenu>);
+      const wrapper6 = shallow(<OverflowMenu activeColor="blue"> <OverflowMenu.Item> Action 1 </OverflowMenu.Item> <OverflowMenu.Item> Action 2 </OverflowMenu.Item></OverflowMenu>);
       expect(wrapper6).toMatchSnapshot();
 
-      const wrapper7 = shallow(<OverflowMenu openByDefault={true} appearance="primary"> <OverflowMenu.Item> Action 1 </OverflowMenu.Item> <OverflowMenu.Item> Action 2 </OverflowMenu.Item></OverflowMenu>);
+      const wrapper7 = shallow(<OverflowMenu openByDefault={true}> <OverflowMenu.Title>Use the trigger to close me</OverflowMenu.Title> <OverflowMenu.Item> Action 1 </OverflowMenu.Item> <OverflowMenu.Item> Action 2 </OverflowMenu.Item></OverflowMenu>);
       expect(wrapper7).toMatchSnapshot();
 
     });
