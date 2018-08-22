@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- Moved react, react-dom and styled-components to peerDependencies
 
 ## [0.3.0] - 2018-08-21
 ### Added
