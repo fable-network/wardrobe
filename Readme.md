@@ -63,3 +63,14 @@ Example:
 // outside a code block
 <MyComponent /> // will be ignored
 ````
+
+## Release process
+* Update the package version in the package.json file.
+* Open the changelog and update everything from the unreleased section to the new release version and date.
+* Commit your changes to master.
+* Go to the releases tab on Github and draft a new release.
+* Use the same tag version you added in the changelog (e.g 1.0.0).
+* Release title should be the tag prefixed with 'v' (e.g v1.0.0).
+* Get what was Added/Changed from the changelog and add it in the description of the release.
+* Publish the release.
+* Publish the package to npm `npm publish`.

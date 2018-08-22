@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/components/index.js'),
+  entry: path.resolve(__dirname, './src/components/index.js'),
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
     library: '',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [
@@ -14,11 +14,7 @@ module.exports = {
         test: /\.js$/,
         include: path.join(__dirname, 'src'),
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['env', 'react'],
-          plugins: ['babel-plugin-transform-class-properties']
-        },
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
