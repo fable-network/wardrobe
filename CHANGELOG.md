@@ -1,7 +1,7 @@
 ## [Unreleased]
 ### Added
 - Overflow menu component
-- ToggleMenu container
+- ToggleMenu component
 
 ### Changed
 - Refactor Dropdown component to use ToggleMenu
