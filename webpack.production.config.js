@@ -1,4 +1,5 @@
 const path = require('path');
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/components/index.js'),
@@ -40,5 +41,5 @@ module.exports = {
       }
     ]
   },
-  externals: { 'styled-components': 'styled-components' }
+  externals: [nodeExternals()]
 };

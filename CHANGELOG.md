@@ -6,6 +6,10 @@
 ### Changed
 - Refactor Dropdown component to use ToggleMenu
 
+## [0.4.0] - 2018-08-22
+### Changed
+- Moved react, react-dom and styled-components to peerDependencies
+
 ## [0.3.0] - 2018-08-21
 ### Added
 - Dropdown component
