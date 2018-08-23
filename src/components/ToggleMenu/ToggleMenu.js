@@ -128,14 +128,9 @@ class ToggleMenu extends Component {
     });
   }
 
-  toggleMenu = (event) => {
-    const { open } = this.state;
-    if (open) {
-      this.handleClose(event);
-    } else {
-      this.handleOpen(event);
-    }
-  }
+  toggleMenu = (event) => (
+    this.state.open ? this.handleClose(event) : this.handleOpen(event)
+  );
 
   render() {
     const { trigger, children, className } = this.props;
@@ -179,8 +174,8 @@ ToggleMenu.defaultProps = {
   openByDefault: false,
   position: 'bottom',
   preventOutOfBounds: false,
-  onOpen: () => {},
-  onClose: () => {},
+  onOpen: () => null,
+  onClose: () => null,
   closeOnOutsideClick: true,
   menuOffset: '5px'
 };

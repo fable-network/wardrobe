@@ -35,22 +35,15 @@ class OverflowMenu extends Component {
 
   getColorFromAppearance = () => {
     const { appearance, theme } = this.props;
-    switch (appearance) {
-      case 'primary':
-        return theme.skyBlue;
-      case 'secondary':
-        return theme.stoneGrey;
-      case 'success':
-        return theme.limeGreen;
-      case 'warning':
-        return theme.apricotOrange;
-      case 'light':
-        return theme.pearlWhite;
-      case 'dark':
-        return theme.ravenBlack;
-      default:
-        return theme.skyBlue;
-    }
+    const colors = {
+      primary: theme.skyBlue,
+      secondary: theme.stoneGrey,
+      success: theme.limeGreen,
+      warning: theme.apricotOrange,
+      light: theme.pearlWhite,
+      dark: theme.ravenBlack
+    };
+    return colors[appearance];
   }
 
   handleMenuOpen = () => {
