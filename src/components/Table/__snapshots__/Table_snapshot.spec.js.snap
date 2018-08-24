@@ -1,0 +1,7946 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component snapshots should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={true}
+    appearance="light"
+    minWidth={0}
+    showBorders={false}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#f7f8fa",
+      "alternatingRowColors": true,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#efefef",
+      "minWidth": 0,
+      "rowColor": "#ffffff",
+      "showBorders": false,
+      "textColor": "#595959",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#f7f8fa",
+        "alternatingRowColors": true,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#efefef",
+        "minWidth": 0,
+        "rowColor": "#ffffff",
+        "showBorders": false,
+        "textColor": "#595959",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={true}
+    appearance="light"
+    minWidth={0}
+    showBorders={true}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#f7f8fa",
+      "alternatingRowColors": true,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#efefef",
+      "minWidth": 0,
+      "rowColor": "#ffffff",
+      "showBorders": true,
+      "textColor": "#595959",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#f7f8fa",
+        "alternatingRowColors": true,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#efefef",
+        "minWidth": 0,
+        "rowColor": "#ffffff",
+        "showBorders": true,
+        "textColor": "#595959",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 3`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={true}
+    appearance="dark"
+    minWidth={0}
+    showBorders={false}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#424344",
+      "alternatingRowColors": true,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#5b5c5e",
+      "minWidth": 0,
+      "rowColor": "#313233",
+      "showBorders": false,
+      "textColor": "#ffffff",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#424344",
+        "alternatingRowColors": true,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#5b5c5e",
+        "minWidth": 0,
+        "rowColor": "#313233",
+        "showBorders": false,
+        "textColor": "#ffffff",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 4`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={true}
+    appearance="dark"
+    minWidth={0}
+    showBorders={true}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#424344",
+      "alternatingRowColors": true,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#5b5c5e",
+      "minWidth": 0,
+      "rowColor": "#313233",
+      "showBorders": true,
+      "textColor": "#ffffff",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#424344",
+        "alternatingRowColors": true,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#5b5c5e",
+        "minWidth": 0,
+        "rowColor": "#313233",
+        "showBorders": true,
+        "textColor": "#ffffff",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 5`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={false}
+    appearance="light"
+    minWidth={0}
+    showBorders={false}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#f7f8fa",
+      "alternatingRowColors": false,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#efefef",
+      "minWidth": 0,
+      "rowColor": "#ffffff",
+      "showBorders": false,
+      "textColor": "#595959",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#f7f8fa",
+        "alternatingRowColors": false,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#efefef",
+        "minWidth": 0,
+        "rowColor": "#ffffff",
+        "showBorders": false,
+        "textColor": "#595959",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 6`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={false}
+    appearance="dark"
+    minWidth={0}
+    showBorders={false}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#424344",
+      "alternatingRowColors": false,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#5b5c5e",
+      "minWidth": 0,
+      "rowColor": "#313233",
+      "showBorders": false,
+      "textColor": "#ffffff",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#424344",
+        "alternatingRowColors": false,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#5b5c5e",
+        "minWidth": 0,
+        "rowColor": "#313233",
+        "showBorders": false,
+        "textColor": "#ffffff",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table Component snapshots should match snapshot 7`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alternatingRowColors={true}
+    appearance="light"
+    minWidth="2200px"
+    showBorders={false}
+  >
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Name
+      </Table__Cell>
+       
+      <Table__Cell>
+        Age
+      </Table__Cell>
+       
+      <Table__Cell>
+        Gender
+      </Table__Cell>
+       
+      <Table__Cell>
+        Address
+      </Table__Cell>
+       
+      <Table__Cell>
+        Phone Number
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+     
+    <Table__Row>
+       
+      <Table__Cell>
+        Ali
+      </Table__Cell>
+       
+      <Table__Cell>
+        25
+      </Table__Cell>
+       
+      <Table__Cell>
+        Male
+      </Table__Cell>
+       
+      <Table__Cell>
+        Singel 542, 1017AZ, Amsterdam, NL
+      </Table__Cell>
+       
+      <Table__Cell>
+        0612376543
+      </Table__Cell>
+       
+    </Table__Row>
+  </Table>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alternateRowColor": "#f7f8fa",
+      "alternatingRowColors": true,
+      "borderColor": "#9b9b9b",
+      "children": Array [
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Name
+          </Table__Cell>
+           
+          <Table__Cell>
+            Age
+          </Table__Cell>
+           
+          <Table__Cell>
+            Gender
+          </Table__Cell>
+           
+          <Table__Cell>
+            Address
+          </Table__Cell>
+           
+          <Table__Cell>
+            Phone Number
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+        " ",
+        <Table__Row>
+           
+          <Table__Cell>
+            Ali
+          </Table__Cell>
+           
+          <Table__Cell>
+            25
+          </Table__Cell>
+           
+          <Table__Cell>
+            Male
+          </Table__Cell>
+           
+          <Table__Cell>
+            Singel 542, 1017AZ, Amsterdam, NL
+          </Table__Cell>
+           
+          <Table__Cell>
+            0612376543
+          </Table__Cell>
+           
+        </Table__Row>,
+      ],
+      "headerColor": "#efefef",
+      "minWidth": "2200px",
+      "rowColor": "#ffffff",
+      "showBorders": false,
+      "textColor": "#595959",
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Name
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Age
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Gender
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Address
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Age",
+            },
+            "ref": null,
+            "rendered": "Age",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gender",
+            },
+            "ref": null,
+            "rendered": "Gender",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Address",
+            },
+            "ref": null,
+            "rendered": "Address",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Phone Number",
+            },
+            "ref": null,
+            "rendered": "Phone Number",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Table__Cell>
+              Ali
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              25
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Male
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>,
+            " ",
+            <Table__Cell>
+              0612376543
+            </Table__Cell>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Ali",
+            },
+            "ref": null,
+            "rendered": "Ali",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "25",
+            },
+            "ref": null,
+            "rendered": "25",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Male",
+            },
+            "ref": null,
+            "rendered": "Male",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Singel 542, 1017AZ, Amsterdam, NL",
+            },
+            "ref": null,
+            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "0612376543",
+            },
+            "ref": null,
+            "rendered": "0612376543",
+            "type": [Function],
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alternateRowColor": "#f7f8fa",
+        "alternatingRowColors": true,
+        "borderColor": "#9b9b9b",
+        "children": Array [
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Name
+            </Table__Cell>
+             
+            <Table__Cell>
+              Age
+            </Table__Cell>
+             
+            <Table__Cell>
+              Gender
+            </Table__Cell>
+             
+            <Table__Cell>
+              Address
+            </Table__Cell>
+             
+            <Table__Cell>
+              Phone Number
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+          " ",
+          <Table__Row>
+             
+            <Table__Cell>
+              Ali
+            </Table__Cell>
+             
+            <Table__Cell>
+              25
+            </Table__Cell>
+             
+            <Table__Cell>
+              Male
+            </Table__Cell>
+             
+            <Table__Cell>
+              Singel 542, 1017AZ, Amsterdam, NL
+            </Table__Cell>
+             
+            <Table__Cell>
+              0612376543
+            </Table__Cell>
+             
+          </Table__Row>,
+        ],
+        "headerColor": "#efefef",
+        "minWidth": "2200px",
+        "rowColor": "#ffffff",
+        "showBorders": false,
+        "textColor": "#595959",
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Name
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Age
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Gender
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Address
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Phone Number
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Age",
+              },
+              "ref": null,
+              "rendered": "Age",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gender",
+              },
+              "ref": null,
+              "rendered": "Gender",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Address",
+              },
+              "ref": null,
+              "rendered": "Address",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Phone Number",
+              },
+              "ref": null,
+              "rendered": "Phone Number",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Table__Cell>
+                Ali
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                25
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Male
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                Singel 542, 1017AZ, Amsterdam, NL
+              </Table__Cell>,
+              " ",
+              <Table__Cell>
+                0612376543
+              </Table__Cell>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Ali",
+              },
+              "ref": null,
+              "rendered": "Ali",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "25",
+              },
+              "ref": null,
+              "rendered": "25",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Male",
+              },
+              "ref": null,
+              "rendered": "Male",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Singel 542, 1017AZ, Amsterdam, NL",
+              },
+              "ref": null,
+              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "0612376543",
+              },
+              "ref": null,
+              "rendered": "0612376543",
+              "type": [Function],
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

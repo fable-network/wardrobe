@@ -83,14 +83,14 @@ const injectSnapshotCode = (code, componentName) => {
     .replace('~OPTIONAL_IMPORTS~', optionalImports.join('\n'));
 };
 
+const tabWidth = '  ';
 // removes the extra characters from the matched strings (jsx & ```).
 const cleanComponentCode = (code) =>
   code.map(component =>
     component
       .replace(/```/g, '') // remove all occurences of the string "```".
       .replace(/jsx/g, '') // remove all occurences of the string "jsx".
-      .replace(/\s\s+/g, ' ') // replace double spaces with single space.
-      .replace(/\n/g, '')); // remove all line breaks.
+      .replace(/\n/g, `\n${tabWidth.repeat(4)}`));
 
 const readMarkdownFile = (fileName, callBack, errorCallBack) => {
   fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
