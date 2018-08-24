@@ -9,101 +9,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={false}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -122,101 +94,73 @@ ShallowWrapper {
       "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#efefef",
@@ -227,39 +171,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -271,7 +207,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -283,7 +218,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -295,7 +229,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -307,7 +240,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -319,43 +251,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -367,7 +290,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -379,7 +301,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -391,7 +312,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -403,7 +323,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -415,43 +334,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -463,7 +373,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -475,7 +384,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -487,7 +395,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -499,7 +406,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -511,43 +417,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -559,7 +456,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -571,7 +467,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -583,7 +478,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -595,7 +489,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -607,7 +500,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -624,101 +516,73 @@ ShallowWrapper {
         "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#efefef",
@@ -729,39 +593,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -773,7 +629,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -785,7 +640,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -797,7 +651,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -809,7 +662,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -821,43 +673,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -869,7 +712,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -881,7 +723,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -893,7 +734,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -905,7 +745,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -917,43 +756,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -965,7 +795,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -977,7 +806,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -989,7 +817,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1001,7 +828,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1013,43 +839,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1061,7 +878,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1073,7 +889,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1085,7 +900,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1097,7 +911,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1109,7 +922,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -1144,101 +956,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={true}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -1257,101 +1041,73 @@ ShallowWrapper {
       "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#efefef",
@@ -1362,39 +1118,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1406,7 +1154,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1418,7 +1165,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1430,7 +1176,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1442,7 +1187,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1454,43 +1198,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1502,7 +1237,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1514,7 +1248,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1526,7 +1259,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1538,7 +1270,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1550,43 +1281,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1598,7 +1320,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1610,7 +1331,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1622,7 +1342,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1634,7 +1353,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1646,43 +1364,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1694,7 +1403,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1706,7 +1414,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1718,7 +1425,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1730,7 +1436,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -1742,7 +1447,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -1759,101 +1463,73 @@ ShallowWrapper {
         "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#efefef",
@@ -1864,39 +1540,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1908,7 +1576,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1920,7 +1587,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1932,7 +1598,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1944,7 +1609,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -1956,43 +1620,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2004,7 +1659,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2016,7 +1670,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2028,7 +1681,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2040,7 +1692,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2052,43 +1703,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2100,7 +1742,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2112,7 +1753,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2124,7 +1764,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2136,7 +1775,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2148,43 +1786,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2196,7 +1825,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2208,7 +1836,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2220,7 +1847,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2232,7 +1858,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -2244,7 +1869,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -2279,101 +1903,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={false}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -2392,101 +1988,73 @@ ShallowWrapper {
       "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
@@ -2497,39 +2065,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2541,7 +2101,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2553,7 +2112,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2565,7 +2123,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2577,7 +2134,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2589,43 +2145,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2637,7 +2184,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2649,7 +2195,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2661,7 +2206,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2673,7 +2217,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2685,43 +2228,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2733,7 +2267,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2745,7 +2278,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2757,7 +2289,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2769,7 +2300,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2781,43 +2311,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2829,7 +2350,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2841,7 +2361,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2853,7 +2372,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2865,7 +2383,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -2877,7 +2394,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -2894,101 +2410,73 @@ ShallowWrapper {
         "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
@@ -2999,39 +2487,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3043,7 +2523,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3055,7 +2534,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3067,7 +2545,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3079,7 +2556,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3091,43 +2567,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3139,7 +2606,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3151,7 +2617,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3163,7 +2628,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3175,7 +2639,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3187,43 +2650,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3235,7 +2689,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3247,7 +2700,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3259,7 +2711,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3271,7 +2722,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3283,43 +2733,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3331,7 +2772,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3343,7 +2783,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3355,7 +2794,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3367,7 +2805,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -3379,7 +2816,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -3414,101 +2850,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={true}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -3527,101 +2935,73 @@ ShallowWrapper {
       "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
@@ -3632,39 +3012,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3676,7 +3048,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3688,7 +3059,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3700,7 +3070,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3712,7 +3081,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3724,43 +3092,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3772,7 +3131,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3784,7 +3142,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3796,7 +3153,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3808,7 +3164,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3820,43 +3175,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3868,7 +3214,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3880,7 +3225,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3892,7 +3236,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3904,7 +3247,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3916,43 +3258,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3964,7 +3297,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3976,7 +3308,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -3988,7 +3319,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4000,7 +3330,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4012,7 +3341,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -4029,101 +3357,73 @@ ShallowWrapper {
         "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
@@ -4134,39 +3434,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4178,7 +3470,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4190,7 +3481,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4202,7 +3492,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4214,7 +3503,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4226,43 +3514,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4274,7 +3553,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4286,7 +3564,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4298,7 +3575,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4310,7 +3586,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4322,43 +3597,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4370,7 +3636,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4382,7 +3647,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4394,7 +3658,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4406,7 +3669,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4418,43 +3680,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4466,7 +3719,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4478,7 +3730,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4490,7 +3741,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4502,7 +3752,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -4514,7 +3763,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -4549,101 +3797,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={false}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -4662,101 +3882,73 @@ ShallowWrapper {
       "alternatingRowColors": false,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#efefef",
@@ -4767,39 +3959,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4811,7 +3995,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4823,7 +4006,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4835,7 +4017,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4847,7 +4028,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4859,43 +4039,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4907,7 +4078,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4919,7 +4089,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4931,7 +4100,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4943,7 +4111,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -4955,43 +4122,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5003,7 +4161,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5015,7 +4172,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5027,7 +4183,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5039,7 +4194,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5051,43 +4205,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5099,7 +4244,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5111,7 +4255,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5123,7 +4266,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5135,7 +4277,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5147,7 +4288,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -5164,101 +4304,73 @@ ShallowWrapper {
         "alternatingRowColors": false,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#efefef",
@@ -5269,39 +4381,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5313,7 +4417,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5325,7 +4428,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5337,7 +4439,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5349,7 +4450,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5361,43 +4461,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5409,7 +4500,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5421,7 +4511,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5433,7 +4522,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5445,7 +4533,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5457,43 +4544,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5505,7 +4583,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5517,7 +4594,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5529,7 +4605,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5541,7 +4616,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5553,43 +4627,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5601,7 +4666,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5613,7 +4677,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5625,7 +4688,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5637,7 +4699,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -5649,7 +4710,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -5684,101 +4744,73 @@ ShallowWrapper {
     minWidth={0}
     showBorders={false}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -5797,101 +4829,73 @@ ShallowWrapper {
       "alternatingRowColors": false,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
@@ -5902,39 +4906,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5946,7 +4942,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5958,7 +4953,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5970,7 +4964,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5982,7 +4975,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -5994,43 +4986,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6042,7 +5025,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6054,7 +5036,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6066,7 +5047,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6078,7 +5058,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6090,43 +5069,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6138,7 +5108,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6150,7 +5119,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6162,7 +5130,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6174,7 +5141,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6186,43 +5152,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6234,7 +5191,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6246,7 +5202,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6258,7 +5213,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6270,7 +5224,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -6282,7 +5235,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -6299,101 +5251,73 @@ ShallowWrapper {
         "alternatingRowColors": false,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
@@ -6404,39 +5328,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6448,7 +5364,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6460,7 +5375,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6472,7 +5386,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6484,7 +5397,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6496,43 +5408,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6544,7 +5447,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6556,7 +5458,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6568,7 +5469,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6580,7 +5480,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6592,43 +5491,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6640,7 +5530,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6652,7 +5541,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6664,7 +5552,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6676,7 +5563,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6688,43 +5574,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6736,7 +5613,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6748,7 +5624,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6760,7 +5635,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6772,7 +5646,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -6784,7 +5657,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
@@ -6819,101 +5691,73 @@ ShallowWrapper {
     minWidth="2200px"
     showBorders={false}
   >
-     
     <Table__Row>
-       
       <Table__Cell>
         Name
       </Table__Cell>
-       
       <Table__Cell>
         Age
       </Table__Cell>
-       
       <Table__Cell>
         Gender
       </Table__Cell>
-       
       <Table__Cell>
         Address
       </Table__Cell>
-       
       <Table__Cell>
         Phone Number
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
-     
     <Table__Row>
-       
       <Table__Cell>
         Ali
       </Table__Cell>
-       
       <Table__Cell>
         25
       </Table__Cell>
-       
       <Table__Cell>
         Male
       </Table__Cell>
-       
       <Table__Cell>
         Singel 542, 1017AZ, Amsterdam, NL
       </Table__Cell>
-       
       <Table__Cell>
         0612376543
       </Table__Cell>
-       
     </Table__Row>
   </Table>,
   Symbol(enzyme.__renderer__): Object {
@@ -6932,101 +5776,73 @@ ShallowWrapper {
       "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Name
           </Table__Cell>
-           
           <Table__Cell>
             Age
           </Table__Cell>
-           
           <Table__Cell>
             Gender
           </Table__Cell>
-           
           <Table__Cell>
             Address
           </Table__Cell>
-           
           <Table__Cell>
             Phone Number
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
-        " ",
         <Table__Row>
-           
           <Table__Cell>
             Ali
           </Table__Cell>
-           
           <Table__Cell>
             25
           </Table__Cell>
-           
           <Table__Cell>
             Male
           </Table__Cell>
-           
           <Table__Cell>
             Singel 542, 1017AZ, Amsterdam, NL
           </Table__Cell>
-           
           <Table__Cell>
             0612376543
           </Table__Cell>
-           
         </Table__Row>,
       ],
       "headerColor": "#efefef",
@@ -7037,39 +5853,31 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Name
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Age
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Gender
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Address
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Phone Number
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7081,7 +5889,6 @@ ShallowWrapper {
             "rendered": "Name",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7093,7 +5900,6 @@ ShallowWrapper {
             "rendered": "Age",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7105,7 +5911,6 @@ ShallowWrapper {
             "rendered": "Gender",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7117,7 +5922,6 @@ ShallowWrapper {
             "rendered": "Address",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7129,43 +5933,34 @@ ShallowWrapper {
             "rendered": "Phone Number",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7177,7 +5972,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7189,7 +5983,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7201,7 +5994,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7213,7 +6005,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7225,43 +6016,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7273,7 +6055,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7285,7 +6066,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7297,7 +6077,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7309,7 +6088,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7321,43 +6099,34 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <Table__Cell>
               Ali
             </Table__Cell>,
-            " ",
             <Table__Cell>
               25
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Male
             </Table__Cell>,
-            " ",
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>,
-            " ",
             <Table__Cell>
               0612376543
             </Table__Cell>,
-            " ",
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7369,7 +6138,6 @@ ShallowWrapper {
             "rendered": "Ali",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7381,7 +6149,6 @@ ShallowWrapper {
             "rendered": "25",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7393,7 +6160,6 @@ ShallowWrapper {
             "rendered": "Male",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7405,7 +6171,6 @@ ShallowWrapper {
             "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
@@ -7417,7 +6182,6 @@ ShallowWrapper {
             "rendered": "0612376543",
             "type": [Function],
           },
-          " ",
         ],
         "type": [Function],
       },
@@ -7434,101 +6198,73 @@ ShallowWrapper {
         "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Name
             </Table__Cell>
-             
             <Table__Cell>
               Age
             </Table__Cell>
-             
             <Table__Cell>
               Gender
             </Table__Cell>
-             
             <Table__Cell>
               Address
             </Table__Cell>
-             
             <Table__Cell>
               Phone Number
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
-          " ",
           <Table__Row>
-             
             <Table__Cell>
               Ali
             </Table__Cell>
-             
             <Table__Cell>
               25
             </Table__Cell>
-             
             <Table__Cell>
               Male
             </Table__Cell>
-             
             <Table__Cell>
               Singel 542, 1017AZ, Amsterdam, NL
             </Table__Cell>
-             
             <Table__Cell>
               0612376543
             </Table__Cell>
-             
           </Table__Row>,
         ],
         "headerColor": "#efefef",
@@ -7539,39 +6275,31 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Name
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Age
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Gender
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Address
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Phone Number
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7583,7 +6311,6 @@ ShallowWrapper {
               "rendered": "Name",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7595,7 +6322,6 @@ ShallowWrapper {
               "rendered": "Age",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7607,7 +6333,6 @@ ShallowWrapper {
               "rendered": "Gender",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7619,7 +6344,6 @@ ShallowWrapper {
               "rendered": "Address",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7631,43 +6355,34 @@ ShallowWrapper {
               "rendered": "Phone Number",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7679,7 +6394,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7691,7 +6405,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7703,7 +6416,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7715,7 +6427,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7727,43 +6438,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7775,7 +6477,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7787,7 +6488,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7799,7 +6499,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7811,7 +6510,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7823,43 +6521,34 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              " ",
               <Table__Cell>
                 Ali
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 25
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Male
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 Singel 542, 1017AZ, Amsterdam, NL
               </Table__Cell>,
-              " ",
               <Table__Cell>
                 0612376543
               </Table__Cell>,
-              " ",
             ],
           },
           "ref": null,
           "rendered": Array [
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7871,7 +6560,6 @@ ShallowWrapper {
               "rendered": "Ali",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7883,7 +6571,6 @@ ShallowWrapper {
               "rendered": "25",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7895,7 +6582,6 @@ ShallowWrapper {
               "rendered": "Male",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7907,7 +6593,6 @@ ShallowWrapper {
               "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
               "type": [Function],
             },
-            " ",
             Object {
               "instance": null,
               "key": undefined,
@@ -7919,7 +6604,6 @@ ShallowWrapper {
               "rendered": "0612376543",
               "type": [Function],
             },
-            " ",
           ],
           "type": [Function],
         },
