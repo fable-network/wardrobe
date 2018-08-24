@@ -23,7 +23,7 @@ const colors = {
 const Cell = styled('div')`
   overflow: hidden;
   flex-grow: 1;
-  width: 100%; // default to full width
+  width: 100%;
   min-height: 1px;
   padding: 10px;
   text-overflow: ellipsis;
@@ -36,7 +36,6 @@ const Row = styled('div')`
   align-items: stretch;
 
   ${Cell} {
-    width: ${props => 100 / props.cols}%;
     font-size: 87.5%;
   }
 `;
@@ -51,14 +50,21 @@ const Header = Row.extend`
 
 const StyledTable = styled('div')`
   display: flex;
+  position: relative;
   flex-direction: column;
   background: ${props => props.background};
   border: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
   color: ${props => props.textColor};
+  overflow: auto;
+
+  ${Row},
+  ${Header} {
+    border-bottom: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
+    min-width: ${props => props.minWidth};
+  }
 
   ${Header} {
     background: ${props => props.headerColor};
-    border-bottom: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
   }
 
   ${Row} {
@@ -78,7 +84,7 @@ const StyledTable = styled('div')`
   }
 `;
 
-const Table = ({ children, alternatingRowColors, showBorders, appearance }) => {
+const Table = ({ children, alternatingRowColors, showBorders, appearance, minWidth }) => {
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
 
   return (
@@ -90,6 +96,7 @@ const Table = ({ children, alternatingRowColors, showBorders, appearance }) => {
       textColor={textColor}
       alternateRowColor={alternateRowColor}
       borderColor={borderColor}
+      minWidth={minWidth}
     >
       {children}
     </StyledTable>
@@ -100,13 +107,15 @@ Table.propTypes = {
   children: PropTypes.node.isRequired,
   alternatingRowColors: PropTypes.bool,
   showBorders: PropTypes.bool,
-  appearance: PropTypes.oneOf(['light', 'dark'])
+  appearance: PropTypes.oneOf(['light', 'dark']),
+  minWidth: PropTypes.string
 };
 
 Table.defaultProps = {
   alternatingRowColors: true,
   appearance: 'light',
-  showBorders: false
+  showBorders: false,
+  minWidth: 0
 };
 
 Table.Cell = Cell;
