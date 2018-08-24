@@ -21,8 +21,8 @@
     "add-dist"
   ],
   "dependencies": {
-    "prop-types": "15.6.1",
-    "classnames": "2.2.6"
+    "classnames": "2.2.6",
+    "prop-types": "15.6.1"
   },
   "scripts": {
     "start": "styleguidist server",

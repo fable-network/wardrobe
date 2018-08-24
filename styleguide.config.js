@@ -16,7 +16,7 @@ module.exports = {
 
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
   // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
-  getComponentPathLine(componentPath) {
+  getComponentPathLine() {
     return null;
   },
 
