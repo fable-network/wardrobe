@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "classnames": "2.2.6",
-    "polished": "^2.0.2",
+    "polished": "2.0.2",
     "prop-types": "15.6.1"
   },
   "scripts": {
