@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding: 6px 15px;
-  color: #313233;
+  padding: 5px 15px;
+  color: ${props => props.theme.ravenBlack};
+  cursor: pointer;
   
   &:hover {
     background: #eee;

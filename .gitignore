@@ -11,7 +11,6 @@ Thumbs.db
 *.sublime-workspace
 *.log
 .eslintcache
-package-lock.json
 yarn.lock
 styleguide/
 src/static/iconsprite-demo.html

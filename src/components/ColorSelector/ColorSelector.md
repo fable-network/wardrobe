@@ -80,7 +80,7 @@ As part of a group:
 </div>
 <div style={{padding: '3px 0'}}>
   <ColorSelector
-    patternImage="src/static/images/patternImage.jpg"
+    patternImage="images/patternImage.jpg"
     onClick={() => alert('Pattern image')}
     text="Pattern image"
   />

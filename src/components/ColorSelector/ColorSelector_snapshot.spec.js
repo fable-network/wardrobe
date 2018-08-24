@@ -14,7 +14,7 @@ describe('ColorSelector Component', () => {
       const wrapper2 = shallow(<ColorSelector color="#5F9DC7" onClick={() => alert('Clicked!')}/>);
       expect(wrapper2).toMatchSnapshot();
 
-      const wrapper3 = shallow(<ColorSelector patternImage="src/static/images/patternImage.jpg"/>);
+      const wrapper3 = shallow(<ColorSelector patternImage="images/patternImage.jpg"/>);
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(<ColorSelector color="#aecc76" text="Lime green"/>);
