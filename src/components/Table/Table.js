@@ -55,13 +55,10 @@ const StyledTable = styled('div')`
   flex-direction: column;
   background: ${props => props.background};
   border: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
+  border-right: none;
+  border-top: none;
   color: ${props => props.textColor};
   overflow: auto;
-
-  ${Row}:not(:last-of-type),
-  ${Header} {
-    border-bottom: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
-  }
 
   ${Header} {
     background: ${props => props.headerColor};
@@ -82,9 +79,9 @@ const StyledTable = styled('div')`
   }
 
   ${Cell} {
-    &:not(:last-of-type) {
-      border-right: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
-    }
+    border: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
+    border-bottom: none;
+    border-left: none;
   }
 `;
 
