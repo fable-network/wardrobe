@@ -7,7 +7,7 @@ ShallowWrapper {
     alternatingRowColors={true}
     appearance="light"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={false}
   >
     <Table__Row>
@@ -167,7 +167,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -591,7 +591,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",
@@ -959,7 +959,7 @@ ShallowWrapper {
     alternatingRowColors={true}
     appearance="light"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={true}
   >
     <Table__Row>
@@ -1119,7 +1119,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#ffffff",
       "showBorders": true,
       "textColor": "#595959",
@@ -1543,7 +1543,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#ffffff",
         "showBorders": true,
         "textColor": "#595959",
@@ -1911,7 +1911,7 @@ ShallowWrapper {
     alternatingRowColors={true}
     appearance="dark"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={false}
   >
     <Table__Row>
@@ -2071,7 +2071,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#313233",
       "showBorders": false,
       "textColor": "#ffffff",
@@ -2495,7 +2495,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#313233",
         "showBorders": false,
         "textColor": "#ffffff",
@@ -2863,7 +2863,7 @@ ShallowWrapper {
     alternatingRowColors={true}
     appearance="dark"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={true}
   >
     <Table__Row>
@@ -3023,7 +3023,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#313233",
       "showBorders": true,
       "textColor": "#ffffff",
@@ -3447,7 +3447,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#313233",
         "showBorders": true,
         "textColor": "#ffffff",
@@ -3815,7 +3815,7 @@ ShallowWrapper {
     alternatingRowColors={false}
     appearance="light"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={false}
   >
     <Table__Row>
@@ -3975,7 +3975,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -4399,7 +4399,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",
@@ -4767,7 +4767,7 @@ ShallowWrapper {
     alternatingRowColors={false}
     appearance="dark"
     interactable={false}
-    minWidth={0}
+    minWidth="0px"
     showBorders={false}
   >
     <Table__Row>
@@ -4927,7 +4927,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": 0,
+      "minWidth": "0px",
       "rowColor": "#313233",
       "showBorders": false,
       "textColor": "#ffffff",
@@ -5351,7 +5351,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": 0,
+        "minWidth": "0px",
         "rowColor": "#313233",
         "showBorders": false,
         "textColor": "#ffffff",

@@ -123,7 +123,7 @@ Table.defaultProps = {
   alternatingRowColors: true,
   appearance: 'light',
   showBorders: false,
-  minWidth: 0,
+  minWidth: '0px',
   interactable: false
 };
 
