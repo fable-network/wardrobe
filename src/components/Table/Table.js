@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { darken } from 'polished';
 import defaultTheme from '../../theme/default';
 
 const colors = {
@@ -57,23 +58,26 @@ const StyledTable = styled('div')`
   color: ${props => props.textColor};
   overflow: auto;
 
-  ${Row},
+  ${Row}:not(:last-of-type),
   ${Header} {
     border-bottom: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
-    min-width: ${props => props.minWidth};
   }
 
   ${Header} {
     background: ${props => props.headerColor};
+    min-width: ${props => props.minWidth};
   }
 
   ${Row} {
+    min-width: ${props => props.minWidth};
     background: ${props => props.rowColor};
-    &:not(:last-of-type) {
-      border-bottom: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
-    }
+    cursor: ${props => (props.interactable ? 'pointer' : 'initial')};
+    transition: background .1s linear;
     &:nth-child(odd) {
-      ${props => (props.alternatingRowColors ? `background: ${props.alternateRowColor}` : '')};
+      background: ${props => (props.alternateColors ? props.alternateRowColor : props.rowColor)};
+    }
+    &:hover {
+      background: ${props => props.hoverRowColor};
     }
   }
 
@@ -84,12 +88,13 @@ const StyledTable = styled('div')`
   }
 `;
 
-const Table = ({ children, alternatingRowColors, showBorders, appearance, minWidth }) => {
+const Table = (props) => {
+  const { children, alternatingRowColors, showBorders, appearance, minWidth, interactable } = props;
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
 
   return (
     <StyledTable
-      alternatingRowColors={alternatingRowColors}
+      alternateColors={alternatingRowColors}
       showBorders={showBorders}
       headerColor={headerColor}
       rowColor={rowColor}
@@ -97,6 +102,8 @@ const Table = ({ children, alternatingRowColors, showBorders, appearance, minWid
       alternateRowColor={alternateRowColor}
       borderColor={borderColor}
       minWidth={minWidth}
+      interactable={interactable}
+      hoverRowColor={interactable && darken(0.15, rowColor)}
     >
       {children}
     </StyledTable>
@@ -108,14 +115,16 @@ Table.propTypes = {
   alternatingRowColors: PropTypes.bool,
   showBorders: PropTypes.bool,
   appearance: PropTypes.oneOf(['light', 'dark']),
-  minWidth: PropTypes.string
+  minWidth: PropTypes.string,
+  interactable: PropTypes.bool
 };
 
 Table.defaultProps = {
   alternatingRowColors: true,
   appearance: 'light',
   showBorders: false,
-  minWidth: 0
+  minWidth: 0,
+  interactable: false
 };
 
 Table.Cell = Cell;

@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
+    interactable={false}
     minWidth={0}
     showBorders={false}
   >
@@ -90,8 +91,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -164,6 +165,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -512,8 +515,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -586,6 +589,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#ffffff",
         "showBorders": false,
@@ -953,6 +958,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
+    interactable={false}
     minWidth={0}
     showBorders={true}
   >
@@ -1037,8 +1043,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -1111,6 +1117,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#ffffff",
       "showBorders": true,
@@ -1459,8 +1467,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -1533,6 +1541,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#ffffff",
         "showBorders": true,
@@ -1900,6 +1910,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="dark"
+    interactable={false}
     minWidth={0}
     showBorders={false}
   >
@@ -1984,8 +1995,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": true,
       "alternateRowColor": "#424344",
-      "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -2058,6 +2069,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#313233",
       "showBorders": false,
@@ -2406,8 +2419,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": true,
         "alternateRowColor": "#424344",
-        "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -2480,6 +2493,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#313233",
         "showBorders": false,
@@ -2847,6 +2862,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="dark"
+    interactable={false}
     minWidth={0}
     showBorders={true}
   >
@@ -2931,8 +2947,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": true,
       "alternateRowColor": "#424344",
-      "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -3005,6 +3021,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#313233",
       "showBorders": true,
@@ -3353,8 +3371,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": true,
         "alternateRowColor": "#424344",
-        "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -3427,6 +3445,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#313233",
         "showBorders": true,
@@ -3794,6 +3814,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={false}
     appearance="light"
+    interactable={false}
     minWidth={0}
     showBorders={false}
   >
@@ -3878,8 +3899,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": false,
       "alternateRowColor": "#f7f8fa",
-      "alternatingRowColors": false,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -3952,6 +3973,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -4300,8 +4323,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": false,
         "alternateRowColor": "#f7f8fa",
-        "alternatingRowColors": false,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -4374,6 +4397,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#ffffff",
         "showBorders": false,
@@ -4741,6 +4766,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={false}
     appearance="dark"
+    interactable={false}
     minWidth={0}
     showBorders={false}
   >
@@ -4825,8 +4851,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": false,
       "alternateRowColor": "#424344",
-      "alternatingRowColors": false,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -4899,6 +4925,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": 0,
       "rowColor": "#313233",
       "showBorders": false,
@@ -5247,8 +5275,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": false,
         "alternateRowColor": "#424344",
-        "alternatingRowColors": false,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -5321,6 +5349,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": 0,
         "rowColor": "#313233",
         "showBorders": false,
@@ -5688,6 +5718,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
+    interactable={false}
     minWidth="2200px"
     showBorders={false}
   >
@@ -5772,8 +5803,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "alternatingRowColors": true,
       "borderColor": "#9b9b9b",
       "children": Array [
         <Table__Row>
@@ -5846,6 +5877,8 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
+      "hoverRowColor": false,
+      "interactable": false,
       "minWidth": "2200px",
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -6194,8 +6227,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "alternatingRowColors": true,
         "borderColor": "#9b9b9b",
         "children": Array [
           <Table__Row>
@@ -6268,6 +6301,8 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
+        "hoverRowColor": false,
+        "interactable": false,
         "minWidth": "2200px",
         "rowColor": "#ffffff",
         "showBorders": false,
