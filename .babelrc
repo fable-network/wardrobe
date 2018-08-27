@@ -5,8 +5,7 @@
     "stage-0",
   ],
   "plugins": [
-    ["babel-plugin-styled-components",
-    {
+    ["babel-plugin-styled-components", {
       "displayName": true
     }],
     "transform-class-properties"
