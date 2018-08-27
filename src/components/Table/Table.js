@@ -175,5 +175,14 @@ Table.defaultProps = {
 Table.Cell = Cell;
 Table.Row = Row;
 Table.Header = Header;
+Table.Cell.type = {
+  displayName: 'Table__Cell'
+};
+Table.Row.type = {
+  displayName: 'Table__Row'
+};
+Table.Header.type = {
+  displayName: 'Table__Header'
+};
 
 export default Table;
