@@ -120,7 +120,7 @@ const Table = (props) => {
   let modifiedChildren = children;
   if (children && children.length) {
     modifiedChildren = children.map(child => {
-      const componentName = child.type.displayName;
+      const componentName = child.type && child.type.displayName;
       if (componentName === 'Table__Row' || componentName === 'Table__Header') {
         return {
           ...child,
