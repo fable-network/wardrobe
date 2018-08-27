@@ -120,6 +120,7 @@ const addWeightToCells = (row, tableLayout) => {
   });
 };
 
+// Looks for rows and nested rows within a component and modifies its cells.
 const recursivelyModifyRows = (component, layout) => {
   // is a row then modify its cells.
   if (isTableRow(component)) {
