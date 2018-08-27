@@ -85,21 +85,27 @@ const StyledTable = styled('div')`
   }
 `;
 
+const isTableRow = (component) =>
+  component.type
+  && (component.type.displayName === 'Table__Row'
+  || component.type.displayName === 'Table__Header');
+
+const isTableCell = (component) =>
+  component.type && component.type.displayName === 'Table__Cell';
+
+
 const addWeightToCells = (row, tableLayout) => {
-  if (!row || !row.props) {
+  if (!row || !row.props || !row.props.children || !row.props.children.length) {
     return row;
   }
 
   const { children } = row.props;
-
-  if (!children.length) {
-    return row;
-  }
   const layout = row.props.layout || tableLayout || [];
-  const numberOfColumns = children.filter(child => child.type.displayName === 'Table__Cell').length;
+  const numberOfColumns = children.filter(isTableCell).length;
   let cellIndex = -1;
+
   return children.map(child => {
-    if (child.type.displayName === 'Table__Cell') {
+    if (isTableCell(child)) {
       cellIndex += 1;
       return {
         ...child,
@@ -114,25 +120,37 @@ const addWeightToCells = (row, tableLayout) => {
   });
 };
 
+const recursivelyModifyRows = (component, layout) => {
+  // is a row then modify its cells.
+  if (isTableRow(component)) {
+    return {
+      ...component,
+      props: {
+        ...component.props,
+        children: addWeightToCells(component, layout)
+      }
+    };
+  }
+
+  // is an array then flatten and modify its cells.
+  if (component.length) {
+    return component.map(child => recursivelyModifyRows(child, layout));
+  }
+
+  // is a non-row element, then look for a row in it's children.
+  const { children } = component.props;
+  if (children) {
+    return recursivelyModifyRows(children, layout);
+  }
+  return component;
+};
+
 const Table = (props) => {
   const { children, alternatingRowColors, showBorders, appearance, minWidth, interactable } = props;
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
   let modifiedChildren = children;
   if (children && children.length) {
-    modifiedChildren = children.map(child => {
-      debugger;
-      const componentName = child.type && child.type.displayName;
-      if (componentName === 'Table__Row' || componentName === 'Table__Header') {
-        return {
-          ...child,
-          props: {
-            ...child.props,
-            children: addWeightToCells(child, props.layout)
-          }
-        };
-      }
-      return child;
-    });
+    modifiedChildren = children.map(child => recursivelyModifyRows(child, props.layout));
   }
 
   return (
@@ -176,14 +194,5 @@ Table.defaultProps = {
 Table.Cell = Cell;
 Table.Row = Row;
 Table.Header = Header;
-Table.Cell.type = {
-  displayName: 'Table__Cell'
-};
-Table.Row.type = {
-  displayName: 'Table__Row'
-};
-Table.Header.type = {
-  displayName: 'Table__Header'
-};
 
 export default Table;
