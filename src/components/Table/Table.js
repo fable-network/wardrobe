@@ -24,7 +24,7 @@ const colors = {
 const Cell = styled('div')`
   overflow: hidden;
   flex-grow: 1;
-  width: 100%;
+  width: ${props => (100 / props.numberOfColumns) * props.widthWeight}%;
   min-height: 1px;
   padding: 10px;
   text-overflow: ellipsis;
@@ -85,9 +85,54 @@ const StyledTable = styled('div')`
   }
 `;
 
+const addWeightToCells = (row, tableLayout) => {
+  if (!row || !row.props) {
+    return row;
+  }
+
+  const { children } = row.props;
+
+  if (!children.length) {
+    return row;
+  }
+  const layout = row.props.layout || tableLayout || [];
+  const numberOfColumns = children.filter(child => child.type.displayName === 'Table__Cell').length;
+  let cellIndex = -1;
+  return children.map(child => {
+    if (child.type.displayName === 'Table__Cell') {
+      cellIndex += 1;
+      return {
+        ...child,
+        props: {
+          widthWeight: layout[cellIndex] || 1,
+          numberOfColumns,
+          ...child.props
+        }
+      };
+    }
+    return child;
+  });
+};
+
 const Table = (props) => {
   const { children, alternatingRowColors, showBorders, appearance, minWidth, interactable } = props;
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
+  let modifiedChildren = children;
+  if (children && children.length) {
+    modifiedChildren = children.map(child => {
+      const componentName = child.type.displayName;
+      if (componentName === 'Table__Row' || componentName === 'Table__Header') {
+        return {
+          ...child,
+          props: {
+            ...child.props,
+            children: addWeightToCells(child, props.layout)
+          }
+        };
+      }
+      return child;
+    });
+  }
 
   return (
     <StyledTable
@@ -102,7 +147,7 @@ const Table = (props) => {
       interactable={interactable}
       hoverRowColor={interactable && darken(0.15, rowColor)}
     >
-      {children}
+      {modifiedChildren}
     </StyledTable>
   );
 };
@@ -113,7 +158,9 @@ Table.propTypes = {
   showBorders: PropTypes.bool,
   appearance: PropTypes.oneOf(['light', 'dark']),
   minWidth: PropTypes.string,
-  interactable: PropTypes.bool
+  interactable: PropTypes.bool,
+  /** an array of integers that defines the ratio between columns */
+  layout: PropTypes.array
 };
 
 Table.defaultProps = {
@@ -121,7 +168,8 @@ Table.defaultProps = {
   appearance: 'light',
   showBorders: false,
   minWidth: '0px',
-  interactable: false
+  interactable: false,
+  layout: []
 };
 
 Table.Cell = Cell;
