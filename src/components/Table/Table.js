@@ -85,13 +85,23 @@ const StyledTable = styled('div')`
   }
 `;
 
-const isTableRow = (component) =>
-  component.type
-  && (component.type.displayName === 'Table__Row'
-  || component.type.displayName === 'Table__Header');
+const isTableRow = (component) => {
+  if (!component || !component.type) {
+    return false;
+  }
+  const { displayName } = component.type;
+  const targetName = component.type.target.displayName;
+  return displayName === 'Table__Row' || targetName === 'Table__Row';
+};
 
-const isTableCell = (component) =>
-  component.type && component.type.displayName === 'Table__Cell';
+const isTableCell = (component) => {
+  if (!component || !component.type) {
+    return false;
+  }
+  const { displayName } = component.type;
+  const targetName = component.type.target.displayName;
+  return displayName === 'Table__Cell' || targetName === 'Table__Cell';
+};
 
 
 const addWeightToCells = (row, tableLayout) => {
