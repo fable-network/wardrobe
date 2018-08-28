@@ -85,16 +85,17 @@ const StyledTable = styled('div')`
   }
 `;
 
-// Checks if a component is of a certain type (Cell, or Row)
+// Checks if a component (or its target) is of a certain type (Cell, or Row)
 const isComponentTypeOf = (type, component) => {
   if (!component || !component.type) {
     return false;
   }
   const componentType = component.type;
-  const targetType = componentType.target && componentType.target.type;
+  const targetType = componentType.target;
   const componentName = componentType.displayName;
   const targetName = targetType && targetType.displayName;
 
+  // true if the component name matches the type, or the component target name matches the type.
   return componentName === type || targetName === type;
 };
 
