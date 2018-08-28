@@ -56,6 +56,7 @@
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
     "colors": "1.3.1",
+    "copy-webpack-plugin": "^4.5.2",
     "downshift": "2.0.16",
     "enzyme": "3.4.1",
     "enzyme-adapter-react-16": "1.2.0",
@@ -94,7 +95,7 @@
     "testURL": "http://localhost/",
     "testEnvironment": "node",
     "moduleNameMapper": {
-      "^.+\\.(css|scss)$": "babel-jest"
+      "^.+\\.(css|scss|svg)$": "babel-jest"
     },
     "setupTestFrameworkScriptFile": "<rootDir>/config/test-setup.js"
   }

@@ -1,5 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/components/index.js'),
@@ -41,5 +42,10 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new CopyWebpackPlugin([
+      { from: 'src/static/iconsprite.svg', to: '' }
+    ])
+  ],
   externals: [nodeExternals()]
 };
