@@ -131,6 +131,9 @@ const addWeightToCells = (row, tableLayout) => {
 
 // Looks for rows and nested rows within a component and modifies its cells.
 const recursivelyModifyRows = (component, layout) => {
+  if (typeof component !== 'object') {
+    return component;
+  }
   // is a row then modify its cells.
   if (isTableRow(component)) {
     return {
@@ -150,7 +153,13 @@ const recursivelyModifyRows = (component, layout) => {
   // is a non-row element, then look for a row in it's children.
   const { children } = component.props;
   if (children) {
-    return recursivelyModifyRows(children, layout);
+    return {
+      ...component,
+      props: {
+        ...component.props,
+        children: recursivelyModifyRows(children, layout)
+      }
+    };
   }
   return component;
 };
