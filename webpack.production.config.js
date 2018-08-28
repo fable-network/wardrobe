@@ -1,6 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/components/index.js'),
@@ -25,6 +25,10 @@ module.exports = {
       {
         test: /\.svg$/,
         loader: 'svg-sprite-loader',
+        options: {
+          extract: true,
+          spriteFilename: 'iconsprite.svg'
+        }
       },
       {
         test: /\.scss$/,
@@ -43,9 +47,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new CopyWebpackPlugin([
-      { from: 'src/static/iconsprite.svg', to: '' }
-    ])
+    new SpriteLoaderPlugin()
   ],
   externals: [nodeExternals()]
 };
