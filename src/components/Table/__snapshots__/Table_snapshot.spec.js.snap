@@ -8,7 +8,7 @@ ShallowWrapper {
     appearance="light"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -228,7 +228,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -812,7 +812,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",
@@ -1289,7 +1289,7 @@ ShallowWrapper {
         1,
       ]
     }
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -1509,7 +1509,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -2093,7 +2093,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",
@@ -2562,7 +2562,7 @@ ShallowWrapper {
     appearance="light"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={true}
   >
     <Table__Row>
@@ -2782,7 +2782,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": true,
       "textColor": "#595959",
@@ -3366,7 +3366,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": true,
         "textColor": "#595959",
@@ -3835,7 +3835,7 @@ ShallowWrapper {
     appearance="dark"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -4055,7 +4055,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": false,
       "textColor": "#ffffff",
@@ -4639,7 +4639,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": false,
         "textColor": "#ffffff",
@@ -5108,7 +5108,7 @@ ShallowWrapper {
     appearance="dark"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={true}
   >
     <Table__Row>
@@ -5328,7 +5328,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": true,
       "textColor": "#ffffff",
@@ -5912,7 +5912,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": true,
         "textColor": "#ffffff",
@@ -6381,7 +6381,7 @@ ShallowWrapper {
     appearance="light"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -6601,7 +6601,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -7185,7 +7185,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",
@@ -7654,7 +7654,7 @@ ShallowWrapper {
     appearance="dark"
     interactable={false}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -7874,7 +7874,7 @@ ShallowWrapper {
       "headerColor": "#5b5c5e",
       "hoverRowColor": false,
       "interactable": false,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": false,
       "textColor": "#ffffff",
@@ -8458,7 +8458,7 @@ ShallowWrapper {
         "headerColor": "#5b5c5e",
         "hoverRowColor": false,
         "interactable": false,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": false,
         "textColor": "#ffffff",
@@ -10200,7 +10200,7 @@ ShallowWrapper {
     appearance="light"
     interactable={true}
     layout={Array []}
-    minWidth="0px"
+    minWidth="0"
     showBorders={false}
   >
     <Table__Row>
@@ -10420,7 +10420,7 @@ ShallowWrapper {
       "headerColor": "#efefef",
       "hoverRowColor": "#d9d9d9",
       "interactable": true,
-      "minWidth": "0px",
+      "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
       "textColor": "#595959",
@@ -11004,7 +11004,7 @@ ShallowWrapper {
         "headerColor": "#efefef",
         "hoverRowColor": "#d9d9d9",
         "interactable": true,
-        "minWidth": "0px",
+        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",

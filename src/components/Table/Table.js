@@ -58,7 +58,7 @@ const StyledTable = styled('div')`
   border-right: none;
   border-top: none;
   color: ${props => props.textColor};
-  overflow: auto;
+  overflow: ${props => (props.minWidth !== '0' ? 'auto' : 'initial')};
 
   ${Header} {
     background: ${props => props.headerColor};
@@ -205,7 +205,7 @@ Table.defaultProps = {
   alternatingRowColors: true,
   appearance: 'light',
   showBorders: false,
-  minWidth: '0px',
+  minWidth: '0',
   interactable: false,
   layout: []
 };
