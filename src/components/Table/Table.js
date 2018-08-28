@@ -85,24 +85,22 @@ const StyledTable = styled('div')`
   }
 `;
 
-const isTableRow = (component) => {
+// Checks if a component is of a certain type (Cell, or Row)
+const isComponentTypeOf = (type, component) => {
   if (!component || !component.type) {
     return false;
   }
-  const { displayName } = component.type;
-  const targetName = component.type.target.displayName;
-  return displayName === 'Table__Row' || targetName === 'Table__Row';
+  const componentType = component.type;
+  const targetType = componentType.target && componentType.target.type;
+  const componentName = componentType.displayName;
+  const targetName = targetType && targetType.displayName;
+
+  return componentName === type || targetName === type;
 };
 
-const isTableCell = (component) => {
-  if (!component || !component.type) {
-    return false;
-  }
-  const { displayName } = component.type;
-  const targetName = component.type.target.displayName;
-  return displayName === 'Table__Cell' || targetName === 'Table__Cell';
-};
+const isTableRow = (component) => isComponentTypeOf('Table__Row', component);
 
+const isTableCell = (component) => isComponentTypeOf('Table__Cell', component);
 
 const addWeightToCells = (row, tableLayout) => {
   if (!row || !row.props || !row.props.children || !row.props.children.length) {
