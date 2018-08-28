@@ -23,7 +23,8 @@
   "dependencies": {
     "classnames": "2.2.6",
     "polished": "2.0.2",
-    "prop-types": "15.6.1"
+    "prop-types": "15.6.1",
+    "svg-sprite-loader": "3.9.2"
   },
   "scripts": {
     "start": "styleguidist server",
