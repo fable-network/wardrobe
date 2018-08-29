@@ -1,6 +1,30 @@
-Basic usage:
+Basic usage `size="small"` (default):
 ```jsx
 <OverflowMenu>
+  <OverflowMenu.Item onClick={() => alert("this.edit()")}>
+    Edit
+  </OverflowMenu.Item>
+  <OverflowMenu.Item onClick={() => alert("this.delete()")}>
+    Delete
+  </OverflowMenu.Item>
+</OverflowMenu>
+```
+
+`size="medium"`:
+```jsx
+<OverflowMenu size="medium">
+  <OverflowMenu.Item onClick={() => alert("this.edit()")}>
+    Edit
+  </OverflowMenu.Item>
+  <OverflowMenu.Item onClick={() => alert("this.delete()")}>
+    Delete
+  </OverflowMenu.Item>
+</OverflowMenu>
+```
+
+`size="large"`:
+```jsx
+<OverflowMenu size="large">
   <OverflowMenu.Item onClick={() => alert("this.edit()")}>
     Edit
   </OverflowMenu.Item>
