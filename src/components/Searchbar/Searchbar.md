@@ -25,5 +25,7 @@ Filled value:
 
 Truncated text:
 ```jsx
-<div style={{ width: '150px'}}><Searchbar iconPosition="left" value="You can't see all of me, but I'm there" /></div>
+<div style={{ width: '150px'}}>
+  <Searchbar iconPosition="left" value="You can't see all of me, but I'm there" />
+</div>
 ```
