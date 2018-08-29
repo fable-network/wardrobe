@@ -1,6 +1,7 @@
 ## [Unreleased]
 ### Added
 - Searchbar component
+- Table component
 - Overflow menu component
 - ToggleMenu component
 

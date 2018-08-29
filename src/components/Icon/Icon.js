@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../static/iconsprite.svg';
 
 /**
  * Uses a SVG sprite to show icons based on name
