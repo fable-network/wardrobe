@@ -9,55 +9,40 @@ ShallowWrapper {
     isSelected={false}
     label="Don't push me..."
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       
       <nobr>
         ...cause I'm close to the edge
       </nobr>
-       
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       
       <nobr>
         I'm trying not to lose my head
       </nobr>
-       
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       
       <nobr>
         It's like a jungle sometimes
       </nobr>
-       
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
-       
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       
       <nobr>
         -- Grandmaster Flash
       </nobr>
-       
     </DropdownItem>
   </Dropdown>,
   Symbol(enzyme.__renderer__): Object {
@@ -73,55 +58,40 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <Dropdown__DropdownPanel>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           
           <nobr>
             ...cause I'm close to the edge
           </nobr>
-           
         </DropdownItem>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           
           <nobr>
             I'm trying not to lose my head
           </nobr>
-           
         </DropdownItem>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           
           <nobr>
             It's like a jungle sometimes
           </nobr>
-           
         </DropdownItem>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
-           
         </DropdownItem>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           
           <nobr>
             -- Grandmaster Flash
           </nobr>
-           
         </DropdownItem>
       </Dropdown__DropdownPanel>,
       "className": null,
@@ -152,223 +122,163 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               ...cause I'm close to the edge
             </nobr>
-             
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               I'm trying not to lose my head
             </nobr>
-             
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               It's like a jungle sometimes
             </nobr>
-             
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
-             
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               -- Grandmaster Flash
             </nobr>
-             
           </DropdownItem>,
         ],
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              " ",
-              <nobr>
-                ...cause I'm close to the edge
-              </nobr>,
-              " ",
-            ],
+            "children": <nobr>
+              ...cause I'm close to the edge
+            </nobr>,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "...cause I'm close to the edge",
-              },
-              "ref": null,
-              "rendered": "...cause I'm close to the edge",
-              "type": "nobr",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "...cause I'm close to the edge",
             },
-            " ",
-          ],
+            "ref": null,
+            "rendered": "...cause I'm close to the edge",
+            "type": "nobr",
+          },
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              " ",
-              <nobr>
-                I'm trying not to lose my head
-              </nobr>,
-              " ",
-            ],
+            "children": <nobr>
+              I'm trying not to lose my head
+            </nobr>,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "I'm trying not to lose my head",
-              },
-              "ref": null,
-              "rendered": "I'm trying not to lose my head",
-              "type": "nobr",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "I'm trying not to lose my head",
             },
-            " ",
-          ],
+            "ref": null,
+            "rendered": "I'm trying not to lose my head",
+            "type": "nobr",
+          },
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              " ",
-              <nobr>
-                It's like a jungle sometimes
-              </nobr>,
-              " ",
-            ],
+            "children": <nobr>
+              It's like a jungle sometimes
+            </nobr>,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "It's like a jungle sometimes",
-              },
-              "ref": null,
-              "rendered": "It's like a jungle sometimes",
-              "type": "nobr",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "It's like a jungle sometimes",
             },
-            " ",
-          ],
+            "ref": null,
+            "rendered": "It's like a jungle sometimes",
+            "type": "nobr",
+          },
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              " ",
-              <nobr>
-                It makes me wonder how I keep from goin' under
-              </nobr>,
-              " ",
-            ],
+            "children": <nobr>
+              It makes me wonder how I keep from goin' under
+            </nobr>,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "It makes me wonder how I keep from goin' under",
-              },
-              "ref": null,
-              "rendered": "It makes me wonder how I keep from goin' under",
-              "type": "nobr",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "It makes me wonder how I keep from goin' under",
             },
-            " ",
-          ],
+            "ref": null,
+            "rendered": "It makes me wonder how I keep from goin' under",
+            "type": "nobr",
+          },
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              " ",
-              <nobr>
-                -- Grandmaster Flash
-              </nobr>,
-              " ",
-            ],
+            "children": <nobr>
+              -- Grandmaster Flash
+            </nobr>,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "-- Grandmaster Flash",
-              },
-              "ref": null,
-              "rendered": "-- Grandmaster Flash",
-              "type": "nobr",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "-- Grandmaster Flash",
             },
-            " ",
-          ],
+            "ref": null,
+            "rendered": "-- Grandmaster Flash",
+            "type": "nobr",
+          },
           "type": [Function],
         },
       ],
@@ -383,55 +293,40 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <Dropdown__DropdownPanel>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               ...cause I'm close to the edge
             </nobr>
-             
           </DropdownItem>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               I'm trying not to lose my head
             </nobr>
-             
           </DropdownItem>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               It's like a jungle sometimes
             </nobr>
-             
           </DropdownItem>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
-             
           </DropdownItem>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             
             <nobr>
               -- Grandmaster Flash
             </nobr>
-             
           </DropdownItem>
         </Dropdown__DropdownPanel>,
         "className": null,
@@ -462,223 +357,163 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            " ",
             <DropdownItem
               onClick={[Function]}
             >
-               
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
-               
             </DropdownItem>,
-            " ",
             <DropdownItem
               onClick={[Function]}
             >
-               
               <nobr>
                 I'm trying not to lose my head
               </nobr>
-               
             </DropdownItem>,
-            " ",
             <DropdownItem
               onClick={[Function]}
             >
-               
               <nobr>
                 It's like a jungle sometimes
               </nobr>
-               
             </DropdownItem>,
-            " ",
             <DropdownItem
               onClick={[Function]}
             >
-               
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
-               
             </DropdownItem>,
-            " ",
             <DropdownItem
               onClick={[Function]}
             >
-               
               <nobr>
                 -- Grandmaster Flash
               </nobr>
-               
             </DropdownItem>,
           ],
         },
         "ref": null,
         "rendered": Array [
-          " ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                " ",
-                <nobr>
-                  ...cause I'm close to the edge
-                </nobr>,
-                " ",
-              ],
+              "children": <nobr>
+                ...cause I'm close to the edge
+              </nobr>,
               "onClick": [Function],
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "...cause I'm close to the edge",
-                },
-                "ref": null,
-                "rendered": "...cause I'm close to the edge",
-                "type": "nobr",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "...cause I'm close to the edge",
               },
-              " ",
-            ],
+              "ref": null,
+              "rendered": "...cause I'm close to the edge",
+              "type": "nobr",
+            },
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                " ",
-                <nobr>
-                  I'm trying not to lose my head
-                </nobr>,
-                " ",
-              ],
+              "children": <nobr>
+                I'm trying not to lose my head
+              </nobr>,
               "onClick": [Function],
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "I'm trying not to lose my head",
-                },
-                "ref": null,
-                "rendered": "I'm trying not to lose my head",
-                "type": "nobr",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I'm trying not to lose my head",
               },
-              " ",
-            ],
+              "ref": null,
+              "rendered": "I'm trying not to lose my head",
+              "type": "nobr",
+            },
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                " ",
-                <nobr>
-                  It's like a jungle sometimes
-                </nobr>,
-                " ",
-              ],
+              "children": <nobr>
+                It's like a jungle sometimes
+              </nobr>,
               "onClick": [Function],
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "It's like a jungle sometimes",
-                },
-                "ref": null,
-                "rendered": "It's like a jungle sometimes",
-                "type": "nobr",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "It's like a jungle sometimes",
               },
-              " ",
-            ],
+              "ref": null,
+              "rendered": "It's like a jungle sometimes",
+              "type": "nobr",
+            },
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                " ",
-                <nobr>
-                  It makes me wonder how I keep from goin' under
-                </nobr>,
-                " ",
-              ],
+              "children": <nobr>
+                It makes me wonder how I keep from goin' under
+              </nobr>,
               "onClick": [Function],
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "It makes me wonder how I keep from goin' under",
-                },
-                "ref": null,
-                "rendered": "It makes me wonder how I keep from goin' under",
-                "type": "nobr",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "It makes me wonder how I keep from goin' under",
               },
-              " ",
-            ],
+              "ref": null,
+              "rendered": "It makes me wonder how I keep from goin' under",
+              "type": "nobr",
+            },
             "type": [Function],
           },
-          " ",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                " ",
-                <nobr>
-                  -- Grandmaster Flash
-                </nobr>,
-                " ",
-              ],
+              "children": <nobr>
+                -- Grandmaster Flash
+              </nobr>,
               "onClick": [Function],
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "-- Grandmaster Flash",
-                },
-                "ref": null,
-                "rendered": "-- Grandmaster Flash",
-                "type": "nobr",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-- Grandmaster Flash",
               },
-              " ",
-            ],
+              "ref": null,
+              "rendered": "-- Grandmaster Flash",
+              "type": "nobr",
+            },
             "type": [Function],
           },
         ],
@@ -714,7 +549,6 @@ ShallowWrapper {
     isSelected={false}
     label="Push Me"
   >
-     
     <nobr>
       You can place any content you prefer here.
     </nobr>
@@ -732,7 +566,6 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <Dropdown__DropdownPanel>
-         
         <nobr>
           You can place any content you prefer here.
         </nobr>
@@ -764,28 +597,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": Array [
-          " ",
-          <nobr>
-            You can place any content you prefer here.
-          </nobr>,
-        ],
+        "children": <nobr>
+          You can place any content you prefer here.
+        </nobr>,
       },
       "ref": null,
-      "rendered": Array [
-        " ",
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "You can place any content you prefer here.",
-          },
-          "ref": null,
-          "rendered": "You can place any content you prefer here.",
-          "type": "nobr",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "You can place any content you prefer here.",
         },
-      ],
+        "ref": null,
+        "rendered": "You can place any content you prefer here.",
+        "type": "nobr",
+      },
       "type": [Function],
     },
     "type": [Function],
@@ -797,7 +624,6 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <Dropdown__DropdownPanel>
-           
           <nobr>
             You can place any content you prefer here.
           </nobr>
@@ -829,28 +655,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": Array [
-            " ",
-            <nobr>
-              You can place any content you prefer here.
-            </nobr>,
-          ],
+          "children": <nobr>
+            You can place any content you prefer here.
+          </nobr>,
         },
         "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "You can place any content you prefer here.",
-            },
-            "ref": null,
-            "rendered": "You can place any content you prefer here.",
-            "type": "nobr",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You can place any content you prefer here.",
           },
-        ],
+          "ref": null,
+          "rendered": "You can place any content you prefer here.",
+          "type": "nobr",
+        },
         "type": [Function],
       },
       "type": [Function],
@@ -883,11 +703,10 @@ ShallowWrapper {
     isSelected={true}
     label="Push Me"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Check that checkmark 
+      Check that checkmark
     </DropdownItem>
   </Dropdown>,
   Symbol(enzyme.__renderer__): Object {
@@ -903,11 +722,10 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <Dropdown__DropdownPanel>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           Check that checkmark 
+          Check that checkmark
         </DropdownItem>
       </Dropdown__DropdownPanel>,
       "className": null,
@@ -937,31 +755,25 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": Array [
-          " ",
-          <DropdownItem
-            onClick={[Function]}
-          >
-             Check that checkmark 
-          </DropdownItem>,
-        ],
+        "children": <DropdownItem
+          onClick={[Function]}
+        >
+          Check that checkmark
+        </DropdownItem>,
       },
       "ref": null,
-      "rendered": Array [
-        " ",
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": " Check that checkmark ",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": " Check that checkmark ",
-          "type": [Function],
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Check that checkmark",
+          "onClick": [Function],
         },
-      ],
+        "ref": null,
+        "rendered": "Check that checkmark",
+        "type": [Function],
+      },
       "type": [Function],
     },
     "type": [Function],
@@ -973,11 +785,10 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <Dropdown__DropdownPanel>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             Check that checkmark 
+            Check that checkmark
           </DropdownItem>
         </Dropdown__DropdownPanel>,
         "className": null,
@@ -1007,31 +818,25 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": Array [
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               Check that checkmark 
-            </DropdownItem>,
-          ],
+          "children": <DropdownItem
+            onClick={[Function]}
+          >
+            Check that checkmark
+          </DropdownItem>,
         },
         "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " Check that checkmark ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " Check that checkmark ",
-            "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Check that checkmark",
+            "onClick": [Function],
           },
-        ],
+          "ref": null,
+          "rendered": "Check that checkmark",
+          "type": [Function],
+        },
         "type": [Function],
       },
       "type": [Function],
@@ -1064,11 +869,10 @@ ShallowWrapper {
     isSelected={false}
     label="Select..."
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       I'll never be seen 
+      I'll never be seen
     </DropdownItem>
   </Dropdown>,
   Symbol(enzyme.__renderer__): Object {
@@ -1084,11 +888,10 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <Dropdown__DropdownPanel>
-         
         <DropdownItem
           onClick={[Function]}
         >
-           I'll never be seen 
+          I'll never be seen
         </DropdownItem>
       </Dropdown__DropdownPanel>,
       "className": null,
@@ -1118,31 +921,25 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": Array [
-          " ",
-          <DropdownItem
-            onClick={[Function]}
-          >
-             I'll never be seen 
-          </DropdownItem>,
-        ],
+        "children": <DropdownItem
+          onClick={[Function]}
+        >
+          I'll never be seen
+        </DropdownItem>,
       },
       "ref": null,
-      "rendered": Array [
-        " ",
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": " I'll never be seen ",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": " I'll never be seen ",
-          "type": [Function],
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "I'll never be seen",
+          "onClick": [Function],
         },
-      ],
+        "ref": null,
+        "rendered": "I'll never be seen",
+        "type": [Function],
+      },
       "type": [Function],
     },
     "type": [Function],
@@ -1154,11 +951,10 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <Dropdown__DropdownPanel>
-           
           <DropdownItem
             onClick={[Function]}
           >
-             I'll never be seen 
+            I'll never be seen
           </DropdownItem>
         </Dropdown__DropdownPanel>,
         "className": null,
@@ -1188,31 +984,25 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": Array [
-            " ",
-            <DropdownItem
-              onClick={[Function]}
-            >
-               I'll never be seen 
-            </DropdownItem>,
-          ],
+          "children": <DropdownItem
+            onClick={[Function]}
+          >
+            I'll never be seen
+          </DropdownItem>,
         },
         "ref": null,
-        "rendered": Array [
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": " I'll never be seen ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": " I'll never be seen ",
-            "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "I'll never be seen",
+            "onClick": [Function],
           },
-        ],
+          "ref": null,
+          "rendered": "I'll never be seen",
+          "type": [Function],
+        },
         "type": [Function],
       },
       "type": [Function],

@@ -4,17 +4,15 @@ exports[`OverflowMenu Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Edit 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Delete 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -31,51 +29,48 @@ ShallowWrapper {
     "props": Object {
       "appearance": "dark",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Edit 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Delete 
+          Delete
         </DropdownItem>,
       ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
+      "size": "small",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Edit ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Edit ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Delete ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Delete ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -89,51 +84,48 @@ ShallowWrapper {
       "props": Object {
         "appearance": "dark",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Edit 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Delete 
+            Delete
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
         "position": "right",
+        "size": "small",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Edit ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Edit ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Delete ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Delete ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -162,19 +154,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    position="left"
+    size="medium"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Edit 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Delete 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -191,51 +181,48 @@ ShallowWrapper {
     "props": Object {
       "appearance": "dark",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Edit 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Delete 
+          Delete
         </DropdownItem>,
       ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
-      "position": "left",
+      "position": "right",
+      "size": "medium",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Edit ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Edit ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Delete ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Delete ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -249,51 +236,48 @@ ShallowWrapper {
       "props": Object {
         "appearance": "dark",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Edit 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Delete 
+            Delete
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
-        "position": "left",
+        "position": "right",
+        "size": "medium",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Edit ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Edit ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Delete ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Delete ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -322,19 +306,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    appearance="primary"
+    size="large"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Edit 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Delete 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -349,53 +331,50 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "primary",
+      "appearance": "dark",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Edit 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Delete 
+          Delete
         </DropdownItem>,
       ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
+      "size": "large",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Edit ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Edit ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Delete ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Delete ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -407,53 +386,50 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "primary",
+        "appearance": "dark",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Edit 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Delete 
+            Delete
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
         "position": "right",
+        "size": "large",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Edit ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Edit ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Delete ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Delete ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -482,19 +458,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    appearance="secondary"
+    position="left"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Edit 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Delete 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -509,53 +483,50 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "secondary",
+      "appearance": "dark",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Edit 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Delete 
+          Delete
         </DropdownItem>,
       ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
-      "position": "right",
+      "position": "left",
+      "size": "small",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Edit ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Edit ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Delete ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Delete ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -567,53 +538,50 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "secondary",
+        "appearance": "dark",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Edit 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Delete 
+            Delete
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
-        "position": "right",
+        "position": "left",
+        "size": "small",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Edit ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Edit ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Delete ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Delete ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -642,19 +610,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    color="red"
+    appearance="primary"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 1 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 2 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -669,54 +635,50 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "primary",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 1 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 2 
+          Delete
         </DropdownItem>,
       ],
-      "color": "red",
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
+      "size": "small",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Action 1 ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 1 ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Action 2 ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 2 ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -728,54 +690,50 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "primary",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 1 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 2 
+            Delete
           </DropdownItem>,
         ],
-        "color": "red",
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
         "position": "right",
+        "size": "small",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 1 ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 1 ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 2 ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 2 ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -804,19 +762,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    activeColor="blue"
+    appearance="secondary"
   >
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 1 
+      Edit
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 2 
+      Delete
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -831,54 +787,50 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "activeColor": "blue",
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 1 
+          Edit
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 2 
+          Delete
         </DropdownItem>,
       ],
       "onClose": [Function],
       "onOpen": [Function],
       "openByDefault": false,
       "position": "right",
+      "size": "small",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Action 1 ",
+          "children": "Edit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 1 ",
+        "rendered": "Edit",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Action 2 ",
+          "children": "Delete",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 2 ",
+        "rendered": "Delete",
         "type": [Function],
       },
     ],
@@ -890,54 +842,50 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "activeColor": "blue",
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 1 
+            Edit
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 2 
+            Delete
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": false,
         "position": "right",
+        "size": "small",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 1 ",
+            "children": "Edit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 1 ",
+          "rendered": "Edit",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 2 ",
+            "children": "Delete",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 2 ",
+          "rendered": "Delete",
           "type": [Function],
         },
       ],
@@ -966,23 +914,17 @@ exports[`OverflowMenu Component snapshots should match snapshot 7`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    openByDefault={true}
+    color="red"
   >
-     
-    <DropdownTitle>
-      Use the trigger to close me
-    </DropdownTitle>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 1 
+      Action 1
     </DropdownItem>
-     
     <DropdownItem
       onClick={[Function]}
     >
-       Action 2 
+      Action 2
     </DropdownItem>
   </WithTheme(OverflowMenu)>,
   Symbol(enzyme.__renderer__): Object {
@@ -999,67 +941,49 @@ ShallowWrapper {
     "props": Object {
       "appearance": "dark",
       "children": Array [
-        " ",
-        <DropdownTitle>
-          Use the trigger to close me
-        </DropdownTitle>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 1 
+          Action 1
         </DropdownItem>,
-        " ",
         <DropdownItem
           onClick={[Function]}
         >
-           Action 2 
+          Action 2
         </DropdownItem>,
       ],
+      "color": "red",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": true,
+      "openByDefault": false,
       "position": "right",
+      "size": "small",
       "theme": undefined,
     },
     "ref": null,
     "rendered": Array [
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": "Use the trigger to close me",
-        },
-        "ref": null,
-        "rendered": "Use the trigger to close me",
-        "type": [Function],
-      },
-      " ",
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": " Action 1 ",
+          "children": "Action 1",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 1 ",
+        "rendered": "Action 1",
         "type": [Function],
       },
-      " ",
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": " Action 2 ",
+          "children": "Action 2",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": " Action 2 ",
+        "rendered": "Action 2",
         "type": [Function],
       },
     ],
@@ -1073,32 +997,353 @@ ShallowWrapper {
       "props": Object {
         "appearance": "dark",
         "children": Array [
-          " ",
+          <DropdownItem
+            onClick={[Function]}
+          >
+            Action 1
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            Action 2
+          </DropdownItem>,
+        ],
+        "color": "red",
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "size": "small",
+        "theme": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Action 1",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Action 1",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Action 2",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Action 2",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`OverflowMenu Component snapshots should match snapshot 8`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+    activeColor="blue"
+  >
+    <DropdownItem
+      onClick={[Function]}
+    >
+      Action 1
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      Action 2
+    </DropdownItem>
+  </WithTheme(OverflowMenu)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeColor": "blue",
+      "appearance": "dark",
+      "children": Array [
+        <DropdownItem
+          onClick={[Function]}
+        >
+          Action 1
+        </DropdownItem>,
+        <DropdownItem
+          onClick={[Function]}
+        >
+          Action 2
+        </DropdownItem>,
+      ],
+      "onClose": [Function],
+      "onOpen": [Function],
+      "openByDefault": false,
+      "position": "right",
+      "size": "small",
+      "theme": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Action 1",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Action 1",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Action 2",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Action 2",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeColor": "blue",
+        "appearance": "dark",
+        "children": Array [
+          <DropdownItem
+            onClick={[Function]}
+          >
+            Action 1
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            Action 2
+          </DropdownItem>,
+        ],
+        "onClose": [Function],
+        "onOpen": [Function],
+        "openByDefault": false,
+        "position": "right",
+        "size": "small",
+        "theme": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Action 1",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Action 1",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Action 2",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Action 2",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`OverflowMenu Component snapshots should match snapshot 9`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+    openByDefault={true}
+  >
+    <DropdownTitle>
+      Use the trigger to close me
+    </DropdownTitle>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      Action 1
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      Action 2
+    </DropdownItem>
+  </WithTheme(OverflowMenu)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "appearance": "dark",
+      "children": Array [
+        <DropdownTitle>
+          Use the trigger to close me
+        </DropdownTitle>,
+        <DropdownItem
+          onClick={[Function]}
+        >
+          Action 1
+        </DropdownItem>,
+        <DropdownItem
+          onClick={[Function]}
+        >
+          Action 2
+        </DropdownItem>,
+      ],
+      "onClose": [Function],
+      "onOpen": [Function],
+      "openByDefault": true,
+      "position": "right",
+      "size": "small",
+      "theme": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Use the trigger to close me",
+        },
+        "ref": null,
+        "rendered": "Use the trigger to close me",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Action 1",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Action 1",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Action 2",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Action 2",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "appearance": "dark",
+        "children": Array [
           <DropdownTitle>
             Use the trigger to close me
           </DropdownTitle>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 1 
+            Action 1
           </DropdownItem>,
-          " ",
           <DropdownItem
             onClick={[Function]}
           >
-             Action 2 
+            Action 2
           </DropdownItem>,
         ],
         "onClose": [Function],
         "onOpen": [Function],
         "openByDefault": true,
         "position": "right",
+        "size": "small",
         "theme": undefined,
       },
       "ref": null,
       "rendered": Array [
-        " ",
         Object {
           "instance": null,
           "key": undefined,
@@ -1110,30 +1355,28 @@ ShallowWrapper {
           "rendered": "Use the trigger to close me",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 1 ",
+            "children": "Action 1",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 1 ",
+          "rendered": "Action 1",
           "type": [Function],
         },
-        " ",
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": " Action 2 ",
+            "children": "Action 2",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": " Action 2 ",
+          "rendered": "Action 2",
           "type": [Function],
         },
       ],

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../static/iconsprite.svg';
 
 /**
  * Uses a SVG sprite to show icons based on name
@@ -12,7 +13,7 @@ const Icon = ({ name, color, width, height, ...otherProps }) => (
     fill={color}
     {...otherProps}
   >
-    <use xlinkHref={`/iconsprite.svg#icon-${name}`} />
+    <use xlinkHref={`iconsprite.svg#icon-${name}`} />
   </svg>
 );
 

@@ -1,5 +1,6 @@
 ## [Unreleased]
 ### Added
+- Table component
 - Overflow menu component
 - ToggleMenu component
 

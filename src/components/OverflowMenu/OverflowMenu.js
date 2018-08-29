@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 
-import Icon from '../Icon';
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
 import DropdownTitle from '../DropdownTitle';
@@ -33,6 +32,26 @@ class OverflowMenu extends Component {
     };
   }
 
+  getWidthAndHeightFromSize = () => {
+    const { size } = this.props;
+    const sizes = {
+      small: {
+        width: '5px',
+        height: '21px'
+      },
+      medium: {
+        width: '7px',
+        height: '29px'
+      },
+      large: {
+        width: '10px',
+        height: '40px'
+      }
+    };
+
+    return sizes[size];
+  }
+
   getColorFromAppearance = () => {
     const { appearance, theme } = this.props;
     const colors = {
@@ -60,15 +79,17 @@ class OverflowMenu extends Component {
     const { menuOpen } = this.state;
     const defaultColor = this.props.color || this.getColorFromAppearance();
     const color = (menuOpen && this.props.activeColor) || defaultColor;
+    const size = this.getWidthAndHeightFromSize();
 
     return (
       <Trigger color={color} active={menuOpen}>
-        <Icon
-          name="vertical-menu"
-          width="5" // TODO make the size dynamic based on size prop
-          height="21"
-          color={color}
-        />
+        <svg width={size.width} height={size.height} viewBox="0 0 5 21">
+          <g fillRule="evenodd" fill={color}>
+            <circle cx="2.5" cy="18.5" r="2.5" />
+            <circle cx="2.5" cy="10.5" r="2.5" />
+            <circle cx="2.5" cy="2.5" r="2.5" />
+          </g>
+        </svg>
       </Trigger>
     );
   }
@@ -97,7 +118,8 @@ OverflowMenu.defaultProps = {
   position: 'right',
   openByDefault: false,
   onOpen: () => {},
-  onClose: () => null
+  onClose: () => null,
+  size: 'small'
 };
 
 OverflowMenu.propTypes = {
@@ -119,7 +141,8 @@ OverflowMenu.propTypes = {
   openByDefault: PropTypes.bool,
   theme: PropTypes.object,
   onOpen: PropTypes.func,
-  onClose: PropTypes.func
+  onClose: PropTypes.func,
+  size: PropTypes.oneOf(['small', 'medium', 'large'])
 };
 
 OverflowMenu.Item = DropdownItem;
