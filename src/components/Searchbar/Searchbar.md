@@ -1,29 +1,29 @@
 Default:
 ```jsx
-  <Searchbar />
+<Searchbar />
 ```
 
 Icon on the left
 ```jsx
-  <Searchbar iconPosition="left" />
+<Searchbar iconPosition="left" />
 ```
 
 Without an icon
 ```jsx
-  <Searchbar hideIcon />
+<Searchbar hideIcon />
 ```
 
 Custom placeholder:
 ```jsx
-  <Searchbar placeholder="Search for dresses" />
+<Searchbar placeholder="Search for dresses" />
 ```
 
 Filled value:
 ```jsx
-  <div><Searchbar value="Floral dress" /></div>
+<div><Searchbar value="Floral dress" /></div>
 ```
 
 Truncated text:
 ```jsx
-  <div style={{ width: '150px'}}><Searchbar iconPosition="left" value="You can't see all of me, but I'm there" /></div>
+<div style={{ width: '150px'}}><Searchbar iconPosition="left" value="You can't see all of me, but I'm there" /></div>
 ```
