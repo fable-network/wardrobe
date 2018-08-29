@@ -22,7 +22,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <use
-        xlinkHref="/iconsprite.svg#icon-caret-down"
+        xlinkHref="iconsprite.svg#icon-caret-down"
       />,
       "className": "ft-icon",
       "fill": "inherit",
@@ -35,7 +35,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "xlinkHref": "/iconsprite.svg#icon-caret-down",
+        "xlinkHref": "iconsprite.svg#icon-caret-down",
       },
       "ref": null,
       "rendered": null,
@@ -50,7 +50,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <use
-          xlinkHref="/iconsprite.svg#icon-caret-down"
+          xlinkHref="iconsprite.svg#icon-caret-down"
         />,
         "className": "ft-icon",
         "fill": "inherit",
@@ -63,7 +63,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "xlinkHref": "/iconsprite.svg#icon-caret-down",
+          "xlinkHref": "iconsprite.svg#icon-caret-down",
         },
         "ref": null,
         "rendered": null,
@@ -112,7 +112,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <use
-        xlinkHref="/iconsprite.svg#icon-caret-down"
+        xlinkHref="iconsprite.svg#icon-caret-down"
       />,
       "className": "ft-icon",
       "fill": "orange",
@@ -125,7 +125,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "xlinkHref": "/iconsprite.svg#icon-caret-down",
+        "xlinkHref": "iconsprite.svg#icon-caret-down",
       },
       "ref": null,
       "rendered": null,
@@ -140,7 +140,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <use
-          xlinkHref="/iconsprite.svg#icon-caret-down"
+          xlinkHref="iconsprite.svg#icon-caret-down"
         />,
         "className": "ft-icon",
         "fill": "orange",
@@ -153,7 +153,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "xlinkHref": "/iconsprite.svg#icon-caret-down",
+          "xlinkHref": "iconsprite.svg#icon-caret-down",
         },
         "ref": null,
         "rendered": null,
@@ -208,7 +208,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <use
-        xlinkHref="/iconsprite.svg#icon-caret-down"
+        xlinkHref="iconsprite.svg#icon-caret-down"
       />,
       "className": "ft-icon",
       "fill": "inherit",
@@ -225,7 +225,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "xlinkHref": "/iconsprite.svg#icon-caret-down",
+        "xlinkHref": "iconsprite.svg#icon-caret-down",
       },
       "ref": null,
       "rendered": null,
@@ -240,7 +240,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <use
-          xlinkHref="/iconsprite.svg#icon-caret-down"
+          xlinkHref="iconsprite.svg#icon-caret-down"
         />,
         "className": "ft-icon",
         "fill": "inherit",
@@ -257,7 +257,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "xlinkHref": "/iconsprite.svg#icon-caret-down",
+          "xlinkHref": "iconsprite.svg#icon-caret-down",
         },
         "ref": null,
         "rendered": null,
@@ -312,7 +312,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <use
-        xlinkHref="/iconsprite.svg#icon-caret-down"
+        xlinkHref="iconsprite.svg#icon-caret-down"
       />,
       "className": "ft-icon",
       "fill": "inherit",
@@ -329,7 +329,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "xlinkHref": "/iconsprite.svg#icon-caret-down",
+        "xlinkHref": "iconsprite.svg#icon-caret-down",
       },
       "ref": null,
       "rendered": null,
@@ -344,7 +344,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <use
-          xlinkHref="/iconsprite.svg#icon-caret-down"
+          xlinkHref="iconsprite.svg#icon-caret-down"
         />,
         "className": "ft-icon",
         "fill": "inherit",
@@ -361,7 +361,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "xlinkHref": "/iconsprite.svg#icon-caret-down",
+          "xlinkHref": "iconsprite.svg#icon-caret-down",
         },
         "ref": null,
         "rendered": null,
