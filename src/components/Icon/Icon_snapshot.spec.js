@@ -9,19 +9,23 @@ describe('Icon Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Icon name="caret-down" />);
+        <Icon name="caret-down" />
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Icon name="caret-down" color="orange" />);
+        <Icon name="caret-down" color="orange" />
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Icon name="caret-down" width="100" height="20" style={{background: 'khaki', fill: 'navy'}}/>);
+        <Icon name="caret-down" width="100" height="20" style={{background: 'khaki', fill: 'navy'}}/>
+      );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Icon name="caret-down" width="20" height="50" style={{background: 'khaki', fill: 'navy'}}/>);
+        <Icon name="caret-down" width="20" height="50" style={{background: 'khaki', fill: 'navy'}}/>
+      );
       expect(wrapper4).toMatchSnapshot();
 
     });

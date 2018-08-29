@@ -38,7 +38,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
@@ -71,7 +72,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
@@ -104,7 +106,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
@@ -137,7 +140,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
@@ -170,7 +174,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
@@ -203,7 +208,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
@@ -236,7 +242,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
@@ -269,7 +276,8 @@ describe('Table Component', () => {
             <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
             <Table.Cell>0612376543</Table.Cell>
           </Table.Row>
-        </Table>);
+        </Table>
+      );
       expect(wrapper8).toMatchSnapshot();
 
     });

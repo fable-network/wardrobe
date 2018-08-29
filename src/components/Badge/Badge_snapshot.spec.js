@@ -9,15 +9,18 @@ describe('Badge Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Badge appearance="primary">9</Badge>);
+        <Badge appearance="primary">9</Badge>
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Badge appearance="danger">9</Badge>);
+        <Badge appearance="danger">9</Badge>
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Badge appearance="success" animated>9</Badge>);
+        <Badge appearance="success" animated>9</Badge>
+      );
       expect(wrapper3).toMatchSnapshot();
 
     });

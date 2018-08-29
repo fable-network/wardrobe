@@ -125,7 +125,8 @@ const getMatchingComponents = (file, componentName) => {
 };
 
 const getSnapshotCode = (component, index) => `
-      const wrapper${index + 1} = shallow(${component});
+      const wrapper${index + 1} = shallow(${component}
+      );
       expect(wrapper${index + 1}).toMatchSnapshot();
 `;
 

@@ -16,7 +16,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item onClick={() => alert("this.delete()")}>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
@@ -27,7 +28,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item onClick={() => alert("this.delete()")}>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
@@ -38,7 +40,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item onClick={() => alert("this.delete()")}>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
@@ -49,7 +52,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
@@ -60,7 +64,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
@@ -71,7 +76,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Delete
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
@@ -82,7 +88,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Action 2
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
@@ -93,7 +100,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Action 2
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper8).toMatchSnapshot();
 
       const wrapper9 = shallow(
@@ -105,7 +113,8 @@ describe('OverflowMenu Component', () => {
           <OverflowMenu.Item>
             Action 2
           </OverflowMenu.Item>
-        </OverflowMenu>);
+        </OverflowMenu>
+      );
       expect(wrapper9).toMatchSnapshot();
 
     });

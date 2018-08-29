@@ -25,13 +25,15 @@ describe('Dropdown Component', () => {
           <Dropdown.Item onClick={() => alert('Don\'t push me')}>
             <nobr>-- Grandmaster Flash</nobr>
           </Dropdown.Item>
-        </Dropdown>);
+        </Dropdown>
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
         <Dropdown label="Push Me">
           <nobr>You can place any content you prefer here.</nobr>
-        </Dropdown>);
+        </Dropdown>
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
@@ -39,7 +41,8 @@ describe('Dropdown Component', () => {
           <Dropdown.Item>
             Check that checkmark
           </Dropdown.Item>
-        </Dropdown>);
+        </Dropdown>
+      );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
@@ -47,7 +50,8 @@ describe('Dropdown Component', () => {
           <Dropdown.Item>
             I'll never be seen
           </Dropdown.Item>
-        </Dropdown>);
+        </Dropdown>
+      );
       expect(wrapper4).toMatchSnapshot();
 
     });

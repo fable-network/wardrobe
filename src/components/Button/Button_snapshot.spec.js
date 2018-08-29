@@ -9,23 +9,28 @@ describe('Button Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Button appearance="primary">Push Me</Button>);
+        <Button appearance="primary">Push Me</Button>
+      );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Button appearance="primary" disabled>Don't Push Me</Button>);
+        <Button appearance="primary" disabled>Don't Push Me</Button>
+      );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Button appearance="secondary">Push Me</Button>);
+        <Button appearance="secondary">Push Me</Button>
+      );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Button appearance="secondary" disabled>Don't Push Me</Button>);
+        <Button appearance="secondary" disabled>Don't Push Me</Button>
+      );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Button size="small">Push Me</Button>);
+        <Button size="small">Push Me</Button>
+      );
       expect(wrapper5).toMatchSnapshot();
 
     });
