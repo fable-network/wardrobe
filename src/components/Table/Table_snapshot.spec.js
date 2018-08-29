@@ -272,39 +272,6 @@ describe('Table Component', () => {
         </Table>);
       expect(wrapper8).toMatchSnapshot();
 
-      const wrapper9 = shallow(
-        <Table interactable>
-          <Table.Header>
-            <Table.Cell>Name</Table.Cell>
-            <Table.Cell>Age</Table.Cell>
-            <Table.Cell>Gender</Table.Cell>
-            <Table.Cell>Address</Table.Cell>
-            <Table.Cell>Phone Number</Table.Cell>
-          </Table.Header>
-          <Table.Row>
-            <Table.Cell>Ali</Table.Cell>
-            <Table.Cell>25</Table.Cell>
-            <Table.Cell>Male</Table.Cell>
-            <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
-            <Table.Cell>0612376543</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>Ali</Table.Cell>
-            <Table.Cell>25</Table.Cell>
-            <Table.Cell>Male</Table.Cell>
-            <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
-            <Table.Cell>0612376543</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>Ali</Table.Cell>
-            <Table.Cell>25</Table.Cell>
-            <Table.Cell>Male</Table.Cell>
-            <Table.Cell>Singel 542, 1017AZ, Amsterdam, NL</Table.Cell>
-            <Table.Cell>0612376543</Table.Cell>
-          </Table.Row>
-        </Table>);
-      expect(wrapper9).toMatchSnapshot();
-
     });
   });
 });

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { darken } from 'polished';
+import get from 'lodash.get';
 import defaultTheme from '../../theme/default';
 
 const colors = {
@@ -24,7 +24,7 @@ const colors = {
 const Cell = styled('div')`
   overflow: hidden;
   flex-grow: 1;
-  width: ${props => (100 / props.numberOfColumns) * props.widthWeight}%;
+  width: ${props => ((100 / props.numberOfColumns) * props.widthWeight || 100)}%;
   min-height: 1px;
   padding: 10px;
   text-overflow: ellipsis;
@@ -68,13 +68,9 @@ const StyledTable = styled('div')`
   ${Row} {
     min-width: ${props => props.minWidth};
     background: ${props => props.rowColor};
-    cursor: ${props => (props.interactable ? 'pointer' : 'initial')};
     transition: background .1s linear;
     &:nth-child(odd) {
       background: ${props => (props.alternateColors ? props.alternateRowColor : props.rowColor)};
-    }
-    &:hover {
-      background: ${props => props.hoverRowColor};
     }
   }
 
@@ -90,10 +86,9 @@ const isComponentTypeOf = (type, component) => {
   if (!component || !component.type) {
     return false;
   }
-  const componentType = component.type;
-  const targetType = componentType.target;
-  const componentName = componentType.displayName;
-  const targetName = targetType && targetType.displayName;
+
+  const componentName = get(component, 'type.displayName', '');
+  const targetName = get(component, 'type.target.displayName', '');
 
   // true if the component name matches the type, or the component target name matches the type.
   return componentName === type || targetName === type;
@@ -104,12 +99,12 @@ const isTableRow = (component) => isComponentTypeOf('Table__Row', component);
 const isTableCell = (component) => isComponentTypeOf('Table__Cell', component);
 
 const addWeightToCells = (row, tableLayout) => {
-  if (!row || !row.props || !row.props.children || !row.props.children.length) {
+  const children = get(row, 'props.children');
+  if (!children || !children.length) {
     return row;
   }
 
-  const { children } = row.props;
-  const layout = row.props.layout || tableLayout || [];
+  const layout = get(row, 'props.layout') || tableLayout || [];
   const numberOfColumns = children.filter(isTableCell).length;
   let cellIndex = -1;
 
@@ -151,7 +146,7 @@ const recursivelyModifyRows = (component, layout) => {
   }
 
   // is a non-row element, then look for a row in it's children.
-  const children = component.props && component.props.children;
+  const children = get(component, 'props.children');
   if (children) {
     return {
       ...component,
@@ -165,11 +160,11 @@ const recursivelyModifyRows = (component, layout) => {
 };
 
 const Table = (props) => {
-  const { children, alternatingRowColors, showBorders, appearance, minWidth, interactable } = props;
+  const { children, alternatingRowColors, showBorders, appearance, minWidth, layout } = props;
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
   let modifiedChildren = children;
   if (children && children.length) {
-    modifiedChildren = children.map(child => recursivelyModifyRows(child, props.layout));
+    modifiedChildren = children.map(child => recursivelyModifyRows(child, layout));
   }
 
   return (
@@ -182,8 +177,6 @@ const Table = (props) => {
       alternateRowColor={alternateRowColor}
       borderColor={borderColor}
       minWidth={minWidth}
-      interactable={interactable}
-      hoverRowColor={interactable && darken(0.15, rowColor)}
     >
       {modifiedChildren}
     </StyledTable>
@@ -196,7 +189,6 @@ Table.propTypes = {
   showBorders: PropTypes.bool,
   appearance: PropTypes.oneOf(['light', 'dark']),
   minWidth: PropTypes.string,
-  interactable: PropTypes.bool,
   /** an array of integers that defines the ratio between columns */
   layout: PropTypes.array
 };
@@ -206,7 +198,6 @@ Table.defaultProps = {
   appearance: 'light',
   showBorders: false,
   minWidth: '0',
-  interactable: false,
   layout: []
 };
 

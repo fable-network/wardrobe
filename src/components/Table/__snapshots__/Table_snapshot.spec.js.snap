@@ -6,7 +6,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={false}
@@ -226,8 +225,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -810,8 +807,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
@@ -1279,7 +1274,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
-    interactable={false}
     layout={
       Array [
         1,
@@ -1507,8 +1501,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -2091,8 +2083,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
@@ -2560,7 +2550,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={true}
@@ -2780,8 +2769,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": true,
@@ -3364,8 +3351,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": true,
@@ -3833,7 +3818,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="dark"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={false}
@@ -4053,8 +4037,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": false,
@@ -4637,8 +4619,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": false,
@@ -5106,7 +5086,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="dark"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={true}
@@ -5326,8 +5305,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": true,
@@ -5910,8 +5887,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": true,
@@ -6379,7 +6354,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={false}
     appearance="light"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={false}
@@ -6599,8 +6573,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -7183,8 +7155,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
@@ -7652,7 +7622,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={false}
     appearance="dark"
-    interactable={false}
     layout={Array []}
     minWidth="0"
     showBorders={false}
@@ -7872,8 +7841,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#5b5c5e",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "0",
       "rowColor": "#313233",
       "showBorders": false,
@@ -8456,8 +8423,6 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#5b5c5e",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "0",
         "rowColor": "#313233",
         "showBorders": false,
@@ -8925,7 +8890,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Table
     alternatingRowColors={true}
     appearance="light"
-    interactable={false}
     layout={Array []}
     minWidth="2200px"
     showBorders={false}
@@ -9145,8 +9109,6 @@ ShallowWrapper {
         </Table__Row>,
       ],
       "headerColor": "#efefef",
-      "hoverRowColor": false,
-      "interactable": false,
       "minWidth": "2200px",
       "rowColor": "#ffffff",
       "showBorders": false,
@@ -9729,1282 +9691,7 @@ ShallowWrapper {
           </Table__Row>,
         ],
         "headerColor": "#efefef",
-        "hoverRowColor": false,
-        "interactable": false,
         "minWidth": "2200px",
-        "rowColor": "#ffffff",
-        "showBorders": false,
-        "textColor": "#595959",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Name
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Age
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Gender
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Address
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Phone Number
-              </Table__Cell>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Name",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Name",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Age",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Age",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Gender",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Gender",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Address",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Address",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Phone Number",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Phone Number",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Ali
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                25
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Male
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Singel 542, 1017AZ, Amsterdam, NL
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                0612376543
-              </Table__Cell>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Ali",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Ali",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "25",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "25",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Male",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Male",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Singel 542, 1017AZ, Amsterdam, NL",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "0612376543",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "0612376543",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Ali
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                25
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Male
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Singel 542, 1017AZ, Amsterdam, NL
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                0612376543
-              </Table__Cell>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Ali",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Ali",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "25",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "25",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Male",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Male",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Singel 542, 1017AZ, Amsterdam, NL",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "0612376543",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "0612376543",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Ali
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                25
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Male
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                Singel 542, 1017AZ, Amsterdam, NL
-              </Table__Cell>,
-              <Table__Cell
-                numberOfColumns={5}
-                widthWeight={1}
-              >
-                0612376543
-              </Table__Cell>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Ali",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Ali",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "25",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "25",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Male",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Male",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Singel 542, 1017AZ, Amsterdam, NL",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "0612376543",
-                "numberOfColumns": 5,
-                "widthWeight": 1,
-              },
-              "ref": null,
-              "rendered": "0612376543",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
-`;
-
-exports[`Table Component snapshots should match snapshot 9`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Table
-    alternatingRowColors={true}
-    appearance="light"
-    interactable={true}
-    layout={Array []}
-    minWidth="0"
-    showBorders={false}
-  >
-    <Table__Row>
-      <Table__Cell>
-        Name
-      </Table__Cell>
-      <Table__Cell>
-        Age
-      </Table__Cell>
-      <Table__Cell>
-        Gender
-      </Table__Cell>
-      <Table__Cell>
-        Address
-      </Table__Cell>
-      <Table__Cell>
-        Phone Number
-      </Table__Cell>
-    </Table__Row>
-    <Table__Row>
-      <Table__Cell>
-        Ali
-      </Table__Cell>
-      <Table__Cell>
-        25
-      </Table__Cell>
-      <Table__Cell>
-        Male
-      </Table__Cell>
-      <Table__Cell>
-        Singel 542, 1017AZ, Amsterdam, NL
-      </Table__Cell>
-      <Table__Cell>
-        0612376543
-      </Table__Cell>
-    </Table__Row>
-    <Table__Row>
-      <Table__Cell>
-        Ali
-      </Table__Cell>
-      <Table__Cell>
-        25
-      </Table__Cell>
-      <Table__Cell>
-        Male
-      </Table__Cell>
-      <Table__Cell>
-        Singel 542, 1017AZ, Amsterdam, NL
-      </Table__Cell>
-      <Table__Cell>
-        0612376543
-      </Table__Cell>
-    </Table__Row>
-    <Table__Row>
-      <Table__Cell>
-        Ali
-      </Table__Cell>
-      <Table__Cell>
-        25
-      </Table__Cell>
-      <Table__Cell>
-        Male
-      </Table__Cell>
-      <Table__Cell>
-        Singel 542, 1017AZ, Amsterdam, NL
-      </Table__Cell>
-      <Table__Cell>
-        0612376543
-      </Table__Cell>
-    </Table__Row>
-  </Table>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "alternateColors": true,
-      "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
-      "children": Array [
-        <Table__Row>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Name
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Age
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Gender
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Address
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Phone Number
-          </Table__Cell>
-        </Table__Row>,
-        <Table__Row>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Ali
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            25
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Male
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Singel 542, 1017AZ, Amsterdam, NL
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            0612376543
-          </Table__Cell>
-        </Table__Row>,
-        <Table__Row>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Ali
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            25
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Male
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Singel 542, 1017AZ, Amsterdam, NL
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            0612376543
-          </Table__Cell>
-        </Table__Row>,
-        <Table__Row>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Ali
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            25
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Male
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            Singel 542, 1017AZ, Amsterdam, NL
-          </Table__Cell>
-          <Table__Cell
-            numberOfColumns={5}
-            widthWeight={1}
-          >
-            0612376543
-          </Table__Cell>
-        </Table__Row>,
-      ],
-      "headerColor": "#efefef",
-      "hoverRowColor": "#d9d9d9",
-      "interactable": true,
-      "minWidth": "0",
-      "rowColor": "#ffffff",
-      "showBorders": false,
-      "textColor": "#595959",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Name
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Age
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Gender
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Address
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Phone Number
-            </Table__Cell>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Name",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Name",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Age",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Age",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Gender",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Gender",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Address",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Address",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Phone Number",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Phone Number",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Ali",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Ali",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "25",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "25",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Male",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Male",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Singel 542, 1017AZ, Amsterdam, NL",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "0612376543",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "0612376543",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Ali",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Ali",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "25",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "25",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Male",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Male",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Singel 542, 1017AZ, Amsterdam, NL",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "0612376543",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "0612376543",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>,
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Ali",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Ali",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "25",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "25",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Male",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Male",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Singel 542, 1017AZ, Amsterdam, NL",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "Singel 542, 1017AZ, Amsterdam, NL",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "0612376543",
-              "numberOfColumns": 5,
-              "widthWeight": 1,
-            },
-            "ref": null,
-            "rendered": "0612376543",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "alternateColors": true,
-        "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
-        "children": Array [
-          <Table__Row>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Name
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Age
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Gender
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Address
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Phone Number
-            </Table__Cell>
-          </Table__Row>,
-          <Table__Row>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>
-          </Table__Row>,
-          <Table__Row>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>
-          </Table__Row>,
-          <Table__Row>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Ali
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              25
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Male
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              Singel 542, 1017AZ, Amsterdam, NL
-            </Table__Cell>
-            <Table__Cell
-              numberOfColumns={5}
-              widthWeight={1}
-            >
-              0612376543
-            </Table__Cell>
-          </Table__Row>,
-        ],
-        "headerColor": "#efefef",
-        "hoverRowColor": "#d9d9d9",
-        "interactable": true,
-        "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
         "textColor": "#595959",

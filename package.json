@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "classnames": "2.2.6",
-    "polished": "2.0.2",
+    "lodash.get": "4.4.2",
     "prop-types": "15.6.1"
   },
   "scripts": {
