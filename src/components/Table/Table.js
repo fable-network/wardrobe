@@ -151,7 +151,7 @@ const recursivelyModifyRows = (component, layout) => {
   }
 
   // is a non-row element, then look for a row in it's children.
-  const { children } = component.props;
+  const children = component.props && component.props.children;
   if (children) {
     return {
       ...component,
