@@ -42,7 +42,7 @@ const renderIcon = (iconPosition, color) => (
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, ...props }) => (
+const Searchbar = ({ iconPosition, placeholder, theme, onChange, defaultValue, ...props }) => (
   <Wrapper>
     {renderIcon(iconPosition, theme.skyBlue)}
     <Input
@@ -50,7 +50,7 @@ const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, ...props
       placeholder={placeholder}
       iconPosition={iconPosition}
       onChange={onChange}
-      value={value}
+      defaultValue={defaultValue}
       {...props}
     />
   </Wrapper>
@@ -60,7 +60,7 @@ Searchbar.defaultProps = {
   placeholder: 'Search',
   onChange: () => null,
   iconPosition: 'right',
-  value: ''
+  defaultValue: ''
 };
 
 Searchbar.propTypes = {
@@ -69,7 +69,7 @@ Searchbar.propTypes = {
   iconPosition: PropTypes.oneOf(['left', 'right']),
   hideIcon: PropTypes.bool,
   theme: PropTypes.object,
-  value: PropTypes.string
+  defaultValue: PropTypes.string
 };
 
 export default withTheme(Searchbar);
