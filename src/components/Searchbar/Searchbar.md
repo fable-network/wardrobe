@@ -20,12 +20,12 @@ Custom placeholder:
 
 Filled value:
 ```jsx
-<div><Searchbar value="Floral dress" /></div>
+<div><Searchbar defaultValue="Floral dress" /></div>
 ```
 
 Truncated text:
 ```jsx
 <div style={{ width: '150px'}}>
-  <Searchbar iconPosition="left" value="You can't see all of me, but I'm there" />
+  <Searchbar iconPosition="left" defaultValue="You can't see all of me, but I'm there" />
 </div>
 ```
