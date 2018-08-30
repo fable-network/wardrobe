@@ -50,7 +50,7 @@ module.exports = {
         },
         {
           test: /\.svg$/,
-          loader: 'svg-sprite-loader',
+          loader: 'svg-inline-loader',
         },
         {
           test: /\.scss$/,
