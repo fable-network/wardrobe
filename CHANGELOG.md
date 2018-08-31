@@ -1,5 +1,6 @@
 ## [Unreleased]
 ### Added
+- Loading spinner component
 - Table component
 - Overflow menu component
 - ToggleMenu component
