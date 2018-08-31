@@ -18,7 +18,7 @@ Custom placeholder:
 <Searchbar placeholder="Search for dresses" />
 ```
 
-Filled value:
+Default value:
 ```jsx
 <div><Searchbar defaultValue="Floral dress" /></div>
 ```

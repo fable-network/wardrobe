@@ -59,8 +59,7 @@ const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, ...props
 Searchbar.defaultProps = {
   placeholder: 'Search',
   onChange: () => null,
-  iconPosition: 'right',
-  value: ''
+  iconPosition: 'right'
 };
 
 Searchbar.propTypes = {
