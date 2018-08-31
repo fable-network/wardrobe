@@ -40,7 +40,7 @@ const IconWrapper = styled('div')`
 const renderIcon = (iconPosition, isLoading, color) => (
   <IconWrapper iconPosition={iconPosition}>
     {isLoading
-      ? <LoadingSpinner size="20px" color={color} gapColor={`${color}25`} />
+      ? <LoadingSpinner size="20px" />
       : searchIcon(color, '21px')
     }
   </IconWrapper>
