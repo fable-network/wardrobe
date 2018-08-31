@@ -23,6 +23,16 @@ Default value:
 <div><Searchbar defaultValue="Floral dress" /></div>
 ```
 
+Loading (with left icon position):
+```jsx
+<Searchbar iconPosition="left" defaultValue="Floral dress" isLoading/>
+```
+
+Loading (with right icon position):
+```jsx
+<Searchbar iconPosition="right" defaultValue="Floral dress" isLoading/>
+```
+
 Truncated text:
 ```jsx
 <div style={{ width: '150px'}}>

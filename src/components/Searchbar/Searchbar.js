@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 
 import searchIcon from './searchIcon'; // TODO find a way to use Icon component correctly
+import LoadingSpinner from '../LoadingSpinner';
 
 const Wrapper = styled('div')`
   position: relative;
@@ -36,15 +37,18 @@ const IconWrapper = styled('div')`
   line-height: 1;
 `;
 
-const renderIcon = (iconPosition, color) => (
+const renderIcon = (iconPosition, isLoading, color) => (
   <IconWrapper iconPosition={iconPosition}>
-    {searchIcon(color, '21px')}
+    {isLoading
+      ? <LoadingSpinner size="20px" color={color} gapColor={`${color}25`} />
+      : searchIcon(color, '21px')
+    }
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, ...props }) => (
+const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, isLoading, ...props }) => (
   <Wrapper>
-    {renderIcon(iconPosition, theme.skyBlue)}
+    {renderIcon(iconPosition, isLoading, theme.skyBlue)}
     <Input
       type="text"
       placeholder={placeholder}
@@ -67,7 +71,8 @@ Searchbar.propTypes = {
   onChange: PropTypes.func,
   iconPosition: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.object,
-  value: PropTypes.string
+  value: PropTypes.string,
+  isLoading: PropTypes.bool
 };
 
 export default withTheme(Searchbar);
