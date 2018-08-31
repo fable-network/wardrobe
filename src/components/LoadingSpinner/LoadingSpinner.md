@@ -43,3 +43,8 @@ Different appearance (`dark`):
 ```jsx
 <LoadingSpinner appearance="dark" />
 ```
+
+Custcom color (`navy`):
+```jsx
+<LoadingSpinner color="blue" gapColor="red" />
+```

@@ -33,7 +33,7 @@ const LoadingSpinner = ({ size, speed, appearance, ...props }) => {
       size={size}
       color={props.color || defaultColor}
       speed={speed}
-      gapColor={props.color ? `${props.color}25` : defaultGapColor}
+      gapColor={props.color ? (props.gapColor || 'transparent') : defaultGapColor}
     />
   );
 };
@@ -42,6 +42,7 @@ LoadingSpinner.propTypes = {
   size: PropTypes.string,
   speed: PropTypes.string,
   color: PropTypes.string,
+  gapColor: PropTypes.string,
   appearance: PropTypes.oneOf([
     'primary',
     'secondary',
