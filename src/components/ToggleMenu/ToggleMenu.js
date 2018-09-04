@@ -16,6 +16,7 @@ const MenuWrapper = styled.div`
   left: ${props => props.left};
   right: ${props => props.right};
   margin: ${props => props.margin};
+  min-width: 100%;
 `;
 
 class ToggleMenu extends Component {
