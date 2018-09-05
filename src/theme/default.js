@@ -17,7 +17,7 @@ export const colors = {
 
 export const outlines = {
   defaultShadow: '0 1px 4px #ccc',
-  defaultBorder: `1px solid ${colors.stoneGrey}`,
+  defaultBorder: '1px solid #9b9b9b',
   disabledBorder: '1px solid #ccc'
 };
 
