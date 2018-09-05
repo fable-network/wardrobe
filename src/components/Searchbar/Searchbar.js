@@ -53,6 +53,7 @@ const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, isLoadin
       type="text"
       iconPosition={iconPosition}
       onChange={onChange}
+      placeholder={placeholder}
       {...props}
     />
   </Wrapper>
