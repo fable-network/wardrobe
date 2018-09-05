@@ -35,8 +35,7 @@
     "build": "styleguidist build",
     "update-snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest",
-    "generate-component": "node scripts/generateComponent.js",
-    "install": "echo installing wardrobe dependencies"
+    "generate-component": "node scripts/generateComponent.js"
   },
   "peerDependencies": {
     "react": "16.2.0",
