@@ -41,7 +41,6 @@ const ToggleIcon = styled(Icon).attrs({
 `;
 
 const DropdownPanel = styled.div`
-  margin-top: 4px;
   background: ${props => props.theme.white};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
