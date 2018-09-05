@@ -6,3 +6,4 @@ export OverflowMenu from './OverflowMenu';
 export Icon from './Icon';
 export Table from './Table';
 export LoadingSpinner from './LoadingSpinner';
+export Searchbar from './Searchbar';

@@ -1,16 +1,15 @@
 /* eslint no-console: 0 */
 const fs = require('fs');
-const colors = require('colors');
+const { logInfo, logWarning, logError, isComponentDirectory } = require('./scriptUtils');
 
 const COMPONENTS_PATH = './src/components';
 
-const isDirectory = name => fs.lstatSync(`${COMPONENTS_PATH}/${name}`).isDirectory();
 // Place any folders inside `/src/compoentns' you want to be excluded from test generation here.
 // e.g const excludedFolders = ['Badge']; will exclude the Badge component.
 const excludedFolders = [];
 const notExcluded = name => excludedFolders.indexOf(name) === -1;
 const componentNames = fs.readdirSync(COMPONENTS_PATH).map(name => name)
-  .filter(isDirectory)
+  .filter(isComponentDirectory)
   .filter(notExcluded);
 
 const boilerPlate = `/* eslint-disable */
@@ -27,18 +26,6 @@ describe('~COMPONENT_NAME~ Component', () => {
   });
 });
 `;
-
-const logInfo = (message) => {
-  console.log(colors.blue(message));
-};
-
-const logWarning = (message) => {
-  console.log(colors.yellow(message));
-};
-
-const logError = (message) => {
-  console.log(colors.red(message));
-};
 
 const writeTests = (tests) => {
   tests.forEach(test => {

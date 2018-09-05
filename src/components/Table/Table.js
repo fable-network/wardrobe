@@ -165,6 +165,9 @@ const Table = (props) => {
   let modifiedChildren = children;
   if (children && children.length) {
     modifiedChildren = children.map(child => recursivelyModifyRows(child, layout));
+  } else if (isTableRow(children)) {
+    // single row table
+    modifiedChildren = recursivelyModifyRows(children, layout);
   }
 
   return (

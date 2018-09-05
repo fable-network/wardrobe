@@ -1,5 +1,6 @@
 ## [Unreleased]
 ### Added
+- Searchbar component
 - Loading spinner component
 - Table component
 - Overflow menu component
