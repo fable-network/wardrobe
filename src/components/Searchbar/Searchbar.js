@@ -51,10 +51,8 @@ const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, isLoadin
     {renderIcon(iconPosition, isLoading, theme.skyBlue)}
     <Input
       type="text"
-      placeholder={placeholder}
       iconPosition={iconPosition}
       onChange={onChange}
-      value={value}
       {...props}
     />
   </Wrapper>
