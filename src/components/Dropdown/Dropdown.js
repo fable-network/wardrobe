@@ -9,23 +9,26 @@ import Icon from '../Icon';
 const DropdownButton = styled.button`
   display: inline-block;
   background-color: ${props => props.theme.white};
-  border: solid 1px ${props => (
-    props.disabled ? props.theme.stoneGrey : props.theme.ravenBlack
-  )};
+  border: ${props => (props.disabled ? props.theme.disabledBorder : props.theme.defaultBorder)};
   font-family: inherit;
   font-size: inherit;
   color: ${props => (
-    props.disabled ? props.theme.stoneGrey : props.theme.ravenBlack
+    props.disabled ? '#cdcdcd' : props.theme.ravenBlack
   )};
   padding: 8px 10px;
-  cursor: ${props => (props.disabled ? 'not-allowed' : 'inherit')};
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 4px ${props => props.theme.skyBlue};
+    border-color: ${props => props.theme.skyBlue}
+  }
 `;
 
 const ToggleIcon = styled(Icon).attrs({
   color: props => {
     // Set Icon color attribute
     if (props.disabled) {
-      return props.theme.stoneGrey;
+      return '#cdcdcd';
     }
     return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
   },
@@ -38,10 +41,9 @@ const ToggleIcon = styled(Icon).attrs({
 const DropdownPanel = styled.div`
   margin-top: 4px;
   background: ${props => props.theme.white};
-  border: solid 1px ${props => props.theme.stoneGrey};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
-  box-shadow: 0 2px 10px ${props => props.theme.stoneGrey};
+  box-shadow: ${props => props.theme.defaultShadow};
   overflow: auto;
 `;
 
@@ -81,6 +83,7 @@ class Dropdown extends Component {
           name={this.getIcon()}
           width={isSelected ? 11 : 16}
           height={9}
+          disabled={disabled}
         />
       </DropdownButton>
     );
