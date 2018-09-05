@@ -15,6 +15,13 @@ export const colors = {
   white: '#ffffff',
 };
 
+export const outlines = {
+  defaultShadow: '0 1px 4px #ccc',
+  defaultBorder: `1px solid ${colors.stoneGrey}`,
+  disabledBorder: '1px solid #ccc'
+};
+
 export default {
   ...colors,
+  ...outlines
 };
