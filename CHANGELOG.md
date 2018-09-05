@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.5.0] - 2018-09-05
 ### Added
 - Searchbar component
 - Loading spinner component
