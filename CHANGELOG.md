@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.5.1] - 2018-09-05
+### Changed
+- Fix bug causing searchbar placeholder not to show.
+
 ## [0.5.0] - 2018-09-05
 ### Added
 - Searchbar component
