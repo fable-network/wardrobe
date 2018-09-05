@@ -107,6 +107,7 @@ ShallowWrapper {
       >
         Don't push me...
         <Dropdown__ToggleIcon
+          disabled={false}
           height={9}
           name="caret-down"
           open={false}
@@ -342,6 +343,7 @@ ShallowWrapper {
         >
           Don't push me...
           <Dropdown__ToggleIcon
+            disabled={false}
             height={9}
             name="caret-down"
             open={false}
@@ -583,6 +585,7 @@ ShallowWrapper {
       >
         Push Me
         <Dropdown__ToggleIcon
+          disabled={false}
           height={9}
           name="caret-down"
           open={false}
@@ -641,6 +644,7 @@ ShallowWrapper {
         >
           Push Me
           <Dropdown__ToggleIcon
+            disabled={false}
             height={9}
             name="caret-down"
             open={false}
@@ -741,6 +745,7 @@ ShallowWrapper {
       >
         Push Me
         <Dropdown__ToggleIcon
+          disabled={false}
           height={9}
           name="caret-selected"
           open={false}
@@ -804,6 +809,7 @@ ShallowWrapper {
         >
           Push Me
           <Dropdown__ToggleIcon
+            disabled={false}
             height={9}
             name="caret-selected"
             open={false}
@@ -907,6 +913,7 @@ ShallowWrapper {
       >
         Select...
         <Dropdown__ToggleIcon
+          disabled={true}
           height={9}
           name="caret-down"
           open={false}
@@ -970,6 +977,7 @@ ShallowWrapper {
         >
           Select...
           <Dropdown__ToggleIcon
+            disabled={true}
             height={9}
             name="caret-down"
             open={false}
