@@ -9,11 +9,13 @@ import Icon from '../Icon';
 const DropdownButton = styled.button`
   display: inline-block;
   background-color: ${props => props.theme.white};
-  border: ${props => (props.disabled ? props.theme.disabledBorder : props.theme.defaultBorder)};
+  border: solid 1px ${props => (
+    props.disabled ? '#ccc' : props.theme.stoneGrey
+  )};
   font-family: inherit;
   font-size: inherit;
   color: ${props => (
-    props.disabled ? '#cdcdcd' : props.theme.ravenBlack
+    props.disabled ? '#ccc' : props.theme.ravenBlack
   )};
   padding: 8px 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
@@ -28,7 +30,7 @@ const ToggleIcon = styled(Icon).attrs({
   color: props => {
     // Set Icon color attribute
     if (props.disabled) {
-      return '#cdcdcd';
+      return '#ccc';
     }
     return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
   },
@@ -43,7 +45,7 @@ const DropdownPanel = styled.div`
   background: ${props => props.theme.white};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
-  box-shadow: ${props => props.theme.defaultShadow};
+  box-shadow: 0 1px 4px #ccc;
   overflow: auto;
 `;
 
