@@ -41,5 +41,7 @@ module.exports = {
       }
     ]
   },
-  externals: [nodeExternals()]
+  externals: [nodeExternals({
+    whitelist: ['classnames', 'lodash.get', 'react-modal2'],
+  })]
 };
