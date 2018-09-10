@@ -100,6 +100,70 @@ describe('Modal Component', () => {
       );
       expect(wrapper6).toMatchSnapshot();
 
+      const wrapper7 = shallow(
+        <Modal size="auto" open={true} appearance="secondary">
+          <Modal.Header>
+            Secondary appearance
+          </Modal.Header>
+          <Modal.Body>You have to style your buttons yourself</Modal.Body>
+          <Modal.Footer>
+            <Button appearance="secondary" onClick={() => {}}>
+              Got it!
+            </Button>
+            <Button onClick={() => {}}>Cancel</Button>
+          </Modal.Footer>
+        </Modal>
+      );
+      expect(wrapper7).toMatchSnapshot();
+
+      const wrapper8 = shallow(
+        <Modal size="auto" open={true} appearance="success">
+          <Modal.Header>
+            Success appearance
+          </Modal.Header>
+          <Modal.Body>You have to style your buttons yourself</Modal.Body>
+          <Modal.Footer>
+            <Button appearance="secondary" onClick={() => {}}>
+              Got it!
+            </Button>
+            <Button onClick={() => {}}>Cancel</Button>
+          </Modal.Footer>
+        </Modal>
+      );
+      expect(wrapper8).toMatchSnapshot();
+
+      const wrapper9 = shallow(
+        <Modal size="auto" open={true} appearance="danger">
+          <Modal.Header>
+            Dander appearance
+          </Modal.Header>
+          <Modal.Body>You have to style your buttons yourself</Modal.Body>
+          <Modal.Footer>
+            <Button appearance="secondary" onClick={() => {}}>
+              Got it!
+            </Button>
+            <Button onClick={() => {}}>Cancel</Button>
+          </Modal.Footer>
+        </Modal>
+      );
+      expect(wrapper9).toMatchSnapshot();
+
+      const wrapper10 = shallow(
+        <Modal size="auto" open={true} appearance="warning">
+          <Modal.Header>
+            Warning appearance
+          </Modal.Header>
+          <Modal.Body>You have to style your buttons yourself</Modal.Body>
+          <Modal.Footer>
+            <Button appearance="secondary" onClick={() => {}}>
+              Got it!
+            </Button>
+            <Button onClick={() => {}}>Cancel</Button>
+          </Modal.Footer>
+        </Modal>
+      );
+      expect(wrapper10).toMatchSnapshot();
+
     });
   });
 });

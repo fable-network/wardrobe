@@ -3,36 +3,29 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import BaseModal from 'react-modal2';
 import classnames from 'classnames';
+import { DESKTOP } from '../../constants/Breakpoints';
 
 // TODO: confirm with the design team
-function getPadding(size) {
-  switch (size) {
-    case 'small':
-      return '20px 30px';
-    case 'large':
-      return '50px 70px';
-    case 'auto':
-    case 'normal':
-    default:
-      return '30px 50px';
-  }
-}
+const PADDINGS = {
+  small: '20px 30px',
+  normal: '30px 50px',
+  large: '50px 70px',
+};
 
-function getWidth(size) {
-  switch (size) {
-    case 'small':
-      return '300px';
-    case 'large':
-      return '900px';
-    case 'auto':
-      return 'auto';
-    case 'normal':
-    default:
-      return '600px';
-  }
-}
+const WIDTHS = {
+  small: '300px',
+  normal: '600px',
+  large: '900px',
+  auto: 'auto',
+};
 
-const DESKTOP = 'screen and (min-width: 992px)';
+const APPEARANCES = {
+  primary: css`color: ${props => props.theme.skyBlue}`,
+  secondary: css`color: ${props => props.theme.ravenBlack}`,
+  success: css`color: ${props => props.theme.limeGreen}`,
+  danger: css`color: ${props => props.theme.flameRed}`,
+  warning: css`color: ${props => props.theme.apricotOrange}`,
+};
 
 export const ModalStyles = css`
   background-color: ${props => props.theme.white};
@@ -41,18 +34,18 @@ export const ModalStyles = css`
   width: 100%;
   max-width: 100%;
   @media ${DESKTOP} {
-    width: ${props => getWidth(props.size)};
+    width: ${props => WIDTHS[props.size]};
   }
 
   > .modal-header {
     // TODO: Extract to theme?
     border-bottom: solid 1px #dedede;
-    padding: ${props => getPadding(props.size)};
+    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     &.modal-header--single-child {
       font-size: 1.25em;
       font-weight: bold;
-      color: ${props => props.theme.skyBlue};
       text-align: center;
+      ${props => APPEARANCES[props.appearance]};
       @media ${DESKTOP} {
         font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
       }
@@ -61,7 +54,7 @@ export const ModalStyles = css`
 
   > .modal-footer {
     border-top: solid 1px #dedede;
-    padding: ${props => getPadding(props.size)};
+    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -85,7 +78,7 @@ export const ModalStyles = css`
   }
 
   > .modal-body {
-    padding: ${props => getPadding(props.size)};
+    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
   }
 `;
 
@@ -135,6 +128,8 @@ const PropTypesChildren = {
   children: PropTypes.node,
 };
 
+// Child blocks are styled via classes, so the user sets sizing and appearance
+// only on a parent <Modal>
 const Header = props => (
   <HeaderStyled
     className={classnames({
@@ -192,7 +187,7 @@ class Modal extends Component {
   }
 
   render() {
-    const { backdropColor, open, size, children, onClose } = this.props;
+    const { appearance, backdropColor, open, size, children, onClose } = this.props;
     return open ? (
       <Root backdropColor={backdropColor} size={size} role="dialog">
         <BaseModal
@@ -202,7 +197,7 @@ class Modal extends Component {
           backdropClassName="backdrop"
           modalClassName="modal"
         >
-          <ModalWrapper size={size}>{children}</ModalWrapper>
+          <ModalWrapper size={size} appearance={appearance}>{children}</ModalWrapper>
         </BaseModal>
       </Root>
     ) : null;
@@ -212,9 +207,11 @@ class Modal extends Component {
 Modal.defaultProps = {
   preventGlobalScroll: true,
   size: 'normal',
+  appearance: 'primary',
 };
 
 Modal.propTypes = {
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'success', 'danger', 'warning']),
   backdropColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   preventGlobalScroll: PropTypes.bool,

@@ -1,17 +1,26 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { ModalStyles } from './Modal';
+import Modal, { ModalStyles } from './Modal';
 
-const Modal = styled.div`
+const ModalRoot = styled.div`
   ${ModalStyles};
 `;
 
-const StyleguideModal = props => <Modal size={props.size}>{props.children}</Modal>;
+const StyleguideModal = props => (
+  <ModalRoot size={props.size} appearance={props.appearance}>
+    {props.children}
+  </ModalRoot>
+);
 
 StyleguideModal.propTypes = {
-  size: PropTypes.oneOf(['auto', 'small', 'normal', 'large']),
-  children: PropTypes.node.isRequired,
+  size: Modal.propTypes.size,
+  appearance: Modal.propTypes.appearance,
+  children: Modal.propTypes.children,
+};
+
+StyleguideModal.defaultProps = {
+  size: Modal.defaultProps.size,
+  appearance: Modal.defaultProps.appearance,
 };
 
 export default StyleguideModal;
