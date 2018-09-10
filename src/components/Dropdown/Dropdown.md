@@ -1,7 +1,7 @@
 Dropdown:
 
 ```jsx
-<Dropdown label="Don't push me...">
+<Dropdown label="Don't push me">
   <Dropdown.Item onClick={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
   </Dropdown.Item>

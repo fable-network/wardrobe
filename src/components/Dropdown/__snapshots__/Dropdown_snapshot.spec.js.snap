@@ -8,6 +8,7 @@ ShallowWrapper {
     disabled={false}
     isSelected={false}
     label="Don't push me..."
+    onClose={[Function]}
   >
     <DropdownItem
       onClick={[Function]}
@@ -105,8 +106,10 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
       >
-        Don't push me...
-        <Dropdown__ToggleIcon
+        <Dropdown__Label>
+          Don't push me...
+        </Dropdown__Label>
+        <Dropdown__IconWrapper
           disabled={false}
           height={9}
           name="caret-down"
@@ -341,8 +344,10 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
         >
-          Don't push me...
-          <Dropdown__ToggleIcon
+          <Dropdown__Label>
+            Don't push me...
+          </Dropdown__Label>
+          <Dropdown__IconWrapper
             disabled={false}
             height={9}
             name="caret-down"
@@ -550,6 +555,7 @@ ShallowWrapper {
     disabled={false}
     isSelected={false}
     label="Push Me"
+    onClose={[Function]}
   >
     <nobr>
       You can place any content you prefer here.
@@ -583,8 +589,10 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
       >
-        Push Me
-        <Dropdown__ToggleIcon
+        <Dropdown__Label>
+          Push Me
+        </Dropdown__Label>
+        <Dropdown__IconWrapper
           disabled={false}
           height={9}
           name="caret-down"
@@ -642,8 +650,10 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
         >
-          Push Me
-          <Dropdown__ToggleIcon
+          <Dropdown__Label>
+            Push Me
+          </Dropdown__Label>
+          <Dropdown__IconWrapper
             disabled={false}
             height={9}
             name="caret-down"
@@ -706,6 +716,7 @@ ShallowWrapper {
     disabled={false}
     isSelected={true}
     label="Push Me"
+    onClose={[Function]}
   >
     <DropdownItem
       onClick={[Function]}
@@ -743,8 +754,10 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
       >
-        Push Me
-        <Dropdown__ToggleIcon
+        <Dropdown__Label>
+          Push Me
+        </Dropdown__Label>
+        <Dropdown__IconWrapper
           disabled={false}
           height={9}
           name="caret-selected"
@@ -807,8 +820,10 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
         >
-          Push Me
-          <Dropdown__ToggleIcon
+          <Dropdown__Label>
+            Push Me
+          </Dropdown__Label>
+          <Dropdown__IconWrapper
             disabled={false}
             height={9}
             name="caret-selected"
@@ -874,6 +889,7 @@ ShallowWrapper {
     disabled={true}
     isSelected={false}
     label="Select..."
+    onClose={[Function]}
   >
     <DropdownItem
       onClick={[Function]}
@@ -911,8 +927,10 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={true}
       >
-        Select...
-        <Dropdown__ToggleIcon
+        <Dropdown__Label>
+          Select...
+        </Dropdown__Label>
+        <Dropdown__IconWrapper
           disabled={true}
           height={9}
           name="caret-down"
@@ -975,8 +993,10 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={true}
         >
-          Select...
-          <Dropdown__ToggleIcon
+          <Dropdown__Label>
+            Select...
+          </Dropdown__Label>
+          <Dropdown__IconWrapper
             disabled={true}
             height={9}
             name="caret-down"

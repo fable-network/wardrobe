@@ -7,6 +7,7 @@ import DropdownItem from '../DropdownItem';
 import Icon from '../Icon';
 
 const DropdownButton = styled.button`
+  position: relative;
   display: inline-block;
   background-color: ${props => props.theme.white};
   border: solid 1px ${props => (
@@ -17,7 +18,7 @@ const DropdownButton = styled.button`
   color: ${props => (
     props.disabled ? '#ccc' : props.theme.ravenBlack
   )};
-  padding: 8px 10px;
+  padding: 8px 30px 8px 10px;;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   &:focus {
     outline: none;
@@ -26,7 +27,11 @@ const DropdownButton = styled.button`
   }
 `;
 
-const ToggleIcon = styled(Icon).attrs({
+const Label = styled('span')`
+  display: inline-block;
+`;
+
+const IconWrapper = styled(Icon).attrs({
   color: props => {
     // Set Icon color attribute
     if (props.disabled) {
@@ -35,6 +40,12 @@ const ToggleIcon = styled(Icon).attrs({
     return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
   },
 })`
+  position: absolute;
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: ${props => (props.selected ? 11 : 6)}px;
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
@@ -68,6 +79,7 @@ class Dropdown extends Component {
   };
 
   handleMenuClose = () => {
+    this.props.onClose();
     this.setState({ menuOpen: false });
   };
 
@@ -77,8 +89,8 @@ class Dropdown extends Component {
 
     return (
       <DropdownButton disabled={disabled}>
-        {label}
-        <ToggleIcon
+        <Label>{label}</Label>
+        <IconWrapper
           open={menuOpen}
           selected={isSelected}
           name={this.getIcon()}
@@ -121,7 +133,8 @@ Dropdown.propTypes = {
   /** Contents of the dropdown */
   children: PropTypes.node.isRequired,
   /** Position of the dropdown panel */
-  position: PropTypes.oneOf(['top', 'bottom', 'left', 'right'])
+  position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
+  onClose: PropTypes.func
 };
 
 Dropdown.defaultProps = {
@@ -129,6 +142,7 @@ Dropdown.defaultProps = {
   className: null,
   disabled: false,
   isSelected: false,
+  onClose: () => null
 };
 
 Dropdown.Item = DropdownItem;
