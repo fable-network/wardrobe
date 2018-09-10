@@ -7,20 +7,18 @@ const ModalRoot = styled.div`
 `;
 
 const StyleguideModal = props => (
-  <ModalRoot size={props.size} appearance={props.appearance}>
+  <ModalRoot size={props.size}>
     {props.children}
   </ModalRoot>
 );
 
 StyleguideModal.propTypes = {
   size: Modal.propTypes.size,
-  appearance: Modal.propTypes.appearance,
   children: Modal.propTypes.children,
 };
 
 StyleguideModal.defaultProps = {
   size: Modal.defaultProps.size,
-  appearance: Modal.defaultProps.appearance,
 };
 
 export default StyleguideModal;

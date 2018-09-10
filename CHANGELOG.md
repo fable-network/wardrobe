@@ -1,4 +1,7 @@
 ## [Unreleased]
+### Added
+- Modal component
+
 ### Changed
 - ToggleMenu component now uses display instead of visibility.
 - Dropdown component now allows onClose prop to be passed.

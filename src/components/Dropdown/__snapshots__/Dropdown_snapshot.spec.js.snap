@@ -7,7 +7,7 @@ ShallowWrapper {
     className={null}
     disabled={false}
     isSelected={false}
-    label="Don't push me..."
+    label="Don't push me"
     onClose={[Function]}
   >
     <DropdownItem
@@ -107,7 +107,7 @@ ShallowWrapper {
         disabled={false}
       >
         <Dropdown__Label>
-          Don't push me...
+          Don't push me
         </Dropdown__Label>
         <Dropdown__IconWrapper
           disabled={false}
@@ -345,7 +345,7 @@ ShallowWrapper {
           disabled={false}
         >
           <Dropdown__Label>
-            Don't push me...
+            Don't push me
           </Dropdown__Label>
           <Dropdown__IconWrapper
             disabled={false}

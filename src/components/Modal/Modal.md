@@ -22,7 +22,6 @@ class StyleguideExample extends React.Component {
           open={this.state.open} // required
           onClose={this.handleClose} // required
           backdropColor="rgba(255, 255, 255, 0.8)" //custom
-          appearance="primary" // default
           blockScrolling={true} // default
           size="normal" // default
           preventGlobalScroll={true} // default
@@ -154,78 +153,6 @@ const ModalStyleguide = require('./StyleguideModal').default;
   <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
   <Modal.Footer>
     <Button appearance="primary" onClick={() => {}}>
-      Got it!
-    </Button>
-    <Button onClick={() => {}}>Cancel</Button>
-  </Modal.Footer>
-</ModalStyleguide>;
-```
-
-### Appearance: `secondary`
-
-```jsx
-const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true} appearance="secondary">
-  <Modal.Header>
-    Secondary appearance
-  </Modal.Header>
-  <Modal.Body>You have to style your buttons yourself</Modal.Body>
-  <Modal.Footer>
-    <Button appearance="secondary" onClick={() => {}}>
-      Got it!
-    </Button>
-    <Button onClick={() => {}}>Cancel</Button>
-  </Modal.Footer>
-</ModalStyleguide>;
-```
-
-### Appearance: `success`
-
-```jsx
-const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true} appearance="success">
-  <Modal.Header>
-    Success appearance
-  </Modal.Header>
-  <Modal.Body>You have to style your buttons yourself</Modal.Body>
-  <Modal.Footer>
-    <Button appearance="secondary" onClick={() => {}}>
-      Got it!
-    </Button>
-    <Button onClick={() => {}}>Cancel</Button>
-  </Modal.Footer>
-</ModalStyleguide>;
-```
-
-### Appearance: `danger`
-
-```jsx
-const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true} appearance="danger">
-  <Modal.Header>
-    Dander appearance
-  </Modal.Header>
-  <Modal.Body>You have to style your buttons yourself</Modal.Body>
-  <Modal.Footer>
-    <Button appearance="secondary" onClick={() => {}}>
-      Got it!
-    </Button>
-    <Button onClick={() => {}}>Cancel</Button>
-  </Modal.Footer>
-</ModalStyleguide>;
-```
-
-### Appearance: `warning`
-
-```jsx
-const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true} appearance="warning">
-  <Modal.Header>
-    Warning appearance
-  </Modal.Header>
-  <Modal.Body>You have to style your buttons yourself</Modal.Body>
-  <Modal.Footer>
-    <Button appearance="secondary" onClick={() => {}}>
       Got it!
     </Button>
     <Button onClick={() => {}}>Cancel</Button>

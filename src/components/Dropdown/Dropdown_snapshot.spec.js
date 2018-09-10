@@ -9,7 +9,7 @@ describe('Dropdown Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Dropdown label="Don't push me...">
+        <Dropdown label="Don't push me">
           <Dropdown.Item onClick={() => alert('Clicked 1')}>
             <nobr>...cause I'm close to the edge</nobr>
           </Dropdown.Item>
