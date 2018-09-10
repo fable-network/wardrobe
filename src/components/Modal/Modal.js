@@ -180,11 +180,13 @@ class Modal extends Component {
   }
 
   blockGlobalScroll() {
+    if (!global.document) return;
     this.prevBodyOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
   }
 
   unblockGlobalScroll() {
+    if (!global.document) return;
     document.body.style.overflow = this.prevBodyOverflow;
     this.prevBodyOverflow = null;
   }

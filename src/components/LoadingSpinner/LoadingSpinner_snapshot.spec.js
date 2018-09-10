@@ -53,6 +53,11 @@ describe('LoadingSpinner Component', () => {
       );
       expect(wrapper9).toMatchSnapshot();
 
+      const wrapper10 = shallow(
+        <LoadingSpinner color="blue" gapColor="red" />
+      );
+      expect(wrapper10).toMatchSnapshot();
+
     });
   });
 });

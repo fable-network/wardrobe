@@ -87,49 +87,49 @@ and when `size=small`, and even bigger `font-size` otherwise.
 ### Normal size
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="normal">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="normal" open={true}>
   <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
   <Modal.Body>This body has pre-defined paddings.</Modal.Body>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Let's do that!
     </Button>
-    <Button onClick={this.handleClose}>Cancel</Button>
+    <Button onClick={() => {}}>Cancel</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```
 
 ### Small size
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="small">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="small" open={true}>
   <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
   <Modal.Body>This body has pre-defined paddings.</Modal.Body>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Let's do that!
     </Button>
-    <Button onClick={this.handleClose}>Cancel</Button>
+    <Button onClick={() => {}}>Cancel</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```
 
 ### Large size
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="large">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="large" open={true}>
   <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
   <Modal.Body>This body has pre-defined paddings.</Modal.Body>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Let's do that!
     </Button>
-    <Button onClick={this.handleClose}>Cancel</Button>
+    <Button onClick={() => {}}>Cancel</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```
 
 ### Auto size
@@ -137,24 +137,24 @@ const SModal = require('./StyleguideModal').default;
 Goes with normal paddings and auto width on desktop.
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="auto">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="auto" open={true}>
   <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
   <Modal.Body>This body has pre-defined paddings.</Modal.Body>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Let's do that!
     </Button>
-    <Button onClick={this.handleClose}>Cancel</Button>
+    <Button onClick={() => {}}>Cancel</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```
 
 ### Custom header
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="auto">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="auto" open={true}>
   <Modal.Header>
     <h1>You can suppy your own header</h1>
   </Modal.Header>
@@ -163,28 +163,28 @@ const SModal = require('./StyleguideModal').default;
     margins.
   </Modal.Body>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Ik snap het!
     </Button>
-    <Button onClick={this.handleClose}>Nee!</Button>
+    <Button onClick={() => {}}>Nee!</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```
 
 ### Custom body
 
 ```jsx
-const SModal = require('./StyleguideModal').default;
-<SModal size="auto">
+const ModalStyleguide = require('./StyleguideModal').default;
+<ModalStyleguide size="auto" open={true}>
   <Modal.Header>
     Check out the body &darr;
   </Modal.Header>
   <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
   <Modal.Footer>
-    <Button appearance="primary" onClick={this.handleClose}>
+    <Button appearance="primary" onClick={() => {}}>
       Got it!
     </Button>
-    <Button onClick={this.handleClose}>Cancel</Button>
+    <Button onClick={() => {}}>Cancel</Button>
   </Modal.Footer>
-</SModal>;
+</ModalStyleguide>;
 ```

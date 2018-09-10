@@ -4,6 +4,8 @@ const { logInfo, logWarning, logError, isComponentDirectory } = require('./scrip
 
 const COMPONENTS_PATH = './src/components';
 
+const getCustomRequireRegex = (componentName, optional = false) => `(const\\s+${componentName}Styleguide\\s+=\\srequire.*;\\n)${optional ? '?' : ''}`;
+
 // Place any folders inside `/src/compoentns' you want to be excluded from test generation here.
 // e.g const excludedFolders = ['Badge']; will exclude the Badge component.
 const excludedFolders = [];
@@ -72,9 +74,11 @@ const injectSnapshotCode = (code, componentName) => {
 
 const tabWidth = '  ';
 // removes the extra characters from the matched strings (jsx & ```).
-const cleanComponentCode = (code) =>
+const cleanComponentCode = (code, componentName) =>
   code.map(component =>
     component
+      .replace(new RegExp(getCustomRequireRegex(componentName), 'g'), '')
+      .replace(new RegExp(`${componentName}Styleguide`, 'g'), componentName) // replace custom styleguide component name to a normal component name
       .replace(/```/g, '') // remove all occurences of the string "```".
       .replace(/jsx/g, '') // remove all occurences of the string "jsx".
       .replace(/\n/g, `\n${tabWidth.repeat(4)}`)); // indent the component by 4 tabs (8 spaces)
@@ -94,7 +98,7 @@ const readMarkdownFile = (fileName, callBack, errorCallBack) => {
 const getMatchingComponents = (file, componentName) => {
   // To check which components will match the regex use this link https://regex101.com/r/7BlXLf/2
   // and replace 'Badge' with your component name.
-  const regexString = `\`\`\`jsx\\n<${componentName}[\\s\\S]+?(\\/>|<\\/${componentName}>)`;
+  const regexString = `\`\`\`jsx\\n${getCustomRequireRegex(componentName, true)}<${componentName}(Styleguide)?[\\s\\S]+?(\\/>|<\\/${componentName}(Styleguide)?>)`;
   // Result regex is ```jsx\n<Button[\s\S]+?(\/>|<\/Button>)
   // ```jsx\n (starts matching when it finds a code block that begins with this string)
   // <${componentName} (Ensures that the string begins with the component we are currently on)
@@ -106,7 +110,7 @@ const getMatchingComponents = (file, componentName) => {
   if (!matches) {
     return null;
   }
-  const components = cleanComponentCode(matches);
+  const components = cleanComponentCode(matches, componentName);
 
   return components;
 };
@@ -128,6 +132,7 @@ const generateTests = () => {
       const components = getMatchingComponents(file, name);
       if (components && components.length) {
         const snapshotCode = components.map(getSnapshotCode).join('');
+
         const result = injectSnapshotCode(snapshotCode, name);
         tests.push({ name, code: result });
       } else {
