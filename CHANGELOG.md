@@ -1,4 +1,7 @@
 ## [Unreleased]
+### Changed
+- Dropdown component now allows onClose prop to be passed.
+- Dropdown component layout now uses flex to align the icon to the right.
 
 ## [0.5.1] - 2018-09-05
 ### Changed
