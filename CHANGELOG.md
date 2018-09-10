@@ -1,5 +1,6 @@
 ## [Unreleased]
 ### Changed
+- ToggleMenu component now uses display instead of visibility.
 - Dropdown component now allows onClose prop to be passed.
 - Dropdown component layout now uses flex to align the icon to the right.
 

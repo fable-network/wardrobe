@@ -9,7 +9,7 @@ const TriggerWrapper = styled.span`
 
 const MenuWrapper = styled.div`
   position: absolute;
-  visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+  display: ${props => (props.visible ? 'block' : 'none')};
   z-index: 1;
   top: ${props => props.top};
   bottom: ${props => props.bottom};
