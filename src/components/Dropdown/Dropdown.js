@@ -7,8 +7,8 @@ import DropdownItem from '../DropdownItem';
 import Icon from '../Icon';
 
 const DropdownButton = styled.button`
-  position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: ${props => props.theme.white};
   border: solid 1px ${props => (
     props.disabled ? '#ccc' : props.theme.stoneGrey
@@ -18,7 +18,7 @@ const DropdownButton = styled.button`
   color: ${props => (
     props.disabled ? '#ccc' : props.theme.ravenBlack
   )};
-  padding: 8px 30px 8px 10px;;
+  padding: 8px 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   &:focus {
     outline: none;
@@ -29,6 +29,7 @@ const DropdownButton = styled.button`
 
 const Label = styled('span')`
   display: inline-block;
+  flex-grow: 1;
 `;
 
 const IconWrapper = styled(Icon).attrs({
@@ -40,12 +41,6 @@ const IconWrapper = styled(Icon).attrs({
     return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
   },
 })`
-  position: absolute;
-  right: 8px;
-  top: 0;
-  bottom: 0;
-  margin-top: auto;
-  margin-bottom: auto;
   margin-left: ${props => (props.selected ? 11 : 6)}px;
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
