@@ -4,6 +4,7 @@ Full live example (look into this code for the actual usage):
 const Button = require('../Button').default;
 class StyleguideExample extends React.Component {
   constructor() {
+    super();
     this.state = { open: false };
     this.handleOpen = this.handleOpen.bind(this);
     this.handleClose = this.handleClose.bind(this);
@@ -125,7 +126,7 @@ const ModalStyleguide = require('./StyleguideModal').default;
 
 ```jsx
 const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true}>
+<ModalStyleguide open={true}>
   <Modal.Header>
     <h1>You can suppy your own header</h1>
   </Modal.Header>
@@ -146,7 +147,7 @@ const ModalStyleguide = require('./StyleguideModal').default;
 
 ```jsx
 const ModalStyleguide = require('./StyleguideModal').default;
-<ModalStyleguide size="auto" open={true}>
+<ModalStyleguide open={true}>
   <Modal.Header>
     Check out the body &darr;
   </Modal.Header>

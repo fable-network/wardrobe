@@ -11,10 +11,10 @@ ShallowWrapper {
     <Header>
       You are changing the status of this order to Shipped
     </Header>
-    <Body>
+    <Modal__BodyStyled>
       This body has pre-defined paddings.
-    </Body>
-    <Footer>
+    </Modal__BodyStyled>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -35,7 +35,7 @@ ShallowWrapper {
       >
         Cancel
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -62,10 +62,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -86,7 +86,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
@@ -105,10 +105,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -129,7 +129,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -146,10 +146,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>,
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>,
-            <Footer>
+            </Modal__BodyStyled>,
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -170,7 +170,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
           "size": "normal",
         },
@@ -190,7 +190,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "This body has pre-defined paddings.",
             },
@@ -201,7 +201,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -291,10 +291,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -315,7 +315,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
@@ -334,10 +334,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -358,7 +358,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -375,10 +375,10 @@ ShallowWrapper {
               <Header>
                 You are changing the status of this order to Shipped
               </Header>,
-              <Body>
+              <Modal__BodyStyled>
                 This body has pre-defined paddings.
-              </Body>,
-              <Footer>
+              </Modal__BodyStyled>,
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -399,7 +399,7 @@ ShallowWrapper {
                 >
                   Cancel
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
             "size": "normal",
           },
@@ -419,7 +419,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "This body has pre-defined paddings.",
               },
@@ -430,7 +430,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button
@@ -531,10 +531,10 @@ ShallowWrapper {
     <Header>
       You are changing the status of this order to Shipped
     </Header>
-    <Body>
+    <Modal__BodyStyled>
       This body has pre-defined paddings.
-    </Body>
-    <Footer>
+    </Modal__BodyStyled>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -555,7 +555,7 @@ ShallowWrapper {
       >
         Cancel
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -582,10 +582,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -606,7 +606,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
@@ -625,10 +625,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -649,7 +649,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -666,10 +666,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>,
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>,
-            <Footer>
+            </Modal__BodyStyled>,
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -690,7 +690,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
           "size": "small",
         },
@@ -710,7 +710,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "This body has pre-defined paddings.",
             },
@@ -721,7 +721,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -811,10 +811,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -835,7 +835,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
@@ -854,10 +854,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -878,7 +878,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -895,10 +895,10 @@ ShallowWrapper {
               <Header>
                 You are changing the status of this order to Shipped
               </Header>,
-              <Body>
+              <Modal__BodyStyled>
                 This body has pre-defined paddings.
-              </Body>,
-              <Footer>
+              </Modal__BodyStyled>,
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -919,7 +919,7 @@ ShallowWrapper {
                 >
                   Cancel
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
             "size": "small",
           },
@@ -939,7 +939,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "This body has pre-defined paddings.",
               },
@@ -950,7 +950,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button
@@ -1051,10 +1051,10 @@ ShallowWrapper {
     <Header>
       You are changing the status of this order to Shipped
     </Header>
-    <Body>
+    <Modal__BodyStyled>
       This body has pre-defined paddings.
-    </Body>
-    <Footer>
+    </Modal__BodyStyled>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -1075,7 +1075,7 @@ ShallowWrapper {
       >
         Cancel
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1102,10 +1102,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -1126,7 +1126,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
@@ -1145,10 +1145,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -1169,7 +1169,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -1186,10 +1186,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>,
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>,
-            <Footer>
+            </Modal__BodyStyled>,
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1210,7 +1210,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
           "size": "large",
         },
@@ -1230,7 +1230,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "This body has pre-defined paddings.",
             },
@@ -1241,7 +1241,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -1331,10 +1331,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1355,7 +1355,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
@@ -1374,10 +1374,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1398,7 +1398,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -1415,10 +1415,10 @@ ShallowWrapper {
               <Header>
                 You are changing the status of this order to Shipped
               </Header>,
-              <Body>
+              <Modal__BodyStyled>
                 This body has pre-defined paddings.
-              </Body>,
-              <Footer>
+              </Modal__BodyStyled>,
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -1439,7 +1439,7 @@ ShallowWrapper {
                 >
                   Cancel
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
             "size": "large",
           },
@@ -1459,7 +1459,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "This body has pre-defined paddings.",
               },
@@ -1470,7 +1470,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button
@@ -1571,10 +1571,10 @@ ShallowWrapper {
     <Header>
       You are changing the status of this order to Shipped
     </Header>
-    <Body>
+    <Modal__BodyStyled>
       This body has pre-defined paddings.
-    </Body>
-    <Footer>
+    </Modal__BodyStyled>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -1595,7 +1595,7 @@ ShallowWrapper {
       >
         Cancel
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1622,10 +1622,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -1646,7 +1646,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
@@ -1665,10 +1665,10 @@ ShallowWrapper {
           <Header>
             You are changing the status of this order to Shipped
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             This body has pre-defined paddings.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -1689,7 +1689,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -1706,10 +1706,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>,
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>,
-            <Footer>
+            </Modal__BodyStyled>,
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1730,7 +1730,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
           "size": "auto",
         },
@@ -1750,7 +1750,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "This body has pre-defined paddings.",
             },
@@ -1761,7 +1761,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -1851,10 +1851,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1875,7 +1875,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
@@ -1894,10 +1894,10 @@ ShallowWrapper {
             <Header>
               You are changing the status of this order to Shipped
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               This body has pre-defined paddings.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -1918,7 +1918,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -1935,10 +1935,10 @@ ShallowWrapper {
               <Header>
                 You are changing the status of this order to Shipped
               </Header>,
-              <Body>
+              <Modal__BodyStyled>
                 This body has pre-defined paddings.
-              </Body>,
-              <Footer>
+              </Modal__BodyStyled>,
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -1959,7 +1959,7 @@ ShallowWrapper {
                 >
                   Cancel
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
             "size": "auto",
           },
@@ -1979,7 +1979,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "This body has pre-defined paddings.",
               },
@@ -1990,7 +1990,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button
@@ -2086,17 +2086,17 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Modal
     open={true}
     preventGlobalScroll={true}
-    size="auto"
+    size="normal"
   >
     <Header>
       <h1>
         You can suppy your own header
       </h1>
     </Header>
-    <Body>
+    <Modal__BodyStyled>
       If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-    </Body>
-    <Footer>
+    </Modal__BodyStyled>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -2117,7 +2117,7 @@ ShallowWrapper {
       >
         Nee!
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -2139,17 +2139,17 @@ ShallowWrapper {
         modalClassName="modal"
       >
         <Modal__ModalWrapper
-          size="auto"
+          size="normal"
         >
           <Header>
             <h1>
               You can suppy your own header
             </h1>
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -2170,11 +2170,11 @@ ShallowWrapper {
             >
               Nee!
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
-      "size": "auto",
+      "size": "normal",
     },
     "ref": null,
     "rendered": Object {
@@ -2184,17 +2184,17 @@ ShallowWrapper {
       "props": Object {
         "backdropClassName": "backdrop",
         "children": <Modal__ModalWrapper
-          size="auto"
+          size="normal"
         >
           <Header>
             <h1>
               You can suppy your own header
             </h1>
           </Header>
-          <Body>
+          <Modal__BodyStyled>
             If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-          </Body>
-          <Footer>
+          </Modal__BodyStyled>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -2215,7 +2215,7 @@ ShallowWrapper {
             >
               Nee!
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -2234,10 +2234,10 @@ ShallowWrapper {
                 You can suppy your own header
               </h1>
             </Header>,
-            <Body>
+            <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-            </Body>,
-            <Footer>
+            </Modal__BodyStyled>,
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -2258,9 +2258,9 @@ ShallowWrapper {
               >
                 Nee!
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
-          "size": "auto",
+          "size": "normal",
         },
         "ref": null,
         "rendered": Array [
@@ -2290,7 +2290,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
             },
@@ -2301,7 +2301,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -2386,17 +2386,17 @@ ShallowWrapper {
           modalClassName="modal"
         >
           <Modal__ModalWrapper
-            size="auto"
+            size="normal"
           >
             <Header>
               <h1>
                 You can suppy your own header
               </h1>
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -2417,11 +2417,11 @@ ShallowWrapper {
               >
                 Nee!
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
-        "size": "auto",
+        "size": "normal",
       },
       "ref": null,
       "rendered": Object {
@@ -2431,17 +2431,17 @@ ShallowWrapper {
         "props": Object {
           "backdropClassName": "backdrop",
           "children": <Modal__ModalWrapper
-            size="auto"
+            size="normal"
           >
             <Header>
               <h1>
                 You can suppy your own header
               </h1>
             </Header>
-            <Body>
+            <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-            </Body>
-            <Footer>
+            </Modal__BodyStyled>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -2462,7 +2462,7 @@ ShallowWrapper {
               >
                 Nee!
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -2481,10 +2481,10 @@ ShallowWrapper {
                   You can suppy your own header
                 </h1>
               </Header>,
-              <Body>
+              <Modal__BodyStyled>
                 If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
-              </Body>,
-              <Footer>
+              </Modal__BodyStyled>,
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -2505,9 +2505,9 @@ ShallowWrapper {
                 >
                   Nee!
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
-            "size": "auto",
+            "size": "normal",
           },
           "ref": null,
           "rendered": Array [
@@ -2537,7 +2537,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
               },
@@ -2548,7 +2548,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button
@@ -2644,7 +2644,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Modal
     open={true}
     preventGlobalScroll={true}
-    size="auto"
+    size="normal"
   >
     <Header>
       Check out the body ↓
@@ -2660,7 +2660,7 @@ ShallowWrapper {
     >
       I'm full width!
     </div>
-    <Footer>
+    <Modal__FooterStyled>
       <Button
         appearance="primary"
         className=""
@@ -2681,7 +2681,7 @@ ShallowWrapper {
       >
         Cancel
       </Button>
-    </Footer>
+    </Modal__FooterStyled>
   </Modal>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -2703,7 +2703,7 @@ ShallowWrapper {
         modalClassName="modal"
       >
         <Modal__ModalWrapper
-          size="auto"
+          size="normal"
         >
           <Header>
             Check out the body ↓
@@ -2719,7 +2719,7 @@ ShallowWrapper {
           >
             I'm full width!
           </div>
-          <Footer>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -2740,11 +2740,11 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>
       </ReactModal2>,
       "role": "dialog",
-      "size": "auto",
+      "size": "normal",
     },
     "ref": null,
     "rendered": Object {
@@ -2754,7 +2754,7 @@ ShallowWrapper {
       "props": Object {
         "backdropClassName": "backdrop",
         "children": <Modal__ModalWrapper
-          size="auto"
+          size="normal"
         >
           <Header>
             Check out the body ↓
@@ -2770,7 +2770,7 @@ ShallowWrapper {
           >
             I'm full width!
           </div>
-          <Footer>
+          <Modal__FooterStyled>
             <Button
               appearance="primary"
               className=""
@@ -2791,7 +2791,7 @@ ShallowWrapper {
             >
               Cancel
             </Button>
-          </Footer>
+          </Modal__FooterStyled>
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
@@ -2819,7 +2819,7 @@ ShallowWrapper {
             >
               I'm full width!
             </div>,
-            <Footer>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -2840,9 +2840,9 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>,
+            </Modal__FooterStyled>,
           ],
-          "size": "auto",
+          "size": "normal",
         },
         "ref": null,
         "rendered": Array [
@@ -2876,7 +2876,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Button
@@ -2961,7 +2961,7 @@ ShallowWrapper {
           modalClassName="modal"
         >
           <Modal__ModalWrapper
-            size="auto"
+            size="normal"
           >
             <Header>
               Check out the body ↓
@@ -2977,7 +2977,7 @@ ShallowWrapper {
             >
               I'm full width!
             </div>
-            <Footer>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -2998,11 +2998,11 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>
         </ReactModal2>,
         "role": "dialog",
-        "size": "auto",
+        "size": "normal",
       },
       "ref": null,
       "rendered": Object {
@@ -3012,7 +3012,7 @@ ShallowWrapper {
         "props": Object {
           "backdropClassName": "backdrop",
           "children": <Modal__ModalWrapper
-            size="auto"
+            size="normal"
           >
             <Header>
               Check out the body ↓
@@ -3028,7 +3028,7 @@ ShallowWrapper {
             >
               I'm full width!
             </div>
-            <Footer>
+            <Modal__FooterStyled>
               <Button
                 appearance="primary"
                 className=""
@@ -3049,7 +3049,7 @@ ShallowWrapper {
               >
                 Cancel
               </Button>
-            </Footer>
+            </Modal__FooterStyled>
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
@@ -3077,7 +3077,7 @@ ShallowWrapper {
               >
                 I'm full width!
               </div>,
-              <Footer>
+              <Modal__FooterStyled>
                 <Button
                   appearance="primary"
                   className=""
@@ -3098,9 +3098,9 @@ ShallowWrapper {
                 >
                   Cancel
                 </Button>
-              </Footer>,
+              </Modal__FooterStyled>,
             ],
-            "size": "auto",
+            "size": "normal",
           },
           "ref": null,
           "rendered": Array [
@@ -3134,7 +3134,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": Array [
                   <Button

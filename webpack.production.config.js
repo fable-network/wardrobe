@@ -42,17 +42,6 @@ module.exports = {
     ],
   },
   externals: [
-    nodeExternals({
-      whitelist: [
-        'classnames',
-        'lodash.get',
-        'react-modal2',
-        'a11y-focus-store',
-        'a11y-focus-scope',
-        'exenv',
-        'focusin',
-        'tabbable',
-      ],
-    }),
+    nodeExternals({}),
   ],
 };

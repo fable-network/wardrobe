@@ -64,6 +64,20 @@ Example:
 <MyComponent /> // will be ignored
 ````
 
+**Also you can use a special version of your component for Styleguide this way:**
+
+Example:
+```jsx
+// with custom require
+const MyComponentStyleguide = require('./MyComponentStyleguide').default;
+<MyComponentStyleguide /> // will work
+```
+
+The name of the variable with required component should be `<ComponenName>Styleguide`.
+
+You may need this feature in case your component, when used directly, breaks of blocks 
+the Styleguide, e.g. Modal component.
+
 ## Release process
 * Update the package version in the package.json file.
 * Open the changelog and update everything from the unreleased section to the new release version and date.

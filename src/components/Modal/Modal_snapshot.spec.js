@@ -66,7 +66,7 @@ describe('Modal Component', () => {
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Modal size="auto" open={true}>
+        <Modal open={true}>
           <Modal.Header>
             <h1>You can suppy your own header</h1>
           </Modal.Header>
@@ -85,7 +85,7 @@ describe('Modal Component', () => {
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Modal size="auto" open={true}>
+        <Modal open={true}>
           <Modal.Header>
             Check out the body &darr;
           </Modal.Header>

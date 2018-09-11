@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import BaseModal from 'react-modal2';
-import classnames from 'classnames';
 import { DESKTOP } from '../../constants/Breakpoints';
 import { withAlpha } from '../../helpers/colors';
 
@@ -22,6 +21,26 @@ const WIDTHS = {
   `,
 };
 
+const HeaderStyled = styled.header.attrs({ tabIndex: 0 })`
+  outline: none;
+`;
+
+const HeaderStyledSingleChild = styled(HeaderStyled)``;
+
+// Child blocks are styled via classes, so the user sets sizing only on a parent <Modal>
+const Header = props => (
+  typeof props.children === 'string'
+    ? <HeaderStyledSingleChild>{props.children}</HeaderStyledSingleChild>
+    : <HeaderStyled>{props.children}</HeaderStyled>
+);
+Header.propTypes = { children: PropTypes.node };
+
+
+const FooterStyled = styled.footer``;
+
+const BodyStyled = styled.div``;
+
+
 export const ModalStyles = css`
   background-color: ${props => props.theme.white};
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
@@ -31,10 +50,10 @@ export const ModalStyles = css`
     ${props => WIDTHS[props.size]};
   }
 
-  > .modal-header {
+  ${HeaderStyled} {
     border-bottom: solid 1px ${props => withAlpha(props.theme.stoneGrey, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
-    &.modal-header--single-child {
+    &${HeaderStyledSingleChild} {
       font-size: 1.25em;
       font-weight: bold;
       text-align: center;
@@ -45,8 +64,8 @@ export const ModalStyles = css`
     }
   }
 
-  > .modal-footer {
-    border-bottom: solid 1px ${props => withAlpha(props.theme.stoneGrey, 0.5)};
+  ${FooterStyled} {
+    border-top: solid 1px ${props => withAlpha(props.theme.stoneGrey, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;
@@ -70,7 +89,7 @@ export const ModalStyles = css`
     `};
   }
 
-  > .modal-body {
+  ${BodyStyled} {
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
   }
 `;
@@ -113,34 +132,6 @@ const ModalWrapper = styled.div`
   }
 `;
 
-const HeaderStyled = styled.header`
-  outline: none;
-`;
-
-const PropTypesChildren = {
-  children: PropTypes.node,
-};
-
-// Child blocks are styled via classes, so the user sets sizing only on a parent <Modal>
-const Header = props => (
-  <HeaderStyled
-    className={classnames({
-      'modal-header': true,
-      'modal-header--single-child': typeof props.children === 'string',
-    })}
-    tabIndex={0}
-  >
-    {props.children}
-  </HeaderStyled>
-);
-Header.propTypes = PropTypesChildren;
-
-const Footer = props => <footer className="modal-footer">{props.children}</footer>;
-Footer.propTypes = PropTypesChildren;
-
-const Body = props => <div className="modal-body">{props.children}</div>;
-Body.propTypes = PropTypesChildren;
-
 /**
  * Main modal component.
  */
@@ -167,13 +158,13 @@ class Modal extends Component {
   }
 
   blockGlobalScroll() {
-    if (!global.document) return;
+    if (!document) return;
     this.prevBodyOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
   }
 
   unblockGlobalScroll() {
-    if (!global.document) return;
+    if (!document) return;
     document.body.style.overflow = this.prevBodyOverflow;
     this.prevBodyOverflow = null;
   }
@@ -213,8 +204,8 @@ Modal.propTypes = {
 };
 
 Modal.Header = Header;
-Modal.Footer = Footer;
-Modal.Body = Body;
+Modal.Footer = FooterStyled;
+Modal.Body = BodyStyled;
 
 /** @component */
 export default Modal;
