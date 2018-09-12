@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import BaseModal from 'react-modal2';
 import { DESKTOP } from '../../constants/Breakpoints';
-import { withAlpha } from '../../helpers/colors';
+import { hexToRgba } from '../../helpers/colors';
 
 const PADDINGS = {
   small: '16px 24px',
   normal: '24px 48px',
-  large: '48px 64px',
+  large: '24px 48px',
 };
 
 const WIDTHS = {
@@ -25,21 +25,9 @@ const HeaderStyled = styled.header.attrs({ tabIndex: 0 })`
   outline: none;
 `;
 
-const HeaderStyledSingleChild = styled(HeaderStyled)``;
-
-// Child blocks are styled via classes, so the user sets sizing only on a parent <Modal>
-const Header = props => (
-  typeof props.children === 'string'
-    ? <HeaderStyledSingleChild>{props.children}</HeaderStyledSingleChild>
-    : <HeaderStyled>{props.children}</HeaderStyled>
-);
-Header.propTypes = { children: PropTypes.node };
-
-
 const FooterStyled = styled.footer``;
 
 const BodyStyled = styled.div``;
-
 
 export const ModalStyles = css`
   background-color: ${props => props.theme.white};
@@ -51,21 +39,19 @@ export const ModalStyles = css`
   }
 
   ${HeaderStyled} {
-    border-bottom: solid 1px ${props => withAlpha(props.theme.stoneGrey, 0.5)};
+    border-bottom: solid 1px ${props => hexToRgba(props.theme.stoneGrey, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
-    &${HeaderStyledSingleChild} {
-      font-size: 1.25em;
-      font-weight: bold;
-      text-align: center;
-      color: ${props => props.theme.skyBlue};
-      @media ${DESKTOP} {
-        font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
-      }
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    color: ${props => props.theme.skyBlue};
+    @media ${DESKTOP} {
+      font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
     }
   }
 
   ${FooterStyled} {
-    border-top: solid 1px ${props => withAlpha(props.theme.stoneGrey, 0.5)};
+    border-top: solid 1px ${props => hexToRgba(props.theme.stoneGrey, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;
@@ -136,7 +122,7 @@ const ModalWrapper = styled.div`
  * Main modal component.
  */
 class Modal extends Component {
-  prevBodyOverflow = null;
+  preventBodyOverflow = null;
 
   componentDidMount() {
     const { open, preventGlobalScroll } = this.props;
@@ -159,19 +145,22 @@ class Modal extends Component {
 
   blockGlobalScroll() {
     if (!document) return;
-    this.prevBodyOverflow = document.body.style.overflow;
+    this.preventBodyOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
   }
 
   unblockGlobalScroll() {
     if (!document) return;
-    document.body.style.overflow = this.prevBodyOverflow;
-    this.prevBodyOverflow = null;
+    document.body.style.overflow = this.preventBodyOverflow;
+    this.preventBodyOverflow = null;
   }
 
   render() {
     const { backdropColor, open, size, children, onClose } = this.props;
-    return open ? (
+    if (!open) {
+      return null;
+    }
+    return (
       <Root backdropColor={backdropColor} size={size} role="dialog">
         <BaseModal
           onClose={onClose}
@@ -180,12 +169,10 @@ class Modal extends Component {
           backdropClassName="backdrop"
           modalClassName="modal"
         >
-          <ModalWrapper size={size}>
-            {children}
-          </ModalWrapper>
+          <ModalWrapper size={size}>{children}</ModalWrapper>
         </BaseModal>
       </Root>
-    ) : null;
+    );
   }
 }
 
@@ -203,7 +190,7 @@ Modal.propTypes = {
   onClose: PropTypes.func,
 };
 
-Modal.Header = Header;
+Modal.Header = HeaderStyled;
 Modal.Footer = FooterStyled;
 Modal.Body = BodyStyled;
 

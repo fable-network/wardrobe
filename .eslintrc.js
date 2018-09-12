@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   "extends": "airbnb",
+  "plugins": ["jest"],
   "parser": "babel-eslint",
   "rules": {
     "comma-dangle": 0,
@@ -20,5 +21,8 @@ module.exports = {
   "globals": {
     "document": true,
     "window": true
+  },
+  "env": {
+    "jest/globals": true
   }
 };

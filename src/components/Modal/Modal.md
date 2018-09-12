@@ -15,6 +15,9 @@ class StyleguideExample extends React.Component {
   handleClose() {
     this.setState({ open: false });
   }
+  renderItems(count) {
+    return Array.from(new Array(count)).map((_, index) => <li key={index}>Item {index}</li>)
+  }
   render() {
     return (
       <div>
@@ -31,9 +34,7 @@ class StyleguideExample extends React.Component {
           <Modal.Body>
             <p>This body has pre-defined paddings.</p>
             <p>A lot of content here to demostrate scrolling behaviour.</p>
-            <ul>
-              {Array.from(new Array(50)).map((_, index) => <li key={index}>Item {index}</li>)}
-            </ul>
+            <ul>{this.renderItems(50)}</ul>
           </Modal.Body>
           <Modal.Footer>
             <Button appearance="primary" onClick={this.handleClose}>
@@ -128,7 +129,7 @@ const ModalStyleguide = require('./StyleguideModal').default;
 const ModalStyleguide = require('./StyleguideModal').default;
 <ModalStyleguide open={true}>
   <Modal.Header>
-    <h1>You can suppy your own header</h1>
+    <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
   </Modal.Header>
   <Modal.Body>
     If you do so, styling is up to you. For example, see that this header also has default `h1`

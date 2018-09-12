@@ -8,9 +8,9 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="normal"
   >
-    <Header>
+    <Modal__HeaderStyled>
       You are changing the status of this order to Shipped
-    </Header>
+    </Modal__HeaderStyled>
     <Modal__BodyStyled>
       This body has pre-defined paddings.
     </Modal__BodyStyled>
@@ -59,9 +59,9 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -102,9 +102,9 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -143,9 +143,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>,
+            </Modal__HeaderStyled>,
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>,
@@ -179,7 +179,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "You are changing the status of this order to Shipped",
             },
@@ -288,9 +288,9 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -331,9 +331,9 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -372,9 +372,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 You are changing the status of this order to Shipped
-              </Header>,
+              </Modal__HeaderStyled>,
               <Modal__BodyStyled>
                 This body has pre-defined paddings.
               </Modal__BodyStyled>,
@@ -408,7 +408,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "You are changing the status of this order to Shipped",
               },
@@ -528,9 +528,9 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="small"
   >
-    <Header>
+    <Modal__HeaderStyled>
       You are changing the status of this order to Shipped
-    </Header>
+    </Modal__HeaderStyled>
     <Modal__BodyStyled>
       This body has pre-defined paddings.
     </Modal__BodyStyled>
@@ -579,9 +579,9 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="small"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -622,9 +622,9 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="small"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -663,9 +663,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>,
+            </Modal__HeaderStyled>,
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>,
@@ -699,7 +699,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "You are changing the status of this order to Shipped",
             },
@@ -808,9 +808,9 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="small"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -851,9 +851,9 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="small"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -892,9 +892,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 You are changing the status of this order to Shipped
-              </Header>,
+              </Modal__HeaderStyled>,
               <Modal__BodyStyled>
                 This body has pre-defined paddings.
               </Modal__BodyStyled>,
@@ -928,7 +928,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "You are changing the status of this order to Shipped",
               },
@@ -1048,9 +1048,9 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="large"
   >
-    <Header>
+    <Modal__HeaderStyled>
       You are changing the status of this order to Shipped
-    </Header>
+    </Modal__HeaderStyled>
     <Modal__BodyStyled>
       This body has pre-defined paddings.
     </Modal__BodyStyled>
@@ -1099,9 +1099,9 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="large"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -1142,9 +1142,9 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="large"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -1183,9 +1183,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>,
+            </Modal__HeaderStyled>,
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>,
@@ -1219,7 +1219,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "You are changing the status of this order to Shipped",
             },
@@ -1328,9 +1328,9 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="large"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -1371,9 +1371,9 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="large"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -1412,9 +1412,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 You are changing the status of this order to Shipped
-              </Header>,
+              </Modal__HeaderStyled>,
               <Modal__BodyStyled>
                 This body has pre-defined paddings.
               </Modal__BodyStyled>,
@@ -1448,7 +1448,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "You are changing the status of this order to Shipped",
               },
@@ -1568,9 +1568,9 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="auto"
   >
-    <Header>
+    <Modal__HeaderStyled>
       You are changing the status of this order to Shipped
-    </Header>
+    </Modal__HeaderStyled>
     <Modal__BodyStyled>
       This body has pre-defined paddings.
     </Modal__BodyStyled>
@@ -1619,9 +1619,9 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="auto"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -1662,9 +1662,9 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="auto"
         >
-          <Header>
+          <Modal__HeaderStyled>
             You are changing the status of this order to Shipped
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             This body has pre-defined paddings.
           </Modal__BodyStyled>
@@ -1703,9 +1703,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>,
+            </Modal__HeaderStyled>,
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>,
@@ -1739,7 +1739,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "You are changing the status of this order to Shipped",
             },
@@ -1848,9 +1848,9 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="auto"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -1891,9 +1891,9 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="auto"
           >
-            <Header>
+            <Modal__HeaderStyled>
               You are changing the status of this order to Shipped
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               This body has pre-defined paddings.
             </Modal__BodyStyled>
@@ -1932,9 +1932,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 You are changing the status of this order to Shipped
-              </Header>,
+              </Modal__HeaderStyled>,
               <Modal__BodyStyled>
                 This body has pre-defined paddings.
               </Modal__BodyStyled>,
@@ -1968,7 +1968,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "You are changing the status of this order to Shipped",
               },
@@ -2088,11 +2088,11 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="normal"
   >
-    <Header>
+    <Modal__HeaderStyled>
       <h1>
         You can suppy your own header
       </h1>
-    </Header>
+    </Modal__HeaderStyled>
     <Modal__BodyStyled>
       If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
     </Modal__BodyStyled>
@@ -2141,11 +2141,11 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             <h1>
               You can suppy your own header
             </h1>
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
           </Modal__BodyStyled>
@@ -2186,11 +2186,11 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             <h1>
               You can suppy your own header
             </h1>
-          </Header>
+          </Modal__HeaderStyled>
           <Modal__BodyStyled>
             If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
           </Modal__BodyStyled>
@@ -2229,11 +2229,11 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               <h1>
                 You can suppy your own header
               </h1>
-            </Header>,
+            </Modal__HeaderStyled>,
             <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
             </Modal__BodyStyled>,
@@ -2267,7 +2267,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <h1>
                 You can suppy your own header
@@ -2388,11 +2388,11 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               <h1>
                 You can suppy your own header
               </h1>
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
             </Modal__BodyStyled>
@@ -2433,11 +2433,11 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               <h1>
                 You can suppy your own header
               </h1>
-            </Header>
+            </Modal__HeaderStyled>
             <Modal__BodyStyled>
               If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
             </Modal__BodyStyled>
@@ -2476,11 +2476,11 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 <h1>
                   You can suppy your own header
                 </h1>
-              </Header>,
+              </Modal__HeaderStyled>,
               <Modal__BodyStyled>
                 If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
               </Modal__BodyStyled>,
@@ -2514,7 +2514,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": <h1>
                   You can suppy your own header
@@ -2646,9 +2646,9 @@ ShallowWrapper {
     preventGlobalScroll={true}
     size="normal"
   >
-    <Header>
+    <Modal__HeaderStyled>
       Check out the body ↓
-    </Header>
+    </Modal__HeaderStyled>
     <div
       style={
         Object {
@@ -2705,9 +2705,9 @@ ShallowWrapper {
         <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             Check out the body ↓
-          </Header>
+          </Modal__HeaderStyled>
           <div
             style={
               Object {
@@ -2756,9 +2756,9 @@ ShallowWrapper {
         "children": <Modal__ModalWrapper
           size="normal"
         >
-          <Header>
+          <Modal__HeaderStyled>
             Check out the body ↓
-          </Header>
+          </Modal__HeaderStyled>
           <div
             style={
               Object {
@@ -2805,9 +2805,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Header>
+            <Modal__HeaderStyled>
               Check out the body ↓
-            </Header>,
+            </Modal__HeaderStyled>,
             <div
               style={
                 Object {
@@ -2849,7 +2849,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "Check out the body ↓",
             },
@@ -2963,9 +2963,9 @@ ShallowWrapper {
           <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               Check out the body ↓
-            </Header>
+            </Modal__HeaderStyled>
             <div
               style={
                 Object {
@@ -3014,9 +3014,9 @@ ShallowWrapper {
           "children": <Modal__ModalWrapper
             size="normal"
           >
-            <Header>
+            <Modal__HeaderStyled>
               Check out the body ↓
-            </Header>
+            </Modal__HeaderStyled>
             <div
               style={
                 Object {
@@ -3063,9 +3063,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Header>
+              <Modal__HeaderStyled>
                 Check out the body ↓
-              </Header>,
+              </Modal__HeaderStyled>,
               <div
                 style={
                   Object {
@@ -3107,7 +3107,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Check out the body ↓",
               },
