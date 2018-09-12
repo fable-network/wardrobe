@@ -46,14 +46,12 @@ const renderIcon = (iconPosition, isLoading, color) => (
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, placeholder, theme, onChange, value, isLoading, ...props }) => (
+const Searchbar = ({ iconPosition, theme, isLoading, ...props }) => (
   <Wrapper>
     {renderIcon(iconPosition, isLoading, theme.skyBlue)}
     <Input
       type="text"
       iconPosition={iconPosition}
-      onChange={onChange}
-      placeholder={placeholder}
       {...props}
     />
   </Wrapper>

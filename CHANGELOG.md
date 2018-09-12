@@ -4,8 +4,11 @@
 - Dropdown component now allows onClose prop to be passed.
 - Dropdown component layout now uses flex to align the icon to the right.
 
+### Fixed
+- value prop not being passed to the searchbar input field.
+
 ## [0.5.1] - 2018-09-05
-### Changed
+### Fixed
 - Fix bug causing searchbar placeholder not to show.
 
 ## [0.5.0] - 2018-09-05
