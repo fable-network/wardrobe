@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.6.0] - 2018-09-13
 ### Added
 - Modal component
 
