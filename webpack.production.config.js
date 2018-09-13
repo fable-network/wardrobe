@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
     library: '',
-    libraryTarget: 'commonjs'
+    libraryTarget: 'commonjs',
   },
   module: {
     rules: [
@@ -15,7 +15,7 @@ module.exports = {
         test: /\.js$/,
         include: path.join(__dirname, 'src'),
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
       },
       {
         test: /\.css$/,
@@ -29,17 +29,19 @@ module.exports = {
         test: /\.scss$/,
         use: [
           {
-            loader: 'style-loader' // creates style nodes from JS strings
+            loader: 'style-loader', // creates style nodes from JS strings
           },
           {
-            loader: 'css-loader' // translates CSS into CommonJS
+            loader: 'css-loader', // translates CSS into CommonJS
           },
           {
-            loader: 'sass-loader' // compiles Sass to CSS
-          }
-        ]
-      }
-    ]
+            loader: 'sass-loader', // compiles Sass to CSS
+          },
+        ],
+      },
+    ],
   },
-  externals: [nodeExternals()]
+  externals: [
+    nodeExternals({}),
+  ],
 };

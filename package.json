@@ -23,7 +23,8 @@
   "dependencies": {
     "classnames": "2.2.6",
     "lodash.get": "4.4.2",
-    "prop-types": "15.6.1"
+    "prop-types": "15.6.1",
+    "react-modal2": "5.0.0"
   },
   "scripts": {
     "start": "styleguidist server",
