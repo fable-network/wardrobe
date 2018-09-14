@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- The path of the iconSprite in Icon component to be absolute.
 
 ## [0.6.0] - 2018-09-13
 ### Added

@@ -13,7 +13,7 @@ const Icon = ({ name, color, width, height, ...otherProps }) => (
     fill={color}
     {...otherProps}
   >
-    <use xlinkHref={`iconsprite.svg#icon-${name}`} />
+    <use xlinkHref={`/iconsprite.svg#icon-${name}`} />
   </svg>
 );
 
