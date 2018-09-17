@@ -68,7 +68,7 @@ describe('Modal Component', () => {
       const wrapper5 = shallow(
         <Modal open={true}>
           <Modal.Header>
-            <h1>You can suppy your own header</h1>
+            <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
           </Modal.Header>
           <Modal.Body>
             If you do so, styling is up to you. For example, see that this header also has default `h1`

@@ -38,6 +38,16 @@ Dropdown selected.
 </Dropdown>
 ```
 
+Dropdown loading.
+
+```jsx
+<Dropdown isLoading={true} label="Something is happening">
+  <Dropdown.Item>
+    Check that checkmark
+  </Dropdown.Item>
+</Dropdown>
+```
+
 Dropdown disabled.
 
 ```jsx

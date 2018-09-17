@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
 import Icon from '../Icon';
+import LoadingSpinner from '../LoadingSpinner';
 
 const DropdownButton = styled.button`
   display: flex;
@@ -54,6 +55,11 @@ const DropdownPanel = styled.div`
   overflow: auto;
 `;
 
+const LoadingWrapper = styled.div`
+  margin-left: 10px;
+  font-size: 0;
+`;
+
 class Dropdown extends Component {
   constructor() {
     super();
@@ -79,20 +85,25 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { disabled, label, isSelected } = this.props;
+    const { disabled, label, isSelected, isLoading } = this.props;
     const { menuOpen } = this.state;
 
     return (
       <DropdownButton disabled={disabled}>
         <Label>{label}</Label>
-        <IconWrapper
-          open={menuOpen}
-          selected={isSelected}
-          name={this.getIcon()}
-          width={isSelected ? 11 : 16}
-          height={9}
-          disabled={disabled}
-        />
+        {isLoading
+          ? <LoadingWrapper><LoadingSpinner size="15px" /></LoadingWrapper>
+          : (
+            <IconWrapper
+              open={menuOpen}
+              selected={isSelected}
+              name={this.getIcon()}
+              width={isSelected ? 11 : 16}
+              height={9}
+              disabled={disabled}
+            />
+          )
+        }
       </DropdownButton>
     );
   }
@@ -125,6 +136,7 @@ Dropdown.propTypes = {
   disabled: PropTypes.bool,
   /** Show checkmark instead of dropdown caret */
   isSelected: PropTypes.bool,
+  isLoading: PropTypes.bool,
   /** Contents of the dropdown */
   children: PropTypes.node.isRequired,
   /** Position of the dropdown panel */
@@ -137,6 +149,7 @@ Dropdown.defaultProps = {
   className: null,
   disabled: false,
   isSelected: false,
+  isLoading: false,
   onClose: () => null
 };
 
