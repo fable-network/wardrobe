@@ -16,6 +16,7 @@ const colors = {
 
 const StyledSpinner = styled.span`
   display: inline-block;
+  box-sizing: border-box;
   width: ${props => props.size};
   height: ${props => props.size};
   border: calc(${props => props.size} / 10) solid ${props => props.color};

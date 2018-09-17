@@ -110,14 +110,16 @@ ShallowWrapper {
         <Dropdown__Label>
           Don't push me
         </Dropdown__Label>
-        <Dropdown__IconWrapper
-          disabled={false}
-          height={9}
-          name="caret-down"
-          open={false}
-          selected={false}
-          width={16}
-        />
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
     "ref": null,
@@ -348,14 +350,16 @@ ShallowWrapper {
           <Dropdown__Label>
             Don't push me
           </Dropdown__Label>
-          <Dropdown__IconWrapper
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
       "ref": null,
@@ -594,14 +598,16 @@ ShallowWrapper {
         <Dropdown__Label>
           Push Me
         </Dropdown__Label>
-        <Dropdown__IconWrapper
-          disabled={false}
-          height={9}
-          name="caret-down"
-          open={false}
-          selected={false}
-          width={16}
-        />
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
     "ref": null,
@@ -655,14 +661,16 @@ ShallowWrapper {
           <Dropdown__Label>
             Push Me
           </Dropdown__Label>
-          <Dropdown__IconWrapper
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
       "ref": null,
@@ -760,14 +768,16 @@ ShallowWrapper {
         <Dropdown__Label>
           Push Me
         </Dropdown__Label>
-        <Dropdown__IconWrapper
-          disabled={false}
-          height={9}
-          name="caret-selected"
-          open={false}
-          selected={true}
-          width={11}
-        />
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-selected"
+            open={false}
+            selected={true}
+            width={11}
+          />
+        </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
     "ref": null,
@@ -826,14 +836,16 @@ ShallowWrapper {
           <Dropdown__Label>
             Push Me
           </Dropdown__Label>
-          <Dropdown__IconWrapper
-            disabled={false}
-            height={9}
-            name="caret-selected"
-            open={false}
-            selected={true}
-            width={11}
-          />
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-selected"
+              open={false}
+              selected={true}
+              width={11}
+            />
+          </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
       "ref": null,
@@ -934,11 +946,11 @@ ShallowWrapper {
         <Dropdown__Label>
           Something is happening
         </Dropdown__Label>
-        <Dropdown__LoadingWrapper>
+        <Dropdown__IconWrapper>
           <WithTheme(LoadingSpinner)
-            size="15px"
+            size="17px"
           />
-        </Dropdown__LoadingWrapper>
+        </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
     "ref": null,
@@ -997,11 +1009,11 @@ ShallowWrapper {
           <Dropdown__Label>
             Something is happening
           </Dropdown__Label>
-          <Dropdown__LoadingWrapper>
+          <Dropdown__IconWrapper>
             <WithTheme(LoadingSpinner)
-              size="15px"
+              size="17px"
             />
-          </Dropdown__LoadingWrapper>
+          </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
       "ref": null,
@@ -1102,14 +1114,16 @@ ShallowWrapper {
         <Dropdown__Label>
           Select...
         </Dropdown__Label>
-        <Dropdown__IconWrapper
-          disabled={true}
-          height={9}
-          name="caret-down"
-          open={false}
-          selected={false}
-          width={16}
-        />
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={true}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
     "ref": null,
@@ -1168,14 +1182,16 @@ ShallowWrapper {
           <Dropdown__Label>
             Select...
           </Dropdown__Label>
-          <Dropdown__IconWrapper
-            disabled={true}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={true}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
       "ref": null,

@@ -19,7 +19,7 @@ const DropdownButton = styled.button`
   color: ${props => (
     props.disabled ? '#ccc' : props.theme.ravenBlack
   )};
-  padding: 8px 10px;
+  padding: 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   &:focus {
     outline: none;
@@ -31,9 +31,10 @@ const DropdownButton = styled.button`
 const Label = styled('span')`
   display: inline-block;
   flex-grow: 1;
+  line-height: 1;
 `;
 
-const IconWrapper = styled(Icon).attrs({
+const StyledIcon = styled(Icon).attrs({
   color: props => {
     // Set Icon color attribute
     if (props.disabled) {
@@ -42,7 +43,6 @@ const IconWrapper = styled(Icon).attrs({
     return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
   },
 })`
-  margin-left: ${props => (props.selected ? 11 : 6)}px;
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
 `;
@@ -55,8 +55,9 @@ const DropdownPanel = styled.div`
   overflow: auto;
 `;
 
-const LoadingWrapper = styled.div`
-  margin-left: 10px;
+const IconWrapper = styled.div`
+  width: 22px;
+  text-align: right;
   font-size: 0;
 `;
 
@@ -91,19 +92,21 @@ class Dropdown extends Component {
     return (
       <DropdownButton disabled={disabled}>
         <Label>{label}</Label>
-        {isLoading
-          ? <LoadingWrapper><LoadingSpinner size="15px" /></LoadingWrapper>
-          : (
-            <IconWrapper
-              open={menuOpen}
-              selected={isSelected}
-              name={this.getIcon()}
-              width={isSelected ? 11 : 16}
-              height={9}
-              disabled={disabled}
-            />
-          )
-        }
+        <IconWrapper>
+          {isLoading
+            ? <LoadingSpinner size="17px" />
+            : (
+              <StyledIcon
+                open={menuOpen}
+                selected={isSelected}
+                name={this.getIcon()}
+                width={isSelected ? 11 : 16}
+                height={9}
+                disabled={disabled}
+              />
+            )
+          }
+        </IconWrapper>
       </DropdownButton>
     );
   }
