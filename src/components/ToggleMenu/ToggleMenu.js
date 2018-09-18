@@ -28,6 +28,11 @@ class ToggleMenu extends Component {
     };
   }
 
+  componentWillUnmount() {
+    document.removeEventListener('click', this.handleClose);
+    document.removeEventListener('keydown', this.handleKeyDown);
+  }
+
   getPositionValues = (position) => {
     const { menuOffset } = this.props;
     switch (position) {

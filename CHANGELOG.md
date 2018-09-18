@@ -5,6 +5,9 @@
 ### Changed
 - The path of the iconSprite in Icon component to be absolute.
 
+### Fixed
+- JS error when the toggleMenu component is unmounted while the menu is open.
+
 ## [0.6.0] - 2018-09-13
 ### Added
 - Modal component
