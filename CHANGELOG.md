@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.7.0] - 2018-09-18
 ### Added
 - Loading state to the dropdown component.
 - preventOutOfBounds prop for the dropdown component.
