@@ -1,6 +1,7 @@
 ## [Unreleased]
 ### Added
 - Loading state to the dropdown component.
+- preventOutOfBounds prop for the dropdown component.
 
 ### Changed
 - The path of the iconSprite in Icon component to be absolute.

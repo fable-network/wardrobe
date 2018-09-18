@@ -112,7 +112,7 @@ class Dropdown extends Component {
   }
 
   render() {
-    const { children, className, position } = this.props;
+    const { children, className, position, preventOutOfBounds } = this.props;
 
     return (
       <ToggleMenu
@@ -121,6 +121,7 @@ class Dropdown extends Component {
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
         position={position}
+        preventOutOfBounds={preventOutOfBounds}
       >
         <DropdownPanel>
           {children}
@@ -144,7 +145,9 @@ Dropdown.propTypes = {
   children: PropTypes.node.isRequired,
   /** Position of the dropdown panel */
   position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
-  onClose: PropTypes.func
+  onClose: PropTypes.func,
+  /** Flag to flip the menu position if out of viewport */
+  preventOutOfBounds: PropTypes.bool
 };
 
 Dropdown.defaultProps = {

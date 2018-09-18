@@ -43,7 +43,7 @@ Dropdown loading.
 ```jsx
 <Dropdown isLoading={true} label="Something is happening">
   <Dropdown.Item>
-    Check that checkmark
+    Hold on I'm loading
   </Dropdown.Item>
 </Dropdown>
 ```

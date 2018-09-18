@@ -35,18 +35,29 @@ class ToggleMenu extends Component {
 
   getPositionValues = (position) => {
     const { menuOffset } = this.props;
-    switch (position) {
-      case 'top':
-        return { bottom: '100%', left: '0', margin: `0 0 ${menuOffset} 0` };
-      case 'bottom':
-        return { top: '100%', left: '0', margin: `${menuOffset} 0 0 0` };
-      case 'left':
-        return { top: '0', right: '100%', margin: `0 ${menuOffset} 0 0` };
-      case 'right':
-        return { top: '0', left: '100%', margin: `0 0 0 ${menuOffset}` };
-      default:
-        return { top: '100%', left: '0', margin: `${menuOffset} 0 0 0` };
-    }
+    const positions = {
+      top: {
+        bottom: '100%',
+        left: '0',
+        margin: `0 0 ${menuOffset} 0`
+      },
+      bottom: {
+        top: '100%',
+        left: '0',
+        margin: `${menuOffset} 0 0 0`
+      },
+      left: {
+        right: '100%',
+        top: '0',
+        margin: `0 ${menuOffset} 0 0`
+      },
+      right: {
+        left: '100%',
+        top: '0',
+        margin: `0 0 0 ${menuOffset}`
+      }
+    };
+    return positions[position];
   }
 
   getOppositePosition = (position) => {
