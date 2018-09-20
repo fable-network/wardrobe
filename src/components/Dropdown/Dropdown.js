@@ -11,16 +11,12 @@ const DropdownButton = styled.button`
   display: flex;
   align-items: center;
   background-color: ${props => props.theme.white};
-  border: solid 1px ${props => (
-    props.disabled ? '#ccc' : props.theme.stoneGrey
-  )};
+  border: solid 1px ${props => (props.isDisabled ? '#ccc' : props.theme.stoneGrey)};
   font-family: inherit;
   font-size: inherit;
-  color: ${props => (
-    props.disabled ? '#ccc' : props.theme.ravenBlack
-  )};
+  color: ${props => (props.isDisabled ? '#ccc' : props.theme.ravenBlack)};
   padding: 10px;
-  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
   &:focus {
     outline: none;
     box-shadow: 0 0 4px ${props => props.theme.skyBlue};
@@ -86,11 +82,11 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { disabled, label, isSelected, isLoading } = this.props;
+    const { isDisabled, label, isSelected, isLoading } = this.props;
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton disabled={disabled}>
+      <DropdownButton isDisabled={isDisabled}>
         <Label>{label}</Label>
         <IconWrapper>
           {isLoading
@@ -102,7 +98,7 @@ class Dropdown extends Component {
                 name={this.getIcon()}
                 width={isSelected ? 11 : 16}
                 height={9}
-                disabled={disabled}
+                disabled={isDisabled}
               />
             )
           }
@@ -112,7 +108,7 @@ class Dropdown extends Component {
   }
 
   render() {
-    const { children, className, position, preventOutOfBounds } = this.props;
+    const { children, className, position, preventOutOfBounds, isDisabled, isOpen } = this.props;
 
     return (
       <ToggleMenu
@@ -122,6 +118,8 @@ class Dropdown extends Component {
         onClose={this.handleMenuClose}
         position={position}
         preventOutOfBounds={preventOutOfBounds}
+        isDisabled={isDisabled}
+        isOpen={isOpen}
       >
         <DropdownPanel>
           {children}
@@ -137,7 +135,7 @@ Dropdown.propTypes = {
   /** Custom class name */
   className: PropTypes.string,
   /** Disable dropdown */
-  disabled: PropTypes.bool,
+  isDisabled: PropTypes.bool,
   /** Show checkmark instead of dropdown caret */
   isSelected: PropTypes.bool,
   isLoading: PropTypes.bool,
@@ -147,13 +145,14 @@ Dropdown.propTypes = {
   position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
   onClose: PropTypes.func,
   /** Flag to flip the menu position if out of viewport */
-  preventOutOfBounds: PropTypes.bool
+  preventOutOfBounds: PropTypes.bool,
+  isOpen: PropTypes.bool
 };
 
 Dropdown.defaultProps = {
-  label: 'Select...',
+  label: 'Select',
   className: null,
-  disabled: false,
+  isDisabled: false,
   isSelected: false,
   isLoading: false,
   onClose: () => null

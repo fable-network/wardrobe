@@ -51,9 +51,29 @@ Dropdown loading.
 Dropdown disabled.
 
 ```jsx
-<Dropdown disabled>
+<Dropdown isDisabled={true}>
   <Dropdown.Item>
     I'll never be seen
+  </Dropdown.Item>
+</Dropdown>
+```
+
+Dropdown controlled by `isOpen` prop (`true`).
+
+```jsx
+<Dropdown isOpen={true}>
+  <Dropdown.Item>
+    <nobr>You can't close me</nobr>
+  </Dropdown.Item>
+</Dropdown>
+```
+
+Dropdown controlled by `isOpen` prop (`false`).
+
+```jsx
+<Dropdown isOpen={false} label="You can't open me">
+  <Dropdown.Item>
+    <nobr>You will never see me</nobr>
   </Dropdown.Item>
 </Dropdown>
 ```

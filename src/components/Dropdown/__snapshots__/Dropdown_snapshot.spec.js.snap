@@ -5,7 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    disabled={false}
+    isDisabled={false}
     isLoading={false}
     isSelected={false}
     label="Don't push me"
@@ -98,14 +98,15 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
-        disabled={false}
+        isDisabled={false}
       >
         <Dropdown__Label>
           Don't push me
@@ -338,14 +339,15 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
-          disabled={false}
+          isDisabled={false}
         >
           <Dropdown__Label>
             Don't push me
@@ -557,7 +559,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    disabled={false}
+    isDisabled={false}
     isLoading={false}
     isSelected={false}
     label="Push Me"
@@ -586,14 +588,15 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
-        disabled={false}
+        isDisabled={false}
       >
         <Dropdown__Label>
           Push Me
@@ -649,14 +652,15 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
-          disabled={false}
+          isDisabled={false}
         >
           <Dropdown__Label>
             Push Me
@@ -723,7 +727,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    disabled={false}
+    isDisabled={false}
     isLoading={false}
     isSelected={true}
     label="Push Me"
@@ -756,14 +760,15 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
-        disabled={false}
+        isDisabled={false}
       >
         <Dropdown__Label>
           Push Me
@@ -824,14 +829,15 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
-          disabled={false}
+          isDisabled={false}
         >
           <Dropdown__Label>
             Push Me
@@ -901,7 +907,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    disabled={false}
+    isDisabled={false}
     isLoading={true}
     isSelected={false}
     label="Something is happening"
@@ -910,7 +916,7 @@ ShallowWrapper {
     <DropdownItem
       onClick={[Function]}
     >
-      Check that checkmark
+      Hold on I'm loading
     </DropdownItem>
   </Dropdown>,
   Symbol(enzyme.__renderer__): Object {
@@ -929,19 +935,20 @@ ShallowWrapper {
         <DropdownItem
           onClick={[Function]}
         >
-          Check that checkmark
+          Hold on I'm loading
         </DropdownItem>
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
-        disabled={false}
+        isDisabled={false}
       >
         <Dropdown__Label>
           Something is happening
@@ -962,7 +969,7 @@ ShallowWrapper {
         "children": <DropdownItem
           onClick={[Function]}
         >
-          Check that checkmark
+          Hold on I'm loading
         </DropdownItem>,
       },
       "ref": null,
@@ -971,11 +978,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": "Check that checkmark",
+          "children": "Hold on I'm loading",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "Check that checkmark",
+        "rendered": "Hold on I'm loading",
         "type": [Function],
       },
       "type": [Function],
@@ -992,19 +999,20 @@ ShallowWrapper {
           <DropdownItem
             onClick={[Function]}
           >
-            Check that checkmark
+            Hold on I'm loading
           </DropdownItem>
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
-          disabled={false}
+          isDisabled={false}
         >
           <Dropdown__Label>
             Something is happening
@@ -1025,7 +1033,7 @@ ShallowWrapper {
           "children": <DropdownItem
             onClick={[Function]}
           >
-            Check that checkmark
+            Hold on I'm loading
           </DropdownItem>,
         },
         "ref": null,
@@ -1034,11 +1042,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Check that checkmark",
+            "children": "Hold on I'm loading",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "Check that checkmark",
+          "rendered": "Hold on I'm loading",
           "type": [Function],
         },
         "type": [Function],
@@ -1069,10 +1077,10 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    disabled={true}
+    isDisabled={true}
     isLoading={false}
     isSelected={false}
-    label="Select..."
+    label="Select"
     onClose={[Function]}
   >
     <DropdownItem
@@ -1102,17 +1110,18 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
+      "isDisabled": true,
+      "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
-        disabled={true}
+        isDisabled={true}
       >
         <Dropdown__Label>
-          Select...
+          Select
         </Dropdown__Label>
         <Dropdown__IconWrapper>
           <Dropdown__StyledIcon
@@ -1170,17 +1179,18 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
+        "isDisabled": true,
+        "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
-          disabled={true}
+          isDisabled={true}
         >
           <Dropdown__Label>
-            Select...
+            Select
           </Dropdown__Label>
           <Dropdown__IconWrapper>
             <Dropdown__StyledIcon
@@ -1217,6 +1227,436 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "I'll never be seen",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Dropdown Component snapshots should match snapshot 6`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    isDisabled={false}
+    isLoading={false}
+    isOpen={true}
+    isSelected={false}
+    label="Select"
+    onClose={[Function]}
+  >
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        You can't close me
+      </nobr>
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Dropdown__DropdownPanel>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            You can't close me
+          </nobr>
+        </DropdownItem>
+      </Dropdown__DropdownPanel>,
+      "className": null,
+      "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": true,
+      "menuOffset": "5px",
+      "onClose": [Function],
+      "onOpen": [Function],
+      "position": "bottom",
+      "preventOutOfBounds": false,
+      "trigger": <Dropdown__DropdownButton
+        isDisabled={false}
+      >
+        <Dropdown__Label>
+          Select
+        </Dropdown__Label>
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
+      </Dropdown__DropdownButton>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            You can't close me
+          </nobr>
+        </DropdownItem>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <nobr>
+            You can't close me
+          </nobr>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You can't close me",
+          },
+          "ref": null,
+          "rendered": "You can't close me",
+          "type": "nobr",
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Dropdown__DropdownPanel>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              You can't close me
+            </nobr>
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+        "className": null,
+        "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": true,
+        "menuOffset": "5px",
+        "onClose": [Function],
+        "onOpen": [Function],
+        "position": "bottom",
+        "preventOutOfBounds": false,
+        "trigger": <Dropdown__DropdownButton
+          isDisabled={false}
+        >
+          <Dropdown__Label>
+            Select
+          </Dropdown__Label>
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
+        </Dropdown__DropdownButton>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              You can't close me
+            </nobr>
+          </DropdownItem>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              You can't close me
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "You can't close me",
+            },
+            "ref": null,
+            "rendered": "You can't close me",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Dropdown Component snapshots should match snapshot 7`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    isDisabled={false}
+    isLoading={false}
+    isOpen={false}
+    isSelected={false}
+    label="You can't open me"
+    onClose={[Function]}
+  >
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        You will never see me
+      </nobr>
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Dropdown__DropdownPanel>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            You will never see me
+          </nobr>
+        </DropdownItem>
+      </Dropdown__DropdownPanel>,
+      "className": null,
+      "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isOpen": false,
+      "menuOffset": "5px",
+      "onClose": [Function],
+      "onOpen": [Function],
+      "position": "bottom",
+      "preventOutOfBounds": false,
+      "trigger": <Dropdown__DropdownButton
+        isDisabled={false}
+      >
+        <Dropdown__Label>
+          You can't open me
+        </Dropdown__Label>
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
+      </Dropdown__DropdownButton>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            You will never see me
+          </nobr>
+        </DropdownItem>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <nobr>
+            You will never see me
+          </nobr>,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You will never see me",
+          },
+          "ref": null,
+          "rendered": "You will never see me",
+          "type": "nobr",
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Dropdown__DropdownPanel>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              You will never see me
+            </nobr>
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+        "className": null,
+        "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isOpen": false,
+        "menuOffset": "5px",
+        "onClose": [Function],
+        "onOpen": [Function],
+        "position": "bottom",
+        "preventOutOfBounds": false,
+        "trigger": <Dropdown__DropdownButton
+          isDisabled={false}
+        >
+          <Dropdown__Label>
+            You can't open me
+          </Dropdown__Label>
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
+        </Dropdown__DropdownButton>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              You will never see me
+            </nobr>
+          </DropdownItem>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              You will never see me
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "You will never see me",
+            },
+            "ref": null,
+            "rendered": "You will never see me",
+            "type": "nobr",
+          },
           "type": [Function],
         },
         "type": [Function],

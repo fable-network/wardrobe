@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const TriggerWrapper = styled.span`
   display: inline-block;
   position: relative;
+  pointer-events: ${props => (props.isDisabled ? 'none' : 'initial')};
 `;
 
 const MenuWrapper = styled.div`
@@ -23,7 +24,7 @@ class ToggleMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: props.openByDefault,
+      isOpen: false,
       position: props.position
     };
   }
@@ -116,10 +117,13 @@ class ToggleMenu extends Component {
   }
 
   handleOpen = (event) => {
+    if (typeof this.props.isOpen !== 'undefined') {
+      return;
+    }
     event.preventDefault();
 
     this.props.onOpen();
-    this.setState({ open: true, position: this.props.position }, () => {
+    this.setState({ isOpen: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
         document.addEventListener('click', this.handleClose);
         document.addEventListener('keydown', this.handleKeyDown);
@@ -131,13 +135,16 @@ class ToggleMenu extends Component {
   }
 
   handleClose = (event) => {
+    if (typeof this.props.isOpen !== 'undefined') {
+      return;
+    }
     event.preventDefault();
     if (this.menuRef.contains(event.target)) {
       return;
     }
 
     this.props.onClose();
-    this.setState({ open: false }, () => {
+    this.setState({ isOpen: false }, () => {
       if (this.props.closeOnOutsideClick) {
         document.removeEventListener('click', this.handleClose);
         document.removeEventListener('keydown', this.handleKeyDown);
@@ -146,17 +153,16 @@ class ToggleMenu extends Component {
   }
 
   toggleMenu = (event) => (
-    this.state.open ? this.handleClose(event) : this.handleOpen(event)
+    this.state.isOpen ? this.handleClose(event) : this.handleOpen(event)
   );
 
   render() {
-    const { trigger, children, className } = this.props;
+    const { trigger, children, className, isDisabled } = this.props;
     const { position } = this.state;
     const { top, bottom, left, right, margin } = this.getPositionValues(position);
-    const { open } = this.state;
 
     return (
-      <TriggerWrapper onClick={this.toggleMenu} className={className}>
+      <TriggerWrapper onClick={this.toggleMenu} className={className} isDisabled={isDisabled}>
         {trigger}
         <MenuWrapper
           innerRef={c => { this.menuRef = c; }}
@@ -164,7 +170,7 @@ class ToggleMenu extends Component {
           bottom={bottom}
           left={left}
           right={right}
-          visible={open}
+          visible={this.props.isOpen || this.state.isOpen}
           margin={margin}
         >
           {children}
@@ -176,7 +182,6 @@ class ToggleMenu extends Component {
 
 ToggleMenu.propTypes = {
   className: PropTypes.string,
-  openByDefault: PropTypes.bool,
   trigger: PropTypes.node.isRequired,
   children: PropTypes.node.isRequired,
   position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
@@ -185,10 +190,11 @@ ToggleMenu.propTypes = {
   onClose: PropTypes.func,
   closeOnOutsideClick: PropTypes.bool,
   menuOffset: PropTypes.string, // distance between the menu and the trigger
+  isOpen: PropTypes.bool,
+  isDisabled: PropTypes.bool
 };
 
 ToggleMenu.defaultProps = {
-  openByDefault: false,
   position: 'bottom',
   preventOutOfBounds: false,
   onOpen: () => null,
