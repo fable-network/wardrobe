@@ -11,13 +11,13 @@ const DropdownButton = styled.button`
   display: flex;
   align-items: center;
   background-color: ${props => props.theme.white};
-  border: solid 1px ${props => (props.isDisabled ? '#ccc' : props.theme.stoneGrey)};
+  border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.stoneGrey)};
   font-family: inherit;
   font-size: inherit;
-  color: ${props => (props.isDisabled ? '#ccc' : props.theme.ravenBlack)};
+  color: ${props => (props.disabled ? '#ccc' : props.theme.ravenBlack)};
   padding: 10px;
-  cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
-  user-select: ${props => (props.isDisabled ? 'none' : 'initial')};
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  user-select: ${props => (props.disabled ? 'none' : 'initial')};
   &:focus {
     outline: none;
     box-shadow: 0 0 4px ${props => props.theme.skyBlue};
@@ -87,7 +87,7 @@ class Dropdown extends Component {
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton isDisabled={isDisabled} onClick={onClick}>
+      <DropdownButton disabled={isDisabled} onClick={onClick}>
         <Label>{label}</Label>
         <IconWrapper>
           {isLoading
