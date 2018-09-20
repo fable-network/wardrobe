@@ -17,6 +17,7 @@ const DropdownButton = styled.button`
   color: ${props => (props.isDisabled ? '#ccc' : props.theme.ravenBlack)};
   padding: 10px;
   cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
+  user-select: ${props => (props.isDisabled ? 'none' : 'initial')};
   &:focus {
     outline: none;
     box-shadow: 0 0 4px ${props => props.theme.skyBlue};
@@ -82,11 +83,11 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { isDisabled, label, isSelected, isLoading } = this.props;
+    const { isDisabled, label, isSelected, isLoading, onClick } = this.props;
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton isDisabled={isDisabled}>
+      <DropdownButton isDisabled={isDisabled} onClick={onClick}>
         <Label>{label}</Label>
         <IconWrapper>
           {isLoading
@@ -146,7 +147,8 @@ Dropdown.propTypes = {
   onClose: PropTypes.func,
   /** Flag to flip the menu position if out of viewport */
   preventOutOfBounds: PropTypes.bool,
-  isOpen: PropTypes.bool
+  isOpen: PropTypes.bool,
+  onClick: PropTypes.func
 };
 
 Dropdown.defaultProps = {

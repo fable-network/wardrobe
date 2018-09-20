@@ -66,6 +66,7 @@ Dropdown controlled by `isOpen` prop (`true`).
     <nobr>You can't close me</nobr>
   </Dropdown.Item>
 </Dropdown>
+<div style={{height: '40px'}}/>
 ```
 
 Dropdown controlled by `isOpen` prop (`false`).
