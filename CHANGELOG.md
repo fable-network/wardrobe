@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.8.1] - 2018-09-22
 ### Changed
 - Allow ColorSelector component to set the background using the given string.
 - Color selector component to support empty state.
