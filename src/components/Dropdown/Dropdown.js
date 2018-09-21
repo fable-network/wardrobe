@@ -83,7 +83,7 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { isDisabled, label, isSelected, isLoading, onClick } = this.props;
+    const { isDisabled, label, isSelected, isLoading, onClick, isOpen } = this.props;
     const { menuOpen } = this.state;
 
     return (
@@ -94,7 +94,7 @@ class Dropdown extends Component {
             ? <LoadingSpinner size="17px" />
             : (
               <StyledIcon
-                open={menuOpen}
+                open={isOpen || menuOpen}
                 selected={isSelected}
                 name={this.getIcon()}
                 width={isSelected ? 11 : 16}

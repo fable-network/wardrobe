@@ -3,6 +3,9 @@
 - Allow ColorSelector component to set the background using the given string.
 - Color selector component to support empty state.
 
+### Fixed
+- Dropdown icon not reacting when `isOpen` is `true`.
+
 ## [0.8.0] - 2018-09-21
 ### Changed
 - Dropdown component now allows `isOpen` prop to have it controlled.

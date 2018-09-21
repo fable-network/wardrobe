@@ -1313,7 +1313,7 @@ ShallowWrapper {
             disabled={false}
             height={9}
             name="caret-down"
-            open={false}
+            open={true}
             selected={false}
             width={16}
           />
@@ -1398,7 +1398,7 @@ ShallowWrapper {
               disabled={false}
               height={9}
               name="caret-down"
-              open={false}
+              open={true}
               selected={false}
               width={16}
             />
