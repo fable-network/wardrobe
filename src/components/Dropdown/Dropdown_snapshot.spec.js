@@ -48,20 +48,38 @@ describe('Dropdown Component', () => {
       const wrapper4 = shallow(
         <Dropdown isLoading={true} label="Something is happening">
           <Dropdown.Item>
-            Check that checkmark
+            Hold on I'm loading
           </Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Dropdown disabled>
+        <Dropdown isDisabled={true}>
           <Dropdown.Item>
             I'll never be seen
           </Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper5).toMatchSnapshot();
+
+      const wrapper6 = shallow(
+        <Dropdown isOpen={true}>
+          <Dropdown.Item>
+            <nobr>You can't close me</nobr>
+          </Dropdown.Item>
+        </Dropdown>
+      );
+      expect(wrapper6).toMatchSnapshot();
+
+      const wrapper7 = shallow(
+        <Dropdown isOpen={false} label="You can't open me">
+          <Dropdown.Item>
+            <nobr>You will never see me</nobr>
+          </Dropdown.Item>
+        </Dropdown>
+      );
+      expect(wrapper7).toMatchSnapshot();
 
     });
   });
