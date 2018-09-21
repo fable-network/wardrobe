@@ -23,7 +23,7 @@ const ColorSelector = (props) => {
 
   const style = patternImage
     ? { backgroundImage: `url(${patternImage})` }
-    : { backgroundColor: color };
+    : { background: color };
 
   if (fixedSize) {
     style.width = fixedSize;

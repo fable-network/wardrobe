@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- Allow ColorSelector component to set the background using the given string.
 
 ## [0.8.0] - 2018-09-21
 ### Changed

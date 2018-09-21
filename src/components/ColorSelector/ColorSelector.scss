@@ -27,11 +27,16 @@
       }
     }
 
-    &:hover,
+    &:hover {
+      .#{$prefix}--colorSelector--colorCircle {
+        transform: scale(.9);
+      }
+    }
+
     &--state--noInteraction,
     &--state--selected {
       .#{$prefix}--colorSelector--colorCircle {
-        transform: scale(1);
+        transform: scale(1) !important;
       }
     }
 

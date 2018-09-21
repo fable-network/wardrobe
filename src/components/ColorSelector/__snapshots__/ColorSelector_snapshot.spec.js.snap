@@ -26,7 +26,7 @@ ShallowWrapper {
           selected={false}
           style={
             Object {
-              "backgroundColor": "#e25454",
+              "background": "#e25454",
             }
           }
         />,
@@ -45,7 +45,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
           "selected": false,
           "style": Object {
-            "backgroundColor": "#e25454",
+            "background": "#e25454",
           },
         },
         "ref": null,
@@ -68,7 +68,7 @@ ShallowWrapper {
             selected={false}
             style={
               Object {
-                "backgroundColor": "#e25454",
+                "background": "#e25454",
               }
             }
           />,
@@ -87,7 +87,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
             "selected": false,
             "style": Object {
-              "backgroundColor": "#e25454",
+              "background": "#e25454",
             },
           },
           "ref": null,
@@ -144,7 +144,7 @@ ShallowWrapper {
           selected={false}
           style={
             Object {
-              "backgroundColor": "#5F9DC7",
+              "background": "#5F9DC7",
             }
           }
         />,
@@ -163,7 +163,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
           "selected": false,
           "style": Object {
-            "backgroundColor": "#5F9DC7",
+            "background": "#5F9DC7",
           },
         },
         "ref": null,
@@ -186,7 +186,7 @@ ShallowWrapper {
             selected={false}
             style={
               Object {
-                "backgroundColor": "#5F9DC7",
+                "background": "#5F9DC7",
               }
             }
           />,
@@ -205,7 +205,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
             "selected": false,
             "style": Object {
-              "backgroundColor": "#5F9DC7",
+              "background": "#5F9DC7",
             },
           },
           "ref": null,
@@ -380,7 +380,7 @@ ShallowWrapper {
           selected={false}
           style={
             Object {
-              "backgroundColor": "#aecc76",
+              "background": "#aecc76",
             }
           }
         />,
@@ -403,7 +403,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
           "selected": false,
           "style": Object {
-            "backgroundColor": "#aecc76",
+            "background": "#aecc76",
           },
         },
         "ref": null,
@@ -437,7 +437,7 @@ ShallowWrapper {
             selected={false}
             style={
               Object {
-                "backgroundColor": "#aecc76",
+                "background": "#aecc76",
               }
             }
           />,
@@ -460,7 +460,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
             "selected": false,
             "style": Object {
-              "backgroundColor": "#aecc76",
+              "background": "#aecc76",
             },
           },
           "ref": null,
@@ -528,7 +528,7 @@ ShallowWrapper {
           selected={true}
           style={
             Object {
-              "backgroundColor": "#aecc76",
+              "background": "#aecc76",
             }
           }
         />,
@@ -551,7 +551,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
           "selected": true,
           "style": Object {
-            "backgroundColor": "#aecc76",
+            "background": "#aecc76",
           },
         },
         "ref": null,
@@ -585,7 +585,7 @@ ShallowWrapper {
             selected={true}
             style={
               Object {
-                "backgroundColor": "#aecc76",
+                "background": "#aecc76",
               }
             }
           />,
@@ -608,7 +608,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle ft--colorSelector--colorCircle--size--dynamic",
             "selected": true,
             "style": Object {
-              "backgroundColor": "#aecc76",
+              "background": "#aecc76",
             },
           },
           "ref": null,
@@ -677,7 +677,7 @@ ShallowWrapper {
           selected={false}
           style={
             Object {
-              "backgroundColor": "#e25454",
+              "background": "#e25454",
               "height": "40px",
               "width": "40px",
             }
@@ -698,7 +698,7 @@ ShallowWrapper {
           "className": "ft--colorSelector--colorCircle",
           "selected": false,
           "style": Object {
-            "backgroundColor": "#e25454",
+            "background": "#e25454",
             "height": "40px",
             "width": "40px",
           },
@@ -723,7 +723,7 @@ ShallowWrapper {
             selected={false}
             style={
               Object {
-                "backgroundColor": "#e25454",
+                "background": "#e25454",
                 "height": "40px",
                 "width": "40px",
               }
@@ -744,7 +744,7 @@ ShallowWrapper {
             "className": "ft--colorSelector--colorCircle",
             "selected": false,
             "style": Object {
-              "backgroundColor": "#e25454",
+              "background": "#e25454",
               "height": "40px",
               "width": "40px",
             },
