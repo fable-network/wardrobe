@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.8.0] - 2018-09-21
 ### Changed
 - Dropdown component now allows `isOpen` prop to have it controlled.
 - Renamed `disabled` prop to `isDisabled`.
