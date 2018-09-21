@@ -85,6 +85,7 @@ the Styleguide, e.g. Modal component.
 * Go to the releases tab on Github and draft a new release.
 * Use the same tag version you added in the changelog (e.g 1.0.0).
 * Release title should be the tag prefixed with 'v' (e.g v1.0.0).
-* Get what was Added/Changed from the changelog and add it in the description of the release.
+* Copy what was Added/Changed/Fixed from the changelog and paste it in the description of the release.
 * Publish the release.
+* Go back to your terminal, run `git pull` and checkout the release tag (`git checkout 1.0.0`).
 * Publish the package to npm `npm publish`.
