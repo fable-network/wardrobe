@@ -239,7 +239,6 @@ exports[`ColorSelector Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#FFF"
     disableInteraction={false}
     patternImage="images/patternImage.jpg"
     selected={false}

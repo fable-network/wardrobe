@@ -6,6 +6,7 @@ import './ColorSelector.scss';
 
 const ColorSelector = (props) => {
   const { onClick, patternImage, color, disableInteraction, text, selected, fixedSize } = props;
+  const isMissingColor = !patternImage && !color;
 
   const wrapperClasses = classNames('ft--colorSelector', {
     'ft--colorSelector--state--noInteraction': disableInteraction,
@@ -14,7 +15,8 @@ const ColorSelector = (props) => {
   });
 
   const colorCirlcleClasses = classNames('ft--colorSelector--colorCircle', {
-    'ft--colorSelector--colorCircle--size--dynamic': !fixedSize
+    'ft--colorSelector--colorCircle--size--dynamic': !fixedSize,
+    'ft--colorSelector--colorCircle--color--missing': isMissingColor
   });
 
   const textClasses = classNames('ft--colorSelector--text', {
@@ -23,7 +25,7 @@ const ColorSelector = (props) => {
 
   const style = patternImage
     ? { backgroundImage: `url(${patternImage})` }
-    : { background: color };
+    : { background: color || '#fff' };
 
   if (fixedSize) {
     style.width = fixedSize;
@@ -46,7 +48,6 @@ const ColorSelector = (props) => {
 };
 
 ColorSelector.defaultProps = {
-  color: '#FFF',
   selected: false,
   disableInteraction: false
 };
