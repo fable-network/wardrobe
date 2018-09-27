@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.8.2] - 2018-09-27
+### Changed
+- Fix classnames in Modal component
+
 ## [0.8.1] - 2018-09-22
 ### Changed
 - Allow ColorSelector component to set the background using the given string.
