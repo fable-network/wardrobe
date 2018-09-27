@@ -81,7 +81,7 @@ export const ModalStyles = css`
 `;
 
 const Root = styled.section`
-  .backdrop {
+  .ft-modal--backdrop {
     position: fixed;
     display: block;
     top: 0;
@@ -94,7 +94,8 @@ const Root = styled.section`
     overflow-x: hidden;
     overflow-y: auto;
   }
-  .modal {
+
+  .ft--modal--dialog {
     z-index: 10000;
     position: absolute;
     max-height: 100vh;
@@ -166,8 +167,8 @@ class Modal extends Component {
           onClose={onClose}
           closeOnEsc
           closeOnBackdropClick
-          backdropClassName="backdrop"
-          modalClassName="modal"
+          backdropClassName="ft-modal--backdrop"
+          modalClassName="ft--modal--dialog"
         >
           <ModalWrapper size={size}>{children}</ModalWrapper>
         </BaseModal>
