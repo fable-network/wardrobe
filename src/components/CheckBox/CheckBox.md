@@ -13,6 +13,13 @@ Disabled:
 <CheckBox label="Checkbox Label" isDisabled />
 ```
 
+Larger parent font-size (`20px`):
+```jsx
+<span style={{ fontSize: '20px'}}>
+  <CheckBox label="Checkbox Label" isChecked/>
+</span>
+```
+
 Interactable example:
 ```jsx
 class CheckBoxExample extends React.Component {
