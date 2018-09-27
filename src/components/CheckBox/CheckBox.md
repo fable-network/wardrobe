@@ -35,7 +35,7 @@ class CheckBoxExample extends React.Component {
 
   render() {
     const { isChecked } = this.state;
-    const label = isChecked ? "Yaay I'm selected" : "Select me";
+    const label = isChecked ? "Unselect me" : "Select me";
 
     return (
       <CheckBox label={label} onToggle={this.handleToggle} isChecked={isChecked}/>
