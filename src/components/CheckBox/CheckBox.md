@@ -38,7 +38,9 @@ class CheckBoxExample extends React.Component {
     const label = isChecked ? "Unselect me" : "Select me";
 
     return (
-      <CheckBox label={label} onToggle={this.handleToggle} isChecked={isChecked}/>
+      <div style={{ fontSize: '18px'}}>
+        <CheckBox label={label} onToggle={this.handleToggle} isChecked={isChecked}/>
+      </div>
     );
   }
 }
