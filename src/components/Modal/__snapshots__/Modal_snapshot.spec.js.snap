@@ -51,10 +51,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="normal"
@@ -98,7 +98,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="normal"
         >
@@ -133,7 +133,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -280,10 +280,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="normal"
@@ -327,7 +327,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="normal"
           >
@@ -362,7 +362,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
@@ -571,10 +571,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="small"
@@ -618,7 +618,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="small"
         >
@@ -653,7 +653,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -800,10 +800,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="small"
@@ -847,7 +847,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="small"
           >
@@ -882,7 +882,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
@@ -1091,10 +1091,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="large"
@@ -1138,7 +1138,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="large"
         >
@@ -1173,7 +1173,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -1320,10 +1320,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="large"
@@ -1367,7 +1367,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="large"
           >
@@ -1402,7 +1402,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
@@ -1611,10 +1611,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="auto"
@@ -1658,7 +1658,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="auto"
         >
@@ -1693,7 +1693,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -1840,10 +1840,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="auto"
@@ -1887,7 +1887,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="auto"
           >
@@ -1922,7 +1922,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
@@ -2139,10 +2139,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="normal"
@@ -2194,7 +2194,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="normal"
         >
@@ -2237,7 +2237,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -2413,10 +2413,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="normal"
@@ -2468,7 +2468,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="normal"
           >
@@ -2511,7 +2511,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
@@ -2757,10 +2757,10 @@ ShallowWrapper {
     "props": Object {
       "backdropColor": undefined,
       "children": <ReactModal2
-        backdropClassName="backdrop"
+        backdropClassName="ft-modal--backdrop"
         closeOnBackdropClick={true}
         closeOnEsc={true}
-        modalClassName="modal"
+        modalClassName="ft--modal--dialog"
       >
         <Modal__ModalWrapper
           size="normal"
@@ -2812,7 +2812,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "backdropClassName": "backdrop",
+        "backdropClassName": "ft-modal--backdrop",
         "children": <Modal__ModalWrapper
           size="normal"
         >
@@ -2855,7 +2855,7 @@ ShallowWrapper {
         </Modal__ModalWrapper>,
         "closeOnBackdropClick": true,
         "closeOnEsc": true,
-        "modalClassName": "modal",
+        "modalClassName": "ft--modal--dialog",
         "onClose": undefined,
       },
       "ref": null,
@@ -3015,10 +3015,10 @@ ShallowWrapper {
       "props": Object {
         "backdropColor": undefined,
         "children": <ReactModal2
-          backdropClassName="backdrop"
+          backdropClassName="ft-modal--backdrop"
           closeOnBackdropClick={true}
           closeOnEsc={true}
-          modalClassName="modal"
+          modalClassName="ft--modal--dialog"
         >
           <Modal__ModalWrapper
             size="normal"
@@ -3070,7 +3070,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "backdropClassName": "backdrop",
+          "backdropClassName": "ft-modal--backdrop",
           "children": <Modal__ModalWrapper
             size="normal"
           >
@@ -3113,7 +3113,7 @@ ShallowWrapper {
           </Modal__ModalWrapper>,
           "closeOnBackdropClick": true,
           "closeOnEsc": true,
-          "modalClassName": "modal",
+          "modalClassName": "ft--modal--dialog",
           "onClose": undefined,
         },
         "ref": null,
