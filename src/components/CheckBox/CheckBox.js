@@ -13,8 +13,8 @@ const Wrapper = styled('span')`
 const Input = styled('span')`
   display: inline-block;
   position: relative;
-  width: 1.15em;
-  height: 1.15em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
   background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
