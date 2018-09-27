@@ -57,6 +57,11 @@ describe('ColorSelector Component', () => {
       );
       expect(wrapper6).toMatchSnapshot();
 
+      const wrapper7 = shallow(
+        <ColorSelector />
+      );
+      expect(wrapper7).toMatchSnapshot();
+
     });
   });
 });

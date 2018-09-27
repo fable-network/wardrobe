@@ -56,9 +56,7 @@ Color Selector with a fixed size of 40px:
 Color Selector with a missing color:
 
 ```jsx
-<ColorSelector
-  onClick={() => alert('40px')}
-/>
+<ColorSelector />
 ```
 
 As part of a group:
