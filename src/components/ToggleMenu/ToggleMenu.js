@@ -6,6 +6,7 @@ const TriggerWrapper = styled.span`
   display: inline-block;
   position: relative;
   pointer-events: ${props => (props.isDisabled ? 'none' : 'initial')};
+  ${props => props.isFluid && 'width: 100%;'};
 `;
 
 const MenuWrapper = styled.div`
@@ -25,7 +26,7 @@ class ToggleMenu extends Component {
     super(props);
     this.state = {
       isOpen: false,
-      position: props.position
+      position: props.position,
     };
   }
 
@@ -34,34 +35,34 @@ class ToggleMenu extends Component {
     document.removeEventListener('keydown', this.handleKeyDown);
   }
 
-  getPositionValues = (position) => {
+  getPositionValues = position => {
     const { menuOffset } = this.props;
     const positions = {
       top: {
         bottom: '100%',
         left: '0',
-        margin: `0 0 ${menuOffset} 0`
+        margin: `0 0 ${menuOffset} 0`,
       },
       bottom: {
         top: '100%',
         left: '0',
-        margin: `${menuOffset} 0 0 0`
+        margin: `${menuOffset} 0 0 0`,
       },
       left: {
         right: '100%',
         top: '0',
-        margin: `0 ${menuOffset} 0 0`
+        margin: `0 ${menuOffset} 0 0`,
       },
       right: {
         left: '100%',
         top: '0',
-        margin: `0 0 0 ${menuOffset}`
-      }
+        margin: `0 0 0 ${menuOffset}`,
+      },
     };
     return positions[position];
-  }
+  };
 
-  getOppositePosition = (position) => {
+  getOppositePosition = position => {
     switch (position) {
       case 'top':
         return 'bottom';
@@ -74,7 +75,7 @@ class ToggleMenu extends Component {
       default:
         return position;
     }
-  }
+  };
 
   isMenuInViewport = () => {
     if (!this.menuRef) {
@@ -87,9 +88,9 @@ class ToggleMenu extends Component {
       top: rect.top >= 0,
       left: rect.left >= 0,
       bottom: rect.bottom <= (window.innerHeight || document.documentElement.clientHeight),
-      right: rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      right: rect.right <= (window.innerWidth || document.documentElement.clientWidth),
     };
-  }
+  };
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
@@ -107,16 +108,16 @@ class ToggleMenu extends Component {
       // restores the original position if both opposite sides are out of bounds.
       this.setState({ position: this.props.position });
     }
-  }
+  };
 
-  handleKeyDown = (event) => {
+  handleKeyDown = event => {
     if (event && event.keyCode === 27) {
       // escape key pressed;
       this.handleClose(event);
     }
-  }
+  };
 
-  handleOpen = (event) => {
+  handleOpen = event => {
     if (typeof this.props.isOpen !== 'undefined') {
       return;
     }
@@ -132,9 +133,9 @@ class ToggleMenu extends Component {
         this.handleOutOfBounds();
       }
     });
-  }
+  };
 
-  handleClose = (event) => {
+  handleClose = event => {
     if (typeof this.props.isOpen !== 'undefined') {
       return;
     }
@@ -150,22 +151,27 @@ class ToggleMenu extends Component {
         document.removeEventListener('keydown', this.handleKeyDown);
       }
     });
-  }
+  };
 
-  toggleMenu = (event) => (
-    this.state.isOpen ? this.handleClose(event) : this.handleOpen(event)
-  );
+  toggleMenu = event => (this.state.isOpen ? this.handleClose(event) : this.handleOpen(event));
 
   render() {
-    const { trigger, children, className, isDisabled } = this.props;
+    const { trigger, children, className, isDisabled, isFluid } = this.props;
     const { position } = this.state;
     const { top, bottom, left, right, margin } = this.getPositionValues(position);
 
     return (
-      <TriggerWrapper onClick={this.toggleMenu} className={className} isDisabled={isDisabled}>
+      <TriggerWrapper
+        onClick={this.toggleMenu}
+        className={className}
+        isDisabled={isDisabled}
+        isFluid={isFluid}
+      >
         {trigger}
         <MenuWrapper
-          innerRef={c => { this.menuRef = c; }}
+          innerRef={c => {
+            this.menuRef = c;
+          }}
           top={top}
           bottom={bottom}
           left={left}
@@ -190,8 +196,9 @@ ToggleMenu.propTypes = {
   onClose: PropTypes.func,
   closeOnOutsideClick: PropTypes.bool,
   menuOffset: PropTypes.string, // distance between the menu and the trigger
+  isFluid: PropTypes.bool,
   isOpen: PropTypes.bool,
-  isDisabled: PropTypes.bool
+  isDisabled: PropTypes.bool,
 };
 
 ToggleMenu.defaultProps = {
@@ -200,7 +207,8 @@ ToggleMenu.defaultProps = {
   onOpen: () => null,
   onClose: () => null,
   closeOnOutsideClick: true,
-  menuOffset: '5px'
+  menuOffset: '5px',
+  isFluid: false,
 };
 
 export default ToggleMenu;

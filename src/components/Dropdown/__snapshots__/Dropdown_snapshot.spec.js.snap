@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={false}
     isSelected={false}
     label="Don't push me"
@@ -99,6 +100,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -107,6 +109,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           Don't push me
@@ -340,6 +343,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -348,6 +352,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             Don't push me
@@ -560,6 +565,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={false}
     isSelected={false}
     label="Push Me"
@@ -589,6 +595,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -597,6 +604,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           Push Me
@@ -653,6 +661,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -661,6 +670,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             Push Me
@@ -728,6 +738,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={false}
     isSelected={true}
     label="Push Me"
@@ -761,6 +772,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -769,6 +781,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           Push Me
@@ -830,6 +843,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -838,6 +852,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             Push Me
@@ -908,6 +923,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={true}
     isSelected={false}
     label="Something is happening"
@@ -941,6 +957,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -949,6 +966,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           Something is happening
@@ -1005,6 +1023,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -1013,6 +1032,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             Something is happening
@@ -1078,6 +1098,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={true}
+    isFluid={false}
     isLoading={false}
     isSelected={false}
     label="Select"
@@ -1111,6 +1132,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": true,
+      "isFluid": false,
       "isOpen": undefined,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -1119,6 +1141,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={true}
+        isFluid={false}
       >
         <Dropdown__Label>
           Select
@@ -1180,6 +1203,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": true,
+        "isFluid": false,
         "isOpen": undefined,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -1188,6 +1212,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={true}
+          isFluid={false}
         >
           <Dropdown__Label>
             Select
@@ -1258,6 +1283,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={false}
     isOpen={true}
     isSelected={false}
@@ -1296,6 +1322,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": true,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -1304,6 +1331,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           Select
@@ -1381,6 +1409,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": true,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -1389,6 +1418,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             Select
@@ -1473,6 +1503,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
     isDisabled={false}
+    isFluid={false}
     isLoading={false}
     isOpen={false}
     isSelected={false}
@@ -1511,6 +1542,7 @@ ShallowWrapper {
       "className": null,
       "closeOnOutsideClick": true,
       "isDisabled": false,
+      "isFluid": false,
       "isOpen": false,
       "menuOffset": "5px",
       "onClose": [Function],
@@ -1519,6 +1551,7 @@ ShallowWrapper {
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
+        isFluid={false}
       >
         <Dropdown__Label>
           You can't open me
@@ -1596,6 +1629,7 @@ ShallowWrapper {
         "className": null,
         "closeOnOutsideClick": true,
         "isDisabled": false,
+        "isFluid": false,
         "isOpen": false,
         "menuOffset": "5px",
         "onClose": [Function],
@@ -1604,6 +1638,7 @@ ShallowWrapper {
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
+          isFluid={false}
         >
           <Dropdown__Label>
             You can't open me
@@ -1659,6 +1694,565 @@ ShallowWrapper {
           },
           "type": [Function],
         },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Dropdown Component snapshots should match snapshot 8`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    className={null}
+    isDisabled={false}
+    isFluid={true}
+    isLoading={false}
+    isSelected={false}
+    label="Don't push me"
+    onClose={[Function]}
+  >
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        ...cause I'm close to the edge
+      </nobr>
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        I'm trying not to lose my head
+      </nobr>
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        It's like a jungle sometimes
+      </nobr>
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        It makes me wonder how I keep from goin' under
+      </nobr>
+    </DropdownItem>
+    <DropdownItem
+      onClick={[Function]}
+    >
+      <nobr>
+        -- Grandmaster Flash
+      </nobr>
+    </DropdownItem>
+  </Dropdown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Dropdown__DropdownPanel>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            ...cause I'm close to the edge
+          </nobr>
+        </DropdownItem>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            I'm trying not to lose my head
+          </nobr>
+        </DropdownItem>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            It's like a jungle sometimes
+          </nobr>
+        </DropdownItem>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            It makes me wonder how I keep from goin' under
+          </nobr>
+        </DropdownItem>
+        <DropdownItem
+          onClick={[Function]}
+        >
+          <nobr>
+            -- Grandmaster Flash
+          </nobr>
+        </DropdownItem>
+      </Dropdown__DropdownPanel>,
+      "className": null,
+      "closeOnOutsideClick": true,
+      "isDisabled": false,
+      "isFluid": true,
+      "isOpen": undefined,
+      "menuOffset": "5px",
+      "onClose": [Function],
+      "onOpen": [Function],
+      "position": "bottom",
+      "preventOutOfBounds": false,
+      "trigger": <Dropdown__DropdownButton
+        disabled={false}
+        isFluid={true}
+      >
+        <Dropdown__Label>
+          Don't push me
+        </Dropdown__Label>
+        <Dropdown__IconWrapper>
+          <Dropdown__StyledIcon
+            disabled={false}
+            height={9}
+            name="caret-down"
+            open={false}
+            selected={false}
+            width={16}
+          />
+        </Dropdown__IconWrapper>
+      </Dropdown__DropdownButton>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              ...cause I'm close to the edge
+            </nobr>
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              I'm trying not to lose my head
+            </nobr>
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              It's like a jungle sometimes
+            </nobr>
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              It makes me wonder how I keep from goin' under
+            </nobr>
+          </DropdownItem>,
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              -- Grandmaster Flash
+            </nobr>
+          </DropdownItem>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              ...cause I'm close to the edge
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "...cause I'm close to the edge",
+            },
+            "ref": null,
+            "rendered": "...cause I'm close to the edge",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              I'm trying not to lose my head
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "I'm trying not to lose my head",
+            },
+            "ref": null,
+            "rendered": "I'm trying not to lose my head",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              It's like a jungle sometimes
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "It's like a jungle sometimes",
+            },
+            "ref": null,
+            "rendered": "It's like a jungle sometimes",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              It makes me wonder how I keep from goin' under
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "It makes me wonder how I keep from goin' under",
+            },
+            "ref": null,
+            "rendered": "It makes me wonder how I keep from goin' under",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <nobr>
+              -- Grandmaster Flash
+            </nobr>,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "-- Grandmaster Flash",
+            },
+            "ref": null,
+            "rendered": "-- Grandmaster Flash",
+            "type": "nobr",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Dropdown__DropdownPanel>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              ...cause I'm close to the edge
+            </nobr>
+          </DropdownItem>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              I'm trying not to lose my head
+            </nobr>
+          </DropdownItem>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              It's like a jungle sometimes
+            </nobr>
+          </DropdownItem>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              It makes me wonder how I keep from goin' under
+            </nobr>
+          </DropdownItem>
+          <DropdownItem
+            onClick={[Function]}
+          >
+            <nobr>
+              -- Grandmaster Flash
+            </nobr>
+          </DropdownItem>
+        </Dropdown__DropdownPanel>,
+        "className": null,
+        "closeOnOutsideClick": true,
+        "isDisabled": false,
+        "isFluid": true,
+        "isOpen": undefined,
+        "menuOffset": "5px",
+        "onClose": [Function],
+        "onOpen": [Function],
+        "position": "bottom",
+        "preventOutOfBounds": false,
+        "trigger": <Dropdown__DropdownButton
+          disabled={false}
+          isFluid={true}
+        >
+          <Dropdown__Label>
+            Don't push me
+          </Dropdown__Label>
+          <Dropdown__IconWrapper>
+            <Dropdown__StyledIcon
+              disabled={false}
+              height={9}
+              name="caret-down"
+              open={false}
+              selected={false}
+              width={16}
+            />
+          </Dropdown__IconWrapper>
+        </Dropdown__DropdownButton>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <DropdownItem
+              onClick={[Function]}
+            >
+              <nobr>
+                ...cause I'm close to the edge
+              </nobr>
+            </DropdownItem>,
+            <DropdownItem
+              onClick={[Function]}
+            >
+              <nobr>
+                I'm trying not to lose my head
+              </nobr>
+            </DropdownItem>,
+            <DropdownItem
+              onClick={[Function]}
+            >
+              <nobr>
+                It's like a jungle sometimes
+              </nobr>
+            </DropdownItem>,
+            <DropdownItem
+              onClick={[Function]}
+            >
+              <nobr>
+                It makes me wonder how I keep from goin' under
+              </nobr>
+            </DropdownItem>,
+            <DropdownItem
+              onClick={[Function]}
+            >
+              <nobr>
+                -- Grandmaster Flash
+              </nobr>
+            </DropdownItem>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <nobr>
+                ...cause I'm close to the edge
+              </nobr>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "...cause I'm close to the edge",
+              },
+              "ref": null,
+              "rendered": "...cause I'm close to the edge",
+              "type": "nobr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <nobr>
+                I'm trying not to lose my head
+              </nobr>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I'm trying not to lose my head",
+              },
+              "ref": null,
+              "rendered": "I'm trying not to lose my head",
+              "type": "nobr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <nobr>
+                It's like a jungle sometimes
+              </nobr>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "It's like a jungle sometimes",
+              },
+              "ref": null,
+              "rendered": "It's like a jungle sometimes",
+              "type": "nobr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <nobr>
+                It makes me wonder how I keep from goin' under
+              </nobr>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "It makes me wonder how I keep from goin' under",
+              },
+              "ref": null,
+              "rendered": "It makes me wonder how I keep from goin' under",
+              "type": "nobr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <nobr>
+                -- Grandmaster Flash
+              </nobr>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-- Grandmaster Flash",
+              },
+              "ref": null,
+              "rendered": "-- Grandmaster Flash",
+              "type": "nobr",
+            },
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
       "type": [Function],
