@@ -13,13 +13,13 @@ const Wrapper = styled('span')`
 const Input = styled('span')`
   display: inline-block;
   position: relative;
-  width: .9em;
-  height: .9em;
+  width: .8125em;
+  height: .8125em;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
   background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
   vertical-align: middle;
-  border: solid .1em #fff;
+  border: solid .05em #fff;
   box-sizing: border-box;
   transition: background .3s ease-out;
 `;
