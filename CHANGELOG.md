@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Changed
+- Add `min-width`and `text-align` for Dropdown's button.
+
 ## [0.8.2] - 2018-09-27
 ### Changed
 - Fix classnames in Modal component

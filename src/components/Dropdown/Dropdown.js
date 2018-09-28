@@ -10,6 +10,7 @@ import LoadingSpinner from '../LoadingSpinner';
 const DropdownButton = styled.button`
   display: flex;
   align-items: center;
+  min-width: 240px;
   background-color: ${props => props.theme.white};
   border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.stoneGrey)};
   font-family: inherit;
@@ -29,6 +30,7 @@ const Label = styled('span')`
   display: inline-block;
   flex-grow: 1;
   line-height: 1;
+  text-align: left;
 `;
 
 const StyledIcon = styled(Icon).attrs({
