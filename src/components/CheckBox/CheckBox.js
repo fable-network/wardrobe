@@ -19,7 +19,7 @@ const Input = styled('span')`
   box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
   background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
   vertical-align: middle;
-  border: solid 2px #fff;
+  border: solid .1em #fff;
   box-sizing: border-box;
   transition: background .3s ease-out;
 `;
