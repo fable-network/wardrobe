@@ -5,6 +5,7 @@
 ### Changed
 - Add `min-width` and `text-align` for Dropdown's button.
 - Add `isFluid` prop to `Dropdown` and `ToggleMenu` components.
+- Dropdown component to call `onOpen` and `onClose` even in controlled state.
 
 ## [0.8.2] - 2018-09-27
 ### Changed
