@@ -2,101 +2,99 @@
 // This file was automatically generated
 import React from 'react';
 import { shallow } from 'enzyme';
-import Modal from './Modal';
+import Dialog from './Dialog';
 
 import Button from '../Button'
-describe('Modal Component', () => {
+describe('Dialog Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Modal size="normal" open={true}>
-          <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
-          <Modal.Body>This body has pre-defined paddings.</Modal.Body>
-          <Modal.Footer>
+        <Dialog size="normal" open={true}>
+          <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
+          <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Let's do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Modal size="small" open={true}>
-          <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
-          <Modal.Body>This body has pre-defined paddings.</Modal.Body>
-          <Modal.Footer>
+        <Dialog size="small" open={true}>
+          <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
+          <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Let's do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Modal size="large" open={true}>
-          <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
-          <Modal.Body>This body has pre-defined paddings.</Modal.Body>
-          <Modal.Footer>
+        <Dialog size="large" open={true}>
+          <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
+          <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Let's do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Modal size="auto" open={true}>
-          <Modal.Header>You are changing the status of this order to Shipped</Modal.Header>
-          <Modal.Body>This body has pre-defined paddings.</Modal.Body>
-          <Modal.Footer>
+        <Dialog size="auto" open={true}>
+          <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
+          <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Let's do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Modal open={true}>
-          <Modal.Header>
+        <Dialog open={true}>
+          <Dialog.Header>
             <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
-          </Modal.Header>
-          <Modal.Body>
+          </Dialog.Header>
+          <Dialog.Body>
             If you do so, styling is up to you. For example, see that this header also has default `h1`
             margins.
-          </Modal.Body>
-          <Modal.Footer>
+          </Dialog.Body>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Ik snap het!
             </Button>
             <Button onClick={() => {}}>Nee!</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Modal open={true}>
-          <Modal.Header>
-            Check out the body &darr;
-          </Modal.Header>
+        <Dialog open={true}>
+          <Dialog.Header>Check out the body &darr;</Dialog.Header>
           <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
-          <Modal.Footer>
+          <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
               Got it!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
-          </Modal.Footer>
-        </Modal>
+          </Dialog.Footer>
+        </Dialog>
       );
       expect(wrapper6).toMatchSnapshot();
 
