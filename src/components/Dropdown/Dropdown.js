@@ -76,13 +76,20 @@ class Dropdown extends Component {
     return isSelected ? 'caret-selected' : 'caret-down';
   };
 
+  isControlled = () =>
+    typeof this.props.isOpen !== 'undefined';
+
   handleMenuOpen = () => {
-    this.setState({ menuOpen: true });
+    if (!this.isControlled()) {
+      this.setState({ menuOpen: true });
+    }
   };
 
   handleMenuClose = () => {
     this.props.onClose();
-    this.setState({ menuOpen: false });
+    if (!this.isControlled()) {
+      this.setState({ menuOpen: false });
+    }
   };
 
   renderTrigger = () => {
@@ -97,7 +104,7 @@ class Dropdown extends Component {
             <LoadingSpinner size="17px" />
           ) : (
             <StyledIcon
-              open={isOpen || menuOpen}
+              open={this.isControlled() ? isOpen : menuOpen}
               selected={isSelected}
               name={this.getIcon()}
               width={isSelected ? 11 : 16}
