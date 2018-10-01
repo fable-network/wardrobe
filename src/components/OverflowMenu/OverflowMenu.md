@@ -94,10 +94,10 @@ With custom **active** color
 </OverflowMenu>
 ```
 
-Open initially (with title):
+Controlled by `isOpen` prop (`true`).
 ```jsx
-<OverflowMenu openByDefault={true}>
-  <OverflowMenu.Title>Use the trigger to close me</OverflowMenu.Title>
+<OverflowMenu isOpen={true}>
+  <OverflowMenu.Title>You can't close me</OverflowMenu.Title>
   <OverflowMenu.Item>
     Action 1
   </OverflowMenu.Item>
