@@ -42,7 +42,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -97,7 +96,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -194,7 +192,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "medium",
       "theme": undefined,
@@ -249,7 +246,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "medium",
         "theme": undefined,
@@ -346,7 +342,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "large",
       "theme": undefined,
@@ -401,7 +396,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "large",
         "theme": undefined,
@@ -498,7 +492,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "left",
       "size": "small",
       "theme": undefined,
@@ -553,7 +546,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "left",
         "size": "small",
         "theme": undefined,
@@ -650,7 +642,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -705,7 +696,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -802,7 +792,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -857,7 +846,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -955,7 +943,6 @@ ShallowWrapper {
       "color": "red",
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -1011,7 +998,6 @@ ShallowWrapper {
         "color": "red",
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -1109,7 +1095,6 @@ ShallowWrapper {
       ],
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": false,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -1165,7 +1150,6 @@ ShallowWrapper {
         ],
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": false,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -1222,10 +1206,10 @@ exports[`OverflowMenu Component snapshots should match snapshot 9`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    openByDefault={true}
+    isOpen={true}
   >
     <DropdownTitle>
-      Use the trigger to close me
+      You can't close me
     </DropdownTitle>
     <DropdownItem
       onClick={[Function]}
@@ -1253,7 +1237,7 @@ ShallowWrapper {
       "appearance": "dark",
       "children": Array [
         <DropdownTitle>
-          Use the trigger to close me
+          You can't close me
         </DropdownTitle>,
         <DropdownItem
           onClick={[Function]}
@@ -1266,9 +1250,9 @@ ShallowWrapper {
           Action 2
         </DropdownItem>,
       ],
+      "isOpen": true,
       "onClose": [Function],
       "onOpen": [Function],
-      "openByDefault": true,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -1280,10 +1264,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": "Use the trigger to close me",
+          "children": "You can't close me",
         },
         "ref": null,
-        "rendered": "Use the trigger to close me",
+        "rendered": "You can't close me",
         "type": [Function],
       },
       Object {
@@ -1322,7 +1306,7 @@ ShallowWrapper {
         "appearance": "dark",
         "children": Array [
           <DropdownTitle>
-            Use the trigger to close me
+            You can't close me
           </DropdownTitle>,
           <DropdownItem
             onClick={[Function]}
@@ -1335,9 +1319,9 @@ ShallowWrapper {
             Action 2
           </DropdownItem>,
         ],
+        "isOpen": true,
         "onClose": [Function],
         "onOpen": [Function],
-        "openByDefault": true,
         "position": "right",
         "size": "small",
         "theme": undefined,
@@ -1349,10 +1333,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Use the trigger to close me",
+            "children": "You can't close me",
           },
           "ref": null,
-          "rendered": "Use the trigger to close me",
+          "rendered": "You can't close me",
           "type": [Function],
         },
         Object {

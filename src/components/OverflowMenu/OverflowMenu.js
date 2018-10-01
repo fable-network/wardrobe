@@ -28,7 +28,7 @@ class OverflowMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpen: props.openByDefault
+      menuOpen: false
     };
   }
 
@@ -65,14 +65,21 @@ class OverflowMenu extends Component {
     return colors[appearance];
   }
 
+  isControlled = () =>
+    typeof this.props.isOpen !== 'undefined';
+
   handleMenuOpen = () => {
     this.props.onOpen();
-    this.setState({ menuOpen: true });
+    if (!this.isControlled()) {
+      this.setState({ menuOpen: true });
+    }
   }
 
   handleMenuClose = () => {
     this.props.onClose();
-    this.setState({ menuOpen: false });
+    if (!this.isControlled()) {
+      this.setState({ menuOpen: false });
+    }
   }
 
   renderTrigger = () => {
@@ -95,7 +102,7 @@ class OverflowMenu extends Component {
   }
 
   render() {
-    const { children, position, openByDefault } = this.props;
+    const { children, position, isOpen } = this.props;
 
     return (
       <ToggleMenu
@@ -103,7 +110,7 @@ class OverflowMenu extends Component {
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
-        openByDefault={openByDefault}
+        isOpen={isOpen}
       >
         <Menu>
           {children}
@@ -116,7 +123,6 @@ class OverflowMenu extends Component {
 OverflowMenu.defaultProps = {
   appearance: 'dark',
   position: 'right',
-  openByDefault: false,
   onOpen: () => {},
   onClose: () => null,
   size: 'small'
@@ -138,7 +144,7 @@ OverflowMenu.propTypes = {
   activeColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   position: PropTypes.string,
-  openByDefault: PropTypes.bool,
+  isOpen: PropTypes.bool,
   theme: PropTypes.object,
   onOpen: PropTypes.func,
   onClose: PropTypes.func,

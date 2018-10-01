@@ -30,9 +30,22 @@ class ToggleMenu extends Component {
     };
   }
 
+  componentDidMount() {
+    if (this.props.isOpen) {
+      this.addDocumentEventListeners();
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    if (!this.props.isOpen && prevProps.isOpen) {
+      this.removeDocumentEventListeners();
+    } else if (this.props.isOpen && !prevProps.isOpen) {
+      this.addDocumentEventListeners();
+    }
+  }
+
   componentWillUnmount() {
-    document.removeEventListener('click', this.handleClose);
-    document.removeEventListener('keydown', this.handleKeyDown);
+    this.removeDocumentEventListeners();
   }
 
   getPositionValues = position => {
@@ -77,6 +90,16 @@ class ToggleMenu extends Component {
     }
   };
 
+  addDocumentEventListeners = () => {
+    document.addEventListener('click', this.handleClose);
+    document.addEventListener('keydown', this.handleKeyDown);
+  }
+
+  removeDocumentEventListeners = () => {
+    document.removeEventListener('click', this.handleClose);
+    document.removeEventListener('keydown', this.handleKeyDown);
+  }
+
   isMenuInViewport = () => {
     if (!this.menuRef) {
       return null;
@@ -91,6 +114,9 @@ class ToggleMenu extends Component {
       right: rect.right <= (window.innerWidth || document.documentElement.clientWidth),
     };
   };
+
+  isControlled = () =>
+    typeof this.props.isOpen !== 'undefined'
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
@@ -118,16 +144,15 @@ class ToggleMenu extends Component {
   };
 
   handleOpen = event => {
-    if (typeof this.props.isOpen !== 'undefined') {
+    event.preventDefault();
+    this.props.onOpen();
+    if (this.isControlled()) {
       return;
     }
-    event.preventDefault();
 
-    this.props.onOpen();
     this.setState({ isOpen: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
-        document.addEventListener('click', this.handleClose);
-        document.addEventListener('keydown', this.handleKeyDown);
+        this.addDocumentEventListeners();
       }
       if (this.props.preventOutOfBounds) {
         this.handleOutOfBounds();
@@ -136,24 +161,29 @@ class ToggleMenu extends Component {
   };
 
   handleClose = event => {
-    if (typeof this.props.isOpen !== 'undefined') {
-      return;
-    }
     event.preventDefault();
     if (this.menuRef.contains(event.target)) {
       return;
     }
-
     this.props.onClose();
+    if (this.isControlled()) {
+      return;
+    }
+
     this.setState({ isOpen: false }, () => {
       if (this.props.closeOnOutsideClick) {
-        document.removeEventListener('click', this.handleClose);
-        document.removeEventListener('keydown', this.handleKeyDown);
+        this.removeDocumentEventListeners();
       }
     });
   };
 
-  toggleMenu = event => (this.state.isOpen ? this.handleClose(event) : this.handleOpen(event));
+  toggleMenu = (event) => {
+    if (this.props.isOpen || this.state.isOpen) {
+      this.handleClose(event);
+    } else {
+      this.handleOpen(event);
+    }
+  }
 
   render() {
     const { trigger, children, className, isDisabled, isFluid } = this.props;

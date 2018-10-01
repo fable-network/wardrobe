@@ -105,8 +105,8 @@ describe('OverflowMenu Component', () => {
       expect(wrapper8).toMatchSnapshot();
 
       const wrapper9 = shallow(
-        <OverflowMenu openByDefault={true}>
-          <OverflowMenu.Title>Use the trigger to close me</OverflowMenu.Title>
+        <OverflowMenu isOpen={true}>
+          <OverflowMenu.Title>You can't close me</OverflowMenu.Title>
           <OverflowMenu.Item>
             Action 1
           </OverflowMenu.Item>
