@@ -7,7 +7,7 @@ const Wrapper = styled('span')`
   opacity: ${p => (p.isDisabled ? '0.3' : 'initial')};
   cursor: pointer;
   line-height: 1;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 `;
 
