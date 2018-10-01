@@ -123,7 +123,7 @@ class ToggleMenu extends Component {
   handleOpen = event => {
     event.preventDefault();
     this.props.onOpen();
-    if (this.isControlled) {
+    if (this.isControlled()) {
       return;
     }
 
