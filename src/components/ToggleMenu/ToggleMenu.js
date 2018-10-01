@@ -92,6 +92,9 @@ class ToggleMenu extends Component {
     };
   };
 
+  isControlled = () =>
+    typeof this.props.isOpen !== 'undefined'
+
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
     const outOfBoundsSide = Object.keys(withinBounds).find(key => withinBounds[key] === false);
@@ -118,12 +121,12 @@ class ToggleMenu extends Component {
   };
 
   handleOpen = event => {
-    if (typeof this.props.isOpen !== 'undefined') {
+    event.preventDefault();
+    this.props.onOpen();
+    if (this.isControlled) {
       return;
     }
-    event.preventDefault();
 
-    this.props.onOpen();
     this.setState({ isOpen: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
         document.addEventListener('click', this.handleClose);
@@ -136,15 +139,15 @@ class ToggleMenu extends Component {
   };
 
   handleClose = event => {
-    if (typeof this.props.isOpen !== 'undefined') {
-      return;
-    }
     event.preventDefault();
     if (this.menuRef.contains(event.target)) {
       return;
     }
-
     this.props.onClose();
+    if (this.isControlled()) {
+      return;
+    }
+
     this.setState({ isOpen: false }, () => {
       if (this.props.closeOnOutsideClick) {
         document.removeEventListener('click', this.handleClose);
@@ -153,7 +156,13 @@ class ToggleMenu extends Component {
     });
   };
 
-  toggleMenu = event => (this.state.isOpen ? this.handleClose(event) : this.handleOpen(event));
+  toggleMenu = (event) => {
+    if (this.props.isOpen || this.state.isOpen) {
+      this.handleClose(event);
+    } else {
+      this.handleOpen(event);
+    }
+  }
 
   render() {
     const { trigger, children, className, isDisabled, isFluid } = this.props;
