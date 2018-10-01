@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Added
+- Checkbox component
 
 ### Changed
 - Add `min-width` and `text-align` for Dropdown's button.
