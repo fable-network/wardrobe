@@ -81,6 +81,27 @@ describe('Dropdown Component', () => {
       );
       expect(wrapper7).toMatchSnapshot();
 
+      const wrapper8 = shallow(
+        <Dropdown label="Don't push me" isFluid={true}>
+          <Dropdown.Item onClick={() => alert('Clicked 1')}>
+            <nobr>...cause I'm close to the edge</nobr>
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => alert('Clicked 2')}>
+            <nobr>I'm trying not to lose my head</nobr>
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => alert('Clicked 3')}>
+            <nobr>It's like a jungle sometimes</nobr>
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => alert('Clicked 4')}>
+            <nobr>It makes me wonder how I keep from goin' under</nobr>
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => alert('Don\'t push me')}>
+            <nobr>-- Grandmaster Flash</nobr>
+          </Dropdown.Item>
+        </Dropdown>
+      );
+      expect(wrapper8).toMatchSnapshot();
+
     });
   });
 });

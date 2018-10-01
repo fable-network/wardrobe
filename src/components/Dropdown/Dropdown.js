@@ -10,6 +10,8 @@ import LoadingSpinner from '../LoadingSpinner';
 const DropdownButton = styled.button`
   display: flex;
   align-items: center;
+  min-width: 240px;
+  ${props => props.isFluid && 'width: 100%;'};
   background-color: ${props => props.theme.white};
   border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.stoneGrey)};
   font-family: inherit;
@@ -21,7 +23,7 @@ const DropdownButton = styled.button`
   &:focus {
     outline: none;
     box-shadow: 0 0 4px ${props => props.theme.skyBlue};
-    border-color: ${props => props.theme.skyBlue}
+    border-color: ${props => props.theme.skyBlue};
   }
 `;
 
@@ -29,6 +31,7 @@ const Label = styled('span')`
   display: inline-block;
   flex-grow: 1;
   line-height: 1;
+  text-align: left;
 `;
 
 const StyledIcon = styled(Icon).attrs({
@@ -83,33 +86,40 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { isDisabled, label, isSelected, isLoading, onClick, isOpen } = this.props;
+    const { isDisabled, label, isSelected, isLoading, onClick, isOpen, isFluid } = this.props;
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton disabled={isDisabled} onClick={onClick}>
+      <DropdownButton disabled={isDisabled} onClick={onClick} isFluid={isFluid}>
         <Label>{label}</Label>
         <IconWrapper>
-          {isLoading
-            ? <LoadingSpinner size="17px" />
-            : (
-              <StyledIcon
-                open={isOpen || menuOpen}
-                selected={isSelected}
-                name={this.getIcon()}
-                width={isSelected ? 11 : 16}
-                height={9}
-                disabled={isDisabled}
-              />
-            )
-          }
+          {isLoading ? (
+            <LoadingSpinner size="17px" />
+          ) : (
+            <StyledIcon
+              open={isOpen || menuOpen}
+              selected={isSelected}
+              name={this.getIcon()}
+              width={isSelected ? 11 : 16}
+              height={9}
+              disabled={isDisabled}
+            />
+          )}
         </IconWrapper>
       </DropdownButton>
     );
-  }
+  };
 
   render() {
-    const { children, className, position, preventOutOfBounds, isDisabled, isOpen } = this.props;
+    const {
+      children,
+      className,
+      position,
+      preventOutOfBounds,
+      isDisabled,
+      isOpen,
+      isFluid,
+    } = this.props;
 
     return (
       <ToggleMenu
@@ -120,11 +130,10 @@ class Dropdown extends Component {
         position={position}
         preventOutOfBounds={preventOutOfBounds}
         isDisabled={isDisabled}
+        isFluid={isFluid}
         isOpen={isOpen}
       >
-        <DropdownPanel>
-          {children}
-        </DropdownPanel>
+        <DropdownPanel>{children}</DropdownPanel>
       </ToggleMenu>
     );
   }
@@ -147,8 +156,10 @@ Dropdown.propTypes = {
   onClose: PropTypes.func,
   /** Flag to flip the menu position if out of viewport */
   preventOutOfBounds: PropTypes.bool,
+  /** Makes the toggle button fluid (100% width) */
+  isFluid: PropTypes.bool,
   isOpen: PropTypes.bool,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
 };
 
 Dropdown.defaultProps = {
@@ -157,7 +168,8 @@ Dropdown.defaultProps = {
   isDisabled: false,
   isSelected: false,
   isLoading: false,
-  onClose: () => null
+  isFluid: false,
+  onClose: () => null,
 };
 
 Dropdown.Item = DropdownItem;

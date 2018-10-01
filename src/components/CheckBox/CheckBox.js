@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled('span')`
-  white-space: nowrap;
   pointer-events: ${p => (p.isDisabled ? 'none' : 'initial')};
   opacity: ${p => (p.isDisabled ? '0.3' : 'initial')};
   cursor: pointer;
   line-height: 1;
+  display: flex;
+  align-items: center;
 `;
 
 const Input = styled('span')`
@@ -18,7 +19,6 @@ const Input = styled('span')`
   border-radius: 50%;
   box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
   background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
-  vertical-align: middle;
   border: solid .05em #fff;
   box-sizing: border-box;
   transition: background .3s ease-out;
@@ -26,14 +26,20 @@ const Input = styled('span')`
 
 const Label = styled('span')`
   display: inline-block;
-  margin-left: 10px;
-  vertical-align: middle;
+  margin-left: 8px;
   user-select: none;
+`;
+
+const InputWrapper = styled('span')`
+  display: flex;
+  align-items: center;
 `;
 
 const CheckBox = ({ label, isChecked, isDisabled, onToggle }) => (
   <Wrapper onClick={onToggle} isDisabled={isDisabled}>
-    <Input isChecked={isChecked} />
+    <InputWrapper>
+      <Input isChecked={isChecked} />
+    </InputWrapper>
     <Label>{label}</Label>
   </Wrapper>
 );
