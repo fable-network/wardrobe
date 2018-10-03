@@ -89,3 +89,7 @@ the Styleguide, e.g. Modal component.
 * Publish the release.
 * Go back to your terminal, run `git pull` and checkout the release tag (`git checkout 1.0.0`).
 * Publish the package to npm `npm publish`.
+
+## License
+
+Apache 2.0
