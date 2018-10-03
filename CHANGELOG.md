@@ -1,4 +1,8 @@
 ## [Unreleased]
+
+### Changed
+- Split Modal component to Modal and Dialog components.
+
 ### Added
 - Checkbox component
 

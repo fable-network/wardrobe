@@ -9,7 +9,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
     <Button appearance="primary" onClick={() => {}}>
-      Let's do that!
+      Let us do that!
     </Button>
     <Button onClick={() => {}}>Cancel</Button>
   </Dialog.Footer>
@@ -24,7 +24,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
     <Button appearance="primary" onClick={() => {}}>
-      Let's do that!
+      Let us do that!
     </Button>
     <Button onClick={() => {}}>Cancel</Button>
   </Dialog.Footer>
@@ -39,7 +39,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
     <Button appearance="primary" onClick={() => {}}>
-      Let's do that!
+      Let us do that!
     </Button>
     <Button onClick={() => {}}>Cancel</Button>
   </Dialog.Footer>
@@ -56,7 +56,7 @@ Goes with normal paddings and auto width on desktop.
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
     <Button appearance="primary" onClick={() => {}}>
-      Let's do that!
+      Let us do that!
     </Button>
     <Button onClick={() => {}}>Cancel</Button>
   </Dialog.Footer>

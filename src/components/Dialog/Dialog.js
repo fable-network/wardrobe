@@ -28,7 +28,18 @@ const FooterStyled = styled.footer``;
 
 const BodyStyled = styled.div``;
 
-const Root = styled.div`
+const WrapperResponsive = `
+  @media ${DESKTOP} {
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    justify-content: space-between;
+    > * + * {
+      margin-top: 0;
+    }
+  }
+`;
+
+const Wrapper = styled.div`
   background-color: ${props => props.theme.white};
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
   width: 100%;
@@ -60,18 +71,7 @@ const Root = styled.div`
       margin-top: 20px;
     }
 
-    ${props =>
-    props.size !== 'small'
-      && `
-      @media ${DESKTOP} {
-        flex-flow: row-reverse wrap;
-        align-items: center;
-        justify-content: space-between;
-        > * + * {
-          margin-top: 0;
-        }
-      }
-    `};
+    ${props => props.size !== 'small' && WrapperResponsive};
   }
 
   ${BodyStyled} {
@@ -84,7 +84,7 @@ const Root = styled.div`
  */
 function Dialog(props) {
   const { size, children } = props;
-  return <Root size={size}>{children}</Root>;
+  return <Wrapper size={size}>{children}</Wrapper>;
 }
 
 Dialog.defaultProps = {

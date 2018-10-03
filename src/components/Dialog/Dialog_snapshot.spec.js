@@ -15,7 +15,7 @@ describe('Dialog Component', () => {
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
-              Let's do that!
+              Let us do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
           </Dialog.Footer>
@@ -29,7 +29,7 @@ describe('Dialog Component', () => {
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
-              Let's do that!
+              Let us do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
           </Dialog.Footer>
@@ -43,7 +43,7 @@ describe('Dialog Component', () => {
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
-              Let's do that!
+              Let us do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
           </Dialog.Footer>
@@ -57,7 +57,7 @@ describe('Dialog Component', () => {
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
             <Button appearance="primary" onClick={() => {}}>
-              Let's do that!
+              Let us do that!
             </Button>
             <Button onClick={() => {}}>Cancel</Button>
           </Dialog.Footer>
