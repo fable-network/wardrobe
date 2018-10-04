@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import { slideIn } from '../../constants/Animations';
 import Icon from '../Icon';
 import { hexToRgba } from '../../helpers/colors';
 
@@ -24,6 +25,7 @@ const ChildrenWrapper = styled('div')`
   opacity: ${p => (p.isOpen ? '1' : '0')};
   padding: 0 15px;
   border-bottom: solid 1px ${p => hexToRgba(p.theme.stoneGrey, 0.5)};
+  animation: ${slideIn('-20px')} .3s ease;
 `;
 
 const Wrapper = styled('div')`
