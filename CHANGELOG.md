@@ -3,6 +3,7 @@
 ### Changed
 - Split Modal component to Modal and Dialog components.
 - Get rid of `react-modal2` dependency.
+- Use `yarn`.
 
 ### Added
 - Checkbox component
