@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Changed
+- Add `IS_STYLEGUIDE` flag to work around some issues when static components' stories broke styleguide.
+
 ## [1.0.0] - 2018-10-04
 ### Added
 - Checkbox component

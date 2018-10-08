@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   title: 'Wardrobe',
@@ -29,8 +30,7 @@ module.exports = {
       links: [
         {
           rel: 'stylesheet',
-          href:
-            'style.css',
+          href: 'style.css',
         },
       ],
     },
@@ -68,6 +68,13 @@ module.exports = {
         },
       ],
     },
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env': {
+          IS_STYLEGUIDE: JSON.stringify(true),
+        },
+      }),
+    ],
     resolve: {
       modules: [
         path.join(__dirname, 'src'),
