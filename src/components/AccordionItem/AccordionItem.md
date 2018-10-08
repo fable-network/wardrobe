@@ -18,9 +18,9 @@ The `title` prop can also be a node:
 </Accordion.Item>
 ```
 
-Controlled by `isOpen` prop (`true`):
+Controlled by `open` prop (`true`):
 ```jsx
-<Accordion.Item title="Accordion item title" isOpen={true}>
+<Accordion.Item title="Accordion item title" open={true}>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
@@ -28,9 +28,9 @@ Controlled by `isOpen` prop (`true`):
 </Accordion.Item>
 ```
 
-Controlled by `isOpen` prop (`false`):
+Controlled by `open` prop (`false`):
 ```jsx
-<Accordion.Item title="Accordion item title" isOpen={false}>
+<Accordion.Item title="Accordion item title" open={false}>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
@@ -40,7 +40,7 @@ Controlled by `isOpen` prop (`false`):
 
 Disabled
 ```jsx
-<Accordion.Item title="Accordion item title" isDisabled>
+<Accordion.Item title="Accordion item title" disabled>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
