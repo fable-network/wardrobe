@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { hexToRgba } from '../../helpers/colors';
 
@@ -25,19 +24,9 @@ const StyledInput = styled.input`
   }
 `;
 
+/**
+ * Basic React `input` field with a bit of styling.
+ */
 const Input = props => <StyledInput {...props} />;
-
-Input.defaultProps = {
-  required: false,
-  disabled: false,
-};
-
-Input.propTypes = {
-  type: PropTypes.oneOf(['text', 'password', 'email', 'number']).isRequired,
-  placeholder: PropTypes.string,
-  title: PropTypes.string,
-  required: PropTypes.bool,
-  disabled: PropTypes.bool,
-};
 
 export default Input;
