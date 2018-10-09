@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+
+- Input component
+
 ### Changed
 - Add `IS_STYLEGUIDE` flag to work around some issues when static components' stories broke styleguide.
 
