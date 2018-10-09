@@ -93,12 +93,12 @@ class ToggleMenu extends Component {
   addDocumentEventListeners = () => {
     document.addEventListener('click', this.handleClose);
     document.addEventListener('keydown', this.handleKeyDown);
-  }
+  };
 
   removeDocumentEventListeners = () => {
     document.removeEventListener('click', this.handleClose);
     document.removeEventListener('keydown', this.handleKeyDown);
-  }
+  };
 
   isMenuInViewport = () => {
     if (!this.menuRef) {
@@ -115,8 +115,7 @@ class ToggleMenu extends Component {
     };
   };
 
-  isControlled = () =>
-    typeof this.props.isOpen !== 'undefined'
+  isControlled = () => typeof this.props.isOpen !== 'undefined';
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
@@ -177,13 +176,13 @@ class ToggleMenu extends Component {
     });
   };
 
-  toggleMenu = (event) => {
+  toggleMenu = event => {
     if (this.props.isOpen || this.state.isOpen) {
       this.handleClose(event);
     } else {
       this.handleOpen(event);
     }
-  }
+  };
 
   render() {
     const { trigger, children, className, isDisabled, isFluid } = this.props;
