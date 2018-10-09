@@ -10,3 +10,4 @@ export Modal from './Modal';
 export OverflowMenu from './OverflowMenu';
 export Searchbar from './Searchbar';
 export Table from './Table';
+export Input from './Input';
