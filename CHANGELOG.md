@@ -1,8 +1,11 @@
 ## [Unreleased]
 
+## [1.1.0] - 2018-10-09
+
 ### Added
 
 - Input component
+- Accordion component
 
 ### Changed
 - Add `IS_STYLEGUIDE` flag to work around some issues when static components' stories broke styleguide.
