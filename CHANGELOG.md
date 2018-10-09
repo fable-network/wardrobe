@@ -1,15 +1,20 @@
 ## [Unreleased]
 
 ### Changed
-- Split Modal component to Modal and Dialog components.
-- Get rid of `react-modal2` dependency.
+- Add `IS_STYLEGUIDE` flag to work around some issues when static components' stories broke styleguide.
 
+## [1.0.0] - 2018-10-04
 ### Added
 - Checkbox component
 
 ### Changed
-- Add `min-width` and `text-align` for Dropdown's button.
+- Get rid of `react-modal2` dependency.
+- Use `yarn`.
 - Add `isFluid` prop to `Dropdown` and `ToggleMenu` components.
+
+### Breaking changes
+- Split Modal component to Modal and Dialog components.
+- Add `min-width` and `text-align` for Dropdown's button.
 - Dropdown component to call `onOpen` and `onClose` even in controlled state.
 
 ## [0.8.2] - 2018-09-27

@@ -6,8 +6,8 @@ FashionTrade Component Library.
 
 
 ## How to run
-* `npm install`
-* `npm start` (Uses [Styleguidist](https://github.com/styleguidist/react-styleguidist))
+* `yarn install`
+* `yarn start` (Uses [Styleguidist](https://github.com/styleguidist/react-styleguidist))
 
 ## Workflow & conventions
 #### Creating a new component:
@@ -17,7 +17,7 @@ FashionTrade Component Library.
 
 OR
 
-`npm run generate-component -- --name <ComponentName>`
+`yarn generate-component -- --name <ComponentName>`
 
 This runs the script found in [scripts/generateComponent.js](scripts/generateComponent.js). which will create all the files listed below.
 
@@ -31,7 +31,7 @@ This runs the script found in [scripts/generateComponent.js](scripts/generateCom
 #### Generating Tests:
 After you have created your component and ensured that it looks good in the styleguide. run the follwing command
 ```sh
-npm run generate-tests
+yarn generate-tests
 ```
 This runs the script found in [scripts/generateTests.js](scripts/generateTests.js). which will generate snapshots tests found in `src/components/ComponentName/ComponentName.spec.js`. **with some conditions:**
 
@@ -88,7 +88,7 @@ the Styleguide, e.g. Modal component.
 * Copy what was Added/Changed/Fixed from the changelog and paste it in the description of the release.
 * Publish the release.
 * Go back to your terminal, run `git pull` and checkout the release tag (`git checkout 1.0.0`).
-* Publish the package to npm `npm publish`.
+* Publish the package to NPM registry: `npm publish`.
 
 ## License
 

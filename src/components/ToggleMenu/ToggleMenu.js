@@ -160,7 +160,9 @@ class ToggleMenu extends Component {
   };
 
   handleClose = event => {
-    event.preventDefault();
+    if (!process.env.IS_STYLEGUIDE) {
+      event.preventDefault();
+    }
     if (this.menuRef.contains(event.target)) {
       return;
     }
