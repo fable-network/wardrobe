@@ -51,14 +51,14 @@ LoadingSpinner.propTypes = {
     'danger',
     'warning',
     'light',
-    'dark'
+    'dark',
   ]),
 };
 
 LoadingSpinner.defaultProps = {
   size: '20px',
   speed: '1s',
-  appearance: 'primary'
+  appearance: 'primary',
 };
 
 export default withTheme(LoadingSpinner);
