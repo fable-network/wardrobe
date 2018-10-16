@@ -9,8 +9,9 @@ module.exports = {
   assetsDir: 'src/static',
 
   sections: [
-    { name: 'Components', components: 'src/components/**/*.js' },
     { name: 'Style', components: 'src/style/**/*.js' },
+    { name: 'Components', components: 'src/components/**/*.js' },
+    { name: 'Animations', components: 'src/animations/**/*.js' },
   ],
 
   components: 'src/components/**/*.js',
@@ -34,6 +35,10 @@ module.exports = {
         },
       ],
     },
+  },
+
+  compilerConfig: {
+    transforms: { dangerousTaggedTemplateString: true },
   },
 
   webpackConfig: {
