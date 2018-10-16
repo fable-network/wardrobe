@@ -241,7 +241,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Accordion>
     <AccordionItem
-      defaultOpen={true}
+      defaultOpen={false}
       disabled={false}
       onToggle={[Function]}
       tabIndex={0}
@@ -252,7 +252,7 @@ ShallowWrapper {
       </p>
     </AccordionItem>
     <AccordionItem
-      defaultOpen={false}
+      defaultOpen={true}
       disabled={false}
       onToggle={[Function]}
       tabIndex={0}
@@ -277,7 +277,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <AccordionItem
-          defaultOpen={true}
+          defaultOpen={false}
           disabled={false}
           onToggle={[Function]}
           tabIndex={0}
@@ -288,7 +288,7 @@ ShallowWrapper {
           </p>
         </AccordionItem>,
         <AccordionItem
-          defaultOpen={false}
+          defaultOpen={true}
           disabled={false}
           onToggle={[Function]}
           tabIndex={0}
@@ -310,7 +310,7 @@ ShallowWrapper {
           "children": <p>
             some body text
           </p>,
-          "defaultOpen": true,
+          "defaultOpen": false,
           "disabled": false,
           "onToggle": [Function],
           "tabIndex": 0,
@@ -338,7 +338,7 @@ ShallowWrapper {
           "children": <p>
             some more body text
           </p>,
-          "defaultOpen": false,
+          "defaultOpen": true,
           "disabled": false,
           "onToggle": [Function],
           "tabIndex": 0,
@@ -369,7 +369,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <AccordionItem
-            defaultOpen={true}
+            defaultOpen={false}
             disabled={false}
             onToggle={[Function]}
             tabIndex={0}
@@ -380,7 +380,7 @@ ShallowWrapper {
             </p>
           </AccordionItem>,
           <AccordionItem
-            defaultOpen={false}
+            defaultOpen={true}
             disabled={false}
             onToggle={[Function]}
             tabIndex={0}
@@ -402,7 +402,7 @@ ShallowWrapper {
             "children": <p>
               some body text
             </p>,
-            "defaultOpen": true,
+            "defaultOpen": false,
             "disabled": false,
             "onToggle": [Function],
             "tabIndex": 0,
@@ -430,7 +430,7 @@ ShallowWrapper {
             "children": <p>
               some more body text
             </p>,
-            "defaultOpen": false,
+            "defaultOpen": true,
             "disabled": false,
             "onToggle": [Function],
             "tabIndex": 0,
@@ -492,6 +492,7 @@ ShallowWrapper {
       defaultOpen={false}
       disabled={false}
       onToggle={[Function]}
+      open={false}
       tabIndex={0}
       title="Another title"
     >
@@ -529,6 +530,7 @@ ShallowWrapper {
           defaultOpen={false}
           disabled={false}
           onToggle={[Function]}
+          open={false}
           tabIndex={0}
           title="Another title"
         >
@@ -580,6 +582,7 @@ ShallowWrapper {
           "defaultOpen": false,
           "disabled": false,
           "onToggle": [Function],
+          "open": false,
           "tabIndex": 0,
           "title": "Another title",
         },
@@ -623,6 +626,7 @@ ShallowWrapper {
             defaultOpen={false}
             disabled={false}
             onToggle={[Function]}
+            open={false}
             tabIndex={0}
             title="Another title"
           >
@@ -674,6 +678,7 @@ ShallowWrapper {
             "defaultOpen": false,
             "disabled": false,
             "onToggle": [Function],
+            "open": false,
             "tabIndex": 0,
             "title": "Another title",
           },

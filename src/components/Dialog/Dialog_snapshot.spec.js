@@ -8,7 +8,7 @@ import Button from '../Button'
 describe('Dialog Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
-
+    
       const wrapper1 = shallow(
         <Dialog size="normal">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
