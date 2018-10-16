@@ -1,0 +1,1 @@
+export pulseInfinite from './pulseInfinite';
