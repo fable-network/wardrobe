@@ -14,8 +14,7 @@ Accordion.propTypes = {
   /**
    * Array of `Accordion.Item`s.
    */
-  children: PropTypes.arrayOf(PropTypes.shape({ type: PropTypes.oneOf([AccordionItem]) }))
-    .isRequired,
+  children: PropTypes.arrayOf(PropTypes.node).isRequired,
 };
 
 export default Accordion;
