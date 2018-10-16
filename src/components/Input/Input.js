@@ -8,7 +8,7 @@ const StyledInput = styled.input`
   padding: 8px 10px;
   border: solid 1px ${p => (p.disabled ? hexToRgba(p.theme.stoneGrey, 0.5) : p.theme.stoneGrey)};
   outline: none;
-  color: ${p => (p.disabled ? hexToRgba(p.theme.stoneGrey, 0.5) : p.theme.stoneGrey)};
+  color: ${p => (p.disabled ? hexToRgba(p.theme.stoneGrey, 0.5) : p.theme.ravenBlack)};
   font-size: 16px;
   text-overflow: ellipsis;
   cursor: ${p => (p.disabled ? 'not-allowed' : 'default')};
@@ -22,6 +22,8 @@ const StyledInput = styled.input`
     border-color: ${p => p.theme.skyBlue};
     box-shadow: 0 0 3px ${p => p.theme.skyBlue};
   }
+
+  ${p => p.invalid && `border-color: ${p.theme.flameRed}`};
 `;
 
 /**
