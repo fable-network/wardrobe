@@ -10,7 +10,7 @@ module.exports = {
 
   sections: [
     { name: 'Style', components: 'src/style/**/*.js' },
-    { name: 'Components', components: 'src/components/**/*.js' },
+    { name: 'Components', components: 'src/components/**/*.js', content: 'docs/components.md' },
     { name: 'Animations', components: 'src/animations/**/*.js' },
   ],
 
