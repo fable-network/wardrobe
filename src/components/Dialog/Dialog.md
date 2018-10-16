@@ -4,7 +4,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
 ### Normal size
 
 ```jsx
-<Dialog size="normal" open={true}>
+<Dialog size="normal">
   <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
@@ -19,7 +19,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
 ### Small size
 
 ```jsx
-<Dialog size="small" open={true}>
+<Dialog size="small">
   <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
@@ -34,7 +34,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
 ### Large size
 
 ```jsx
-<Dialog size="large" open={true}>
+<Dialog size="large">
   <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
@@ -51,7 +51,7 @@ and when `size=small`, and even bigger `font-size` otherwise.
 Goes with normal paddings and auto width on desktop.
 
 ```jsx
-<Dialog size="auto" open={true}>
+<Dialog size="auto">
   <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
   <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
   <Dialog.Footer>
@@ -66,7 +66,7 @@ Goes with normal paddings and auto width on desktop.
 ### Custom header
 
 ```jsx
-<Dialog open={true}>
+<Dialog>
   <Dialog.Header>
     <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
   </Dialog.Header>
@@ -86,7 +86,7 @@ Goes with normal paddings and auto width on desktop.
 ### Custom body
 
 ```jsx
-<Dialog open={true}>
+<Dialog>
   <Dialog.Header>Check out the body &darr;</Dialog.Header>
   <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
   <Dialog.Footer>

@@ -4,7 +4,6 @@ exports[`Dialog Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="normal"
   >
     <Dialog__HeaderStyled>
@@ -329,7 +328,6 @@ exports[`Dialog Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="small"
   >
     <Dialog__HeaderStyled>
@@ -654,7 +652,6 @@ exports[`Dialog Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="large"
   >
     <Dialog__HeaderStyled>
@@ -979,7 +976,6 @@ exports[`Dialog Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="auto"
   >
     <Dialog__HeaderStyled>
@@ -1304,7 +1300,6 @@ exports[`Dialog Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="normal"
   >
     <Dialog__HeaderStyled>
@@ -1695,7 +1690,6 @@ exports[`Dialog Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
-    open={true}
     size="normal"
   >
     <Dialog__HeaderStyled>

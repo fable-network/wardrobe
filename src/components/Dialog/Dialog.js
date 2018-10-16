@@ -83,8 +83,8 @@ const Wrapper = styled.div`
  * Dialog component.
  */
 function Dialog(props) {
-  const { size, children } = props;
-  return <Wrapper size={size}>{children}</Wrapper>;
+  const { size, children, ...otherProps } = props;
+  return <Wrapper {...otherProps} size={size}>{children}</Wrapper>;
 }
 
 Dialog.defaultProps = {
