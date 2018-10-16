@@ -46,13 +46,13 @@ const renderIcon = (iconPosition, isLoading, color) => (
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, theme, isLoading, ...props }) => (
+const Searchbar = ({ iconPosition, theme, isLoading, ...otherProps }) => (
   <Wrapper>
     {renderIcon(iconPosition, isLoading, theme.skyBlue)}
     <Input
+      {...otherProps}
       type="text"
       iconPosition={iconPosition}
-      {...props}
     />
   </Wrapper>
 );

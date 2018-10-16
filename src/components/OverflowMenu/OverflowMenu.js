@@ -84,12 +84,13 @@ class OverflowMenu extends Component {
 
   renderTrigger = () => {
     const { menuOpen } = this.state;
-    const defaultColor = this.props.color || this.getColorFromAppearance();
-    const color = (menuOpen && this.props.activeColor) || defaultColor;
+    const { color: propsColor, activeColor, ...otherProps } = this.props;
+    const defaultColor = propsColor || this.getColorFromAppearance();
+    const color = (menuOpen && activeColor) || defaultColor;
     const size = this.getWidthAndHeightFromSize();
 
     return (
-      <Trigger color={color} active={menuOpen}>
+      <Trigger {...otherProps} color={color} active={menuOpen}>
         <svg width={size.width} height={size.height} viewBox="0 0 5 21">
           <g fillRule="evenodd" fill={color}>
             <circle cx="2.5" cy="18.5" r="2.5" />

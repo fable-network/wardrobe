@@ -6,7 +6,7 @@ import AccordionItem from '../AccordionItem';
 
 const Wrapper = styled.div``;
 
-const Accordion = ({ children }) => <Wrapper>{children}</Wrapper>;
+const Accordion = ({ children, ...otherProps }) => <Wrapper {...otherProps}>{children}</Wrapper>;
 
 Accordion.Item = AccordionItem;
 

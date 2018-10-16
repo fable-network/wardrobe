@@ -10,21 +10,21 @@ const colors = {
     rowColor: defaultTheme.white,
     textColor: '#595959',
     borderColor: defaultTheme.stoneGrey,
-    alternateRowColor: defaultTheme.pearlWhite
+    alternateRowColor: defaultTheme.pearlWhite,
   },
   dark: {
     headerColor: '#5b5c5e',
     rowColor: defaultTheme.ravenBlack,
     textColor: defaultTheme.white,
     borderColor: defaultTheme.stoneGrey,
-    alternateRowColor: '#424344'
-  }
+    alternateRowColor: '#424344',
+  },
 };
 
 const Cell = styled('div')`
   overflow: hidden;
   flex-grow: 1;
-  width: ${props => ((100 / props.numberOfColumns) * props.widthWeight || 100)}%;
+  width: ${props => (100 / props.numberOfColumns) * props.widthWeight || 100}%;
   min-height: 1px;
   padding: 10px;
   text-overflow: ellipsis;
@@ -68,7 +68,7 @@ const StyledTable = styled('div')`
   ${Row} {
     min-width: ${props => props.minWidth};
     background: ${props => props.rowColor};
-    transition: background .1s linear;
+    transition: background 0.1s linear;
     &:nth-child(odd) {
       background: ${props => (props.alternateColors ? props.alternateRowColor : props.rowColor)};
     }
@@ -94,9 +94,9 @@ const isComponentTypeOf = (type, component) => {
   return componentName === type || targetName === type;
 };
 
-const isTableRow = (component) => isComponentTypeOf('Table__Row', component);
+const isTableRow = component => isComponentTypeOf('Table__Row', component);
 
-const isTableCell = (component) => isComponentTypeOf('Table__Cell', component);
+const isTableCell = component => isComponentTypeOf('Table__Cell', component);
 
 const addWeightToCells = (row, tableLayout) => {
   const children = get(row, 'props.children');
@@ -116,8 +116,8 @@ const addWeightToCells = (row, tableLayout) => {
         props: {
           widthWeight: layout[cellIndex] || 1,
           numberOfColumns,
-          ...child.props
-        }
+          ...child.props,
+        },
       };
     }
     return child;
@@ -135,8 +135,8 @@ const recursivelyModifyRows = (component, layout) => {
       ...component,
       props: {
         ...component.props,
-        children: addWeightToCells(component, layout)
-      }
+        children: addWeightToCells(component, layout),
+      },
     };
   }
 
@@ -152,15 +152,23 @@ const recursivelyModifyRows = (component, layout) => {
       ...component,
       props: {
         ...component.props,
-        children: recursivelyModifyRows(children, layout)
-      }
+        children: recursivelyModifyRows(children, layout),
+      },
     };
   }
   return component;
 };
 
-const Table = (props) => {
-  const { children, alternatingRowColors, showBorders, appearance, minWidth, layout } = props;
+const Table = props => {
+  const {
+    children,
+    alternatingRowColors,
+    showBorders,
+    appearance,
+    minWidth,
+    layout,
+    ...otherProps
+  } = props;
   const { headerColor, rowColor, textColor, alternateRowColor, borderColor } = colors[appearance];
   let modifiedChildren = children;
   if (children && children.length) {
@@ -172,6 +180,7 @@ const Table = (props) => {
 
   return (
     <StyledTable
+      {...otherProps}
       alternateColors={alternatingRowColors}
       showBorders={showBorders}
       headerColor={headerColor}
@@ -193,7 +202,7 @@ Table.propTypes = {
   appearance: PropTypes.oneOf(['light', 'dark']),
   minWidth: PropTypes.string,
   /** an array of integers that defines the ratio between columns */
-  layout: PropTypes.array
+  layout: PropTypes.array,
 };
 
 Table.defaultProps = {
@@ -201,7 +210,7 @@ Table.defaultProps = {
   appearance: 'light',
   showBorders: false,
   minWidth: '0',
-  layout: []
+  layout: [],
 };
 
 Table.Cell = Cell;

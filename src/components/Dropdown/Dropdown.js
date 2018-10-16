@@ -76,8 +76,7 @@ class Dropdown extends Component {
     return isSelected ? 'caret-selected' : 'caret-down';
   };
 
-  isControlled = () =>
-    typeof this.props.isOpen !== 'undefined';
+  isControlled = () => typeof this.props.isOpen !== 'undefined';
 
   handleMenuOpen = () => {
     if (!this.isControlled()) {
@@ -93,7 +92,15 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { isDisabled, label, isSelected, isLoading, onClick, isOpen, isFluid } = this.props;
+    const {
+      isDisabled,
+      label,
+      isSelected,
+      isLoading,
+      onClick,
+      isOpen,
+      isFluid,
+    } = this.props;
     const { menuOpen } = this.state;
 
     return (

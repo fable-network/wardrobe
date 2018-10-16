@@ -128,13 +128,18 @@ class Modal extends Component {
   };
 
   render() {
-    const { backdropColor, open, children } = this.props;
+    const { backdropColor, open, children, ...otherProps } = this.props;
     if (!open) {
       return null;
     }
     return (
       <Backdrop backdropColor={backdropColor} role="dialog" onClick={this.handleBackdropClick}>
-        <ModalWrapper innerRef={this.handleRef} onClick={this.handleModalClick} tabIndex="-1">
+        <ModalWrapper
+          {...otherProps}
+          innerRef={this.handleRef}
+          onClick={this.handleModalClick}
+          tabIndex="-1"
+        >
           <Content>{children}</Content>
         </ModalWrapper>
       </Backdrop>

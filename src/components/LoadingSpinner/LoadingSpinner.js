@@ -25,16 +25,17 @@ const StyledSpinner = styled.span`
   animation: ${fullCircleRotate} ${props => props.speed} linear infinite;
 `;
 
-const LoadingSpinner = ({ size, speed, appearance, ...props }) => {
+const LoadingSpinner = ({ size, speed, appearance, ...otherProps }) => {
   const defaultColor = colors[appearance];
   const defaultGapColor = `${defaultColor}25`;
 
   return (
     <StyledSpinner
+      {...otherProps}
       size={size}
-      color={props.color || defaultColor}
+      color={otherProps.color || defaultColor}
       speed={speed}
-      gapColor={props.color ? (props.gapColor || 'transparent') : defaultGapColor}
+      gapColor={otherProps.color ? (otherProps.gapColor || 'transparent') : defaultGapColor}
     />
   );
 };

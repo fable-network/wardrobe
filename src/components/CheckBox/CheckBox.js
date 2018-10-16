@@ -14,14 +14,14 @@ const Wrapper = styled('span')`
 const Input = styled('span')`
   display: inline-block;
   position: relative;
-  width: .8125em;
-  height: .8125em;
+  width: 0.8125em;
+  height: 0.8125em;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
   background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
-  border: solid .05em #fff;
+  border: solid 0.05em #fff;
   box-sizing: border-box;
-  transition: background .3s ease-out;
+  transition: background 0.3s ease-out;
 `;
 
 const Label = styled('span')`
@@ -35,8 +35,8 @@ const InputWrapper = styled('span')`
   align-items: center;
 `;
 
-const CheckBox = ({ label, isChecked, isDisabled, onToggle }) => (
-  <Wrapper onClick={onToggle} isDisabled={isDisabled}>
+const CheckBox = ({ label, isChecked, isDisabled, onToggle, ...otherProps }) => (
+  <Wrapper {...otherProps} onClick={onToggle} isDisabled={isDisabled}>
     <InputWrapper>
       <Input isChecked={isChecked} />
     </InputWrapper>
@@ -45,14 +45,14 @@ const CheckBox = ({ label, isChecked, isDisabled, onToggle }) => (
 );
 
 CheckBox.defaultProps = {
-  onToggle: () => null
+  onToggle: () => null,
 };
 
 CheckBox.propTypes = {
   onToggle: PropTypes.func,
   label: PropTypes.string,
   isDisabled: PropTypes.bool,
-  isChecked: PropTypes.bool
+  isChecked: PropTypes.bool,
 };
 
 export default CheckBox;

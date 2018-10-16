@@ -7,8 +7,8 @@ const Wrapper = styled.div`
   font-weight: bold;
 `;
 
-const DropdownTitle = ({ children }) => (
-  <Wrapper>
+const DropdownTitle = ({ children, ...otherProps }) => (
+  <Wrapper {...otherProps}>
     {children}
   </Wrapper>
 );

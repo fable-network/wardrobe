@@ -82,7 +82,7 @@ class AccordionItem extends Component {
   };
 
   render() {
-    const { children, disabled, tabIndex, title } = this.props;
+    const { children, disabled, tabIndex, title, ...otherProps } = this.props;
     const open = this.isControlled() ? this.props.open : this.state.open;
     const hasTitle = typeof title === 'string';
 
@@ -90,6 +90,7 @@ class AccordionItem extends Component {
       <Wrapper disabled={disabled}>
         <TitleWrapper
           data-testid="accordion-item--title-wrapper"
+          {...otherProps}
           tabIndex={tabIndex}
           role="button"
           onClick={this.handleToggleRequested}
