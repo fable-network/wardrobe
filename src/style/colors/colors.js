@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 // These colors are so light the color name should be rendered black
-const lightColors = ['pearlWhite', 'white'];
+const lightColors = ['light', 'lighter', 'lightest'];
 
 const Wrapper = styled.div`
   border: 1px solid #000;
@@ -18,7 +18,7 @@ const StyledColor = styled.div`
   font-family: "Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: ${props => (lightColors.indexOf(props.color) >= 0 ? '#000' : '#fff')};
   padding: 5px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;

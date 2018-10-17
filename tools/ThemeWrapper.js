@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
-import theme from '../src/theme/default';
+import { theme } from '../src/theme';
 
 class ThemeWrapper extends PureComponent {
   render() {
@@ -10,7 +10,7 @@ class ThemeWrapper extends PureComponent {
 }
 
 ThemeWrapper.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 export default ThemeWrapper;

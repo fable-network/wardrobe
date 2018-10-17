@@ -18,7 +18,7 @@ const Trigger = styled.div`
 const Menu = styled.div`
   display: block;
   margin-top: 4px;
-  background: ${props => props.theme.white};
+  background: ${props => props.theme.lightest};
   min-width: 100px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
   white-space: nowrap;
@@ -55,12 +55,12 @@ class OverflowMenu extends Component {
   getColorFromAppearance = () => {
     const { appearance, theme } = this.props;
     const colors = {
-      primary: theme.skyBlue,
-      secondary: theme.stoneGrey,
-      success: theme.limeGreen,
-      warning: theme.apricotOrange,
-      light: theme.pearlWhite,
-      dark: theme.ravenBlack
+      primary: theme.primary,
+      secondary: theme.dark,
+      success: theme.success,
+      warning: theme.warning,
+      light: theme.lighter,
+      dark: theme.darkest
     };
     return colors[appearance];
   }

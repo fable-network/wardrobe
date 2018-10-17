@@ -17,8 +17,8 @@ const Input = styled('span')`
   width: 0.8125em;
   height: 0.8125em;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
-  background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
+  box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.primary : p.theme.dark)};
+  background: ${p => (p.isChecked ? p.theme.primary : 'transparent')};
   border: solid 0.05em #fff;
   box-sizing: border-box;
   transition: background 0.3s ease-out;

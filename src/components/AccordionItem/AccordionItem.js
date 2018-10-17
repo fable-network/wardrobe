@@ -15,7 +15,7 @@ const TitleWrapper = styled('div')`
   align-items: center;
   justify-content: space-between;
   padding: 16px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   cursor: pointer;
 `;
 
@@ -28,7 +28,7 @@ const ChildrenWrapper = styled('div')`
   display: ${p => (p.open ? 'block' : 'none')};
   opacity: ${p => (p.open ? '1' : '0')};
   padding: 0 16px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   animation: ${slideIn('-20px')} 0.3s ease;
 `;
 
@@ -38,7 +38,7 @@ const Wrapper = styled('div')`
   opacity: ${p => (p.disabled ? '0.4' : '1')};
   &:first-child {
     ${TitleWrapper} {
-      border-top: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+      border-top: solid 1px ${p => addOpacity(p.theme.dark)};
     }
   }
 `;

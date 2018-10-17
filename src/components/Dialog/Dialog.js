@@ -40,7 +40,7 @@ const WrapperResponsive = `
 `;
 
 const Wrapper = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.lightest};
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
   width: 100%;
   max-width: 100%;
@@ -49,19 +49,19 @@ const Wrapper = styled.div`
   }
 
   ${HeaderStyled} {
-    border-bottom: solid 1px ${props => hexToRgba(props.theme.stoneGrey, 0.5)};
+    border-bottom: solid 1px ${props => hexToRgba(props.theme.dark, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     font-size: 1.25em;
     font-weight: bold;
     text-align: center;
-    color: ${props => props.theme.skyBlue};
+    color: ${props => props.theme.primary};
     @media ${DESKTOP} {
       font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
     }
   }
 
   ${FooterStyled} {
-    border-top: solid 1px ${props => hexToRgba(props.theme.stoneGrey, 0.5)};
+    border-top: solid 1px ${props => hexToRgba(props.theme.dark, 0.5)};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;

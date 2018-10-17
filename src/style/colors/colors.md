@@ -10,5 +10,5 @@ const theme = require('../../theme/colors').default;
 Colors are part of a theme. If you use a theme from the Wardrobe, you can access them via the theme object:
 
 ```js static
-`color: ${p => p.theme.ravenBlack};`
+`color: ${p => p.theme.darkest};`
 ```

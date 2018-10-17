@@ -8,7 +8,7 @@ import LoadingSpinner from '../LoadingSpinner';
 const Wrapper = styled('div')`
   position: relative;
   background: #FFF;
-  color: ${props => props.theme.ravenBlack};
+  color: ${props => props.theme.darkest};
   display: flex;
   align-items: center;
   color: inherit;
@@ -18,13 +18,13 @@ const Input = styled('input')`
   width: 100%;
   padding: 10px;
   ${props => `padding-${props.iconPosition}: 40px;`}
-  border: solid 1px ${props => props.theme.stoneGrey};
+  border: solid 1px ${props => props.theme.dark};
   outline: none;
   color: inherit;
   &:focus {
     transition: .2s linear;
-    border-color: ${props => props.theme.skyBlue};;
-    box-shadow: 0 0 3px ${props => props.theme.skyBlue};
+    border-color: ${props => props.theme.primary};;
+    box-shadow: 0 0 3px ${props => props.theme.primary};
   }
   font-size: 100%;
   text-overflow: ellipsis;
@@ -48,7 +48,7 @@ const renderIcon = (iconPosition, isLoading, color) => (
 
 const Searchbar = ({ iconPosition, theme, isLoading, ...otherProps }) => (
   <Wrapper>
-    {renderIcon(iconPosition, isLoading, theme.skyBlue)}
+    {renderIcon(iconPosition, isLoading, theme.primary)}
     <Input
       {...otherProps}
       type="text"

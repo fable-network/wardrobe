@@ -19,7 +19,7 @@ const Heading = styled.h5`
 `;
 
 const SizeExample = styled.div`
-  background-color: ${p => p.theme.ravenBlack};
+  background-color: ${p => p.theme.darkest};
   width: ${p => p.size};
   height: ${p => p.size};
 `;
@@ -27,7 +27,7 @@ const SizeExample = styled.div`
 const MarginExample = styled.div`
   display: inline-flex;
   flew-flow: row nowrap;
-  background-color: ${p => p.theme.apricotOrange};
+  background-color: ${p => p.theme.warning};
   > ${SizeExample} + ${SizeExample} {
     margin-left: ${p => p.size};
   }
@@ -35,12 +35,12 @@ const MarginExample = styled.div`
 
 const PaddingExample = styled.div`
   display: inline-block;
-  background-color: ${p => p.theme.apricotOrange};
+  background-color: ${p => p.theme.warning};
   padding: ${p => p.size};
   &::before {
     content: "";
     display: block;
-    background-color: ${p => p.theme.ravenBlack};
+    background-color: ${p => p.theme.darkest};
     width: ${p => p.theme.s16};
     height: ${p => p.theme.s16};
   }

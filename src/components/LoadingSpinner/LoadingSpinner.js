@@ -5,13 +5,13 @@ import { fullCircleRotate } from '../../constants/Animations';
 import defaultTheme from '../../theme/default';
 
 const colors = {
-  primary: defaultTheme.skyBlue,
-  secondary: defaultTheme.stoneGrey,
-  success: defaultTheme.limeGreen,
-  danger: defaultTheme.flameRed,
-  warning: defaultTheme.apricotOrange,
-  light: defaultTheme.pearlWhite,
-  dark: defaultTheme.ravenBlack,
+  primary: defaultTheme.primary,
+  secondary: defaultTheme.dark,
+  success: defaultTheme.success,
+  danger: defaultTheme.danger,
+  warning: defaultTheme.warning,
+  light: defaultTheme.lighter,
+  dark: defaultTheme.darkest,
 };
 
 const StyledSpinner = styled.span`
