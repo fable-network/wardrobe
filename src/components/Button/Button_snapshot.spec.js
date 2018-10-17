@@ -14,7 +14,9 @@ describe('Button Component', () => {
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Button appearance="primary" disabled>Don't Push Me</Button>
+        <Button appearance="primary" disabled>
+          Don't Push Me
+        </Button>
       );
       expect(wrapper2).toMatchSnapshot();
 
@@ -24,7 +26,9 @@ describe('Button Component', () => {
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Button appearance="secondary" disabled>Don't Push Me</Button>
+        <Button appearance="secondary" disabled>
+          Don't Push Me
+        </Button>
       );
       expect(wrapper4).toMatchSnapshot();
 

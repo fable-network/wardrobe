@@ -5,7 +5,6 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="primary"
-    className=""
     disabled={false}
     size="normal"
     type="button"
@@ -22,31 +21,35 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
+      "appearance": "primary",
       "children": "Push Me",
-      "className": "ft--btn ft--btn--primary",
+      "className": "Button-hYXUXp inUVmC",
       "disabled": false,
+      "size": "normal",
       "type": "button",
     },
     "ref": null,
     "rendered": "Push Me",
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
+        "appearance": "primary",
         "children": "Push Me",
-        "className": "ft--btn ft--btn--primary",
+        "className": "Button-hYXUXp inUVmC",
         "disabled": false,
+        "size": "normal",
         "type": "button",
       },
       "ref": null,
       "rendered": "Push Me",
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -72,7 +75,6 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="primary"
-    className=""
     disabled={true}
     size="normal"
     type="button"
@@ -89,31 +91,35 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
+      "appearance": "primary",
       "children": "Don't Push Me",
-      "className": "ft--btn ft--btn--primary",
+      "className": "Button-hYXUXp inUVmC",
       "disabled": true,
+      "size": "normal",
       "type": "button",
     },
     "ref": null,
     "rendered": "Don't Push Me",
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
+        "appearance": "primary",
         "children": "Don't Push Me",
-        "className": "ft--btn ft--btn--primary",
+        "className": "Button-hYXUXp inUVmC",
         "disabled": true,
+        "size": "normal",
         "type": "button",
       },
       "ref": null,
       "rendered": "Don't Push Me",
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -139,7 +145,6 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="secondary"
-    className=""
     disabled={false}
     size="normal"
     type="button"
@@ -156,31 +161,35 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
+      "appearance": "secondary",
       "children": "Push Me",
-      "className": "ft--btn ft--btn--secondary",
+      "className": "Button-hYXUXp cawvjs",
       "disabled": false,
+      "size": "normal",
       "type": "button",
     },
     "ref": null,
     "rendered": "Push Me",
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
+        "appearance": "secondary",
         "children": "Push Me",
-        "className": "ft--btn ft--btn--secondary",
+        "className": "Button-hYXUXp cawvjs",
         "disabled": false,
+        "size": "normal",
         "type": "button",
       },
       "ref": null,
       "rendered": "Push Me",
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -206,7 +215,6 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="secondary"
-    className=""
     disabled={true}
     size="normal"
     type="button"
@@ -223,31 +231,35 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
+      "appearance": "secondary",
       "children": "Don't Push Me",
-      "className": "ft--btn ft--btn--secondary",
+      "className": "Button-hYXUXp cawvjs",
       "disabled": true,
+      "size": "normal",
       "type": "button",
     },
     "ref": null,
     "rendered": "Don't Push Me",
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
+        "appearance": "secondary",
         "children": "Don't Push Me",
-        "className": "ft--btn ft--btn--secondary",
+        "className": "Button-hYXUXp cawvjs",
         "disabled": true,
+        "size": "normal",
         "type": "button",
       },
       "ref": null,
       "rendered": "Don't Push Me",
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -273,7 +285,6 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="secondary"
-    className=""
     disabled={false}
     size="small"
     type="button"
@@ -290,31 +301,35 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
+      "appearance": "secondary",
       "children": "Push Me",
-      "className": "ft--btn ft--btn--sm ft--btn--secondary",
+      "className": "Button-hYXUXp jCcLzu",
       "disabled": false,
+      "size": "small",
       "type": "button",
     },
     "ref": null,
     "rendered": "Push Me",
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
+        "appearance": "secondary",
         "children": "Push Me",
-        "className": "ft--btn ft--btn--sm ft--btn--secondary",
+        "className": "Button-hYXUXp jCcLzu",
         "disabled": false,
+        "size": "small",
         "type": "button",
       },
       "ref": null,
       "rendered": "Push Me",
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
