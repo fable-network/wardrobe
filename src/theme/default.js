@@ -1,6 +1,7 @@
 import colors from './colors';
 import sizes from './sizes';
 import typography from './typography';
+import decorations from './decorations';
 
 // Available as 'props.theme' in styled-components.
 
@@ -9,6 +10,7 @@ import typography from './typography';
 
 export default {
   ...colors,
+  ...decorations,
   ...sizes,
   ...typography,
 };

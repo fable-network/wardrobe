@@ -1,85 +1,60 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import sizes from '../../theme/sizes';
-
-const propTypes = {
-  name: PropTypes.string,
-  value: PropTypes.string,
-};
 
 const Wrapper = styled.div`
-  margin-right: ${p => p.theme.s24};
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+  > * + * {
+    margin-top: 8px;
+  }
+  & + & {
+    margin-top: 16px;
+  }
 `;
 
-const Heading = styled.h5`
-  > small {
-    font-weight: normal;
-  }
+const Heading = styled.h4`
+  margin: 0;
+`;
+
+const Code = styled.pre`
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: ${p => p.theme.light};
 `;
 
 const SizeExample = styled.div`
-  background-color: ${p => p.theme.darkest};
-  width: ${p => p.size};
-  height: ${p => p.size};
-`;
-
-const MarginExample = styled.div`
   display: inline-flex;
-  flew-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
   background-color: ${p => p.theme.warning};
-  > ${SizeExample} + ${SizeExample} {
-    margin-left: ${p => p.size};
-  }
-`;
-
-const PaddingExample = styled.div`
-  display: inline-block;
-  background-color: ${p => p.theme.warning};
-  padding: ${p => p.size};
-  &::before {
-    content: "";
+  ${p => p.size};
+  &:before {
+    content: '';
     display: block;
-    background-color: ${p => p.theme.darkest};
-    width: ${p => p.theme.s16};
-    height: ${p => p.theme.s16};
+    position: relative;
+    background-color: ${p => p.theme.dark};
+    width: 64px;
+    height: 64px;
+    max-height: 100%;
+    max-width: 100%;
   }
 `;
 
 const Sizes = ({ name, value }) => (
   <Wrapper>
-    <Heading>
-      {name} <small>({value})</small>
-    </Heading>
+    <Heading>{name}</Heading>
     <SizeExample size={value} />
+    <Code>({value})</Code>
   </Wrapper>
 );
 
-Sizes.propTypes = propTypes;
-
-Sizes.Margin = ({ name, value }) => (
-  <Wrapper>
-    <Heading>
-      {name} <small>({value})</small>
-    </Heading>
-    <MarginExample size={value}>
-      <SizeExample size={sizes.s64} />
-      <SizeExample size={sizes.s64} />
-    </MarginExample>
-  </Wrapper>
-);
-
-Sizes.Margin.propTypes = propTypes;
-
-Sizes.Padding = ({ name, value }) => (
-  <Wrapper>
-    <Heading>
-      {name} <small>({value})</small>
-    </Heading>
-    <PaddingExample size={value} />
-  </Wrapper>
-);
-
-Sizes.Padding.propTypes = propTypes;
+Sizes.propTypes = {
+  name: PropTypes.string,
+  value: PropTypes.string,
+};
 
 export default Sizes;

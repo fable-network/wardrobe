@@ -1,19 +1,48 @@
+import { FONT_SIZE_BASE } from './typography';
+
+const CONTROL_HEIGHT_SMALL = 24;
+const CONTROL_HEIGHT_BASE = 32;
+
+const PADDING_HORIZONTAL_LARGE = 32;
+const PADDING_HORIZONTAL_BASE = 16;
+const PADDING_HORIZONTAL_SMALL = 8;
+
+const PADDING_VERTICAL_SMALL = 2;
+const PADDING_VERTICAL_BASE = 4;
+const PADDING_VERTICAL_LARGE = 8;
+
 /**
- * Available sizes according to our base grid. Typing manually (not generating) so you can have
- * suggestions in your editor.
+ * Available sizes aligned with our base grid and dependent on the base font size.
  */
 const sizes = {
-  s4: '4px',
-  s8: '8px',
-  s16: '16px',
-  s24: '24px',
-  s32: '32px',
-  s40: '40px',
-  s48: '48px',
-  s56: '56px',
-  s64: '64px',
-  s72: '72px',
-  s80: '80px',
+  controlHeightSmall: `height: ${CONTROL_HEIGHT_SMALL / FONT_SIZE_BASE}em`,
+  controlHeightBase: `height: ${CONTROL_HEIGHT_BASE / FONT_SIZE_BASE}em`,
+
+  paddingHorizontalSmall: `
+    padding-left: ${PADDING_HORIZONTAL_SMALL / FONT_SIZE_BASE}em;
+    padding-right: ${PADDING_HORIZONTAL_SMALL / FONT_SIZE_BASE}em;
+  `,
+  paddingHorizontalBase: `
+    padding-left: ${PADDING_HORIZONTAL_BASE / FONT_SIZE_BASE}em;
+    padding-right: ${PADDING_HORIZONTAL_BASE / FONT_SIZE_BASE}em;
+  `,
+  paddingHorizontalLarge: `
+    padding-left: ${PADDING_HORIZONTAL_LARGE / FONT_SIZE_BASE}em;
+    padding-right: ${PADDING_HORIZONTAL_LARGE / FONT_SIZE_BASE}em;
+  `,
+
+  paddingVerticalSmall: `
+    padding-top: ${PADDING_VERTICAL_SMALL / FONT_SIZE_BASE}em;
+    padding-bottom: ${PADDING_VERTICAL_SMALL / FONT_SIZE_BASE}em;
+  `,
+  paddingVerticalBase: `
+    padding-top: ${PADDING_VERTICAL_BASE / FONT_SIZE_BASE}em;
+    padding-bottom: ${PADDING_VERTICAL_BASE / FONT_SIZE_BASE}em;
+  `,
+  paddingVerticalLarge: `
+    padding-top: ${PADDING_VERTICAL_LARGE / FONT_SIZE_BASE}em;
+    padding-bottom: ${PADDING_VERTICAL_LARGE / FONT_SIZE_BASE}em;
+  `,
 };
 
 export default sizes;

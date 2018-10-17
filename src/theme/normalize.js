@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import typography, { FONT_SIZE_BASE } from './typography';
+import typography, { FONT_SIZE_BASE, LINE_HEIGHT_BASE } from './typography';
 
 const normalize = css`
   html {
@@ -11,12 +11,12 @@ const normalize = css`
   html,
   body {
     font-size: ${FONT_SIZE_BASE}px;
-    line-height: ${typography.lineHeightBase};
+    line-height: ${LINE_HEIGHT_BASE / FONT_SIZE_BASE};
   }
   h1 {
     font-size: 2em;
     line-height: 1.25;
-    margin: 0.5em 0;
+    margin: 1em 0;
   }
   hr {
     box-sizing: content-box;

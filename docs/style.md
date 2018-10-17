@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { Theme } from '@fashiontrade/wardrobe';
 
 export default () => (
-  <ThemeProvider theme={fashionTradeTheme}>
+  <ThemeProvider theme={Theme}>
     <App />
   </ThemeProvider>
 );
