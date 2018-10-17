@@ -16,6 +16,8 @@ module.exports = {
 
   components: 'src/components/**/*.js',
 
+  require: [path.join(__dirname, 'src/globals/styles.js')],
+
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
   // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
   getComponentPathLine() {
@@ -26,16 +28,6 @@ module.exports = {
     Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
   },
 
-  template: {
-    head: {
-      links: [
-        {
-          rel: 'stylesheet',
-          href: 'style.css',
-        },
-      ],
-    },
-  },
 
   compilerConfig: {
     transforms: { dangerousTaggedTemplateString: true },
