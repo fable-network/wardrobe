@@ -40,6 +40,7 @@ const styled = require('styled-components').default;
 const Wrapper = styled.div`
   display: flex;
   flex-flow: row nowrap;
+  align-items: flex-start;
   > * + * {
     margin-left: 24px;
   }

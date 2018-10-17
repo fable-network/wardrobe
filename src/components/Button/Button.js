@@ -38,10 +38,9 @@ const cssSecondary = css`
 `;
 
 const cssSmall = css`
-  font-size: ${p => p.theme.fontSizeSmall};
-  line-height: ${24 / 14}em;
-  height: ${24 / 14}em;
-  padding: 0 0.5em;
+  ${p => p.theme.fontSizeSmall};
+  ${p => p.theme.paddingHorizontalSmall};
+  ${p => p.theme.controlHeightSmall};
 `;
 
 /**
@@ -55,9 +54,10 @@ const Button = styled(({ size, appearance, children, ...otherProps }) => (
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 0 1em;
-  line-height: 2em;
-  height: 2em;
+  line-height: 1;
+  ${p => p.theme.fontSizeBase};
+  ${p => p.theme.paddingHorizontalBase};
+  ${p => p.theme.controlHeightBase};
   border: solid 1px transparent;
   transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
   cursor: pointer;
@@ -66,10 +66,9 @@ const Button = styled(({ size, appearance, children, ...otherProps }) => (
   text-overflow: ellipsis;
   font-family: inherit;
   font-weight: normal;
-  font-size: ${p => p.theme.fontSizeBase};
 
   &:hover {
-    box-shadow: 0 2px 4px 0 rgba(49, 50, 51, 0.2);
+    ${p => p.theme.shadow};
     transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
   }
 
@@ -78,7 +77,7 @@ const Button = styled(({ size, appearance, children, ...otherProps }) => (
   }
 
   &:hover:disabled {
-    box-shadow: none;
+    ${p => p.theme.noShadow};
   }
 
   ${p => p.appearance === 'primary' && cssPrimary};
