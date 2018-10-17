@@ -7,7 +7,7 @@ const MyPulseDiv = styled.div`
   width: 100px;
   height: 100px;
   margin: 50px;
-  background-color: ${p => p.theme.skyBlue};
+  background-color: ${p => p.theme.primary};
   animation: ${pulseInfinite} 2s ease-in-out infinite;
 `;
 <MyPulseDiv />
