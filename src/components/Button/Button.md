@@ -32,6 +32,14 @@ Small button:
 <Button size="small">Push Me</Button>
 ```
 
+Multiline button:
+
+```jsx
+<Button>
+  Push Me<br />Touch me
+</Button>
+```
+
 On a grid:
 
 ```jsx
@@ -53,6 +61,9 @@ const ButtonCustom = styled(Button)`
     <Button>Normal</Button>
     <Button size="small">Small</Button>
     <ButtonCustom>Custom</ButtonCustom>
+    <Button>
+      Push Me<br />Touch me
+    </Button>
   </Wrapper>
 </Grid>;
 ```

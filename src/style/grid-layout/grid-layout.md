@@ -4,5 +4,5 @@ Breakpoints are inspired by [The 100% correct way to do CSS breakpoints](https:/
 | ------------------- | -------- | --------- | --------- | ---------- |
 | Screen size         | `<600px` | `>=600px` | `>=900px` | `>=1200px` |
 | Max container width | None     | `568px`   | `864px`   | `1168px`   |
-| # of columns        | `12`     |
-| Gutter width        | `30px`   |
+| # of columns        | `6`      | `6`       | `12`      | `12`       |
+| Gutter width        | `32px`   |

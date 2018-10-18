@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
 const cssPrimary = css`
   color: ${p => p.theme.lighter};
@@ -39,8 +40,8 @@ const cssSecondary = css`
 
 const cssSmall = css`
   ${p => p.theme.fontSizeSmall};
-  ${p => p.theme.paddingHorizontalSmall};
-  ${p => p.theme.controlHeightSmall};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalSmall} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
 `;
 
 /**
@@ -56,8 +57,8 @@ const Button = styled(({ size, appearance, children, ...otherProps }) => (
   box-sizing: border-box;
   line-height: 1;
   ${p => p.theme.fontSizeBase};
-  ${p => p.theme.paddingHorizontalBase};
-  ${p => p.theme.controlHeightBase};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
   border: solid 1px transparent;
   transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
   cursor: pointer;
