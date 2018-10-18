@@ -14,12 +14,12 @@ describe('CheckBox Component', () => {
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <CheckBox label="Checkbox Label" isChecked />
+        <CheckBox label="Checkbox Label" checked />
       );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <CheckBox label="Checkbox Label" isDisabled />
+        <CheckBox label="Checkbox Label" disabled />
       );
       expect(wrapper3).toMatchSnapshot();
 

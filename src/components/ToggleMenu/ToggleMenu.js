@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const TriggerWrapper = styled.span`
   display: inline-block;
   position: relative;
-  pointer-events: ${props => (props.isDisabled ? 'none' : 'initial')};
-  ${props => props.isFluid && 'width: 100%;'};
+  pointer-events: ${props => (props.disabled ? 'none' : 'initial')};
+  ${props => props.fluid && 'width: 100%;'};
 `;
 
 const MenuWrapper = styled.div`
@@ -25,21 +25,21 @@ class ToggleMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isOpen: false,
+      open: false,
       position: props.position,
     };
   }
 
   componentDidMount() {
-    if (this.props.isOpen) {
+    if (this.props.open) {
       this.addDocumentEventListeners();
     }
   }
 
   componentDidUpdate(prevProps) {
-    if (!this.props.isOpen && prevProps.isOpen) {
+    if (!this.props.open && prevProps.open) {
       this.removeDocumentEventListeners();
-    } else if (this.props.isOpen && !prevProps.isOpen) {
+    } else if (this.props.open && !prevProps.open) {
       this.addDocumentEventListeners();
     }
   }
@@ -115,7 +115,7 @@ class ToggleMenu extends Component {
     };
   };
 
-  isControlled = () => typeof this.props.isOpen !== 'undefined';
+  isControlled = () => typeof this.props.open !== 'undefined';
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
@@ -149,7 +149,7 @@ class ToggleMenu extends Component {
       return;
     }
 
-    this.setState({ isOpen: true, position: this.props.position }, () => {
+    this.setState({ open: true, position: this.props.position }, () => {
       if (this.props.closeOnOutsideClick) {
         this.addDocumentEventListeners();
       }
@@ -171,7 +171,7 @@ class ToggleMenu extends Component {
       return;
     }
 
-    this.setState({ isOpen: false }, () => {
+    this.setState({ open: false }, () => {
       if (this.props.closeOnOutsideClick) {
         this.removeDocumentEventListeners();
       }
@@ -179,7 +179,7 @@ class ToggleMenu extends Component {
   };
 
   toggleMenu = event => {
-    if (this.props.isOpen || this.state.isOpen) {
+    if (this.props.open || this.state.open) {
       this.handleClose(event);
     } else {
       this.handleOpen(event);
@@ -187,7 +187,7 @@ class ToggleMenu extends Component {
   };
 
   render() {
-    const { trigger, children, className, isDisabled, isFluid } = this.props;
+    const { trigger, children, className, disabled, fluid } = this.props;
     const { position } = this.state;
     const { top, bottom, left, right, margin } = this.getPositionValues(position);
 
@@ -195,8 +195,8 @@ class ToggleMenu extends Component {
       <TriggerWrapper
         onClick={this.toggleMenu}
         className={className}
-        isDisabled={isDisabled}
-        isFluid={isFluid}
+        disabled={disabled}
+        fluid={fluid}
       >
         {trigger}
         <MenuWrapper
@@ -207,7 +207,7 @@ class ToggleMenu extends Component {
           bottom={bottom}
           left={left}
           right={right}
-          visible={this.props.isOpen || this.state.isOpen}
+          visible={this.props.open || this.state.open}
           margin={margin}
         >
           {children}
@@ -227,9 +227,9 @@ ToggleMenu.propTypes = {
   onClose: PropTypes.func,
   closeOnOutsideClick: PropTypes.bool,
   menuOffset: PropTypes.string, // distance between the menu and the trigger
-  isFluid: PropTypes.bool,
-  isOpen: PropTypes.bool,
-  isDisabled: PropTypes.bool,
+  fluid: PropTypes.bool,
+  open: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 ToggleMenu.defaultProps = {
@@ -239,7 +239,7 @@ ToggleMenu.defaultProps = {
   onClose: () => null,
   closeOnOutsideClick: true,
   menuOffset: '5px',
-  isFluid: false,
+  fluid: false,
 };
 
 export default ToggleMenu;

@@ -37,7 +37,7 @@ describe('Dropdown Component', () => {
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Dropdown isSelected={true} label="Push Me">
+        <Dropdown selected={true} label="Push Me">
           <Dropdown.Item>
             Check that checkmark
           </Dropdown.Item>
@@ -55,7 +55,7 @@ describe('Dropdown Component', () => {
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Dropdown isDisabled={true}>
+        <Dropdown disabled={true}>
           <Dropdown.Item>
             I'll never be seen
           </Dropdown.Item>
@@ -64,7 +64,7 @@ describe('Dropdown Component', () => {
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Dropdown isOpen={true}>
+        <Dropdown open={true}>
           <Dropdown.Item>
             <nobr>You can't close me</nobr>
           </Dropdown.Item>
@@ -73,7 +73,7 @@ describe('Dropdown Component', () => {
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
-        <Dropdown isOpen={false} label="You can't open me">
+        <Dropdown open={false} label="You can't open me">
           <Dropdown.Item>
             <nobr>You will never see me</nobr>
           </Dropdown.Item>
@@ -82,7 +82,7 @@ describe('Dropdown Component', () => {
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
-        <Dropdown label="Don't push me" isFluid={true}>
+        <Dropdown label="Don't push me" fluid={true}>
           <Dropdown.Item onClick={() => alert('Clicked 1')}>
             <nobr>...cause I'm close to the edge</nobr>
           </Dropdown.Item>

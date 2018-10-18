@@ -66,7 +66,7 @@ class OverflowMenu extends Component {
   }
 
   isControlled = () =>
-    typeof this.props.isOpen !== 'undefined';
+    typeof this.props.open !== 'undefined';
 
   handleMenuOpen = () => {
     this.props.onOpen();
@@ -103,7 +103,7 @@ class OverflowMenu extends Component {
   }
 
   render() {
-    const { children, position, isOpen } = this.props;
+    const { children, position, open } = this.props;
 
     return (
       <ToggleMenu
@@ -111,7 +111,7 @@ class OverflowMenu extends Component {
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
-        isOpen={isOpen}
+        open={open}
       >
         <Menu>
           {children}
@@ -145,7 +145,7 @@ OverflowMenu.propTypes = {
   activeColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   position: PropTypes.string,
-  isOpen: PropTypes.bool,
+  open: PropTypes.bool,
   theme: PropTypes.object,
   onOpen: PropTypes.func,
   onClose: PropTypes.func,

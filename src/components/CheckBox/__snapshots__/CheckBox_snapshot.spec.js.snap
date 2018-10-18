@@ -27,7 +27,7 @@ ShallowWrapper {
           Checkbox Label
         </CheckBox__Label>,
       ],
-      "isDisabled": undefined,
+      "disabled": undefined,
       "onClick": [Function],
     },
     "ref": null,
@@ -45,7 +45,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "isChecked": undefined,
+            "checked": undefined,
           },
           "ref": null,
           "rendered": null,
@@ -81,7 +81,7 @@ ShallowWrapper {
             Checkbox Label
           </CheckBox__Label>,
         ],
-        "isDisabled": undefined,
+        "disabled": undefined,
         "onClick": [Function],
       },
       "ref": null,
@@ -99,7 +99,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "isChecked": undefined,
+              "checked": undefined,
             },
             "ref": null,
             "rendered": null,
@@ -144,7 +144,7 @@ exports[`CheckBox Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CheckBox
-    isChecked={true}
+    checked={true}
     label="Checkbox Label"
     onToggle={[Function]}
   />,
@@ -163,14 +163,14 @@ ShallowWrapper {
       "children": Array [
         <CheckBox__InputWrapper>
           <CheckBox__Input
-            isChecked={true}
+            checked={true}
           />
         </CheckBox__InputWrapper>,
         <CheckBox__Label>
           Checkbox Label
         </CheckBox__Label>,
       ],
-      "isDisabled": undefined,
+      "disabled": undefined,
       "onClick": [Function],
     },
     "ref": null,
@@ -181,7 +181,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": <CheckBox__Input
-            isChecked={true}
+            checked={true}
           />,
         },
         "ref": null,
@@ -190,7 +190,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "isChecked": true,
+            "checked": true,
           },
           "ref": null,
           "rendered": null,
@@ -221,14 +221,14 @@ ShallowWrapper {
         "children": Array [
           <CheckBox__InputWrapper>
             <CheckBox__Input
-              isChecked={true}
+              checked={true}
             />
           </CheckBox__InputWrapper>,
           <CheckBox__Label>
             Checkbox Label
           </CheckBox__Label>,
         ],
-        "isDisabled": undefined,
+        "disabled": undefined,
         "onClick": [Function],
       },
       "ref": null,
@@ -239,7 +239,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": <CheckBox__Input
-              isChecked={true}
+              checked={true}
             />,
           },
           "ref": null,
@@ -248,7 +248,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "isChecked": true,
+              "checked": true,
             },
             "ref": null,
             "rendered": null,
@@ -293,7 +293,7 @@ exports[`CheckBox Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CheckBox
-    isDisabled={true}
+    disabled={true}
     label="Checkbox Label"
     onToggle={[Function]}
   />,
@@ -317,7 +317,7 @@ ShallowWrapper {
           Checkbox Label
         </CheckBox__Label>,
       ],
-      "isDisabled": true,
+      "disabled": true,
       "onClick": [Function],
     },
     "ref": null,
@@ -335,7 +335,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "isChecked": undefined,
+            "checked": undefined,
           },
           "ref": null,
           "rendered": null,
@@ -371,7 +371,7 @@ ShallowWrapper {
             Checkbox Label
           </CheckBox__Label>,
         ],
-        "isDisabled": true,
+        "disabled": true,
         "onClick": [Function],
       },
       "ref": null,
@@ -389,7 +389,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "isChecked": undefined,
+              "checked": undefined,
             },
             "ref": null,
             "rendered": null,
