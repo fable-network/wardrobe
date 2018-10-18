@@ -17,7 +17,7 @@ const GridBase = styled.div`
   }
 `;
 
-const Grid = ({ children }) => <GridBase size={getBodyFontSize() / 2}>{children}</GridBase>;
+const Grid = ({ children }) => <GridBase size={getBodyFontSize() / 4}>{children}</GridBase>;
 Grid.propTypes = { children: PropTypes.node };
 
 export default Grid;

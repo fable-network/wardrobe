@@ -48,7 +48,7 @@ const Sizes = ({ name, value }) => (
   <Wrapper>
     <Heading>{name}</Heading>
     <SizeExample size={value} />
-    <Code>({value})</Code>
+    <Code>{value}</Code>
   </Wrapper>
 );
 
