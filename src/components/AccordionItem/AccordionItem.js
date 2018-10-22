@@ -14,7 +14,7 @@ const TitleWrapper = styled('div')`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px;
+  padding: 24px;
   border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   cursor: pointer;
 `;
@@ -27,7 +27,7 @@ const ChildrenWrapper = styled('div')`
   transition: 0.3s ease-out;
   display: ${p => (p.open ? 'block' : 'none')};
   opacity: ${p => (p.open ? '1' : '0')};
-  padding: 0 16px;
+  padding: 0 24px;
   border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   animation: ${slideIn('-20px')} 0.3s ease;
 `;
