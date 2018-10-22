@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import noop from '../../helpers/noop';
 import KEY_CODES from '../../helpers/keyCodes';
 
-import { slideIn } from '../../constants/Animations';
+import { slideIn } from '../../animations';
 import Icon from '../Icon';
 import { hexToRgba } from '../../helpers/colors';
 

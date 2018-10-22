@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
-import { fullCircleRotate } from '../../constants/Animations';
+import { fullCircleRotate } from '../../animations';
 import defaultTheme from '../../theme/default';
 
 const colors = {
@@ -22,7 +22,7 @@ const StyledSpinner = styled.span`
   border: calc(${props => props.size} / 10) solid ${props => props.color};
   border-left-color: ${props => props.gapColor};
   border-radius: 100%;
-  animation: ${fullCircleRotate} ${props => props.speed} linear infinite;
+  animation: ${fullCircleRotate()} ${props => props.speed} linear infinite;
 `;
 
 const LoadingSpinner = ({ size, speed, appearance, ...otherProps }) => {
