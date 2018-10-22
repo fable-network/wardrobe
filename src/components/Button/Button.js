@@ -44,12 +44,25 @@ const cssSmall = css`
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
 `;
 
+const ButtonInner = ({ size, appearance, children, ...otherProps }) => (
+  <button {...otherProps}>{children}</button>
+);
+
+ButtonInner.propTypes = {
+  children: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(['small', 'normal']),
+  appearance: PropTypes.oneOf(['primary', 'secondary']),
+};
+
+ButtonInner.defaultProps = {
+  size: 'normal',
+  appearance: 'secondary',
+};
+
 /**
  * An element of a graphical user interface which a user can select to perform a particular action.
  */
-const Button = styled(({ size, appearance, children, ...otherProps }) => (
-  <button {...otherProps}>{children}</button>
-))`
+const Button = styled(ButtonInner)`
   display: inline-flex;
   flex-wrap: nowrap;
   justify-content: center;
