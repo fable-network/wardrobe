@@ -35,9 +35,11 @@ Small button:
 Multiline button:
 
 ```jsx
-<Button>
-  Push Me<br />Touch me
-</Button>
+<div>
+  <Button>
+    Push Me<br />Touch me
+  </Button>
+</div>
 ```
 
 On a grid:

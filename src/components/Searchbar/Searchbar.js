@@ -37,18 +37,18 @@ const IconWrapper = styled('div')`
   line-height: 1;
 `;
 
-const renderIcon = (iconPosition, isLoading, color) => (
+const renderIcon = (iconPosition, loading, color) => (
   <IconWrapper iconPosition={iconPosition}>
-    {isLoading
+    {loading
       ? <LoadingSpinner size="20px" />
       : searchIcon(color, '21px')
     }
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, theme, isLoading, ...otherProps }) => (
+const Searchbar = ({ iconPosition, theme, loading, ...otherProps }) => (
   <Wrapper>
-    {renderIcon(iconPosition, isLoading, theme.primary)}
+    {renderIcon(iconPosition, loading, theme.primary)}
     <Input
       {...otherProps}
       type="text"
@@ -60,7 +60,8 @@ const Searchbar = ({ iconPosition, theme, isLoading, ...otherProps }) => (
 Searchbar.defaultProps = {
   placeholder: 'Search',
   onChange: () => null,
-  iconPosition: 'right'
+  iconPosition: 'right',
+  loading: false,
 };
 
 Searchbar.propTypes = {
@@ -69,7 +70,7 @@ Searchbar.propTypes = {
   iconPosition: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.object,
   value: PropTypes.string,
-  isLoading: PropTypes.bool
+  loading: PropTypes.bool
 };
 
 export default withTheme(Searchbar);

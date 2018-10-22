@@ -96,7 +96,7 @@ class Dropdown extends Component {
       disabled,
       label,
       selected,
-      isLoading,
+      loading,
       onClick,
       open,
       fluid,
@@ -107,7 +107,7 @@ class Dropdown extends Component {
       <DropdownButton disabled={disabled} onClick={onClick} fluid={fluid}>
         <Label>{label}</Label>
         <IconWrapper>
-          {isLoading ? (
+          {loading ? (
             <LoadingSpinner size="17px" />
           ) : (
             <StyledIcon
@@ -162,7 +162,7 @@ Dropdown.propTypes = {
   disabled: PropTypes.bool,
   /** Show checkmark instead of dropdown caret */
   selected: PropTypes.bool,
-  isLoading: PropTypes.bool,
+  loading: PropTypes.bool,
   /** Contents of the dropdown */
   children: PropTypes.node.isRequired,
   /** Position of the dropdown panel */
@@ -181,7 +181,7 @@ Dropdown.defaultProps = {
   className: null,
   disabled: false,
   selected: false,
-  isLoading: false,
+  loading: false,
   fluid: false,
   onClose: () => null,
 };

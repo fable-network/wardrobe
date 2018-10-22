@@ -7,8 +7,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={false}
     label="Don't push me"
+    loading={false}
     onClose={[Function]}
     selected={false}
   >
@@ -566,8 +566,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={false}
     label="Push Me"
+    loading={false}
     onClose={[Function]}
     selected={false}
   >
@@ -739,8 +739,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={false}
     label="Push Me"
+    loading={false}
     onClose={[Function]}
     selected={true}
   >
@@ -924,8 +924,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={true}
     label="Something is happening"
+    loading={true}
     onClose={[Function]}
     selected={false}
   >
@@ -1099,8 +1099,8 @@ ShallowWrapper {
     className={null}
     disabled={true}
     fluid={false}
-    isLoading={false}
     label="Select"
+    loading={false}
     onClose={[Function]}
     selected={false}
   >
@@ -1284,8 +1284,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={false}
     label="Select"
+    loading={false}
     onClose={[Function]}
     open={true}
     selected={false}
@@ -1504,8 +1504,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={false}
-    isLoading={false}
     label="You can't open me"
+    loading={false}
     onClose={[Function]}
     open={false}
     selected={false}
@@ -1724,8 +1724,8 @@ ShallowWrapper {
     className={null}
     disabled={false}
     fluid={true}
-    isLoading={false}
     label="Don't push me"
+    loading={false}
     onClose={[Function]}
     selected={false}
   >

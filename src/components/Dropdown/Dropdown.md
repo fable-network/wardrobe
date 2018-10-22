@@ -41,7 +41,7 @@ Dropdown selected.
 Dropdown loading.
 
 ```jsx
-<Dropdown isLoading={true} label="Something is happening">
+<Dropdown loading={true} label="Something is happening">
   <Dropdown.Item>
     Hold on I'm loading
   </Dropdown.Item>

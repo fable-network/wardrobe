@@ -46,7 +46,7 @@ describe('Dropdown Component', () => {
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Dropdown isLoading={true} label="Something is happening">
+        <Dropdown loading={true} label="Something is happening">
           <Dropdown.Item>
             Hold on I'm loading
           </Dropdown.Item>
