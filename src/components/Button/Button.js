@@ -39,7 +39,8 @@ const cssSecondary = css`
 `;
 
 const cssSmall = css`
-  ${p => p.theme.fontSizeSmall};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightControlSmall};
   ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalSmall} - 1px)`)};
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
 `;
@@ -68,8 +69,8 @@ const Button = styled(ButtonInner)`
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  line-height: 1;
-  ${p => p.theme.fontSizeBase};
+  line-height: ${p => p.theme.lineHeightControlBase};
+  font-size: ${p => p.theme.fontSizeBase};
   ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
   border: solid 1px transparent;
@@ -101,7 +102,7 @@ const Button = styled(ButtonInner)`
 
 Button.propTypes = {
   /** Button label */
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
   size: PropTypes.oneOf(['small', 'normal']),
   disabled: PropTypes.bool,

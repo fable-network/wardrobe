@@ -25,7 +25,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "primary",
       "children": "Push Me",
-      "className": "Button-hYXUXp iJSGTx",
+      "className": "Button-hYXUXp ikLSYb",
       "disabled": false,
       "size": "normal",
       "type": "button",
@@ -42,7 +42,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "primary",
         "children": "Push Me",
-        "className": "Button-hYXUXp iJSGTx",
+        "className": "Button-hYXUXp ikLSYb",
         "disabled": false,
         "size": "normal",
         "type": "button",
@@ -95,7 +95,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "primary",
       "children": "Don't Push Me",
-      "className": "Button-hYXUXp iJSGTx",
+      "className": "Button-hYXUXp ikLSYb",
       "disabled": true,
       "size": "normal",
       "type": "button",
@@ -112,7 +112,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "primary",
         "children": "Don't Push Me",
-        "className": "Button-hYXUXp iJSGTx",
+        "className": "Button-hYXUXp ikLSYb",
         "disabled": true,
         "size": "normal",
         "type": "button",
@@ -165,7 +165,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "secondary",
       "children": "Push Me",
-      "className": "Button-hYXUXp jJWcHd",
+      "className": "Button-hYXUXp kCAAUo",
       "disabled": false,
       "size": "normal",
       "type": "button",
@@ -182,7 +182,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "secondary",
         "children": "Push Me",
-        "className": "Button-hYXUXp jJWcHd",
+        "className": "Button-hYXUXp kCAAUo",
         "disabled": false,
         "size": "normal",
         "type": "button",
@@ -235,7 +235,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "secondary",
       "children": "Don't Push Me",
-      "className": "Button-hYXUXp jJWcHd",
+      "className": "Button-hYXUXp kCAAUo",
       "disabled": true,
       "size": "normal",
       "type": "button",
@@ -252,7 +252,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "secondary",
         "children": "Don't Push Me",
-        "className": "Button-hYXUXp jJWcHd",
+        "className": "Button-hYXUXp kCAAUo",
         "disabled": true,
         "size": "normal",
         "type": "button",
@@ -305,7 +305,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "secondary",
       "children": "Push Me",
-      "className": "Button-hYXUXp eewvve",
+      "className": "Button-hYXUXp lkleAy",
       "disabled": false,
       "size": "small",
       "type": "button",
@@ -322,7 +322,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "secondary",
         "children": "Push Me",
-        "className": "Button-hYXUXp eewvve",
+        "className": "Button-hYXUXp lkleAy",
         "disabled": false,
         "size": "small",
         "type": "button",

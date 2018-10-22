@@ -4,9 +4,9 @@ const PADDING_HORIZONTAL_LARGE = 32;
 const PADDING_HORIZONTAL_BASE = 16;
 const PADDING_HORIZONTAL_SMALL = 8;
 
-const PADDING_VERTICAL_SMALL = 6;
-const PADDING_VERTICAL_BASE = 10;
-const PADDING_VERTICAL_LARGE = 14;
+const PADDING_VERTICAL_SMALL = 5;
+const PADDING_VERTICAL_BASE = 8;
+const PADDING_VERTICAL_LARGE = 12;
 
 /**
  * Available sizes aligned with our base grid and dependent on the base font size.
