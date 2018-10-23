@@ -11,5 +11,5 @@ Thumbs.db
 *.sublime-workspace
 *.log
 .eslintcache
-styleguide/
+/styleguide/
 src/static/iconsprite-demo.html

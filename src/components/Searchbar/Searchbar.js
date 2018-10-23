@@ -8,7 +8,7 @@ import LoadingSpinner from '../LoadingSpinner';
 const Wrapper = styled('div')`
   position: relative;
   background: #FFF;
-  color: ${props => props.theme.ravenBlack};
+  color: ${props => props.theme.darkest};
   display: flex;
   align-items: center;
   color: inherit;
@@ -18,13 +18,13 @@ const Input = styled('input')`
   width: 100%;
   padding: 10px;
   ${props => `padding-${props.iconPosition}: 40px;`}
-  border: solid 1px ${props => props.theme.stoneGrey};
+  border: solid 1px ${props => props.theme.dark};
   outline: none;
   color: inherit;
   &:focus {
     transition: .2s linear;
-    border-color: ${props => props.theme.skyBlue};;
-    box-shadow: 0 0 3px ${props => props.theme.skyBlue};
+    border-color: ${props => props.theme.primary};;
+    box-shadow: 0 0 3px ${props => props.theme.primary};
   }
   font-size: 100%;
   text-overflow: ellipsis;
@@ -37,22 +37,22 @@ const IconWrapper = styled('div')`
   line-height: 1;
 `;
 
-const renderIcon = (iconPosition, isLoading, color) => (
+const renderIcon = (iconPosition, loading, color) => (
   <IconWrapper iconPosition={iconPosition}>
-    {isLoading
+    {loading
       ? <LoadingSpinner size="20px" />
       : searchIcon(color, '21px')
     }
   </IconWrapper>
 );
 
-const Searchbar = ({ iconPosition, theme, isLoading, ...props }) => (
+const Searchbar = ({ iconPosition, theme, loading, ...otherProps }) => (
   <Wrapper>
-    {renderIcon(iconPosition, isLoading, theme.skyBlue)}
+    {renderIcon(iconPosition, loading, theme.primary)}
     <Input
+      {...otherProps}
       type="text"
       iconPosition={iconPosition}
-      {...props}
     />
   </Wrapper>
 );
@@ -60,7 +60,8 @@ const Searchbar = ({ iconPosition, theme, isLoading, ...props }) => (
 Searchbar.defaultProps = {
   placeholder: 'Search',
   onChange: () => null,
-  iconPosition: 'right'
+  iconPosition: 'right',
+  loading: false,
 };
 
 Searchbar.propTypes = {
@@ -69,7 +70,7 @@ Searchbar.propTypes = {
   iconPosition: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.object,
   value: PropTypes.string,
-  isLoading: PropTypes.bool
+  loading: PropTypes.bool
 };
 
 export default withTheme(Searchbar);

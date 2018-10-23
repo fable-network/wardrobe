@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled('span')`
-  pointer-events: ${p => (p.isDisabled ? 'none' : 'initial')};
-  opacity: ${p => (p.isDisabled ? '0.3' : 'initial')};
+  pointer-events: ${p => (p.disabled ? 'none' : 'initial')};
+  opacity: ${p => (p.disabled ? '0.3' : 'initial')};
   cursor: pointer;
   line-height: 1;
   display: inline-flex;
@@ -14,14 +14,14 @@ const Wrapper = styled('span')`
 const Input = styled('span')`
   display: inline-block;
   position: relative;
-  width: .8125em;
-  height: .8125em;
+  width: 0.8125em;
+  height: 0.8125em;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 1px ${p => (p.isChecked ? p.theme.skyBlue : p.theme.stoneGrey)};
-  background: ${p => (p.isChecked ? p.theme.skyBlue : 'transparent')};
-  border: solid .05em #fff;
+  box-shadow: 0px 0px 0px 1px ${p => (p.checked ? p.theme.primary : p.theme.dark)};
+  background: ${p => (p.checked ? p.theme.primary : 'transparent')};
+  border: solid 0.05em #fff;
   box-sizing: border-box;
-  transition: background .3s ease-out;
+  transition: background 0.3s ease-out;
 `;
 
 const Label = styled('span')`
@@ -35,24 +35,24 @@ const InputWrapper = styled('span')`
   align-items: center;
 `;
 
-const CheckBox = ({ label, isChecked, isDisabled, onToggle }) => (
-  <Wrapper onClick={onToggle} isDisabled={isDisabled}>
+const CheckBox = ({ label, checked, disabled, onToggle, ...otherProps }) => (
+  <Wrapper {...otherProps} onClick={onToggle} disabled={disabled}>
     <InputWrapper>
-      <Input isChecked={isChecked} />
+      <Input checked={checked} />
     </InputWrapper>
     <Label>{label}</Label>
   </Wrapper>
 );
 
 CheckBox.defaultProps = {
-  onToggle: () => null
+  onToggle: () => null,
 };
 
 CheckBox.propTypes = {
   onToggle: PropTypes.func,
   label: PropTypes.string,
-  isDisabled: PropTypes.bool,
-  isChecked: PropTypes.bool
+  disabled: PropTypes.bool,
+  checked: PropTypes.bool,
 };
 
 export default CheckBox;

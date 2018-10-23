@@ -4,9 +4,9 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 5px 15px;
-  color: ${props => props.theme.ravenBlack};
+  color: ${props => props.theme.darkest};
   cursor: pointer;
-  
+
   &:hover {
     background: #eee;
   }
@@ -17,8 +17,8 @@ const Wrapper = styled.div`
  *
  * @visibleName Dropdown.Item
  */
-const DropdownItem = ({ children, onClick }) => (
-  <Wrapper onClick={onClick}>
+const DropdownItem = ({ children, onClick, ...otherProps }) => (
+  <Wrapper {...otherProps} onClick={onClick}>
     {children}
   </Wrapper>
 );

@@ -31,7 +31,7 @@ Dropdown panel will expand horizontally when content does not allow wrapping.
 Dropdown selected.
 
 ```jsx
-<Dropdown isSelected={true} label="Push Me">
+<Dropdown selected={true} label="Push Me">
   <Dropdown.Item>
     Check that checkmark
   </Dropdown.Item>
@@ -41,7 +41,7 @@ Dropdown selected.
 Dropdown loading.
 
 ```jsx
-<Dropdown isLoading={true} label="Something is happening">
+<Dropdown loading={true} label="Something is happening">
   <Dropdown.Item>
     Hold on I'm loading
   </Dropdown.Item>
@@ -51,17 +51,17 @@ Dropdown loading.
 Dropdown disabled.
 
 ```jsx
-<Dropdown isDisabled={true}>
+<Dropdown disabled={true}>
   <Dropdown.Item>
     I'll never be seen
   </Dropdown.Item>
 </Dropdown>
 ```
 
-Dropdown controlled by `isOpen` prop (`true`).
+Dropdown controlled by `open` prop (`true`).
 
 ```jsx
-<Dropdown isOpen={true}>
+<Dropdown open={true}>
   <Dropdown.Item>
     <nobr>You can't close me</nobr>
   </Dropdown.Item>
@@ -69,10 +69,10 @@ Dropdown controlled by `isOpen` prop (`true`).
 <div style={{height: '40px'}}/>
 ```
 
-Dropdown controlled by `isOpen` prop (`false`).
+Dropdown controlled by `open` prop (`false`).
 
 ```jsx
-<Dropdown isOpen={false} label="You can't open me">
+<Dropdown open={false} label="You can't open me">
   <Dropdown.Item>
     <nobr>You will never see me</nobr>
   </Dropdown.Item>
@@ -94,7 +94,7 @@ for (i=0; i<30; i++) {
 Dropdown with a fluid toggle button:
 
 ```jsx
-<Dropdown label="Don't push me" isFluid={true}>
+<Dropdown label="Don't push me" fluid={true}>
   <Dropdown.Item onClick={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
   </Dropdown.Item>

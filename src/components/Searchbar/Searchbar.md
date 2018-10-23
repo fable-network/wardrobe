@@ -25,12 +25,12 @@ Default value:
 
 Loading (with left icon position):
 ```jsx
-<Searchbar iconPosition="left" defaultValue="Floral dress" isLoading/>
+<Searchbar iconPosition="left" defaultValue="Floral dress" loading/>
 ```
 
 Loading (with right icon position):
 ```jsx
-<Searchbar iconPosition="right" defaultValue="Floral dress" isLoading/>
+<Searchbar iconPosition="right" defaultValue="Floral dress" loading/>
 ```
 
 Truncated text:

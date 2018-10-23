@@ -5,12 +5,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={false}
-    isSelected={false}
+    disabled={false}
+    fluid={false}
     label="Don't push me"
+    loading={false}
     onClose={[Function]}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -99,17 +99,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": undefined,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Don't push me
@@ -342,17 +342,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": undefined,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Don't push me
@@ -564,12 +564,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={false}
-    isSelected={false}
+    disabled={false}
+    fluid={false}
     label="Push Me"
+    loading={false}
     onClose={[Function]}
+    selected={false}
   >
     <nobr>
       You can place any content you prefer here.
@@ -594,17 +594,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": undefined,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Push Me
@@ -660,17 +660,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": undefined,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Push Me
@@ -737,12 +737,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={false}
-    isSelected={true}
+    disabled={false}
+    fluid={false}
     label="Push Me"
+    loading={false}
     onClose={[Function]}
+    selected={true}
   >
     <DropdownItem
       onClick={[Function]}
@@ -771,17 +771,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": undefined,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Push Me
@@ -842,17 +842,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": undefined,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Push Me
@@ -922,12 +922,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={true}
-    isSelected={false}
+    disabled={false}
+    fluid={false}
     label="Something is happening"
+    loading={true}
     onClose={[Function]}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -956,17 +956,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": undefined,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Something is happening
@@ -1022,17 +1022,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": undefined,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Something is happening
@@ -1097,12 +1097,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={true}
-    isFluid={false}
-    isLoading={false}
-    isSelected={false}
+    disabled={true}
+    fluid={false}
     label="Select"
+    loading={false}
     onClose={[Function]}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -1131,17 +1131,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": true,
-      "isFluid": false,
-      "isOpen": undefined,
+      "disabled": true,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={true}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Select
@@ -1202,17 +1202,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": true,
-        "isFluid": false,
-        "isOpen": undefined,
+        "disabled": true,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={true}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Select
@@ -1282,13 +1282,13 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={false}
-    isOpen={true}
-    isSelected={false}
+    disabled={false}
+    fluid={false}
     label="Select"
+    loading={false}
     onClose={[Function]}
+    open={true}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -1321,17 +1321,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": true,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": true,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           Select
@@ -1408,17 +1408,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": true,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": true,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             Select
@@ -1502,13 +1502,13 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={false}
-    isLoading={false}
-    isOpen={false}
-    isSelected={false}
+    disabled={false}
+    fluid={false}
     label="You can't open me"
+    loading={false}
     onClose={[Function]}
+    open={false}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -1541,17 +1541,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": false,
-      "isOpen": false,
+      "disabled": false,
+      "fluid": false,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": false,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={false}
+        fluid={false}
       >
         <Dropdown__Label>
           You can't open me
@@ -1628,17 +1628,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": false,
-        "isOpen": false,
+        "disabled": false,
+        "fluid": false,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": false,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={false}
+          fluid={false}
         >
           <Dropdown__Label>
             You can't open me
@@ -1722,12 +1722,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dropdown
     className={null}
-    isDisabled={false}
-    isFluid={true}
-    isLoading={false}
-    isSelected={false}
+    disabled={false}
+    fluid={true}
     label="Don't push me"
+    loading={false}
     onClose={[Function]}
+    selected={false}
   >
     <DropdownItem
       onClick={[Function]}
@@ -1816,17 +1816,17 @@ ShallowWrapper {
       </Dropdown__DropdownPanel>,
       "className": null,
       "closeOnOutsideClick": true,
-      "isDisabled": false,
-      "isFluid": true,
-      "isOpen": undefined,
+      "disabled": false,
+      "fluid": true,
       "menuOffset": "5px",
       "onClose": [Function],
       "onOpen": [Function],
+      "open": undefined,
       "position": "bottom",
       "preventOutOfBounds": false,
       "trigger": <Dropdown__DropdownButton
         disabled={false}
-        isFluid={true}
+        fluid={true}
       >
         <Dropdown__Label>
           Don't push me
@@ -2059,17 +2059,17 @@ ShallowWrapper {
         </Dropdown__DropdownPanel>,
         "className": null,
         "closeOnOutsideClick": true,
-        "isDisabled": false,
-        "isFluid": true,
-        "isOpen": undefined,
+        "disabled": false,
+        "fluid": true,
         "menuOffset": "5px",
         "onClose": [Function],
         "onOpen": [Function],
+        "open": undefined,
         "position": "bottom",
         "preventOutOfBounds": false,
         "trigger": <Dropdown__DropdownButton
           disabled={false}
-          isFluid={true}
+          fluid={true}
         >
           <Dropdown__Label>
             Don't push me

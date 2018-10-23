@@ -10,7 +10,7 @@ describe('Dialog Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Dialog size="normal" open={true}>
+        <Dialog size="normal">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
@@ -24,7 +24,7 @@ describe('Dialog Component', () => {
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Dialog size="small" open={true}>
+        <Dialog size="small">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
@@ -38,7 +38,7 @@ describe('Dialog Component', () => {
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Dialog size="large" open={true}>
+        <Dialog size="large">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
@@ -52,7 +52,7 @@ describe('Dialog Component', () => {
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Dialog size="auto" open={true}>
+        <Dialog size="auto">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
           <Dialog.Footer>
@@ -66,7 +66,7 @@ describe('Dialog Component', () => {
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Dialog open={true}>
+        <Dialog>
           <Dialog.Header>
             <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
           </Dialog.Header>
@@ -85,7 +85,7 @@ describe('Dialog Component', () => {
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Dialog open={true}>
+        <Dialog>
           <Dialog.Header>Check out the body &darr;</Dialog.Header>
           <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
           <Dialog.Footer>

@@ -6,7 +6,7 @@ import AccordionItem from '../AccordionItem';
 
 const Wrapper = styled.div``;
 
-const Accordion = ({ children }) => <Wrapper>{children}</Wrapper>;
+const Accordion = ({ children, ...otherProps }) => <Wrapper {...otherProps}>{children}</Wrapper>;
 
 Accordion.Item = AccordionItem;
 
@@ -14,8 +14,7 @@ Accordion.propTypes = {
   /**
    * Array of `Accordion.Item`s.
    */
-  children: PropTypes.arrayOf(PropTypes.shape({ type: PropTypes.oneOf([AccordionItem]) }))
-    .isRequired,
+  children: PropTypes.arrayOf(PropTypes.node).isRequired,
 };
 
 export default Accordion;

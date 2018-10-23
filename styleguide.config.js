@@ -9,11 +9,14 @@ module.exports = {
   assetsDir: 'src/static',
 
   sections: [
-    { name: 'Components', components: 'src/components/**/*.js' },
-    { name: 'Style', components: 'src/style/**/*.js' },
+    { name: 'Style', components: 'src/style/**/*.js', content: 'docs/style.md' },
+    { name: 'Components', components: 'src/components/**/*.js', content: 'docs/components.md' },
+    { name: 'Animations', components: 'src/animations/**/*.js' },
   ],
 
   components: 'src/components/**/*.js',
+
+  require: [path.join(__dirname, 'src/globals/styles.js')],
 
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
   // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
@@ -25,15 +28,9 @@ module.exports = {
     Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
   },
 
-  template: {
-    head: {
-      links: [
-        {
-          rel: 'stylesheet',
-          href: 'style.css',
-        },
-      ],
-    },
+
+  compilerConfig: {
+    transforms: { dangerousTaggedTemplateString: true },
   },
 
   webpackConfig: {

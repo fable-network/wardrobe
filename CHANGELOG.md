@@ -1,5 +1,23 @@
 ## [Unreleased]
 
+### Added
+- Exported Theme object.
+- Sizes in theme and styleguide.
+- Describe Grid Layout.
+- Exported Normalize style.
+- Exportable `styled-components`-based animation.
+- Invalid state on an `Input` component.
+- `Input` component snapshots.
+
+### Changed
+- Refactor `Button` component.
+- Change base color on `Input` component.
+
+### Breaking changes
+- Rename colors.
+- Unify prop names (`something` instead of `isSomething`).
+- Pass not used props to the underlying component (potential use cases: data-attributes, form elements' attributes, additional styling).
+
 ## [1.1.0] - 2018-10-09
 
 ### Added

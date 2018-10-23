@@ -5,18 +5,18 @@ Unchecked:
 
 Checked:
 ```jsx
-<CheckBox label="Checkbox Label" isChecked />
+<CheckBox label="Checkbox Label" checked />
 ```
 
 Disabled:
 ```jsx
-<CheckBox label="Checkbox Label" isDisabled />
+<CheckBox label="Checkbox Label" disabled />
 ```
 
 Larger parent font-size (`20px`):
 ```jsx
 <span style={{ fontSize: '20px'}}>
-  <CheckBox label="Checkbox Label" isChecked/>
+  <CheckBox label="Checkbox Label" checked/>
 </span>
 ```
 
@@ -26,20 +26,20 @@ class CheckBoxExample extends React.Component {
   constructor() {
     super();
     this.handleToggle = this.handleToggle.bind(this);
-    this.state = { isChecked: false };
+    this.state = { checked: false };
   }
 
   handleToggle() {
-    this.setState(({ isChecked }) => ({ isChecked: !isChecked }));
+    this.setState(({ checked }) => ({ checked: !checked }));
   }
 
   render() {
-    const { isChecked } = this.state;
-    const label = isChecked ? "Unselect me" : "Select me";
+    const { checked } = this.state;
+    const label = checked ? "Unselect me" : "Select me";
 
     return (
       <div style={{ fontSize: '18px'}}>
-        <CheckBox label={label} onToggle={this.handleToggle} isChecked={isChecked}/>
+        <CheckBox label={label} onToggle={this.handleToggle} checked={checked}/>
       </div>
     );
   }

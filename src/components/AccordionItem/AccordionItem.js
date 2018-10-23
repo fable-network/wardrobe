@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import noop from '../../helpers/noop';
 import KEY_CODES from '../../helpers/keyCodes';
 
-import { slideIn } from '../../constants/Animations';
+import { slideIn } from '../../animations';
 import Icon from '../Icon';
 import { hexToRgba } from '../../helpers/colors';
 
@@ -14,8 +14,8 @@ const TitleWrapper = styled('div')`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+  padding: 24px;
+  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   cursor: pointer;
 `;
 
@@ -27,8 +27,8 @@ const ChildrenWrapper = styled('div')`
   transition: 0.3s ease-out;
   display: ${p => (p.open ? 'block' : 'none')};
   opacity: ${p => (p.open ? '1' : '0')};
-  padding: 0 16px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+  padding: 0 24px;
+  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
   animation: ${slideIn('-20px')} 0.3s ease;
 `;
 
@@ -38,7 +38,7 @@ const Wrapper = styled('div')`
   opacity: ${p => (p.disabled ? '0.4' : '1')};
   &:first-child {
     ${TitleWrapper} {
-      border-top: solid 1px ${p => addOpacity(p.theme.stoneGrey)};
+      border-top: solid 1px ${p => addOpacity(p.theme.dark)};
     }
   }
 `;
@@ -82,7 +82,7 @@ class AccordionItem extends Component {
   };
 
   render() {
-    const { children, disabled, tabIndex, title } = this.props;
+    const { children, disabled, tabIndex, title, ...otherProps } = this.props;
     const open = this.isControlled() ? this.props.open : this.state.open;
     const hasTitle = typeof title === 'string';
 
@@ -90,6 +90,7 @@ class AccordionItem extends Component {
       <Wrapper disabled={disabled}>
         <TitleWrapper
           data-testid="accordion-item--title-wrapper"
+          {...otherProps}
           tabIndex={tabIndex}
           role="button"
           onClick={this.handleToggleRequested}

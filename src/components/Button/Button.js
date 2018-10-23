@@ -1,34 +1,108 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import styled, { css } from 'styled-components';
+import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
-import './Button.scss';
+const cssPrimary = css`
+  color: ${p => p.theme.lighter};
+  background-color: ${p => p.theme.primary};
+  border-color: ${p => p.theme.primary};
+
+  &:hover {
+    background-color: ${p => p.theme.primaryActive};
+    border-color: ${p => p.theme.primaryActive};
+  }
+
+  &:disabled,
+  &:hover:disabled {
+    background-color: ${p => p.theme.disabled};
+    border-color: ${p => p.theme.disabled};
+  }
+`;
+
+const cssSecondary = css`
+  color: ${p => p.theme.primary};
+  background-color: ${p => p.theme.lightest};
+  border-color: ${p => p.theme.primary};
+
+  &:hover {
+    color: ${p => p.theme.primaryActive};
+    border-color: ${p => p.theme.primaryActive};
+  }
+
+  &:disabled,
+  &:hover:disabled {
+    background-color: ${p => p.theme.lightest};
+    color: ${p => p.theme.disabled};
+    border-color: ${p => p.theme.disabled};
+  }
+`;
+
+const cssSmall = css`
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightControlSmall};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalSmall} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
+`;
+
+const ButtonInner = ({ size, appearance, children, ...otherProps }) => (
+  <button {...otherProps}>{children}</button>
+);
+
+ButtonInner.propTypes = {
+  children: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(['small', 'normal']),
+  appearance: PropTypes.oneOf(['primary', 'secondary']),
+};
+
+ButtonInner.defaultProps = {
+  size: 'normal',
+  appearance: 'secondary',
+};
 
 /**
  * An element of a graphical user interface which a user can select to perform a particular action.
  */
-const Button = ({ size, className, disabled, type, appearance, children, ...other }) => {
-  const buttonClasses = classNames(className, {
-    'ft--btn': true,
-    'ft--btn--sm': size === 'small',
-    [`ft--btn--${appearance}`]: true,
-  });
+const Button = styled(ButtonInner)`
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: ${p => p.theme.lineHeightControlBase};
+  font-size: ${p => p.theme.fontSizeBase};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
+  border: solid 1px transparent;
+  transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
 
-  return (
-    <button
-      {...other}
-      className={buttonClasses}
-      disabled={disabled}
-      type={type}
-    >
-      {children}
-    </button>
-  );
-};
+  &:hover {
+    ${p => p.theme.shadow};
+    transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:hover:disabled {
+    ${p => p.theme.noShadow};
+  }
+
+  ${p => p.appearance === 'primary' && cssPrimary};
+  ${p => p.appearance === 'secondary' && cssSecondary};
+  ${p => p.size === 'small' && cssSmall};
+`;
 
 Button.propTypes = {
   /** Button label */
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
   size: PropTypes.oneOf(['small', 'normal']),
   disabled: PropTypes.bool,
@@ -41,7 +115,6 @@ Button.defaultProps = {
   disabled: false,
   appearance: 'secondary',
   type: 'button',
-  className: ''
 };
 
 /** @component */

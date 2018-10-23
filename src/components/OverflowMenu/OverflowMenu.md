@@ -94,9 +94,9 @@ With custom **active** color
 </OverflowMenu>
 ```
 
-Controlled by `isOpen` prop (`true`).
+Controlled by `open` prop (`true`).
 ```jsx
-<OverflowMenu isOpen={true}>
+<OverflowMenu open={true}>
   <OverflowMenu.Title>You can't close me</OverflowMenu.Title>
   <OverflowMenu.Item>
     Action 1

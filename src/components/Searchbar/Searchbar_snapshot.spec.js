@@ -29,12 +29,12 @@ describe('Searchbar Component', () => {
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Searchbar iconPosition="left" defaultValue="Floral dress" isLoading/>
+        <Searchbar iconPosition="left" defaultValue="Floral dress" loading/>
       );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Searchbar iconPosition="right" defaultValue="Floral dress" isLoading/>
+        <Searchbar iconPosition="right" defaultValue="Floral dress" loading/>
       );
       expect(wrapper6).toMatchSnapshot();
 

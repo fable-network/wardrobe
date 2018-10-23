@@ -8578,10 +8578,10 @@ react-reconciler@^0.7.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-styleguidist@7.2.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-7.2.3.tgz#69a77ea5596ddf21e3c2abcd4efccced80958c18"
-  integrity sha512-HldS/nnaWAKDS2gdfblveUI8Y8yhSMytXahmpal3vCqPfYndoFTc+hAuFswKpAiPg4tjEd2liVon2MlfowMWBQ==
+react-styleguidist@7.3.10:
+  version "7.3.10"
+  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-7.3.10.tgz#fa062fe7b994d7da6c5fce014fbc3189586f1c04"
+  integrity sha512-UcyTfPEdvqH9x3ICQrDmgRVIce+zcedTUw+mVWdO4LpTFdDKwz4TMNgXnWNYGH1m1l4zPD5hJaKOgjRHTXbwbA==
   dependencies:
     "@vxna/mini-html-webpack-template" "^0.1.7"
     acorn "^5.7.1"

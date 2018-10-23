@@ -4,23 +4,32 @@ import classNames from 'classnames';
 
 import './ColorSelector.scss';
 
-const ColorSelector = (props) => {
-  const { onClick, patternImage, color, disableInteraction, text, selected, fixedSize } = props;
+const ColorSelector = props => {
+  const {
+    onClick,
+    patternImage,
+    color,
+    disableInteraction,
+    text,
+    selected,
+    fixedSize,
+    ...otherProps
+  } = props;
   const isMissingColor = !patternImage && !color;
 
   const wrapperClasses = classNames('ft--colorSelector', {
     'ft--colorSelector--state--noInteraction': disableInteraction,
     'ft--colorSelector--state--selected': selected,
-    'ft--colorSelector--cursor--pointer': !!onClick
+    'ft--colorSelector--cursor--pointer': !!onClick,
   });
 
   const colorCirlcleClasses = classNames('ft--colorSelector--colorCircle', {
     'ft--colorSelector--colorCircle--size--dynamic': !fixedSize,
-    'ft--colorSelector--colorCircle--color--missing': isMissingColor
+    'ft--colorSelector--colorCircle--color--missing': isMissingColor,
   });
 
   const textClasses = classNames('ft--colorSelector--text', {
-    'ft--colorSelector--text--state--selected': selected
+    'ft--colorSelector--text--state--selected': selected,
   });
 
   const style = patternImage
@@ -33,15 +42,8 @@ const ColorSelector = (props) => {
   }
 
   return (
-    <span
-      onClick={!disableInteraction ? onClick : null}
-      className={wrapperClasses}
-    >
-      <span
-        style={style}
-        selected={selected}
-        className={colorCirlcleClasses}
-      />
+    <span {...otherProps} onClick={!disableInteraction ? onClick : null} className={wrapperClasses}>
+      <span style={style} selected={selected} className={colorCirlcleClasses} />
       {text && <span className={textClasses}>{text}</span>}
     </span>
   );
@@ -49,7 +51,7 @@ const ColorSelector = (props) => {
 
 ColorSelector.defaultProps = {
   selected: false,
-  disableInteraction: false
+  disableInteraction: false,
 };
 
 ColorSelector.propTypes = {
@@ -59,8 +61,7 @@ ColorSelector.propTypes = {
   disableInteraction: PropTypes.bool, // ignores click handler if true
   text: PropTypes.string,
   selected: PropTypes.bool,
-  fixedSize: PropTypes.string // overrides dynamic size based on font-size
+  fixedSize: PropTypes.string, // overrides dynamic size based on font-size
 };
-
 
 export default ColorSelector;

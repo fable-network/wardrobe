@@ -1206,7 +1206,7 @@ exports[`OverflowMenu Component snapshots should match snapshot 9`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    isOpen={true}
+    open={true}
   >
     <DropdownTitle>
       You can't close me
@@ -1250,9 +1250,9 @@ ShallowWrapper {
           Action 2
         </DropdownItem>,
       ],
-      "isOpen": true,
       "onClose": [Function],
       "onOpen": [Function],
+      "open": true,
       "position": "right",
       "size": "small",
       "theme": undefined,
@@ -1319,9 +1319,9 @@ ShallowWrapper {
             Action 2
           </DropdownItem>,
         ],
-        "isOpen": true,
         "onClose": [Function],
         "onOpen": [Function],
+        "open": true,
         "position": "right",
         "size": "small",
         "theme": undefined,

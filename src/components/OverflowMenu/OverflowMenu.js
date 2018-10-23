@@ -18,7 +18,7 @@ const Trigger = styled.div`
 const Menu = styled.div`
   display: block;
   margin-top: 4px;
-  background: ${props => props.theme.white};
+  background: ${props => props.theme.lightest};
   min-width: 100px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
   white-space: nowrap;
@@ -55,18 +55,18 @@ class OverflowMenu extends Component {
   getColorFromAppearance = () => {
     const { appearance, theme } = this.props;
     const colors = {
-      primary: theme.skyBlue,
-      secondary: theme.stoneGrey,
-      success: theme.limeGreen,
-      warning: theme.apricotOrange,
-      light: theme.pearlWhite,
-      dark: theme.ravenBlack
+      primary: theme.primary,
+      secondary: theme.dark,
+      success: theme.success,
+      warning: theme.warning,
+      light: theme.lighter,
+      dark: theme.darkest
     };
     return colors[appearance];
   }
 
   isControlled = () =>
-    typeof this.props.isOpen !== 'undefined';
+    typeof this.props.open !== 'undefined';
 
   handleMenuOpen = () => {
     this.props.onOpen();
@@ -84,12 +84,13 @@ class OverflowMenu extends Component {
 
   renderTrigger = () => {
     const { menuOpen } = this.state;
-    const defaultColor = this.props.color || this.getColorFromAppearance();
-    const color = (menuOpen && this.props.activeColor) || defaultColor;
+    const { color: propsColor, activeColor, ...otherProps } = this.props;
+    const defaultColor = propsColor || this.getColorFromAppearance();
+    const color = (menuOpen && activeColor) || defaultColor;
     const size = this.getWidthAndHeightFromSize();
 
     return (
-      <Trigger color={color} active={menuOpen}>
+      <Trigger {...otherProps} color={color} active={menuOpen}>
         <svg width={size.width} height={size.height} viewBox="0 0 5 21">
           <g fillRule="evenodd" fill={color}>
             <circle cx="2.5" cy="18.5" r="2.5" />
@@ -102,7 +103,7 @@ class OverflowMenu extends Component {
   }
 
   render() {
-    const { children, position, isOpen } = this.props;
+    const { children, position, open } = this.props;
 
     return (
       <ToggleMenu
@@ -110,7 +111,7 @@ class OverflowMenu extends Component {
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
-        isOpen={isOpen}
+        open={open}
       >
         <Menu>
           {children}
@@ -144,7 +145,7 @@ OverflowMenu.propTypes = {
   activeColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   position: PropTypes.string,
-  isOpen: PropTypes.bool,
+  open: PropTypes.bool,
   theme: PropTypes.object,
   onOpen: PropTypes.func,
   onClose: PropTypes.func,

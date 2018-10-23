@@ -17,6 +17,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "iconPosition": "right",
+      "loading": false,
       "onChange": [Function],
       "placeholder": "Search",
       "theme": undefined,
@@ -32,6 +33,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "iconPosition": "right",
+        "loading": false,
         "onChange": [Function],
         "placeholder": "Search",
         "theme": undefined,
@@ -78,6 +80,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "iconPosition": "left",
+      "loading": false,
       "onChange": [Function],
       "placeholder": "Search",
       "theme": undefined,
@@ -93,6 +96,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "iconPosition": "left",
+        "loading": false,
         "onChange": [Function],
         "placeholder": "Search",
         "theme": undefined,
@@ -140,6 +144,7 @@ ShallowWrapper {
     "props": Object {
       "hideIcon": true,
       "iconPosition": "right",
+      "loading": false,
       "onChange": [Function],
       "placeholder": "Search",
       "theme": undefined,
@@ -156,6 +161,7 @@ ShallowWrapper {
       "props": Object {
         "hideIcon": true,
         "iconPosition": "right",
+        "loading": false,
         "onChange": [Function],
         "placeholder": "Search",
         "theme": undefined,
@@ -202,6 +208,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "iconPosition": "right",
+      "loading": false,
       "onChange": [Function],
       "placeholder": "Search for dresses",
       "theme": undefined,
@@ -217,6 +224,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "iconPosition": "right",
+        "loading": false,
         "onChange": [Function],
         "placeholder": "Search for dresses",
         "theme": undefined,
@@ -250,7 +258,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <WithTheme(Searchbar)
     defaultValue="Floral dress"
     iconPosition="left"
-    isLoading={true}
+    loading={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -266,7 +274,7 @@ ShallowWrapper {
     "props": Object {
       "defaultValue": "Floral dress",
       "iconPosition": "left",
-      "isLoading": true,
+      "loading": true,
       "onChange": [Function],
       "placeholder": "Search",
       "theme": undefined,
@@ -283,7 +291,7 @@ ShallowWrapper {
       "props": Object {
         "defaultValue": "Floral dress",
         "iconPosition": "left",
-        "isLoading": true,
+        "loading": true,
         "onChange": [Function],
         "placeholder": "Search",
         "theme": undefined,
@@ -317,7 +325,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <WithTheme(Searchbar)
     defaultValue="Floral dress"
     iconPosition="right"
-    isLoading={true}
+    loading={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -333,7 +341,7 @@ ShallowWrapper {
     "props": Object {
       "defaultValue": "Floral dress",
       "iconPosition": "right",
-      "isLoading": true,
+      "loading": true,
       "onChange": [Function],
       "placeholder": "Search",
       "theme": undefined,
@@ -350,7 +358,7 @@ ShallowWrapper {
       "props": Object {
         "defaultValue": "Floral dress",
         "iconPosition": "right",
-        "isLoading": true,
+        "loading": true,
         "onChange": [Function],
         "placeholder": "Search",
         "theme": undefined,

@@ -11,19 +11,19 @@ const DropdownButton = styled.button`
   display: flex;
   align-items: center;
   min-width: 240px;
-  ${props => props.isFluid && 'width: 100%;'};
-  background-color: ${props => props.theme.white};
-  border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.stoneGrey)};
+  ${props => props.fluid && 'width: 100%;'};
+  background-color: ${props => props.theme.lightest};
+  border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.dark)};
   font-family: inherit;
   font-size: inherit;
-  color: ${props => (props.disabled ? '#ccc' : props.theme.ravenBlack)};
+  color: ${props => (props.disabled ? '#ccc' : props.theme.darkest)};
   padding: 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   user-select: ${props => (props.disabled ? 'none' : 'initial')};
   &:focus {
     outline: none;
-    box-shadow: 0 0 4px ${props => props.theme.skyBlue};
-    border-color: ${props => props.theme.skyBlue};
+    box-shadow: 0 0 4px ${props => props.theme.primary};
+    border-color: ${props => props.theme.primary};
   }
 `;
 
@@ -40,7 +40,7 @@ const StyledIcon = styled(Icon).attrs({
     if (props.disabled) {
       return '#ccc';
     }
-    return props.selected ? props.theme.limeGreen : props.theme.ravenBlack;
+    return props.selected ? props.theme.limeGreen : props.theme.darkest;
   },
 })`
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
@@ -48,7 +48,7 @@ const StyledIcon = styled(Icon).attrs({
 `;
 
 const DropdownPanel = styled.div`
-  background: ${props => props.theme.white};
+  background: ${props => props.theme.lightest};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
   box-shadow: 0 1px 4px #ccc;
@@ -71,13 +71,12 @@ class Dropdown extends Component {
   }
 
   getIcon = () => {
-    const { isSelected } = this.props;
+    const { selected } = this.props;
 
-    return isSelected ? 'caret-selected' : 'caret-down';
+    return selected ? 'caret-selected' : 'caret-down';
   };
 
-  isControlled = () =>
-    typeof this.props.isOpen !== 'undefined';
+  isControlled = () => typeof this.props.open !== 'undefined';
 
   handleMenuOpen = () => {
     if (!this.isControlled()) {
@@ -93,23 +92,31 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const { isDisabled, label, isSelected, isLoading, onClick, isOpen, isFluid } = this.props;
+    const {
+      disabled,
+      label,
+      selected,
+      loading,
+      onClick,
+      open,
+      fluid,
+    } = this.props;
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton disabled={isDisabled} onClick={onClick} isFluid={isFluid}>
+      <DropdownButton disabled={disabled} onClick={onClick} fluid={fluid}>
         <Label>{label}</Label>
         <IconWrapper>
-          {isLoading ? (
+          {loading ? (
             <LoadingSpinner size="17px" />
           ) : (
             <StyledIcon
-              open={this.isControlled() ? isOpen : menuOpen}
-              selected={isSelected}
+              open={this.isControlled() ? open : menuOpen}
+              selected={selected}
               name={this.getIcon()}
-              width={isSelected ? 11 : 16}
+              width={selected ? 11 : 16}
               height={9}
-              disabled={isDisabled}
+              disabled={disabled}
             />
           )}
         </IconWrapper>
@@ -123,9 +130,9 @@ class Dropdown extends Component {
       className,
       position,
       preventOutOfBounds,
-      isDisabled,
-      isOpen,
-      isFluid,
+      disabled,
+      open,
+      fluid,
     } = this.props;
 
     return (
@@ -136,9 +143,9 @@ class Dropdown extends Component {
         onClose={this.handleMenuClose}
         position={position}
         preventOutOfBounds={preventOutOfBounds}
-        isDisabled={isDisabled}
-        isFluid={isFluid}
-        isOpen={isOpen}
+        disabled={disabled}
+        fluid={fluid}
+        open={open}
       >
         <DropdownPanel>{children}</DropdownPanel>
       </ToggleMenu>
@@ -152,10 +159,10 @@ Dropdown.propTypes = {
   /** Custom class name */
   className: PropTypes.string,
   /** Disable dropdown */
-  isDisabled: PropTypes.bool,
+  disabled: PropTypes.bool,
   /** Show checkmark instead of dropdown caret */
-  isSelected: PropTypes.bool,
-  isLoading: PropTypes.bool,
+  selected: PropTypes.bool,
+  loading: PropTypes.bool,
   /** Contents of the dropdown */
   children: PropTypes.node.isRequired,
   /** Position of the dropdown panel */
@@ -164,18 +171,18 @@ Dropdown.propTypes = {
   /** Flag to flip the menu position if out of viewport */
   preventOutOfBounds: PropTypes.bool,
   /** Makes the toggle button fluid (100% width) */
-  isFluid: PropTypes.bool,
-  isOpen: PropTypes.bool,
+  fluid: PropTypes.bool,
+  open: PropTypes.bool,
   onClick: PropTypes.func,
 };
 
 Dropdown.defaultProps = {
   label: 'Select',
   className: null,
-  isDisabled: false,
-  isSelected: false,
-  isLoading: false,
-  isFluid: false,
+  disabled: false,
+  selected: false,
+  loading: false,
+  fluid: false,
   onClose: () => null,
 };
 
