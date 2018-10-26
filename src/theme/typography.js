@@ -14,9 +14,9 @@ export const LINE_HEIGHT_CONTROL_BASE = 20;
 export const LINE_HEIGHT_CONTROL_LARGE = 24;
 
 const typography = {
-  fontSmall: `${FONT_SIZE_SMALL / FONT_SIZE_BASE}rem`,
+  fontSizeSmall: `${FONT_SIZE_SMALL / FONT_SIZE_BASE}rem`,
   fontSizeBase: '1rem',
-  fontLarge: `${FONT_SIZE_LARGE / FONT_SIZE_BASE}rem`,
+  fontSizeLarge: `${FONT_SIZE_LARGE / FONT_SIZE_BASE}rem`,
 
   lineHeightSmall: `${LINE_HEIGHT_SMALL / FONT_SIZE_SMALL}`,
   lineHeightBase: `${LINE_HEIGHT_BASE / FONT_SIZE_BASE}`,
