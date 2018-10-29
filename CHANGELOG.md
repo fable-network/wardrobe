@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+- Typography description in the styleguide.
+- Unify theme dictionaries (export values, not styles).
+
 ## [2.0.0] - 2018-10-24
 
 ### Added
