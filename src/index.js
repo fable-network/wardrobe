@@ -15,3 +15,4 @@ export Table from './components/Table';
 
 export Animations from './animations';
 export Theme from './theme/default';
+export Normalize from './theme/normalize';

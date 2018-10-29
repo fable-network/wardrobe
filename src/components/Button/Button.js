@@ -83,7 +83,7 @@ const Button = styled(ButtonInner)`
   font-weight: normal;
 
   &:hover {
-    ${p => p.theme.shadow};
+    box-shadow: ${p => p.theme.shadow};
     transition: border-color 150ms linear, background-color 150ms linear, box-shadow 150ms linear;
   }
 
@@ -92,7 +92,7 @@ const Button = styled(ButtonInner)`
   }
 
   &:hover:disabled {
-    ${p => p.theme.noShadow};
+    box-shadow: ${p => p.theme.noShadow};
   }
 
   ${p => p.appearance === 'primary' && cssPrimary};

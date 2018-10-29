@@ -57,7 +57,7 @@ const SizeExample = styled.div`
 const Sizes = ({ name, value }) => (
   <Wrapper>
     <Heading>
-      {name} (<Code>{value}</Code>)
+      {name} (<Code>{parseFloat(value).toFixed(3)}em</Code>)
     </Heading>
     <SizeExample size={value} name={name} />
   </Wrapper>
