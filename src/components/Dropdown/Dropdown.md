@@ -58,6 +58,16 @@ Dropdown disabled.
 </Dropdown>
 ```
 
+Dropdown with a custom node label.
+
+```jsx
+<Dropdown label={<h3>h3 label</h3>}>
+  <Dropdown.Item>
+    Hey there
+  </Dropdown.Item>
+</Dropdown>
+```
+
 Dropdown controlled by `open` prop (`true`).
 
 ```jsx

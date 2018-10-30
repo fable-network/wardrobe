@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- `label` prop in the Dropdown component can now be a node (previously string only).
 
 ### Added
 - Typography description in the styleguide.
