@@ -20,7 +20,7 @@ const TableRowControls = styled(Table.Row)`
   }
 `;
 
-const OneLine = styled(Button)`
+const OneLine = styled(({ fontSize, lineHeight, ...otherProps }) => <Button {...otherProps} />)`
   ${font};
 `;
 
@@ -91,7 +91,7 @@ export const ControlTypography = ({ name }) => {
           fontSize={fontSize}
           lineHeight={lineHeight}
           value={'Multi line\ncontrol sample'}
-          readonly
+          readOnly
         />
       </TableCellSample>
     </TableRowControls>
