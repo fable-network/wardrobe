@@ -155,7 +155,7 @@ class Dropdown extends Component {
 
 Dropdown.propTypes = {
   /** button label */
-  label: PropTypes.string,
+  label: PropTypes.node,
   /** Custom class name */
   className: PropTypes.string,
   /** Disable dropdown */

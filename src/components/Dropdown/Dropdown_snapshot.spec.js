@@ -64,24 +64,33 @@ describe('Dropdown Component', () => {
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Dropdown open={true}>
+        <Dropdown label={<h3>h3 label</h3>}>
           <Dropdown.Item>
-            <nobr>You can't close me</nobr>
+            Hey there
           </Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
-        <Dropdown open={false} label="You can't open me">
+        <Dropdown open={true}>
           <Dropdown.Item>
-            <nobr>You will never see me</nobr>
+            <nobr>You can't close me</nobr>
           </Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
+        <Dropdown open={false} label="You can't open me">
+          <Dropdown.Item>
+            <nobr>You will never see me</nobr>
+          </Dropdown.Item>
+        </Dropdown>
+      );
+      expect(wrapper8).toMatchSnapshot();
+
+      const wrapper9 = shallow(
         <Dropdown label="Don't push me" fluid={true}>
           <Dropdown.Item onClick={() => alert('Clicked 1')}>
             <nobr>...cause I'm close to the edge</nobr>
@@ -100,7 +109,7 @@ describe('Dropdown Component', () => {
           </Dropdown.Item>
         </Dropdown>
       );
-      expect(wrapper8).toMatchSnapshot();
+      expect(wrapper9).toMatchSnapshot();
 
     });
   });
