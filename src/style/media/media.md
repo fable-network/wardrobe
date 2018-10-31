@@ -9,6 +9,8 @@ Breakpoints are inspired by [The 100% correct way to do CSS breakpoints](https:/
 
 ### Available media rules
 
+Media queries are in pixels. See [Don't use em for media queries](https://adamwathan.me/dont-use-em-for-media-queries/).
+
 ```jsx noeditor
 const theme = require('../../theme/media').default;
 const Table = require('../../components/Table').default;

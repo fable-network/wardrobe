@@ -1,5 +1,4 @@
 import { css } from 'styled-components';
-import { FONT_SIZE_BASE } from './typography';
 
 export const sizesMin = {
   tablet: 600,
@@ -14,8 +13,8 @@ export const sizesMax = {
 };
 
 function createMediaRule({ sizeMin, sizeMax }) {
-  const min = Boolean(sizeMin) && `and (min-width: ${sizeMin / FONT_SIZE_BASE}em)`;
-  const max = Boolean(sizeMax) && `and (max-width: ${sizeMax / FONT_SIZE_BASE}em)`;
+  const min = Boolean(sizeMin) && `and (min-width: ${sizeMin}px)`;
+  const max = Boolean(sizeMax) && `and (max-width: ${sizeMax}px)`;
   return (...args) => css`
   @media screen ${min} ${max} {
     ${css(...args)};
