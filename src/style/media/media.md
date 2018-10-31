@@ -3,7 +3,8 @@ Breakpoints are inspired by [The 100% correct way to do CSS breakpoints](https:/
 |                     | Mobile   | Tablet   | Desktop  | Wide      |
 | ------------------- | -------- | -------- | -------- | --------- |
 | Screen size         | `<600px` | `≥600px` | `≥900px` | `≥1200px` |
-| Max container width | `100%`   | `568px`  | `864px`  | `1168px`  |
+| Max container width | `100%`   | `600px`  | `896px`  | `1200px`  |
+| Container padding   | `16px` on both sides |
 | # of columns        | `6`      | `6`      | `12`     | `12`      |
 | Gutter width        | `32px`   |
 
