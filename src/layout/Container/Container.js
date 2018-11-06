@@ -4,19 +4,18 @@ import { paddingHorizontal, marginHorizontal } from '../../helpers/styled';
 
 const responsiveCss = css`
   ${p => p.theme.tablet_up`
-    max-width: ${p.theme.containerMaxWidthTablet};
+    width: ${p.theme.containerMaxWidthTablet};
   `};
   ${p => p.theme.desktop_up`
-    max-width: ${p.theme.containerMaxWidthDesktop};
+    width: ${p.theme.containerMaxWidthDesktop};
   `};
   ${p => p.theme.wide_up`
-    max-width: ${p.theme.containerMaxWidthWide};
+    width: ${p.theme.containerMaxWidthWide};
   `};
 `;
 
 const Container = styled.div`
   width: 100%;
-  max-width: auto;
   box-sizing: border-box;
   ${p => paddingHorizontal(`calc(${p.theme.gridGutterWidth} / 2)`)};
   ${marginHorizontal('auto')};
