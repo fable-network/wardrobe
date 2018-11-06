@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import snakeCase from 'lodash/snakeCase';
+import Table from '../../components/Table';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
+import * as sizes from '../../theme/sizes';
 
 function getSize({ size, name }) {
   if (name.startsWith('paddingHorizontal')) {
@@ -13,29 +16,6 @@ function getSize({ size, name }) {
   return '';
 }
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: flex-start;
-  width: 100%;
-  > * + * {
-    margin-top: 8px;
-  }
-  & + & {
-    margin-top: 16px;
-  }
-`;
-
-const Heading = styled.h4`
-  margin: 0;
-`;
-
-const Code = styled.span`
-  padding: 4px;
-  margin: 0 4px;
-  background: ${p => p.theme.light};
-`;
-
 const SizeExample = styled.div`
   display: inline-flex;
   align-items: center;
@@ -43,25 +23,37 @@ const SizeExample = styled.div`
   background-color: ${p => p.theme.warning};
   ${getSize};
   &:before {
-    content: '';
+    content: 'Example';
     display: block;
     position: relative;
-    background-color: ${p => p.theme.dark};
-    width: 64px;
-    height: 64px;
+    background-color: ${p => p.theme.darker};
+    color: white;
+    text-align: center;
+    width: 96px;
+    font-size: ${p => p.theme.fontSizeBase};
+    line-height: ${p => p.theme.lineHeightBase};
+    height: ${p => p.theme.lineHeightBase};
     max-height: 100%;
     max-width: 100%;
   }
 `;
 
-const Sizes = ({ name, value }) => (
-  <Wrapper>
-    <Heading>
-      {name} (<Code>{parseFloat(value).toFixed(3)}em</Code>)
-    </Heading>
-    <SizeExample size={value} name={name} />
-  </Wrapper>
-);
+const Sizes = ({ name, value }) => {
+  const valueString = value.endsWith('em') ? `${parseFloat(value).toFixed(2)}em` : value;
+  const pxValueString = (value.endsWith('em') && sizes[snakeCase(name).toUpperCase()]) || '';
+  return (
+    <Table.Row>
+      <Table.Cell>{name}</Table.Cell>
+      <Table.Cell>
+        {valueString}
+        {pxValueString && ` (${pxValueString}px)`}
+      </Table.Cell>
+      <Table.Cell>
+        {Boolean(getSize({ size: value, name })) && <SizeExample size={value} name={name} />}
+      </Table.Cell>
+    </Table.Row>
+  );
+};
 
 Sizes.propTypes = {
   name: PropTypes.string,
