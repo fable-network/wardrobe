@@ -10,13 +10,27 @@ const font = css`
   line-height: ${p => p.lineHeight};
 `;
 
-const TableRow = styled(Table.Row)`
-  ${font};
+const TableCellTypeSample = styled(Table.Cell)``;
+
+const TableRowTypes = styled(Table.Row)`
+  margin-top: 2em;
+  &:first-child {
+    margin-top: 0;
+  }
+  > ${TableCellTypeSample} {
+    ${font};
+    color: ${p => p.theme.darkest};
+    min-width: 400px;
+    flex-basis: 400px;
+  }
 `;
 
 const TableRowControls = styled(Table.Row)`
   > div {
     flex-grow: 0;
+  }
+  & + & {
+    margin-top: 2em;
   }
 `;
 
@@ -31,7 +45,7 @@ const MultiLine = styled.textarea`
   display: block;
 `;
 
-const TableCellSample = styled(Table.Cell)`
+const TableCellControlSample = styled(Table.Cell)`
   width: 200px;
   flex-basis: 200px;
   flex-shrink: 0;
@@ -41,7 +55,7 @@ const Hint = styled.span`
   color: ${p => p.theme.dark};
 `;
 
-export const Typography = ({ name, children, tag }) => {
+export const Typography = ({ name, children }) => {
   const fontSize = typography[`fontSize${name}`];
   const lineHeight = typography[`lineHeight${name}`];
   const fontSizeNumber = typeConsts[`FONT_SIZE_${name.toUpperCase()}`];
@@ -49,21 +63,21 @@ export const Typography = ({ name, children, tag }) => {
   const lineHeightRatio = Math.round((100 * lineHeightNumber) / fontSizeNumber) / 100;
 
   return (
-    <TableRow fontSize={fontSize} lineHeight={lineHeight}>
+    <TableRowTypes fontSize={fontSize} lineHeight={lineHeight}>
       <Table.Cell>{name}</Table.Cell>
       <Table.Cell>
         {fontSizeNumber}px / {lineHeightNumber}px
         <br />
-        <Hint>({fontSize} / {lineHeightRatio})</Hint>
+        <Hint>
+          ({fontSize} / {lineHeightRatio})
+        </Hint>
       </Table.Cell>
-      <Table.Cell>{tag}</Table.Cell>
-      <Table.Cell>{children}</Table.Cell>
-    </TableRow>
+      <TableCellTypeSample>{children}</TableCellTypeSample>
+    </TableRowTypes>
   );
 };
 Typography.propTypes = {
   name: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
   children: PropTypes.string,
 };
 
@@ -79,21 +93,23 @@ export const ControlTypography = ({ name }) => {
       <Table.Cell>
         {fontSizeNumber}px / {lineHeightNumber}px
         <br />
-        <Hint>({fontSize} / {lineHeightRatio})</Hint>
+        <Hint>
+          ({fontSize} / {lineHeightRatio})
+        </Hint>
       </Table.Cell>
-      <TableCellSample>
+      <TableCellControlSample>
         <OneLine fontSize={fontSize} lineHeight={lineHeight}>
           One&nbsp;line
         </OneLine>
-      </TableCellSample>
-      <TableCellSample>
+      </TableCellControlSample>
+      <TableCellControlSample>
         <MultiLine
           fontSize={fontSize}
           lineHeight={lineHeight}
           value={'Multi line\ncontrol sample'}
           readOnly
         />
-      </TableCellSample>
+      </TableCellControlSample>
     </TableRowControls>
   );
 };
