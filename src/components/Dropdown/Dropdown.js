@@ -12,11 +12,11 @@ const DropdownButton = styled.button`
   align-items: center;
   min-width: 240px;
   ${props => props.fluid && 'width: 100%;'};
-  background-color: ${props => props.theme.lightest};
-  border: solid 1px ${props => (props.disabled ? '#ccc' : props.theme.dark)};
+  background-color: ${props => props.theme.white};
+  border: solid 1px ${props => (props.disabled ? props.theme.grey04 : props.theme.grey03)};
   font-family: inherit;
   font-size: inherit;
-  color: ${props => (props.disabled ? '#ccc' : props.theme.darkest)};
+  color: ${props => (props.disabled ? props.theme.grey04 : props.theme.grey01)};
   padding: 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   user-select: ${props => (props.disabled ? 'none' : 'initial')};
@@ -38,9 +38,9 @@ const StyledIcon = styled(Icon).attrs({
   color: props => {
     // Set Icon color attribute
     if (props.disabled) {
-      return '#ccc';
+      return props.theme.grey04;
     }
-    return props.selected ? props.theme.limeGreen : props.theme.darkest;
+    return props.selected ? props.theme.limeGreen : props.theme.grey01;
   },
 })`
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
@@ -48,7 +48,7 @@ const StyledIcon = styled(Icon).attrs({
 `;
 
 const DropdownPanel = styled.div`
-  background: ${props => props.theme.lightest};
+  background: ${props => props.theme.white};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
   padding: 0.5rem 0;

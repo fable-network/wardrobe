@@ -1,41 +1,75 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-
-// These colors are so light the color name should be rendered black
-const lightColors = ['light', 'lighter', 'lightest'];
+import remark from 'remark';
+import reactRenderer from 'remark-react';
 
 const Wrapper = styled.div`
-  border: 1px solid #000;
-  margin: 5px;
+  margin: 0.5rem;
+  box-shadow: ${p => p.theme.shadow};
+  width: 240px;
 `;
 
 const StyledColor = styled.div`
+  display: block;
+  content: '';
+  height: 5rem;
   background-color: ${props => props.theme[props.color]};
-  width: 120px;
-  height: 120px;
-  border: 2px solid #fff;
-  font-family: "Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: ${props => (lightColors.indexOf(props.color) >= 0 ? '#000' : '#fff')};
-  padding: 5px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 `;
 
-const Colors = ({ name, value }) => (
+const Description = styled.div`
+  padding: 1rem;
+`;
+
+const Title = styled.p`
+  color: ${p => p.theme.grey01};
+  font-weight: 500;
+  margin: 0;
+`;
+
+const Value = styled.span`
+  font-family: monospace;
+  color: ${p => p.theme.grey02};
+`;
+
+const Text = styled.div`
+  margin-top: 1rem;
+  color: ${p => p.theme.grey02};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightSmall};
+
+  ul {
+    padding: 0 0 0 1rem;
+    li + li {
+      margin-top: 0.5rem;
+    }
+  }
+`;
+
+const Colors = ({ name, value, description }) => (
   <Wrapper>
-    <StyledColor color={name}>
-      <span>{name}</span>
-      <span style={{ fontFamily: 'monospace' }}>{value}</span>
-    </StyledColor>
+    <StyledColor color={name} />
+    <Description>
+      <Title>{name}</Title>
+      <Value>{value}</Value>
+      {Boolean(description) && (
+        <Text>
+          <p>Use it for:</p>
+          {
+            remark()
+              .use(reactRenderer)
+              .processSync(description).contents
+          }
+        </Text>
+      )}
+    </Description>
   </Wrapper>
 );
 
 Colors.propTypes = {
   name: PropTypes.string,
   value: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default Colors;

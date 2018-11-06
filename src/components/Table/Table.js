@@ -6,17 +6,17 @@ import defaultTheme from '../../theme/default';
 
 const colors = {
   light: {
-    headerColor: defaultTheme.light,
-    rowColor: defaultTheme.lightest,
-    textColor: defaultTheme.darker,
-    borderColor: defaultTheme.dark,
-    alternateRowColor: defaultTheme.lighter,
+    headerColor: defaultTheme.grey04,
+    rowColor: defaultTheme.white,
+    textColor: defaultTheme.grey02,
+    borderColor: defaultTheme.grey03,
+    alternateRowColor: defaultTheme.backgroundSecondary,
   },
   dark: {
-    headerColor: defaultTheme.darker,
-    rowColor: defaultTheme.darkest,
-    textColor: defaultTheme.lightest,
-    borderColor: defaultTheme.dark,
+    headerColor: defaultTheme.grey02,
+    rowColor: defaultTheme.grey01,
+    textColor: defaultTheme.white,
+    borderColor: defaultTheme.grey03,
     alternateRowColor: '#424344',
   },
 };

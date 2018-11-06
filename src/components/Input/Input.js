@@ -1,20 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-import { hexToRgba } from '../../helpers/colors';
 
 const StyledInput = styled.input`
   box-sizing: border-box;
   width: 100%;
   padding: 8px 10px;
-  border: solid 1px ${p => (p.disabled ? hexToRgba(p.theme.dark, 0.5) : p.theme.dark)};
+  border: solid 1px ${p => (p.disabled ? p.theme.disabled : p.theme.grey03)};
   outline: none;
-  color: ${p => (p.disabled ? hexToRgba(p.theme.dark, 0.5) : p.theme.darkest)};
+  color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
   font-size: 16px;
   text-overflow: ellipsis;
   cursor: ${p => (p.disabled ? 'not-allowed' : 'default')};
 
   ::placeholder {
-    color: ${p => (p.disabled ? hexToRgba(p.theme.dark, 0.5) : p.theme.dark)};
+    color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey03)};
   }
 
   &:focus {

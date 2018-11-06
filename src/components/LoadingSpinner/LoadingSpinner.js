@@ -6,12 +6,12 @@ import defaultTheme from '../../theme/default';
 
 const colors = {
   primary: defaultTheme.primary,
-  secondary: defaultTheme.dark,
+  secondary: defaultTheme.grey03,
   success: defaultTheme.success,
   danger: defaultTheme.danger,
   warning: defaultTheme.warning,
-  light: defaultTheme.lighter,
-  dark: defaultTheme.darkest,
+  light: defaultTheme.grey06,
+  dark: defaultTheme.grey01,
 };
 
 const StyledSpinner = styled.span`

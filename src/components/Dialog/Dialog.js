@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { hexToRgba } from '../../helpers/colors';
 
 const PADDINGS = {
   small: '16px 24px',
@@ -39,7 +38,7 @@ const WrapperResponsive = `
 `;
 
 const Wrapper = styled.div`
-  background-color: ${props => props.theme.lightest};
+  background-color: ${props => props.theme.white};
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
   width: 100%;
   max-width: 100%;
@@ -48,7 +47,7 @@ const Wrapper = styled.div`
   `};
 
   ${HeaderStyled} {
-    border-bottom: solid 1px ${props => hexToRgba(props.theme.dark, 0.5)};
+    border-bottom: solid 1px ${props => props.theme.grey05};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     font-size: 1.25em;
     font-weight: bold;
@@ -60,7 +59,7 @@ const Wrapper = styled.div`
   }
 
   ${FooterStyled} {
-    border-top: solid 1px ${props => hexToRgba(props.theme.dark, 0.5)};
+    border-top: solid 1px ${props => props.theme.grey05};
     padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;
