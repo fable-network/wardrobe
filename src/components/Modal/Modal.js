@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import * as focusScope from 'a11y-focus-scope';
 import * as focusStore from 'a11y-focus-store';
-import { DESKTOP } from '../../constants/Breakpoints';
+import { theme as defaultTheme } from '../../theme';
 
 const Backdrop = styled.section`
   position: fixed;
@@ -30,17 +30,17 @@ const ModalWrapper = styled.div`
   &:focus {
     outline: none;
   }
-  @media ${DESKTOP} {
+  ${p => (p.theme.desktop_up || defaultTheme.desktop_up)`
     width: auto;
-  }
+  `};
 `;
 
 const Content = styled.div`
   height: 100vh;
-  @media ${DESKTOP} {
+  ${p => (p.theme.desktop_up || defaultTheme.desktop_up)`
     height: auto;
     margin: 20px 0;
-  }
+  `};
 `;
 
 /**

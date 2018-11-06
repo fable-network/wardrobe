@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { DESKTOP } from '../../constants/Breakpoints';
 import { hexToRgba } from '../../helpers/colors';
 
 const PADDINGS = {
@@ -29,14 +28,14 @@ const FooterStyled = styled.footer``;
 const BodyStyled = styled.div``;
 
 const WrapperResponsive = `
-  @media ${DESKTOP} {
+  ${p => p.theme.desktop_up`
     flex-flow: row-reverse wrap;
     align-items: center;
     justify-content: space-between;
     > * + * {
       margin-top: 0;
     }
-  }
+  `};
 `;
 
 const Wrapper = styled.div`
@@ -44,9 +43,9 @@ const Wrapper = styled.div`
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
   width: 100%;
   max-width: 100%;
-  @media ${DESKTOP} {
+  ${p => p.theme.desktop_up`
     ${props => WIDTHS[props.size]};
-  }
+  `};
 
   ${HeaderStyled} {
     border-bottom: solid 1px ${props => hexToRgba(props.theme.dark, 0.5)};
@@ -55,9 +54,9 @@ const Wrapper = styled.div`
     font-weight: bold;
     text-align: center;
     color: ${props => props.theme.primary};
-    @media ${DESKTOP} {
+    ${p => p.theme.desktop_up`
       font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
-    }
+    `};
   }
 
   ${FooterStyled} {
@@ -84,7 +83,11 @@ const Wrapper = styled.div`
  */
 function Dialog(props) {
   const { size, children, ...otherProps } = props;
-  return <Wrapper {...otherProps} size={size}>{children}</Wrapper>;
+  return (
+    <Wrapper {...otherProps} size={size}>
+      {children}
+    </Wrapper>
+  );
 }
 
 Dialog.defaultProps = {
