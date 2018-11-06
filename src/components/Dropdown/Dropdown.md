@@ -2,6 +2,28 @@ Dropdown:
 
 ```jsx
 <Dropdown label="Don't push me">
+  <Dropdown.Item>
+    <nobr>...cause I'm close to the edge</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>I'm trying not to lose my head</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It's like a jungle sometimes</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It makes me wonder how I keep from goin' under</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>-- Grandmaster Flash</nobr>
+  </Dropdown.Item>
+</Dropdown>
+```
+
+Dropdown with `persist=true`:
+
+```jsx
+<Dropdown label="Don't push me" persist>
   <Dropdown.Item onClick={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
   </Dropdown.Item>
@@ -20,10 +42,32 @@ Dropdown:
 </Dropdown>
 ```
 
+Dropdown with `preventOutOfBounds=true`:
+
+```jsx
+<Dropdown label="Don't push me" preventOutOfBounds>
+  <Dropdown.Item>
+    <nobr>...cause I'm close to the edge</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>I'm trying not to lose my head</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It's like a jungle sometimes</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It makes me wonder how I keep from goin' under</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>-- Grandmaster Flash</nobr>
+  </Dropdown.Item>
+</Dropdown>
+```
+
 Dropdown panel will expand horizontally when content does not allow wrapping.
 
 ```jsx
-<Dropdown label="Push Me">
+<Dropdown label="Push Me" persist>
   <nobr>You can place any content you prefer here.</nobr>
 </Dropdown>
 ```

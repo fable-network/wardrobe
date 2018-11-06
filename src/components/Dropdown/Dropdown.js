@@ -51,6 +51,7 @@ const DropdownPanel = styled.div`
   background: ${props => props.theme.lightest};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
+  padding: 0.5rem 0;
   box-shadow: 0 1px 4px #ccc;
   overflow: auto;
 `;
@@ -133,6 +134,7 @@ class Dropdown extends Component {
       disabled,
       open,
       fluid,
+      persist,
     } = this.props;
 
     return (
@@ -145,6 +147,7 @@ class Dropdown extends Component {
         preventOutOfBounds={preventOutOfBounds}
         disabled={disabled}
         fluid={fluid}
+        persist={persist}
         open={open}
       >
         <DropdownPanel>{children}</DropdownPanel>
@@ -172,6 +175,8 @@ Dropdown.propTypes = {
   preventOutOfBounds: PropTypes.bool,
   /** Makes the toggle button fluid (100% width) */
   fluid: PropTypes.bool,
+  /** Makes dropdown panel stay after a click inside of it. */
+  persist: PropTypes.bool,
   open: PropTypes.bool,
   onClick: PropTypes.func,
 };
@@ -183,6 +188,7 @@ Dropdown.defaultProps = {
   selected: false,
   loading: false,
   fluid: false,
+  persist: false,
   onClose: () => null,
 };
 

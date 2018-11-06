@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding: 5px 15px;
+  padding: 0.5rem 1rem;
   color: ${props => props.theme.darkest};
   cursor: pointer;
 

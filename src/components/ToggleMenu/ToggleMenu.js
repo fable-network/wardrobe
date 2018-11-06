@@ -163,7 +163,7 @@ class ToggleMenu extends Component {
     if (!process.env.IS_STYLEGUIDE) {
       event.preventDefault();
     }
-    if (this.menuRef.contains(event.target)) {
+    if (this.props.persist && this.menuRef.contains(event.target)) {
       return;
     }
     this.props.onClose();
@@ -229,6 +229,7 @@ ToggleMenu.propTypes = {
   menuOffset: PropTypes.string, // distance between the menu and the trigger
   fluid: PropTypes.bool,
   open: PropTypes.bool,
+  persist: PropTypes.bool,
   disabled: PropTypes.bool,
 };
 
@@ -240,6 +241,7 @@ ToggleMenu.defaultProps = {
   closeOnOutsideClick: true,
   menuOffset: '5px',
   fluid: false,
+  persist: false,
 };
 
 export default ToggleMenu;
