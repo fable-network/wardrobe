@@ -39,7 +39,7 @@ const SizeExample = styled.div`
 `;
 
 const Sizes = ({ name, value }) => {
-  const valueString = value.endsWith('em') ? `${parseFloat(value).toFixed(2)}em` : value;
+  const valueString = value.endsWith('em') && !value.endsWith('rem') ? `${parseFloat(value).toFixed(2)}em` : value;
   const pxValueString = (value.endsWith('em') && sizes[snakeCase(name).toUpperCase()]) || '';
   return (
     <Table.Row>

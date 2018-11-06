@@ -1,7 +1,7 @@
 import { FONT_SIZE_BASE, FONT_SIZE_SMALL, FONT_SIZE_LARGE } from './typography';
 
 // Layout
-const GRID_GUTTER_WITDH = 32;
+export const GRID_GUTTER_WIDTH = 32;
 
 // Control paddings
 export const PADDING_HORIZONTAL_LARGE = 32;
@@ -17,7 +17,7 @@ export const PADDING_VERTICAL_LARGE = 12;
  */
 const sizes = {
   // Layout (stay in pixels)
-  gridGutterWidth: `${GRID_GUTTER_WITDH}px`,
+  gridGutterWidth: `${GRID_GUTTER_WIDTH / FONT_SIZE_BASE}rem`,
   containerMaxWidthTablet: '600px',
   containerMaxWidthDesktop: '896px',
   containerMaxWidthWide: '1200px',
