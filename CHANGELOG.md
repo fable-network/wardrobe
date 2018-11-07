@@ -1,10 +1,14 @@
 ## [Unreleased]
+
 ### Changed
 - `label` prop in the Dropdown component can now be a node (previously string only).
 
 ### Added
 - Typography description in the styleguide.
 - Unify theme dictionaries (export values, not styles).
+
+### Breaking changes
+- Dropdown and OverflowMenu components now require a `persist` prop to be set to avoid closing dropdown panel after a click inside.
 
 ## [2.0.0] - 2018-10-24
 
