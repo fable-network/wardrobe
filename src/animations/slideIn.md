@@ -1,4 +1,4 @@
-Infinite pulsation
+Slide in movement for a specified amount of pixels.
 
 ```js
 const styled = require('styled-components').default;

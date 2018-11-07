@@ -1,4 +1,4 @@
-Infinite pulsation
+Infinite pulsation.
 
 ```js
 const styled = require('styled-components').default;

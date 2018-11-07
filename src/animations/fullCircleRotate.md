@@ -1,4 +1,4 @@
-Infinite pulsation
+A clock-wise 360deg rotation.
 
 ```js
 const styled = require('styled-components').default;
