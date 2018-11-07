@@ -5,6 +5,42 @@ FashionTrade Component Library.
 [Components styleguide](http://wardrobe.fashiontrade.com)
 
 
+## How to use
+
+`yarn add @fashiontrade/wardrobe styled-components@3`
+
+Wrap you app in a `ThemeProvider` and pass `Theme` object imported from `@fashiontrade/wardrobe`
+
+```js
+import React from 'react'
+import { render } from 'react-dom'
+import { ThemeProvider } from 'styled-components';
+import { Theme } from '@fashiontrade/wardrobe';
+import App from './App';
+
+render(
+  <ThemeProvider theme={Theme}>
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+)
+```
+
+You can now use the wardrobe components:
+
+```js
+import { Dialog } from '@fashiontrade/wardrobe';
+
+const MyComponent = () => (
+  <Dialog size="normal" open={true}>
+    <Dialog.Header>Please select your profile</Dialog.Header>
+    <Dialog.Body>Body text goes here</Dialog.Body>
+  </Dialog>
+);
+
+export default MyComponent;
+```
+
 ## How to run
 * `yarn install`
 * `yarn start` (Uses [Styleguidist](https://github.com/styleguidist/react-styleguidist))
