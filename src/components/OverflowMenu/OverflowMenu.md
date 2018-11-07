@@ -34,6 +34,13 @@ Basic usage `size="small"` (default):
 </OverflowMenu>
 ```
 
+Persist the menu after a click inside:
+```jsx
+<OverflowMenu persist>
+  <p>Some sample text</p>
+</OverflowMenu>
+```
+
 Different position:
 ```jsx
 <OverflowMenu position="left">

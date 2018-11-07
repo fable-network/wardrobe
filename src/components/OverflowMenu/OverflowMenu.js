@@ -103,7 +103,7 @@ class OverflowMenu extends Component {
   }
 
   render() {
-    const { children, position, open } = this.props;
+    const { children, position, open, persist } = this.props;
 
     return (
       <ToggleMenu
@@ -111,6 +111,7 @@ class OverflowMenu extends Component {
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
+        persist={persist}
         open={open}
       >
         <Menu>
@@ -145,6 +146,8 @@ OverflowMenu.propTypes = {
   activeColor: PropTypes.string,
   children: PropTypes.node.isRequired,
   position: PropTypes.string,
+  /** Makes dropdown panel stay after a click inside of it. */
+  persist: PropTypes.bool,
   open: PropTypes.bool,
   theme: PropTypes.object,
   onOpen: PropTypes.func,
