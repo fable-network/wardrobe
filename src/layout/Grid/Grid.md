@@ -13,17 +13,16 @@ The values have been chosen to match with an 8px-grid.
 const Content = ({ index }) => (
   <div
     style={{
-      backgroundColor: `#${index % 3 === 0 ? 'f' : 'a'}${index % 3 === 1 ? 'f' : 'a'}${
-        index % 3 === 2 ? 'f' : 'a'
+      backgroundColor: `#${index % 3 === 0 ? 'f' : 'c'}${index % 3 === 1 ? 'f' : 'c'}${
+        index % 3 === 2 ? 'f' : 'c'
       }`,
       padding: '8px',
+      height: '24px',
       marginTop: '8px',
       marginBottom: '8px',
       textAlign: 'center',
     }}
-  >
-    {index + 1}
-  </div>
+  />
 );
 const renderCells = (count, { mobile, tablet, desktop, wide } = {}) =>
   Array.from(new Array(count)).map((_, index) => (
