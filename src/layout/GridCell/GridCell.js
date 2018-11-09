@@ -36,6 +36,10 @@ const generateColumn = (columns, maxColumns) => `
 
 const generateOffset = (offset, maxColumns) => `
   margin-left: ${(offset * 100) / maxColumns}%;
+  [data-grid-direction="rtl"] > & {
+    margin-right: ${(offset * 100) / maxColumns}%;
+    margin-left: 0;
+  }
 `;
 
 const cellBasicCss = css`
@@ -103,9 +107,6 @@ const GridCell = styled(GridCellInternal)`
   box-sizing: border-box;
   overflow: visible;
   ${p => paddingHorizontal(`calc(${p.theme.gridGutterWidth} / 2)`)};
-  > & {
-    ${paddingHorizontal('0')};
-  }
   ${cellBasicCss};
   ${cellMobileCss};
   ${cellTabletCss};
