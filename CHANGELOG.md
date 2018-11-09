@@ -6,6 +6,8 @@
 ### Added
 - Typography description in the styleguide.
 - Unify theme dictionaries (export values, not styles).
+- Container component (in layout section).
+- Grid component (in layout section).
 
 ### Breaking changes
 - Dropdown and OverflowMenu components now require a `persist` prop to be set to avoid closing dropdown panel after a click inside.
