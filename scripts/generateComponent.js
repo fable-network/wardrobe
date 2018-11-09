@@ -13,15 +13,7 @@ if (currentComponents.indexOf(componentName) > -1) {
 }
 
 const componentPath = `${COMPONENTS_PATH}/${componentName}`;
-const withStyledComponents = process.argv.indexOf('--with-styled-components') > -1;
-const withScss = process.argv.indexOf('--with-scss') > -1;
-let stylesBoilterplate = '// import scss file or styled components';
-
-if (withStyledComponents) {
-  stylesBoilterplate = "import styled from 'styled-components';";
-} else if (withScss) {
-  stylesBoilterplate = `import './${componentName}.scss';`;
-}
+const stylesBoilterplate = "import styled from 'styled-components';";
 
 const ComponentBoilerplate = `import React from 'react';
 import PropTypes from 'prop-types';
@@ -38,16 +30,6 @@ ${componentName}.propTypes = {};
 export default ${componentName};
 `;
 
-const ScssBoilerplate = `//
-// ${componentName}
-//
-@import '../../globals/scss/colors';
-@import '../../globals/scss/typography';
-@import '../../globals/scss/variables';
-@import '../../globals/scss/import-once';
-
-`;
-
 // Create new folder.
 fs.mkdirSync(componentPath);
 // Create JS file.
@@ -56,15 +38,10 @@ fs.writeFileSync(`${componentPath}/${componentName}.js`, ComponentBoilerplate);
 // Create index file.
 fs.writeFileSync(`${componentPath}/index.js`, `export default from './${componentName}';\n`);
 
-if (withScss) {
-  // Create scss file.
-  fs.writeFileSync(`${componentPath}/${componentName}.scss`, ScssBoilerplate);
-}
-
 // Create markdown file.
 fs.writeFileSync(`${componentPath}/${componentName}.md`, '');
 
 // Add export in src/components/index.js
-fs.appendFileSync(`${COMPONENTS_PATH}/index.js`, `export ${componentName} from './${componentName}';\n`);
+fs.appendFileSync('./src/index.js', `export ${componentName} from './components/${componentName}';\n`);
 
 logInfo(`Your component can be found in ${componentPath}`);

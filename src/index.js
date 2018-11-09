@@ -13,6 +13,8 @@ export OverflowMenu from './components/OverflowMenu';
 export Searchbar from './components/Searchbar';
 export Table from './components/Table';
 
+export Container from './layout/Container';
+
 export Animations from './animations';
 export Theme from './theme/default';
 export Normalize from './theme/normalize';

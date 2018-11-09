@@ -19,13 +19,13 @@ const Table = require('../../components/Table').default;
 const TypeSample = require('./typography.js').Typography;
 
 <Table appearance="light" alternatingRowColors={false}>
-  <TypeSample name="Small" tag="<small>">
+  <TypeSample name="Small">
     Small type is used for...
   </TypeSample>
-  <TypeSample name="Base" tag="<p>">
+  <TypeSample name="Base">
     Base type is used for most of the...
   </TypeSample>
-  <TypeSample name="Large" tag={'<p class="lead">'}>
+  <TypeSample name="Large">
     Large type is used in situations when...
   </TypeSample>
 </Table>;

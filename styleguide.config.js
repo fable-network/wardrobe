@@ -9,7 +9,8 @@ module.exports = {
   assetsDir: 'src/static',
 
   sections: [
-    { name: 'Style', components: 'src/style/**/*.js', content: 'docs/style.md' },
+    { name: 'Theme', components: 'src/style/**/*.js', content: 'docs/style.md' },
+    { name: 'Layout', components: 'src/layout/**/*.js' },
     { name: 'Components', components: 'src/components/**/*.js', content: 'docs/components.md' },
     { name: 'Animations', components: 'src/animations/**/*.js' },
   ],
