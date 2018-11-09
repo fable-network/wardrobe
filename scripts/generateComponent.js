@@ -2,7 +2,7 @@
 const fs = require('fs');
 const { logInfo, logError, isComponentDirectory } = require('./scriptUtils');
 
-const COMPONENTS_PATH = './src/layout';
+const COMPONENTS_PATH = './src/components';
 const currentComponents = fs.readdirSync(COMPONENTS_PATH).map(name => name)
   .filter(isComponentDirectory);
 
