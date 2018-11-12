@@ -7,6 +7,7 @@ const TriggerWrapper = styled.span`
   position: relative;
   pointer-events: ${props => (props.disabled ? 'none' : 'initial')};
   ${props => props.fluid && 'width: 100%;'};
+  max-width: 100%;
 `;
 
 const MenuWrapper = styled.div`

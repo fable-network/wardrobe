@@ -112,6 +112,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Don't push me"
       >
         <Dropdown__Label>
           Don't push me
@@ -356,6 +357,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Don't push me"
         >
           <Dropdown__Label>
             Don't push me
@@ -674,6 +676,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Don't push me"
       >
         <Dropdown__Label>
           Don't push me
@@ -918,6 +921,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Don't push me"
         >
           <Dropdown__Label>
             Don't push me
@@ -1237,6 +1241,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Don't push me"
       >
         <Dropdown__Label>
           Don't push me
@@ -1481,6 +1486,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Don't push me"
         >
           <Dropdown__Label>
             Don't push me
@@ -1735,6 +1741,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Push Me"
       >
         <Dropdown__Label>
           Push Me
@@ -1802,6 +1809,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Push Me"
         >
           <Dropdown__Label>
             Push Me
@@ -1915,6 +1923,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Push Me"
       >
         <Dropdown__Label>
           Push Me
@@ -1987,6 +1996,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Push Me"
         >
           <Dropdown__Label>
             Push Me
@@ -2103,14 +2113,13 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Something is happening"
       >
         <Dropdown__Label>
           Something is happening
         </Dropdown__Label>
         <Dropdown__IconWrapper>
-          <WithTheme(LoadingSpinner)
-            size="17px"
-          />
+          <SpinnerFontSizeBase />
         </Dropdown__IconWrapper>
       </Dropdown__DropdownButton>,
     },
@@ -2170,14 +2179,13 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Something is happening"
         >
           <Dropdown__Label>
             Something is happening
           </Dropdown__Label>
           <Dropdown__IconWrapper>
-            <WithTheme(LoadingSpinner)
-              size="17px"
-            />
+            <SpinnerFontSizeBase />
           </Dropdown__IconWrapper>
         </Dropdown__DropdownButton>,
       },
@@ -2281,6 +2289,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={true}
         fluid={false}
+        title="Select"
       >
         <Dropdown__Label>
           Select
@@ -2353,6 +2362,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={true}
           fluid={false}
+          title="Select"
         >
           <Dropdown__Label>
             Select
@@ -2670,6 +2680,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="Select"
       >
         <Dropdown__Label>
           Select
@@ -2758,6 +2769,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="Select"
         >
           <Dropdown__Label>
             Select
@@ -2893,6 +2905,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={false}
+        title="You can't open me"
       >
         <Dropdown__Label>
           You can't open me
@@ -2981,6 +2994,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={false}
+          title="You can't open me"
         >
           <Dropdown__Label>
             You can't open me
@@ -3171,6 +3185,7 @@ ShallowWrapper {
       "trigger": <Dropdown__DropdownButton
         disabled={false}
         fluid={true}
+        title="Don't push me"
       >
         <Dropdown__Label>
           Don't push me
@@ -3415,6 +3430,7 @@ ShallowWrapper {
         "trigger": <Dropdown__DropdownButton
           disabled={false}
           fluid={true}
+          title="Don't push me"
         >
           <Dropdown__Label>
             Don't push me
