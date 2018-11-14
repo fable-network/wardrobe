@@ -14,6 +14,7 @@ export Searchbar from './components/Searchbar';
 export Table from './components/Table';
 
 export Container from './layout/Container';
+export Grid from './layout/Grid';
 
 export Animations from './animations';
 export Theme from './theme/default';
