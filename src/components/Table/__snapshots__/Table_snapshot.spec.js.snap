@@ -93,7 +93,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -224,11 +224,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#e6e6e6",
+      "headerColor": "#cdcdcd",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#595959",
+      "textColor": "#666",
     },
     "ref": null,
     "rendered": Array [
@@ -675,7 +675,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -806,11 +806,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#e6e6e6",
+        "headerColor": "#cdcdcd",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#595959",
+        "textColor": "#666",
       },
       "ref": null,
       "rendered": Array [
@@ -1369,7 +1369,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -1500,11 +1500,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#e6e6e6",
+      "headerColor": "#cdcdcd",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#595959",
+      "textColor": "#666",
     },
     "ref": null,
     "rendered": Array [
@@ -1951,7 +1951,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -2082,11 +2082,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#e6e6e6",
+        "headerColor": "#cdcdcd",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#595959",
+        "textColor": "#666",
       },
       "ref": null,
       "rendered": Array [
@@ -2637,7 +2637,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -2768,11 +2768,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#e6e6e6",
+      "headerColor": "#cdcdcd",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": true,
-      "textColor": "#595959",
+      "textColor": "#666",
     },
     "ref": null,
     "rendered": Array [
@@ -3219,7 +3219,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -3350,11 +3350,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#e6e6e6",
+        "headerColor": "#cdcdcd",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": true,
-        "textColor": "#595959",
+        "textColor": "#666",
       },
       "ref": null,
       "rendered": Array [
@@ -3905,7 +3905,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#424344",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -4036,9 +4036,9 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#595959",
+      "headerColor": "#666",
       "minWidth": "0",
-      "rowColor": "#313233",
+      "rowColor": "#333",
       "showBorders": false,
       "textColor": "#ffffff",
     },
@@ -4487,7 +4487,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#424344",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -4618,9 +4618,9 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#595959",
+        "headerColor": "#666",
         "minWidth": "0",
-        "rowColor": "#313233",
+        "rowColor": "#333",
         "showBorders": false,
         "textColor": "#ffffff",
       },
@@ -5173,7 +5173,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#424344",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -5304,9 +5304,9 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#595959",
+      "headerColor": "#666",
       "minWidth": "0",
-      "rowColor": "#313233",
+      "rowColor": "#333",
       "showBorders": true,
       "textColor": "#ffffff",
     },
@@ -5755,7 +5755,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#424344",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -5886,9 +5886,9 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#595959",
+        "headerColor": "#666",
         "minWidth": "0",
-        "rowColor": "#313233",
+        "rowColor": "#333",
         "showBorders": true,
         "textColor": "#ffffff",
       },
@@ -6441,7 +6441,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": false,
       "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -6572,11 +6572,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#e6e6e6",
+      "headerColor": "#cdcdcd",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#595959",
+      "textColor": "#666",
     },
     "ref": null,
     "rendered": Array [
@@ -7023,7 +7023,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": false,
         "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -7154,11 +7154,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#e6e6e6",
+        "headerColor": "#cdcdcd",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#595959",
+        "textColor": "#666",
       },
       "ref": null,
       "rendered": Array [
@@ -7709,7 +7709,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": false,
       "alternateRowColor": "#424344",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -7840,9 +7840,9 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#595959",
+      "headerColor": "#666",
       "minWidth": "0",
-      "rowColor": "#313233",
+      "rowColor": "#333",
       "showBorders": false,
       "textColor": "#ffffff",
     },
@@ -8291,7 +8291,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": false,
         "alternateRowColor": "#424344",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -8422,9 +8422,9 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#595959",
+        "headerColor": "#666",
         "minWidth": "0",
-        "rowColor": "#313233",
+        "rowColor": "#333",
         "showBorders": false,
         "textColor": "#ffffff",
       },
@@ -8977,7 +8977,7 @@ ShallowWrapper {
     "props": Object {
       "alternateColors": true,
       "alternateRowColor": "#f7f8fa",
-      "borderColor": "#9b9b9b",
+      "borderColor": "#999",
       "children": Array [
         <Table__Row>
           <Table__Cell
@@ -9108,11 +9108,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#e6e6e6",
+      "headerColor": "#cdcdcd",
       "minWidth": "2200px",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#595959",
+      "textColor": "#666",
     },
     "ref": null,
     "rendered": Array [
@@ -9559,7 +9559,7 @@ ShallowWrapper {
       "props": Object {
         "alternateColors": true,
         "alternateRowColor": "#f7f8fa",
-        "borderColor": "#9b9b9b",
+        "borderColor": "#999",
         "children": Array [
           <Table__Row>
             <Table__Cell
@@ -9690,11 +9690,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#e6e6e6",
+        "headerColor": "#cdcdcd",
         "minWidth": "2200px",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#595959",
+        "textColor": "#666",
       },
       "ref": null,
       "rendered": Array [

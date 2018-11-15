@@ -8,7 +8,7 @@ import LoadingSpinner from '../LoadingSpinner';
 const Wrapper = styled('div')`
   position: relative;
   background: #FFF;
-  color: ${props => props.theme.darkest};
+  color: ${props => props.theme.grey01};
   display: flex;
   align-items: center;
   color: inherit;
@@ -18,7 +18,7 @@ const Input = styled('input')`
   width: 100%;
   padding: 10px;
   ${props => `padding-${props.iconPosition}: 40px;`}
-  border: solid 1px ${props => props.theme.dark};
+  border: solid 1px ${props => props.theme.grey03};
   outline: none;
   color: inherit;
   &:focus {

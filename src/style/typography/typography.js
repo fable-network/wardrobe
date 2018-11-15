@@ -52,7 +52,7 @@ const TableCellControlSample = styled(Table.Cell)`
 `;
 
 const Hint = styled.span`
-  color: ${p => p.theme.dark};
+  color: ${p => p.theme.grey03};
 `;
 
 export const Typography = ({ name, children }) => {

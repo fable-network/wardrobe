@@ -26,7 +26,7 @@ const SizeExample = styled.div`
     content: 'Example';
     display: block;
     position: relative;
-    background-color: ${p => p.theme.darker};
+    background-color: ${p => p.theme.grey03};
     color: white;
     text-align: center;
     width: 96px;

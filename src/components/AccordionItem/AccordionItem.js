@@ -6,16 +6,13 @@ import KEY_CODES from '../../helpers/keyCodes';
 
 import { slideIn } from '../../animations';
 import Icon from '../Icon';
-import { hexToRgba } from '../../helpers/colors';
-
-const addOpacity = color => (color ? hexToRgba(color, 0.5) : color);
 
 const TitleWrapper = styled('div')`
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 24px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
+  border-bottom: solid 1px ${p => p.theme.grey05};
   cursor: pointer;
 `;
 
@@ -28,17 +25,17 @@ const ChildrenWrapper = styled('div')`
   display: ${p => (p.open ? 'block' : 'none')};
   opacity: ${p => (p.open ? '1' : '0')};
   padding: 0 24px;
-  border-bottom: solid 1px ${p => addOpacity(p.theme.dark)};
+  border-bottom: solid 1px ${p => p.theme.grey05};
   animation: ${slideIn('-20px')} 0.3s ease;
 `;
 
 const Wrapper = styled('div')`
   transition: 0.3s ease-out;
   pointer-events: ${p => (p.disabled ? 'none' : 'initial')};
-  opacity: ${p => (p.disabled ? '0.4' : '1')};
+  opacity: ${p => (p.disabled ? '0.5' : '1')};
   &:first-child {
     ${TitleWrapper} {
-      border-top: solid 1px ${p => addOpacity(p.theme.dark)};
+      border-top: solid 1px ${p => p.theme.grey05};
     }
   }
 `;

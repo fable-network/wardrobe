@@ -7,6 +7,9 @@ const injectGlobalStyles = () => injectGlobal`
     font-family: "Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
   }
+  p > img:not([class]) {
+    max-width: 360px;
+  }
 `;
 
 injectGlobalStyles();

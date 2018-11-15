@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 0.5rem 1rem;
-  color: ${props => props.theme.darkest};
+  color: ${props => props.theme.grey01};
   cursor: pointer;
 
   &:hover {
-    background: #eee;
+    background: ${p => p.theme.grey05};
   }
 `;
 

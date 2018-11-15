@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled('span')`
   pointer-events: ${p => (p.disabled ? 'none' : 'initial')};
-  opacity: ${p => (p.disabled ? '0.3' : 'initial')};
+  opacity: ${p => (p.disabled ? '0.5' : 'initial')};
   cursor: pointer;
   line-height: 1;
   display: inline-flex;
@@ -17,7 +17,7 @@ const Input = styled('span')`
   width: 0.8125em;
   height: 0.8125em;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 1px ${p => (p.checked ? p.theme.primary : p.theme.dark)};
+  box-shadow: 0px 0px 0px 1px ${p => (p.checked ? p.theme.primary : p.theme.grey03)};
   background: ${p => (p.checked ? p.theme.primary : 'transparent')};
   border: solid 0.05em #fff;
   box-sizing: border-box;

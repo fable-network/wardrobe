@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
 const cssPrimary = css`
-  color: ${p => p.theme.lighter};
+  color: ${p => p.theme.white};
   background-color: ${p => p.theme.primary};
   border-color: ${p => p.theme.primary};
 
@@ -15,14 +15,14 @@ const cssPrimary = css`
 
   &:disabled,
   &:hover:disabled {
-    background-color: ${p => p.theme.disabled};
-    border-color: ${p => p.theme.disabled};
+    background-color: ${p => p.theme.grey03};
+    border-color: ${p => p.theme.grey03};
   }
 `;
 
 const cssSecondary = css`
   color: ${p => p.theme.primary};
-  background-color: ${p => p.theme.lightest};
+  background-color: ${p => p.theme.white};
   border-color: ${p => p.theme.primary};
 
   &:hover {
@@ -32,9 +32,9 @@ const cssSecondary = css`
 
   &:disabled,
   &:hover:disabled {
-    background-color: ${p => p.theme.lightest};
-    color: ${p => p.theme.disabled};
-    border-color: ${p => p.theme.disabled};
+    background-color: ${p => p.theme.white};
+    color: ${p => p.theme.grey03};
+    border-color: ${p => p.theme.grey03};
   }
 `;
 
