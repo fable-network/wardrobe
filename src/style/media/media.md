@@ -5,7 +5,7 @@ Breakpoints are inspired by [The 100% correct way to do CSS breakpoints](https:/
 | Screen size         | `<600px` | `≥600px` | `≥900px` | `≥1200px` |
 | Max container width | `100%`   | `600px`  | `896px`  | `1200px`  |
 | Container padding   | `16px` on both sides |
-| # of columns        | `6`      | `6`      | `12`     | `12`      |
+| # of columns        | `6`      | `12`      | `12`     | `12`      |
 | Gutter width        | `32px`   |
 
 ### Available media rules
@@ -32,3 +32,7 @@ Media rules are part of a theme. If you use a theme from the Wardrobe, you can a
   `};
 `;
 ```
+
+### Layout settings for Sketch
+
+![](images/sketch-layout.png)

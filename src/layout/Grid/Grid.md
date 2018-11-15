@@ -4,7 +4,7 @@ See [Media](/#/Theme?id=media) for breakpoints' details.
 |              | Mobile   | Tablet   | Desktop  | Wide      |
 | ------------ | -------- | -------- | -------- | --------- |
 | Screen size  | `<600px` | `≥600px` | `≥900px` | `≥1200px` |
-| # of columns | `6`      | `6`      | `12`     | `12`      |
+| # of columns | `6`      | `12`      | `12`     | `12`      |
 | Gutter width | `32px`   |
 
 The values have been chosen to match with an 8px-grid.
