@@ -43,7 +43,7 @@ describe('Dropdown Component', () => {
           <Dropdown.Item onClick={() => alert('Clicked 4')}>
             <nobr>It makes me wonder how I keep from goin' under</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Don\'t push me')}>
+          <Dropdown.Item onClick={() => alert("Don't push me")}>
             <nobr>-- Grandmaster Flash</nobr>
           </Dropdown.Item>
         </Dropdown>
@@ -80,36 +80,28 @@ describe('Dropdown Component', () => {
 
       const wrapper5 = shallow(
         <Dropdown selected={true} label="Push Me">
-          <Dropdown.Item>
-            Check that checkmark
-          </Dropdown.Item>
+          <Dropdown.Item>Check that checkmark</Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
         <Dropdown loading={true} label="Something is happening">
-          <Dropdown.Item>
-            Hold on I'm loading
-          </Dropdown.Item>
+          <Dropdown.Item>Hold on I'm loading</Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
         <Dropdown disabled={true}>
-          <Dropdown.Item>
-            I'll never be seen
-          </Dropdown.Item>
+          <Dropdown.Item>I'll never be seen</Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
         <Dropdown label={<h3>h3 label</h3>}>
-          <Dropdown.Item>
-            Hey there
-          </Dropdown.Item>
+          <Dropdown.Item>Hey there</Dropdown.Item>
         </Dropdown>
       );
       expect(wrapper8).toMatchSnapshot();
@@ -146,7 +138,7 @@ describe('Dropdown Component', () => {
           <Dropdown.Item onClick={() => alert('Clicked 4')}>
             <nobr>It makes me wonder how I keep from goin' under</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Don\'t push me')}>
+          <Dropdown.Item onClick={() => alert("Don't push me")}>
             <nobr>-- Grandmaster Flash</nobr>
           </Dropdown.Item>
         </Dropdown>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
+import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
@@ -9,15 +10,18 @@ import LoadingSpinner from '../LoadingSpinner';
 
 const DropdownButton = styled.button`
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
   min-width: 240px;
+  max-width: 100%;
   ${props => props.fluid && 'width: 100%;'};
   background-color: ${props => props.theme.white};
   border: solid 1px ${props => (props.disabled ? props.theme.grey04 : props.theme.grey03)};
   font-family: inherit;
-  font-size: inherit;
+  font-size: ${p => p.theme.fontSizeBase};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
   color: ${props => (props.disabled ? props.theme.grey04 : props.theme.grey01)};
-  padding: 10px;
   cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
   user-select: ${props => (props.disabled ? 'none' : 'initial')};
   &:focus {
@@ -30,8 +34,12 @@ const DropdownButton = styled.button`
 const Label = styled('span')`
   display: inline-block;
   flex-grow: 1;
-  line-height: 1;
+  line-height: ${p => p.theme.lineHeightControlBase};
   text-align: left;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const StyledIcon = styled(Icon).attrs({
@@ -40,7 +48,7 @@ const StyledIcon = styled(Icon).attrs({
     if (props.disabled) {
       return props.theme.grey04;
     }
-    return props.selected ? props.theme.limeGreen : props.theme.grey01;
+    return props.selected ? props.theme.success : props.theme.grey01;
   },
 })`
   transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
@@ -52,15 +60,19 @@ const DropdownPanel = styled.div`
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
   padding: 0.5rem 0;
-  box-shadow: 0 1px 4px #ccc;
+  box-shadow: ${p => p.theme.shadow};
   overflow: auto;
 `;
 
 const IconWrapper = styled.div`
-  width: 22px;
+  width: 24px;
   text-align: right;
   font-size: 0;
 `;
+
+const Spinner = withTheme(({ theme }) => <LoadingSpinner size={theme.fontSizeBase} />);
+Spinner.propTypes = { theme: PropTypes.object.isRequired };
+Spinner.displayName = 'SpinnerFontSizeBase';
 
 class Dropdown extends Component {
   constructor() {
@@ -93,23 +105,20 @@ class Dropdown extends Component {
   };
 
   renderTrigger = () => {
-    const {
-      disabled,
-      label,
-      selected,
-      loading,
-      onClick,
-      open,
-      fluid,
-    } = this.props;
+    const { disabled, label, selected, loading, onClick, open, fluid } = this.props;
     const { menuOpen } = this.state;
 
     return (
-      <DropdownButton disabled={disabled} onClick={onClick} fluid={fluid}>
+      <DropdownButton
+        disabled={disabled}
+        onClick={onClick}
+        fluid={fluid}
+        title={typeof label === 'string' ? label : undefined}
+      >
         <Label>{label}</Label>
         <IconWrapper>
           {loading ? (
-            <LoadingSpinner size="17px" />
+            <Spinner />
           ) : (
             <StyledIcon
               open={this.isControlled() ? open : menuOpen}

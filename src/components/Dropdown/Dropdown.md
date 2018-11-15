@@ -36,7 +36,7 @@ Dropdown with `persist=true`:
   <Dropdown.Item onClick={() => alert('Clicked 4')}>
     <nobr>It makes me wonder how I keep from goin' under</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Don\'t push me')}>
+  <Dropdown.Item onClick={() => alert("Don't push me")}>
     <nobr>-- Grandmaster Flash</nobr>
   </Dropdown.Item>
 </Dropdown>
@@ -76,9 +76,7 @@ Dropdown selected.
 
 ```jsx
 <Dropdown selected={true} label="Push Me">
-  <Dropdown.Item>
-    Check that checkmark
-  </Dropdown.Item>
+  <Dropdown.Item>Check that checkmark</Dropdown.Item>
 </Dropdown>
 ```
 
@@ -86,9 +84,7 @@ Dropdown loading.
 
 ```jsx
 <Dropdown loading={true} label="Something is happening">
-  <Dropdown.Item>
-    Hold on I'm loading
-  </Dropdown.Item>
+  <Dropdown.Item>Hold on I'm loading</Dropdown.Item>
 </Dropdown>
 ```
 
@@ -96,9 +92,7 @@ Dropdown disabled.
 
 ```jsx
 <Dropdown disabled={true}>
-  <Dropdown.Item>
-    I'll never be seen
-  </Dropdown.Item>
+  <Dropdown.Item>I'll never be seen</Dropdown.Item>
 </Dropdown>
 ```
 
@@ -106,9 +100,7 @@ Dropdown with a custom node label.
 
 ```jsx
 <Dropdown label={<h3>h3 label</h3>}>
-  <Dropdown.Item>
-    Hey there
-  </Dropdown.Item>
+  <Dropdown.Item>Hey there</Dropdown.Item>
 </Dropdown>
 ```
 
@@ -137,12 +129,10 @@ Dropdown panel is limited to 75% to the device height
 
 ```jsx
 const largeList = [];
-for (i=0; i<30; i++) {
+for (i = 0; i < 30; i++) {
   largeList.push(<Dropdown.Item key={i}>Scrolling</Dropdown.Item>);
 }
-<Dropdown label="Push Me">
-  {largeList}
-</Dropdown>
+<Dropdown label="Push Me">{largeList}</Dropdown>;
 ```
 
 Dropdown with a fluid toggle button:
@@ -161,8 +151,26 @@ Dropdown with a fluid toggle button:
   <Dropdown.Item onClick={() => alert('Clicked 4')}>
     <nobr>It makes me wonder how I keep from goin' under</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Don\'t push me')}>
+  <Dropdown.Item onClick={() => alert("Don't push me")}>
     <nobr>-- Grandmaster Flash</nobr>
   </Dropdown.Item>
 </Dropdown>
+```
+
+Dropdown with a very long label (also try holding a cursor on it to see a tooltip):
+
+```jsx
+<div style={{ width: '240px' }}>
+  <Dropdown label="Don't push me cause I'm close to the edge, I'm trying not to lose my head">
+    <Dropdown.Item onClick={() => alert('Clicked 3')}>
+      <nobr>It's like a jungle sometimes</nobr>
+    </Dropdown.Item>
+    <Dropdown.Item onClick={() => alert('Clicked 4')}>
+      <nobr>It makes me wonder how I keep from goin' under</nobr>
+    </Dropdown.Item>
+    <Dropdown.Item onClick={() => alert("Don't push me")}>
+      <nobr>-- Grandmaster Flash</nobr>
+    </Dropdown.Item>
+  </Dropdown>
+</div>
 ```
