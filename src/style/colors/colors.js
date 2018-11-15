@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import remark from 'remark';
-import reactRenderer from 'remark-react';
+import colors from '../../theme/colors';
 
 const Wrapper = styled.div`
   margin: 0.5rem;
   box-shadow: ${p => p.theme.shadow};
+  flex: 0 0 240px;
   width: 240px;
 `;
 
@@ -46,20 +46,15 @@ const Text = styled.div`
   }
 `;
 
-const Colors = ({ name, value, description }) => (
+const Colors = ({ name, children }) => (
   <Wrapper>
     <StyledColor color={name} />
     <Description>
       <Title>{name}</Title>
-      <Value>{value}</Value>
-      {Boolean(description) && (
+      <Value>{colors[name]}</Value>
+      {Boolean(children) && (
         <Text>
-          <p>Use it for:</p>
-          {
-            remark()
-              .use(reactRenderer)
-              .processSync(description).contents
-          }
+          {children}
         </Text>
       )}
     </Description>
@@ -68,8 +63,7 @@ const Colors = ({ name, value, description }) => (
 
 Colors.propTypes = {
   name: PropTypes.string,
-  value: PropTypes.string,
-  description: PropTypes.string,
+  children: PropTypes.node,
 };
 
 export default Colors;
