@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 0.5rem 1rem;
-  color: ${props => props.theme.grey01};
+  color: ${p => p.theme.grey01};
   cursor: pointer;
 
   &:hover {

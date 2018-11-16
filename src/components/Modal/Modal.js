@@ -13,7 +13,7 @@ const Backdrop = styled.section`
   bottom: 0;
   left: 0;
   max-height: 100vh;
-  background-color: ${props => props.backdropColor || 'rgba(0, 0, 0, 0.61)'};
+  background-color: ${p => p.backdropColor || 'rgba(0, 0, 0, 0.61)'};
   z-index: 9999;
   overflow-x: hidden;
   overflow-y: auto;

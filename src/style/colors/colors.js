@@ -14,7 +14,7 @@ const StyledColor = styled.div`
   display: block;
   content: '';
   height: 5rem;
-  background-color: ${props => props.theme[props.color]};
+  background-color: ${p => p.theme[p.color]};
 `;
 
 const Description = styled.div`
@@ -52,11 +52,7 @@ const Colors = ({ name, children }) => (
     <Description>
       <Title>{name}</Title>
       <Value>{colors[name]}</Value>
-      {Boolean(children) && (
-        <Text>
-          {children}
-        </Text>
-      )}
+      {Boolean(children) && <Text>{children}</Text>}
     </Description>
   </Wrapper>
 );

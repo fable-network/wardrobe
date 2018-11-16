@@ -14,20 +14,20 @@ const DropdownButton = styled.button`
   align-items: center;
   min-width: 240px;
   max-width: 100%;
-  ${props => props.fluid && 'width: 100%;'};
-  background-color: ${props => props.theme.white};
-  border: solid 1px ${props => (props.disabled ? props.theme.grey04 : props.theme.grey03)};
+  ${p => p.fluid && 'width: 100%;'};
+  background-color: ${p => p.theme.white};
+  border: solid 1px ${p => (p.disabled ? p.theme.grey04 : p.theme.grey03)};
   font-family: inherit;
   font-size: ${p => p.theme.fontSizeBase};
   ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
-  color: ${props => (props.disabled ? props.theme.grey04 : props.theme.grey01)};
-  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
-  user-select: ${props => (props.disabled ? 'none' : 'initial')};
+  color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
+  cursor: ${p => (p.disabled ? 'not-allowed' : 'pointer')};
+  user-select: ${p => (p.disabled ? 'none' : 'initial')};
   &:focus {
     outline: none;
-    box-shadow: 0 0 4px ${props => props.theme.primary};
-    border-color: ${props => props.theme.primary};
+    box-shadow: 0 0 4px ${p => p.theme.primary};
+    border-color: ${p => p.theme.primary};
   }
 `;
 
@@ -51,12 +51,12 @@ const StyledIcon = styled(Icon).attrs({
     return props.selected ? props.theme.success : props.theme.grey01;
   },
 })`
-  transform: rotateX(${props => (props.open && !props.selected ? '-180deg' : '0deg')});
+  transform: rotateX(${p => (p.open && !p.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
 `;
 
 const DropdownPanel = styled.div`
-  background: ${props => props.theme.white};
+  background: ${p => p.theme.white};
   min-width: 100%; // Minimally the width of the dropdown button
   max-height: 75vh;
   padding: 0.5rem 0;

@@ -3,6 +3,7 @@
 ### Changed
 - `label` prop in the Dropdown component can now be a node (previously string only).
 - Dropdown is one-line only now.
+- Rename `props` to `p` in styled components.
 
 ### Added
 - Typography description in the styleguide.

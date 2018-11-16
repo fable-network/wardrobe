@@ -17,12 +17,12 @@ const colors = {
 const StyledSpinner = styled.span`
   display: inline-block;
   box-sizing: border-box;
-  width: ${props => props.size};
-  height: ${props => props.size};
-  border: calc(${props => props.size} / 10) solid ${props => props.color};
-  border-left-color: ${props => props.gapColor};
+  width: ${p => p.size};
+  height: ${p => p.size};
+  border: calc(${p => p.size} / 10) solid ${p => p.color};
+  border-left-color: ${p => p.gapColor};
   border-radius: 100%;
-  animation: ${fullCircleRotate()} ${props => props.speed} linear infinite;
+  animation: ${fullCircleRotate()} ${p => p.speed} linear infinite;
 `;
 
 const LoadingSpinner = ({ size, speed, appearance, ...otherProps }) => {
@@ -35,7 +35,7 @@ const LoadingSpinner = ({ size, speed, appearance, ...otherProps }) => {
       size={size}
       color={otherProps.color || defaultColor}
       speed={speed}
-      gapColor={otherProps.color ? (otherProps.gapColor || 'transparent') : defaultGapColor}
+      gapColor={otherProps.color ? otherProps.gapColor || 'transparent' : defaultGapColor}
     />
   );
 };

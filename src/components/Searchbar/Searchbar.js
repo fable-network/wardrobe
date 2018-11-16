@@ -7,8 +7,8 @@ import LoadingSpinner from '../LoadingSpinner';
 
 const Wrapper = styled('div')`
   position: relative;
-  background: #FFF;
-  color: ${props => props.theme.grey01};
+  background: #fff;
+  color: ${p => p.theme.grey01};
   display: flex;
   align-items: center;
   color: inherit;
@@ -17,14 +17,14 @@ const Wrapper = styled('div')`
 const Input = styled('input')`
   width: 100%;
   padding: 10px;
-  ${props => `padding-${props.iconPosition}: 40px;`}
-  border: solid 1px ${props => props.theme.grey03};
+  ${p => `padding-${p.iconPosition}: 40px;`}
+  border: solid 1px ${p => p.theme.grey03};
   outline: none;
   color: inherit;
   &:focus {
     transition: .2s linear;
-    border-color: ${props => props.theme.primary};;
-    box-shadow: 0 0 3px ${props => props.theme.primary};
+    border-color: ${p => p.theme.primary};;
+    box-shadow: 0 0 3px ${p => p.theme.primary};
   }
   font-size: 100%;
   text-overflow: ellipsis;
@@ -32,28 +32,21 @@ const Input = styled('input')`
 
 const IconWrapper = styled('div')`
   position: absolute;
-  ${props => props.iconPosition}: 10px;
+  ${p => p.iconPosition}: 10px;
   font-size: 0;
   line-height: 1;
 `;
 
 const renderIcon = (iconPosition, loading, color) => (
   <IconWrapper iconPosition={iconPosition}>
-    {loading
-      ? <LoadingSpinner size="20px" />
-      : searchIcon(color, '21px')
-    }
+    {loading ? <LoadingSpinner size="20px" /> : searchIcon(color, '21px')}
   </IconWrapper>
 );
 
 const Searchbar = ({ iconPosition, theme, loading, ...otherProps }) => (
   <Wrapper>
     {renderIcon(iconPosition, loading, theme.primary)}
-    <Input
-      {...otherProps}
-      type="text"
-      iconPosition={iconPosition}
-    />
+    <Input {...otherProps} type="text" iconPosition={iconPosition} />
   </Wrapper>
 );
 
@@ -70,7 +63,7 @@ Searchbar.propTypes = {
   iconPosition: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.object,
   value: PropTypes.string,
-  loading: PropTypes.bool
+  loading: PropTypes.bool,
 };
 
 export default withTheme(Searchbar);
