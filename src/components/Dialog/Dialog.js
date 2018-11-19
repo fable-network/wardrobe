@@ -38,29 +38,29 @@ const WrapperResponsive = `
 `;
 
 const Wrapper = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${p => p.theme.white};
   box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
   width: 100%;
   max-width: 100%;
   ${p => p.theme.desktop_up`
-    ${props => WIDTHS[props.size]};
+    ${WIDTHS[p.size]};
   `};
 
   ${HeaderStyled} {
-    border-bottom: solid 1px ${props => props.theme.grey05};
-    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
+    border-bottom: solid 1px ${p => p.theme.grey05};
+    padding: ${p => PADDINGS[p.size] || PADDINGS.normal};
     font-size: 1.25em;
     font-weight: bold;
     text-align: center;
-    color: ${props => props.theme.primary};
+    color: ${p => p.theme.primary};
     ${p => p.theme.desktop_up`
-      font-size: ${props => (props.size === 'small' ? '1.25em' : '1.5em')};
+      font-size: ${p.size === 'small' ? '1.25em' : '1.5em'};
     `};
   }
 
   ${FooterStyled} {
-    border-top: solid 1px ${props => props.theme.grey05};
-    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
+    border-top: solid 1px ${p => p.theme.grey05};
+    padding: ${p => PADDINGS[p.size] || PADDINGS.normal};
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -69,11 +69,11 @@ const Wrapper = styled.div`
       margin-top: 20px;
     }
 
-    ${props => props.size !== 'small' && WrapperResponsive};
+    ${p => p.size !== 'small' && WrapperResponsive};
   }
 
   ${BodyStyled} {
-    padding: ${props => PADDINGS[props.size] || PADDINGS.normal};
+    padding: ${p => PADDINGS[p.size] || PADDINGS.normal};
   }
 `;
 

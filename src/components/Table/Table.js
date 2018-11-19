@@ -24,11 +24,11 @@ const colors = {
 const Cell = styled('div')`
   overflow: hidden;
   flex-grow: 1;
-  width: ${props => (100 / props.numberOfColumns) * props.widthWeight || 100}%;
+  width: ${p => (100 / p.numberOfColumns) * p.widthWeight || 100}%;
   min-height: 1px;
   padding: 10px;
   text-overflow: ellipsis;
-  white-space: ${props => (props.singleLine ? 'nowrap' : 'initial')};
+  white-space: ${p => (p.singleLine ? 'nowrap' : 'initial')};
   box-sizing: border-box;
 `;
 
@@ -42,7 +42,7 @@ const Row = styled('div')`
 `;
 
 const Header = Row.extend`
-  ${props => (props.background ? `background: ${props.background}` : '')};
+  ${p => (p.background ? `background: ${p.background}` : '')};
   ${Cell} {
     font-weight: 600;
     font-size: 100%;
@@ -53,29 +53,29 @@ const StyledTable = styled('div')`
   display: flex;
   position: relative;
   flex-direction: column;
-  background: ${props => props.background};
-  border: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
+  background: ${p => p.background};
+  border: ${p => (p.showBorders ? `solid 1px ${p.borderColor}` : '')};
   border-right: none;
   border-top: none;
-  color: ${props => props.textColor};
-  overflow: ${props => (props.minWidth !== '0' ? 'auto' : 'initial')};
+  color: ${p => p.textColor};
+  overflow: ${p => (p.minWidth !== '0' ? 'auto' : 'initial')};
 
   ${Header} {
-    background: ${props => props.headerColor};
-    min-width: ${props => props.minWidth};
+    background: ${p => p.headerColor};
+    min-width: ${p => p.minWidth};
   }
 
   ${Row} {
-    min-width: ${props => props.minWidth};
-    background: ${props => props.rowColor};
+    min-width: ${p => p.minWidth};
+    background: ${p => p.rowColor};
     transition: background 0.1s linear;
     &:nth-child(odd) {
-      background: ${props => (props.alternateColors ? props.alternateRowColor : props.rowColor)};
+      background: ${p => (p.alternateColors ? p.alternateRowColor : p.rowColor)};
     }
   }
 
   ${Cell} {
-    border: ${props => (props.showBorders ? `solid 1px ${props.borderColor}` : '')};
+    border: ${p => (p.showBorders ? `solid 1px ${p.borderColor}` : '')};
     border-bottom: none;
     border-left: none;
   }

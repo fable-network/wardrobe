@@ -11,16 +11,16 @@ const Trigger = styled.div`
   padding: 10px;
   text-align: center;
   cursor: pointer;
-  transition: .2s linear;
-  border: solid 1px ${props => (props.active ? props.color : 'transparent')};
+  transition: 0.2s linear;
+  border: solid 1px ${p => (p.active ? p.color : 'transparent')};
 `;
 
 const Menu = styled.div`
   display: block;
   margin-top: 4px;
-  background: ${props => props.theme.white};
+  background: ${p => p.theme.white};
   min-width: 100px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   white-space: nowrap;
 `;
 
@@ -28,7 +28,7 @@ class OverflowMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpen: false
+      menuOpen: false,
     };
   }
 
@@ -37,20 +37,20 @@ class OverflowMenu extends Component {
     const sizes = {
       small: {
         width: '5px',
-        height: '21px'
+        height: '21px',
       },
       medium: {
         width: '7px',
-        height: '29px'
+        height: '29px',
       },
       large: {
         width: '10px',
-        height: '40px'
-      }
+        height: '40px',
+      },
     };
 
     return sizes[size];
-  }
+  };
 
   getColorFromAppearance = () => {
     const { appearance, theme } = this.props;
@@ -60,27 +60,26 @@ class OverflowMenu extends Component {
       success: theme.success,
       warning: theme.warning,
       light: theme.grey06,
-      dark: theme.grey01
+      dark: theme.grey01,
     };
     return colors[appearance];
-  }
+  };
 
-  isControlled = () =>
-    typeof this.props.open !== 'undefined';
+  isControlled = () => typeof this.props.open !== 'undefined';
 
   handleMenuOpen = () => {
     this.props.onOpen();
     if (!this.isControlled()) {
       this.setState({ menuOpen: true });
     }
-  }
+  };
 
   handleMenuClose = () => {
     this.props.onClose();
     if (!this.isControlled()) {
       this.setState({ menuOpen: false });
     }
-  }
+  };
 
   renderTrigger = () => {
     const { menuOpen } = this.state;
@@ -100,7 +99,7 @@ class OverflowMenu extends Component {
         </svg>
       </Trigger>
     );
-  }
+  };
 
   render() {
     const { children, position, open, persist } = this.props;
@@ -114,9 +113,7 @@ class OverflowMenu extends Component {
         persist={persist}
         open={open}
       >
-        <Menu>
-          {children}
-        </Menu>
+        <Menu>{children}</Menu>
       </ToggleMenu>
     );
   }
@@ -127,7 +124,7 @@ OverflowMenu.defaultProps = {
   position: 'right',
   onOpen: () => {},
   onClose: () => null,
-  size: 'small'
+  size: 'small',
 };
 
 OverflowMenu.propTypes = {
@@ -138,7 +135,7 @@ OverflowMenu.propTypes = {
     'danger',
     'warning',
     'light',
-    'dark'
+    'dark',
   ]),
   /** Static color of the icon (Overrides appearance) */
   color: PropTypes.string,
@@ -152,7 +149,7 @@ OverflowMenu.propTypes = {
   theme: PropTypes.object,
   onOpen: PropTypes.func,
   onClose: PropTypes.func,
-  size: PropTypes.oneOf(['small', 'medium', 'large'])
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
 };
 
 OverflowMenu.Item = DropdownItem;

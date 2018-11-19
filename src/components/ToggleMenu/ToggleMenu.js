@@ -5,20 +5,20 @@ import styled from 'styled-components';
 const TriggerWrapper = styled.span`
   display: inline-block;
   position: relative;
-  pointer-events: ${props => (props.disabled ? 'none' : 'initial')};
-  ${props => props.fluid && 'width: 100%;'};
+  pointer-events: ${p => (p.disabled ? 'none' : 'initial')};
+  ${p => p.fluid && 'width: 100%;'};
   max-width: 100%;
 `;
 
 const MenuWrapper = styled.div`
   position: absolute;
-  display: ${props => (props.visible ? 'block' : 'none')};
+  display: ${p => (p.visible ? 'block' : 'none')};
   z-index: 10;
-  top: ${props => props.top};
-  bottom: ${props => props.bottom};
-  left: ${props => props.left};
-  right: ${props => props.right};
-  margin: ${props => props.margin};
+  top: ${p => p.top};
+  bottom: ${p => p.bottom};
+  left: ${p => p.left};
+  right: ${p => p.right};
+  margin: ${p => p.margin};
   min-width: 100%;
 `;
 
