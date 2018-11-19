@@ -42,7 +42,7 @@ Dropdown with `persist=true`:
 </Dropdown>
 ```
 
-Dropdown with `preventOutOfBounds=true`:
+Dropdown with default out-of-bounds behaviour (`preventOutOfBounds=true`):
 
 ```jsx
 <Dropdown label="Don't push me" preventOutOfBounds>
@@ -92,6 +92,28 @@ const Wrapper = styled('div')`
     </Dropdown.Item>
   </Dropdown>
 </Wrapper>;
+```
+
+Dropdown with `preventOutOfBounds=false`:
+
+```jsx
+<Dropdown label="Don't push me" preventOutOfBounds={false}>
+  <Dropdown.Item>
+    <nobr>...cause I'm close to the edge</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>I'm trying not to lose my head</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It's like a jungle sometimes</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It makes me wonder how I keep from goin' under</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>-- Grandmaster Flash</nobr>
+  </Dropdown.Item>
+</Dropdown>
 ```
 
 Dropdown panel will expand horizontally when content does not allow wrapping.

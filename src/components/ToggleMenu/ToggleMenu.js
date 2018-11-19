@@ -275,7 +275,7 @@ ToggleMenu.propTypes = {
 
 ToggleMenu.defaultProps = {
   position: 'bottom',
-  preventOutOfBounds: false,
+  preventOutOfBounds: true,
   onOpen: () => null,
   onClose: () => null,
   closeOnOutsideClick: true,

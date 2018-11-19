@@ -17,6 +17,7 @@
 ### Breaking changes
 - Dropdown and OverflowMenu components now require a `persist` prop to be set to avoid closing dropdown panel after a click inside.
 - New colour names.
+- ToggleMenu (so also OverflowMenu and Dropdown) now have `preventOutOfBounds=true` by default.
 
 ## [2.0.0] - 2018-10-24
 
