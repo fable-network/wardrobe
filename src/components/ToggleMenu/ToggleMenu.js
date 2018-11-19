@@ -22,26 +22,68 @@ const MenuWrapper = styled.div`
   min-width: 100%;
 `;
 
+const getDefaultDirection = position => {
+  switch (position) {
+    case 'left':
+    case 'right':
+      return 'bottom';
+    default:
+      return 'right';
+  }
+};
+
+const getDerivedPosition = position => ({
+  placement: position,
+  direction: getDefaultDirection(position),
+});
+
+const getOppositeDirection = direction => {
+  switch (direction) {
+    case 'top':
+      return 'bottom';
+    case 'bottom':
+      return 'top';
+    case 'left':
+      return 'right';
+    case 'right':
+      return 'left';
+    default:
+      return direction;
+  }
+};
+
 class ToggleMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
       open: false,
-      position: props.position,
+      position: getDerivedPosition(props.position),
     };
   }
 
   componentDidMount() {
     if (this.props.open) {
-      this.addDocumentEventListeners();
+      if (this.props.closeOnOutsideClick) {
+        this.addDocumentEventListeners();
+      }
+      if (this.props.preventOutOfBounds) {
+        this.handleOutOfBounds();
+      }
     }
   }
 
   componentDidUpdate(prevProps) {
     if (!this.props.open && prevProps.open) {
-      this.removeDocumentEventListeners();
+      if (prevProps.closeOnOutsideClick) {
+        this.removeDocumentEventListeners();
+      }
     } else if (this.props.open && !prevProps.open) {
-      this.addDocumentEventListeners();
+      if (this.props.closeOnOutsideClick) {
+        this.addDocumentEventListeners();
+      }
+      if (this.props.preventOutOfBounds) {
+        this.handleOutOfBounds();
+      }
     }
   }
 
@@ -49,46 +91,41 @@ class ToggleMenu extends Component {
     this.removeDocumentEventListeners();
   }
 
-  getPositionValues = position => {
+  getPositionValues = ({ placement, direction }) => {
     const { menuOffset } = this.props;
+    const offsetProp = getOppositeDirection(direction);
     const positions = {
       top: {
         bottom: '100%',
-        left: '0',
+        [offsetProp]: '0',
         margin: `0 0 ${menuOffset} 0`,
       },
       bottom: {
         top: '100%',
-        left: '0',
+        [offsetProp]: '0',
         margin: `${menuOffset} 0 0 0`,
       },
       left: {
         right: '100%',
-        top: '0',
+        [offsetProp]: '0',
         margin: `0 ${menuOffset} 0 0`,
       },
       right: {
         left: '100%',
-        top: '0',
+        [offsetProp]: '0',
         margin: `0 0 0 ${menuOffset}`,
       },
     };
-    return positions[position];
+    return positions[placement];
   };
 
-  getOppositePosition = position => {
-    switch (position) {
-      case 'top':
-        return 'bottom';
-      case 'bottom':
-        return 'top';
-      case 'left':
-        return 'right';
-      case 'right':
-        return 'left';
-      default:
-        return position;
-    }
+  getPreferredPosition = withinBounds => {
+    const { position } = this.state;
+    const { placement, direction } = position;
+    return {
+      placement: withinBounds[placement] ? placement : getOppositeDirection(placement),
+      direction: withinBounds[direction] ? direction : getOppositeDirection(direction),
+    };
   };
 
   addDocumentEventListeners = () => {
@@ -120,19 +157,20 @@ class ToggleMenu extends Component {
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
-    const outOfBoundsSide = Object.keys(withinBounds).find(key => withinBounds[key] === false);
-    if (!outOfBoundsSide) {
-      // not out of bounds.
+    const allWithin = Object.keys(withinBounds).filter(key => !withinBounds[key]).length === 0;
+    if (allWithin) {
       return;
     }
 
     if (!restoreOriginalPosition) {
-      this.setState({ position: this.getOppositePosition(outOfBoundsSide) }, () => {
+      this.setState({ position: this.getPreferredPosition(withinBounds) }, () => {
         this.handleOutOfBounds(true);
       });
     } else {
       // restores the original position if both opposite sides are out of bounds.
-      this.setState({ position: this.props.position });
+      this.setState({
+        position: getDerivedPosition(this.props.position),
+      });
     }
   };
 
@@ -150,7 +188,7 @@ class ToggleMenu extends Component {
       return;
     }
 
-    this.setState({ open: true, position: this.props.position }, () => {
+    this.setState({ open: true, position: getDerivedPosition(this.props.position) }, () => {
       if (this.props.closeOnOutsideClick) {
         this.addDocumentEventListeners();
       }
@@ -227,7 +265,8 @@ ToggleMenu.propTypes = {
   onOpen: PropTypes.func,
   onClose: PropTypes.func,
   closeOnOutsideClick: PropTypes.bool,
-  menuOffset: PropTypes.string, // distance between the menu and the trigger
+  /** Distance between the menu and the trigger. */
+  menuOffset: PropTypes.string,
   fluid: PropTypes.bool,
   open: PropTypes.bool,
   persist: PropTypes.bool,
@@ -236,11 +275,11 @@ ToggleMenu.propTypes = {
 
 ToggleMenu.defaultProps = {
   position: 'bottom',
-  preventOutOfBounds: false,
+  preventOutOfBounds: true,
   onOpen: () => null,
   onClose: () => null,
   closeOnOutsideClick: true,
-  menuOffset: '5px',
+  menuOffset: '0.25rem',
   fluid: false,
   persist: false,
 };

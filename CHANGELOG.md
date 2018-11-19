@@ -5,6 +5,8 @@
 - Dropdown is one-line only now.
 - Rename `props` to `p` in styled components.
 - Fix Animations export.
+- ToggleMenu (so also OverflowMenu and Dropdown) support for click outside and out-of-bounds in controlled behaviour.
+- ToggleMenu (so also OverflowMenu and Dropdown) support for bi-dimensional out-of-bounds handling.
 
 ### Added
 - Typography description in the styleguide.
@@ -15,6 +17,7 @@
 ### Breaking changes
 - Dropdown and OverflowMenu components now require a `persist` prop to be set to avoid closing dropdown panel after a click inside.
 - New colour names.
+- ToggleMenu (so also OverflowMenu and Dropdown) now have `preventOutOfBounds=true` by default.
 
 ## [2.0.0] - 2018-10-24
 
