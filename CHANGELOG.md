@@ -6,6 +6,7 @@
 - Rename `props` to `p` in styled components.
 - Fix Animations export.
 - ToggleMenu (so also OverflowMenu and Dropdown) support for click outside and out-of-bounds in controlled behaviour.
+- ToggleMenu (so also OverflowMenu and Dropdown) support for bi-dimensional out-of-bounds handling.
 
 ### Added
 - Typography description in the styleguide.
