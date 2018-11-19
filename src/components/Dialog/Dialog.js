@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const PADDINGS = {
   small: '16px 24px',
@@ -26,7 +26,7 @@ const FooterStyled = styled.footer``;
 
 const BodyStyled = styled.div``;
 
-const WrapperResponsive = `
+const WrapperResponsive = css`
   ${p => p.theme.desktop_up`
     flex-flow: row-reverse wrap;
     align-items: center;
