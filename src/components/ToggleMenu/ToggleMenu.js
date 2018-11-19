@@ -33,7 +33,7 @@ const getDefaultDirection = position => {
 };
 
 const getDerivedPosition = position => ({
-  place: position,
+  placement: position,
   direction: getDefaultDirection(position),
 });
 
@@ -91,38 +91,39 @@ class ToggleMenu extends Component {
     this.removeDocumentEventListeners();
   }
 
-  getPositionValues = ({ place, direction }) => {
+  getPositionValues = ({ placement, direction }) => {
     const { menuOffset } = this.props;
+    const offsetProp = getOppositeDirection(direction);
     const positions = {
       top: {
         bottom: '100%',
-        [getOppositeDirection(direction)]: '0',
+        [offsetProp]: '0',
         margin: `0 0 ${menuOffset} 0`,
       },
       bottom: {
         top: '100%',
-        [getOppositeDirection(direction)]: '0',
+        [offsetProp]: '0',
         margin: `${menuOffset} 0 0 0`,
       },
       left: {
         right: '100%',
-        [getOppositeDirection(direction)]: '0',
+        [offsetProp]: '0',
         margin: `0 ${menuOffset} 0 0`,
       },
       right: {
         left: '100%',
-        [getOppositeDirection(direction)]: '0',
+        [offsetProp]: '0',
         margin: `0 0 0 ${menuOffset}`,
       },
     };
-    return positions[place];
+    return positions[placement];
   };
 
   getPreferredPosition = withinBounds => {
     const { position } = this.state;
-    const { place, direction } = position;
+    const { placement, direction } = position;
     return {
-      place: withinBounds[place] ? place : getOppositeDirection(place),
+      placement: withinBounds[placement] ? placement : getOppositeDirection(placement),
       direction: withinBounds[direction] ? direction : getOppositeDirection(direction),
     };
   };
