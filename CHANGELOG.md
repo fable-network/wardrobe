@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.0.0] - 2018-11-19
+
 ### Changed
 - `label` prop in the Dropdown component can now be a node (previously string only).
 - Dropdown is one-line only now.
