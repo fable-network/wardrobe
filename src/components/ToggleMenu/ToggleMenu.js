@@ -33,15 +33,27 @@ class ToggleMenu extends Component {
 
   componentDidMount() {
     if (this.props.open) {
-      this.addDocumentEventListeners();
+      if (this.props.closeOnOutsideClick) {
+        this.addDocumentEventListeners();
+      }
+      if (this.props.preventOutOfBounds) {
+        this.handleOutOfBounds();
+      }
     }
   }
 
   componentDidUpdate(prevProps) {
     if (!this.props.open && prevProps.open) {
-      this.removeDocumentEventListeners();
+      if (prevProps.closeOnOutsideClick) {
+        this.removeDocumentEventListeners();
+      }
     } else if (this.props.open && !prevProps.open) {
-      this.addDocumentEventListeners();
+      if (this.props.closeOnOutsideClick) {
+        this.addDocumentEventListeners();
+      }
+      if (this.props.preventOutOfBounds) {
+        this.handleOutOfBounds();
+      }
     }
   }
 

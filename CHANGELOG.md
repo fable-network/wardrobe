@@ -5,6 +5,7 @@
 - Dropdown is one-line only now.
 - Rename `props` to `p` in styled components.
 - Fix Animations export.
+- ToggleMenu (so also OverflowMenu and Dropdown) support for click outside and out-of-bounds in controlled behaviour.
 
 ### Added
 - Typography description in the styleguide.
