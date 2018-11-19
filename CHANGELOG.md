@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.0.1] - 2018-11-19
+
 ### Changed
 - Fix usage of styled-components' `css` in Dialog component.
 
