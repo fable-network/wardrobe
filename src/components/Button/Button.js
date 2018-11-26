@@ -50,7 +50,7 @@ const ButtonInner = ({ size, appearance, children, ...otherProps }) => (
 );
 
 ButtonInner.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   size: PropTypes.oneOf(['small', 'normal']),
   appearance: PropTypes.oneOf(['primary', 'secondary']),
 };
