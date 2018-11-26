@@ -1,13 +1,13 @@
 Empty:
 
 ```jsx
-<Input type="text" placeholder="Empty state" value="" />
+<Input type="text" placeholder="Empty state" value="" onChange={() => null} />
 ```
 
 Filled:
 
 ```jsx
-<Input type="text" value="Some text" />
+<Input type="text" value="Some text" onChange={() => null} />
 ```
 
 Disabled:
@@ -23,6 +23,7 @@ Invalid:
   type="text"
   placeholder="You could type something here"
   value="invalid value"
+  onChange={() => null}
   invalid={true}
 />
 ```

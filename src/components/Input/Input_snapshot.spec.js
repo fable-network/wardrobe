@@ -9,12 +9,12 @@ describe('Input Component', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <Input type="text" placeholder="Empty state" value="" />
+        <Input type="text" placeholder="Empty state" value="" onChange={() => null} />
       );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Input type="text" value="Some text" />
+        <Input type="text" value="Some text" onChange={() => null} />
       );
       expect(wrapper2).toMatchSnapshot();
 
@@ -28,6 +28,7 @@ describe('Input Component', () => {
           type="text"
           placeholder="You could type something here"
           value="invalid value"
+          onChange={() => null}
           invalid={true}
         />
       );

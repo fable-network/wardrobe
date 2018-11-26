@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
+import { hexToRgba } from '../../helpers/colors';
 import { fullCircleRotate } from '../../animations';
 import defaultTheme from '../../theme/default';
 
@@ -10,7 +11,7 @@ const colors = {
   success: defaultTheme.success,
   danger: defaultTheme.danger,
   warning: defaultTheme.warning,
-  light: defaultTheme.grey06,
+  light: defaultTheme.grey05,
   dark: defaultTheme.grey01,
 };
 
@@ -27,7 +28,7 @@ const StyledSpinner = styled.span`
 
 const LoadingSpinner = ({ size, speed, appearance, ...otherProps }) => {
   const defaultColor = colors[appearance];
-  const defaultGapColor = `${defaultColor}25`;
+  const defaultGapColor = hexToRgba(defaultColor, 0.25);
 
   return (
     <StyledSpinner
