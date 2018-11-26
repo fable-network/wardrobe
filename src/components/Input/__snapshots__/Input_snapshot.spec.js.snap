@@ -4,6 +4,7 @@ exports[`Input Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Input
+    onChange={[Function]}
     placeholder="Empty state"
     type="text"
     value=""
@@ -20,6 +21,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "onChange": [Function],
       "placeholder": "Empty state",
       "type": "text",
       "value": "",
@@ -34,6 +36,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "onChange": [Function],
         "placeholder": "Empty state",
         "type": "text",
         "value": "",
@@ -65,6 +68,7 @@ exports[`Input Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Input
+    onChange={[Function]}
     type="text"
     value="Some text"
   />,
@@ -80,6 +84,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "onChange": [Function],
       "type": "text",
       "value": "Some text",
     },
@@ -93,6 +98,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "onChange": [Function],
         "type": "text",
         "value": "Some text",
       },
@@ -185,6 +191,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Input
     invalid={true}
+    onChange={[Function]}
     placeholder="You could type something here"
     type="text"
     value="invalid value"
@@ -202,6 +209,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "invalid": true,
+      "onChange": [Function],
       "placeholder": "You could type something here",
       "type": "text",
       "value": "invalid value",
@@ -217,6 +225,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "invalid": true,
+        "onChange": [Function],
         "placeholder": "You could type something here",
         "type": "text",
         "value": "invalid value",
