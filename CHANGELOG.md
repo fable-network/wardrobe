@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+## [3.0.2] - 2018-11-26
+
 ### Fixed
 - Fix `light` appearance in LoadingSpinner.
 
