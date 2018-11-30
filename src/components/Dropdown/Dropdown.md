@@ -1,3 +1,7 @@
+Dropdown can be used with any content inside the panel. But if you use it with `Dropdown.Item` you'll get some benefits:
+- Uniform styling.
+- Better keyboard navigation support.
+
 Dropdown:
 
 ```jsx
@@ -20,7 +24,7 @@ Dropdown:
 </Dropdown>
 ```
 
-Dropdown with `persist=true`:
+Dropdown with `persist=true` and `onClick` handlers:
 
 ```jsx
 <Dropdown label="Don't push me" persist>
@@ -177,7 +181,7 @@ Dropdown controlled by `open` prop (`false`).
 </Dropdown>
 ```
 
-Dropdown panel is limited to 75% to the device height
+Dropdown panel height is limited to 320px by default:
 
 ```jsx
 const largeList = [];

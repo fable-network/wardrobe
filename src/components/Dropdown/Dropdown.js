@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled, { withTheme } from 'styled-components';
+import styled, { css, withTheme } from 'styled-components';
+import * as focusScope from 'a11y-focus-scope';
+import debounce from 'lodash.debounce';
+import {
+  nextTabbable,
+  prevTabbable,
+  findSelfOrParentInContainer,
+  isTabbable,
+} from '../../helpers/dom';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
+import KEY_CODES from '../../helpers/keyCodes';
 
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
@@ -58,10 +67,29 @@ const StyledIcon = styled(Icon).attrs({
 const DropdownPanel = styled.div`
   background: ${p => p.theme.white};
   min-width: 100%; // Minimally the width of the dropdown button
-  max-height: 75vh;
+  max-height: 320px;
   padding: 0.5rem 0;
   box-shadow: ${p => p.theme.shadow};
   overflow: auto;
+  ${p =>
+    p.lastInteractionKeyboard
+    && css`
+      ${DropdownItem} {
+        &:focus {
+          background-color: ${p.theme.grey05};
+          outline: 0px none;
+        }
+      }
+    `};
+  ${p =>
+    !p.lastInteractionKeyboard
+    && css`
+      ${DropdownItem} {
+        &:hover {
+          background-color: ${p.theme.grey05};
+        }
+      }
+    `};
 `;
 
 const IconWrapper = styled.div`
@@ -71,7 +99,6 @@ const IconWrapper = styled.div`
 `;
 
 const Spinner = withTheme(({ theme }) => <LoadingSpinner size={theme.fontSizeBase} />);
-Spinner.propTypes = { theme: PropTypes.object.isRequired };
 Spinner.displayName = 'SpinnerFontSizeBase';
 
 class Dropdown extends Component {
@@ -80,7 +107,36 @@ class Dropdown extends Component {
 
     this.state = {
       menuOpen: false,
+      lastInteractionKeyboard: false,
     };
+    this.panel = null;
+    this.hoveredItem = null;
+    this.saveHoveredElemDebounced = debounce(this.saveHoveredElem, 50, {
+      maxWait: 50,
+    });
+  }
+
+  componentDidMount() {
+    if (process.env.IS_STYLEGUIDE || process.env.NODE_ENV === 'test') {
+      return;
+    }
+    if (this.isControlled() && this.props.open) {
+      focusScope.scopeFocus(this.panel);
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    if (process.env.IS_STYLEGUIDE || process.env.NODE_ENV === 'test') {
+      return;
+    }
+    if (this.isControlled() && this.panel) {
+      if (this.props.open && !prevProps.open) {
+        focusScope.scopeFocus(this.panel);
+      } else if (!this.props.open && prevProps.open) {
+        this.hoveredItem = null;
+        focusScope.unscopeFocus();
+      }
+    }
   }
 
   getIcon = () => {
@@ -91,16 +147,69 @@ class Dropdown extends Component {
 
   isControlled = () => typeof this.props.open !== 'undefined';
 
+  saveHoveredElem = target => {
+    if (this.state.lastInteractionKeyboard) return;
+    const elem = findSelfOrParentInContainer(this.panel, target);
+    if (elem && isTabbable(elem)) {
+      this.hoveredItem = elem;
+    }
+  };
+
   handleMenuOpen = () => {
-    if (!this.isControlled()) {
-      this.setState({ menuOpen: true });
+    if (!this.isControlled() && !this.state.menuOpen) {
+      this.setState({ menuOpen: true }, () => {
+        focusScope.scopeFocus(this.panel);
+      });
     }
   };
 
   handleMenuClose = () => {
     this.props.onClose();
-    if (!this.isControlled()) {
-      this.setState({ menuOpen: false });
+    if (!this.isControlled() && this.state.menuOpen) {
+      this.setState({ menuOpen: false }, () => {
+        this.hoveredItem = null;
+        focusScope.unscopeFocus();
+      });
+    }
+  };
+
+  handlePanelKeyDown = event => {
+    switch (event.keyCode) {
+      case KEY_CODES.Down: {
+        event.preventDefault();
+        const nextElem = nextTabbable(this.panel);
+        if (nextElem) {
+          this.hoveredItem = null;
+          nextElem.focus();
+        }
+        break;
+      }
+      case KEY_CODES.Up: {
+        event.preventDefault();
+        const nextElem = prevTabbable(this.panel);
+        if (nextElem) {
+          this.hoveredItem = null;
+          nextElem.focus();
+        }
+        break;
+      }
+      default:
+        break;
+    }
+  };
+
+  handlePanelKeyDownCapture = () => {
+    if (this.state.lastInteractionKeyboard) return;
+    if (this.hoveredItem) {
+      this.hoveredItem.focus();
+    }
+    this.setState({ lastInteractionKeyboard: true });
+  };
+
+  handlePanelMouseMove = event => {
+    this.saveHoveredElemDebounced(event.target);
+    if (this.state.lastInteractionKeyboard) {
+      this.setState({ lastInteractionKeyboard: false });
     }
   };
 
@@ -145,6 +254,7 @@ class Dropdown extends Component {
       fluid,
       persist,
     } = this.props;
+    const { lastInteractionKeyboard } = this.state;
 
     return (
       <ToggleMenu
@@ -159,7 +269,17 @@ class Dropdown extends Component {
         persist={persist}
         open={open}
       >
-        <DropdownPanel>{children}</DropdownPanel>
+        <DropdownPanel
+          lastInteractionKeyboard={lastInteractionKeyboard}
+          onKeyDown={this.handlePanelKeyDown}
+          onKeyDownCapture={this.handlePanelKeyDownCapture}
+          onMouseMove={this.handlePanelMouseMove}
+          innerRef={node => {
+            this.panel = node;
+          }}
+        >
+          {children}
+        </DropdownPanel>
       </ToggleMenu>
     );
   }

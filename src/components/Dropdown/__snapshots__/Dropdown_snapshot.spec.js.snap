@@ -13,37 +13,27 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         ...cause I'm close to the edge
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         I'm trying not to lose my head
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It's like a jungle sometimes
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         -- Grandmaster Flash
       </nobr>
@@ -61,38 +51,34 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           <nobr>
             ...cause I'm close to the edge
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             I'm trying not to lose my head
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It's like a jungle sometimes
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             -- Grandmaster Flash
           </nobr>
@@ -136,54 +122,48 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
           </DropdownItem>,
         ],
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               ...cause I'm close to the edge
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -202,12 +182,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               I'm trying not to lose my head
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -226,12 +205,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It's like a jungle sometimes
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -250,12 +228,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -274,12 +251,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               -- Grandmaster Flash
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -306,38 +282,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
@@ -381,54 +353,48 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 I'm trying not to lose my head
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It's like a jungle sometimes
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 -- Grandmaster Flash
               </nobr>
             </DropdownItem>,
           ],
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 ...cause I'm close to the edge
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -447,12 +413,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 I'm trying not to lose my head
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -471,12 +436,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It's like a jungle sometimes
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -495,12 +459,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -519,12 +482,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 -- Grandmaster Flash
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -625,7 +587,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
         <DropdownItem
           onClick={[Function]}
         >
@@ -736,13 +704,18 @@ ShallowWrapper {
             </nobr>
           </DropdownItem>,
         ],
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               ...cause I'm close to the edge
@@ -766,7 +739,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               I'm trying not to lose my head
@@ -790,7 +763,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It's like a jungle sometimes
@@ -814,7 +787,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
@@ -838,7 +811,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               -- Grandmaster Flash
@@ -870,7 +843,13 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
           <DropdownItem
             onClick={[Function]}
           >
@@ -981,13 +960,18 @@ ShallowWrapper {
               </nobr>
             </DropdownItem>,
           ],
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 ...cause I'm close to the edge
@@ -1011,7 +995,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 I'm trying not to lose my head
@@ -1035,7 +1019,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It's like a jungle sometimes
@@ -1059,7 +1043,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
@@ -1083,7 +1067,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 -- Grandmaster Flash
@@ -1142,37 +1126,27 @@ ShallowWrapper {
     preventOutOfBounds={true}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         ...cause I'm close to the edge
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         I'm trying not to lose my head
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It's like a jungle sometimes
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         -- Grandmaster Flash
       </nobr>
@@ -1190,38 +1164,34 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           <nobr>
             ...cause I'm close to the edge
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             I'm trying not to lose my head
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It's like a jungle sometimes
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             -- Grandmaster Flash
           </nobr>
@@ -1265,54 +1235,48 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
           </DropdownItem>,
         ],
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               ...cause I'm close to the edge
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1331,12 +1295,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               I'm trying not to lose my head
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1355,12 +1318,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It's like a jungle sometimes
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1379,12 +1341,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1403,12 +1364,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               -- Grandmaster Flash
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1435,38 +1395,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
@@ -1510,54 +1466,48 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 I'm trying not to lose my head
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It's like a jungle sometimes
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 -- Grandmaster Flash
               </nobr>
             </DropdownItem>,
           ],
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 ...cause I'm close to the edge
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1576,12 +1526,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 I'm trying not to lose my head
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1600,12 +1549,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It's like a jungle sometimes
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1624,12 +1572,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1648,12 +1595,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 -- Grandmaster Flash
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1707,37 +1653,27 @@ ShallowWrapper {
     preventOutOfBounds={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         ...cause I'm close to the edge
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         I'm trying not to lose my head
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It's like a jungle sometimes
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
     </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         -- Grandmaster Flash
       </nobr>
@@ -1755,38 +1691,34 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           <nobr>
             ...cause I'm close to the edge
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             I'm trying not to lose my head
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It's like a jungle sometimes
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
         </DropdownItem>
-        <DropdownItem
-          onClick={[Function]}
-        >
+        <DropdownItem>
           <nobr>
             -- Grandmaster Flash
           </nobr>
@@ -1830,54 +1762,48 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
           </DropdownItem>,
         ],
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               ...cause I'm close to the edge
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1896,12 +1822,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               I'm trying not to lose my head
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1920,12 +1845,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It's like a jungle sometimes
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1944,12 +1868,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -1968,12 +1891,11 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               -- Grandmaster Flash
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -2000,38 +1922,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>
-          <DropdownItem
-            onClick={[Function]}
-          >
+          <DropdownItem>
             <nobr>
               -- Grandmaster Flash
             </nobr>
@@ -2075,54 +1993,48 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 I'm trying not to lose my head
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It's like a jungle sometimes
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
             </DropdownItem>,
-            <DropdownItem
-              onClick={[Function]}
-            >
+            <DropdownItem>
               <nobr>
                 -- Grandmaster Flash
               </nobr>
             </DropdownItem>,
           ],
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 ...cause I'm close to the edge
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -2141,12 +2053,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 I'm trying not to lose my head
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -2165,12 +2076,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It's like a jungle sometimes
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -2189,12 +2099,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -2213,12 +2122,11 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 -- Grandmaster Flash
               </nobr>,
-              "onClick": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -2287,7 +2195,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
         <nobr>
           You can place any content you prefer here.
         </nobr>
@@ -2332,6 +2246,11 @@ ShallowWrapper {
         "children": <nobr>
           You can place any content you prefer here.
         </nobr>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2355,7 +2274,13 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
           <nobr>
             You can place any content you prefer here.
           </nobr>
@@ -2400,6 +2325,11 @@ ShallowWrapper {
           "children": <nobr>
             You can place any content you prefer here.
           </nobr>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
@@ -2449,9 +2379,7 @@ ShallowWrapper {
     persist={false}
     selected={true}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       Check that checkmark
     </DropdownItem>
   </Dropdown>,
@@ -2467,10 +2395,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           Check that checkmark
         </DropdownItem>
       </Dropdown__DropdownPanel>,
@@ -2511,20 +2443,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           Check that checkmark
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": "Check that checkmark",
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Check that checkmark",
@@ -2540,10 +2474,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             Check that checkmark
           </DropdownItem>
         </Dropdown__DropdownPanel>,
@@ -2584,20 +2522,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             Check that checkmark
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": "Check that checkmark",
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Check that checkmark",
@@ -2639,9 +2579,7 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       Hold on I'm loading
     </DropdownItem>
   </Dropdown>,
@@ -2657,10 +2595,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           Hold on I'm loading
         </DropdownItem>
       </Dropdown__DropdownPanel>,
@@ -2694,20 +2636,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           Hold on I'm loading
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": "Hold on I'm loading",
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Hold on I'm loading",
@@ -2723,10 +2667,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             Hold on I'm loading
           </DropdownItem>
         </Dropdown__DropdownPanel>,
@@ -2760,20 +2708,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             Hold on I'm loading
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": "Hold on I'm loading",
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Hold on I'm loading",
@@ -2815,9 +2765,7 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       I'll never be seen
     </DropdownItem>
   </Dropdown>,
@@ -2833,10 +2781,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           I'll never be seen
         </DropdownItem>
       </Dropdown__DropdownPanel>,
@@ -2877,20 +2829,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           I'll never be seen
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": "I'll never be seen",
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": "I'll never be seen",
@@ -2906,10 +2860,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             I'll never be seen
           </DropdownItem>
         </Dropdown__DropdownPanel>,
@@ -2950,20 +2908,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             I'll never be seen
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": "I'll never be seen",
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": "I'll never be seen",
@@ -3009,9 +2969,7 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       Hey there
     </DropdownItem>
   </Dropdown>,
@@ -3027,10 +2985,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           Hey there
         </DropdownItem>
       </Dropdown__DropdownPanel>,
@@ -3072,20 +3034,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           Hey there
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": "Hey there",
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Hey there",
@@ -3101,10 +3065,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             Hey there
           </DropdownItem>
         </Dropdown__DropdownPanel>,
@@ -3146,20 +3114,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             Hey there
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": "Hey there",
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Hey there",
@@ -3202,9 +3172,7 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         You can't close me
       </nobr>
@@ -3222,10 +3190,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           <nobr>
             You can't close me
           </nobr>
@@ -3268,24 +3240,26 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           <nobr>
             You can't close me
           </nobr>
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": <nobr>
             You can't close me
           </nobr>,
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": Object {
@@ -3311,10 +3285,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             <nobr>
               You can't close me
             </nobr>
@@ -3357,24 +3335,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             <nobr>
               You can't close me
             </nobr>
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               You can't close me
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3427,9 +3407,7 @@ ShallowWrapper {
     persist={false}
     selected={false}
   >
-    <DropdownItem
-      onClick={[Function]}
-    >
+    <DropdownItem>
       <nobr>
         You will never see me
       </nobr>
@@ -3447,10 +3425,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
-        <DropdownItem
-          onClick={[Function]}
-        >
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
+        <DropdownItem>
           <nobr>
             You will never see me
           </nobr>
@@ -3493,24 +3475,26 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <DropdownItem
-          onClick={[Function]}
-        >
+        "children": <DropdownItem>
           <nobr>
             You will never see me
           </nobr>
         </DropdownItem>,
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "children": <nobr>
             You will never see me
           </nobr>,
-          "onClick": [Function],
         },
         "ref": null,
         "rendered": Object {
@@ -3536,10 +3520,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
-          <DropdownItem
-            onClick={[Function]}
-          >
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
+          <DropdownItem>
             <nobr>
               You will never see me
             </nobr>
@@ -3582,24 +3570,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <DropdownItem
-            onClick={[Function]}
-          >
+          "children": <DropdownItem>
             <nobr>
               You will never see me
             </nobr>
           </DropdownItem>,
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               You will never see me
             </nobr>,
-            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3699,7 +3689,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <Dropdown__DropdownPanel>
+      "children": <Dropdown__DropdownPanel
+        innerRef={[Function]}
+        lastInteractionKeyboard={false}
+        onKeyDown={[Function]}
+        onKeyDownCapture={[Function]}
+        onMouseMove={[Function]}
+      >
         <DropdownItem
           onClick={[Function]}
         >
@@ -3810,13 +3806,18 @@ ShallowWrapper {
             </nobr>
           </DropdownItem>,
         ],
+        "innerRef": [Function],
+        "lastInteractionKeyboard": false,
+        "onKeyDown": [Function],
+        "onKeyDownCapture": [Function],
+        "onMouseMove": [Function],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               ...cause I'm close to the edge
@@ -3840,7 +3841,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               I'm trying not to lose my head
@@ -3864,7 +3865,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It's like a jungle sometimes
@@ -3888,7 +3889,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
@@ -3912,7 +3913,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "children": <nobr>
               -- Grandmaster Flash
@@ -3944,7 +3945,13 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Dropdown__DropdownPanel>
+        "children": <Dropdown__DropdownPanel
+          innerRef={[Function]}
+          lastInteractionKeyboard={false}
+          onKeyDown={[Function]}
+          onKeyDownCapture={[Function]}
+          onMouseMove={[Function]}
+        >
           <DropdownItem
             onClick={[Function]}
           >
@@ -4055,13 +4062,18 @@ ShallowWrapper {
               </nobr>
             </DropdownItem>,
           ],
+          "innerRef": [Function],
+          "lastInteractionKeyboard": false,
+          "onKeyDown": [Function],
+          "onKeyDownCapture": [Function],
+          "onMouseMove": [Function],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 ...cause I'm close to the edge
@@ -4085,7 +4097,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 I'm trying not to lose my head
@@ -4109,7 +4121,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It's like a jungle sometimes
@@ -4133,7 +4145,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
@@ -4157,7 +4169,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": <nobr>
                 -- Grandmaster Flash

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import KEY_CODES from '../../helpers/keyCodes';
+import { isTabbable } from '../../helpers/dom';
 
 const TriggerWrapper = styled.span`
   display: inline-block;
@@ -78,6 +80,7 @@ class ToggleMenu extends Component {
         this.removeDocumentEventListeners();
       }
     } else if (this.props.open && !prevProps.open) {
+      this.tryFocusTrigger();
       if (this.props.closeOnOutsideClick) {
         this.addDocumentEventListeners();
       }
@@ -129,13 +132,13 @@ class ToggleMenu extends Component {
   };
 
   addDocumentEventListeners = () => {
-    document.addEventListener('click', this.handleClose);
-    document.addEventListener('keydown', this.handleKeyDown);
+    document.addEventListener('click', this.handleClose, true);
+    document.addEventListener('keydown', this.handleDocumentKeyDown);
   };
 
   removeDocumentEventListeners = () => {
     document.removeEventListener('click', this.handleClose);
-    document.removeEventListener('keydown', this.handleKeyDown);
+    document.removeEventListener('keydown', this.handleDocumentKeyDown);
   };
 
   isMenuInViewport = () => {
@@ -154,6 +157,13 @@ class ToggleMenu extends Component {
   };
 
   isControlled = () => typeof this.props.open !== 'undefined';
+
+  tryFocusTrigger = () => {
+    const trigger = this.wrapperRef && this.wrapperRef.firstChild;
+    if (trigger && isTabbable(trigger)) {
+      trigger.focus();
+    }
+  };
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
     const withinBounds = this.isMenuInViewport();
@@ -174,15 +184,25 @@ class ToggleMenu extends Component {
     }
   };
 
-  handleKeyDown = event => {
-    if (event && event.keyCode === 27) {
+  handleDocumentKeyDown = event => {
+    if (event && event.keyCode === KEY_CODES.Esc) {
       // escape key pressed;
       this.handleClose(event);
     }
   };
 
+  handleTriggerKeyDown = event => {
+    if (this.props.open || this.state.open) return;
+    if (event.keyCode === KEY_CODES.Down) {
+      event.preventDefault();
+      this.handleOpen();
+    }
+  };
+
   handleOpen = event => {
-    event.preventDefault();
+    if (event) {
+      event.preventDefault();
+    }
     this.props.onOpen();
     if (this.isControlled()) {
       return;
@@ -210,11 +230,14 @@ class ToggleMenu extends Component {
       return;
     }
 
-    this.setState({ open: false }, () => {
-      if (this.props.closeOnOutsideClick) {
-        this.removeDocumentEventListeners();
-      }
-    });
+    if (this.state.open) {
+      this.setState({ open: false }, () => {
+        this.tryFocusTrigger();
+        if (this.props.closeOnOutsideClick) {
+          this.removeDocumentEventListeners();
+        }
+      });
+    }
   };
 
   toggleMenu = event => {
@@ -233,9 +256,13 @@ class ToggleMenu extends Component {
     return (
       <TriggerWrapper
         onClick={this.toggleMenu}
+        onKeyDown={this.handleTriggerKeyDown}
         className={className}
         disabled={disabled}
         fluid={fluid}
+        innerRef={c => {
+          this.wrapperRef = c;
+        }}
       >
         {trigger}
         <MenuWrapper
