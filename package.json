@@ -22,6 +22,7 @@
     "add-dist"
   ],
   "scripts": {
+    "analyze": "NODE_ENV=production webpack --config webpack.analyzer.config.js",
     "start": "styleguidist server",
     "prepublishOnly": "yarn lint && yarn test && yarn dist",
     "lint": "eslint src scripts tools",
@@ -92,6 +93,7 @@
     "svg-inline-loader": "0.8.0",
     "url-loader": "1.0.1",
     "webpack": "4.1.1",
+    "webpack-bundle-analyzer": "3.0.3",
     "webpack-cli": "2.0.12",
     "webpack-node-externals": "1.7.2"
   },

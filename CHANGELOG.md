@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Added
+- Bundle analyzer.
+
 ### Changed
 - Limit Dropdown max height to 320px by default.
 - Dropdown keyboard navigation support.
