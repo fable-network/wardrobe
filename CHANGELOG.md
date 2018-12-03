@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [3.1.3] - 2018-12-03
+
+### Changed
+
+- Improvements for Dropdown in controlled mode.
+
 ## [3.1.2] - 2018-12-03
 
 ### Changed
