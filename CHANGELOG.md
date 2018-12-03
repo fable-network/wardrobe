@@ -1,6 +1,9 @@
 ## [Unreleased]
 
+## [3.1.0] - 2018-12-03
+
 ### Added
+
 - Bundle analyzer.
 
 ### Changed
