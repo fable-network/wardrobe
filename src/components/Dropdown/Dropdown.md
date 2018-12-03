@@ -1,4 +1,5 @@
 Dropdown can be used with any content inside the panel. But if you use it with `Dropdown.Item` you'll get some benefits:
+
 - Uniform styling.
 - Better keyboard navigation support.
 
@@ -24,23 +25,23 @@ Dropdown:
 </Dropdown>
 ```
 
-Dropdown with `persist=true` and `onClick` handlers:
+Dropdown with `persist=true` and `onSelect` handlers:
 
 ```jsx
 <Dropdown label="Don't push me" persist>
-  <Dropdown.Item onClick={() => alert('Clicked 1')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 2')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 2')}>
     <nobr>I'm trying not to lose my head</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 3')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 3')}>
     <nobr>It's like a jungle sometimes</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 4')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 4')}>
     <nobr>It makes me wonder how I keep from goin' under</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert("Don't push me")}>
+  <Dropdown.Item onSelect={() => alert("Don't push me")}>
     <nobr>-- Grandmaster Flash</nobr>
   </Dropdown.Item>
 </Dropdown>
@@ -195,19 +196,19 @@ Dropdown with a fluid toggle button:
 
 ```jsx
 <Dropdown label="Don't push me" fluid={true}>
-  <Dropdown.Item onClick={() => alert('Clicked 1')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 1')}>
     <nobr>...cause I'm close to the edge</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 2')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 2')}>
     <nobr>I'm trying not to lose my head</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 3')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 3')}>
     <nobr>It's like a jungle sometimes</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert('Clicked 4')}>
+  <Dropdown.Item onSelect={() => alert('Clicked 4')}>
     <nobr>It makes me wonder how I keep from goin' under</nobr>
   </Dropdown.Item>
-  <Dropdown.Item onClick={() => alert("Don't push me")}>
+  <Dropdown.Item onSelect={() => alert("Don't push me")}>
     <nobr>-- Grandmaster Flash</nobr>
   </Dropdown.Item>
 </Dropdown>
@@ -218,15 +219,64 @@ Dropdown with a very long label (also try holding a cursor on it to see a toolti
 ```jsx
 <div style={{ width: '240px' }}>
   <Dropdown label="Don't push me cause I'm close to the edge, I'm trying not to lose my head">
-    <Dropdown.Item onClick={() => alert('Clicked 3')}>
+    <Dropdown.Item onSelect={() => alert('Clicked 3')}>
       <nobr>It's like a jungle sometimes</nobr>
     </Dropdown.Item>
-    <Dropdown.Item onClick={() => alert('Clicked 4')}>
+    <Dropdown.Item onSelect={() => alert('Clicked 4')}>
       <nobr>It makes me wonder how I keep from goin' under</nobr>
     </Dropdown.Item>
-    <Dropdown.Item onClick={() => alert("Don't push me")}>
+    <Dropdown.Item onSelect={() => alert("Don't push me")}>
       <nobr>-- Grandmaster Flash</nobr>
     </Dropdown.Item>
   </Dropdown>
 </div>
+```
+
+Dropdown with `search` ability (note, you should provide `onSearch` handler):
+
+```jsx
+const ITEMS = [
+  "...cause I'm close to the edge I'm trying not to lose my head",
+  "I'm trying not to lose my head",
+  "It's like a jungle sometimes It makes me wonder how I keep from goin' under",
+  "It makes me wonder how I keep from goin' under",
+  '-- Grandmaster Flash',
+];
+class Example extends React.Component {
+  constructor() {
+    super();
+    this.handleSearch = this.handleSearch.bind(this);
+    this.state = {
+      selected: null,
+      items: ITEMS,
+    };
+  }
+
+  handleSearch(value = '') {
+    this.setState({
+      items: value
+        ? ITEMS.filter(item => item.toLowerCase().indexOf(value.toLowerCase()) >= 0)
+        : ITEMS,
+    });
+  }
+
+  render() {
+    return (
+      <Dropdown
+        label={this.state.selected || "Don't push me..."}
+        search
+        onSearch={this.handleSearch}
+        placeholder="Type to search..."
+      >
+        {this.state.items.map(item => (
+          <Dropdown.Item value={item} key={item} onSelect={selected => this.setState({ selected })}>
+            <nobr>{item}</nobr>
+          </Dropdown.Item>
+        ))}
+        {this.state.items.length === 0 && <p align="center">Nothing found</p>}
+      </Dropdown>
+    );
+  }
+}
+<Example />;
 ```

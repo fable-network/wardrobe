@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 
+import noop from '../../helpers/noop';
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
 import DropdownTitle from '../DropdownTitle';
@@ -81,7 +82,7 @@ class OverflowMenu extends Component {
     }
   };
 
-  renderTrigger = () => {
+  renderTrigger = ({ toggle }) => {
     const { menuOpen } = this.state;
     const { color: propsColor, activeColor, ...otherProps } = this.props;
     const defaultColor = propsColor || this.getColorFromAppearance();
@@ -89,7 +90,7 @@ class OverflowMenu extends Component {
     const size = this.getWidthAndHeightFromSize();
 
     return (
-      <Trigger {...otherProps} color={color} active={menuOpen}>
+      <Trigger {...otherProps} color={color} active={menuOpen} onClick={toggle}>
         <svg width={size.width} height={size.height} viewBox="0 0 5 21">
           <g fillRule="evenodd" fill={color}>
             <circle cx="2.5" cy="18.5" r="2.5" />
@@ -103,15 +104,16 @@ class OverflowMenu extends Component {
 
   render() {
     const { children, position, open, persist } = this.props;
+    const { menuOpen } = this.state;
 
     return (
       <ToggleMenu
-        trigger={this.renderTrigger()}
+        renderTrigger={this.renderTrigger}
         position={position}
         onOpen={this.handleMenuOpen}
         onClose={this.handleMenuClose}
         persist={persist}
-        open={open}
+        open={this.isControlled() ? open : menuOpen}
       >
         <Menu>{children}</Menu>
       </ToggleMenu>
@@ -122,8 +124,9 @@ class OverflowMenu extends Component {
 OverflowMenu.defaultProps = {
   appearance: 'dark',
   position: 'right',
-  onOpen: () => {},
-  onClose: () => null,
+  onOpen: noop,
+  onClose: noop,
+  persist: false,
   size: 'small',
 };
 

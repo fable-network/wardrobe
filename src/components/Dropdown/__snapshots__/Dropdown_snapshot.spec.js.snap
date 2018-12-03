@@ -9,8 +9,13 @@ ShallowWrapper {
     fluid={false}
     label="Don't push me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -88,32 +93,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Don't push me"
-      >
-        <Dropdown__Label>
-          Don't push me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -319,32 +307,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Don't push me"
-        >
-          <Dropdown__Label>
-            Don't push me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -535,40 +506,45 @@ ShallowWrapper {
     fluid={false}
     label="Don't push me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={true}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         ...cause I'm close to the edge
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         I'm trying not to lose my head
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         It's like a jungle sometimes
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         -- Grandmaster Flash
@@ -595,35 +571,35 @@ ShallowWrapper {
         onMouseMove={[Function]}
       >
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             ...cause I'm close to the edge
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             I'm trying not to lose my head
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             It's like a jungle sometimes
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             -- Grandmaster Flash
@@ -634,32 +610,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": true,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Don't push me"
-      >
-        <Dropdown__Label>
-          Don't push me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -669,35 +628,35 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               -- Grandmaster Flash
@@ -720,7 +679,7 @@ ShallowWrapper {
             "children": <nobr>
               ...cause I'm close to the edge
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -744,7 +703,7 @@ ShallowWrapper {
             "children": <nobr>
               I'm trying not to lose my head
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -768,7 +727,7 @@ ShallowWrapper {
             "children": <nobr>
               It's like a jungle sometimes
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -792,7 +751,7 @@ ShallowWrapper {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -816,7 +775,7 @@ ShallowWrapper {
             "children": <nobr>
               -- Grandmaster Flash
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -851,35 +810,35 @@ ShallowWrapper {
           onMouseMove={[Function]}
         >
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               -- Grandmaster Flash
@@ -890,32 +849,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": true,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Don't push me"
-        >
-          <Dropdown__Label>
-            Don't push me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -925,35 +867,35 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 I'm trying not to lose my head
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 It's like a jungle sometimes
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 -- Grandmaster Flash
@@ -976,7 +918,7 @@ ShallowWrapper {
               "children": <nobr>
                 ...cause I'm close to the edge
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1000,7 +942,7 @@ ShallowWrapper {
               "children": <nobr>
                 I'm trying not to lose my head
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1024,7 +966,7 @@ ShallowWrapper {
               "children": <nobr>
                 It's like a jungle sometimes
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1048,7 +990,7 @@ ShallowWrapper {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1072,7 +1014,7 @@ ShallowWrapper {
               "children": <nobr>
                 -- Grandmaster Flash
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -1121,9 +1063,14 @@ ShallowWrapper {
     fluid={false}
     label="Don't push me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
     preventOutOfBounds={true}
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -1201,32 +1148,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Don't push me"
-      >
-        <Dropdown__Label>
-          Don't push me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -1432,32 +1362,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Don't push me"
-        >
-          <Dropdown__Label>
-            Don't push me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -1648,9 +1561,14 @@ ShallowWrapper {
     fluid={false}
     label="Don't push me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
     preventOutOfBounds={false}
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -1728,32 +1646,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": false,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Don't push me"
-      >
-        <Dropdown__Label>
-          Don't push me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -1959,32 +1860,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": false,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Don't push me"
-        >
-          <Dropdown__Label>
-            Don't push me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2175,8 +2059,13 @@ ShallowWrapper {
     fluid={false}
     label="Push Me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={true}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <nobr>
@@ -2210,32 +2099,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": true,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Push Me"
-      >
-        <Dropdown__Label>
-          Push Me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -2289,32 +2161,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": true,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Push Me"
-        >
-          <Dropdown__Label>
-            Push Me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2375,8 +2230,13 @@ ShallowWrapper {
     fluid={false}
     label="Push Me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={true}
   >
     <DropdownItem>
@@ -2410,32 +2270,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Push Me"
-      >
-        <Dropdown__Label>
-          Push Me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-selected"
-            open={false}
-            selected={true}
-            width={11}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -2489,32 +2332,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Push Me"
-        >
-          <Dropdown__Label>
-            Push Me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-selected"
-              open={false}
-              selected={true}
-              width={11}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2575,8 +2401,13 @@ ShallowWrapper {
     fluid={false}
     label="Something is happening"
     loading={true}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -2610,25 +2441,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Something is happening"
-      >
-        <Dropdown__Label>
-          Something is happening
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <SpinnerFontSizeBase />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -2682,25 +2503,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Something is happening"
-        >
-          <Dropdown__Label>
-            Something is happening
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <SpinnerFontSizeBase />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2761,8 +2572,13 @@ ShallowWrapper {
     fluid={false}
     label="Select"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -2796,32 +2612,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": true,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={true}
-        fluid={false}
-        title="Select"
-      >
-        <Dropdown__Label>
-          Select
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={true}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -2875,32 +2674,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": true,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={true}
-          fluid={false}
-          title="Select"
-        >
-          <Dropdown__Label>
-            Select
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={true}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -2965,8 +2747,13 @@ ShallowWrapper {
       </h3>
     }
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -3000,33 +2787,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-      >
-        <Dropdown__Label>
-          <h3>
-            h3 label
-          </h3>
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -3080,33 +2849,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-        >
-          <Dropdown__Label>
-            <h3>
-              h3 label
-            </h3>
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -3167,9 +2918,14 @@ ShallowWrapper {
     fluid={false}
     label="Select"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     open={true}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -3207,6 +2963,7 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
@@ -3214,25 +2971,7 @@ ShallowWrapper {
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="Select"
-      >
-        <Dropdown__Label>
-          Select
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={true}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -3302,6 +3041,7 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
@@ -3309,25 +3049,7 @@ ShallowWrapper {
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="Select"
-        >
-          <Dropdown__Label>
-            Select
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={true}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -3402,9 +3124,14 @@ ShallowWrapper {
     fluid={false}
     label="You can't open me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     open={false}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem>
@@ -3442,6 +3169,7 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": false,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
@@ -3449,25 +3177,7 @@ ShallowWrapper {
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={false}
-        title="You can't open me"
-      >
-        <Dropdown__Label>
-          You can't open me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -3537,6 +3247,7 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": false,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
@@ -3544,25 +3255,7 @@ ShallowWrapper {
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={false}
-          title="You can't open me"
-        >
-          <Dropdown__Label>
-            You can't open me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -3637,40 +3330,45 @@ ShallowWrapper {
     fluid={true}
     label="Don't push me"
     loading={false}
+    onClick={[Function]}
     onClose={[Function]}
+    onOpen={[Function]}
+    onSearch={[Function]}
     persist={false}
+    placeholder=""
+    search={false}
     selected={false}
   >
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         ...cause I'm close to the edge
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         I'm trying not to lose my head
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         It's like a jungle sometimes
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         It makes me wonder how I keep from goin' under
       </nobr>
     </DropdownItem>
     <DropdownItem
-      onClick={[Function]}
+      onSelect={[Function]}
     >
       <nobr>
         -- Grandmaster Flash
@@ -3697,35 +3395,35 @@ ShallowWrapper {
         onMouseMove={[Function]}
       >
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             ...cause I'm close to the edge
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             I'm trying not to lose my head
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             It's like a jungle sometimes
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             It makes me wonder how I keep from goin' under
           </nobr>
         </DropdownItem>
         <DropdownItem
-          onClick={[Function]}
+          onSelect={[Function]}
         >
           <nobr>
             -- Grandmaster Flash
@@ -3736,32 +3434,15 @@ ShallowWrapper {
       "closeOnOutsideClick": true,
       "disabled": false,
       "fluid": true,
+      "innerRef": [Function],
       "menuOffset": "0.25rem",
       "onClose": [Function],
       "onOpen": [Function],
-      "open": undefined,
+      "open": false,
       "persist": false,
       "position": "bottom",
       "preventOutOfBounds": true,
-      "trigger": <Dropdown__DropdownButton
-        disabled={false}
-        fluid={true}
-        title="Don't push me"
-      >
-        <Dropdown__Label>
-          Don't push me
-        </Dropdown__Label>
-        <Dropdown__IconWrapper>
-          <Dropdown__StyledIcon
-            disabled={false}
-            height={9}
-            name="caret-down"
-            open={false}
-            selected={false}
-            width={16}
-          />
-        </Dropdown__IconWrapper>
-      </Dropdown__DropdownButton>,
+      "renderTrigger": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -3771,35 +3452,35 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>,
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               -- Grandmaster Flash
@@ -3822,7 +3503,7 @@ ShallowWrapper {
             "children": <nobr>
               ...cause I'm close to the edge
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3846,7 +3527,7 @@ ShallowWrapper {
             "children": <nobr>
               I'm trying not to lose my head
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3870,7 +3551,7 @@ ShallowWrapper {
             "children": <nobr>
               It's like a jungle sometimes
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3894,7 +3575,7 @@ ShallowWrapper {
             "children": <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3918,7 +3599,7 @@ ShallowWrapper {
             "children": <nobr>
               -- Grandmaster Flash
             </nobr>,
-            "onClick": [Function],
+            "onSelect": [Function],
           },
           "ref": null,
           "rendered": Object {
@@ -3953,35 +3634,35 @@ ShallowWrapper {
           onMouseMove={[Function]}
         >
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               ...cause I'm close to the edge
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               I'm trying not to lose my head
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It's like a jungle sometimes
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               It makes me wonder how I keep from goin' under
             </nobr>
           </DropdownItem>
           <DropdownItem
-            onClick={[Function]}
+            onSelect={[Function]}
           >
             <nobr>
               -- Grandmaster Flash
@@ -3992,32 +3673,15 @@ ShallowWrapper {
         "closeOnOutsideClick": true,
         "disabled": false,
         "fluid": true,
+        "innerRef": [Function],
         "menuOffset": "0.25rem",
         "onClose": [Function],
         "onOpen": [Function],
-        "open": undefined,
+        "open": false,
         "persist": false,
         "position": "bottom",
         "preventOutOfBounds": true,
-        "trigger": <Dropdown__DropdownButton
-          disabled={false}
-          fluid={true}
-          title="Don't push me"
-        >
-          <Dropdown__Label>
-            Don't push me
-          </Dropdown__Label>
-          <Dropdown__IconWrapper>
-            <Dropdown__StyledIcon
-              disabled={false}
-              height={9}
-              name="caret-down"
-              open={false}
-              selected={false}
-              width={16}
-            />
-          </Dropdown__IconWrapper>
-        </Dropdown__DropdownButton>,
+        "renderTrigger": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -4027,35 +3691,35 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 ...cause I'm close to the edge
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 I'm trying not to lose my head
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 It's like a jungle sometimes
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>
             </DropdownItem>,
             <DropdownItem
-              onClick={[Function]}
+              onSelect={[Function]}
             >
               <nobr>
                 -- Grandmaster Flash
@@ -4078,7 +3742,7 @@ ShallowWrapper {
               "children": <nobr>
                 ...cause I'm close to the edge
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -4102,7 +3766,7 @@ ShallowWrapper {
               "children": <nobr>
                 I'm trying not to lose my head
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -4126,7 +3790,7 @@ ShallowWrapper {
               "children": <nobr>
                 It's like a jungle sometimes
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -4150,7 +3814,7 @@ ShallowWrapper {
               "children": <nobr>
                 It makes me wonder how I keep from goin' under
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {
@@ -4174,7 +3838,7 @@ ShallowWrapper {
               "children": <nobr>
                 -- Grandmaster Flash
               </nobr>,
-              "onClick": [Function],
+              "onSelect": [Function],
             },
             "ref": null,
             "rendered": Object {

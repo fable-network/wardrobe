@@ -31,19 +31,19 @@ describe('Dropdown Component', () => {
 
       const wrapper2 = shallow(
         <Dropdown label="Don't push me" persist>
-          <Dropdown.Item onClick={() => alert('Clicked 1')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 1')}>
             <nobr>...cause I'm close to the edge</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 2')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 2')}>
             <nobr>I'm trying not to lose my head</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 3')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 3')}>
             <nobr>It's like a jungle sometimes</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 4')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 4')}>
             <nobr>It makes me wonder how I keep from goin' under</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert("Don't push me")}>
+          <Dropdown.Item onSelect={() => alert("Don't push me")}>
             <nobr>-- Grandmaster Flash</nobr>
           </Dropdown.Item>
         </Dropdown>
@@ -147,19 +147,19 @@ describe('Dropdown Component', () => {
 
       const wrapper12 = shallow(
         <Dropdown label="Don't push me" fluid={true}>
-          <Dropdown.Item onClick={() => alert('Clicked 1')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 1')}>
             <nobr>...cause I'm close to the edge</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 2')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 2')}>
             <nobr>I'm trying not to lose my head</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 3')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 3')}>
             <nobr>It's like a jungle sometimes</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert('Clicked 4')}>
+          <Dropdown.Item onSelect={() => alert('Clicked 4')}>
             <nobr>It makes me wonder how I keep from goin' under</nobr>
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => alert("Don't push me")}>
+          <Dropdown.Item onSelect={() => alert("Don't push me")}>
             <nobr>-- Grandmaster Flash</nobr>
           </Dropdown.Item>
         </Dropdown>

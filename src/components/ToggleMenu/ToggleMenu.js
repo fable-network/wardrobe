@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import KEY_CODES from '../../helpers/keyCodes';
-import { isTabbable } from '../../helpers/dom';
 
 const TriggerWrapper = styled.span`
   display: inline-block;
@@ -58,7 +57,6 @@ class ToggleMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: false,
       position: getDerivedPosition(props.position),
     };
   }
@@ -80,7 +78,6 @@ class ToggleMenu extends Component {
         this.removeDocumentEventListeners();
       }
     } else if (this.props.open && !prevProps.open) {
-      this.tryFocusTrigger();
       if (this.props.closeOnOutsideClick) {
         this.addDocumentEventListeners();
       }
@@ -132,12 +129,12 @@ class ToggleMenu extends Component {
   };
 
   addDocumentEventListeners = () => {
-    document.addEventListener('click', this.handleClose, true);
+    document.addEventListener('click', this.handleDocumentClick, true);
     document.addEventListener('keydown', this.handleDocumentKeyDown);
   };
 
   removeDocumentEventListeners = () => {
-    document.removeEventListener('click', this.handleClose);
+    document.removeEventListener('click', this.handleDocumentClick);
     document.removeEventListener('keydown', this.handleDocumentKeyDown);
   };
 
@@ -154,15 +151,6 @@ class ToggleMenu extends Component {
       bottom: rect.bottom <= (window.innerHeight || document.documentElement.clientHeight),
       right: rect.right <= (window.innerWidth || document.documentElement.clientWidth),
     };
-  };
-
-  isControlled = () => typeof this.props.open !== 'undefined';
-
-  tryFocusTrigger = () => {
-    const trigger = this.wrapperRef && this.wrapperRef.firstChild;
-    if (trigger && isTabbable(trigger)) {
-      trigger.focus();
-    }
   };
 
   handleOutOfBounds = (restoreOriginalPosition = false) => {
@@ -187,84 +175,53 @@ class ToggleMenu extends Component {
   handleDocumentKeyDown = event => {
     if (event && event.keyCode === KEY_CODES.Esc) {
       // escape key pressed;
-      this.handleClose(event);
+      this.props.onClose(event);
     }
   };
 
-  handleTriggerKeyDown = event => {
-    if (this.props.open || this.state.open) return;
-    if (event.keyCode === KEY_CODES.Down) {
-      event.preventDefault();
-      this.handleOpen();
-    }
-  };
-
-  handleOpen = event => {
-    if (event) {
-      event.preventDefault();
-    }
-    this.props.onOpen();
-    if (this.isControlled()) {
+  handleDocumentClick = event => {
+    const clickedInMenu = this.menuRef.contains(event.target);
+    if (this.props.persist && clickedInMenu) {
       return;
     }
-
-    this.setState({ open: true, position: getDerivedPosition(this.props.position) }, () => {
-      if (this.props.closeOnOutsideClick) {
-        this.addDocumentEventListeners();
-      }
-      if (this.props.preventOutOfBounds) {
-        this.handleOutOfBounds();
-      }
-    });
-  };
-
-  handleClose = event => {
+    if (this.wrapperRef.contains(event.target) && !clickedInMenu) {
+      return;
+    }
     if (!process.env.IS_STYLEGUIDE) {
       event.preventDefault();
+      event.stopPropagation();
     }
-    if (this.props.persist && this.menuRef.contains(event.target)) {
-      return;
-    }
-    this.props.onClose();
-    if (this.isControlled()) {
-      return;
-    }
-
-    if (this.state.open) {
-      this.setState({ open: false }, () => {
-        this.tryFocusTrigger();
-        if (this.props.closeOnOutsideClick) {
-          this.removeDocumentEventListeners();
-        }
-      });
+    if (this.props.open) {
+      this.props.onClose(event);
     }
   };
 
-  toggleMenu = event => {
-    if (this.props.open || this.state.open) {
-      this.handleClose(event);
+  toggleMenu = (event) => {
+    if (this.props.open) {
+      this.props.onClose(event);
     } else {
-      this.handleOpen(event);
+      this.props.onOpen(event);
     }
   };
 
   render() {
-    const { trigger, children, className, disabled, fluid } = this.props;
+    const { renderTrigger, children, className, disabled, fluid, innerRef } = this.props;
     const { position } = this.state;
     const { top, bottom, left, right, margin } = this.getPositionValues(position);
 
     return (
       <TriggerWrapper
-        onClick={this.toggleMenu}
-        onKeyDown={this.handleTriggerKeyDown}
         className={className}
         disabled={disabled}
         fluid={fluid}
         innerRef={c => {
           this.wrapperRef = c;
+          if (innerRef) {
+            innerRef(c);
+          }
         }}
       >
-        {trigger}
+        {renderTrigger({ toggle: this.toggleMenu })}
         <MenuWrapper
           innerRef={c => {
             this.menuRef = c;
@@ -273,7 +230,7 @@ class ToggleMenu extends Component {
           bottom={bottom}
           left={left}
           right={right}
-          visible={this.props.open || this.state.open}
+          visible={this.props.open}
           margin={margin}
         >
           {children}
@@ -285,26 +242,25 @@ class ToggleMenu extends Component {
 
 ToggleMenu.propTypes = {
   className: PropTypes.string,
-  trigger: PropTypes.node.isRequired,
+  renderTrigger: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
   position: PropTypes.oneOf(['top', 'bottom', 'left', 'right']),
   preventOutOfBounds: PropTypes.bool,
-  onOpen: PropTypes.func,
-  onClose: PropTypes.func,
+  onOpen: PropTypes.func.isRequired,
+  onClose: PropTypes.func.isRequired,
   closeOnOutsideClick: PropTypes.bool,
   /** Distance between the menu and the trigger. */
   menuOffset: PropTypes.string,
   fluid: PropTypes.bool,
-  open: PropTypes.bool,
+  open: PropTypes.bool.isRequired,
   persist: PropTypes.bool,
   disabled: PropTypes.bool,
+  innerRef: PropTypes.func,
 };
 
 ToggleMenu.defaultProps = {
   position: 'bottom',
   preventOutOfBounds: true,
-  onOpen: () => null,
-  onClose: () => null,
   closeOnOutsideClick: true,
   menuOffset: '0.25rem',
   fluid: false,
