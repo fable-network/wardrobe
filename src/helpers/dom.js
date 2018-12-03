@@ -22,15 +22,6 @@ export function prevTabbable(container) {
   return elems[activeIndex - 1];
 }
 
-export function findSelfOrParentInContainer(container, elem) {
-  if (!elem) return null;
-  let currentElem = elem;
-  while (currentElem && currentElem.parentElement !== container) {
-    currentElem = currentElem.parentElement;
-  }
-  return currentElem;
-}
-
 export function dispatchKeyboardEvent(type, element, keyCode) {
   if (typeof window.KeyboardEvent === 'function') {
     const event = new window.KeyboardEvent(type, {

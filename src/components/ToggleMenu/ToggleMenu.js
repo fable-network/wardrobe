@@ -187,10 +187,6 @@ class ToggleMenu extends Component {
     if (this.wrapperRef.contains(event.target) && !clickedInMenu) {
       return;
     }
-    if (!process.env.IS_STYLEGUIDE) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
     if (this.props.open) {
       this.props.onClose(event);
     }

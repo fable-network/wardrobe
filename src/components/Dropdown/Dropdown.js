@@ -6,7 +6,6 @@ import debounce from 'lodash.debounce';
 import {
   nextTabbable,
   prevTabbable,
-  findSelfOrParentInContainer,
   isTabbable,
   dispatchKeyboardEvent,
 } from '../../helpers/dom';
@@ -185,11 +184,9 @@ class Dropdown extends Component {
 
   saveHoveredElem = target => {
     if (this.state.lastInteractionKeyboard) return;
-    // Save the topmost tabbable panel child under the mouse (if found one) for future
-    // keyboard interactions
-    const elem = findSelfOrParentInContainer(this.panel, target);
-    if (elem && isTabbable(elem)) {
-      this.hoveredItem = elem;
+    // Save the tabbable element under the mouse for future keyboard interactions
+    if (target && isTabbable(target)) {
+      this.hoveredItem = target;
     }
   };
 
