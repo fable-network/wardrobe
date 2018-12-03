@@ -3,12 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { css, withTheme } from 'styled-components';
 import * as focusScope from 'a11y-focus-scope';
 import debounce from 'lodash.debounce';
-import {
-  nextTabbable,
-  prevTabbable,
-  isTabbable,
-  dispatchKeyboardEvent,
-} from '../../helpers/dom';
+import { nextTabbable, prevTabbable, isTabbable, dispatchKeyboardEvent } from '../../helpers/dom';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 import KEY_CODES from '../../helpers/keyCodes';
 import noop from '../../helpers/noop';
@@ -367,9 +362,12 @@ class Dropdown extends Component {
   };
 
   handlePanelMouseMove = event => {
-    this.saveHoveredElemDebounced(event.target);
+    const { target } = event;
     if (this.state.lastInteractionKeyboard) {
-      this.setState({ lastInteractionKeyboard: false });
+      this.setState({ lastInteractionKeyboard: false }, () =>
+        this.saveHoveredElemDebounced(target));
+    } else {
+      this.saveHoveredElemDebounced(target);
     }
   };
 

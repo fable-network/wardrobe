@@ -134,7 +134,7 @@ class ToggleMenu extends Component {
   };
 
   removeDocumentEventListeners = () => {
-    document.removeEventListener('click', this.handleDocumentClick);
+    document.removeEventListener('click', this.handleDocumentClick, true);
     document.removeEventListener('keydown', this.handleDocumentKeyDown);
   };
 
