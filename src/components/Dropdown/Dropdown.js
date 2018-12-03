@@ -54,11 +54,12 @@ const Input = styled.input`
   border: 0;
   outline: none;
   display: inline-block;
-  flex-grow: 1;
+  flex: 1 1 50px;
   font-family: inherit;
   font-size: ${p => p.theme.fontSizeBase};
   line-height: ${p => p.theme.lineHeightControlBase};
   color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
+  min-width: 50px;
   max-width: 100%;
   white-space: nowrap;
   &:focus {
@@ -104,6 +105,7 @@ const DropdownPanel = styled.div`
 
 const IconWrapper = styled.div`
   width: 24px;
+  flex: 0 0 24px;
   text-align: right;
   font-size: 0;
 `;
@@ -160,7 +162,7 @@ class Dropdown extends Component {
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    if (!nextProps.open && prevState.searchText) {
+    if (typeof nextProps.open !== 'undefined' && !nextProps.open && prevState.searchText) {
       // Reset search results after closing
       return { searchText: '' };
     }
@@ -223,11 +225,11 @@ class Dropdown extends Component {
   };
 
   handleMenuClose = event => {
-    this.props.onClose();
     const { target, keyCode } = event || {};
+    const shouldFocusTrigger = keyCode && target && this.wrapper.contains(target);
+    this.props.onClose();
     // We focus trigger if closed using keyboard inside the wrapper
     // Don't focus if closed by clicking outside. Also don't focus if used keyboard outside.
-    const shouldFocusTrigger = keyCode && target && this.wrapper.contains(target);
     if (!this.isControlled() && this.state.menuOpen) {
       this.setState({ menuOpen: false, searchText: '' }, () => {
         this.hoveredItem = null;
@@ -373,8 +375,7 @@ class Dropdown extends Component {
 
   handleInputChange = event => {
     const searchText = event.target.value;
-    this.setState({ searchText });
-    this.props.onSearch(searchText);
+    this.setState({ searchText }, () => this.props.onSearch(searchText));
   };
 
   handleInputClick = event => {
@@ -389,9 +390,9 @@ class Dropdown extends Component {
   };
 
   renderTrigger = ({ toggle }) => {
-    const { disabled, label, selected, loading, open, fluid, search, placeholder } = this.props;
-    const { menuOpen, searchText } = this.state;
-    const showInput = search && menuOpen;
+    const { disabled, label, selected, loading, fluid, search, placeholder } = this.props;
+    const { searchText } = this.state;
+    const showInput = search && this.isOpen();
 
     // Keep the same icon in both modes (search / no search) to not ruin the chevron animation
     return (
@@ -426,7 +427,7 @@ class Dropdown extends Component {
             <Spinner />
           ) : (
             <StyledIcon
-              open={this.isControlled() ? open : menuOpen}
+              open={this.isOpen()}
               selected={selected}
               name={this.getIcon()}
               width={selected ? 11 : 16}
