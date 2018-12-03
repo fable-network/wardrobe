@@ -1,5 +1,17 @@
 ## [Unreleased]
 
+## [3.1.2] - 2018-12-03
+
+### Changed
+
+- Fix issues in Dropdown.
+
+## [3.1.1] - 2018-12-03
+
+### Changed
+
+- Fix issues in Dropdown.
+
 ## [3.1.0] - 2018-12-03
 
 ### Added
