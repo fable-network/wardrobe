@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Changed
+
+- Update Sketch settings screenshot.
+
 ## [3.1.3] - 2018-12-03
 
 ### Changed
