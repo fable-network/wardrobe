@@ -3,6 +3,7 @@
 ### Changed
 
 - Update Sketch settings screenshot.
+- Square checkbox instead of cricles.
 
 ## [3.1.3] - 2018-12-03
 

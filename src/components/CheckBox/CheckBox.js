@@ -16,7 +16,6 @@ const Input = styled('span')`
   position: relative;
   width: 0.8125em;
   height: 0.8125em;
-  border-radius: 50%;
   box-shadow: 0px 0px 0px 1px ${p => (p.checked ? p.theme.primary : p.theme.grey03)};
   background: ${p => (p.checked ? p.theme.primary : 'transparent')};
   border: solid 0.05em #fff;
