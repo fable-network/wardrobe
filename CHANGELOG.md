@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.1.5] - 2018-12-12
+
 ### Changed
 
 - max height of dropdown panel
