@@ -83,7 +83,7 @@ const StyledIcon = styled(Icon).attrs({
 const DropdownPanel = styled.div`
   background-color: ${p => p.theme.white};
   min-width: 100%; /* Minimally the width of the dropdown button */
-  max-height: 320px;
+  max-height: 384px;
   padding: 0.5rem 0;
   box-shadow: ${p => p.theme.shadow};
   overflow: auto;
