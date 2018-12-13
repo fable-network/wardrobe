@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.2.0] - 2018-12-13
+
 ### Changed
 
 - `onClose` is required in Modal.
