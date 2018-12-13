@@ -110,13 +110,15 @@ class Modal extends Component {
   };
 
   handleDocumentKeydown = event => {
-    if (event.keyCode === 27) {
+    if (this.props.closeOnEscape && event.keyCode === 27) {
       this.props.onClose();
     }
   };
 
   handleBackdropClick = () => {
-    this.props.onClose();
+    if (this.props.closeOnBackdropClick) {
+      this.props.onClose();
+    }
   };
 
   handleModalClick = event => {
@@ -133,7 +135,12 @@ class Modal extends Component {
       return null;
     }
     return (
-      <Backdrop backdropColor={backdropColor} role="dialog" onClick={this.handleBackdropClick}>
+      <Backdrop
+        backdropColor={backdropColor}
+        role="dialog"
+        onClick={this.handleBackdropClick}
+        data-component-name="modal-backdrop"
+      >
         <ModalWrapper
           {...otherProps}
           innerRef={this.handleRef}
@@ -149,6 +156,8 @@ class Modal extends Component {
 
 Modal.defaultProps = {
   preventGlobalScroll: true,
+  closeOnBackdropClick: true,
+  closeOnEscape: true,
 };
 
 Modal.propTypes = {
@@ -156,7 +165,9 @@ Modal.propTypes = {
   children: PropTypes.node.isRequired,
   preventGlobalScroll: PropTypes.bool,
   open: PropTypes.bool.isRequired,
-  onClose: PropTypes.func,
+  closeOnBackdropClick: PropTypes.bool,
+  closeOnEscape: PropTypes.bool,
+  onClose: PropTypes.func.isRequired,
 };
 
 /** @component */

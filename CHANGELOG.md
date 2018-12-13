@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+### Changed
+
+- `onClose` is required in Modal.
+- Add a `data-component-name` attribute on Modal Backdrop (to use in tests and/or custom logic).
+- Add `closeOnBackdropClick` and `closeOnEscape` properties to Modal (`true` by default).
+
 ## [3.1.5] - 2018-12-12
 
 ### Changed
