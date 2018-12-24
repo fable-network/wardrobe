@@ -224,11 +224,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#cdcdcd",
+      "headerColor": "#eee",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#666",
+      "textColor": "#333",
     },
     "ref": null,
     "rendered": Array [
@@ -806,11 +806,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#cdcdcd",
+        "headerColor": "#eee",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#666",
+        "textColor": "#333",
       },
       "ref": null,
       "rendered": Array [
@@ -1500,11 +1500,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#cdcdcd",
+      "headerColor": "#eee",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#666",
+      "textColor": "#333",
     },
     "ref": null,
     "rendered": Array [
@@ -2082,11 +2082,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#cdcdcd",
+        "headerColor": "#eee",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#666",
+        "textColor": "#333",
       },
       "ref": null,
       "rendered": Array [
@@ -2768,11 +2768,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#cdcdcd",
+      "headerColor": "#eee",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": true,
-      "textColor": "#666",
+      "textColor": "#333",
     },
     "ref": null,
     "rendered": Array [
@@ -3350,11 +3350,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#cdcdcd",
+        "headerColor": "#eee",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": true,
-        "textColor": "#666",
+        "textColor": "#333",
       },
       "ref": null,
       "rendered": Array [
@@ -6572,11 +6572,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#cdcdcd",
+      "headerColor": "#eee",
       "minWidth": "0",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#666",
+      "textColor": "#333",
     },
     "ref": null,
     "rendered": Array [
@@ -7154,11 +7154,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#cdcdcd",
+        "headerColor": "#eee",
         "minWidth": "0",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#666",
+        "textColor": "#333",
       },
       "ref": null,
       "rendered": Array [
@@ -9108,11 +9108,11 @@ ShallowWrapper {
           </Table__Cell>
         </Table__Row>,
       ],
-      "headerColor": "#cdcdcd",
+      "headerColor": "#eee",
       "minWidth": "2200px",
       "rowColor": "#ffffff",
       "showBorders": false,
-      "textColor": "#666",
+      "textColor": "#333",
     },
     "ref": null,
     "rendered": Array [
@@ -9690,11 +9690,11 @@ ShallowWrapper {
             </Table__Cell>
           </Table__Row>,
         ],
-        "headerColor": "#cdcdcd",
+        "headerColor": "#eee",
         "minWidth": "2200px",
         "rowColor": "#ffffff",
         "showBorders": false,
-        "textColor": "#666",
+        "textColor": "#333",
       },
       "ref": null,
       "rendered": Array [

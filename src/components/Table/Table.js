@@ -6,9 +6,9 @@ import defaultTheme from '../../theme/default';
 
 const colors = {
   light: {
-    headerColor: defaultTheme.grey04,
+    headerColor: defaultTheme.grey05,
     rowColor: defaultTheme.white,
-    textColor: defaultTheme.grey02,
+    textColor: defaultTheme.grey01,
     borderColor: defaultTheme.grey03,
     alternateRowColor: defaultTheme.backgroundSecondary,
   },
