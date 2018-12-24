@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.2.1] - 2018-12-24
+
 ### Changed
 
 - Background and text color of the light table header.
