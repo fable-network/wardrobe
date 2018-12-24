@@ -10159,6 +10159,11 @@ svg-inline-loader@0.8.0:
     object-assign "^4.0.1"
     simple-html-tokenizer "^0.1.1"
 
+svg4everybody@2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/svg4everybody/-/svg4everybody-2.1.9.tgz#5bd9f6defc133859a044646d4743fabc28db7e2d"
+  integrity sha1-W9n23vwTOFmgRGRtR0P6vCjbfi0=
+
 svgo@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"

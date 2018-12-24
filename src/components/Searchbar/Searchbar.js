@@ -33,6 +33,8 @@ const Input = styled('input')`
 const IconWrapper = styled('div')`
   position: absolute;
   ${p => p.iconPosition}: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 0;
   line-height: 1;
 `;

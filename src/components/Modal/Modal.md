@@ -61,7 +61,9 @@ class StyleguideExample extends React.Component {
   }
 
   renderItems(count) {
-    return Array.from(new Array(count)).map((_, index) => <li key={index}>Item {index}</li>);
+    const array = new Array(count);
+    for (let i = 0; i < count; i += 1) array[i] = i;
+    return array.map((_, index) => <li key={index}>Item {index}</li>);
   }
 
   render() {

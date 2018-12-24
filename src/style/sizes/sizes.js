@@ -6,11 +6,16 @@ import Table from '../../components/Table';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 import * as sizes from '../../theme/sizes';
 
+const endsWith = (value, search) =>
+  value.substring(value.length - search.length, value.length) === search;
+
+const startsWith = (value, search) => value.substring(0, search.length) === search;
+
 function getSize({ size, name }) {
-  if (name.startsWith('paddingHorizontal')) {
+  if (startsWith(name, 'paddingHorizontal')) {
     return paddingHorizontal(size);
   }
-  if (name.startsWith('paddingVertical')) {
+  if (startsWith(name, 'paddingVertical')) {
     return paddingVertical(size);
   }
   return '';
@@ -39,8 +44,8 @@ const SizeExample = styled.div`
 `;
 
 const Sizes = ({ name, value }) => {
-  const valueString = value.endsWith('em') && !value.endsWith('rem') ? `${parseFloat(value).toFixed(2)}em` : value;
-  const pxValueString = (value.endsWith('em') && sizes[snakeCase(name).toUpperCase()]) || '';
+  const valueString = endsWith(value, 'em') && !endsWith(value, 'rem') ? `${parseFloat(value).toFixed(2)}em` : value;
+  const pxValueString = (endsWith(value, 'em') && sizes[snakeCase(name).toUpperCase()]) || '';
   return (
     <Table.Row>
       <Table.Cell>{name}</Table.Cell>

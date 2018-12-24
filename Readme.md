@@ -41,6 +41,11 @@ const MyComponent = () => (
 export default MyComponent;
 ```
 
+### Supporting IE11
+
+To make icons display correctly in IE11 we use [svg4everybody](https://github.com/jonathantneal/svg4everybody).
+Add it in your app, if you need to support IE11 too.
+
 ## How to run
 * `yarn install`
 * `yarn start` (Uses [Styleguidist](https://github.com/styleguidist/react-styleguidist))

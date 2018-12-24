@@ -18,11 +18,12 @@ export const Content = ({ index }) => (
 );
 Content.propTypes = { index: PropTypes.number };
 
-export const renderCells = (count, { mobile, tablet, desktop, wide } = {}) =>
-  Array.from(new Array(count))
-    .map((_, index) => index)
-    .map(index => (
-      <Grid.Cell key={index} mobile={mobile} tablet={tablet} desktop={desktop} wide={wide}>
-        <Content index={index} />
-      </Grid.Cell>
-    ));
+export const renderCells = (count, { mobile, tablet, desktop, wide } = {}) => {
+  const array = new Array(count);
+  for (let i = 0; i < count; i += 1) array[i] = i;
+  return array.map(index => (
+    <Grid.Cell key={index} mobile={mobile} tablet={tablet} desktop={desktop} wide={wide}>
+      <Content index={index} />
+    </Grid.Cell>
+  ));
+};

@@ -17,7 +17,10 @@ module.exports = {
 
   components: 'src/components/**/*.js',
 
-  require: [path.join(__dirname, 'src/globals/styles.js')],
+  require: [
+    path.join(__dirname, 'src/support-ie11.js'),
+    path.join(__dirname, 'src/globals/styles.js'),
+  ],
 
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
   // Current Problem: DropdownItem should be used as Dropdown.Item but is imported from Dropdown
@@ -28,7 +31,6 @@ module.exports = {
   styleguideComponents: {
     Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
   },
-
 
   compilerConfig: {
     transforms: { dangerousTaggedTemplateString: true },
