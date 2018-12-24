@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.3.0] - 2018-12-24
+
 ### Changed
 
 - IE11 support in styleguide.
