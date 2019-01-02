@@ -19,3 +19,4 @@ export Grid from './layout/Grid';
 export * as Animations from './animations';
 export Theme from './theme/default';
 export Normalize from './theme/normalize';
+export ToolTip from './components/ToolTip';
