@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.4.0] - 2019-01-02
+
 ### Added
 - ToolTip component
 
