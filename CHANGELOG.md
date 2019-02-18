@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.5.0] - 2019-02-18
+
 ### Added
 
 - IconButton component.
