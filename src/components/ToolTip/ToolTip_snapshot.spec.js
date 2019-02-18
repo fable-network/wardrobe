@@ -26,6 +26,18 @@ describe('ToolTip Component', () => {
 
       const wrapper3 = shallow(
         <ToolTip
+          trigger={<span>Click me</span>}
+          position="right"
+          triggerAction="click"
+          displayTime={3000}
+        >
+          Count to 3
+        </ToolTip>
+      );
+      expect(wrapper3).toMatchSnapshot();
+
+      const wrapper4 = shallow(
+        <ToolTip
           trigger={<span>Hover</span>}
           appearance="dark"
           position="right"
@@ -33,9 +45,9 @@ describe('ToolTip Component', () => {
           Tool tip body text
         </ToolTip>
       );
-      expect(wrapper3).toMatchSnapshot();
+      expect(wrapper4).toMatchSnapshot();
 
-      const wrapper4 = shallow(
+      const wrapper5 = shallow(
         <ToolTip
           trigger={<span>Hover</span>}
           position="right"
@@ -44,9 +56,9 @@ describe('ToolTip Component', () => {
           Takes up width of the content.
         </ToolTip>
       );
-      expect(wrapper4).toMatchSnapshot();
+      expect(wrapper5).toMatchSnapshot();
 
-      const wrapper5 = shallow(
+      const wrapper6 = shallow(
         <ToolTip
           trigger={<span>Hover</span>}
           position="top"
@@ -55,9 +67,9 @@ describe('ToolTip Component', () => {
           I'm on top now
         </ToolTip>
       );
-      expect(wrapper5).toMatchSnapshot();
+      expect(wrapper6).toMatchSnapshot();
 
-      const wrapper6 = shallow(
+      const wrapper7 = shallow(
         <ToolTip
           trigger={<span>Hover</span>}
           position="bottom"
@@ -66,9 +78,9 @@ describe('ToolTip Component', () => {
           I'm on the bottom now
         </ToolTip>
       );
-      expect(wrapper6).toMatchSnapshot();
+      expect(wrapper7).toMatchSnapshot();
 
-      const wrapper7 = shallow(
+      const wrapper8 = shallow(
         <ToolTip
           trigger={<span>Hover</span>}
           position="left"
@@ -77,7 +89,7 @@ describe('ToolTip Component', () => {
           I'm on the left now
         </ToolTip>
       );
-      expect(wrapper7).toMatchSnapshot();
+      expect(wrapper8).toMatchSnapshot();
 
     });
   });

@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Added
+- `displayTime` prop to the Tooltip component to hide after x milliseconds. 
+
 ## [3.5.0] - 2019-02-18
 
 ### Added

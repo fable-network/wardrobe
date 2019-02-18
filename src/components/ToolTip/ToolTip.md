@@ -32,6 +32,19 @@ Click trigger action
 </ToolTip>
 ```
 
+Click trigger action that hides after 3 seconds
+
+```jsx
+<ToolTip
+  trigger={<span>Click me</span>}
+  position="right"
+  triggerAction="click"
+  displayTime={3000}
+>
+  Count to 3
+</ToolTip>
+```
+
 Dark apperance
 
 ```jsx

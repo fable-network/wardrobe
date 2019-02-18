@@ -5,13 +5,14 @@ import styled, { css } from 'styled-components';
 import { fadeIn } from '../../animations';
 
 const toolTipArrowBorder = css`
-  ${p => (p.appearance === 'light'
-    ? 'solid 8px rgba(127, 127, 127, 0.2)'
-    : `solid 8px ${p.theme.grey01}`)};
+  ${p =>
+    (p.appearance === 'light'
+      ? 'solid 8px rgba(127, 127, 127, 0.2)'
+      : `solid 8px ${p.theme.grey01}`)};
 `;
 
 const toolTipArrowBackground = css`
-  ${p => (p.appearance === 'light' ? 'solid 8px #fff' : `solid 8px ${p.theme.grey01}`)};
+  ${p => (p.appearance === 'light' ? `solid 8px ${p.theme.white}` : `solid 8px ${p.theme.grey01}`)};
 `;
 
 const topAndBottomCss = css`
@@ -88,10 +89,10 @@ const positionStyles = {
 const ToolTipWrapper = styled('div')`
   position: absolute;
   box-sizing: border-box;
-  color: ${p => (p.appearance === 'light' ? p.theme.grey01 : '#fff')};
-  background: ${p => (p.appearance === 'light' ? '#fff' : p.theme.grey01)};
-  min-width: ${(p) => (p.fluid ? '100%' : '280px')};
-  white-space: ${(p) => (p.fluid ? 'nowrap' : 'initial')};
+  color: ${p => (p.appearance === 'light' ? p.theme.grey01 : p.theme.white)};
+  background: ${p => (p.appearance === 'light' ? p.theme.white : p.theme.grey01)};
+  min-width: ${p => (p.fluid ? '100%' : '280px')};
+  white-space: ${p => (p.fluid ? 'nowrap' : 'initial')};
   box-shadow: 0 1px 4px 0 rgba(49, 50, 51, 0.2);
   padding: 16px;
   z-index: ${p => p.theme.layerDropdown};
@@ -125,19 +126,35 @@ const TriggerWrapper = styled('div')`
 `;
 
 class ToolTip extends PureComponent {
+  hideToolTipTimeout = null;
+
   state = { show: !this.props.trigger };
 
   showToolTip = () => {
-    this.setState({ show: true });
-  }
+    this.setState({ show: true }, () => {
+      const { displayTime } = this.props;
+      if (displayTime && !this.hideToolTipTimeout) {
+        this.hideToolTipTimeout = setTimeout(this.hideToolTip, displayTime);
+      }
+    });
+  };
 
   hideToolTip = () => {
-    this.setState({ show: false });
-  }
+    this.setState({ show: false }, () => {
+      if (this.hideToolTipTimeout) {
+        clearTimeout(this.hideToolTipTimeout);
+        this.hideToolTipTimeout = null;
+      }
+    });
+  };
 
   toggleToolTip = () => {
-    this.setState(({ show }) => ({ show: !show }));
-  }
+    if (this.state.show) {
+      this.hideToolTip();
+    } else {
+      this.showToolTip();
+    }
+  };
 
   renderToolTip = () => {
     if (!this.state.show) {
@@ -180,6 +197,8 @@ ToolTip.propTypes = {
   triggerAction: PropTypes.oneOf(['click', 'hover']),
   /** If true, the tooltip will only take up the width of the content */
   fluid: PropTypes.bool,
+  /** Duration in ms after which the tooltip is hidden (infinite by default) */
+  displayTime: PropTypes.number,
 };
 
 ToolTip.defaultProps = {
