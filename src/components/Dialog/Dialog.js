@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import noop from 'lodash/noop';
+import IconButton from '../IconButton';
+import Icon from '../Icon';
 
 const PADDINGS = {
   small: '16px 24px',
@@ -38,10 +41,19 @@ const WrapperResponsive = css`
 `;
 
 const Wrapper = styled.div`
+  display: flex;
+  flex-flow: column nowrap; 
   background-color: ${p => p.theme.white};
-  box-shadow: 0 0 8px 0 rgba(120, 130, 139, 0.5);
+  box-shadow: ${p => p.theme.shadow};
+  border-radius: ${p => p.theme.borderRadius};
   width: 100%;
   max-width: 100%;
+  position: relative;
+  
+  ${p => p.theme.mobile`
+    min-height: 100vh;
+  `};
+  
   ${p => p.theme.desktop_up`
     ${WIDTHS[p.size]};
   `};
@@ -50,7 +62,7 @@ const Wrapper = styled.div`
     border-bottom: solid 1px ${p => p.theme.grey05};
     padding: ${p => PADDINGS[p.size] || PADDINGS.normal};
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     color: ${p => p.theme.primary};
     ${p => p.theme.desktop_up`
@@ -73,29 +85,46 @@ const Wrapper = styled.div`
   }
 
   ${BodyStyled} {
+    flex: 1;
     padding: ${p => PADDINGS[p.size] || PADDINGS.normal};
   }
+`;
+
+const CloseButton = styled(IconButton)`
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  overflow: hidden;
 `;
 
 /**
  * Dialog component.
  */
 function Dialog(props) {
-  const { size, children, ...otherProps } = props;
+  const { size, children, showCloseButton, onClose, ...otherProps } = props;
   return (
     <Wrapper {...otherProps} size={size}>
       {children}
+      {showCloseButton && (
+        <CloseButton onClick={onClose} appearance="primary">
+          <Icon name="cross" color="currentColor" />
+        </CloseButton>
+      )}
     </Wrapper>
   );
 }
 
 Dialog.defaultProps = {
   size: 'normal',
+  showCloseButton: false,
+  onClose: noop,
 };
 
 Dialog.propTypes = {
   children: PropTypes.node.isRequired,
   size: PropTypes.oneOf(['auto', 'small', 'normal', 'large']),
+  showCloseButton: PropTypes.bool,
+  onClose: PropTypes.func,
 };
 
 Dialog.Header = HeaderStyled;

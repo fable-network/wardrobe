@@ -5,12 +5,13 @@ import '../../static/iconsprite.svg';
 /**
  * Uses a SVG sprite to show icons based on name
  */
-const Icon = ({ name, color, width, height, ...otherProps }) => (
+const Icon = ({ name, color, width, height, strokeWidth, ...otherProps }) => (
   <svg
     className="ft-icon"
     width={width}
     height={height}
     fill={color}
+    strokeWidth={strokeWidth}
     {...otherProps}
   >
     <use xlinkHref={`/iconsprite.svg#icon-${name}`} />
@@ -32,12 +33,14 @@ Icon.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
+  strokeWidth: PropTypes.number,
 };
 
 Icon.defaultProps = {
   color: 'inherit',
   width: '1em',
   height: '1em',
+  strokeWidth: 1,
 };
 
 export default Icon;

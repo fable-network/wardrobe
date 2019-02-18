@@ -4,6 +4,8 @@ exports[`Dialog Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
+    onClose={[Function]}
+    showCloseButton={false}
     size="normal"
   >
     <Dialog__HeaderStyled>
@@ -46,32 +48,35 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Dialog__HeaderStyled>
-          You are changing the status of this order to Shipped
-        </Dialog__HeaderStyled>,
-        <Dialog__BodyStyled>
-          This body has pre-defined paddings.
-        </Dialog__BodyStyled>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Let us do that!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Cancel
-          </Button>
-        </Dialog__FooterStyled>,
+        Array [
+          <Dialog__HeaderStyled>
+            You are changing the status of this order to Shipped
+          </Dialog__HeaderStyled>,
+          <Dialog__BodyStyled>
+            This body has pre-defined paddings.
+          </Dialog__BodyStyled>,
+          <Dialog__FooterStyled>
+            <Button
+              appearance="primary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Let us do that!
+            </Button>
+            <Button
+              appearance="secondary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Cancel
+            </Button>
+          </Dialog__FooterStyled>,
+        ],
+        false,
       ],
       "size": "normal",
     },
@@ -162,6 +167,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      false,
     ],
     "type": [Function],
   },
@@ -172,32 +178,35 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>
-          </Dialog__FooterStyled>,
+          Array [
+            <Dialog__HeaderStyled>
+              You are changing the status of this order to Shipped
+            </Dialog__HeaderStyled>,
+            <Dialog__BodyStyled>
+              This body has pre-defined paddings.
+            </Dialog__BodyStyled>,
+            <Dialog__FooterStyled>
+              <Button
+                appearance="primary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Let us do that!
+              </Button>
+              <Button
+                appearance="secondary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Cancel
+              </Button>
+            </Dialog__FooterStyled>,
+          ],
+          false,
         ],
         "size": "normal",
       },
@@ -288,6 +297,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
       ],
       "type": [Function],
     },
@@ -314,6 +324,8 @@ exports[`Dialog Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
+    onClose={[Function]}
+    showCloseButton={false}
     size="small"
   >
     <Dialog__HeaderStyled>
@@ -356,32 +368,35 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Dialog__HeaderStyled>
-          You are changing the status of this order to Shipped
-        </Dialog__HeaderStyled>,
-        <Dialog__BodyStyled>
-          This body has pre-defined paddings.
-        </Dialog__BodyStyled>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Let us do that!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Cancel
-          </Button>
-        </Dialog__FooterStyled>,
+        Array [
+          <Dialog__HeaderStyled>
+            You are changing the status of this order to Shipped
+          </Dialog__HeaderStyled>,
+          <Dialog__BodyStyled>
+            This body has pre-defined paddings.
+          </Dialog__BodyStyled>,
+          <Dialog__FooterStyled>
+            <Button
+              appearance="primary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Let us do that!
+            </Button>
+            <Button
+              appearance="secondary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Cancel
+            </Button>
+          </Dialog__FooterStyled>,
+        ],
+        false,
       ],
       "size": "small",
     },
@@ -472,6 +487,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      false,
     ],
     "type": [Function],
   },
@@ -482,32 +498,35 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>
-          </Dialog__FooterStyled>,
+          Array [
+            <Dialog__HeaderStyled>
+              You are changing the status of this order to Shipped
+            </Dialog__HeaderStyled>,
+            <Dialog__BodyStyled>
+              This body has pre-defined paddings.
+            </Dialog__BodyStyled>,
+            <Dialog__FooterStyled>
+              <Button
+                appearance="primary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Let us do that!
+              </Button>
+              <Button
+                appearance="secondary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Cancel
+              </Button>
+            </Dialog__FooterStyled>,
+          ],
+          false,
         ],
         "size": "small",
       },
@@ -598,6 +617,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
       ],
       "type": [Function],
     },
@@ -624,6 +644,8 @@ exports[`Dialog Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
+    onClose={[Function]}
+    showCloseButton={false}
     size="large"
   >
     <Dialog__HeaderStyled>
@@ -666,32 +688,35 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Dialog__HeaderStyled>
-          You are changing the status of this order to Shipped
-        </Dialog__HeaderStyled>,
-        <Dialog__BodyStyled>
-          This body has pre-defined paddings.
-        </Dialog__BodyStyled>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Let us do that!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Cancel
-          </Button>
-        </Dialog__FooterStyled>,
+        Array [
+          <Dialog__HeaderStyled>
+            You are changing the status of this order to Shipped
+          </Dialog__HeaderStyled>,
+          <Dialog__BodyStyled>
+            This body has pre-defined paddings.
+          </Dialog__BodyStyled>,
+          <Dialog__FooterStyled>
+            <Button
+              appearance="primary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Let us do that!
+            </Button>
+            <Button
+              appearance="secondary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Cancel
+            </Button>
+          </Dialog__FooterStyled>,
+        ],
+        false,
       ],
       "size": "large",
     },
@@ -782,6 +807,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      false,
     ],
     "type": [Function],
   },
@@ -792,32 +818,35 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>
-          </Dialog__FooterStyled>,
+          Array [
+            <Dialog__HeaderStyled>
+              You are changing the status of this order to Shipped
+            </Dialog__HeaderStyled>,
+            <Dialog__BodyStyled>
+              This body has pre-defined paddings.
+            </Dialog__BodyStyled>,
+            <Dialog__FooterStyled>
+              <Button
+                appearance="primary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Let us do that!
+              </Button>
+              <Button
+                appearance="secondary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Cancel
+              </Button>
+            </Dialog__FooterStyled>,
+          ],
+          false,
         ],
         "size": "large",
       },
@@ -908,6 +937,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
       ],
       "type": [Function],
     },
@@ -934,6 +964,8 @@ exports[`Dialog Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
+    onClose={[Function]}
+    showCloseButton={false}
     size="auto"
   >
     <Dialog__HeaderStyled>
@@ -976,32 +1008,35 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Dialog__HeaderStyled>
-          You are changing the status of this order to Shipped
-        </Dialog__HeaderStyled>,
-        <Dialog__BodyStyled>
-          This body has pre-defined paddings.
-        </Dialog__BodyStyled>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Let us do that!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Cancel
-          </Button>
-        </Dialog__FooterStyled>,
+        Array [
+          <Dialog__HeaderStyled>
+            You are changing the status of this order to Shipped
+          </Dialog__HeaderStyled>,
+          <Dialog__BodyStyled>
+            This body has pre-defined paddings.
+          </Dialog__BodyStyled>,
+          <Dialog__FooterStyled>
+            <Button
+              appearance="primary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Let us do that!
+            </Button>
+            <Button
+              appearance="secondary"
+              disabled={false}
+              onClick={[Function]}
+              size="normal"
+              type="button"
+            >
+              Cancel
+            </Button>
+          </Dialog__FooterStyled>,
+        ],
+        false,
       ],
       "size": "auto",
     },
@@ -1092,6 +1127,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      false,
     ],
     "type": [Function],
   },
@@ -1102,32 +1138,35 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>
-          </Dialog__FooterStyled>,
+          Array [
+            <Dialog__HeaderStyled>
+              You are changing the status of this order to Shipped
+            </Dialog__HeaderStyled>,
+            <Dialog__BodyStyled>
+              This body has pre-defined paddings.
+            </Dialog__BodyStyled>,
+            <Dialog__FooterStyled>
+              <Button
+                appearance="primary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Let us do that!
+              </Button>
+              <Button
+                appearance="secondary"
+                disabled={false}
+                onClick={[Function]}
+                size="normal"
+                type="button"
+              >
+                Cancel
+              </Button>
+            </Dialog__FooterStyled>,
+          ],
+          false,
         ],
         "size": "auto",
       },
@@ -1218,6 +1257,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
       ],
       "type": [Function],
     },
@@ -1244,42 +1284,13 @@ exports[`Dialog Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Dialog
+    onClose={[Function]}
+    showCloseButton={true}
     size="normal"
   >
-    <Dialog__HeaderStyled>
-      <h1
-        style={
-          Object {
-            "color": "black",
-          }
-        }
-      >
-        You can suppy your own header
-      </h1>
-    </Dialog__HeaderStyled>
     <Dialog__BodyStyled>
-      If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
+      Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
     </Dialog__BodyStyled>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        size="normal"
-        type="button"
-      >
-        Ik snap het!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        size="normal"
-        type="button"
-      >
-        Nee!
-      </Button>
-    </Dialog__FooterStyled>
   </Dialog>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1294,40 +1305,21 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Dialog__HeaderStyled>
-          <h1
-            style={
-              Object {
-                "color": "black",
-              }
-            }
-          >
-            You can suppy your own header
-          </h1>
-        </Dialog__HeaderStyled>,
         <Dialog__BodyStyled>
-          If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
+          Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
         </Dialog__BodyStyled>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Ik snap het!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Nee!
-          </Button>
-        </Dialog__FooterStyled>,
+        <Dialog__CloseButton
+          appearance="primary"
+          onClick={[Function]}
+        >
+          <Icon
+            color="currentColor"
+            height="1em"
+            name="cross"
+            strokeWidth={1}
+            width="1em"
+          />
+        </Dialog__CloseButton>,
       ],
       "size": "normal",
     },
@@ -1338,105 +1330,43 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <h1
-            style={
-              Object {
-                "color": "black",
-              }
-            }
-          >
-            You can suppy your own header
-          </h1>,
+          "children": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
+        },
+        "ref": null,
+        "rendered": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "appearance": "primary",
+          "children": <Icon
+            color="currentColor"
+            height="1em"
+            name="cross"
+            strokeWidth={1}
+            width="1em"
+          />,
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": "You can suppy your own header",
-            "style": Object {
-              "color": "black",
-            },
+            "color": "currentColor",
+            "height": "1em",
+            "name": "cross",
+            "strokeWidth": 1,
+            "width": "1em",
           },
           "ref": null,
-          "rendered": "You can suppy your own header",
-          "type": "h1",
+          "rendered": null,
+          "type": [Function],
         },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
-        },
-        "ref": null,
-        "rendered": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Ik snap het!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Nee!
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Ik snap het!",
-              "disabled": false,
-              "onClick": [Function],
-              "size": "normal",
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": "Ik snap het!",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Nee!",
-              "disabled": false,
-              "onClick": [Function],
-              "size": "normal",
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": "Nee!",
-            "type": [Function],
-          },
-        ],
         "type": [Function],
       },
     ],
@@ -1449,40 +1379,21 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Dialog__HeaderStyled>
-            <h1
-              style={
-                Object {
-                  "color": "black",
-                }
-              }
-            >
-              You can suppy your own header
-            </h1>
-          </Dialog__HeaderStyled>,
           <Dialog__BodyStyled>
-            If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.
+            Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
           </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Ik snap het!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Nee!
-            </Button>
-          </Dialog__FooterStyled>,
+          <Dialog__CloseButton
+            appearance="primary"
+            onClick={[Function]}
+          >
+            <Icon
+              color="currentColor"
+              height="1em"
+              name="cross"
+              strokeWidth={1}
+              width="1em"
+            />
+          </Dialog__CloseButton>,
         ],
         "size": "normal",
       },
@@ -1493,449 +1404,43 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <h1
-              style={
-                Object {
-                  "color": "black",
-                }
-              }
-            >
-              You can suppy your own header
-            </h1>,
+            "children": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
+          },
+          "ref": null,
+          "rendered": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "appearance": "primary",
+            "children": <Icon
+              color="currentColor"
+              height="1em"
+              name="cross"
+              strokeWidth={1}
+              width="1em"
+            />,
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "children": "You can suppy your own header",
-              "style": Object {
-                "color": "black",
-              },
+              "color": "currentColor",
+              "height": "1em",
+              "name": "cross",
+              "strokeWidth": 1,
+              "width": "1em",
             },
             "ref": null,
-            "rendered": "You can suppy your own header",
-            "type": "h1",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
-          },
-          "ref": null,
-          "rendered": "If you do so, styling is up to you. For example, see that this header also has default \`h1\` margins.",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                size="normal"
-                type="button"
-              >
-                Ik snap het!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                size="normal"
-                type="button"
-              >
-                Nee!
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Ik snap het!",
-                "disabled": false,
-                "onClick": [Function],
-                "size": "normal",
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": "Ik snap het!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Nee!",
-                "disabled": false,
-                "onClick": [Function],
-                "size": "normal",
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": "Nee!",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
-`;
-
-exports[`Dialog Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    size="normal"
-  >
-    <Dialog__HeaderStyled>
-      Check out the body ↓
-    </Dialog__HeaderStyled>
-    <div
-      style={
-        Object {
-          "backgroundColor": "black",
-          "color": "white",
-          "width": "100%",
-        }
-      }
-    >
-      I'm full width!
-    </div>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        size="normal"
-        type="button"
-      >
-        Got it!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        size="normal"
-        type="button"
-      >
-        Cancel
-      </Button>
-    </Dialog__FooterStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <Dialog__HeaderStyled>
-          Check out the body ↓
-        </Dialog__HeaderStyled>,
-        <div
-          style={
-            Object {
-              "backgroundColor": "black",
-              "color": "white",
-              "width": "100%",
-            }
-          }
-        >
-          I'm full width!
-        </div>,
-        <Dialog__FooterStyled>
-          <Button
-            appearance="primary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Got it!
-          </Button>
-          <Button
-            appearance="secondary"
-            disabled={false}
-            onClick={[Function]}
-            size="normal"
-            type="button"
-          >
-            Cancel
-          </Button>
-        </Dialog__FooterStyled>,
-      ],
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Check out the body ↓",
-        },
-        "ref": null,
-        "rendered": "Check out the body ↓",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "I'm full width!",
-          "style": Object {
-            "backgroundColor": "black",
-            "color": "white",
-            "width": "100%",
-          },
-        },
-        "ref": null,
-        "rendered": "I'm full width!",
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Got it!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Got it!",
-              "disabled": false,
-              "onClick": [Function],
-              "size": "normal",
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": "Got it!",
+            "rendered": null,
             "type": [Function],
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Cancel",
-              "disabled": false,
-              "onClick": [Function],
-              "size": "normal",
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": "Cancel",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <Dialog__HeaderStyled>
-            Check out the body ↓
-          </Dialog__HeaderStyled>,
-          <div
-            style={
-              Object {
-                "backgroundColor": "black",
-                "color": "white",
-                "width": "100%",
-              }
-            }
-          >
-            I'm full width!
-          </div>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Got it!
-            </Button>
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              size="normal"
-              type="button"
-            >
-              Cancel
-            </Button>
-          </Dialog__FooterStyled>,
-        ],
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Check out the body ↓",
-          },
-          "ref": null,
-          "rendered": "Check out the body ↓",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "I'm full width!",
-            "style": Object {
-              "backgroundColor": "black",
-              "color": "white",
-              "width": "100%",
-            },
-          },
-          "ref": null,
-          "rendered": "I'm full width!",
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                size="normal"
-                type="button"
-              >
-                Got it!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                size="normal"
-                type="button"
-              >
-                Cancel
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Got it!",
-                "disabled": false,
-                "onClick": [Function],
-                "size": "normal",
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": "Got it!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Cancel",
-                "disabled": false,
-                "onClick": [Function],
-                "size": "normal",
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": "Cancel",
-              "type": [Function],
-            },
-          ],
           "type": [Function],
         },
       ],

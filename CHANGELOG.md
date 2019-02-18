@@ -1,9 +1,28 @@
 ## [Unreleased]
 
+### Added
+
+- IconButton component.
+- Cross icon.
+- Check and check-circle icons.
+- Error icon.
+- Stack layout component.
+
+### Changed
+
+- Icon sets `strokeWidth` to `1` by default.
+- Border radius for Button.
+- Border radius for Dialog.
+- Close button option for Dialog.
+- A second axis for `slideIn` animation.
+- Use `500` instead of `bold` everywhere.
+- Include iconsprite in `dist`.
+
 ## [3.4.0] - 2019-01-02
 
 ### Added
-- ToolTip component
+
+- ToolTip component.
 
 ## [3.3.0] - 2018-12-24
 

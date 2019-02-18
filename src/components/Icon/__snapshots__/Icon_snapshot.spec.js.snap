@@ -7,6 +7,7 @@ ShallowWrapper {
     color="inherit"
     height="1em"
     name="caret-down"
+    strokeWidth={1}
     width="1em"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -27,6 +28,7 @@ ShallowWrapper {
       "className": "ft-icon",
       "fill": "inherit",
       "height": "1em",
+      "strokeWidth": 1,
       "width": "1em",
     },
     "ref": null,
@@ -55,6 +57,7 @@ ShallowWrapper {
         "className": "ft-icon",
         "fill": "inherit",
         "height": "1em",
+        "strokeWidth": 1,
         "width": "1em",
       },
       "ref": null,
@@ -97,6 +100,7 @@ ShallowWrapper {
     color="orange"
     height="1em"
     name="caret-down"
+    strokeWidth={1}
     width="1em"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -117,6 +121,7 @@ ShallowWrapper {
       "className": "ft-icon",
       "fill": "orange",
       "height": "1em",
+      "strokeWidth": 1,
       "width": "1em",
     },
     "ref": null,
@@ -145,6 +150,7 @@ ShallowWrapper {
         "className": "ft-icon",
         "fill": "orange",
         "height": "1em",
+        "strokeWidth": 1,
         "width": "1em",
       },
       "ref": null,
@@ -187,6 +193,7 @@ ShallowWrapper {
     color="inherit"
     height="20"
     name="caret-down"
+    strokeWidth={1}
     style={
       Object {
         "background": "khaki",
@@ -213,6 +220,7 @@ ShallowWrapper {
       "className": "ft-icon",
       "fill": "inherit",
       "height": "20",
+      "strokeWidth": 1,
       "style": Object {
         "background": "khaki",
         "fill": "navy",
@@ -245,6 +253,7 @@ ShallowWrapper {
         "className": "ft-icon",
         "fill": "inherit",
         "height": "20",
+        "strokeWidth": 1,
         "style": Object {
           "background": "khaki",
           "fill": "navy",
@@ -291,6 +300,7 @@ ShallowWrapper {
     color="inherit"
     height="50"
     name="caret-down"
+    strokeWidth={1}
     style={
       Object {
         "background": "khaki",
@@ -317,6 +327,7 @@ ShallowWrapper {
       "className": "ft-icon",
       "fill": "inherit",
       "height": "50",
+      "strokeWidth": 1,
       "style": Object {
         "background": "khaki",
         "fill": "navy",
@@ -349,6 +360,7 @@ ShallowWrapper {
         "className": "ft-icon",
         "fill": "inherit",
         "height": "50",
+        "strokeWidth": 1,
         "style": Object {
           "background": "khaki",
           "fill": "navy",

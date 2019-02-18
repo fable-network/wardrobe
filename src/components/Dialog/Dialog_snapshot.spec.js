@@ -66,37 +66,13 @@ describe('Dialog Component', () => {
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Dialog>
-          <Dialog.Header>
-            <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
-          </Dialog.Header>
+        <Dialog showCloseButton={true} onClose={() => alert('close!')}>
           <Dialog.Body>
-            If you do so, styling is up to you. For example, see that this header also has default `h1`
-            margins.
+            Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
           </Dialog.Body>
-          <Dialog.Footer>
-            <Button appearance="primary" onClick={() => {}}>
-              Ik snap het!
-            </Button>
-            <Button onClick={() => {}}>Nee!</Button>
-          </Dialog.Footer>
         </Dialog>
       );
       expect(wrapper5).toMatchSnapshot();
-
-      const wrapper6 = shallow(
-        <Dialog>
-          <Dialog.Header>Check out the body &darr;</Dialog.Header>
-          <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
-          <Dialog.Footer>
-            <Button appearance="primary" onClick={() => {}}>
-              Got it!
-            </Button>
-            <Button onClick={() => {}}>Cancel</Button>
-          </Dialog.Footer>
-        </Dialog>
-      );
-      expect(wrapper6).toMatchSnapshot();
 
     });
   });

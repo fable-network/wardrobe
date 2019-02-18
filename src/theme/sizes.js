@@ -30,6 +30,11 @@ const sizes = {
   paddingVerticalSmall: `${PADDING_VERTICAL_SMALL / FONT_SIZE_SMALL}em`,
   paddingVerticalBase: `${PADDING_VERTICAL_BASE / FONT_SIZE_BASE}em`,
   paddingVerticalLarge: `${PADDING_VERTICAL_LARGE / FONT_SIZE_LARGE}em`,
+
+  // Stack margins
+  stackMarginSmall: '.5rem',
+  stackMarginBase: '1rem',
+  stackMarginLarge: '1.5rem',
 };
 
 export default sizes;

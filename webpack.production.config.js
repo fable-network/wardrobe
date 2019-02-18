@@ -49,7 +49,7 @@ module.exports = {
     nodeExternals({}),
   ],
   plugins: [
-    new CopyWebpackPlugin([{ from: 'LICENSE' }]),
+    new CopyWebpackPlugin([{ from: 'LICENSE' }, 'src/static/iconsprite.svg']),
     new webpack.BannerPlugin({ banner: `
 @license
 Copyright (c) 2018, FashionTrade.com B.V.

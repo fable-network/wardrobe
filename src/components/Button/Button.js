@@ -7,6 +7,7 @@ const cssPrimary = css`
   color: ${p => p.theme.white};
   background-color: ${p => p.theme.primary};
   border-color: ${p => p.theme.primary};
+  border-radius: ${p => p.theme.borderRadius};
 
   &:hover {
     background-color: ${p => p.theme.primaryActive};
@@ -24,6 +25,8 @@ const cssSecondary = css`
   color: ${p => p.theme.primary};
   background-color: ${p => p.theme.white};
   border-color: ${p => p.theme.primary};
+  border-radius: ${p => p.theme.borderRadius};
+
 
   &:hover {
     color: ${p => p.theme.primaryActive};

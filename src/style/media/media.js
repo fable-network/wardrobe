@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Table from '../../components/Table';
 
 const HeaderCell = styled(Table.Cell)`
-  font-weight: bold;
+  font-weight: 500;
   width: 12em;
 `;
 const CodeCell = styled(Table.Cell)`

@@ -37,7 +37,7 @@ const normalize = css`
   }
   b,
   strong {
-    font-weight: bolder;
+    font-weight: 500;
   }
   code,
   kbd,

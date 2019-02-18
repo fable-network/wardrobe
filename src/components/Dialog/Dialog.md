@@ -63,37 +63,16 @@ Goes with normal paddings and auto width on desktop.
 </Dialog>
 ```
 
-### Custom header
+### Body only
+
+Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
+
+Also you can use `showCloseButton` property to display a cross button in the top right corner.
 
 ```jsx
-<Dialog>
-  <Dialog.Header>
-    <h1 style={{ color: 'black' }}>You can suppy your own header</h1>
-  </Dialog.Header>
+<Dialog showCloseButton={true} onClose={() => alert('close!')}>
   <Dialog.Body>
-    If you do so, styling is up to you. For example, see that this header also has default `h1`
-    margins.
+    Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
   </Dialog.Body>
-  <Dialog.Footer>
-    <Button appearance="primary" onClick={() => {}}>
-      Ik snap het!
-    </Button>
-    <Button onClick={() => {}}>Nee!</Button>
-  </Dialog.Footer>
-</Dialog>
-```
-
-### Custom body
-
-```jsx
-<Dialog>
-  <Dialog.Header>Check out the body &darr;</Dialog.Header>
-  <div style={{ width: '100%', backgroundColor: 'black', color: 'white' }}>I'm full width!</div>
-  <Dialog.Footer>
-    <Button appearance="primary" onClick={() => {}}>
-      Got it!
-    </Button>
-    <Button onClick={() => {}}>Cancel</Button>
-  </Dialog.Footer>
 </Dialog>
 ```

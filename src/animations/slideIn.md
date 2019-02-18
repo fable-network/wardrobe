@@ -8,7 +8,7 @@ const MyDemo = styled.div`
   height: 100px;
   margin: 50px;
   background-color: ${p => p.theme.primary};
-  animation: ${slideIn('-40px')} 2s ease-in-out infinite;
+  animation: ${slideIn('-40px', '-20px')} 2s ease-in-out infinite;
 `;
 <MyDemo />
 ```
