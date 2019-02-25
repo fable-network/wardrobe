@@ -2,7 +2,8 @@
 
 ### Added
 
-- ColumnChart component
+- ColumnChart component.
+- TabBar component.
 
 ## [3.6.0] - 2019-02-18
 

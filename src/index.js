@@ -22,3 +22,5 @@ export Theme from './theme/default';
 export Normalize from './theme/normalize';
 export ToolTip from './components/ToolTip';
 export Stack from './layout/Stack';
+export TabBar from './components/TabBar';
+export TabBarItem from './components/TabBarItem';

@@ -350,7 +350,7 @@ class Dropdown extends Component {
       // 2. If there's a focused item which IS NOT a hovered item and user last used mouse,
       //    we won't want this focused item to finally get the event, since user is interacting with
       //    the hovered item now.
-      // Therefore we preven defaul and stop propagation.
+      // Therefore we prevent default and stop propagation.
       event.preventDefault();
       event.stopPropagation();
 

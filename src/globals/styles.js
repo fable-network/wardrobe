@@ -1,4 +1,5 @@
 import { injectGlobal } from 'styled-components';
+import 'what-input';
 import { normalize } from '../theme';
 
 const injectGlobalStyles = () => injectGlobal`
