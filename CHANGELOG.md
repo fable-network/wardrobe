@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.7.1] - 2019-02-25
+
 ### Changed
 
 - Make sure TabBarItem's border covers TabBar's border.
