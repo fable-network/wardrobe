@@ -44,6 +44,7 @@
     "tabbable": "3.1.1"
   },
   "peerDependencies": {
+    "highcharts": "^7.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "styled-components": "^3.3.3"
@@ -77,6 +78,7 @@
     "grunt-contrib-clean": "1.1.0",
     "grunt-svgmin": "5.0.0",
     "grunt-svgstore": "1.0.0",
+    "highcharts": "7.0.3",
     "jest": "23.4.2",
     "jsdom": "^12.1.0",
     "license-info-webpack-plugin": "1.0.2",
@@ -90,8 +92,8 @@
     "react-styleguidist": "7.3.10",
     "sass-loader": "7.0.3",
     "styled-components": "3.3.3",
-    "svg4everybody": "2.1.9",
     "svg-inline-loader": "0.8.0",
+    "svg4everybody": "2.1.9",
     "url-loader": "1.0.1",
     "webpack": "4.1.1",
     "webpack-bundle-analyzer": "3.0.3",

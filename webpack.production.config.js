@@ -4,12 +4,14 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const { LicenseWebpackPlugin } = require('license-webpack-plugin');
 
-
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: {
+    index: path.resolve(__dirname, './src/index.js'),
+    charts: path.resolve(__dirname, './src/charts/index.js'),
+  },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index.js',
+    filename: '[name].js',
     library: '',
     libraryTarget: 'commonjs',
   },
@@ -45,12 +47,11 @@ module.exports = {
       },
     ],
   },
-  externals: [
-    nodeExternals({}),
-  ],
+  externals: [nodeExternals({})],
   plugins: [
     new CopyWebpackPlugin([{ from: 'LICENSE' }, 'src/static/iconsprite.svg']),
-    new webpack.BannerPlugin({ banner: `
+    new webpack.BannerPlugin({
+      banner: `
 @license
 Copyright (c) 2018, FashionTrade.com B.V.
  *
@@ -64,8 +65,8 @@ Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
-limitations under the License.`
+limitations under the License.`,
     }),
-    new LicenseWebpackPlugin({ outputFilename: 'ThirdPartyLicenses.txt' })
+    new LicenseWebpackPlugin({ outputFilename: 'ThirdPartyLicenses.txt' }),
   ],
 };

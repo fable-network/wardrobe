@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+
+- ColumnChart component
+
 ## [3.6.0] - 2019-02-18
 
 ### Added

@@ -12,6 +12,7 @@ module.exports = {
     { name: 'Theme', components: 'src/style/**/*.js', content: 'docs/style.md' },
     { name: 'Layout', components: 'src/layout/**/*.js' },
     { name: 'Components', components: 'src/components/**/*.js', content: 'docs/components.md' },
+    { name: 'Charts', components: 'src/charts/**/*.js', content: 'docs/charts.md' },
     { name: 'Animations', components: 'src/animations/**/*.js' },
   ],
 
@@ -20,6 +21,7 @@ module.exports = {
   require: [
     path.join(__dirname, 'src/support-ie11.js'),
     path.join(__dirname, 'src/globals/styles.js'),
+    path.join(__dirname, 'src/globals/chart-styles.js'),
   ],
 
   // TODO: Get the right import statement: import { Component } from '@fashiontrade/wardrobe`.
