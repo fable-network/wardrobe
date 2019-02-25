@@ -30,6 +30,7 @@ const TabBarItem = styled(({ ...otherProps }) => <button {...otherProps} />)`
   border: 0 none;
   overflow: visible;
   border-radius: ${p => p.theme.borderRadius} ${p => p.theme.borderRadius} 0 0;
+  transform: translateY(1px);
   [data-whatintent='mouse'] &:hover,
   [data-whatintent='keyboard'] &:focus {
     background-color: ${p => p.theme.grey05};
