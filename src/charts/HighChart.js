@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Highcharts from 'highcharts';
 
-class HighChart extends React.PureComponent {
+class HighChart extends React.Component {
   static propTypes = {
     options: PropTypes.object,
     callback: PropTypes.func,
@@ -17,6 +17,10 @@ class HighChart extends React.PureComponent {
       this.props.options,
       this.props.callback ? this.props.callback : undefined
     );
+  }
+
+  shouldComponentUpdate() {
+    return false;
   }
 
   componentDidUpdate() {

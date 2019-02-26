@@ -4,7 +4,7 @@ const { logInfo, logError, isComponentDirectory } = require('./scriptUtils');
 
 const COMPONENTS_PATH = './src/components';
 const currentComponents = fs.readdirSync(COMPONENTS_PATH).map(name => name)
-  .filter(isComponentDirectory);
+  .filter(isComponentDirectory(COMPONENTS_PATH));
 
 const componentName = process.argv[process.argv.indexOf('--name') + 1];
 if (currentComponents.indexOf(componentName) > -1) {

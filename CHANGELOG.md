@@ -1,16 +1,16 @@
 ## [Unreleased]
 
-## [3.7.2] - 2019-02-26
-
 ### Added
 
 - PieChart component.
+- BarChart component.
 
 ### Changed
 
 - Update some dependencies to fix security warnings.
 - Use styled-components instead of scss for the badge component.
 - Display Changelog in Styleguide UI.
+- `generateTests` script now supports multiple components directories.
 
 ## [3.7.1] - 2019-02-25
 

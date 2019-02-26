@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
-import defaultTheme from '../../theme';
+import { theme as defaultTheme } from '../../theme';
 import HighChart from '../HighChart';
 
-const getColors = (p) => {
+const getColors = p => {
   const colors = p.colors || p.theme.piePalette;
   let colorsCss = '';
   colors.forEach((color, i) => {
@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 `;
 
 class PieChart extends React.PureComponent {
-  renderTooltip = (data) => {
+  renderTooltip = data => {
     const { tooltip } = this.props;
     if (typeof tooltip === 'function') {
       return tooltip(data);
@@ -55,8 +55,8 @@ class PieChart extends React.PureComponent {
           cursor: 'pointer',
           dataLabels: {
             enabled: false,
-          }
-        }
+          },
+        },
       },
       tooltip: {
         formatter: function formatter() {
@@ -66,9 +66,11 @@ class PieChart extends React.PureComponent {
       legend: {
         enabled: false,
       },
-      series: [{
-        data,
-      }]
+      series: [
+        {
+          data,
+        },
+      ],
     };
     return (
       <Wrapper colors={colors}>
@@ -82,9 +84,14 @@ PieChart.defaultProps = {};
 
 PieChart.propTypes = {
   title: PropTypes.string, // optional
-  data: PropTypes.array.isRequired,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      y: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   tooltip: PropTypes.func, // optional
-  colors: PropTypes.array, // optional (default is theme.defaultPalette)
+  colors: PropTypes.arrayOf(PropTypes.string), // optional (default is theme.defaultPalette)
   theme: PropTypes.object.isRequired,
 };
 

@@ -3,18 +3,18 @@ const colors = require('colors');
 const fs = require('fs');
 
 module.exports = {
-  logInfo: (message) => {
+  logInfo: message => {
     console.log(colors.blue(message));
   },
 
-  logWarning: (message) => {
+  logWarning: message => {
     console.log(colors.yellow(message));
   },
 
-  logError: (message) => {
+  logError: message => {
     console.log(colors.red(message));
   },
 
-  isComponentDirectory: (name) =>
-    fs.lstatSync(`./src/components/${name}`).isDirectory(),
+  isComponentDirectory: componentsPath => name =>
+    fs.lstatSync(`${componentsPath}/${name}`).isDirectory(),
 };

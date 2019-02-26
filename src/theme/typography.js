@@ -1,3 +1,6 @@
+// Font family
+export const FONT_FAMILY = '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif';
+
 // Font sizes
 export const FONT_SIZE_SMALL = 14;
 export const FONT_SIZE_BASE = 16;
@@ -14,6 +17,8 @@ export const LINE_HEIGHT_CONTROL_BASE = 20;
 export const LINE_HEIGHT_CONTROL_LARGE = 24;
 
 const typography = {
+  fontFamily: FONT_FAMILY,
+
   fontSizeSmall: `${FONT_SIZE_SMALL / FONT_SIZE_BASE}rem`,
   fontSizeBase: '1rem',
   fontSizeLarge: `${FONT_SIZE_LARGE / FONT_SIZE_BASE}rem`,

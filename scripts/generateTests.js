@@ -2,7 +2,9 @@
 const fs = require('fs');
 const { logInfo, logWarning, logError, isComponentDirectory } = require('./scriptUtils');
 
-const COMPONENTS_PATH = './src/components';
+const COMPONENTS_PATHS = ['./src/components', './src/charts'];
+
+const isComponentsDir = dir => COMPONENTS_PATHS.some(path => isComponentDirectory((path, dir)));
 
 /**
  * Creates a part of regex for an optional custom require, which can be used to substitute
@@ -32,11 +34,14 @@ const getCustomRequireRegex = (componentName, optional = false) =>
 // e.g const excludedFolders = ['Badge']; will exclude the Badge component.
 const excludedFolders = [];
 const notExcluded = name => excludedFolders.indexOf(name) === -1;
-const componentNames = fs
-  .readdirSync(COMPONENTS_PATH)
-  .map(name => name)
-  .filter(isComponentDirectory)
-  .filter(notExcluded);
+const allComponents = COMPONENTS_PATHS.reduce((acc, path) => {
+  const components = fs
+    .readdirSync(path)
+    .filter(isComponentsDir)
+    .filter(notExcluded)
+    .map(name => ({ name, path }));
+  return [...acc, ...components];
+}, []);
 
 const boilerPlate = `/* eslint-disable */
 // This file was automatically generated
@@ -55,13 +60,13 @@ describe('~COMPONENT_NAME~ Component', () => {
 
 const writeTests = tests => {
   tests.forEach(test => {
-    const path = `${COMPONENTS_PATH}/${test.name}/${test.name}_snapshot.spec.js`;
+    const path = `${test.path}/${test.name}/${test.name}_snapshot.spec.js`;
     fs.writeFile(path, test.code, err => {
       if (err) {
         logError(`Error writing file ${test.name}`);
         throw err;
       }
-      logInfo(`Writing file to src/component/${test.name}/${test.name}_snapshot.spec.js`);
+      logInfo(`Writing file to ${test.path}/${test.name}/${test.name}_snapshot.spec.js`);
     });
   });
 };
@@ -106,10 +111,11 @@ const cleanComponentCode = (code, componentName) =>
       .replace(new RegExp(`${componentName}Styleguide`, 'g'), componentName) // replace custom styleguide component name to a normal component name
       .replace(/```/g, '') // remove all occurences of the string "```".
       .replace(/jsx/g, '') // remove all occurences of the string "jsx".
-      .replace(/\n/g, `\n${tabWidth.repeat(4)}`)); // indent the component by 4 tabs (8 spaces)
+      // indent the component by 4 tabs (8 spaces)
+      .replace(/\n/g, `\n${tabWidth.repeat(4)}`));
 
-const readMarkdownFile = (fileName, callBack, errorCallBack) => {
-  fs.readFile(`./src/components/${fileName}/${fileName}.md`, (err, out) => {
+const readMarkdownFile = (path, fileName, callBack, errorCallBack) => {
+  fs.readFile(`${path}/${fileName}/${fileName}.md`, (err, out) => {
     if (err) {
       logWarning(`Could not find markdown file for ${fileName}`);
       errorCallBack();
@@ -156,12 +162,13 @@ const getSnapshotCode = (component, index) => `
 
 const generateTests = () => {
   const tests = [];
-  const progress = componentNames.reduce((acc, name) => {
+  const progress = allComponents.reduce((acc, { name }) => {
     acc[name] = false;
     return acc;
   }, {});
-  componentNames.forEach(name => {
+  allComponents.forEach(({ name, path }) => {
     readMarkdownFile(
+      path,
       name,
       file => {
         const components = getMatchingComponents(file, name);
@@ -169,7 +176,7 @@ const generateTests = () => {
           const snapshotCode = components.map(getSnapshotCode).join('');
 
           const result = injectSnapshotCode(snapshotCode, name);
-          tests.push({ name, code: result });
+          tests.push({ name, code: result, path });
         } else {
           logWarning(`No matching components found for ${name}`);
         }

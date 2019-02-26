@@ -1,3 +1,1 @@
-export const categories = ['Immediate'];
-
-export const data = [42];
+export default [{ y: 42, name: 'Immediate' }];

@@ -1,33 +1,30 @@
-A pie chart for a few data points and custom tooltip. 
+A pie chart for a few data points and custom tooltip.
 Example usage: theme distribution for an order.
 
 ```jsx
-const { data, colors, tooltip } = require('../fixtures/pie-chart.js');
 <PieChart
   title="Distribution of themes"
-  data={data}
-  tooltip={tooltip}
-/>;
+  data={require('../fixtures/pie-chart.js').data}
+  tooltip={require('../fixtures/pie-chart.js').tooltip}
+/>
 ```
 
 With custom colors and no tooltip:
 
 ```jsx
-const { data, colors } = require('../fixtures/pie-chart-custom-colors.js');
 <PieChart
   title="Distribution of themes"
-  data={data}
-  colors={colors}
-/>;
+  data={require('../fixtures/pie-chart-custom-colors.js').data}
+  colors={require('../fixtures/pie-chart-custom-colors.js').colors}
+/>
 ```
 
 With one data point and no title:
 
 ```jsx
-const { data, colors, tooltip } = require('../fixtures/pie-chart-one.js');
 <PieChart
-  data={data}
-  colors={colors}
-  tooltip={tooltip}
-/>;
+  data={require('../fixtures/pie-chart-one.js').data}
+  colors={require('../fixtures/pie-chart-one.js').colors}
+  tooltip={require('../fixtures/pie-chart-one.js').tooltip}
+/>
 ```

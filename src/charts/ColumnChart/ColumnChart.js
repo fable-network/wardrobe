@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css, withTheme } from 'styled-components';
-import defaultTheme from '../../theme';
+import { theme as defaultTheme } from '../../theme';
 import HighChart from '../HighChart';
 
 const highlightedCss = css`
@@ -102,40 +102,45 @@ class ColumnChart extends React.PureComponent {
       <span>${categoryPart}</span>
     `;
 
-  renderLabel = (pos, category) => {
-    const { data, captionFormatter } = this.props;
+  renderLabel = (data, total) => {
+    const { pos } = data;
+    const { data: seriesData, caption } = this.props;
     const { highlightIndex } = this.state;
-
     const className = `ft-label-block ${
       highlightIndex !== null && highlightIndex !== pos ? 'ft-label-block-disabled' : ''
     }`;
-    const pointValue = data[pos];
-    if (pointValue === undefined) return '';
-    const caption = `<span class="ft-label ft-label-caption">
-      ${(typeof captionFormatter === 'function' && captionFormatter(pointValue)) || ''}
+    const value = seriesData[pos];
+    if (value === undefined) return '';
+    const category = value.name;
+    const percentage = (100 * value.y) / total;
+    const captionHtml = `<span class="ft-label ft-label-caption">
+      ${typeof caption === 'function' && caption({ ...data, y: value.y, percentage })}
     </span>`;
     return `
       <span class="${className}" data-index="${pos}">
-        <span class="ft-label ft-label-category">
+        <span class="ft-label ft-label-category" title="${
+          typeof category === 'string' ? category : (category && category.join('')) || ''
+        }">
           ${
             typeof category === 'string'
               ? `<span>${category}</span>`
-              : category.map(this.renderCategoryPart).join('')
+              : (category && category.map(this.renderCategoryPart).join('')) || ''
           }
         </span>
-        <span class="ft-label ft-label-value">${pointValue}</span>
-        ${caption}
+        <span class="ft-label ft-label-value">${value.y}</span>
+        ${captionHtml}
       </span>
     `;
   };
 
   render() {
-    const { categories, data, title, theme = defaultTheme } = this.props;
-    if (!categories || !data || categories.length !== data.length) {
+    const { data, title, theme = defaultTheme } = this.props;
+    if (!data) {
       return null;
     }
     const { highlightIndex } = this.state;
     const { renderLabel } = this;
+    const total = data.reduce((sum, item) => sum + item.y, 0);
     const options = {
       title: title && {
         text: title,
@@ -162,7 +167,8 @@ class ColumnChart extends React.PureComponent {
         // Min and minRange to make it generate extra void data points to align the only col left
         minRange: 3,
         min: 0,
-        categories,
+        // It requires categories in advance to plan for space allocation
+        categories: data.map(point => point.name),
         gridLineWidth: 0,
         tickWidth: 0,
         offset: 4,
@@ -170,12 +176,12 @@ class ColumnChart extends React.PureComponent {
         labels: {
           useHTML: true,
           formatter: function formatter() {
-            return renderLabel(this.pos, this.value);
+            return renderLabel(this, total);
           },
         },
       },
       yAxis: {
-        title: null,
+        title: false,
         labels: { enabled: false },
         gridLineWidth: 0,
       },
@@ -205,15 +211,20 @@ class ColumnChart extends React.PureComponent {
   }
 }
 
-ColumnChart.defaultProps = {};
+ColumnChart.defaultProps = {
+  title: false,
+  caption: ({ y }) => y,
+};
 
 ColumnChart.propTypes = {
-  title: PropTypes.string.isRequired,
-  categories: PropTypes.arrayOf(
-    PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)])
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      y: PropTypes.number.isRequired,
+      name: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
+    })
   ).isRequired,
-  data: PropTypes.arrayOf(PropTypes.number).isRequired,
-  captionFormatter: PropTypes.func,
+  caption: PropTypes.func,
   theme: PropTypes.object.isRequired,
 };
 
