@@ -1,4 +1,4 @@
-import colors from './colors';
+import { colors, chartColors } from './colors';
 import decorations from './decorations';
 import media from './media';
 import sizes from './sizes';
@@ -11,6 +11,7 @@ import typography from './typography';
 
 export default {
   ...colors,
+  ...chartColors,
   ...decorations,
   ...media,
   ...sizes,

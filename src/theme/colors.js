@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
   grey01: '#333', // ravenBlack
   grey02: '#666',
   grey03: '#999', // stoneGrey
@@ -14,4 +14,17 @@ const colors = {
   warning: '#f4a671', // apricotOrange
 };
 
-export default colors;
+export const chartColors = {
+  piePalette: [
+    '#33556C',
+    '#4C7B9B',
+    '#6F94AE',
+    '#DDEDF7',
+    '#F7F7F7',
+    '#C4E8E8',
+    '#95C9CC',
+    '#65B3B6',
+    '#339CA0',
+    '#018489',
+  ]
+};

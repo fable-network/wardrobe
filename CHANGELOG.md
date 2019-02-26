@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [3.7.2] - 2019-02-26
+
+### Added
+
+- PieChart component.
+
 ### Changed
 
 - Update some dependencies to fix security warnings.
