@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+### Changed
+- Update some dependencies to fix security warnings.
+
 ## [3.7.1] - 2019-02-25
 
 ### Changed
