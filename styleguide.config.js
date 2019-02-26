@@ -14,6 +14,7 @@ module.exports = {
     { name: 'Components', components: 'src/components/**/[A-Z]*.js', content: 'docs/components.md' },
     { name: 'Charts', components: 'src/charts/**/[A-Z]*.js', content: 'docs/charts.md' },
     { name: 'Animations', components: 'src/animations/**/[A-Z]*.js' },
+    { name: 'Changelog', content: 'CHANGELOG.md' },
   ],
 
   components: 'src/components/**/[A-Z]*.js',

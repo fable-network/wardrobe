@@ -4,7 +4,7 @@
 
 - Update some dependencies to fix security warnings.
 - Use styled-components instead of scss for the badge component.
-
+- Display Changelog in Styleguide UI.
 
 ## [3.7.1] - 2019-02-25
 
