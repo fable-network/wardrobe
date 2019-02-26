@@ -9,14 +9,14 @@ module.exports = {
   assetsDir: 'src/static',
 
   sections: [
-    { name: 'Theme', components: 'src/style/**/*.js', content: 'docs/style.md' },
-    { name: 'Layout', components: 'src/layout/**/*.js' },
-    { name: 'Components', components: 'src/components/**/*.js', content: 'docs/components.md' },
-    { name: 'Charts', components: 'src/charts/**/*.js', content: 'docs/charts.md' },
-    { name: 'Animations', components: 'src/animations/**/*.js' },
+    { name: 'Theme', components: 'src/style/**/[A-Z]*.js', content: 'docs/style.md' },
+    { name: 'Layout', components: 'src/layout/**/[A-Z]*.js' },
+    { name: 'Components', components: 'src/components/**/[A-Z]*.js', content: 'docs/components.md' },
+    { name: 'Charts', components: 'src/charts/**/[A-Z]*.js', content: 'docs/charts.md' },
+    { name: 'Animations', components: 'src/animations/**/[A-Z]*.js' },
   ],
 
-  components: 'src/components/**/*.js',
+  components: 'src/components/**/[A-Z]*.js',
 
   require: [
     path.join(__dirname, 'src/support-ie11.js'),
