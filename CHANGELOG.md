@@ -1,7 +1,10 @@
 ## [Unreleased]
 
 ### Changed
+
 - Update some dependencies to fix security warnings.
+- Use styled-components instead of scss for the badge component.
+
 
 ## [3.7.1] - 2019-02-25
 

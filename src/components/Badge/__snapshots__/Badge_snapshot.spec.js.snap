@@ -19,27 +19,29 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
+      "animated": false,
+      "appearance": "primary",
       "children": "9",
-      "className": "ft--badge ft--badge--primary",
     },
     "ref": null,
     "rendered": "9",
-    "type": "span",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
+        "animated": false,
+        "appearance": "primary",
         "children": "9",
-        "className": "ft--badge ft--badge--primary",
       },
       "ref": null,
       "rendered": "9",
-      "type": "span",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -79,27 +81,29 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
+      "animated": false,
+      "appearance": "danger",
       "children": "9",
-      "className": "ft--badge ft--badge--danger",
     },
     "ref": null,
     "rendered": "9",
-    "type": "span",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
+        "animated": false,
+        "appearance": "danger",
         "children": "9",
-        "className": "ft--badge ft--badge--danger",
       },
       "ref": null,
       "rendered": "9",
-      "type": "span",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -139,27 +143,29 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
+      "animated": true,
+      "appearance": "success",
       "children": "9",
-      "className": "ft--badge ft--badge--success ft--badge--animated",
     },
     "ref": null,
     "rendered": "9",
-    "type": "span",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
+        "animated": true,
+        "appearance": "success",
         "children": "9",
-        "className": "ft--badge ft--badge--success ft--badge--animated",
       },
       "ref": null,
       "rendered": "9",
-      "type": "span",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
