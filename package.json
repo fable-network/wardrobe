@@ -1,7 +1,7 @@
 {
   "name": "@fashiontrade/wardrobe",
   "description": "FashionTrade Component Library",
-  "version": "3.7.1",
+  "version": "3.8.0",
   "main": "./dist/index.js",
   "files": [
     "dist"

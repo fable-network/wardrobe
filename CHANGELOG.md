@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.8.0] - 2019-02-26
+
 ### Added
 
 - PieChart component.
