@@ -28,3 +28,5 @@ export const chartColors = {
     '#018489',
   ]
 };
+
+export default { colors, chartColors };

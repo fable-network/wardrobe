@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import colors from '../../theme/colors';
+import { colors } from '../../theme/colors';
 
 const Wrapper = styled.div`
   margin: 0.5rem;
