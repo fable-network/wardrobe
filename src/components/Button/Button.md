@@ -32,6 +32,28 @@ Small button:
 <Button size="small">Push Me</Button>
 ```
 
+Link button:
+
+```jsx
+<Button appearance="link">Push Me</Button>
+```
+
+Small link button:
+
+```jsx
+<Button appearance="link" size="small">
+  Push Me
+</Button>
+```
+
+Disabled link button:
+
+```jsx
+<Button appearance="link" disabled>
+  Don't Push Me
+</Button>
+```
+
 Multiline button:
 
 ```jsx
@@ -68,4 +90,12 @@ const ButtonCustom = styled(Button)`
     </Button>
   </Wrapper>
 </Grid>;
+```
+
+You can also render Button as a given HTML tag, e.g. if you want it to look like a button but wrap it with a react-router's `Link` component:
+
+```jsx
+<Button appearance="primary" renderAs="span">
+  I'm not a button
+</Button>
 ```

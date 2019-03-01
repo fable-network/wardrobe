@@ -8,10 +8,11 @@ const getBodyFontSize = () => {
 };
 
 const GridBase = styled.div`
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='${p =>
-    p.size}' width='${p => p.size}'%3E%3Crect width='${p => p.size}' height='${p =>
-  p.size}' rx='0' ry='0' style='fill:white; stroke: #cbcbcb; stroke-width: 1px;' /%3E%3C/svg%3E%0A");
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"  height="${p =>
+    p.size}" width="${p => p.size}"><rect width="${p => p.size}" height="${p =>
+  p.size}" rx="0" ry="0" fill="transparent" stroke-width="1" stroke="gainsboro" /></svg>');
   padding: 8px;
+  background-repeat: repeat;
   > * {
     opacity: 0.8;
   }

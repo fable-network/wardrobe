@@ -19,8 +19,8 @@ ShallowWrapper {
         appearance="primary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Let us do that!
       </Button>
@@ -28,8 +28,8 @@ ShallowWrapper {
         appearance="secondary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Cancel
       </Button>
@@ -60,8 +60,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>
@@ -69,8 +69,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>
@@ -114,8 +114,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>,
@@ -123,8 +123,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>,
@@ -141,8 +141,8 @@ ShallowWrapper {
               "children": "Let us do that!",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Let us do that!",
@@ -157,8 +157,8 @@ ShallowWrapper {
               "children": "Cancel",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Cancel",
@@ -190,8 +190,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>
@@ -199,8 +199,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>
@@ -244,8 +244,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>,
@@ -253,8 +253,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>,
@@ -271,8 +271,8 @@ ShallowWrapper {
                 "children": "Let us do that!",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Let us do that!",
@@ -287,8 +287,8 @@ ShallowWrapper {
                 "children": "Cancel",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Cancel",
@@ -339,8 +339,8 @@ ShallowWrapper {
         appearance="primary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Let us do that!
       </Button>
@@ -348,8 +348,8 @@ ShallowWrapper {
         appearance="secondary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Cancel
       </Button>
@@ -380,8 +380,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>
@@ -389,8 +389,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>
@@ -434,8 +434,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>,
@@ -443,8 +443,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>,
@@ -461,8 +461,8 @@ ShallowWrapper {
               "children": "Let us do that!",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Let us do that!",
@@ -477,8 +477,8 @@ ShallowWrapper {
               "children": "Cancel",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Cancel",
@@ -510,8 +510,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>
@@ -519,8 +519,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>
@@ -564,8 +564,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>,
@@ -573,8 +573,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>,
@@ -591,8 +591,8 @@ ShallowWrapper {
                 "children": "Let us do that!",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Let us do that!",
@@ -607,8 +607,8 @@ ShallowWrapper {
                 "children": "Cancel",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Cancel",
@@ -659,8 +659,8 @@ ShallowWrapper {
         appearance="primary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Let us do that!
       </Button>
@@ -668,8 +668,8 @@ ShallowWrapper {
         appearance="secondary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Cancel
       </Button>
@@ -700,8 +700,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>
@@ -709,8 +709,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>
@@ -754,8 +754,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>,
@@ -763,8 +763,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>,
@@ -781,8 +781,8 @@ ShallowWrapper {
               "children": "Let us do that!",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Let us do that!",
@@ -797,8 +797,8 @@ ShallowWrapper {
               "children": "Cancel",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Cancel",
@@ -830,8 +830,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>
@@ -839,8 +839,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>
@@ -884,8 +884,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>,
@@ -893,8 +893,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>,
@@ -911,8 +911,8 @@ ShallowWrapper {
                 "children": "Let us do that!",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Let us do that!",
@@ -927,8 +927,8 @@ ShallowWrapper {
                 "children": "Cancel",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Cancel",
@@ -979,8 +979,8 @@ ShallowWrapper {
         appearance="primary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Let us do that!
       </Button>
@@ -988,8 +988,8 @@ ShallowWrapper {
         appearance="secondary"
         disabled={false}
         onClick={[Function]}
+        renderAs="button"
         size="normal"
-        type="button"
       >
         Cancel
       </Button>
@@ -1020,8 +1020,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>
@@ -1029,8 +1029,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>
@@ -1074,8 +1074,8 @@ ShallowWrapper {
               appearance="primary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Let us do that!
             </Button>,
@@ -1083,8 +1083,8 @@ ShallowWrapper {
               appearance="secondary"
               disabled={false}
               onClick={[Function]}
+              renderAs="button"
               size="normal"
-              type="button"
             >
               Cancel
             </Button>,
@@ -1101,8 +1101,8 @@ ShallowWrapper {
               "children": "Let us do that!",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Let us do that!",
@@ -1117,8 +1117,8 @@ ShallowWrapper {
               "children": "Cancel",
               "disabled": false,
               "onClick": [Function],
+              "renderAs": "button",
               "size": "normal",
-              "type": "button",
             },
             "ref": null,
             "rendered": "Cancel",
@@ -1150,8 +1150,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>
@@ -1159,8 +1159,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>
@@ -1204,8 +1204,8 @@ ShallowWrapper {
                 appearance="primary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Let us do that!
               </Button>,
@@ -1213,8 +1213,8 @@ ShallowWrapper {
                 appearance="secondary"
                 disabled={false}
                 onClick={[Function]}
+                renderAs="button"
                 size="normal"
-                type="button"
               >
                 Cancel
               </Button>,
@@ -1231,8 +1231,8 @@ ShallowWrapper {
                 "children": "Let us do that!",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Let us do that!",
@@ -1247,8 +1247,8 @@ ShallowWrapper {
                 "children": "Cancel",
                 "disabled": false,
                 "onClick": [Function],
+                "renderAs": "button",
                 "size": "normal",
-                "type": "button",
               },
               "ref": null,
               "rendered": "Cancel",

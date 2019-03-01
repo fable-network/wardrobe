@@ -9,13 +9,15 @@ const cssPrimary = css`
   border-color: ${p => p.theme.primary};
   border-radius: ${p => p.theme.borderRadius};
 
-  &:hover {
+  &:hover,
+  [data-whatintent='keyboard'] &:focus {
     background-color: ${p => p.theme.primaryActive};
     border-color: ${p => p.theme.primaryActive};
   }
 
   &:disabled,
-  &:hover:disabled {
+  &:hover:disabled,
+  [data-whatintent='keyboard'] &:focus:disabled {
     background-color: ${p => p.theme.grey03};
     border-color: ${p => p.theme.grey03};
   }
@@ -27,17 +29,54 @@ const cssSecondary = css`
   border-color: ${p => p.theme.primary};
   border-radius: ${p => p.theme.borderRadius};
 
-
-  &:hover {
+  &:hover,
+  [data-whatintent='keyboard'] &:focus {
     color: ${p => p.theme.primaryActive};
     border-color: ${p => p.theme.primaryActive};
   }
 
   &:disabled,
-  &:hover:disabled {
+  &:hover:disabled,
+  [data-whatintent='keyboard'] &:focus:disabled {
     background-color: ${p => p.theme.white};
     color: ${p => p.theme.grey03};
     border-color: ${p => p.theme.grey03};
+  }
+`;
+
+const cssLink = css`
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: ${p => p.theme.primary};
+    box-shadow: ${p => p.theme.noShadow};
+  }
+
+  [data-whatintent='keyboard'] &:focus {
+    background-color: ${p => p.theme.grey05};
+    text-decoration: underline;
+  }
+
+  &:active,
+  &:hover {
+    box-shadow: ${p => p.theme.noShadow};
+    text-decoration: underline;
+    color: ${p => p.theme.primaryActive};
+  }
+
+  &:disabled {
+    &,
+    &:link,
+    &:active,
+    &:hover,
+    &:visited,
+    [data-whatintent='keyboard'] &:focus {
+      cursor: not-allowed;
+      background: none;
+      text-decoration: none;
+      color: ${p => p.theme.grey04};
+    }
   }
 `;
 
@@ -48,19 +87,20 @@ const cssSmall = css`
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
 `;
 
-const ButtonInner = ({ size, appearance, children, ...otherProps }) => (
-  <button {...otherProps}>{children}</button>
-);
+const ButtonInner = ({ size, appearance, renderAs, children, ...otherProps }) =>
+  React.createElement(renderAs, otherProps, children);
 
 ButtonInner.propTypes = {
   children: PropTypes.node.isRequired,
   size: PropTypes.oneOf(['small', 'normal']),
-  appearance: PropTypes.oneOf(['primary', 'secondary']),
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'link']),
+  renderAs: PropTypes.string,
 };
 
 ButtonInner.defaultProps = {
   size: 'normal',
   appearance: 'secondary',
+  renderAs: 'button',
 };
 
 /**
@@ -100,6 +140,7 @@ const Button = styled(ButtonInner)`
 
   ${p => p.appearance === 'primary' && cssPrimary};
   ${p => p.appearance === 'secondary' && cssSecondary};
+  ${p => p.appearance === 'link' && cssLink};
   ${p => p.size === 'small' && cssSmall};
 `;
 
@@ -110,14 +151,16 @@ Button.propTypes = {
   size: PropTypes.oneOf(['small', 'normal']),
   disabled: PropTypes.bool,
   type: PropTypes.oneOf(['button', 'reset', 'submit']),
-  appearance: PropTypes.oneOf(['primary', 'secondary']),
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'link']),
+  /** Render to DOM as a given tag. Should be a valid HTML tag. */
+  renderAs: PropTypes.string,
 };
 
 Button.defaultProps = {
   size: 'normal',
   disabled: false,
   appearance: 'secondary',
-  type: 'button',
+  renderAs: 'button',
 };
 
 /** @component */
