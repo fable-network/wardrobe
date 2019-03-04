@@ -24,3 +24,4 @@ export ToolTip from './components/ToolTip';
 export Stack from './layout/Stack';
 export TabBar from './components/TabBar';
 export TabBarItem from './components/TabBarItem';
+export DisplayValue from './components/DisplayValue';

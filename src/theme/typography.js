@@ -18,6 +18,8 @@ export const LINE_HEIGHT_CONTROL_LARGE = 24;
 
 const typography = {
   fontFamily: FONT_FAMILY,
+  fontWeightNormal: '400',
+  fontWeightBold: '500',
 
   fontSizeSmall: `${FONT_SIZE_SMALL / FONT_SIZE_BASE}rem`,
   fontSizeBase: '1rem',

@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+
+- A DisplayValue component.
+
 ### Changed
 
 - Button now has a `link` appearance.
