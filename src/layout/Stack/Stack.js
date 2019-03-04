@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
@@ -26,7 +27,7 @@ const stackHorizontal = css`
   }
 `;
 
-const Stack = styled.div`
+const Stack = styled(({ direction, size, ...otherProps }) => <div {...otherProps} />)`
   display: flex;
   align-items: center;
   justify-content: flex-start;
