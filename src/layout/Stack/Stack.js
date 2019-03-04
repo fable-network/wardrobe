@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const getMargin = ({ size, theme }) => {
   switch (size) {
@@ -13,18 +13,34 @@ const getMargin = ({ size, theme }) => {
   }
 };
 
-const Stack = styled.div`
+const stackVertical = css`
+  flex-flow: column nowrap;
   > * + * {
     margin-top: ${getMargin};
   }
 `;
+const stackHorizontal = css`
+  flex-flow: row nowrap;
+  > * + * {
+    margin-left: ${getMargin};
+  }
+`;
+
+const Stack = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  ${p => (p.direction === 'horizontal' ? stackHorizontal : stackVertical)};
+`;
 
 Stack.defaultProps = {
   size: 'normal',
+  direction: 'vertical',
 };
 
 Stack.propTypes = {
-  size: PropTypes.oneOf(['small', 'normal', 'large'])
+  size: PropTypes.oneOf(['small', 'normal', 'large']),
+  direction: PropTypes.oneOf(['horizontal', 'vertical']),
 };
 
 /** @component */
