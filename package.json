@@ -32,7 +32,7 @@
     "build": "styleguidist build",
     "update-snapshots": "jest --updateSnapshot",
     "generate-tests": "node scripts/generateTests.js && jest",
-    "generate-component": "node scripts/generateComponent.js"
+    "generate-component": "chmod +x scripts/generate-component.sh && scripts/generate-component.sh"
   },
   "dependencies": {
     "a11y-focus-scope": "1.1.3",
