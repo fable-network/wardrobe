@@ -37,8 +37,8 @@ ${componentName}.propTypes = {
 export default ${componentName};
 `;
 
-const ComponentDocumentationBoilerplate = `
-${componentName} component:
+const ComponentDocumentationBoilerplate = `${componentName} component:
+
 \`\`\`jsx
 <${componentName} /> 
 \`\`\`
