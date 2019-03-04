@@ -17,8 +17,8 @@ const Label = styled.div`
 const Content = styled.div`
   ${ellipsis};
   max-width: 100%;
-  font-size: ${p => p.theme.fontSizeLarge};
-  line-height: ${p => p.theme.lineHeightLarge};
+  font-size: ${p => p.theme.fontSizeBase};
+  line-height: ${p => p.theme.lineHeightBase};
   color: ${p => p.theme.grey02};
 `;
 
