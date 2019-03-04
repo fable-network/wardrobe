@@ -26,3 +26,4 @@ export TabBar from './components/TabBar';
 export TabBarItem from './components/TabBarItem';
 export DisplayValue from './components/DisplayValue';
 export SummaryBar from './components/SummaryBar';
+export Ruler from './components/Ruler';
