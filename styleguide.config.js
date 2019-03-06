@@ -11,7 +11,11 @@ module.exports = {
   sections: [
     { name: 'Theme', components: 'src/style/**/*.js', content: 'docs/style.md' },
     { name: 'Layout', components: 'src/layout/**/[A-Z]*.js' },
-    { name: 'Components', components: 'src/components/**/[A-Z]*.js', content: 'docs/components.md' },
+    {
+      name: 'Components',
+      components: 'src/components/**/[A-Z]*.js',
+      content: 'docs/components.md',
+    },
     { name: 'Charts', components: 'src/charts/**/[A-Z]*.js', content: 'docs/charts.md' },
     { name: 'Animations', components: 'src/animations/**/[A-Z]*.js' },
     { name: 'Changelog', content: 'CHANGELOG.md' },
@@ -33,6 +37,14 @@ module.exports = {
 
   styleguideComponents: {
     Wrapper: path.join(__dirname, 'tools/ThemeWrapper'),
+  },
+
+  styles: {
+    StyleGuide: {
+      content: {
+        maxWidth: 'none',
+      },
+    },
   },
 
   compilerConfig: {

@@ -1,10 +1,17 @@
 ## [Unreleased]
 
+### Added
+
+- [WithLabel](/#/Components?id=withlabel) component.
+- [Ruler](/#/Components?id=ruler) component.
+
 ### Changed
 
 - Button now has a `link` appearance.
 - Button now has an option to be rendered as any given HTML tag.
 - Refactor scss to styled components in ColorSelector.
+- Make `generate-component` script also generate an example snapshot test.
+- [Stack](/#/Layout?id=stack) component now supports horizontal direction.
 
 ## [3.8.0] - 2019-02-26
 
