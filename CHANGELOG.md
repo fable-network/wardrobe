@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.9.0] - 2019-03-06
+
 ### Added
 
 - [WithLabel](/#/Components?id=withlabel) component.
