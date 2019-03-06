@@ -1,8 +1,67 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import styled, { css } from 'styled-components';
 
-import './ColorSelector.scss';
+const Wrapper = styled('span')`
+  display: inline-flex;
+  align-items: center;
+  cursor: ${(p) => (p.onClick ? 'pointer' : 'initial')};
+`;
+
+const fixedSizeCss = css`
+  width: ${(p) => p.fixedSize};
+  height: ${(p) => p.fixedSize};
+`;
+
+const missingColorCss = css`
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "?";
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 500;
+  }
+`;
+
+const selectedCss = css`
+  transform: scale(1) !important;
+`;
+
+const ColorCircle = styled('span')`
+  background-color: ${(p) => p.theme.white};
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid ${(p) => p.theme.white};
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  &:hover {
+    transform: scale(.9);
+  }
+
+  ${(p) => (p.fixedSize ? fixedSizeCss : 'padding: .75em;')}
+  ${(p) => (p.isMissingColor ? missingColorCss : null)}
+  ${(p) => (p.disableInteraction || p.selected ? selectedCss : null)}
+  ${(p) => (
+    p.patternImage
+      ? `background-image: url(${p.patternImage})`
+      : `background: ${p.color || p.theme.white}`
+  )}
+`;
+
+const Text = styled('span')`
+  margin-left: 8px;
+  font-weight: ${(p) => (p.selected ? '500' : '400')};
+`;
 
 const ColorSelector = props => {
   const {
@@ -17,35 +76,18 @@ const ColorSelector = props => {
   } = props;
   const isMissingColor = !patternImage && !color;
 
-  const wrapperClasses = classNames('ft--colorSelector', {
-    'ft--colorSelector--state--noInteraction': disableInteraction,
-    'ft--colorSelector--state--selected': selected,
-    'ft--colorSelector--cursor--pointer': !!onClick,
-  });
-
-  const colorCirlcleClasses = classNames('ft--colorSelector--colorCircle', {
-    'ft--colorSelector--colorCircle--size--dynamic': !fixedSize,
-    'ft--colorSelector--colorCircle--color--missing': isMissingColor,
-  });
-
-  const textClasses = classNames('ft--colorSelector--text', {
-    'ft--colorSelector--text--state--selected': selected,
-  });
-
-  const style = patternImage
-    ? { backgroundImage: `url(${patternImage})` }
-    : { background: color || '#fff' };
-
-  if (fixedSize) {
-    style.width = fixedSize;
-    style.height = fixedSize;
-  }
-
   return (
-    <span {...otherProps} onClick={!disableInteraction ? onClick : null} className={wrapperClasses}>
-      <span style={style} selected={selected} className={colorCirlcleClasses} />
-      {text && <span className={textClasses}>{text}</span>}
-    </span>
+    <Wrapper {...otherProps} onClick={!disableInteraction ? onClick : null}>
+      <ColorCircle
+        color={color}
+        selected={selected}
+        fixedSize={fixedSize}
+        patternImage={patternImage}
+        isMissingColor={isMissingColor}
+        disableInteraction={disableInteraction}
+      />
+      {text && <Text selected={selected}>{text}</Text>}
+    </Wrapper>
   );
 };
 
@@ -56,12 +98,15 @@ ColorSelector.defaultProps = {
 
 ColorSelector.propTypes = {
   color: PropTypes.string,
-  patternImage: PropTypes.string, // overrides color if available
+  /** overrides color if available */
+  patternImage: PropTypes.string,
   onClick: PropTypes.func,
-  disableInteraction: PropTypes.bool, // ignores click handler if true
+  /** ignores click handler if true */
+  disableInteraction: PropTypes.bool,
   text: PropTypes.string,
   selected: PropTypes.bool,
-  fixedSize: PropTypes.string, // overrides dynamic size based on font-size
+  /** overrides dynamic size based on font-size */
+  fixedSize: PropTypes.string,
 };
 
 export default ColorSelector;

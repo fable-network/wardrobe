@@ -4,6 +4,7 @@
 
 - Button now has a `link` appearance.
 - Button now has an option to be rendered as any given HTML tag.
+- Refactor scss to styled components in ColorSelector.
 
 ## [3.8.0] - 2019-02-26
 
