@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.9.1] - 2019-03-07
+
 ### Changed
 
 - Don't pass `ellipsis` prop to an HTML element in WithLabel component.
