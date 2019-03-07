@@ -42,10 +42,14 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <WithLabel__Label>
+        <WithLabel__Label
+          ellipsis={false}
+        >
           Total WSP
         </WithLabel__Label>,
-        <WithLabel__Content>
+        <WithLabel__Content
+          ellipsis={false}
+        >
           EUR 
           <span
             style={
@@ -69,7 +73,6 @@ ShallowWrapper {
         </WithLabel__Content>,
       ],
       "direction": "vertical",
-      "ellipsis": false,
     },
     "ref": null,
     "rendered": Array [
@@ -79,6 +82,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "Total WSP",
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": "Total WSP",
@@ -111,6 +115,7 @@ ShallowWrapper {
               12,345.67
             </span>,
           ],
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": Array [
@@ -157,10 +162,14 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <WithLabel__Label>
+          <WithLabel__Label
+            ellipsis={false}
+          >
             Total WSP
           </WithLabel__Label>,
-          <WithLabel__Content>
+          <WithLabel__Content
+            ellipsis={false}
+          >
             EUR 
             <span
               style={
@@ -184,7 +193,6 @@ ShallowWrapper {
           </WithLabel__Content>,
         ],
         "direction": "vertical",
-        "ellipsis": false,
       },
       "ref": null,
       "rendered": Array [
@@ -194,6 +202,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "Total WSP",
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": "Total WSP",
@@ -226,6 +235,7 @@ ShallowWrapper {
                 12,345.67
               </span>,
             ],
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": Array [
@@ -307,15 +317,18 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <WithLabel__Label>
+        <WithLabel__Label
+          ellipsis={false}
+        >
           Pieces
         </WithLabel__Label>,
-        <WithLabel__Content>
+        <WithLabel__Content
+          ellipsis={false}
+        >
           0
         </WithLabel__Content>,
       ],
       "direction": "vertical",
-      "ellipsis": false,
     },
     "ref": null,
     "rendered": Array [
@@ -325,6 +338,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "Pieces",
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": "Pieces",
@@ -336,6 +350,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "0",
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": "0",
@@ -351,15 +366,18 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <WithLabel__Label>
+          <WithLabel__Label
+            ellipsis={false}
+          >
             Pieces
           </WithLabel__Label>,
-          <WithLabel__Content>
+          <WithLabel__Content
+            ellipsis={false}
+          >
             0
           </WithLabel__Content>,
         ],
         "direction": "vertical",
-        "ellipsis": false,
       },
       "ref": null,
       "rendered": Array [
@@ -369,6 +387,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "Pieces",
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": "Pieces",
@@ -380,6 +399,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "0",
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": "0",
@@ -435,15 +455,18 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <WithLabel__Label>
+        <WithLabel__Label
+          ellipsis={false}
+        >
           RRP
         </WithLabel__Label>,
-        <WithLabel__Content>
+        <WithLabel__Content
+          ellipsis={false}
+        >
           EUR 69.99
         </WithLabel__Content>,
       ],
       "direction": "horizontal",
-      "ellipsis": false,
       "style": Object {
         "width": "300px",
       },
@@ -456,6 +479,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "RRP",
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": "RRP",
@@ -467,6 +491,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "EUR 69.99",
+          "ellipsis": false,
         },
         "ref": null,
         "rendered": "EUR 69.99",
@@ -482,15 +507,18 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <WithLabel__Label>
+          <WithLabel__Label
+            ellipsis={false}
+          >
             RRP
           </WithLabel__Label>,
-          <WithLabel__Content>
+          <WithLabel__Content
+            ellipsis={false}
+          >
             EUR 69.99
           </WithLabel__Content>,
         ],
         "direction": "horizontal",
-        "ellipsis": false,
         "style": Object {
           "width": "300px",
         },
@@ -503,6 +531,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "RRP",
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": "RRP",
@@ -514,6 +543,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "EUR 69.99",
+            "ellipsis": false,
           },
           "ref": null,
           "rendered": "EUR 69.99",

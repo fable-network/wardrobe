@@ -7,7 +7,7 @@ Ellipsis.propTypes = { ellipsis: PropTypes.bool };
 
 const ellipsisCss = `
   overflow: hidden;
-  white-space: nowrap;  
+  white-space: nowrap;
   text-overflow: ellipsis;
 `;
 
@@ -41,10 +41,10 @@ const Wrapper = styled(({ direction, ...otherProps }) => <div {...otherProps} />
   color: ${p => p.theme.grey02};
 `;
 
-const WithLabel = ({ direction, label, children, ...otherProps }) => (
+const WithLabel = ({ direction, label, children, ellipsis, ...otherProps }) => (
   <Wrapper direction={direction} {...otherProps}>
-    <Label>{label}</Label>
-    <Content>{children}</Content>
+    <Label ellipsis={ellipsis}>{label}</Label>
+    <Content ellipsis={ellipsis}>{children}</Content>
   </Wrapper>
 );
 
