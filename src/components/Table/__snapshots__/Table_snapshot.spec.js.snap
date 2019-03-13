@@ -92,7 +92,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "alternateColors": true,
-      "alternateRowColor": "#f7f8fa",
+      "alternateRowColor": "#f5f7fa",
       "borderColor": "#999",
       "children": Array [
         <Table__Row>
@@ -674,7 +674,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "alternateColors": true,
-        "alternateRowColor": "#f7f8fa",
+        "alternateRowColor": "#f5f7fa",
         "borderColor": "#999",
         "children": Array [
           <Table__Row>
@@ -1368,7 +1368,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "alternateColors": true,
-      "alternateRowColor": "#f7f8fa",
+      "alternateRowColor": "#f5f7fa",
       "borderColor": "#999",
       "children": Array [
         <Table__Row>
@@ -1950,7 +1950,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "alternateColors": true,
-        "alternateRowColor": "#f7f8fa",
+        "alternateRowColor": "#f5f7fa",
         "borderColor": "#999",
         "children": Array [
           <Table__Row>
@@ -2636,7 +2636,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "alternateColors": true,
-      "alternateRowColor": "#f7f8fa",
+      "alternateRowColor": "#f5f7fa",
       "borderColor": "#999",
       "children": Array [
         <Table__Row>
@@ -3218,7 +3218,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "alternateColors": true,
-        "alternateRowColor": "#f7f8fa",
+        "alternateRowColor": "#f5f7fa",
         "borderColor": "#999",
         "children": Array [
           <Table__Row>
@@ -6440,7 +6440,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "alternateColors": false,
-      "alternateRowColor": "#f7f8fa",
+      "alternateRowColor": "#f5f7fa",
       "borderColor": "#999",
       "children": Array [
         <Table__Row>
@@ -7022,7 +7022,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "alternateColors": false,
-        "alternateRowColor": "#f7f8fa",
+        "alternateRowColor": "#f5f7fa",
         "borderColor": "#999",
         "children": Array [
           <Table__Row>
@@ -8976,7 +8976,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "alternateColors": true,
-      "alternateRowColor": "#f7f8fa",
+      "alternateRowColor": "#f5f7fa",
       "borderColor": "#999",
       "children": Array [
         <Table__Row>
@@ -9558,7 +9558,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "alternateColors": true,
-        "alternateRowColor": "#f7f8fa",
+        "alternateRowColor": "#f5f7fa",
         "borderColor": "#999",
         "children": Array [
           <Table__Row>

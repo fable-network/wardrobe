@@ -8,7 +8,7 @@ export const colors = {
   primary: '#5f9dc7', // skyBlue
   primaryActive: '#337aa9',
   backgroundPrimary: '#e7f1f7',
-  backgroundSecondary: '#f7f8fa', // pearlWhite
+  backgroundSecondary: '#f5f7fa', // pearlWhite
   danger: '#e25454', // flameRed
   success: '#aecc76', // limeGreen
   warning: '#f4a671', // apricotOrange
@@ -26,7 +26,7 @@ export const chartColors = {
     '#65B3B6',
     '#339CA0',
     '#018489',
-  ]
+  ],
 };
 
 export default { colors, chartColors };
