@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.9.2] - 2019-03-13
+
 ### Changed
 
 - A minor change to a `backgroundSecondary` colour: `#f7f8fa` -> `#f5f7fa`.
