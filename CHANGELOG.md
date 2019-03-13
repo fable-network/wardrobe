@@ -3,6 +3,7 @@
 ### Changed
 
 - A minor change to a `backgroundSecondary` colour: `#f7f8fa` -> `#f5f7fa`.
+- Modify padding values from `10px` -> `8px` to be aligned with the grid.
 
 ## [3.9.1] - 2019-03-07
 

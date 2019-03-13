@@ -26,7 +26,7 @@ const Cell = styled('div')`
   flex-grow: 1;
   width: ${p => (100 / p.numberOfColumns) * p.widthWeight || 100}%;
   min-height: 1px;
-  padding: 10px;
+  padding: 8px;
   text-overflow: ellipsis;
   white-space: ${p => (p.singleLine ? 'nowrap' : 'initial')};
   box-sizing: border-box;

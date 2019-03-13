@@ -16,7 +16,7 @@ const Wrapper = styled('div')`
 
 const Input = styled('input')`
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   ${p => `padding-${p.iconPosition}: 40px;`}
   border: solid 1px ${p => p.theme.grey03};
   outline: none;
@@ -32,7 +32,7 @@ const Input = styled('input')`
 
 const IconWrapper = styled('div')`
   position: absolute;
-  ${p => p.iconPosition}: 10px;
+  ${p => p.iconPosition}: 8px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 0;

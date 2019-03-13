@@ -9,7 +9,7 @@ import DropdownTitle from '../DropdownTitle';
 
 const Trigger = styled.div`
   display: flex;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   cursor: pointer;
   transition: 0.2s linear;
