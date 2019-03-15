@@ -26,3 +26,7 @@ export TabBar from './components/TabBar';
 export TabBarItem from './components/TabBarItem';
 export WithLabel from './components/WithLabel';
 export Ruler from './components/Ruler';
+
+export BarChart from './charts/BarChart';
+export ColulmnChart from './charts/ColumnChart';
+export PieChart from './charts/PieChart';
