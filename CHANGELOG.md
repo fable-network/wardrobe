@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [3.9.3] - 2019-03-15
+
+### Changed
+
+- export chart components from index
+
 ## [3.9.2] - 2019-03-13
 
 ### Changed
