@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.10.0] - 2019-03-21
+
 ### Added
 
 - New `info` color in theme.
