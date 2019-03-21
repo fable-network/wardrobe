@@ -2,36 +2,31 @@
 // This file was automatically generated
 import React from 'react';
 import { shallow } from 'enzyme';
-import CheckBox from './CheckBox';
+import ProgressBar from './ProgressBar';
 
-describe('CheckBox Component', () => {
+describe('ProgressBar Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
       const wrapper1 = shallow(
-        <CheckBox label="Checkbox Label" />
+        <ProgressBar max={100} value={0} />
       );
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <CheckBox label="Checkbox Label" checked />
+        <ProgressBar max={100} value={42} />
       );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <CheckBox label="Checkbox Label" disabled />
+        <ProgressBar max={100} value={100} />
       );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <CheckBox label="Checkbox Label" disabled checked />
+        <ProgressBar max={100} value={42} appearance="warning" />
       );
       expect(wrapper4).toMatchSnapshot();
-
-      const wrapper5 = shallow(
-        <CheckBox label="Checkbox Label" checked={null} />
-      );
-      expect(wrapper5).toMatchSnapshot();
 
     });
   });

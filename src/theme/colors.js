@@ -7,11 +7,13 @@ export const colors = {
   white: '#ffffff', // white
   primary: '#5f9dc7', // skyBlue
   primaryActive: '#337aa9',
+  /** @deprecated */
   backgroundPrimary: '#e7f1f7',
   backgroundSecondary: '#f5f7fa', // pearlWhite
   danger: '#e25454', // flameRed
   success: '#aecc76', // limeGreen
   warning: '#f4a671', // apricotOrange
+  info: '#e7f1f7',
 };
 
 export const chartColors = {

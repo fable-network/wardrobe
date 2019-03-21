@@ -1,5 +1,17 @@
 ## [Unreleased]
 
+### Added
+
+- New `info` color in theme.
+- [ProgressBar](/#/Components?id=progressbar) component.
+
+### Changed
+
+- Bring back a lost Animations section.
+- Update [CheckBox](/#/Components?id=checkbox) design.
+- Prevent default behaviour and stop event propagation for OverflowMenu Toggle.
+- "Explicitly undefined" ("not sure") state for [CheckBox](/#/Components?id=checkbox).
+
 ## [3.9.3] - 2019-03-15
 
 ### Changed

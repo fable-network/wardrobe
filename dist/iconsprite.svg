@@ -14,9 +14,9 @@
       <path d="M25.696 10L13.718 26 9 21.478" />
     </g>
   </symbol>
-  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 35 35" id="icon-check">
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 18 17" id="icon-check">
     <title>check</title>
-    <path d="M25.696 10L13.718 26 9 21.478" stroke="currentColor" />
+    <path stroke="currentColor" stroke-width="2" d="M1 7l6 8L17 1" />
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 20 20" id="icon-cross">
     <title>cross</title>

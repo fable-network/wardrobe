@@ -192,7 +192,11 @@ class ToggleMenu extends Component {
     }
   };
 
-  toggleMenu = (event) => {
+  toggleMenu = event => {
+    if (event) {
+      if (event.preventDefault) event.preventDefault();
+      if (event.stopPropagation) event.stopPropagation();
+    }
     if (this.props.open) {
       this.props.onClose(event);
     } else {

@@ -68,15 +68,15 @@ class OverflowMenu extends Component {
 
   isControlled = () => typeof this.props.open !== 'undefined';
 
-  handleMenuOpen = () => {
-    this.props.onOpen();
+  handleMenuOpen = event => {
+    this.props.onOpen(event);
     if (!this.isControlled()) {
       this.setState({ menuOpen: true });
     }
   };
 
-  handleMenuClose = () => {
-    this.props.onClose();
+  handleMenuClose = event => {
+    this.props.onClose(event);
     if (!this.isControlled()) {
       this.setState({ menuOpen: false });
     }

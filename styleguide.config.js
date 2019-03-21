@@ -17,7 +17,7 @@ module.exports = {
       content: 'docs/components.md',
     },
     { name: 'Charts', components: 'src/charts/**/[A-Z]*.js', content: 'docs/charts.md' },
-    { name: 'Animations', components: 'src/animations/**/[A-Z]*.js' },
+    { name: 'Animations', components: 'src/animations/**/[a-zA-Z]*.js' },
     { name: 'Changelog', content: 'CHANGELOG.md' },
   ],
 
