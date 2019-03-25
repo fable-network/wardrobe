@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.10.1] - 2019-03-25
+
 ### Changed
 
 - Update components exports.
