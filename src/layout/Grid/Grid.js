@@ -30,6 +30,7 @@ const Grid = styled(({ direction, children, ...otherProps }) => (
   ${p => (p.theme.tablet_up || defaultTheme.tablet_up)`
     min-width: calc(${p.theme.gridGutterWidth} * ${COLUMNS_TABLET_UP});
   `};
+  width: calc(100% + ${p => p.theme.gridGutterWidth});
 `;
 
 Grid.propTypes = {

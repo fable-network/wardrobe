@@ -11,18 +11,20 @@ export Input from './components/Input';
 export LoadingSpinner from './components/LoadingSpinner';
 export Modal from './components/Modal';
 export OverflowMenu from './components/OverflowMenu';
+export ProgressBar from './components/ProgressBar';
+export Ruler from './components/Ruler';
 export Searchbar from './components/Searchbar';
+export TabBar from './components/TabBar';
+export TabBarItem from './components/TabBarItem';
 export Table from './components/Table';
+export ToolTip from './components/ToolTip';
+export WithLabel from './components/WithLabel';
 
 export Container from './layout/Container';
 export Grid from './layout/Grid';
+export Stack from './layout/Stack';
 
 export * as Animations from './animations';
+
 export Theme from './theme/default';
 export Normalize from './theme/normalize';
-export ToolTip from './components/ToolTip';
-export Stack from './layout/Stack';
-export TabBar from './components/TabBar';
-export TabBarItem from './components/TabBarItem';
-export WithLabel from './components/WithLabel';
-export Ruler from './components/Ruler';
