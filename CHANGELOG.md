@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.10.2] - 2019-03-26
+
 ### Changed
 
 - [Button](/#/Components?id=button) with `appearance=link` background is transparent by default.
