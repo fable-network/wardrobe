@@ -45,6 +45,7 @@ const cssSecondary = css`
 `;
 
 const cssLink = css`
+  background-color: transparent;
   &,
   &:link,
   &:visited {

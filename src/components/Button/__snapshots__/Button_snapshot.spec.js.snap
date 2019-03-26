@@ -375,7 +375,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "link",
       "children": "Push Me",
-      "className": "Button-hYXUXp gJEDnY",
+      "className": "Button-hYXUXp bjrylD",
       "disabled": false,
       "renderAs": "button",
       "size": "normal",
@@ -392,7 +392,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "link",
         "children": "Push Me",
-        "className": "Button-hYXUXp gJEDnY",
+        "className": "Button-hYXUXp bjrylD",
         "disabled": false,
         "renderAs": "button",
         "size": "normal",
@@ -445,7 +445,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "link",
       "children": "Push Me",
-      "className": "Button-hYXUXp WGFso",
+      "className": "Button-hYXUXp kJcYjO",
       "disabled": false,
       "renderAs": "button",
       "size": "small",
@@ -462,7 +462,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "link",
         "children": "Push Me",
-        "className": "Button-hYXUXp WGFso",
+        "className": "Button-hYXUXp kJcYjO",
         "disabled": false,
         "renderAs": "button",
         "size": "small",
@@ -515,7 +515,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "link",
       "children": "Don't Push Me",
-      "className": "Button-hYXUXp gJEDnY",
+      "className": "Button-hYXUXp bjrylD",
       "disabled": true,
       "renderAs": "button",
       "size": "normal",
@@ -532,7 +532,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "link",
         "children": "Don't Push Me",
-        "className": "Button-hYXUXp gJEDnY",
+        "className": "Button-hYXUXp bjrylD",
         "disabled": true,
         "renderAs": "button",
         "size": "normal",
