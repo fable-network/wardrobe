@@ -7,8 +7,21 @@ class HighChart extends React.Component {
     options: PropTypes.object,
     callback: PropTypes.func,
     allowChartUpdate: PropTypes.bool,
-    updateArgs: PropTypes.arrayOf(PropTypes.bool),
+    /**
+     * `redraw` HighCharts option: https://api.highcharts.com/class-reference/Highcharts.Chart#update
+     */
+    redraw: PropTypes.bool,
+    /**
+     * `oneToOne` HighCharts option: https://api.highcharts.com/class-reference/Highcharts.Chart#update
+     */
+    oneToOne: PropTypes.bool,
     className: PropTypes.string,
+  };
+
+  static defaultProps = {
+    allowChartUpdate: false,
+    redraw: true,
+    oneToOne: true,
   };
 
   componentDidMount() {
@@ -19,13 +32,10 @@ class HighChart extends React.Component {
     );
   }
 
-  shouldComponentUpdate() {
-    return false;
-  }
-
   componentDidUpdate() {
-    if (this.chart && this.props.allowChartUpdate !== false) {
-      this.chart.update(this.props.options, ...(this.props.updateArgs || [true, true]));
+    const { allowChartUpdate, redraw, oneToOne, options } = this.props;
+    if (this.chart && allowChartUpdate !== false) {
+      this.chart.update(options, redraw, oneToOne);
     }
   }
 

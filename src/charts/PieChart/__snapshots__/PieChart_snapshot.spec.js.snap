@@ -58,6 +58,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "allowUpdate": false,
       "data": Array [
         Object {
           "name": "Christmas",
@@ -109,6 +110,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "allowUpdate": false,
         "data": Array [
           Object {
             "name": "Christmas",
@@ -229,6 +231,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "allowUpdate": false,
       "colors": Array [
         "#d8d8d8",
         "#b1b1b1",
@@ -276,6 +279,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "allowUpdate": false,
         "colors": Array [
           "#d8d8d8",
           "#b1b1b1",
@@ -368,6 +372,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "allowUpdate": false,
       "colors": Array [
         "#6F94AE",
       ],
@@ -391,6 +396,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "allowUpdate": false,
         "colors": Array [
           "#6F94AE",
         ],

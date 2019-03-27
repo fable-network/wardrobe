@@ -36,7 +36,7 @@ class PieChart extends React.PureComponent {
   };
 
   render() {
-    const { data, colors, title, theme = defaultTheme } = this.props;
+    const { data, colors, title, allowUpdate, theme = defaultTheme } = this.props;
     if (!data) return null;
 
     const { renderTooltip } = this;
@@ -74,13 +74,19 @@ class PieChart extends React.PureComponent {
     };
     return (
       <Wrapper colors={colors}>
-        <HighChart options={options} className="ft-wardrobe-pie-chart" />
+        <HighChart
+          options={options}
+          className="ft-wardrobe-pie-chart"
+          allowChartUpdate={allowUpdate}
+        />
       </Wrapper>
     );
   }
 }
 
-PieChart.defaultProps = {};
+PieChart.defaultProps = {
+  allowUpdate: false,
+};
 
 PieChart.propTypes = {
   title: PropTypes.string, // optional
@@ -92,6 +98,11 @@ PieChart.propTypes = {
   ).isRequired,
   tooltip: PropTypes.func, // optional
   colors: PropTypes.arrayOf(PropTypes.string), // optional (default is theme.defaultPalette)
+  /**
+   * Allows HighCharts chart update. Use it if you plan to provide new data.
+   */
+  allowUpdate: PropTypes.bool,
+  // From withTheme
   theme: PropTypes.object.isRequired,
 };
 

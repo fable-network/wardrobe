@@ -14,7 +14,7 @@ Even more data points and a custom tooltip format:
 />
 ```
 
-Vertical bars (e.g. for Price points):
+Vertical bars (e.g. for Price points) and `allowUpdate` on:
 
 ```jsx
 <BarChart

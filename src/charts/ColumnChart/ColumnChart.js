@@ -112,7 +112,7 @@ class ColumnChart extends React.PureComponent {
   };
 
   render() {
-    const { data, title, subtitle, theme = defaultTheme } = this.props;
+    const { data, title, subtitle, allowUpdate, theme = defaultTheme } = this.props;
     if (!data) {
       return null;
     }
@@ -137,6 +137,10 @@ class ColumnChart extends React.PureComponent {
       plotOptions: {
         series: {
           groupPadding: 0,
+          events: {
+            mouseOver: this.handleMouseOver,
+            mouseOut: this.handleMouseOut,
+          },
         },
         column: {
           borderRadius: 4,
@@ -188,21 +192,15 @@ class ColumnChart extends React.PureComponent {
         borderRadius: 0,
         padding: 8,
       },
-      series: [
-        {
-          data,
-          point: {
-            events: {
-              mouseOver: this.handleMouseOver,
-              mouseOut: this.handleMouseOut,
-            },
-          },
-        },
-      ],
+      series: [{ data }],
     };
     return (
       <Wrapper highlighted={highlightIndex !== null}>
-        <HighChart options={options} className="ft-wardrobe-column-chart" />
+        <HighChart
+          options={options}
+          className="ft-wardrobe-column-chart"
+          allowChartUpdate={allowUpdate}
+        />
       </Wrapper>
     );
   }
@@ -210,6 +208,8 @@ class ColumnChart extends React.PureComponent {
 
 ColumnChart.defaultProps = {
   title: false,
+  subtitle: false,
+  allowUpdate: false,
   caption: ({ y }) => y,
 };
 
@@ -223,6 +223,11 @@ ColumnChart.propTypes = {
     })
   ).isRequired,
   caption: PropTypes.func,
+  /**
+   * Allows HighCharts chart update. Use it if you plan to provide new data.
+   */
+  allowUpdate: PropTypes.bool,
+  // from withTheme
   theme: PropTypes.object.isRequired,
 };
 

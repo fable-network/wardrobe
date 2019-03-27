@@ -20,7 +20,7 @@ With one data point:
 />
 ```
 
-With a lot of data points:
+With a lot of data points and `allowUpdate` prop on:
 
 ```jsx 
 <ColumnChart
@@ -28,6 +28,7 @@ With a lot of data points:
   subtitle="Total: 100500 pieces"
   data={require('../fixtures/column-chart-many.js').default}
   caption={({ y }) => (y === 1 ? 'piece' : 'pieces')}
+  allowUpdate
 />
 ```
 

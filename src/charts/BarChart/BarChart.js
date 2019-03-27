@@ -138,7 +138,7 @@ class BarChart extends React.PureComponent {
 
   render() {
     const { renderLabel, renderValue, handleMouseOver, handleMouseOut } = this;
-    const { data, title, tooltip, orientation, theme = defaultTheme } = this.props;
+    const { data, title, tooltip, orientation, allowUpdate, theme = defaultTheme } = this.props;
     if (!data) {
       return null;
     }
@@ -158,6 +158,10 @@ class BarChart extends React.PureComponent {
       plotOptions: {
         series: {
           groupPadding: 0,
+          events: {
+            mouseOver: handleMouseOver,
+            mouseOut: handleMouseOut,
+          },
         },
         bar: {
           borderRadius: pointWidth / 2,
@@ -214,21 +218,15 @@ class BarChart extends React.PureComponent {
           </span>`;
         },
       },
-      series: [
-        {
-          data,
-          point: {
-            events: {
-              mouseOver: handleMouseOver,
-              mouseOut: handleMouseOut,
-            },
-          },
-        },
-      ],
+      series: [{ data }],
     };
     return (
       <Wrapper highlighted={highlightIndex !== null}>
-        <HighChart options={options} className="ft-wardrobe-bar-chart" />
+        <HighChart
+          options={options}
+          className="ft-wardrobe-bar-chart"
+          allowChartUpdate={allowUpdate}
+        />
       </Wrapper>
     );
   }
@@ -238,6 +236,7 @@ BarChart.defaultProps = {
   title: false,
   orientation: 'horizontal',
   tooltip: ({ y }) => y,
+  allowUpdate: false,
 };
 
 BarChart.propTypes = {
@@ -250,6 +249,11 @@ BarChart.propTypes = {
     })
   ).isRequired,
   tooltip: PropTypes.func,
+  /**
+   * Allows HighCharts chart update. Use it if you plan to provide new data.
+   */
+  allowUpdate: PropTypes.bool,
+  // from withTheme
   theme: PropTypes.object.isRequired,
 };
 

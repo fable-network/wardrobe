@@ -44,6 +44,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "allowUpdate": false,
       "caption": [Function],
       "data": Array [
         Object {
@@ -81,6 +82,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "allowUpdate": false,
         "caption": [Function],
         "data": Array [
           Object {
@@ -159,6 +161,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "allowUpdate": false,
       "caption": [Function],
       "data": Array [
         Object {
@@ -180,6 +183,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "allowUpdate": false,
         "caption": [Function],
         "data": Array [
           Object {
