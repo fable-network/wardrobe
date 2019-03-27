@@ -76,6 +76,7 @@ const theme = require('../../theme/colors').default;
       <li>any error icon / indicator.</li>
     </ul>
   </Colors>
+  <Colors name="backgroundDanger" />
   <Colors name="success">
     <ul>
       <li>toaster message with success background,</li>
@@ -83,10 +84,18 @@ const theme = require('../../theme/colors').default;
       <li>any other success icon / indicator.</li>
     </ul>
   </Colors>
+  <Colors name="backgroundSuccess" />
   <Colors name="warning">
     <ul>
       <li>toaster warning or info message background,</li>
       <li>any other warning icon / indicator.</li>
+    </ul>
+  </Colors>
+  <Colors name="backgroundWarning" />
+  <Colors name="info">
+    <ul>
+      <li>information messages/toasts,</li>
+      <li>any other info icon / indicator.</li>
     </ul>
   </Colors>
 </div>;

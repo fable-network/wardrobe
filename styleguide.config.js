@@ -42,7 +42,8 @@ module.exports = {
   styles: {
     StyleGuide: {
       content: {
-        maxWidth: 'none',
+        maxWidth: '1200px',
+        margin: '0',
       },
     },
   },

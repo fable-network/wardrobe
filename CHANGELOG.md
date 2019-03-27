@@ -1,8 +1,13 @@
 ## [Unreleased]
 
+### Added
+
+- New [background colours](/#/Theme?id=colors): danger, success, warning.
+
 ### Changed
 
 - Update [ColumnChart](/#/Charts?id=columnchart) UI.
+- Updated [status colours](/#/Theme?id=colors): danger, success, warning.
 
 ## [3.10.2] - 2019-03-26
 

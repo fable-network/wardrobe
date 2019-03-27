@@ -10,9 +10,12 @@ export const colors = {
   /** @deprecated */
   backgroundPrimary: '#e7f1f7',
   backgroundSecondary: '#f5f7fa', // pearlWhite
-  danger: '#e25454', // flameRed
-  success: '#aecc76', // limeGreen
-  warning: '#f4a671', // apricotOrange
+  danger: '#e05f6e', // flameRed
+  backgroundDanger: '#f5f0f3',
+  success: '#30c0b8', // limeGreen
+  backgroundSuccess: '#ecf5f6',
+  warning: '#f5a623', // apricotOrange
+  backgroundWarning: '#f6f3ef',
   info: '#e7f1f7',
 };
 

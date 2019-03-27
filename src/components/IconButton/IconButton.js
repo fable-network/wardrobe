@@ -10,6 +10,8 @@ const getColor = (appearance, theme) => {
       return theme.danger;
     case 'warning':
       return theme.warning;
+    case 'secondary':
+      return theme.grey02;
     case 'primary':
     default:
       return theme.primary;
@@ -24,6 +26,8 @@ const getColorActive = (appearance, theme) => {
       return theme.danger;
     case 'warning':
       return theme.warning;
+    case 'secondary':
+      return theme.grey01;
     case 'primary':
     default:
       return theme.primaryActive;
@@ -59,7 +63,7 @@ const IconButton = styled(({ appearance, children, ...otherProps }) => (
 IconButton.propTypes = {
   disabled: PropTypes.bool,
   type: PropTypes.oneOf(['button', 'reset', 'submit']),
-  appearance: PropTypes.oneOf(['primary', 'success', 'danger', 'warning']),
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'success', 'danger', 'warning']),
 };
 
 IconButton.defaultProps = {

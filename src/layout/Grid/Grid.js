@@ -31,6 +31,9 @@ const Grid = styled(({ direction, children, ...otherProps }) => (
     min-width: calc(${p.theme.gridGutterWidth} * ${COLUMNS_TABLET_UP});
   `};
   width: calc(100% + ${p => p.theme.gridGutterWidth});
+  & & {
+    width: 100%;
+  }
 `;
 
 Grid.propTypes = {
