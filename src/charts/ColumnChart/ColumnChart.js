@@ -16,6 +16,8 @@ const highlightedCss = css`
 `;
 
 const Wrapper = styled.div`
+  position: relative;
+
   .ft-wardrobe-column-chart {
     .highcharts-point.highcharts-color-0 {
       &,
@@ -40,48 +42,43 @@ const Wrapper = styled.div`
       font-weight: 400;
       color: ${p => p.theme.grey01};
       text-align: center;
-
-      .ft-label-block {
-        display: block;
-
-        .ft-label.ft-label-category {
-          overflow: hidden;
-          text-align: center;
-
-          > span {
-            display: block;
-            max-width: 100%;
-            height: calc(1rem * ${p => p.theme.lineHeightSmall});
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
-        }
-        .ft-label.ft-label-value {
-          display: block;
-          margin-top: 0.75rem;
-          font-size: 1.5rem;
-          line-height: 1;
-          font-weight: 500;
-          color: ${p => p.theme.grey01};
-        }
-        .ft-label.ft-label-caption {
-          color: ${p => p.theme.grey03};
-        }
-
-        &.ft-label-block-disabled {
-          .ft-label.ft-label-value {
-            color: ${p => p.theme.grey04};
-          }
-          .ft-label.ft-label-category,
-          .ft-label.ft-label-caption {
-            color: ${p => p.theme.grey04};
-          }
-        }
-      }
     }
     .highcharts-credits {
       display: none;
+    }
+    .ft-label-block {
+      display: block;
+      text-align: center;
+      box-sizing: border-box;
+
+      .ft-label.ft-label-value {
+        display: block;
+        font-size: ${p => p.theme.fontSizeLarge};
+        line-height: ${p => p.theme.lineHeightControlLarge};
+        font-weight: ${p => p.theme.fontWeightBold};
+        color: ${p => p.theme.grey01};
+      }
+      .ft-label.ft-label-caption {
+        font-size: ${p => p.theme.fontSizeSmall};
+        line-height: ${p => p.theme.lineHeightControlSmall};
+        font-weight: ${p => p.theme.fontWeightNormal};
+        color: ${p => p.theme.grey03};
+      }
+
+      &.ft-label-block-disabled {
+        .ft-label.ft-label-value {
+          color: ${p => p.theme.grey04};
+        }
+        .ft-label.ft-label-caption {
+          color: ${p => p.theme.grey04};
+        }
+      }
+    }
+    .highcharts-subtitle {
+      color: ${p => p.theme.grey01};
+      font-size: ${p => p.theme.fontSizeSmall};
+      line-height: ${p => p.theme.lineHeightSmall};
+      font-weight: ${p => p.theme.fontWeightBold};
     }
   }
 `;
@@ -97,36 +94,17 @@ class ColumnChart extends React.PureComponent {
     this.setState({ highlightIndex: null });
   };
 
-  renderCategoryPart = categoryPart =>
-    `
-      <span>${categoryPart}</span>
-    `;
+  renderLabel = ({ value, pos }) => (pos < this.props.data.length ? value : '');
 
-  renderLabel = (data, total) => {
-    const { pos } = data;
-    const { data: seriesData, caption } = this.props;
-    const { highlightIndex } = this.state;
-    const className = `ft-label-block ${
-      highlightIndex !== null && highlightIndex !== pos ? 'ft-label-block-disabled' : ''
-    }`;
-    const value = seriesData[pos];
+  renderValue = (value, total) => {
+    const { caption } = this.props;
     if (value === undefined) return '';
-    const category = value.name;
     const percentage = (100 * value.y) / total;
     const captionHtml = `<span class="ft-label ft-label-caption">
-      ${typeof caption === 'function' && caption({ ...data, y: value.y, percentage })}
+      ${typeof caption === 'function' && caption({ y: value.y, percentage })}
     </span>`;
     return `
-      <span class="${className}" data-index="${pos}">
-        <span class="ft-label ft-label-category" title="${
-          typeof category === 'string' ? category : (category && category.join('')) || ''
-        }">
-          ${
-            typeof category === 'string'
-              ? `<span>${category}</span>`
-              : (category && category.map(this.renderCategoryPart).join('')) || ''
-          }
-        </span>
+      <span class="ft-label-block">
         <span class="ft-label ft-label-value">${value.y}</span>
         ${captionHtml}
       </span>
@@ -134,22 +112,26 @@ class ColumnChart extends React.PureComponent {
   };
 
   render() {
-    const { data, title, theme = defaultTheme } = this.props;
+    const { data, title, subtitle, theme = defaultTheme } = this.props;
     if (!data) {
       return null;
     }
     const { highlightIndex } = this.state;
-    const { renderLabel } = this;
+    const { renderValue, renderLabel } = this;
     const total = data.reduce((sum, item) => sum + item.y, 0);
     const options = {
       title: title && {
         text: title,
       },
+      subtitle: subtitle && {
+        text: subtitle,
+        align: 'right',
+        verticalAlign: 'top',
+      },
       chart: {
         type: 'column',
         backgroundColor: theme.white,
         styledMode: true,
-        height: '33%',
         groupPadding: 0,
       },
       plotOptions: {
@@ -161,6 +143,14 @@ class ColumnChart extends React.PureComponent {
           pointPadding: 0.01,
           groupPadding: 0,
           maxPointWidth: 230,
+          dataLabels: {
+            enabled: true,
+            color: 'black',
+            useHTML: true,
+            formatter: function formatter() {
+              return renderValue(this, total);
+            },
+          },
         },
       },
       xAxis: {
@@ -176,7 +166,7 @@ class ColumnChart extends React.PureComponent {
         labels: {
           useHTML: true,
           formatter: function formatter() {
-            return renderLabel(this, total);
+            return renderLabel(this);
           },
         },
       },
@@ -190,6 +180,13 @@ class ColumnChart extends React.PureComponent {
       },
       tooltip: {
         enabled: false,
+        outside: false, // Don't change unless you want to re-do the whole tooltip styling
+        useHTML: true,
+        shadow: true,
+        backgroundColor: theme.white,
+        borderColor: theme.grey04,
+        borderRadius: 0,
+        padding: 8,
       },
       series: [
         {
@@ -218,10 +215,11 @@ ColumnChart.defaultProps = {
 
 ColumnChart.propTypes = {
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   data: PropTypes.arrayOf(
     PropTypes.shape({
       y: PropTypes.number.isRequired,
-      name: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
+      name: PropTypes.string.isRequired,
     })
   ).isRequired,
   caption: PropTypes.func,

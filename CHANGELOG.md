@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Changed
+
+- Update [ColumnChart](/#/Charts?id=columnchart) UI.
+
 ## [3.10.2] - 2019-03-26
 
 ### Changed

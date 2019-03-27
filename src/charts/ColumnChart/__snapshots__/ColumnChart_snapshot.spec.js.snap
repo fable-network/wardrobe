@@ -8,38 +8,23 @@ ShallowWrapper {
     data={
       Array [
         Object {
-          "name": Array [
-            "Immediate",
-            "",
-          ],
+          "name": "Immediate",
           "y": 231,
         },
         Object {
-          "name": Array [
-            "Jan 15, 2019—",
-            "Jan 28, 2019",
-          ],
+          "name": "Jan 15, 2019 — Jan 28, 2019",
           "y": 91,
         },
         Object {
-          "name": Array [
-            "Feb 15, 2019—",
-            "Mar 28, 2019",
-          ],
+          "name": "Feb 15, 2019 — Mar 28, 2019",
           "y": 321,
         },
         Object {
-          "name": Array [
-            "Apr 15, 2019—",
-            "May 28, 2019",
-          ],
+          "name": "Apr 15, 2019 — May 28, 2019",
           "y": 81,
         },
         Object {
-          "name": Array [
-            "Jun 15, 2019—",
-            "Jul 28, 2019",
-          ],
+          "name": "Jun 15, 2019 — Jul 28, 2019",
           "y": 263,
         },
       ]
@@ -61,38 +46,23 @@ ShallowWrapper {
       "caption": [Function],
       "data": Array [
         Object {
-          "name": Array [
-            "Immediate",
-            "",
-          ],
+          "name": "Immediate",
           "y": 231,
         },
         Object {
-          "name": Array [
-            "Jan 15, 2019—",
-            "Jan 28, 2019",
-          ],
+          "name": "Jan 15, 2019 — Jan 28, 2019",
           "y": 91,
         },
         Object {
-          "name": Array [
-            "Feb 15, 2019—",
-            "Mar 28, 2019",
-          ],
+          "name": "Feb 15, 2019 — Mar 28, 2019",
           "y": 321,
         },
         Object {
-          "name": Array [
-            "Apr 15, 2019—",
-            "May 28, 2019",
-          ],
+          "name": "Apr 15, 2019 — May 28, 2019",
           "y": 81,
         },
         Object {
-          "name": Array [
-            "Jun 15, 2019—",
-            "Jul 28, 2019",
-          ],
+          "name": "Jun 15, 2019 — Jul 28, 2019",
           "y": 263,
         },
       ],
@@ -112,38 +82,23 @@ ShallowWrapper {
         "caption": [Function],
         "data": Array [
           Object {
-            "name": Array [
-              "Immediate",
-              "",
-            ],
+            "name": "Immediate",
             "y": 231,
           },
           Object {
-            "name": Array [
-              "Jan 15, 2019—",
-              "Jan 28, 2019",
-            ],
+            "name": "Jan 15, 2019 — Jan 28, 2019",
             "y": 91,
           },
           Object {
-            "name": Array [
-              "Feb 15, 2019—",
-              "Mar 28, 2019",
-            ],
+            "name": "Feb 15, 2019 — Mar 28, 2019",
             "y": 321,
           },
           Object {
-            "name": Array [
-              "Apr 15, 2019—",
-              "May 28, 2019",
-            ],
+            "name": "Apr 15, 2019 — May 28, 2019",
             "y": 81,
           },
           Object {
-            "name": Array [
-              "Jun 15, 2019—",
-              "Jul 28, 2019",
-            ],
+            "name": "Jun 15, 2019 — Jul 28, 2019",
             "y": 263,
           },
         ],

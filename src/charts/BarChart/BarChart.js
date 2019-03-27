@@ -246,7 +246,7 @@ BarChart.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       y: PropTypes.number.isRequired,
-      name: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
+      name: PropTypes.string.isRequired,
     })
   ).isRequired,
   tooltip: PropTypes.func,
