@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.11.0] - 2019-03-27
+
 ### Added
 
 - New [background colours](/#/Theme?id=colors): danger, success, warning.
