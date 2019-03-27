@@ -42,18 +42,18 @@ const WrapperResponsive = css`
 
 const Wrapper = styled.div`
   display: flex;
-  flex-flow: column nowrap; 
+  flex-flow: column nowrap;
   background-color: ${p => p.theme.white};
   box-shadow: ${p => p.theme.shadow};
   border-radius: ${p => p.theme.borderRadius};
   width: 100%;
   max-width: 100%;
   position: relative;
-  
+
   ${p => p.theme.mobile`
     min-height: 100vh;
   `};
-  
+
   ${p => p.theme.desktop_up`
     ${WIDTHS[p.size]};
   `};
@@ -107,7 +107,7 @@ function Dialog(props) {
       {children}
       {showCloseButton && (
         <CloseButton onClick={onClose} appearance="primary">
-          <Icon name="cross" color="currentColor" />
+          <Icon name="cross" fill="currentColor" />
         </CloseButton>
       )}
     </Wrapper>

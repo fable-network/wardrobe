@@ -3,11 +3,14 @@
 ### Added
 
 - New [background colours](/#/Theme?id=colors): danger, success, warning.
+- Document and chart icons.
 
 ### Changed
 
 - Update [ColumnChart](/#/Charts?id=columnchart) UI.
 - Updated [status colours](/#/Theme?id=colors): danger, success, warning.
+- Add `fill` and `stroke` props on [Icon](/#/Components?id=icon).
+- Display all icons in the [Wardrobe Styleguide UI](/#/Components?id=icon).
 
 ## [3.10.2] - 2019-03-26
 

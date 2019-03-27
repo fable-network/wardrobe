@@ -11,20 +11,17 @@ module.exports = function(grunt) {
           {
             removeComments: true,
           },
-          {
-            removeAttrs: {
-              attrs: 'fill',
-            },
-          },
         ],
       },
       default: {
-        files: [{
-          expand: true,
-          src: ['src/globals/icons/*.svg'],
-          flatten: true,
-          dest: tempDir,
-        }],
+        files: [
+          {
+            expand: true,
+            src: ['src/globals/icons/*.svg'],
+            flatten: true,
+            dest: tempDir,
+          },
+        ],
       },
     },
     svgstore: {

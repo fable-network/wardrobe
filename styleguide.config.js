@@ -1,5 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
+const fs = require('fs');
+
+const allIcons = fs
+  .readdirSync(path.join(__dirname, './src/globals/icons'))
+  .map(filename => filename.replace('.svg', ''));
+fs.writeFileSync(path.join(__dirname, 'styleguide-icons-list.json'), JSON.stringify(allIcons));
 
 module.exports = {
   title: 'Wardrobe',
@@ -7,6 +13,9 @@ module.exports = {
   pagePerSection: true,
   skipComponentsWithoutExample: true,
   assetsDir: 'src/static',
+  context: {
+    iconsList: path.join(__dirname, 'styleguide-icons-list.json'),
+  },
 
   sections: [
     { name: 'Theme', components: 'src/style/**/*.js', content: 'docs/style.md' },

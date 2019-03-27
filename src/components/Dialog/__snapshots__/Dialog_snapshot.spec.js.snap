@@ -1313,7 +1313,8 @@ ShallowWrapper {
           onClick={[Function]}
         >
           <Icon
-            color="currentColor"
+            color="inherit"
+            fill="currentColor"
             height="1em"
             name="cross"
             strokeWidth={1}
@@ -1343,7 +1344,8 @@ ShallowWrapper {
         "props": Object {
           "appearance": "primary",
           "children": <Icon
-            color="currentColor"
+            color="inherit"
+            fill="currentColor"
             height="1em"
             name="cross"
             strokeWidth={1}
@@ -1357,7 +1359,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "color": "currentColor",
+            "color": "inherit",
+            "fill": "currentColor",
             "height": "1em",
             "name": "cross",
             "strokeWidth": 1,
@@ -1387,7 +1390,8 @@ ShallowWrapper {
             onClick={[Function]}
           >
             <Icon
-              color="currentColor"
+              color="inherit"
+              fill="currentColor"
               height="1em"
               name="cross"
               strokeWidth={1}
@@ -1417,7 +1421,8 @@ ShallowWrapper {
           "props": Object {
             "appearance": "primary",
             "children": <Icon
-              color="currentColor"
+              color="inherit"
+              fill="currentColor"
               height="1em"
               name="cross"
               strokeWidth={1}
@@ -1431,7 +1436,8 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "color": "currentColor",
+              "color": "inherit",
+              "fill": "currentColor",
               "height": "1em",
               "name": "cross",
               "strokeWidth": 1,

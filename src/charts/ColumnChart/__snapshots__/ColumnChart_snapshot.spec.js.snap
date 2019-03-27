@@ -29,6 +29,7 @@ ShallowWrapper {
         },
       ]
     }
+    subtitle="Total: 480 pieces"
     title="Distribution of delivery"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -66,6 +67,7 @@ ShallowWrapper {
           "y": 263,
         },
       ],
+      "subtitle": "Total: 480 pieces",
       "theme": undefined,
       "title": "Distribution of delivery",
     },
@@ -102,6 +104,7 @@ ShallowWrapper {
             "y": 263,
           },
         ],
+        "subtitle": "Total: 480 pieces",
         "theme": undefined,
         "title": "Distribution of delivery",
       },
@@ -141,6 +144,7 @@ ShallowWrapper {
         },
       ]
     }
+    subtitle="Total: 42 pieces"
     title="Distribution of delivery"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -162,6 +166,7 @@ ShallowWrapper {
           "y": 42,
         },
       ],
+      "subtitle": "Total: 42 pieces",
       "theme": undefined,
       "title": "Distribution of delivery",
     },
@@ -182,6 +187,7 @@ ShallowWrapper {
             "y": 42,
           },
         ],
+        "subtitle": "Total: 42 pieces",
         "theme": undefined,
         "title": "Distribution of delivery",
       },

@@ -7,7 +7,7 @@ Pass any SVG or [Icon](#/Components?id=icon) as a child.
 ```jsx
 const Icon = require('../Icon').default;
 <IconButton>
-  <Icon name="caret-down" color="currentColor" />
+  <Icon name="caret-down" fill="currentColor" />
 </IconButton>;
 ```
 
@@ -16,7 +16,7 @@ A disabled icon button:
 ```jsx
 const Icon = require('../Icon').default;
 <IconButton disabled>
-  <Icon name="caret-down" color="currentColor" />
+  <Icon name="caret-down" fill="currentColor" />
 </IconButton>;
 ```
 
@@ -25,6 +25,6 @@ A danger icon button:
 ```jsx
 const Icon = require('../Icon').default;
 <IconButton appearance="danger">
-  <Icon name="cross" color="currentColor" />
+  <Icon name="cross" fill="currentColor" />
 </IconButton>;
 ```

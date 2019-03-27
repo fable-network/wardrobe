@@ -13,3 +13,4 @@ Thumbs.db
 .eslintcache
 /styleguide/
 src/static/iconsprite-demo.html
+styleguide-icons-list.json

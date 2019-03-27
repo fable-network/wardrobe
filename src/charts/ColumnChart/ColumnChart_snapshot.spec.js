@@ -11,6 +11,7 @@ describe('ColumnChart Component', () => {
       const wrapper1 = shallow(
         <ColumnChart
           title="Distribution of delivery"
+          subtitle="Total: 480 pieces"
           data={require('../fixtures/column-chart.js').default}
           caption={({ y }) => (y === 1 ? 'piece' : 'pieces')}
         />
@@ -20,6 +21,7 @@ describe('ColumnChart Component', () => {
       const wrapper2 = shallow(
         <ColumnChart
           title="Distribution of delivery"
+          subtitle="Total: 42 pieces"
           data={require('../fixtures/column-chart-one.js').default}
           caption={({ y }) => (y === 1 ? 'piece' : 'pieces')}
         />

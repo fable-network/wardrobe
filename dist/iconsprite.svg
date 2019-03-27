@@ -1,37 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <symbol preserveAspectRatio="xMidYMid" id="icon-caret-down">
     <title>caret-down</title>
-    <path d="M7 7.707L.888.185a.5.5 0 1 0-.776.63l6.5 8a.5.5 0 0 0 .776 0l6.5-8a.5.5 0 1 0-.776-.63L7 7.707z" />
+    <path d="M7 7.707L.888.185a.5.5 0 1 0-.776.63l6.5 8a.5.5 0 0 0 .776 0l6.5-8a.5.5 0 1 0-.776-.63L7 7.707z" fill="inherit" />
   </symbol>
-  <symbol preserveAspectRatio="xMidYMid" id="icon-caret-selected">
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 11 9" id="icon-caret-selected">
     <title>caret-selected</title>
     <path d="M10.112.185a.5.5 0 0 1 .776.63l-6.5 8a.5.5 0 0 1-.764.014l-3.5-4a.5.5 0 0 1 .752-.658l3.11 3.554 6.126-7.54z" fill-rule="nonzero" />
   </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 40 40" id="icon-chart">
+    <title>chart</title>
+    <g stroke="currentColor" stroke-width="1.5" fill-rule="evenodd">
+      <path d="M7.55 22.8l8.4-5.029m8.1 3.458l8.4-5.029m-7.95 4.086L17 17.143" stroke-linecap="round" />
+      <path d="M33.5 17.143c.828 0 1.5-.704 1.5-1.572 0-.867-.672-1.571-1.5-1.571s-1.5.704-1.5 1.571c0 .868.672 1.572 1.5 1.572zm-9 4.714c.828 0 1.5-.703 1.5-1.571s-.672-1.572-1.5-1.572-1.5.704-1.5 1.572c0 .868.672 1.571 1.5 1.571zm-9-1.571c.828 0 1.5-.704 1.5-1.572 0-.868-.672-1.571-1.5-1.571s-1.5.703-1.5 1.571.672 1.572 1.5 1.572zM6.5 25c.828 0 1.5-.704 1.5-1.571 0-.868-.672-1.572-1.5-1.572S5 22.561 5 23.43c0 .866.672 1.57 1.5 1.57z" fill="#F7F7F7" />
+    </g>
+  </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 35 35" id="icon-check-circle">
     <title>check-circle</title>
-    <g stroke="currentColor">
+    <g stroke="currentColor" fill="transparent">
       <circle cx="17.5" cy="17.5" r="16.5" />
       <path d="M25.696 10L13.718 26 9 21.478" />
     </g>
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 18 17" id="icon-check">
     <title>check</title>
-    <path stroke="currentColor" stroke-width="2" d="M1 7l6 8L17 1" />
+    <path fill="none" stroke="currentColor" stroke-width="2" d="M1 7l6 8L17 1" />
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 20 20" id="icon-cross">
     <title>cross</title>
-    <path d="M18.964 1.036l-17.93 17.93m17.93 0L1.034 1.036" stroke="currentColor" />
+    <path d="M18.964 1.036l-17.93 17.93m17.93 0L1.034 1.036" stroke="currentColor" fill="none" />
+  </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 40 40" id="icon-document">
+    <title>document</title>
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke="currentColor" stroke-width="1.315">
+      <path d="M8.644 33h22.712c.908 0 1.644-.736 1.644-1.644V8.644C33 7.736 32.264 7 31.356 7H8.644C7.736 7 7 7.736 7 8.644v22.712C7 32.264 7.736 33 8.644 33z" stroke-linejoin="round" />
+      <path d="M13 13.5h14m-14 4h14m-14 4h14m-14 5h8" />
+    </g>
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="178 19 77 77" id="icon-error">
     <title>error</title>
-    <g stroke="currentColor">
+    <g fill="none" stroke="currentColor">
       <path d="M216.499 94.357c-20.35.351-36.494-15.86-36.846-36.213-.355-20.346 16.496-37.14 36.846-37.492 20.349-.355 36.493 15.863 36.845 36.21.352 20.352-16.493 37.14-36.845 37.495zm-.513-31.833V39.073" />
       <path d="M218.174 74.25a1.676 1.676 0 1 1-3.352-.001 1.676 1.676 0 0 1 3.352.001z" />
     </g>
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 53 53" id="icon-search">
     <title>search</title>
-    <path d="M51.704 51.273L36.845 35.82c3.79-3.801 6.138-9.041 6.138-14.82 0-11.58-9.42-21-21-21s-21 9.42-21 21 9.42 21 21 21c5.083 0 9.748-1.817 13.384-4.832l14.895 15.491a.998.998 0 0 0 1.414.028 1 1 0 0 0 .028-1.414zM21.983 40c-10.477 0-19-8.523-19-19s8.523-19 19-19 19 8.523 19 19-8.524 19-19 19z" />
+    <path fill="#9b9b9b" d="M51.704 51.273L36.845 35.82c3.79-3.801 6.138-9.041 6.138-14.82 0-11.58-9.42-21-21-21s-21 9.42-21 21 9.42 21 21 21c5.083 0 9.748-1.817 13.384-4.832l14.895 15.491a.998.998 0 0 0 1.414.028 1 1 0 0 0 .028-1.414zM21.983 40c-10.477 0-19-8.523-19-19s8.523-19 19-19 19 8.523 19 19-8.524 19-19 19z" />
   </symbol>
   <symbol preserveAspectRatio="xMidYMid" id="icon-vertical-menu">
     <title>vertical-menu</title>
