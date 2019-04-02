@@ -14,6 +14,7 @@ export OverflowMenu from './components/OverflowMenu';
 export ProgressBar from './components/ProgressBar';
 export Ruler from './components/Ruler';
 export Searchbar from './components/Searchbar';
+export SkeletonLoading from './components/SkeletonLoading';
 export TabBar from './components/TabBar';
 export TabBarItem from './components/TabBarItem';
 export Table from './components/Table';

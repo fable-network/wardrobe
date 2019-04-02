@@ -10,5 +10,5 @@ const MyPulseDiv = styled.div`
   background-color: ${p => p.theme.primary};
   animation: ${pulseInfinite()} 2s ease-in-out infinite;
 `;
-<MyPulseDiv />
+<MyPulseDiv />;
 ```
