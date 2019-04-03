@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [3.12.0] - 2019-04-03
+
 ### Added
 
 - Add `SkeletonLoading` component.
