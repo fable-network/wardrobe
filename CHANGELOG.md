@@ -1,8 +1,10 @@
 ## [Unreleased]
 
+## [4.0.0] - 2019-04-04
+
 ### Breaking changes
 
-- Update default [colours](/#/Theme?id=colors).
+- Update default [colours](/#/Theme?id=colors). Old `grey05` is now `grey06`. A new `grey05` added.
 
 ## [3.12.0] - 2019-04-03
 
