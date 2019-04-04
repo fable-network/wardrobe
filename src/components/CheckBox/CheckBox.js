@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Icon from '../Icon';
 
 const getBackground = ({ disabled, checked, theme }) => {
-  if (disabled) return checked || checked === null ? theme.grey04 : theme.grey05;
+  if (disabled) return checked || checked === null ? theme.grey04 : theme.grey06;
   return checked || checked === null ? theme.primary : theme.white;
 };
 

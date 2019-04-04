@@ -5,10 +5,10 @@ const commonCss = (color) => css`
   position: absolute;
   height: 100%;
   top: 0;
-  background: ${color || theme.backgroundSecondary};
+  background: ${color || theme.pageBackground};
 `;
 
-const skeleton = (color = theme.backgroundSecondary) => keyframes`
+const skeleton = (color = theme.pageBackground) => keyframes`
   0% {
     ${commonCss(color)};
     width: 0%;

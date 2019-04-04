@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Breaking changes
+
+- Update default [colours](/#/Theme?id=colors).
+
 ## [3.12.0] - 2019-04-03
 
 ### Added

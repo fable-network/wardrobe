@@ -55,7 +55,7 @@ const cssLink = css`
   }
 
   [data-whatintent='keyboard'] &:focus {
-    background-color: ${p => p.theme.grey05};
+    background-color: ${p => p.theme.grey04};
     text-decoration: underline;
   }
 

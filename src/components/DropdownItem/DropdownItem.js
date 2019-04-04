@@ -72,6 +72,6 @@ export default styled(DropdownItem)`
   cursor: pointer;
   outline: 0px none;
   &:hover {
-    background-color: ${p => p.theme.grey05};
+    background-color: ${p => p.theme.grey06};
   }
 `;

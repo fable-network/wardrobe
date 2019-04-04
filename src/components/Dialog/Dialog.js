@@ -45,6 +45,7 @@ const Wrapper = styled.div`
   flex-flow: column nowrap;
   background-color: ${p => p.theme.white};
   box-shadow: ${p => p.theme.shadow};
+  border: solid 1px ${p => p.theme.grey05};
   border-radius: ${p => p.theme.borderRadius};
   width: 100%;
   max-width: 100%;

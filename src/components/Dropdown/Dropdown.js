@@ -23,6 +23,7 @@ const DropdownButton = styled.div`
   ${p => p.fluid && 'width: 100%;'};
   background-color: ${p => p.theme.white};
   border: solid 1px ${p => (p.disabled ? p.theme.grey04 : p.theme.grey03)};
+  border-radius: ${p => p.theme.borderRadius};
   font-family: inherit;
   font-size: ${p => p.theme.fontSizeBase};
   ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
@@ -85,6 +86,8 @@ const DropdownPanel = styled.div`
   min-width: 100%; /* Minimally the width of the dropdown button */
   max-height: 384px;
   padding: 0.5rem 0;
+  border: solid 1px ${p => p.theme.grey05};
+  border-radius: ${p => p.theme.borderRadius};
   box-shadow: ${p => p.theme.shadow};
   overflow: auto;
   /* If last interaction is mouse, we highlight hovered item, and if it's keyboard, we highlight focused item. */
@@ -96,7 +99,7 @@ const DropdownPanel = styled.div`
           background-color: ${p.theme.white};
         }
         &:focus {
-          background-color: ${p.theme.grey05};
+          background-color: ${p.theme.grey06};
           outline: 0px none;
         }
       }

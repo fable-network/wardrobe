@@ -21,7 +21,9 @@ const Menu = styled.div`
   margin-top: 4px;
   background: ${p => p.theme.white};
   min-width: 100px;
+  border: solid 1px ${p => p.theme.grey05};
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: ${p => p.theme.borderRadius};
   white-space: nowrap;
 `;
 

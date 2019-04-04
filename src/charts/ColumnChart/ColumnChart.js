@@ -6,10 +6,10 @@ import HighChart from '../HighChart';
 
 const highlightedCss = css`
   .highcharts-point.highcharts-color-0 {
-    fill: ${p => p.theme.grey05};
+    fill: ${p => p.theme.grey06};
 
     &.highcharts-point-hover {
-      fill: ${p => p.theme.backgroundPrimary};
+      fill: ${p => p.theme.backgroundInfo};
       fill-opacity: 1;
     }
   }
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     .highcharts-point.highcharts-color-0 {
       &,
       &.highcharts-point-hover {
-        fill: ${p => p.theme.backgroundPrimary};
+        fill: ${p => p.theme.backgroundInfo};
         fill-opacity: 1;
       }
     }

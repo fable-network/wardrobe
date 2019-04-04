@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import { colors } from '../../theme/colors';
 
 const Wrapper = styled.div`
-  margin: 0.5rem;
+  margin: 0 2rem 2rem 0;
   box-shadow: ${p => p.theme.shadow};
+  border-radius: ${p => p.theme.borderRadius};
   flex: 0 0 240px;
   width: 240px;
 `;
@@ -15,6 +16,7 @@ const StyledColor = styled.div`
   content: '';
   height: 5rem;
   background-color: ${p => p.theme[p.color]};
+  border-radius: ${p => p.theme.borderRadius} ${p => p.theme.borderRadius} 0 0;
 `;
 
 const Description = styled.div`

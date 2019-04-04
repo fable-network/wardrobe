@@ -6,11 +6,11 @@ import defaultTheme from '../../theme/default';
 
 const colors = {
   light: {
-    headerColor: defaultTheme.grey05,
+    headerColor: defaultTheme.grey06,
     rowColor: defaultTheme.white,
     textColor: defaultTheme.grey01,
-    borderColor: defaultTheme.grey03,
-    alternateRowColor: defaultTheme.backgroundSecondary,
+    borderColor: defaultTheme.grey05,
+    alternateRowColor: defaultTheme.pageBackground,
   },
   dark: {
     headerColor: defaultTheme.grey02,

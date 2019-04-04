@@ -24,7 +24,7 @@ const cssWarning = css`
 `;
 
 const cssLight = css`
-  background-color: ${p => p.theme.backgroundSecondary};
+  background-color: ${p => p.theme.grey06};
   color: ${p => p.theme.grey01};
 `;
 

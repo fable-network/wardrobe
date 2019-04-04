@@ -6,11 +6,12 @@ const StyledInput = styled.input`
   width: 100%;
   padding: 8px 10px;
   border: solid 1px ${p => (p.disabled ? p.theme.disabled : p.theme.grey03)};
+  border-radius: ${p => p.theme.borderRadius};
   outline: none;
   color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
   font-size: 16px;
   text-overflow: ellipsis;
-  cursor: ${p => (p.disabled ? 'not-allowed' : 'default')};
+  cursor: ${p => (p.disabled ? 'not-allowed' : 'text')};
 
   ::placeholder {
     color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey03)};

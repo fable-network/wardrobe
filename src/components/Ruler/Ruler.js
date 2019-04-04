@@ -14,7 +14,7 @@ const rulerVertical = css`
 
 const Ruler = styled(({ direction, ...otherProps }) => <div {...otherProps} />)`
   display: block;
-  background-color: ${p => p.theme.backgroundPrimary};
+  background-color: ${p => p.theme.backgroundInfo};
   ${p => (p.direction === 'horizontal' ? rulerHorizontal : rulerVertical)};
 `;
 

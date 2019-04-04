@@ -33,7 +33,7 @@ const TabBarItem = styled(({ ...otherProps }) => <button {...otherProps} />)`
   transform: translateY(1px);
   [data-whatintent='mouse'] &:hover,
   [data-whatintent='keyboard'] &:focus {
-    background-color: ${p => p.theme.grey05};
+    background-color: ${p => p.theme.grey06};
   }
   &:disabled {
     &,

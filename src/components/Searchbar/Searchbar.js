@@ -19,6 +19,7 @@ const Input = styled('input')`
   padding: 8px;
   ${p => `padding-${p.iconPosition}: 40px;`}
   border: solid 1px ${p => p.theme.grey03};
+  border-radius: ${p => p.theme.borderRadius};
   outline: none;
   color: inherit;
   &:focus {

@@ -6,7 +6,7 @@ import HighChart from '../HighChart';
 
 const highlightedCss = css`
   .highcharts-point.highcharts-color-0 {
-    fill: ${p => p.theme.grey05};
+    fill: ${p => p.theme.grey06};
 
     &.highcharts-point-hover {
       fill: ${p => p.theme.primaryActive};

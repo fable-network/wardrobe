@@ -11,7 +11,7 @@ const colors = {
   success: defaultTheme.success,
   danger: defaultTheme.danger,
   warning: defaultTheme.warning,
-  light: defaultTheme.grey05,
+  light: defaultTheme.grey06,
   dark: defaultTheme.grey01,
 };
 

@@ -9,7 +9,7 @@ const defaultCss = css`
   display: block;
   min-height: 1px;
   width: ${(p) => p.width || '100%'};
-  background: ${p => p.baseColor || p.theme.grey05};
+  background: ${p => p.baseColor || p.theme.grey06};
   position: relative;
   &:before {
     content: '';
@@ -73,7 +73,7 @@ SkeletonLoading.propTypes = {
 SkeletonLoading.defaultProps = {
   width: '100%',
   animating: true,
-  baseColor: theme.grey05,
+  baseColor: theme.grey06,
 };
 
 export default SkeletonLoading;

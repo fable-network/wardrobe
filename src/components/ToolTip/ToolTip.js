@@ -91,6 +91,7 @@ const ToolTipWrapper = styled('div')`
   box-sizing: border-box;
   color: ${p => (p.appearance === 'light' ? p.theme.grey01 : p.theme.white)};
   background: ${p => (p.appearance === 'light' ? p.theme.white : p.theme.grey01)};
+  border-radius: ${p => p.theme.borderRadius};
   min-width: ${p => (p.fluid ? '100%' : '280px')};
   white-space: ${p => (p.fluid ? 'nowrap' : 'initial')};
   box-shadow: 0 1px 4px 0 rgba(49, 50, 51, 0.2);

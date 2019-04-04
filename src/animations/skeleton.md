@@ -4,7 +4,7 @@ Layout loading animation.
 const styled = require('styled-components').default;
 const skeleton = require('./skeleton').default;
 const MyDemo = styled.div`
-  background: ${p => p.theme.grey05};
+  background: ${p => p.theme.grey06};
   width: 200px;
   height: 200px;
   position: relative;
