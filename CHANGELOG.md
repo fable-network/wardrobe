@@ -1,10 +1,15 @@
 ## [Unreleased]
 
+### Add
+
+- A `ruler` [colour](/#/Theme?id=colors).
+
 ## [4.0.0] - 2019-04-04
 
 ### Breaking changes
 
 - Update default [colours](/#/Theme?id=colors). Old `grey05` is now `grey06`. A new `grey05` added.
+    `backgroundPrimary` and `backgroundSecondary` are deprecated and will be removed.
 
 ## [3.12.0] - 2019-04-03
 

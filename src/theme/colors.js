@@ -1,28 +1,25 @@
 const PRIMARY = '#146292';
 
 export const colors = {
-  grey01: '#2d3b43', // '#333', // ravenBlack
-  grey02: '#556269', // '#666',
-  grey03: '#949ea3', // '#999', // stoneGrey
-  grey04: '#c1c7cb', // '#cdcdcd',
-  grey05: '#d2d9dd', // NEW
-  grey06: '#e4e8ea', // grey05: '#eee',
-  white: '#ffffff', // white
-  primary: PRIMARY, // '#5f9dc7', // skyBlue
-  primaryActive: '#034a76', // '#337aa9',
-  /** @deprecated */
-  backgroundPrimary: '#e7f1f7',
-  /** @deprecated */
-  backgroundSecondary: '#f5f7fa', // pearlWhite
-  pageBackground: '#f5f7fa', // pearlWhite
-  danger: '#e05f6e', // flameRed
+  grey01: '#2d3b43',
+  grey02: '#556269',
+  grey03: '#949ea3',
+  grey04: '#c1c7cb',
+  grey05: '#d2d9dd',
+  grey06: '#e4e8ea',
+  white: '#ffffff',
+  primary: PRIMARY,
+  primaryActive: '#034a76',
+  pageBackground: '#f5f7fa',
+  danger: '#e05f6e',
   backgroundDanger: '#f5f0f3',
-  success: '#30c0b8', // limeGreen
+  success: '#30c0b8',
   backgroundSuccess: '#ecf5f6',
-  warning: '#f5a623', // apricotOrange
+  warning: '#f5a623',
   backgroundWarning: '#f6f3ef',
   info: PRIMARY,
-  backgroundInfo: '#e7f1f7', // was called "info"
+  backgroundInfo: '#e7f1f7',
+  ruler: '#e7f1f7',
 };
 
 export const chartColors = {
