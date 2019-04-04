@@ -1,8 +1,11 @@
 ## [Unreleased]
 
+## [4.0.1] - 2019-04-04
+
 ### Add
 
 - A `ruler` [colour](/#/Theme?id=colors).
+- Clean-up `theme/colors` from old comments.
 
 ## [4.0.0] - 2019-04-04
 
