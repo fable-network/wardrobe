@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 import { theme as defaultTheme } from '../../theme';
 import HighChart from '../HighChart';
+import { tooltipCss, hideCreditsCss } from '../HighChartCss';
 
 const getColors = p => {
   const colors = p.colors || p.theme.piePalette;
@@ -20,34 +21,34 @@ const getColors = p => {
 const Wrapper = styled.div`
   .ft-wardrobe-pie-chart {
     ${getColors};
-    .highcharts-credits {
-      display: none;
-    }
+    
+    ${tooltipCss}
+    ${hideCreditsCss}
   }
 `;
 
 class PieChart extends React.PureComponent {
-  renderTooltip = data => {
-    const { tooltip } = this.props;
-    if (typeof tooltip === 'function') {
-      return tooltip(data);
-    }
-    return false;
-  };
-
   render() {
-    const { data, colors, title, allowUpdate, theme = defaultTheme } = this.props;
+    const {
+      data,
+      colors,
+      title,
+      tooltip,
+      allowUpdate,
+      theme = defaultTheme,
+      height = null,
+    } = this.props;
     if (!data) return null;
 
-    const { renderTooltip } = this;
     const options = {
-      title: {
-        text: title && title,
+      title: title && {
+        text: title,
       },
       chart: {
         type: 'pie',
         backgroundColor: theme.white,
         styledMode: true,
+        height,
       },
       plotOptions: {
         pie: {
@@ -58,9 +59,22 @@ class PieChart extends React.PureComponent {
           },
         },
       },
+
       tooltip: {
+        enabled: true,
+        outside: false, // Don't change unless you want to re-do the whole tooltip styling
+        useHTML: true,
+        shadow: true,
+        backgroundColor: theme.white,
+        borderColor: theme.grey04,
+        borderRadius: 0,
+        padding: 8,
         formatter: function formatter() {
-          return renderTooltip(this);
+          const body = tooltip({ ...this });
+          return `<span class="ft-tooltip">
+            <span class="ft-tooltip-header">${this.key}</span>
+            <span class="ft-tooltip-body">${body}</span>
+          </span>`;
         },
       },
       legend: {
@@ -85,6 +99,7 @@ class PieChart extends React.PureComponent {
 }
 
 PieChart.defaultProps = {
+  tooltip: ({ y }) => y,
   allowUpdate: false,
 };
 
@@ -98,6 +113,7 @@ PieChart.propTypes = {
   ).isRequired,
   tooltip: PropTypes.func, // optional
   colors: PropTypes.arrayOf(PropTypes.string), // optional (default is theme.defaultPalette)
+  height: PropTypes.number,
   /**
    * Allows HighCharts chart update. Use it if you plan to provide new data.
    */

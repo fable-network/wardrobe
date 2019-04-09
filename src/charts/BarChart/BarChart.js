@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { css, withTheme } from 'styled-components';
 import { theme as defaultTheme } from '../../theme';
 import HighChart from '../HighChart';
+import { tooltipCss, hideCreditsCss } from '../HighChartCss';
 
 const highlightedCss = css`
   .highcharts-point.highcharts-color-0 {
@@ -65,43 +66,8 @@ const Wrapper = styled.div`
       }
     }
 
-    .highcharts-tooltip {
-      stroke: ${p => p.theme.grey04};
-
-      .highcharts-tooltip-box {
-        fill: ${p => p.theme.white};
-        fill-opacity: 1;
-      }
-
-      .ft-tooltip {
-        /* This is a hack to avoid labels showing *through* tooltips */
-        display: block;
-        position: relative;
-        padding: 16px;
-        top: -7px;
-        left: -7px;
-        margin-bottom: -17px;
-        margin-right: -17px;
-        background-color: ${p => p.theme.white};
-
-        .ft-tooltip-header {
-          display: block;
-          font-size: ${p => p.theme.fontSizeSmall};
-          line-height: ${p => p.theme.lineHeightSmall};
-          font-weight: 500;
-        }
-
-        .ft-tooltip-body {
-          font-size: ${p => p.theme.fontSizeSmall};
-          line-height: ${p => p.theme.lineHeightSmall};
-          font-weight: 400;
-        }
-      }
-    }
-
-    .highcharts-credits {
-      display: none;
-    }
+    ${tooltipCss}
+    ${hideCreditsCss}
   }
 `;
 
@@ -138,7 +104,15 @@ class BarChart extends React.PureComponent {
 
   render() {
     const { renderLabel, renderValue, handleMouseOver, handleMouseOut } = this;
-    const { data, title, tooltip, orientation, allowUpdate, theme = defaultTheme } = this.props;
+    const {
+      data,
+      title,
+      tooltip,
+      orientation,
+      allowUpdate,
+      theme = defaultTheme,
+      height = null,
+    } = this.props;
     if (!data) {
       return null;
     }
@@ -154,6 +128,7 @@ class BarChart extends React.PureComponent {
         backgroundColor: theme.white,
         styledMode: true,
         groupPadding: 0,
+        height,
       },
       plotOptions: {
         series: {
@@ -233,7 +208,6 @@ class BarChart extends React.PureComponent {
 }
 
 BarChart.defaultProps = {
-  title: false,
   orientation: 'horizontal',
   tooltip: ({ y }) => y,
   allowUpdate: false,
@@ -249,6 +223,7 @@ BarChart.propTypes = {
     })
   ).isRequired,
   tooltip: PropTypes.func,
+  height: PropTypes.number,
   /**
    * Allows HighCharts chart update. Use it if you plan to provide new data.
    */

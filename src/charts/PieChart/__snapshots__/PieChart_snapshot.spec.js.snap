@@ -44,7 +44,6 @@ ShallowWrapper {
       ]
     }
     title="Distribution of themes"
-    tooltip={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -268,6 +267,7 @@ ShallowWrapper {
       ],
       "theme": undefined,
       "title": "Distribution of themes",
+      "tooltip": [Function],
     },
     "ref": null,
     "rendered": null,
@@ -316,6 +316,7 @@ ShallowWrapper {
         ],
         "theme": undefined,
         "title": "Distribution of themes",
+        "tooltip": [Function],
       },
       "ref": null,
       "rendered": null,
@@ -358,7 +359,6 @@ ShallowWrapper {
         },
       ]
     }
-    tooltip={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

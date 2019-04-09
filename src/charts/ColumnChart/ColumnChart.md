@@ -9,7 +9,7 @@ A column chart for a few data points. Example usage: delivery window distributio
 />
 ```
 
-With one data point:
+With one data point and height 300px:
 
 ```jsx
 <ColumnChart
@@ -17,6 +17,7 @@ With one data point:
   subtitle="Total: 42 pieces"
   data={require('../fixtures/column-chart-one.js').default}
   caption={({ y }) => (y === 1 ? 'piece' : 'pieces')}
+  height={300}
 />
 ```
 

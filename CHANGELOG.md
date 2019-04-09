@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+## [4.0.2] - 2019-04-09
+
+### Added
+
+- Add optional 'height' prop to [Charts](/#/Charts).
+- Fix title and subtitle props type validation errors in [Charts](/#/Charts).
+- Unify appearance of tooltip in [PieChart](/#/Charts?id=piechart)
+
 ## [4.0.1] - 2019-04-04
 
 ### Add
