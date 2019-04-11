@@ -44,7 +44,7 @@ const Row = styled('div')`
 const Header = Row.extend`
   ${p => (p.background ? `background: ${p.background}` : '')};
   ${Cell} {
-    font-weight: 600;
+    font-weight: ${p => p.theme.fontWeightBold};
     font-size: 100%;
   }
 `;

@@ -66,8 +66,7 @@ const Wrapper = styled.div`
       }
     }
 
-    ${tooltipCss}
-    ${hideCreditsCss}
+    ${tooltipCss} ${hideCreditsCss};
   }
 `;
 
@@ -99,6 +98,7 @@ class BarChart extends React.PureComponent {
 
   renderValue = (value, total) => {
     const percent = ((100 * value) / total).toFixed(0);
+    if (percent > 100) return '100%';
     return `${percent}%`;
   };
 
