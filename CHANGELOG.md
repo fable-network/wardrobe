@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [4.0.3] - 2019-04-11
+
+### Changed
+
+- Add max value of 100% to Bar chart
+- Update table header font weight to 500
+
 ## [4.0.2] - 2019-04-09
 
 ### Added
@@ -20,7 +27,7 @@
 ### Breaking changes
 
 - Update default [colours](/#/Theme?id=colors). Old `grey05` is now `grey06`. A new `grey05` added.
-    `backgroundPrimary` and `backgroundSecondary` are deprecated and will be removed.
+  `backgroundPrimary` and `backgroundSecondary` are deprecated and will be removed.
 
 ## [3.12.0] - 2019-04-03
 
