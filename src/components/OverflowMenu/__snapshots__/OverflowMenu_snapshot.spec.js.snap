@@ -27,7 +27,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem
           onClick={[Function]}
@@ -82,7 +82,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem
             onClick={[Function]}
@@ -179,7 +179,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem
           onClick={[Function]}
@@ -234,7 +234,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem
             onClick={[Function]}
@@ -331,7 +331,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem
           onClick={[Function]}
@@ -386,7 +386,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem
             onClick={[Function]}
@@ -476,7 +476,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": <p>
         Some sample text
       </p>,
@@ -507,7 +507,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": <p>
           Some sample text
         </p>,
@@ -576,7 +576,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem>
           Edit
@@ -625,7 +625,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem>
             Edit
@@ -984,7 +984,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem>
           Action 1
@@ -1034,7 +1034,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem>
             Action 1
@@ -1123,7 +1123,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "activeColor": "blue",
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownItem>
           Action 1
@@ -1173,7 +1173,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "activeColor": "blue",
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownItem>
             Action 1
@@ -1263,7 +1263,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "dark",
+      "appearance": "secondary",
       "children": Array [
         <DropdownTitle>
           You can't close me
@@ -1327,7 +1327,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "dark",
+        "appearance": "secondary",
         "children": Array [
           <DropdownTitle>
             You can't close me

@@ -42,7 +42,8 @@ const media = {
   }),
   // Exact rules
   ...populate(['mobile', 'tablet', 'desktop', 'wide'], label =>
-    createMediaRule({ sizeMin: sizesMin[label], sizeMax: sizesMax[label] })),
+    createMediaRule({ sizeMin: sizesMin[label], sizeMax: sizesMax[label] })
+  ),
   // Between rule
   tablet_desktop: createMediaRule({ sizeMin: sizesMin.tablet, sizeMax: sizesMax.desktop }),
 };

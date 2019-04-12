@@ -25,7 +25,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "primary",
       "children": "Push Me",
-      "className": "Button-hYXUXp cpldwo",
+      "className": "Button-hYXUXp fzSAgN",
       "disabled": false,
       "renderAs": "button",
       "size": "normal",
@@ -42,7 +42,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "primary",
         "children": "Push Me",
-        "className": "Button-hYXUXp cpldwo",
+        "className": "Button-hYXUXp fzSAgN",
         "disabled": false,
         "renderAs": "button",
         "size": "normal",
@@ -75,11 +75,11 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="primary"
-    disabled={true}
+    disabled={false}
     renderAs="button"
-    size="normal"
+    size="large"
   >
-    Don't Push Me
+    Push Me
   </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -94,14 +94,14 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "appearance": "primary",
-      "children": "Don't Push Me",
-      "className": "Button-hYXUXp cpldwo",
-      "disabled": true,
+      "children": "Push Me",
+      "className": "Button-hYXUXp dWPhUy",
+      "disabled": false,
       "renderAs": "button",
-      "size": "normal",
+      "size": "large",
     },
     "ref": null,
-    "rendered": "Don't Push Me",
+    "rendered": "Push Me",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -111,14 +111,14 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "appearance": "primary",
-        "children": "Don't Push Me",
-        "className": "Button-hYXUXp cpldwo",
-        "disabled": true,
+        "children": "Push Me",
+        "className": "Button-hYXUXp dWPhUy",
+        "disabled": false,
         "renderAs": "button",
-        "size": "normal",
+        "size": "large",
       },
       "ref": null,
-      "rendered": "Don't Push Me",
+      "rendered": "Push Me",
       "type": [Function],
     },
   ],
@@ -144,12 +144,12 @@ exports[`Button Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    appearance="secondary"
-    disabled={false}
+    appearance="primary"
+    disabled={true}
     renderAs="button"
     size="normal"
   >
-    Push Me
+    Don't Push Me
   </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -163,15 +163,15 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": "Push Me",
-      "className": "Button-hYXUXp lbeNBp",
-      "disabled": false,
+      "appearance": "primary",
+      "children": "Don't Push Me",
+      "className": "Button-hYXUXp fzSAgN",
+      "disabled": true,
       "renderAs": "button",
       "size": "normal",
     },
     "ref": null,
-    "rendered": "Push Me",
+    "rendered": "Don't Push Me",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -180,15 +180,15 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": "Push Me",
-        "className": "Button-hYXUXp lbeNBp",
-        "disabled": false,
+        "appearance": "primary",
+        "children": "Don't Push Me",
+        "className": "Button-hYXUXp fzSAgN",
+        "disabled": true,
         "renderAs": "button",
         "size": "normal",
       },
       "ref": null,
-      "rendered": "Push Me",
+      "rendered": "Don't Push Me",
       "type": [Function],
     },
   ],
@@ -215,6 +215,76 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
     appearance="secondary"
+    disabled={false}
+    renderAs="button"
+    size="normal"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "appearance": "secondary",
+      "children": "Push Me",
+      "className": "Button-hYXUXp hgwSQR",
+      "disabled": false,
+      "renderAs": "button",
+      "size": "normal",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "appearance": "secondary",
+        "children": "Push Me",
+        "className": "Button-hYXUXp hgwSQR",
+        "disabled": false,
+        "renderAs": "button",
+        "size": "normal",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 5`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="secondary"
     disabled={true}
     renderAs="button"
     size="normal"
@@ -235,7 +305,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "secondary",
       "children": "Don't Push Me",
-      "className": "Button-hYXUXp lbeNBp",
+      "className": "Button-hYXUXp hgwSQR",
       "disabled": true,
       "renderAs": "button",
       "size": "normal",
@@ -252,7 +322,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "secondary",
         "children": "Don't Push Me",
-        "className": "Button-hYXUXp lbeNBp",
+        "className": "Button-hYXUXp hgwSQR",
         "disabled": true,
         "renderAs": "button",
         "size": "normal",
@@ -280,86 +350,16 @@ ShallowWrapper {
 }
 `;
 
-exports[`Button Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Button
-    appearance="secondary"
-    disabled={false}
-    renderAs="button"
-    size="small"
-  >
-    Push Me
-  </Button>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "secondary",
-      "children": "Push Me",
-      "className": "Button-hYXUXp iQJlOY",
-      "disabled": false,
-      "renderAs": "button",
-      "size": "small",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "secondary",
-        "children": "Push Me",
-        "className": "Button-hYXUXp iQJlOY",
-        "disabled": false,
-        "renderAs": "button",
-        "size": "small",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
-`;
-
 exports[`Button Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    appearance="link"
+    appearance="danger"
     disabled={false}
     renderAs="button"
     size="normal"
   >
-    Push Me
+    Dangerous action
   </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -373,15 +373,15 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "link",
-      "children": "Push Me",
-      "className": "Button-hYXUXp bjrylD",
+      "appearance": "danger",
+      "children": "Dangerous action",
+      "className": "Button-hYXUXp csvHuG",
       "disabled": false,
       "renderAs": "button",
       "size": "normal",
     },
     "ref": null,
-    "rendered": "Push Me",
+    "rendered": "Dangerous action",
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -390,15 +390,15 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "link",
-        "children": "Push Me",
-        "className": "Button-hYXUXp bjrylD",
+        "appearance": "danger",
+        "children": "Dangerous action",
+        "className": "Button-hYXUXp csvHuG",
         "disabled": false,
         "renderAs": "button",
         "size": "normal",
       },
       "ref": null,
-      "rendered": "Push Me",
+      "rendered": "Dangerous action",
       "type": [Function],
     },
   ],
@@ -424,10 +424,10 @@ exports[`Button Component snapshots should match snapshot 7`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    appearance="link"
+    appearance="success"
     disabled={false}
     renderAs="button"
-    size="small"
+    size="normal"
   >
     Push Me
   </Button>,
@@ -443,12 +443,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "link",
+      "appearance": "success",
       "children": "Push Me",
-      "className": "Button-hYXUXp kJcYjO",
+      "className": "Button-hYXUXp fBofzX",
       "disabled": false,
       "renderAs": "button",
-      "size": "small",
+      "size": "normal",
     },
     "ref": null,
     "rendered": "Push Me",
@@ -460,12 +460,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "link",
+        "appearance": "success",
         "children": "Push Me",
-        "className": "Button-hYXUXp kJcYjO",
+        "className": "Button-hYXUXp fBofzX",
         "disabled": false,
         "renderAs": "button",
-        "size": "small",
+        "size": "normal",
       },
       "ref": null,
       "rendered": "Push Me",
@@ -494,6 +494,146 @@ exports[`Button Component snapshots should match snapshot 8`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
+    appearance="warning"
+    disabled={false}
+    renderAs="button"
+    size="normal"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "appearance": "warning",
+      "children": "Push Me",
+      "className": "Button-hYXUXp MvvlT",
+      "disabled": false,
+      "renderAs": "button",
+      "size": "normal",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "appearance": "warning",
+        "children": "Push Me",
+        "className": "Button-hYXUXp MvvlT",
+        "disabled": false,
+        "renderAs": "button",
+        "size": "normal",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 9`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    appearance="link"
+    disabled={false}
+    renderAs="button"
+    size="normal"
+  >
+    Push Me
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "appearance": "link",
+      "children": "Push Me",
+      "className": "Button-hYXUXp dSZpHp",
+      "disabled": false,
+      "renderAs": "button",
+      "size": "normal",
+    },
+    "ref": null,
+    "rendered": "Push Me",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "appearance": "link",
+        "children": "Push Me",
+        "className": "Button-hYXUXp dSZpHp",
+        "disabled": false,
+        "renderAs": "button",
+        "size": "normal",
+      },
+      "ref": null,
+      "rendered": "Push Me",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Button Component snapshots should match snapshot 10`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
     appearance="link"
     disabled={true}
     renderAs="button"
@@ -515,7 +655,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "link",
       "children": "Don't Push Me",
-      "className": "Button-hYXUXp bjrylD",
+      "className": "Button-hYXUXp dSZpHp",
       "disabled": true,
       "renderAs": "button",
       "size": "normal",
@@ -532,7 +672,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "link",
         "children": "Don't Push Me",
-        "className": "Button-hYXUXp bjrylD",
+        "className": "Button-hYXUXp dSZpHp",
         "disabled": true,
         "renderAs": "button",
         "size": "normal",
@@ -560,7 +700,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`Button Component snapshots should match snapshot 9`] = `
+exports[`Button Component snapshots should match snapshot 11`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
@@ -585,7 +725,7 @@ ShallowWrapper {
     "props": Object {
       "appearance": "primary",
       "children": "I'm not a button",
-      "className": "Button-hYXUXp cpldwo",
+      "className": "Button-hYXUXp fzSAgN",
       "disabled": false,
       "renderAs": "span",
       "size": "normal",
@@ -602,7 +742,7 @@ ShallowWrapper {
       "props": Object {
         "appearance": "primary",
         "children": "I'm not a button",
-        "className": "Button-hYXUXp cpldwo",
+        "className": "Button-hYXUXp fzSAgN",
         "disabled": false,
         "renderAs": "span",
         "size": "normal",

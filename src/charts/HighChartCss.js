@@ -1,4 +1,4 @@
-export const tooltipCss = (p) => `
+export const tooltipCss = p => `
   .highcharts-tooltip {
     stroke: ${p.theme.grey04};
   

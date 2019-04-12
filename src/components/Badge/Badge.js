@@ -3,33 +3,64 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { pulseInfinite } from '../../animations';
 
+const getBorderRadius = ({ size, radius, theme }) => {
+  switch (radius) {
+    case 'none':
+      return '0';
+    case 'small':
+      return theme.borderRadiusSmall;
+    case 'large':
+    default:
+      return size === 'large' ? '1.75em' : '1em';
+  }
+};
+
 const cssPrimary = css`
-  background-color: ${p => p.theme.primary};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.primary)};
+  color: ${p => (p.inverse ? p.theme.primary : p.theme.white)};
+  border-color: ${p => p.theme.primary};
 `;
 
 const cssSecondary = css`
-  background-color: ${p => p.theme.grey03};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.grey03)};
+  color: ${p => (p.inverse ? p.theme.grey03 : p.theme.white)};
+  border-color: ${p => p.theme.grey03};
 `;
 
 const cssSuccess = css`
-  background-color: ${p => p.theme.success};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.success)};
+  color: ${p => (p.inverse ? p.theme.success : p.theme.white)};
+  border-color: ${p => p.theme.success};
 `;
 
 const cssDanger = css`
-  background-color: ${p => p.theme.danger};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.danger)};
+  color: ${p => (p.inverse ? p.theme.danger : p.theme.white)};
+  border-color: ${p => p.theme.danger};
 `;
 
 const cssWarning = css`
-  background-color: ${p => p.theme.warning};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.warning)};
+  color: ${p => (p.inverse ? p.theme.warning : p.theme.white)};
+  border-color: ${p => p.theme.warning};
+`;
+
+const cssInfo = css`
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.info)};
+  color: ${p => (p.inverse ? p.theme.info : p.theme.white)};
+  border-color: ${p => p.theme.info};
 `;
 
 const cssLight = css`
-  background-color: ${p => p.theme.grey06};
-  color: ${p => p.theme.grey01};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.grey03)};
+  color: ${p => (p.inverse ? p.theme.grey03 : p.theme.grey01)};
+  border-color: ${p => p.theme.grey03};
 `;
 
 const cssDark = css`
-  background-color: ${p => p.theme.grey01};
+  background-color: ${p => (p.inverse ? p.theme.white : p.theme.grey01)};
+  color: ${p => (p.inverse ? p.theme.grey01 : p.theme.white)};
+  border-color: ${p => p.theme.grey01};
 `;
 
 const cssAnimated = css`
@@ -38,25 +69,33 @@ const cssAnimated = css`
 
 const BadgeWrapper = styled('span')`
   display: inline-block;
-  padding: 0.2em 0.8em;
-  font-size: 80%;
-  border-radius: 1em;
+  padding: ${p => (p.size === 'large' ? 'calc(0.5em - 1px) 1.5rem' : '1px 0.75em')};
+  font-size: ${p => (p.size === 'large' ? p.theme.fontSizeBase : p.theme.fontSizeSmall)};
+  line-height: ${p => (p.size === 'large' ? p.theme.lineHeightBase : p.theme.lineHeightSmall)};
+  border-radius: ${getBorderRadius};
   text-align: center;
   color: ${p => p.theme.white};
   background-color: ${p => p.theme.primary};
-  line-height: 1;
+  border: solid 1px;
   ${p => p.appearance === 'primary' && cssPrimary};
   ${p => p.appearance === 'secondary' && cssSecondary};
   ${p => p.appearance === 'success' && cssSuccess};
   ${p => p.appearance === 'danger' && cssDanger};
   ${p => p.appearance === 'warning' && cssWarning};
+  ${p => p.appearance === 'info' && cssInfo};
   ${p => p.appearance === 'light' && cssLight};
   ${p => p.appearance === 'dark' && cssDark};
   ${p => p.animated && cssAnimated};
 `;
 
-const Badge = ({ appearance, children, animated }) => (
-  <BadgeWrapper appearance={appearance} animated={animated}>
+const Badge = ({ appearance, children, animated, radius, size, inverse }) => (
+  <BadgeWrapper
+    appearance={appearance}
+    animated={animated}
+    radius={radius}
+    size={size}
+    inverse={inverse}
+  >
     {children}
   </BadgeWrapper>
 );
@@ -64,7 +103,10 @@ const Badge = ({ appearance, children, animated }) => (
 Badge.defaultProps = {
   appearance: 'primary',
   children: null,
-  animated: false
+  animated: false,
+  radius: 'large',
+  size: 'small',
+  inverse: false,
 };
 
 Badge.propTypes = {
@@ -74,11 +116,15 @@ Badge.propTypes = {
     'success',
     'danger',
     'warning',
+    'info',
     'light',
-    'dark'
+    'dark',
   ]),
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  animated: PropTypes.bool
+  animated: PropTypes.bool,
+  radius: PropTypes.oneOf(['large', 'small', 'none']),
+  size: PropTypes.oneOf(['large', 'small']),
+  inverse: PropTypes.bool,
 };
 
 export default Badge;

@@ -8,9 +8,7 @@ const Wrapper = styled.div`
 `;
 
 const DropdownTitle = ({ children, ...otherProps }) => (
-  <Wrapper {...otherProps}>
-    {children}
-  </Wrapper>
+  <Wrapper {...otherProps}>{children}</Wrapper>
 );
 
 DropdownTitle.propTypes = {

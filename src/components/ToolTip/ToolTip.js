@@ -6,9 +6,9 @@ import { fadeIn } from '../../animations';
 
 const toolTipArrowBorder = css`
   ${p =>
-    (p.appearance === 'light'
+    p.appearance === 'light'
       ? 'solid 8px rgba(127, 127, 127, 0.2)'
-      : `solid 8px ${p.theme.grey01}`)};
+      : `solid 8px ${p.theme.grey01}`};
 `;
 
 const toolTipArrowBackground = css`
@@ -98,6 +98,8 @@ const ToolTipWrapper = styled('div')`
   padding: 16px;
   z-index: ${p => p.theme.layerDropdown};
   animation: ${fadeIn()} 0.3s ease;
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightSmall};
 
   &:before {
     box-sizing: border-box;

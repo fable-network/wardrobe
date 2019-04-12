@@ -8,12 +8,12 @@ import { skeleton, fadeIn } from '../../animations';
 const defaultCss = css`
   display: block;
   min-height: 1px;
-  width: ${(p) => p.width || '100%'};
+  width: ${p => p.width || '100%'};
   background: ${p => p.baseColor || p.theme.grey06};
   position: relative;
   &:before {
     content: '';
-    ${(p) => (p.animating && `animation: ${skeleton(p.color)} 2.5s ease-in-out infinite;`)}
+    ${p => p.animating && `animation: ${skeleton(p.color)} 2.5s ease-in-out infinite;`};
   }
 `;
 
@@ -22,7 +22,7 @@ const textCss = css`
 `;
 
 const squareCss = css`
-  padding-top: ${(p) => p.width || '100%'};
+  padding-top: ${p => p.width || '100%'};
 `;
 
 const headerCss = css`
@@ -37,11 +37,10 @@ const circleCss = css`
 
 const Wrapper = styled.div`
   ${defaultCss};
-  ${(p) => p.height && `height: ${p.height};`}
-  ${(p) => p.shape === 'text' && textCss};
-  ${(p) => p.shape === 'square' && squareCss};
-  ${(p) => p.shape === 'header' && headerCss};
-  ${(p) => p.shape === 'circle' && circleCss};
+  ${p => p.height && `height: ${p.height};`} ${p => p.shape === 'text' && textCss};
+  ${p => p.shape === 'square' && squareCss};
+  ${p => p.shape === 'header' && headerCss};
+  ${p => p.shape === 'circle' && circleCss};
   animation: ${fadeIn} 500ms ease;
 `;
 
@@ -58,7 +57,7 @@ const SkeletonLoading = ({ width, animating, shape, color, height, baseColor }) 
 
 SkeletonLoading.propTypes = {
   /** Used to set the width of the skeleton block; preferably this should be left at 100% and
-  the width set by the parent */
+   the width set by the parent */
   width: PropTypes.string,
   /** Use the height prop to define custom height that is not provided by one of the shapes */
   height: PropTypes.string,

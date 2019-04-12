@@ -17,9 +17,9 @@
     "yarn": "^1.6.0"
   },
   "pre-commit": [
+    "lint-staged",
     "lint",
     "test",
-    "lint-staged",
     "add-dist"
   ],
   "scripts": {
@@ -59,6 +59,7 @@
     "styled-components": "^3.3.3"
   },
   "devDependencies": {
+    "@fashiontrade/eslint-config-ft-react-app": "0.5.0",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "23.4.2",
@@ -77,10 +78,13 @@
     "enzyme-adapter-react-16": "1.2.0",
     "eslint": "5.3.0",
     "eslint-config-airbnb": "17.0.0",
+    "eslint-config-prettier": "4.1.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "21.18.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-mocha": "5.3.0",
     "eslint-plugin-mocha-no-only": "1.0.0",
+    "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "7.10.0",
     "grunt": "1.0.3",
     "grunt-cli": "1.2.0",

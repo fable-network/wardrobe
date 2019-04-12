@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 
 import searchIcon from './searchIcon'; // TODO find a way to use Icon component correctly
+import BaseInput from '../Input';
 import LoadingSpinner from '../LoadingSpinner';
 
 const Wrapper = styled('div')`
@@ -14,21 +15,9 @@ const Wrapper = styled('div')`
   color: inherit;
 `;
 
-const Input = styled('input')`
+const Input = styled(BaseInput)`
   width: 100%;
-  padding: 8px;
-  ${p => `padding-${p.iconPosition}: 40px;`}
-  border: solid 1px ${p => p.theme.grey03};
-  border-radius: ${p => p.theme.borderRadius};
-  outline: none;
-  color: inherit;
-  &:focus {
-    transition: .2s linear;
-    border-color: ${p => p.theme.primary};;
-    box-shadow: 0 0 3px ${p => p.theme.primary};
-  }
-  font-size: 100%;
-  text-overflow: ellipsis;
+  ${p => `padding-${p.iconPosition}: 40px;`};
 `;
 
 const IconWrapper = styled('div')`

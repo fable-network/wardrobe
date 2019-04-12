@@ -14,14 +14,32 @@ describe('Badge Component', () => {
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Badge appearance="danger">9</Badge>
+        <Badge appearance="danger" size="large">
+          9
+        </Badge>
       );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Badge appearance="success" animated>9</Badge>
+        <Badge appearance="success" animated>
+          9
+        </Badge>
       );
       expect(wrapper3).toMatchSnapshot();
+
+      const wrapper4 = shallow(
+        <Badge appearance="info" radius="none" size="large">
+          Pre-pack
+        </Badge>
+      );
+      expect(wrapper4).toMatchSnapshot();
+
+      const wrapper5 = shallow(
+        <Badge appearance="warning" radius="small" inverse>
+          Acknowledged
+        </Badge>
+      );
+      expect(wrapper5).toMatchSnapshot();
 
     });
   });

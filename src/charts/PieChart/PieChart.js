@@ -21,9 +21,8 @@ const getColors = p => {
 const Wrapper = styled.div`
   .ft-wardrobe-pie-chart {
     ${getColors};
-    
-    ${tooltipCss}
-    ${hideCreditsCss}
+
+    ${tooltipCss} ${hideCreditsCss};
   }
 `;
 

@@ -6,6 +6,4 @@ export const data = [
   },
 ];
 
-export const colors = [
-  '#6F94AE',
-];
+export const colors = ['#6F94AE'];

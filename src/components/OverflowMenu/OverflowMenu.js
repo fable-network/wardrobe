@@ -3,17 +3,33 @@ import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 
 import noop from '../../helpers/noop';
+import Icon from '../Icon';
 import ToggleMenu from '../ToggleMenu';
 import DropdownItem from '../DropdownItem';
 import DropdownTitle from '../DropdownTitle';
 
 const Trigger = styled.div`
   display: flex;
-  padding: 8px;
+  padding: calc(0.25rem - 1px);
   text-align: center;
   cursor: pointer;
-  transition: 0.2s linear;
-  border: solid 1px ${p => (p.active ? p.color : 'transparent')};
+  transition: border-color 0.1s linear, color 0.1s linear;
+  color: ${p => p.color};
+  border: solid 1px ${p => p.color};
+  box-sizing: border-box;
+  border-radius: ${p => p.theme.borderRadius};
+  ${p => p.active && `box-shadow: 0 0 2px currentColor inset;`};
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  [data-whatintent='keyboard'] &:focus {
+    outline: none;
+    border-color: ${p => p.activeColor};
+    color: ${p => p.activeColor};
+  }
 `;
 
 const Menu = styled.div`
@@ -39,16 +55,16 @@ class OverflowMenu extends Component {
     const { size } = this.props;
     const sizes = {
       small: {
-        width: '5px',
-        height: '21px',
+        width: '1.5rem',
+        height: '1.5rem',
       },
       medium: {
-        width: '7px',
-        height: '29px',
+        width: '2rem',
+        height: '2rem',
       },
       large: {
-        width: '10px',
-        height: '40px',
+        width: '2.5rem',
+        height: '2.5rem',
       },
     };
 
@@ -59,9 +75,24 @@ class OverflowMenu extends Component {
     const { appearance, theme } = this.props;
     const colors = {
       primary: theme.primary,
-      secondary: theme.grey03,
+      secondary: theme.grey05,
       success: theme.success,
       warning: theme.warning,
+      danger: theme.danger,
+      light: theme.grey06,
+      dark: theme.grey01,
+    };
+    return colors[appearance];
+  };
+
+  getActiveColor = () => {
+    const { appearance, theme } = this.props;
+    const colors = {
+      primary: theme.primaryActive,
+      secondary: theme.primary,
+      success: theme.success,
+      warning: theme.warning,
+      danger: theme.danger,
       light: theme.grey06,
       dark: theme.grey01,
     };
@@ -88,18 +119,20 @@ class OverflowMenu extends Component {
     const { menuOpen } = this.state;
     const { color: propsColor, activeColor, ...otherProps } = this.props;
     const defaultColor = propsColor || this.getColorFromAppearance();
-    const color = (menuOpen && activeColor) || defaultColor;
+    const color = menuOpen ? activeColor || this.getActiveColor() : defaultColor;
     const size = this.getWidthAndHeightFromSize();
 
     return (
-      <Trigger {...otherProps} color={color} active={menuOpen} onClick={toggle}>
-        <svg width={size.width} height={size.height} viewBox="0 0 5 21">
-          <g fillRule="evenodd" fill={color}>
-            <circle cx="2.5" cy="18.5" r="2.5" />
-            <circle cx="2.5" cy="10.5" r="2.5" />
-            <circle cx="2.5" cy="2.5" r="2.5" />
-          </g>
-        </svg>
+      <Trigger
+        tabIndex={0}
+        {...otherProps}
+        color={color}
+        onClick={toggle}
+        active={menuOpen}
+        activeColor={activeColor || this.getActiveColor()}
+        role="button"
+      >
+        <Icon name="vertical-menu" width={size.width} height={size.height} />
       </Trigger>
     );
   };
@@ -124,7 +157,7 @@ class OverflowMenu extends Component {
 }
 
 OverflowMenu.defaultProps = {
-  appearance: 'dark',
+  appearance: 'secondary',
   position: 'right',
   onOpen: noop,
   onClose: noop,

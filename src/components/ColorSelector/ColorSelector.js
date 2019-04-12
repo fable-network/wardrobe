@@ -5,12 +5,12 @@ import styled, { css } from 'styled-components';
 const Wrapper = styled('span')`
   display: inline-flex;
   align-items: center;
-  cursor: ${(p) => (p.onClick ? 'pointer' : 'initial')};
+  cursor: ${p => (p.onClick ? 'pointer' : 'initial')};
 `;
 
 const fixedSizeCss = css`
-  width: ${(p) => p.fixedSize};
-  height: ${(p) => p.fixedSize};
+  width: ${p => p.fixedSize};
+  height: ${p => p.fixedSize};
 `;
 
 const missingColorCss = css`
@@ -18,7 +18,7 @@ const missingColorCss = css`
 
   &::after {
     position: absolute;
-    content: "?";
+    content: '?';
     text-align: center;
     top: 50%;
     left: 50%;
@@ -32,10 +32,10 @@ const selectedCss = css`
 `;
 
 const ColorCircle = styled('span')`
-  background-color: ${(p) => p.theme.white};
+  background-color: ${p => p.theme.white};
   border-radius: 100%;
   box-shadow: 0px 0px 0px 1px #cecece;
-  border: 2px solid ${(p) => p.theme.white};
+  border: 2px solid ${p => p.theme.white};
   transform: scale(.8);
   display: inline-block;
   vertical-align: middle;
@@ -48,19 +48,18 @@ const ColorCircle = styled('span')`
     transform: scale(.9);
   }
 
-  ${(p) => (p.fixedSize ? fixedSizeCss : 'padding: .75em;')}
-  ${(p) => (p.isMissingColor ? missingColorCss : null)}
-  ${(p) => (p.disableInteraction || p.selected ? selectedCss : null)}
-  ${(p) => (
+  ${p => (p.fixedSize ? fixedSizeCss : 'padding: .75em;')}
+  ${p => (p.isMissingColor ? missingColorCss : null)}
+  ${p => (p.disableInteraction || p.selected ? selectedCss : null)}
+  ${p =>
     p.patternImage
       ? `background-image: url(${p.patternImage})`
-      : `background: ${p.color || p.theme.white}`
-  )}
+      : `background: ${p.color || p.theme.white}`}
 `;
 
 const Text = styled('span')`
   margin-left: 8px;
-  font-weight: ${(p) => (p.selected ? '500' : '400')};
+  font-weight: ${p => (p.selected ? '500' : '400')};
 `;
 
 const ColorSelector = props => {

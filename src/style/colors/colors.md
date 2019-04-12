@@ -88,17 +88,19 @@ const Row = styled.div`
     </Colors>
     <Colors name="grey03">
       <ul>
+        <li>disabled control text color,</li>
         <li>input field placeholder text,</li>
         <li>text in filters.</li>
       </ul>
     </Colors>
     <Colors name="grey04">
       <ul>
-        <li>disabled control background (primary button) or border (input, dropdown).</li>
+        <li>???</li>
       </ul>
     </Colors>
     <Colors name="grey05">
       <ul>
+        <li>control border (input, dropdown),</li>
         <li>table cell borders,</li>
         <li>horizontal rulers,</li>
         <li>dropdown / overflow menu borders.</li>
@@ -106,7 +108,7 @@ const Row = styled.div`
     </Colors>
     <Colors name="grey06">
       <ul>
-        <li>control border (input, dropdown),</li>
+        <li>disabled control background and border,</li>
         <li>hovered dropdown item,</li>
         <li>keyboard-focused element background.</li>
       </ul>

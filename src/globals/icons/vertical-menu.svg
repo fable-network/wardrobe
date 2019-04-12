@@ -1,7 +1,7 @@
-<svg width="5" height="21" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 21">
-  <g fillRule="evenodd">
-    <circle cx="2.5" cy="18.5" r="2.5" />
-    <circle cx="2.5" cy="10.5" r="2.5" />
-    <circle cx="2.5" cy="2.5" r="2.5" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g fill="currentColor" fillRule="evenodd" transform="translate(10.25 4.25)" style="transition: inherit">
+    <circle cx="1.75" cy="1.75" r="1.75" />
+    <circle cx="1.75" cy="7.75" r="1.75" />
+    <circle cx="1.75" cy="13.75" r="1.75" />
   </g>
 </svg>

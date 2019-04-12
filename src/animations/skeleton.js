@@ -1,7 +1,7 @@
 import { keyframes, css } from 'styled-components';
 import { theme } from '../theme';
 
-const commonCss = (color) => css`
+const commonCss = color => css`
   position: absolute;
   height: 100%;
   top: 0;

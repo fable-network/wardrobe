@@ -1,5 +1,24 @@
 ## [Unreleased]
 
+### Added
+
+- `map-marker`, `pencil`, `shop`, and `truck` icons.
+
+### Changed
+
+- Update [OverflowMenu](/#/Components?id=overflowmenu) looks.
+- Update sizes in all components, use small font size for controls.
+- Increase [Table.Cell](/#/Components?id=table) vertical padding.
+- Use fashionTrade eslint config.
+- Update [ToolTip](/#/Components?id=tooltip) font-size.
+- Update [Button](/#/Components?id=button) looks, add status appearances.
+- Update Input, Dropdown, and Checkbox looks.
+
+### Breaking changes
+
+- Default [OverflowMenu](/#/Components?id=overflowmenu) appearance is now `secondary`.
+- Update [Badge](/#/Components?id=badge) to have `radius`, `size` and `inverse` props. Don't rely on parent font-size anymore.
+
 ## [4.0.3] - 2019-04-11
 
 ### Changed

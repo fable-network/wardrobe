@@ -41,8 +41,8 @@ Custom size (100x20px), background color set to `khaki` to outline the SVG:
     <Grid.Cell columns={3} key={icon}>
       <div style={{ marginBottom: '16px', display: 'flex', justifyContent: 'center' }}>
         <Stack>
-          <div style={{ margin: '16px', background: '#f0f0f0' }}>
-            <Icon name={icon} width={32} height={32} />
+          <div style={{ margin: '16px auto', width: 32, height: 32, background: '#f0f0f0' }}>
+            <Icon name={icon} width={32} height={32} fill="#fff" />
           </div>
           <div>{icon}</div>
         </Stack>

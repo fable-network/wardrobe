@@ -33,15 +33,7 @@ export const data = [
     name: 'Casual',
     price: 'EUR 5.282,90',
     y: 70,
-  }
+  },
 ];
 
-export const colors = [
-  '#33556C',
-  '#4C7B9B',
-  '#6F94AE',
-  '#DDEDF7',
-  '#F7F7F7',
-  '#C4E8E8',
-  '#95C9CC'
-];
+export const colors = ['#33556C', '#4C7B9B', '#6F94AE', '#DDEDF7', '#F7F7F7', '#C4E8E8', '#95C9CC'];

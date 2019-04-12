@@ -4,24 +4,20 @@ Badge default:
 <Badge appearance="primary">9</Badge>
 ```
 
-Badge different color:
+Large Badge, different color:
 
 ```jsx
-<Badge appearance="danger">9</Badge>
+<Badge appearance="danger" size="large">
+  9
+</Badge>
 ```
 
 Badge with animation:
 
 ```jsx
-<Badge appearance="success" animated>9</Badge>
-```
-
-Badge with custom parent font-size:
-
-```jsx
-<div style={{fontSize: '25px'}}>
-  <Badge appearance="warning">9</Badge>
-</div>
+<Badge appearance="success" animated>
+  9
+</Badge>
 ```
 
 Badge with text:
@@ -30,4 +26,20 @@ Badge with text:
 <div>
   <Badge>Hello world</Badge>
 </div>
+```
+
+Large Badge with `radius="none"`:
+
+```jsx
+<Badge appearance="info" radius="none" size="large">
+  Pre-pack
+</Badge>
+```
+
+Inversed Badge with `radius="small"`:
+
+```jsx
+<Badge appearance="warning" radius="small" inverse>
+  Acknowledged
+</Badge>
 ```

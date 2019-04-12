@@ -25,6 +25,28 @@ Dropdown:
 </Dropdown>
 ```
 
+Large Dropdown:
+
+```jsx
+<Dropdown label="Don't push me" size="large">
+  <Dropdown.Item>
+    <nobr>...cause I'm close to the edge</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>I'm trying not to lose my head</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It's like a jungle sometimes</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>It makes me wonder how I keep from goin' under</nobr>
+  </Dropdown.Item>
+  <Dropdown.Item>
+    <nobr>-- Grandmaster Flash</nobr>
+  </Dropdown.Item>
+</Dropdown>
+```
+
 Dropdown with `persist=true` and `onSelect` handlers:
 
 ```jsx

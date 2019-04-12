@@ -35,8 +35,8 @@ const SizeExample = styled.div`
     color: white;
     text-align: center;
     width: 96px;
-    font-size: ${p => p.theme.fontSizeBase};
-    line-height: ${p => p.theme.lineHeightBase};
+    font-size: ${p => p.theme.fontSizeSmall};
+    line-height: ${p => p.theme.lineHeightSmall};
     height: ${p => p.theme.lineHeightBase};
     max-height: 100%;
     max-width: 100%;
@@ -44,7 +44,8 @@ const SizeExample = styled.div`
 `;
 
 const Sizes = ({ name, value }) => {
-  const valueString = endsWith(value, 'em') && !endsWith(value, 'rem') ? `${parseFloat(value).toFixed(2)}em` : value;
+  const valueString =
+    endsWith(value, 'em') && !endsWith(value, 'rem') ? `${parseFloat(value).toFixed(2)}em` : value;
   const pxValueString = (endsWith(value, 'em') && sizes[snakeCase(name).toUpperCase()]) || '';
   return (
     <Table.Row>

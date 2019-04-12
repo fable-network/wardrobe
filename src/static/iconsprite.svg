@@ -43,14 +43,49 @@
       <path d="M218.174 74.25a1.676 1.676 0 1 1-3.352-.001 1.676 1.676 0 0 1 3.352.001z" />
     </g>
   </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 14 20" id="icon-map-marker">
+    <title>map-marker</title>
+    <g fill="#fff" fill-rule="evenodd" transform="translate(1 1)">
+      <path fill="currentColor" fill-rule="nonzero" d="M6 4.235c-1.103 0-2 .95-2 2.118C4 7.52 4.897 8.47 6 8.47s2-.95 2-2.118c0-1.167-.897-2.118-2-2.118zm0 3.63c-.788 0-1.429-.678-1.429-1.512S5.212 4.84 6 4.84s1.429.679 1.429 1.513c0 .834-.641 1.513-1.429 1.513z" />
+      <path fill-rule="nonzero" stroke="#28343B" d="M10.244 1.846C9.11.656 7.604 0 6 0 4.398 0 2.89.656 1.758 1.846-.34 4.05-.6 8.195 1.193 10.706L6.001 18l4.8-7.284c1.8-2.521 1.54-6.666-.557-8.87z" />
+      <ellipse cx="6" cy="6.353" stroke="currentColor" rx="2" ry="2.118" />
+    </g>
+  </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="3 3 18 18" id="icon-pencil">
+    <title>pencil</title>
+    <g stroke="currentColor" fill="inherit" fill-rule="evenodd">
+      <path d="M16.18 5.344l-9.76 9.762a.4.4 0 0 0 .137.656c.399.155.742.374 1.025.657.283.283.502.626.657 1.025a.4.4 0 0 0 .656.137l9.762-9.762c-.03-.832-.25-1.435-.646-1.83-.394-.394-.997-.614-1.83-.645z" />
+      <path stroke-linecap="round" d="M6.432 15.182l-.796 3.182 3.182-.796M14.784 6.83c.873-.103 1.508.045 1.906.443.397.398.558 1.045.48 1.943" />
+    </g>
+  </symbol>
   <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 53 53" id="icon-search">
     <title>search</title>
     <path fill="#9b9b9b" d="M51.704 51.273L36.845 35.82c3.79-3.801 6.138-9.041 6.138-14.82 0-11.58-9.42-21-21-21s-21 9.42-21 21 9.42 21 21 21c5.083 0 9.748-1.817 13.384-4.832l14.895 15.491a.998.998 0 0 0 1.414.028 1 1 0 0 0 .028-1.414zM21.983 40c-10.477 0-19-8.523-19-19s8.523-19 19-19 19 8.523 19 19-8.524 19-19 19z" />
   </symbol>
-  <symbol preserveAspectRatio="xMidYMid" id="icon-vertical-menu">
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 24 24" id="icon-shop">
+    <title>shop</title>
+    <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8" fill="#fff" fill-rule="evenodd">
+      <path d="M20.963 10.044v10.06a1 1 0 0 1-1 1H4.037a1 1 0 0 1-1-1v-10.06" />
+      <path d="M9.556 21.104h4.888v-7.916H9.556zM2.886 3.98L1.407 6.855h21.186l-1.48-2.873a2 2 0 0 0-1.778-1.085H4.665A2 2 0 0 0 2.886 3.98z" />
+      <path d="M17.704 9.23c-1.333 2.09-4.014 2.526-5.702.635-1.707 1.915-4.39 1.425-5.706-.636-2.03 1.996-4.889.453-4.889-2.375h21.186c0 2.828-2.836 4.391-4.89 2.375z" />
+      <path d="M6.296 9.23V6.457l.664-3.506m5.042 6.919V2.95m5.702 6.28V6.457l-.66-3.506" />
+    </g>
+  </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 21 12" id="icon-truck">
+    <title>truck</title>
+    <g fill="none" fill-rule="evenodd" stroke="#28343B">
+      <path fill="#fff" d="M14.5 12V2A1.5 1.5 0 0 0 13 .5H2A1.5 1.5 0 0 0 .5 2v8.5A1.5 1.5 0 0 0 2 12h12.5zm0-8v7.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5V7.541a.5.5 0 0 0-.092-.29l-2.218-3.12a1.5 1.5 0 0 0-1.222-.631H15a.5.5 0 0 0-.5.5z" />
+      <path stroke-linecap="round" d="M15 7.5h5.346" />
+      <ellipse cx="17.132" cy="12.045" fill="#fff" rx="1.632" ry="1.545" />
+      <ellipse cx="4.132" cy="12.045" fill="#fff" rx="1.632" ry="1.545" />
+    </g>
+  </symbol>
+  <symbol preserveAspectRatio="xMidYMid" viewBox="0 0 24 24" id="icon-vertical-menu">
     <title>vertical-menu</title>
-    <circle cx="2.5" cy="18.5" r="2.5" />
-    <circle cx="2.5" cy="10.5" r="2.5" />
-    <circle cx="2.5" cy="2.5" r="2.5" />
+    <g fill="currentColor" transform="translate(10.25 4.25)" style="transition:inherit">
+      <circle cx="1.75" cy="1.75" r="1.75" />
+      <circle cx="1.75" cy="7.75" r="1.75" />
+      <circle cx="1.75" cy="13.75" r="1.75" />
+    </g>
   </symbol>
 </svg>

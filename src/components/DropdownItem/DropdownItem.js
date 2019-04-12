@@ -67,10 +67,12 @@ DropdownItem.defaultProps = {
  * @visibleName Dropdown.Item
  */
 export default styled(DropdownItem)`
-  padding: 0.5rem 1rem;
-  color: ${p => p.theme.grey01};
+  padding: ${p => p.theme.paddingVerticalBase} 1rem;
+  color: ${p => p.theme.grey02};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightSmall};
   cursor: pointer;
-  outline: 0px none;
+  outline: 0 none;
   &:hover {
     background-color: ${p => p.theme.grey06};
   }

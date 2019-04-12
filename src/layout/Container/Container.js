@@ -20,8 +20,9 @@ const Container = styled.div`
   ${p => paddingHorizontal(`calc(${p.theme.gridGutterWidth} / 2)`)};
   ${marginHorizontal('auto')};
   ${p => !p.fluid && responsiveCss};
-  &::before, &::after {
-    content: " ";
+  &::before,
+  &::after {
+    content: ' ';
     display: table;
   }
 `;

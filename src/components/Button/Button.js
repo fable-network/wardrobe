@@ -3,6 +3,16 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
+const cssDefaultDisabled = css`
+  &:disabled,
+  &:hover:disabled,
+  [data-whatintent='keyboard'] &:focus:disabled {
+    color: ${p => p.theme.grey03};
+    background-color: ${p => p.theme.grey06};
+    border-color: ${p => p.theme.grey06};
+  }
+`;
+
 const cssPrimary = css`
   color: ${p => p.theme.white};
   background-color: ${p => p.theme.primary};
@@ -15,12 +25,7 @@ const cssPrimary = css`
     border-color: ${p => p.theme.primaryActive};
   }
 
-  &:disabled,
-  &:hover:disabled,
-  [data-whatintent='keyboard'] &:focus:disabled {
-    background-color: ${p => p.theme.grey03};
-    border-color: ${p => p.theme.grey03};
-  }
+  ${cssDefaultDisabled};
 `;
 
 const cssSecondary = css`
@@ -35,13 +40,34 @@ const cssSecondary = css`
     border-color: ${p => p.theme.primaryActive};
   }
 
-  &:disabled,
-  &:hover:disabled,
-  [data-whatintent='keyboard'] &:focus:disabled {
-    background-color: ${p => p.theme.white};
-    color: ${p => p.theme.grey03};
-    border-color: ${p => p.theme.grey03};
-  }
+  ${cssDefaultDisabled};
+`;
+
+const cssDanger = css`
+  color: ${p => p.theme.white};
+  background-color: ${p => p.theme.danger};
+  border-color: ${p => p.theme.danger};
+  border-radius: ${p => p.theme.borderRadius};
+
+  ${cssDefaultDisabled};
+`;
+
+const cssSuccess = css`
+  color: ${p => p.theme.white};
+  background-color: ${p => p.theme.success};
+  border-color: ${p => p.theme.success};
+  border-radius: ${p => p.theme.borderRadius};
+
+  ${cssDefaultDisabled};
+`;
+
+const cssWarning = css`
+  color: ${p => p.theme.white};
+  background-color: ${p => p.theme.warning};
+  border-color: ${p => p.theme.warning};
+  border-radius: ${p => p.theme.borderRadius};
+
+  ${cssDefaultDisabled};
 `;
 
 const cssLink = css`
@@ -81,11 +107,9 @@ const cssLink = css`
   }
 `;
 
-const cssSmall = css`
-  font-size: ${p => p.theme.fontSizeSmall};
-  line-height: ${p => p.theme.lineHeightControlSmall};
-  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalSmall} - 1px)`)};
-  ${p => paddingVertical(`calc(${p.theme.paddingVerticalSmall} - 1px)`)};
+const cssLarge = css`
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalLarge} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalLarge} - 1px)`)};
 `;
 
 const ButtonInner = ({ size, appearance, renderAs, children, ...otherProps }) =>
@@ -93,8 +117,8 @@ const ButtonInner = ({ size, appearance, renderAs, children, ...otherProps }) =>
 
 ButtonInner.propTypes = {
   children: PropTypes.node.isRequired,
-  size: PropTypes.oneOf(['small', 'normal']),
-  appearance: PropTypes.oneOf(['primary', 'secondary', 'link']),
+  size: PropTypes.oneOf(['normal', 'large']),
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'link', 'success', 'danger', 'warning']),
   renderAs: PropTypes.string,
 };
 
@@ -113,8 +137,8 @@ const Button = styled(ButtonInner)`
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  line-height: ${p => p.theme.lineHeightControlBase};
-  font-size: ${p => p.theme.fontSizeBase};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightControlSmall};
   ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
   ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
   border: solid 1px transparent;
@@ -141,18 +165,21 @@ const Button = styled(ButtonInner)`
 
   ${p => p.appearance === 'primary' && cssPrimary};
   ${p => p.appearance === 'secondary' && cssSecondary};
+  ${p => p.appearance === 'danger' && cssDanger};
+  ${p => p.appearance === 'success' && cssSuccess};
+  ${p => p.appearance === 'warning' && cssWarning};
   ${p => p.appearance === 'link' && cssLink};
-  ${p => p.size === 'small' && cssSmall};
+  ${p => p.size === 'large' && cssLarge};
 `;
 
 Button.propTypes = {
   /** Button label */
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
-  size: PropTypes.oneOf(['small', 'normal']),
+  size: PropTypes.oneOf(['normal', 'large']),
   disabled: PropTypes.bool,
   type: PropTypes.oneOf(['button', 'reset', 'submit']),
-  appearance: PropTypes.oneOf(['primary', 'secondary', 'link']),
+  appearance: PropTypes.oneOf(['primary', 'secondary', 'link', 'success', 'danger', 'warning']),
   /** Render to DOM as a given tag. Should be a valid HTML tag. */
   renderAs: PropTypes.string,
 };

@@ -24,6 +24,7 @@ describe('ColumnChart Component', () => {
           subtitle="Total: 42 pieces"
           data={require('../fixtures/column-chart-one.js').default}
           caption={({ y }) => (y === 1 ? 'piece' : 'pieces')}
+          height={300}
         />
       );
       expect(wrapper2).toMatchSnapshot();

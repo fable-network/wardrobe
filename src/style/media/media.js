@@ -14,9 +14,7 @@ const CodeCell = styled(Table.Cell)`
 const Media = ({ name, value }) => (
   <Table.Row>
     <HeaderCell>{name}</HeaderCell>
-    <CodeCell style={{ fontFamily: 'monospace' }}>
-      {value.join('').replace('{;}', '')}
-    </CodeCell>
+    <CodeCell style={{ fontFamily: 'monospace' }}>{value.join('').replace('{;}', '')}</CodeCell>
   </Table.Row>
 );
 

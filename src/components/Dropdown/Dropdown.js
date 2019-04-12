@@ -21,19 +21,30 @@ const DropdownButton = styled.div`
   min-width: 240px;
   max-width: 100%;
   ${p => p.fluid && 'width: 100%;'};
-  background-color: ${p => p.theme.white};
-  border: solid 1px ${p => (p.disabled ? p.theme.grey04 : p.theme.grey03)};
+  background-color: ${p => (p.disabled ? p.theme.grey06 : p.theme.white)};
+  border: solid 1px ${p => (p.disabled ? p.theme.grey06 : p.theme.grey05)};
   border-radius: ${p => p.theme.borderRadius};
   font-family: inherit;
-  font-size: ${p => p.theme.fontSizeBase};
-  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalBase} - 1px)`)};
-  ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
-  color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
+  font-size: ${p => p.theme.fontSizeSmall};
+  ${p =>
+    paddingHorizontal(
+      `calc(${
+        p.size === 'large' ? p.theme.paddingHorizontalBase : p.theme.paddingHorizontalSmall
+      } - 1px)`
+    )};
+  ${p =>
+    paddingVertical(
+      `calc(${
+        p.size === 'large' ? p.theme.paddingVerticalLarge : p.theme.paddingVerticalBase
+      } - 1px)`
+    )};
+  color: ${p => (p.disabled ? p.theme.grey03 : p.theme.grey01)};
   cursor: ${p => (p.disabled ? 'not-allowed' : 'pointer')};
   user-select: ${p => (p.disabled ? 'none' : 'initial')};
-  &:focus {
+  &:focus,
+  &:hover {
     outline: none;
-    box-shadow: 0 0 4px ${p => p.theme.primary};
+    box-shadow: 0 0 2px ${p => p.theme.primary} inset;
     border-color: ${p => p.theme.primary};
   }
 `;
@@ -41,7 +52,7 @@ const DropdownButton = styled.div`
 const Label = styled('span')`
   display: inline-block;
   flex-grow: 1;
-  line-height: ${p => p.theme.lineHeightControlBase};
+  line-height: ${p => p.theme.lineHeightControlSmall};
   text-align: left;
   max-width: 100%;
   white-space: nowrap;
@@ -92,8 +103,8 @@ const DropdownPanel = styled.div`
   overflow: auto;
   /* If last interaction is mouse, we highlight hovered item, and if it's keyboard, we highlight focused item. */
   ${p =>
-    p.lastInteractionKeyboard
-    && css`
+    p.lastInteractionKeyboard &&
+    css`
       ${DropdownItem} {
         &:hover {
           background-color: ${p.theme.white};
@@ -339,9 +350,9 @@ class Dropdown extends Component {
     // If we hover a dropdown item AND it's not focused AND we allow keyboard interaction
     // (so we're not focused in the search field or it's an Enter)
     if (
-      this.hoveredItem
-      && document.activeElement !== this.hoveredItem
-      && (document.activeElement !== this.input || event.keyCode === KEY_CODES.Enter)
+      this.hoveredItem &&
+      document.activeElement !== this.hoveredItem &&
+      (document.activeElement !== this.input || event.keyCode === KEY_CODES.Enter)
     ) {
       // Focus the hovered item so that it gets all next keyboard events (use case: hover
       // and press Down)
@@ -370,7 +381,8 @@ class Dropdown extends Component {
     const { target } = event;
     if (this.state.lastInteractionKeyboard) {
       this.setState({ lastInteractionKeyboard: false }, () =>
-        this.saveHoveredElemDebounced(target));
+        this.saveHoveredElemDebounced(target)
+      );
     } else {
       this.saveHoveredElemDebounced(target);
     }
@@ -393,13 +405,14 @@ class Dropdown extends Component {
   };
 
   renderTrigger = ({ toggle }) => {
-    const { disabled, label, selected, loading, fluid, search, placeholder } = this.props;
+    const { disabled, label, selected, loading, fluid, search, placeholder, size } = this.props;
     const { searchText } = this.state;
     const showInput = search && this.isOpen();
 
     // Keep the same icon in both modes (search / no search) to not ruin the chevron animation
     return (
       <DropdownButton
+        size={size}
         disabled={disabled}
         onClick={this.handleTriggerClick(toggle)}
         onKeyDown={this.handleTriggerKeyDown(toggle)}
@@ -511,6 +524,7 @@ Dropdown.propTypes = {
   search: PropTypes.bool,
   /** A placeholder for a search field. */
   placeholder: PropTypes.string,
+  size: PropTypes.oneOf(['normal', 'large']),
   open: PropTypes.bool,
   onClose: PropTypes.func,
   onOpen: PropTypes.func,
@@ -528,6 +542,7 @@ Dropdown.defaultProps = {
   persist: false,
   search: false,
   placeholder: '',
+  size: 'normal',
   onClose: noop,
   onOpen: noop,
   onClick: noop,

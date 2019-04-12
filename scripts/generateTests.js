@@ -112,7 +112,8 @@ const cleanComponentCode = (code, componentName) =>
       .replace(/```/g, '') // remove all occurences of the string "```".
       .replace(/jsx/g, '') // remove all occurences of the string "jsx".
       // indent the component by 4 tabs (8 spaces)
-      .replace(/\n/g, `\n${tabWidth.repeat(4)}`));
+      .replace(/\n/g, `\n${tabWidth.repeat(4)}`)
+  );
 
 const readMarkdownFile = (path, fileName, callBack, errorCallBack) => {
   fs.readFile(`${path}/${fileName}/${fileName}.md`, (err, out) => {

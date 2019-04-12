@@ -14,54 +14,64 @@ describe('Button Component', () => {
       expect(wrapper1).toMatchSnapshot();
 
       const wrapper2 = shallow(
-        <Button appearance="primary" disabled>
-          Don't Push Me
+        <Button appearance="primary" size="large">
+          Push Me
         </Button>
       );
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Button appearance="secondary">Push Me</Button>
+        <Button appearance="primary" disabled>
+          Don't Push Me
+        </Button>
       );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Button appearance="secondary" disabled>
-          Don't Push Me
-        </Button>
+        <Button appearance="secondary">Push Me</Button>
       );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Button size="small">Push Me</Button>
+        <Button appearance="secondary" disabled>
+          Don't Push Me
+        </Button>
       );
       expect(wrapper5).toMatchSnapshot();
 
       const wrapper6 = shallow(
-        <Button appearance="link">Push Me</Button>
+        <Button appearance="danger">Dangerous action</Button>
       );
       expect(wrapper6).toMatchSnapshot();
 
       const wrapper7 = shallow(
-        <Button appearance="link" size="small">
-          Push Me
-        </Button>
+        <Button appearance="success">Push Me</Button>
       );
       expect(wrapper7).toMatchSnapshot();
 
       const wrapper8 = shallow(
-        <Button appearance="link" disabled>
-          Don't Push Me
-        </Button>
+        <Button appearance="warning">Push Me</Button>
       );
       expect(wrapper8).toMatchSnapshot();
 
       const wrapper9 = shallow(
+        <Button appearance="link">Push Me</Button>
+      );
+      expect(wrapper9).toMatchSnapshot();
+
+      const wrapper10 = shallow(
+        <Button appearance="link" disabled>
+          Don't Push Me
+        </Button>
+      );
+      expect(wrapper10).toMatchSnapshot();
+
+      const wrapper11 = shallow(
         <Button appearance="primary" renderAs="span">
           I'm not a button
         </Button>
       );
-      expect(wrapper9).toMatchSnapshot();
+      expect(wrapper11).toMatchSnapshot();
 
     });
   });

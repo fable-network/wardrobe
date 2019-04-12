@@ -4,6 +4,14 @@ Primary button:
 <Button appearance="primary">Push Me</Button>
 ```
 
+Large button:
+
+```jsx
+<Button appearance="primary" size="large">
+  Push Me
+</Button>
+```
+
 Disabled primary button:
 
 ```jsx
@@ -26,24 +34,28 @@ Disabled secondary button:
 </Button>
 ```
 
-Small button:
+Danger Button:
 
 ```jsx
-<Button size="small">Push Me</Button>
+<Button appearance="danger">Dangerous action</Button>
+```
+
+Success Button:
+
+```jsx
+<Button appearance="success">Push Me</Button>
+```
+
+Warning Button:
+
+```jsx
+<Button appearance="warning">Push Me</Button>
 ```
 
 Link button:
 
 ```jsx
 <Button appearance="link">Push Me</Button>
-```
-
-Small link button:
-
-```jsx
-<Button appearance="link" size="small">
-  Push Me
-</Button>
 ```
 
 Disabled link button:
@@ -83,11 +95,11 @@ const ButtonCustom = styled(Button)`
 <Grid>
   <Wrapper>
     <Button>Normal</Button>
-    <Button size="small">Small</Button>
-    <ButtonCustom>Custom</ButtonCustom>
+    <Button size="large">Large</Button>
     <Button>
       Push Me<br />Touch me
     </Button>
+    <ButtonCustom>Custom</ButtonCustom>
   </Wrapper>
 </Grid>;
 ```

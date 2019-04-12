@@ -4,8 +4,13 @@ import styled from 'styled-components';
 import Icon from '../Icon';
 
 const getBackground = ({ disabled, checked, theme }) => {
-  if (disabled) return checked || checked === null ? theme.grey04 : theme.grey06;
+  if (disabled) return checked || checked === null ? theme.grey06 : theme.grey06;
   return checked || checked === null ? theme.primary : theme.white;
+};
+
+const getColor = ({ disabled, checked, theme }) => {
+  if (disabled) return theme.grey03;
+  return !checked ? 'transparent' : theme.white;
 };
 
 const Wrapper = styled('span')`
@@ -29,7 +34,7 @@ const Input = styled(({ disabled, checked, ...otherProps }) => <span {...otherPr
   border: solid 0.05em #fff;
   box-sizing: border-box;
   transition: background 0.3s ease-out;
-  color: ${p => (!p.checked ? 'transparent' : p.theme.white)};
+  color: ${getColor};
   fill: none;
 `;
 

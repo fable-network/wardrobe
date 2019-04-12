@@ -12,7 +12,7 @@ describe('PieChart Component', () => {
         <PieChart
           title="Distribution of themes"
           data={require('../fixtures/pie-chart.js').data}
-          tooltip={require('../fixtures/pie-chart.js').tooltip}
+          tooltip={({ y, point: { percentage } }) => `Quantity: ${y}<br>Percent: ${percentage.toFixed(0)}%`}
         />
       );
       expect(wrapper1).toMatchSnapshot();
@@ -30,7 +30,7 @@ describe('PieChart Component', () => {
         <PieChart
           data={require('../fixtures/pie-chart-one.js').data}
           colors={require('../fixtures/pie-chart-one.js').colors}
-          tooltip={require('../fixtures/pie-chart-one.js').tooltip}
+          tooltip={({ y, point: { percentage } }) => `Quantity: ${y}<br>Percent: ${percentage.toFixed(0)}%`}
         />
       );
       expect(wrapper3).toMatchSnapshot();

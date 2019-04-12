@@ -146,6 +146,7 @@ ShallowWrapper {
         },
       ]
     }
+    height={300}
     subtitle="Total: 42 pieces"
     title="Distribution of delivery"
   />,
@@ -169,6 +170,7 @@ ShallowWrapper {
           "y": 42,
         },
       ],
+      "height": 300,
       "subtitle": "Total: 42 pieces",
       "theme": undefined,
       "title": "Distribution of delivery",
@@ -191,6 +193,7 @@ ShallowWrapper {
             "y": 42,
           },
         ],
+        "height": 300,
         "subtitle": "Total: 42 pieces",
         "theme": undefined,
         "title": "Distribution of delivery",

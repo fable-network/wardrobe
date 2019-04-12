@@ -19,24 +19,19 @@ describe('Searchbar Component', () => {
       expect(wrapper2).toMatchSnapshot();
 
       const wrapper3 = shallow(
-        <Searchbar hideIcon />
+        <Searchbar placeholder="Search for dresses" />
       );
       expect(wrapper3).toMatchSnapshot();
 
       const wrapper4 = shallow(
-        <Searchbar placeholder="Search for dresses" />
+        <Searchbar iconPosition="left" defaultValue="Floral dress" loading />
       );
       expect(wrapper4).toMatchSnapshot();
 
       const wrapper5 = shallow(
-        <Searchbar iconPosition="left" defaultValue="Floral dress" loading/>
+        <Searchbar iconPosition="right" defaultValue="Floral dress" loading />
       );
       expect(wrapper5).toMatchSnapshot();
-
-      const wrapper6 = shallow(
-        <Searchbar iconPosition="right" defaultValue="Floral dress" loading/>
-      );
-      expect(wrapper6).toMatchSnapshot();
 
     });
   });
