@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.0.0] - 2019-04-12
+
 ### Added
 
 - `map-marker`, `pencil`, `shop`, and `truck` icons.
