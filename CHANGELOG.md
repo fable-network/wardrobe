@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.1.0] - 2019-04-16
+
 ### Added
 
 - `xsmall` font size.
