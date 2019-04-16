@@ -110,13 +110,14 @@ const BadgeWrapper = styled('span')`
   ${p => p.animated && cssAnimated};
 `;
 
-const Badge = ({ appearance, children, animated, radius, size, inverse }) => (
+const Badge = ({ appearance, children, animated, radius, size, inverse, ...otherProps }) => (
   <BadgeWrapper
     appearance={appearance}
     animated={animated}
     radius={radius}
     size={size}
     inverse={inverse}
+    {...otherProps}
   >
     {children}
   </BadgeWrapper>
@@ -142,7 +143,7 @@ Badge.propTypes = {
     'light',
     'dark',
   ]),
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  children: PropTypes.node,
   animated: PropTypes.bool,
   radius: PropTypes.oneOf(['large', 'small', 'none']),
   size: PropTypes.oneOf(['large', 'normal', 'small']),

@@ -3,10 +3,12 @@
 ### Added
 
 - `xsmall` font size.
+- New icons: cart, image, PDF, CSV.
 
 ### Changed
 
 - Added a `small` size to [Badge](/#/Components?id=badge).
+- Pass other props on Badge component.
 
 ## [5.0.0] - 2019-04-12
 
