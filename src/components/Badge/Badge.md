@@ -4,6 +4,14 @@ Badge default:
 <Badge appearance="primary">9</Badge>
 ```
 
+Small Badge:
+
+```jsx
+<Badge appearance="primary" size="small">
+  9
+</Badge>
+```
+
 Large Badge, different color:
 
 ```jsx

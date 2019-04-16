@@ -2,16 +2,19 @@
 export const FONT_FAMILY = '"Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif';
 
 // Font sizes
+export const FONT_SIZE_XSMALL = 12;
 export const FONT_SIZE_SMALL = 14;
 export const FONT_SIZE_BASE = 16;
 export const FONT_SIZE_LARGE = 18;
 
 // Line heights for text blocks
 export const LINE_HEIGHT_BASE = 24;
+export const LINE_HEIGHT_XSMALL = 16;
 export const LINE_HEIGHT_SMALL = 20;
 export const LINE_HEIGHT_LARGE = 28;
 
 // Line heights for controls (inputs, buttons, etc.)
+export const LINE_HEIGHT_CONTROL_XSMALL = 12;
 export const LINE_HEIGHT_CONTROL_SMALL = 16;
 export const LINE_HEIGHT_CONTROL_BASE = 20;
 export const LINE_HEIGHT_CONTROL_LARGE = 24;
@@ -21,14 +24,17 @@ const typography = {
   fontWeightNormal: '400',
   fontWeightBold: '500',
 
+  fontSizeXSmall: `${FONT_SIZE_XSMALL / FONT_SIZE_BASE}rem`,
   fontSizeSmall: `${FONT_SIZE_SMALL / FONT_SIZE_BASE}rem`,
   fontSizeBase: '1rem',
   fontSizeLarge: `${FONT_SIZE_LARGE / FONT_SIZE_BASE}rem`,
 
+  lineHeightXSmall: `${LINE_HEIGHT_XSMALL / FONT_SIZE_XSMALL}`,
   lineHeightSmall: `${LINE_HEIGHT_SMALL / FONT_SIZE_SMALL}`,
   lineHeightBase: `${LINE_HEIGHT_BASE / FONT_SIZE_BASE}`,
   lineHeightLarge: `${LINE_HEIGHT_LARGE / FONT_SIZE_LARGE}`,
 
+  lineHeightControlXSmall: `${LINE_HEIGHT_CONTROL_XSMALL / FONT_SIZE_XSMALL}`,
   lineHeightControlSmall: `${LINE_HEIGHT_CONTROL_SMALL / FONT_SIZE_SMALL}`,
   lineHeightControlBase: `${LINE_HEIGHT_CONTROL_BASE / FONT_SIZE_BASE}`,
   lineHeightControlLarge: `${LINE_HEIGHT_CONTROL_LARGE / FONT_SIZE_LARGE}`,

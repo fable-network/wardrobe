@@ -15,6 +15,30 @@ const getBorderRadius = ({ size, radius, theme }) => {
   }
 };
 
+const getSize = ({ size, theme }) => {
+  switch (size) {
+    case 'small':
+      return css`
+        padding: 2px 0.75em 1px;
+        font-size: ${theme.fontSizeXSmall};
+        line-height: ${theme.lineHeightXSmall};
+      `;
+    case 'large':
+      return `
+        padding: calc(0.5em - 1px) 1.5rem;
+        font-size: ${theme.fontSizeBase};
+        line-height: ${theme.lineHeightBase};
+      `;
+    case 'normal':
+    default:
+      return css`
+        padding: 2px 0.75em 1px;
+        font-size: ${theme.fontSizeSmall};
+        line-height: ${theme.lineHeightSmall};
+      `;
+  }
+};
+
 const cssPrimary = css`
   background-color: ${p => (p.inverse ? p.theme.white : p.theme.primary)};
   color: ${p => (p.inverse ? p.theme.primary : p.theme.white)};
@@ -69,9 +93,7 @@ const cssAnimated = css`
 
 const BadgeWrapper = styled('span')`
   display: inline-block;
-  padding: ${p => (p.size === 'large' ? 'calc(0.5em - 1px) 1.5rem' : '1px 0.75em')};
-  font-size: ${p => (p.size === 'large' ? p.theme.fontSizeBase : p.theme.fontSizeSmall)};
-  line-height: ${p => (p.size === 'large' ? p.theme.lineHeightBase : p.theme.lineHeightSmall)};
+  ${getSize};
   border-radius: ${getBorderRadius};
   text-align: center;
   color: ${p => p.theme.white};
@@ -105,7 +127,7 @@ Badge.defaultProps = {
   children: null,
   animated: false,
   radius: 'large',
-  size: 'small',
+  size: 'normal',
   inverse: false,
 };
 
@@ -123,7 +145,7 @@ Badge.propTypes = {
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   animated: PropTypes.bool,
   radius: PropTypes.oneOf(['large', 'small', 'none']),
-  size: PropTypes.oneOf(['large', 'small']),
+  size: PropTypes.oneOf(['large', 'normal', 'small']),
   inverse: PropTypes.bool,
 };
 

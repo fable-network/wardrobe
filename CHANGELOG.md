@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+### Added
+
+- `xsmall` font size.
+
+### Changed
+
+- Added a `small` size to [Badge](/#/Components?id=badge).
+
 ## [5.0.0] - 2019-04-12
 
 ### Added
