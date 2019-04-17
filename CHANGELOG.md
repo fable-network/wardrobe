@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.2.0] - 2019-04-17
+
 ### Changed
 
 - More prominent [OverflowMenu](/#/Components?id=overflowmenu) looks.
