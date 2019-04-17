@@ -827,7 +827,7 @@ exports[`OverflowMenu Component snapshots should match snapshot 7`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    appearance="secondary"
+    appearance="danger"
   >
     <DropdownItem>
       Edit
@@ -848,7 +848,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "appearance": "secondary",
+      "appearance": "danger",
       "children": Array [
         <DropdownItem>
           Edit
@@ -897,7 +897,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "appearance": "secondary",
+        "appearance": "danger",
         "children": Array [
           <DropdownItem>
             Edit

@@ -15,7 +15,8 @@ const Trigger = styled.div`
   cursor: pointer;
   transition: border-color 0.1s linear, color 0.1s linear;
   color: ${p => p.color};
-  border: solid 1px ${p => p.color};
+  background-color: ${p => p.theme.white};
+  border: solid 1px ${p => p.borderColor};
   box-sizing: border-box;
   border-radius: ${p => p.theme.borderRadius};
   ${p => p.active && `box-shadow: 0 0 2px currentColor inset;`};
@@ -75,6 +76,20 @@ class OverflowMenu extends Component {
     const { appearance, theme } = this.props;
     const colors = {
       primary: theme.primary,
+      secondary: theme.grey022,
+      success: theme.success,
+      warning: theme.warning,
+      danger: theme.danger,
+      light: theme.grey03,
+      dark: theme.grey01,
+    };
+    return colors[appearance];
+  };
+
+  getBorderColorFromAppearance = () => {
+    const { appearance, theme } = this.props;
+    const colors = {
+      primary: theme.primary,
       secondary: theme.grey05,
       success: theme.success,
       warning: theme.warning,
@@ -120,6 +135,7 @@ class OverflowMenu extends Component {
     const { color: propsColor, activeColor, ...otherProps } = this.props;
     const defaultColor = propsColor || this.getColorFromAppearance();
     const color = menuOpen ? activeColor || this.getActiveColor() : defaultColor;
+    const borderColor = propsColor || this.getBorderColorFromAppearance();
     const size = this.getWidthAndHeightFromSize();
 
     return (
@@ -127,6 +143,7 @@ class OverflowMenu extends Component {
         tabIndex={0}
         {...otherProps}
         color={color}
+        borderColor={borderColor}
         onClick={toggle}
         active={menuOpen}
         activeColor={activeColor || this.getActiveColor()}
