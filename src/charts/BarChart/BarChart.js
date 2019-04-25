@@ -39,12 +39,10 @@ const Wrapper = styled.div`
       stroke-width: 2px;
     }
     div.highcharts-xaxis-labels {
-      display: flex;
-      font-size: ${p => p.theme.fontSizeSmall};
-      line-height: ${p => p.theme.lineHeightSmall};
+      font-size: ${p => p.theme.fontSizeXSmall};
+      line-height: ${p => p.theme.lineHeightXSmall};
       font-weight: 400;
       color: ${p => p.theme.grey01};
-      text-align: center;
 
       .ft-label-block {
         display: block;
@@ -52,10 +50,13 @@ const Wrapper = styled.div`
         .ft-label.ft-label-category {
           display: block;
           max-width: 100%;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          text-align: right;
+          ${p => p.orientation === 'horizontal' && `
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: right;
+          `};
+          ${p => p.orientation === 'vertical' && `white-space: normal;`};
         }
 
         &.ft-label-block-disabled {
@@ -86,7 +87,7 @@ class BarChart extends React.PureComponent {
     const { highlightIndex } = this.state;
     const className = `ft-label-block ${
       highlightIndex !== null && highlightIndex !== pos ? 'ft-label-block-disabled' : ''
-    }`;
+      }`;
     return `
       <span class="${className}" data-index="${pos}" title="${category}">
         <span class="ft-label ft-label-category">
@@ -112,6 +113,7 @@ class BarChart extends React.PureComponent {
       allowUpdate,
       theme = defaultTheme,
       height = null,
+      width = null,
     } = this.props;
     if (!data) {
       return null;
@@ -129,6 +131,7 @@ class BarChart extends React.PureComponent {
         styledMode: true,
         groupPadding: 0,
         height,
+        width,
       },
       plotOptions: {
         series: {
@@ -196,7 +199,7 @@ class BarChart extends React.PureComponent {
       series: [{ data }],
     };
     return (
-      <Wrapper highlighted={highlightIndex !== null}>
+      <Wrapper highlighted={highlightIndex !== null} orientation={orientation}>
         <HighChart
           options={options}
           className="ft-wardrobe-bar-chart"
@@ -211,6 +214,8 @@ BarChart.defaultProps = {
   orientation: 'horizontal',
   tooltip: ({ y }) => y,
   allowUpdate: false,
+  height: null,
+  width: null,
 };
 
 BarChart.propTypes = {
@@ -224,6 +229,7 @@ BarChart.propTypes = {
   ).isRequired,
   tooltip: PropTypes.func,
   height: PropTypes.number,
+  width: PropTypes.number,
   /**
    * Allows HighCharts chart update. Use it if you plan to provide new data.
    */

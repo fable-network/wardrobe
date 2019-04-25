@@ -7,6 +7,8 @@
 ### Changed
 
 - Update React to 16.3.0.
+- Smaller labels in Column & Bar [Charts](/#/Charts).
+- Add `width` prop for Column & Bar [Charts](/#/Charts).
 
 ## [5.2.0] - 2019-04-17
 

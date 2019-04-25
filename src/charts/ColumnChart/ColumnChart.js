@@ -36,18 +36,17 @@ const Wrapper = styled.div`
       stroke-width: 2px;
     }
     div.highcharts-xaxis-labels {
-      display: flex;
-      font-size: ${p => p.theme.fontSizeSmall};
-      line-height: ${p => p.theme.lineHeightSmall};
+      font-size: ${p => p.theme.fontSizeXSmall};
+      line-height: ${p => p.theme.lineHeightXSmall};
       font-weight: 400;
       color: ${p => p.theme.grey01};
-      text-align: center;
     }
     .highcharts-credits {
       display: none;
     }
     .ft-label-block {
       display: block;
+      padding-top: 0.25rem;
       text-align: center;
       box-sizing: border-box;
 
@@ -94,7 +93,8 @@ class ColumnChart extends React.PureComponent {
     this.setState({ highlightIndex: null });
   };
 
-  renderLabel = ({ value, pos }) => (pos < this.props.data.length ? value : '');
+  renderLabel = ({ value, pos }) =>
+    pos < this.props.data.length ? `<span title="${value}">${value}</span>` : '';
 
   renderValue = (value, total) => {
     const { caption } = this.props;
@@ -112,7 +112,15 @@ class ColumnChart extends React.PureComponent {
   };
 
   render() {
-    const { data, title, subtitle, allowUpdate, theme = defaultTheme, height = null } = this.props;
+    const {
+      data,
+      title,
+      subtitle,
+      allowUpdate,
+      theme = defaultTheme,
+      height = null,
+      width = null,
+    } = this.props;
     if (!data) {
       return null;
     }
@@ -134,6 +142,7 @@ class ColumnChart extends React.PureComponent {
         styledMode: true,
         groupPadding: 0,
         height,
+        width,
       },
       plotOptions: {
         series: {
@@ -210,6 +219,8 @@ class ColumnChart extends React.PureComponent {
 ColumnChart.defaultProps = {
   allowUpdate: false,
   caption: ({ y }) => y,
+  height: null,
+  width: null,
 };
 
 ColumnChart.propTypes = {
@@ -223,6 +234,7 @@ ColumnChart.propTypes = {
   ).isRequired,
   caption: PropTypes.func,
   height: PropTypes.number,
+  width: PropTypes.number,
   /**
    * Allows HighCharts chart update. Use it if you plan to provide new data.
    */
