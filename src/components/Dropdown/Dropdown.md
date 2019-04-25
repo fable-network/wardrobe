@@ -151,6 +151,16 @@ Dropdown panel will expand horizontally when content does not allow wrapping.
 </Dropdown>
 ```
 
+Invalid Dropdown:
+
+```jsx
+<Dropdown invalid label="Don't push me">
+  <Dropdown.Item>
+    <nobr>...cause I'm close to the edge</nobr>
+  </Dropdown.Item>
+</Dropdown>
+```
+
 Dropdown selected.
 
 ```jsx

@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+### Changed
+
+- Make the padding of the `Input` component consistent with `Button`s and `Dropdown`s
+- Add an invalid state for `Dropdown` (e.g. for when you must select an option, but you haven't yet)
+
 ## [5.3.0] - 2019-04-25
 
 ### Added

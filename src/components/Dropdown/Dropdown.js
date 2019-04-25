@@ -13,6 +13,15 @@ import DropdownItem from '../DropdownItem';
 import Icon from '../Icon';
 import LoadingSpinner from '../LoadingSpinner';
 
+const cssInvalid = css`
+  border-color: ${p => p.theme.danger};
+  &:focus,
+  &:hover {
+    border-color: ${p => p.theme.danger};
+    box-shadow: 0 0 2px ${p => p.theme.danger} inset;
+  }
+`;
+
 const DropdownButton = styled.div`
   display: flex;
   flex-flow: row nowrap;
@@ -47,6 +56,7 @@ const DropdownButton = styled.div`
     box-shadow: 0 0 2px ${p => p.theme.primary} inset;
     border-color: ${p => p.theme.primary};
   }
+  ${p => p.invalid && cssInvalid};
 `;
 
 const Label = styled('span')`
@@ -405,7 +415,17 @@ class Dropdown extends Component {
   };
 
   renderTrigger = ({ toggle }) => {
-    const { disabled, label, selected, loading, fluid, search, placeholder, size } = this.props;
+    const {
+      disabled,
+      label,
+      selected,
+      loading,
+      fluid,
+      search,
+      placeholder,
+      size,
+      invalid,
+    } = this.props;
     const { searchText } = this.state;
     const showInput = search && this.isOpen();
 
@@ -424,6 +444,7 @@ class Dropdown extends Component {
           this.dropdownButton = node;
         }}
         role="button"
+        invalid={invalid}
       >
         {showInput ? (
           <Input
@@ -522,6 +543,8 @@ Dropdown.propTypes = {
   persist: PropTypes.bool,
   /** Allow searching */
   search: PropTypes.bool,
+  /** Add style to make dropdown look invalid */
+  invalid: PropTypes.bool,
   /** A placeholder for a search field. */
   placeholder: PropTypes.string,
   size: PropTypes.oneOf(['normal', 'large']),
@@ -541,6 +564,7 @@ Dropdown.defaultProps = {
   fluid: false,
   persist: false,
   search: false,
+  invalid: false,
   placeholder: '',
   size: 'normal',
   onClose: noop,

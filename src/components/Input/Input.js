@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import { paddingHorizontal, paddingVertical } from '../../helpers/styled';
 
 const cssInvalid = css`
   border-color: ${p => p.theme.danger};
@@ -12,14 +13,15 @@ const cssInvalid = css`
 const StyledInput = styled.input`
   box-sizing: border-box;
   width: 100%;
-  padding: ${p => p.theme.paddingVerticalBase} ${p => p.theme.paddingHorizontalSmall};
+  ${p => paddingHorizontal(`calc(${p.theme.paddingHorizontalSmall} - 1px)`)};
+  ${p => paddingVertical(`calc(${p.theme.paddingVerticalBase} - 1px)`)};
   border: solid 1px ${p => (p.disabled ? p.theme.grey06 : p.theme.grey05)};
   border-radius: ${p => p.theme.borderRadius};
   background-color: ${p => (p.disabled ? p.theme.grey06 : p.theme.white)};
   outline: none;
   color: ${p => (p.disabled ? p.theme.grey03 : p.theme.grey01)};
   font-size: ${p => p.theme.fontSizeSmall};
-  line-height: ${p => p.theme.lineHeightSmall};
+  line-height: ${p => p.theme.lineHeightControlSmall};
   text-overflow: ellipsis;
   cursor: ${p => (p.disabled ? 'not-allowed' : 'text')};
 
