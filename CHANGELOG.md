@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.3.0] - 2019-04-25
+
 ### Added
 
 - `RadioButton` component.

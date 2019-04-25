@@ -50,7 +50,9 @@ const Wrapper = styled.div`
         .ft-label.ft-label-category {
           display: block;
           max-width: 100%;
-          ${p => p.orientation === 'horizontal' && `
+          ${p =>
+            p.orientation === 'horizontal' &&
+            `
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -87,7 +89,7 @@ class BarChart extends React.PureComponent {
     const { highlightIndex } = this.state;
     const className = `ft-label-block ${
       highlightIndex !== null && highlightIndex !== pos ? 'ft-label-block-disabled' : ''
-      }`;
+    }`;
     return `
       <span class="${className}" data-index="${pos}" title="${category}">
         <span class="ft-label ft-label-category">
