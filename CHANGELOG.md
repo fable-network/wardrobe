@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+### Added
+
+- `RadioButton` component.
+
+### Changed
+
+- Update React to 16.3.0.
+
 ## [5.2.0] - 2019-04-17
 
 ### Changed
