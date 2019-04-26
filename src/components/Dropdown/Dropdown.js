@@ -78,8 +78,8 @@ const Input = styled.input`
   display: inline-block;
   flex: 1 1 50px;
   font-family: inherit;
-  font-size: ${p => p.theme.fontSizeBase};
-  line-height: ${p => p.theme.lineHeightControlBase};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightControlSmall};
   color: ${p => (p.disabled ? p.theme.grey04 : p.theme.grey01)};
   min-width: 50px;
   max-width: 100%;

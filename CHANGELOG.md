@@ -2,8 +2,9 @@
 
 ### Changed
 
-- Make the padding of the `Input` component consistent with `Button`s and `Dropdown`s
-- Add an invalid state for `Dropdown` (e.g. for when you must select an option, but you haven't yet)
+- Make the padding of the `Input` component consistent with `Button`s and `Dropdown`s.
+- Add an invalid state for `Dropdown` (e.g. for when you must select an option, but you haven't yet).
+- Fix an issue in [Dropwdown])(/#/Components?id=dropdown) which led it to grow in height in search mode.
 
 ## [5.3.0] - 2019-04-25
 
