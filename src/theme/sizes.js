@@ -3,6 +3,12 @@ import { FONT_SIZE_BASE, FONT_SIZE_SMALL, FONT_SIZE_LARGE } from './typography';
 // Layout
 export const GRID_GUTTER_WIDTH = 32;
 
+// Block spacing
+export const SPACE_S = 8;
+export const SPACE_M = 16;
+export const SPACE_L = 24;
+export const SPACE_XL = 32;
+
 // Control paddings
 export const PADDING_HORIZONTAL_LARGE = 32;
 export const PADDING_HORIZONTAL_BASE = 24;
@@ -21,6 +27,12 @@ const sizes = {
   containerMaxWidthTablet: '600px',
   containerMaxWidthDesktop: '896px',
   containerMaxWidthWide: '1200px',
+
+  // Block paddings
+  spaceS: `${SPACE_S / FONT_SIZE_BASE}rem`,
+  spaceM: `${SPACE_M / FONT_SIZE_BASE}rem`,
+  spaceL: `${SPACE_L / FONT_SIZE_BASE}rem`,
+  spaceXL: `${SPACE_XL / FONT_SIZE_BASE}rem`,
 
   // Control paddings
   paddingHorizontalSmall: `${PADDING_HORIZONTAL_SMALL / FONT_SIZE_SMALL}rem`,

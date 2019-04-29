@@ -1,3 +1,4 @@
+_DEPRECATED_ This component is deprecated, please use [Box](/#/Layout?id=box) instead.
 A component to display a number of blocks stacked upon each other.
 
 ```jsx

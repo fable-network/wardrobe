@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+
+- [Box](/#/Layout?id=box) component.
+
 ## [5.4.0] - 2019-04-26
 
 ### Changed

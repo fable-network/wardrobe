@@ -25,6 +25,7 @@ export WithLabel from './components/WithLabel';
 export Container from './layout/Container';
 export Grid from './layout/Grid';
 export Stack from './layout/Stack';
+export Box from './layout/Box';
 
 export * as Animations from './animations';
 

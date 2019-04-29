@@ -44,5 +44,8 @@ Stack.propTypes = {
   direction: PropTypes.oneOf(['horizontal', 'vertical']),
 };
 
-/** @component */
+/**
+ * @component
+ * @deprecated please use `Box` component.
+ */
 export default Stack;

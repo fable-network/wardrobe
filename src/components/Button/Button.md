@@ -79,7 +79,7 @@ Multiline button:
 On a grid:
 
 ```jsx
-const Grid = require('../../styleguide/Grid.js').default;
+const EightPxGrid = require('../../styleguide/EightPxGrid.js').default;
 const styled = require('styled-components').default;
 const Wrapper = styled.div`
   display: flex;
@@ -92,7 +92,7 @@ const Wrapper = styled.div`
 const ButtonCustom = styled(Button)`
   font-size: 2rem;
 `;
-<Grid>
+<EightPxGrid>
   <Wrapper>
     <Button>Normal</Button>
     <Button size="large">Large</Button>
@@ -101,7 +101,7 @@ const ButtonCustom = styled(Button)`
     </Button>
     <ButtonCustom>Custom</ButtonCustom>
   </Wrapper>
-</Grid>;
+</EightPxGrid>;
 ```
 
 You can also render Button as a given HTML tag, e.g. if you want it to look like a button but wrap it with a react-router's `Link` component:
