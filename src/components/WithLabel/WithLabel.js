@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Box from '../../layout/Box';
 
 const Ellipsis = ({ ellipsis, ...otherProps }) => <div {...otherProps} />;
 Ellipsis.propTypes = { ellipsis: PropTypes.bool };
@@ -15,7 +16,7 @@ const Label = styled(Ellipsis)`
   max-width: 100%;
   ${p => p.ellipsis && ellipsisCss};
   font-weight: ${p => p.theme.fontWeightBold};
-  color: ${p => p.theme.grey01};
+  color: ${p => (p.invalid ? p.theme.danger : p.theme.grey01)};
 `;
 
 const Content = styled(Ellipsis)`
@@ -26,7 +27,7 @@ const Content = styled(Ellipsis)`
   color: inherit;
 `;
 
-const Wrapper = styled(({ direction, ...otherProps }) => <div {...otherProps} />)`
+const Wrapper = styled(({ direction, ...otherProps }) => <Box {...otherProps} />)`
   display: flex;
   flex-flow: ${p => (p.direction === 'vertical' ? 'column' : 'row')} nowrap;
   align-items: ${p => (p.direction === 'vertical' ? 'flex-start' : 'center')};
@@ -41,9 +42,11 @@ const Wrapper = styled(({ direction, ...otherProps }) => <div {...otherProps} />
   color: ${p => p.theme.grey02};
 `;
 
-const WithLabel = ({ direction, label, children, ellipsis, ...otherProps }) => (
+const WithLabel = ({ direction, label, children, ellipsis, invalid, ...otherProps }) => (
   <Wrapper direction={direction} {...otherProps}>
-    <Label ellipsis={ellipsis}>{label}</Label>
+    <Label ellipsis={ellipsis} invalid={invalid}>
+      {label}
+    </Label>
     <Content ellipsis={ellipsis}>{children}</Content>
   </Wrapper>
 );
@@ -51,6 +54,7 @@ const WithLabel = ({ direction, label, children, ellipsis, ...otherProps }) => (
 WithLabel.defaultProps = {
   direction: 'vertical',
   ellipsis: false,
+  invalid: false,
 };
 
 WithLabel.propTypes = {
@@ -58,6 +62,7 @@ WithLabel.propTypes = {
   children: PropTypes.node,
   direction: PropTypes.oneOf(['horizontal', 'vertical']),
   ellipsis: PropTypes.bool,
+  invalid: PropTypes.bool,
 };
 
 export default WithLabel;

@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <WithLabel
     direction="vertical"
     ellipsis={false}
+    invalid={false}
     label="Total WSP"
   >
     EUR 
@@ -44,6 +45,7 @@ ShallowWrapper {
       "children": Array [
         <WithLabel__Label
           ellipsis={false}
+          invalid={false}
         >
           Total WSP
         </WithLabel__Label>,
@@ -83,6 +85,7 @@ ShallowWrapper {
         "props": Object {
           "children": "Total WSP",
           "ellipsis": false,
+          "invalid": false,
         },
         "ref": null,
         "rendered": "Total WSP",
@@ -164,6 +167,7 @@ ShallowWrapper {
         "children": Array [
           <WithLabel__Label
             ellipsis={false}
+            invalid={false}
           >
             Total WSP
           </WithLabel__Label>,
@@ -203,6 +207,7 @@ ShallowWrapper {
           "props": Object {
             "children": "Total WSP",
             "ellipsis": false,
+            "invalid": false,
           },
           "ref": null,
           "rendered": "Total WSP",
@@ -300,6 +305,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <WithLabel
     direction="vertical"
     ellipsis={false}
+    invalid={false}
     label="Pieces"
   >
     0
@@ -319,6 +325,7 @@ ShallowWrapper {
       "children": Array [
         <WithLabel__Label
           ellipsis={false}
+          invalid={false}
         >
           Pieces
         </WithLabel__Label>,
@@ -339,6 +346,7 @@ ShallowWrapper {
         "props": Object {
           "children": "Pieces",
           "ellipsis": false,
+          "invalid": false,
         },
         "ref": null,
         "rendered": "Pieces",
@@ -368,6 +376,7 @@ ShallowWrapper {
         "children": Array [
           <WithLabel__Label
             ellipsis={false}
+            invalid={false}
           >
             Pieces
           </WithLabel__Label>,
@@ -388,6 +397,7 @@ ShallowWrapper {
           "props": Object {
             "children": "Pieces",
             "ellipsis": false,
+            "invalid": false,
           },
           "ref": null,
           "rendered": "Pieces",
@@ -433,6 +443,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <WithLabel
     direction="horizontal"
     ellipsis={false}
+    invalid={false}
     label="RRP"
     style={
       Object {
@@ -457,6 +468,7 @@ ShallowWrapper {
       "children": Array [
         <WithLabel__Label
           ellipsis={false}
+          invalid={false}
         >
           RRP
         </WithLabel__Label>,
@@ -480,6 +492,7 @@ ShallowWrapper {
         "props": Object {
           "children": "RRP",
           "ellipsis": false,
+          "invalid": false,
         },
         "ref": null,
         "rendered": "RRP",
@@ -509,6 +522,7 @@ ShallowWrapper {
         "children": Array [
           <WithLabel__Label
             ellipsis={false}
+            invalid={false}
           >
             RRP
           </WithLabel__Label>,
@@ -532,6 +546,7 @@ ShallowWrapper {
           "props": Object {
             "children": "RRP",
             "ellipsis": false,
+            "invalid": false,
           },
           "ref": null,
           "rendered": "RRP",
