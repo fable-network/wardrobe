@@ -20,6 +20,7 @@ export SkeletonLoading from './components/SkeletonLoading';
 export TabBar from './components/TabBar';
 export TabBarItem from './components/TabBarItem';
 export Table from './components/Table';
+export ToggleMenu from './components/ToggleMenu';
 export ToolTip from './components/ToolTip';
 export WithLabel from './components/WithLabel';
 

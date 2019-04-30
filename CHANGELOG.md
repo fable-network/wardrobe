@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Changed
+
+- Expose ToggleMenu component (not documented).
+
 ## [5.5.1] - 2019-04-30
 
 ### Changed
