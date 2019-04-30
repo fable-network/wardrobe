@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Box from '../../layout/Box';
 
 const Ellipsis = ({ ellipsis, ...otherProps }) => <div {...otherProps} />;
 Ellipsis.propTypes = { ellipsis: PropTypes.bool };
@@ -26,14 +27,8 @@ const Content = styled(Ellipsis)`
   color: inherit;
 `;
 
-const Wrapper = styled(({ direction, ...otherProps }) => <div {...otherProps} />)`
-  display: flex;
-  flex-flow: ${p => (p.direction === 'vertical' ? 'column' : 'row')} nowrap;
-  align-items: ${p => (p.direction === 'vertical' ? 'flex-start' : 'center')};
-  justify-content: flex-start;
-
+const Wrapper = styled(Box)`
   ${p => p.direction === 'horizontal' && '> * { width: 50%; }'};
-
   font-family: inherit;
   font-weight: ${p => p.theme.fontWeightNormal};
   font-size: ${p => p.theme.fontSizeSmall};
@@ -41,8 +36,8 @@ const Wrapper = styled(({ direction, ...otherProps }) => <div {...otherProps} />
   color: ${p => p.theme.grey02};
 `;
 
-const WithLabel = ({ direction, label, children, ellipsis, ...otherProps }) => (
-  <Wrapper direction={direction} {...otherProps}>
+const WithLabel = ({ label, children, ellipsis, ...otherProps }) => (
+  <Wrapper {...otherProps}>
     <Label ellipsis={ellipsis}>{label}</Label>
     <Content ellipsis={ellipsis}>{children}</Content>
   </Wrapper>
