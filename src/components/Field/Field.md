@@ -1,5 +1,5 @@
 The `Field` component is an `Input` with a label positioned above it. The component to render as the `Input`
-must be passed into the `Field` via the `input` prop. Other fields props passed into the field will also
+must be passed into the `Field` via the `renderInput` prop. Other fields props passed into the field will also
 be passed into the `WithLabel` component.
 
 Standard:
@@ -9,7 +9,7 @@ const Input = require('../Input').default;
 
 <Field
   label="Label"
-  input={() => <Input type="text" placeholder="Empty state" value="" onChange={() => null} />}
+  renderInput={() => <Input type="text" placeholder="Empty state" value="" onChange={() => null} />}
 />;
 ```
 
@@ -21,7 +21,7 @@ const Input = require('../Input').default;
 <Field
   invalid={true}
   label="Label"
-  input={invalid => (
+  renderInput={({ invalid }) => (
     <Input type="text" placeholder="Empty state" value="" onChange={() => null} invalid />
   )}
 />;

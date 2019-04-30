@@ -8,15 +8,15 @@ const StyledField = styled(WithLabel)`
   align-items: stretch;
 `;
 
-const Field = ({ label, input, ...otherProps }) => (
+const Field = ({ label, renderInput, ...otherProps }) => (
   <StyledField label={label} stack="S" {...otherProps}>
-    {input(otherProps)}
+    {renderInput(otherProps)}
   </StyledField>
 );
 
 Field.propTypes = {
   label: PropTypes.string.isRequired,
-  input: PropTypes.func.isRequired,
+  renderInput: PropTypes.func.isRequired,
 };
 
 export default Field;

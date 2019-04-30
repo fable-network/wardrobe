@@ -3,6 +3,7 @@
 ### Added
 
 - [Box](/#/Layout?id=box) component.
+- [Field](/#/Layout?id=field) component.
 
 ## [5.4.0] - 2019-04-26
 
