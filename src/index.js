@@ -5,6 +5,7 @@ export CheckBox from './components/CheckBox';
 export ColorSelector from './components/ColorSelector';
 export Dialog from './components/Dialog';
 export Dropdown from './components/Dropdown';
+export Field from './components/Field';
 export Icon from './components/Icon';
 export IconButton from './components/IconButton';
 export Input from './components/Input';
