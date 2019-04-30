@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.5.1] - 2019-04-30
+
 ### Changed
 
 - Update components exports.
