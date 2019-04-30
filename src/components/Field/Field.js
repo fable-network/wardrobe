@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import WithLabel from 'components/WithLabel';
+import WithLabel from '../WithLabel';
 
 const StyledField = styled(WithLabel)`
   width: 100%;
