@@ -17,6 +17,8 @@ const nonCollapsingErrorCSS = css`
 
 const FieldError = styled.div`
   color: ${p => p.theme.danger};
+  font-size: ${p => p.theme.fontSizeSmall};
+  line-height: ${p => p.theme.lineHeightSmall};
   ${p => p.reserveSpaceForError && nonCollapsingErrorCSS};
 `;
 
