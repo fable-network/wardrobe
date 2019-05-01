@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.6.0] - 2019-05-01
+
 ### Changed
 
 - Added a space for error messages below `Field`s
