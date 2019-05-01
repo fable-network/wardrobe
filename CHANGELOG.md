@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+### Changed
+
+- Add a `shrink` option to [Dropdown](/#/Components?id=dropdown) to not have a min-width.
+- Fix heights of different [Badge](/#/Components?id=badge) component variants.
+
 ## [5.6.0] - 2019-05-01
 
 ### Changed

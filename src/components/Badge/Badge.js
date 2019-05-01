@@ -19,7 +19,7 @@ const getSize = ({ size, theme }) => {
   switch (size) {
     case 'small':
       return css`
-        padding: 2px 0.75em 1px;
+        padding: 1px 0.75em 1px;
         font-size: ${theme.fontSizeXSmall};
         line-height: ${theme.lineHeightXSmall};
       `;
@@ -32,7 +32,7 @@ const getSize = ({ size, theme }) => {
     case 'normal':
     default:
       return css`
-        padding: 2px 0.75em 1px;
+        padding: 1px 0.75em 1px;
         font-size: ${theme.fontSizeSmall};
         line-height: ${theme.lineHeightSmall};
       `;

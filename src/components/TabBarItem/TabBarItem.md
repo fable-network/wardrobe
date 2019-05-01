@@ -1,1 +1,1 @@
-See [TabBar](/#/Components/?id=tabbar-1)
+See [TabBar](/#/Components/?id=tabbar)

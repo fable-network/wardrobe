@@ -27,7 +27,7 @@ const DropdownButton = styled.div`
   flex-flow: row nowrap;
   align-items: center;
   box-sizing: border-box;
-  min-width: 240px;
+  ${p => !p.shrink && 'min-width: 240px;'};
   max-width: 100%;
   ${p => p.fluid && 'width: 100%;'};
   background-color: ${p => (p.disabled ? p.theme.grey06 : p.theme.white)};
@@ -132,6 +132,7 @@ const IconWrapper = styled.div`
   flex: 0 0 24px;
   text-align: right;
   font-size: 0;
+  margin-left: 0.5rem;
 `;
 
 const Spinner = withTheme(({ theme }) => <LoadingSpinner size={theme.fontSizeBase} />);
@@ -424,6 +425,7 @@ class Dropdown extends Component {
       search,
       placeholder,
       size,
+      shrink,
       invalid,
     } = this.props;
     const { searchText } = this.state;
@@ -433,6 +435,7 @@ class Dropdown extends Component {
     return (
       <DropdownButton
         size={size}
+        shrink={shrink}
         disabled={disabled}
         onClick={this.handleTriggerClick(toggle)}
         onKeyDown={this.handleTriggerKeyDown(toggle)}
@@ -548,6 +551,8 @@ Dropdown.propTypes = {
   /** A placeholder for a search field. */
   placeholder: PropTypes.string,
   size: PropTypes.oneOf(['normal', 'large']),
+  /** If `true`, doesn't have a min width. */
+  shrink: PropTypes.bool,
   open: PropTypes.bool,
   onClose: PropTypes.func,
   onOpen: PropTypes.func,
