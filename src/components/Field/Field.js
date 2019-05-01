@@ -1,22 +1,44 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import WithLabel from '../WithLabel';
+import Box from '../../layout/Box/Box';
 
-const StyledField = styled(WithLabel)`
+const LabelAndInput = styled(WithLabel)`
   width: 100%;
   align-items: stretch;
 `;
 
-const Field = ({ label, renderInput, ...otherProps }) => (
-  <StyledField label={label} stack="S" {...otherProps}>
-    {renderInput(otherProps)}
-  </StyledField>
+const nonCollapsingErrorCSS = css`
+  &:empty:before {
+    content: '\\a0';
+  }
+`;
+
+const FieldError = styled.div`
+  color: ${p => p.theme.danger};
+  ${p => p.reserveSpaceForError && nonCollapsingErrorCSS};
+`;
+
+const Field = ({ label, renderInput, errorMessage, reserveSpaceForError, ...otherProps }) => (
+  <Box stack="S">
+    <LabelAndInput label={label} stack="S" {...otherProps}>
+      {renderInput(otherProps)}
+    </LabelAndInput>
+    <FieldError reserveSpaceForError={reserveSpaceForError}>{errorMessage}</FieldError>
+  </Box>
 );
 
 Field.propTypes = {
   label: PropTypes.string.isRequired,
   renderInput: PropTypes.func.isRequired,
+  errorMessage: PropTypes.string,
+  reserveSpaceForError: PropTypes.bool,
+};
+
+Field.defaultProps = {
+  errorMessage: '',
+  reserveSpaceForError: true,
 };
 
 export default Field;
