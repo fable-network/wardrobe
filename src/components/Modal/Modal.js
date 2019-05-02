@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import * as focusScope from 'a11y-focus-scope';
 import * as focusStore from 'a11y-focus-store';
 import { theme as defaultTheme } from '../../theme';
+import generateId from '../../helpers/generateId';
 
 const Backdrop = styled.section`
   position: fixed;
@@ -47,13 +49,22 @@ const Content = styled.div`
  * Modal component.
  */
 class Modal extends Component {
-  previousBodyOverflow = null;
+  constructor(props) {
+    super(props);
+    this.state = { nodeInserted: false, id: generateId() };
+    this.previousBodyOverflow = null;
+    this.node = document.createElement('div');
+    this.node.setAttribute('data-ft-modal', this.state.id);
+  }
 
   componentDidMount() {
     const { open } = this.props;
-    if (open) {
-      this.handleShow();
-    }
+    document.body.appendChild(this.node);
+    this.setState({ nodeInserted: true }, () => {
+      if (open) {
+        this.handleShow();
+      }
+    });
   }
 
   componentDidUpdate({ open: prevOpen }) {
@@ -66,6 +77,7 @@ class Modal extends Component {
   }
 
   componentWillUnmount() {
+    document.body.removeChild(this.node);
     this.handleHide();
   }
 
@@ -131,13 +143,13 @@ class Modal extends Component {
 
   render() {
     const { backdropColor, open, children, ...otherProps } = this.props;
-    if (!open) {
+    const { nodeInserted } = this.state;
+    if (!open || !nodeInserted) {
       return null;
     }
-    return (
+    return ReactDOM.createPortal(
       <Backdrop
         backdropColor={backdropColor}
-        role="dialog"
         onClick={this.handleBackdropClick}
         data-component-name="modal-backdrop"
       >
@@ -146,10 +158,13 @@ class Modal extends Component {
           innerRef={this.handleRef}
           onClick={this.handleModalClick}
           tabIndex="-1"
+          role="dialog"
+          aria-modal="true"
         >
           <Content>{children}</Content>
         </ModalWrapper>
-      </Backdrop>
+      </Backdrop>,
+      this.node
     );
   }
 }

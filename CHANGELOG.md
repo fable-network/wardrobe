@@ -8,6 +8,7 @@
 - Made [Field](/#/Components?id=field) error messages smaller
 - Remove [Field](/#/Components?id=field) error messages altogether when `reserveSpaceForError` is false and there's no error.
 - Make [Icon](/#/Components?id=icon) render it's `width` and `height` props in CSS instead of `svg` attributes.
+- Show [Modal](/#/Components?id=modal) in it's own DOM node via React Portals.
 
 ## [5.6.0] - 2019-05-01
 
