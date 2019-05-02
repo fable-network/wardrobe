@@ -20,6 +20,8 @@
 
 **width / height**
 
+Props `width` and `height`'s values are rendered in CSS to support relative units (`em`/`rem`) in all browsers.
+
 When using a custom size, the aspect ratio of the icon is preserved.
 Whitespace will be added to create the desired width and height.
 
