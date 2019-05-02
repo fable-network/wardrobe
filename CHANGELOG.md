@@ -2,9 +2,11 @@
 
 ### Changed
 
+- [Text](/#/Components?id=text) component
 - Add a `shrink` option to [Dropdown](/#/Components?id=dropdown) to not have a min-width.
 - Fix heights of different [Badge](/#/Components?id=badge) component variants.
 - Made [Field](/#/Components?id=field) error messages smaller
+- Remove [Field](/#/Components?id=field) error messages altogether when `reserveSpaceForError` is false and there's no error.
 
 ## [5.6.0] - 2019-05-01
 
