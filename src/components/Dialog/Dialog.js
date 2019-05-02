@@ -51,7 +51,7 @@ const Wrapper = styled.div`
   max-width: 100%;
   position: relative;
 
-  ${p => p.theme.mobile`
+  ${p => p.theme.tablet_down`
     min-height: 100vh;
   `};
 
