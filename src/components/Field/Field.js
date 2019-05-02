@@ -27,7 +27,9 @@ const Field = ({ label, renderInput, errorMessage, reserveSpaceForError, ...othe
     <LabelAndInput label={label} stack="S" {...otherProps}>
       {renderInput(otherProps)}
     </LabelAndInput>
-    <FieldError reserveSpaceForError={reserveSpaceForError}>{errorMessage}</FieldError>
+    {(reserveSpaceForError || errorMessage) && (
+      <FieldError reserveSpaceForError={reserveSpaceForError}>{errorMessage}</FieldError>
+    )}
   </Box>
 );
 
