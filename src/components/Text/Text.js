@@ -20,13 +20,13 @@ const Text = styled(({ size, bold, renderAs, children, ...otherProps }) =>
   margin: 0;
   font-size: ${p => p.theme[`fontSize${sizeToFont[p.size]}`]};
   line-height: ${p => p.theme[`lineHeight${sizeToFont[p.size]}`]};
-  ${p => p.bold && `font-weight: ${p.theme.fontWeightBold}`};
+  font-weight: ${p => (p.bold ? p.theme.fontWeightBold : p.theme.fontWeightNormal)};
 `;
 
 Text.defaultProps = {
   size: 'M',
   bold: false,
-  renderAs: 'div',
+  renderAs: 'p',
 };
 
 Text.propTypes = {

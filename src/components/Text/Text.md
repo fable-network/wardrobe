@@ -1,13 +1,13 @@
 The `Text` component saves you from having to individually apply styles for `font-weight`, `font-size`
-and `line-height` to components, while using the defined typographic styles. The size and weight of the\
+and `line-height` to components, while using the defined typographic styles. The size and weight of the
 text can be defined with the `size` prop and `bold` props which take a t-shirt size (XS - XXXL) and a
-boolean. The `renderAs` prop can be used to determine which tag is used for the element (defaults to div).
+boolean. The `renderAs` prop can be used to determine which tag is used for the element (defaults to `p`).
 
 These tags come without margins, so using the [Box](/#/Layout?id=box) component to space them is recommended.
 
 ```jsx
 <Text bold size="XXXL" renderAs="h1">Some text in the h1 style</Text>
-<Text renderAs="p">Some copy in the base size</Text>
+<Text renderAs="div">Some copy in the base size and rendered in a div</Text>
 ```
 
 ### Helper components
