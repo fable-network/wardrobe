@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.7.0] - 2019-05-02
+
 ### Changed
 
 - [Text](/#/Components?id=text) component
