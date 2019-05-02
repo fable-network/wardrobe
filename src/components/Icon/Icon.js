@@ -1,12 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import '../../static/iconsprite.svg';
+
+const parseSizeValue = value => {
+  const numRegex = /^\d+$/;
+  if (typeof value === 'number' || numRegex.test(value)) {
+    return `${value}px`;
+  }
+  return value;
+};
+
+const Svg = styled(({ width, height, ...otherProps }) => <svg {...otherProps} />)`
+  width: ${p => parseSizeValue(p.width)};
+  height ${p => parseSizeValue(p.height)};
+`;
 
 /**
  * Uses a SVG sprite to show icons based on name
  */
 const Icon = ({ name, color, fill, stroke, width, height, strokeWidth, ...otherProps }) => (
-  <svg
+  <Svg
     className="ft-icon"
     width={width}
     height={height}
@@ -16,7 +30,7 @@ const Icon = ({ name, color, fill, stroke, width, height, strokeWidth, ...otherP
     {...otherProps}
   >
     <use xlinkHref={`/iconsprite.svg#icon-${name}`} />
-  </svg>
+  </Svg>
 );
 
 Icon.propTypes = {
@@ -30,9 +44,9 @@ Icon.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
   stroke: PropTypes.string,
-  /** Change width; SVG ratio will be preserved */
+  /** Change width; SVG ratio will be preserved. Rendered in CSS. */
   width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  /** Change height; SVG ratio will be preserved */
+  /** Change height; SVG ratio will be preserved. Rendered in CSS. */
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   strokeWidth: PropTypes.number,
 };
