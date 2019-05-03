@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Changed
+
+- Add a missing `forwardRef` on [Dialog](/#/Components?id=dialog).
+
 ### Breaking changes
 
 - Update to `styled-components@^4.2.0`, peer React version is changed to `16.3.0`.

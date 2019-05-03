@@ -3,7 +3,7 @@
 exports[`Dialog Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
+  Symbol(enzyme.__unrendered__): <ForwardRef
     onClose={[Function]}
     showCloseButton={false}
     size="normal"
@@ -34,7 +34,7 @@ ShallowWrapper {
         Cancel
       </ForwardRef>
     </ForwardRef>
-  </Dialog>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -786,7 +786,7 @@ ShallowWrapper {
 exports[`Dialog Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
+  Symbol(enzyme.__unrendered__): <ForwardRef
     onClose={[Function]}
     showCloseButton={false}
     size="small"
@@ -817,7 +817,7 @@ ShallowWrapper {
         Cancel
       </ForwardRef>
     </ForwardRef>
-  </Dialog>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -1569,7 +1569,7 @@ ShallowWrapper {
 exports[`Dialog Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
+  Symbol(enzyme.__unrendered__): <ForwardRef
     onClose={[Function]}
     showCloseButton={false}
     size="large"
@@ -1600,7 +1600,7 @@ ShallowWrapper {
         Cancel
       </ForwardRef>
     </ForwardRef>
-  </Dialog>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -2352,7 +2352,7 @@ ShallowWrapper {
 exports[`Dialog Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
+  Symbol(enzyme.__unrendered__): <ForwardRef
     onClose={[Function]}
     showCloseButton={false}
     size="auto"
@@ -2383,7 +2383,7 @@ ShallowWrapper {
         Cancel
       </ForwardRef>
     </ForwardRef>
-  </Dialog>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -3135,7 +3135,7 @@ ShallowWrapper {
 exports[`Dialog Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
+  Symbol(enzyme.__unrendered__): <ForwardRef
     onClose={[Function]}
     showCloseButton={true}
     size="normal"
@@ -3143,7 +3143,7 @@ ShallowWrapper {
     <ForwardRef>
       Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
     </ForwardRef>
-  </Dialog>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
