@@ -10,18 +10,20 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           color="#e25454"
           disableInteraction={true}
           isMissingColor={false}
@@ -36,7 +38,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": "#e25454",
           "disableInteraction": true,
@@ -47,20 +49,69 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       undefined,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             color="#e25454"
             disableInteraction={true}
             isMissingColor={false}
@@ -75,7 +126,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": "#e25454",
             "disableInteraction": true,
@@ -86,27 +137,85 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         undefined,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -122,18 +231,20 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           color="#5F9DC7"
           disableInteraction={false}
           isMissingColor={false}
@@ -148,7 +259,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": "#5F9DC7",
           "disableInteraction": false,
@@ -159,20 +270,69 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       undefined,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             color="#5F9DC7"
             disableInteraction={false}
             isMissingColor={false}
@@ -187,7 +347,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": "#5F9DC7",
             "disableInteraction": false,
@@ -198,27 +358,85 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         undefined,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -233,18 +451,20 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           disableInteraction={false}
           isMissingColor={false}
           patternImage="images/patternImage.jpg"
@@ -259,7 +479,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": undefined,
           "disableInteraction": false,
@@ -270,20 +490,69 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       undefined,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             disableInteraction={false}
             isMissingColor={false}
             patternImage="images/patternImage.jpg"
@@ -298,7 +567,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": undefined,
             "disableInteraction": false,
@@ -309,27 +578,85 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         undefined,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -345,28 +672,30 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           color="#aecc76"
           disableInteraction={false}
           isMissingColor={false}
           selected={false}
         />,
-        <ColorSelector__Text
+        <ForwardRef
           selected={false}
         >
           Lime green
-        </ColorSelector__Text>,
+        </ForwardRef>,
       ],
       "onClick": undefined,
     },
@@ -375,7 +704,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": "#aecc76",
           "disableInteraction": false,
@@ -386,41 +715,110 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Lime green",
           "selected": false,
         },
         "ref": null,
         "rendered": "Lime green",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__Text-sc-1g3pghm-2",
+            "isStatic": false,
+            "rules": Array [
+              "margin-left:8px;font-weight:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "ColorSelector__Text",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             color="#aecc76"
             disableInteraction={false}
             isMissingColor={false}
             selected={false}
           />,
-          <ColorSelector__Text
+          <ForwardRef
             selected={false}
           >
             Lime green
-          </ColorSelector__Text>,
+          </ForwardRef>,
         ],
         "onClick": undefined,
       },
@@ -429,7 +827,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": "#aecc76",
             "disableInteraction": false,
@@ -440,38 +838,116 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Lime green",
             "selected": false,
           },
           "ref": null,
           "rendered": "Lime green",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__Text-sc-1g3pghm-2",
+              "isStatic": false,
+              "rules": Array [
+                "margin-left:8px;font-weight:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "ColorSelector__Text",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -487,28 +963,30 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           color="#aecc76"
           disableInteraction={false}
           isMissingColor={false}
           selected={true}
         />,
-        <ColorSelector__Text
+        <ForwardRef
           selected={true}
         >
           Lime green
-        </ColorSelector__Text>,
+        </ForwardRef>,
       ],
       "onClick": undefined,
     },
@@ -517,7 +995,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": "#aecc76",
           "disableInteraction": false,
@@ -528,41 +1006,110 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Lime green",
           "selected": true,
         },
         "ref": null,
         "rendered": "Lime green",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__Text-sc-1g3pghm-2",
+            "isStatic": false,
+            "rules": Array [
+              "margin-left:8px;font-weight:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "ColorSelector__Text",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             color="#aecc76"
             disableInteraction={false}
             isMissingColor={false}
             selected={true}
           />,
-          <ColorSelector__Text
+          <ForwardRef
             selected={true}
           >
             Lime green
-          </ColorSelector__Text>,
+          </ForwardRef>,
         ],
         "onClick": undefined,
       },
@@ -571,7 +1118,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": "#aecc76",
             "disableInteraction": false,
@@ -582,38 +1129,116 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Lime green",
             "selected": true,
           },
           "ref": null,
           "rendered": "Lime green",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__Text-sc-1g3pghm-2",
+              "isStatic": false,
+              "rules": Array [
+                "margin-left:8px;font-weight:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "ColorSelector__Text",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -630,18 +1255,20 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           color="#e25454"
           disableInteraction={false}
           fixedSize="40px"
@@ -657,7 +1284,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": "#e25454",
           "disableInteraction": false,
@@ -668,20 +1295,69 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       undefined,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             color="#e25454"
             disableInteraction={false}
             fixedSize="40px"
@@ -697,7 +1373,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": "#e25454",
             "disableInteraction": false,
@@ -708,27 +1384,85 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         undefined,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -742,18 +1476,20 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <ColorSelector__ColorCircle
+        <ForwardRef
           disableInteraction={false}
           isMissingColor={true}
           selected={false}
@@ -767,7 +1503,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "color": undefined,
           "disableInteraction": false,
@@ -778,20 +1514,69 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "isStatic": false,
+            "rules": Array [
+              "background-color:",
+              [Function],
+              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+              [Function],
+              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+              " ",
+              [Function],
+            ],
+          },
+          "displayName": "ColorSelector__ColorCircle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       undefined,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;cursor:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "ColorSelector__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <ColorSelector__ColorCircle
+          <ForwardRef
             disableInteraction={false}
             isMissingColor={true}
             selected={false}
@@ -805,7 +1590,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "color": undefined,
             "disableInteraction": false,
@@ -816,27 +1601,85 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+              "isStatic": false,
+              "rules": Array [
+                "background-color:",
+                [Function],
+                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
+                [Function],
+                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+                " ",
+                [Function],
+              ],
+            },
+            "displayName": "ColorSelector__ColorCircle",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         undefined,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:inline-flex;align-items:center;cursor:",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ColorSelector__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

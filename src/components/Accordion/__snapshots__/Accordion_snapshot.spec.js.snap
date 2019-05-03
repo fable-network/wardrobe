@@ -29,15 +29,17 @@ ShallowWrapper {
   </Accordion>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <AccordionItem
@@ -123,13 +125,29 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "isStatic": true,
+        "rules": Array [],
+      },
+      "displayName": "Accordion__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <AccordionItem
@@ -215,23 +233,48 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+          "isStatic": true,
+          "rules": Array [],
+        },
+        "displayName": "Accordion__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -265,15 +308,17 @@ ShallowWrapper {
   </Accordion>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <AccordionItem
@@ -359,13 +404,29 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "isStatic": true,
+        "rules": Array [],
+      },
+      "displayName": "Accordion__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <AccordionItem
@@ -451,23 +512,48 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+          "isStatic": true,
+          "rules": Array [],
+        },
+        "displayName": "Accordion__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -503,15 +589,17 @@ ShallowWrapper {
   </Accordion>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <AccordionItem
@@ -601,13 +689,29 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "isStatic": true,
+        "rules": Array [],
+      },
+      "displayName": "Accordion__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <AccordionItem
@@ -697,23 +801,48 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+          "isStatic": true,
+          "rules": Array [],
+        },
+        "displayName": "Accordion__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -749,15 +878,17 @@ ShallowWrapper {
   </Accordion>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <AccordionItem
@@ -847,13 +978,29 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "isStatic": true,
+        "rules": Array [],
+      },
+      "displayName": "Accordion__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <AccordionItem
@@ -943,23 +1090,48 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Accordion__Wrapper-sc-1fl4boc-0",
+          "isStatic": true,
+          "rules": Array [],
+        },
+        "displayName": "Accordion__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Accordion__Wrapper-sc-1fl4boc-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

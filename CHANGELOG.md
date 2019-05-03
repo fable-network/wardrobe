@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Breaking changes
+
+- Update to `styled-components@^4.2.0`, peer React version is changed to `16.3.0`.
+
 ## [5.7.2] - 2019-05-07
 
 ### Changed

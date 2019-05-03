@@ -3,28 +3,77 @@
 exports[`Text Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Text
+  Symbol(enzyme.__unrendered__): <ForwardRef
     bold={true}
     renderAs="h1"
     size="XXXL"
   >
     Some text in the h1 style
-  </Text>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
       "bold": true,
       "children": "Some text in the h1 style",
+<<<<<<< HEAD
       "className": "Text-bbIbrg jseUUx",
+=======
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "H1": [Function],
+        "H2": [Function],
+        "H3": [Function],
+        "H4": [Function],
+        "H5": [Function],
+        "H6": [Function],
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Text-m61igh-0",
+          "isStatic": false,
+          "rules": Array [
+            "margin:0;font-size:",
+            [Function],
+            ";line-height:",
+            [Function],
+            ";font-weight:",
+            [Function],
+            ";",
+          ],
+        },
+        "defaultProps": Object {
+          "bold": false,
+          "renderAs": "p",
+          "size": "M",
+        },
+        "displayName": "Text",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "bold": [Function],
+          "children": [Function],
+          "renderAs": [Function],
+          "size": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "Text-m61igh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
+>>>>>>> change(*): update to styled-components v4
       "renderAs": "h1",
       "size": "XXXL",
     },
@@ -36,11 +85,58 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
         "bold": true,
         "children": "Some text in the h1 style",
+<<<<<<< HEAD
         "className": "Text-bbIbrg jseUUx",
+=======
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "H1": [Function],
+          "H2": [Function],
+          "H3": [Function],
+          "H4": [Function],
+          "H5": [Function],
+          "H6": [Function],
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Text-m61igh-0",
+            "isStatic": false,
+            "rules": Array [
+              "margin:0;font-size:",
+              [Function],
+              ";line-height:",
+              [Function],
+              ";font-weight:",
+              [Function],
+              ";",
+            ],
+          },
+          "defaultProps": Object {
+            "bold": false,
+            "renderAs": "p",
+            "size": "M",
+          },
+          "displayName": "Text",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "bold": [Function],
+            "children": [Function],
+            "renderAs": [Function],
+            "size": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "Text-m61igh-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
+>>>>>>> change(*): update to styled-components v4
         "renderAs": "h1",
         "size": "XXXL",
       },
@@ -53,16 +149,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

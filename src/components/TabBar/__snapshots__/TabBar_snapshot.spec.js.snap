@@ -7,45 +7,47 @@ ShallowWrapper {
     align="center"
     size="normal"
   >
-    <TabBarItem
+    <ForwardRef
       value="overview"
     >
       Proposal overview
-    </TabBarItem>
-    <TabBarItem
+    </ForwardRef>
+    <ForwardRef
       value="analytics"
     >
       Analytics
-    </TabBarItem>
+    </ForwardRef>
   </TabBar>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "align": "center",
       "children": Array [
-        <TabBarItem
+        <ForwardRef
           onClick={[Function]}
           selected={false}
           value="overview"
         >
           Proposal overview
-        </TabBarItem>,
-        <TabBarItem
+        </ForwardRef>,
+        <ForwardRef
           onClick={[Function]}
           selected={false}
           value="analytics"
         >
           Analytics
-        </TabBarItem>,
+        </ForwardRef>,
       ],
       "size": "normal",
     },
@@ -54,7 +56,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": ".0",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Proposal overview",
           "onClick": [Function],
@@ -63,12 +65,45 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Proposal overview",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": ".1",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Analytics",
           "onClick": [Function],
@@ -77,33 +112,98 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Analytics",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "TabBar__Wrapper-bwtm1c-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;flex-flow:row wrap;justify-content:",
+          [Function],
+          ";align-items:center;border-bottom:solid 1px ",
+          [Function],
+          ";margin:0;padding:0;min-height:",
+          [Function],
+          ";",
+          ".TabBarItem-sc-16sux8d-0",
+          "{font-size:",
+          [Function],
+          ";line-height:",
+          [Function],
+          ";",
+          [Function],
+          ";}",
+        ],
+      },
+      "displayName": "TabBar__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "align": "center",
         "children": Array [
-          <TabBarItem
+          <ForwardRef
             onClick={[Function]}
             selected={false}
             value="overview"
           >
             Proposal overview
-          </TabBarItem>,
-          <TabBarItem
+          </ForwardRef>,
+          <ForwardRef
             onClick={[Function]}
             selected={false}
             value="analytics"
           >
             Analytics
-          </TabBarItem>,
+          </ForwardRef>,
         ],
         "size": "normal",
       },
@@ -112,7 +212,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": ".0",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Proposal overview",
             "onClick": [Function],
@@ -121,12 +221,45 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Proposal overview",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": ".1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Analytics",
             "onClick": [Function],
@@ -135,27 +268,102 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Analytics",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "TabBar__Wrapper-bwtm1c-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:flex;flex-flow:row wrap;justify-content:",
+            [Function],
+            ";align-items:center;border-bottom:solid 1px ",
+            [Function],
+            ";margin:0;padding:0;min-height:",
+            [Function],
+            ";",
+            ".TabBarItem-sc-16sux8d-0",
+            "{font-size:",
+            [Function],
+            ";line-height:",
+            [Function],
+            ";",
+            [Function],
+            ";}",
+          ],
+        },
+        "displayName": "TabBar__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -168,45 +376,47 @@ ShallowWrapper {
     onSelect={[Function]}
     size="large"
   >
-    <TabBarItem
+    <ForwardRef
       value="overview"
     >
       Proposal overview
-    </TabBarItem>
-    <TabBarItem
+    </ForwardRef>
+    <ForwardRef
       value="analytics"
     >
       Analytics
-    </TabBarItem>
+    </ForwardRef>
   </TabBar>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "align": "center",
       "children": Array [
-        <TabBarItem
+        <ForwardRef
           onClick={[Function]}
           selected={false}
           value="overview"
         >
           Proposal overview
-        </TabBarItem>,
-        <TabBarItem
+        </ForwardRef>,
+        <ForwardRef
           onClick={[Function]}
           selected={true}
           value="analytics"
         >
           Analytics
-        </TabBarItem>,
+        </ForwardRef>,
       ],
       "defaultValue": "analytics",
       "onSelect": [Function],
@@ -217,7 +427,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": ".0",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Proposal overview",
           "onClick": [Function],
@@ -226,12 +436,45 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Proposal overview",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": ".1",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Analytics",
           "onClick": [Function],
@@ -240,33 +483,98 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Analytics",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "TabBar__Wrapper-bwtm1c-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;flex-flow:row wrap;justify-content:",
+          [Function],
+          ";align-items:center;border-bottom:solid 1px ",
+          [Function],
+          ";margin:0;padding:0;min-height:",
+          [Function],
+          ";",
+          ".TabBarItem-sc-16sux8d-0",
+          "{font-size:",
+          [Function],
+          ";line-height:",
+          [Function],
+          ";",
+          [Function],
+          ";}",
+        ],
+      },
+      "displayName": "TabBar__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "align": "center",
         "children": Array [
-          <TabBarItem
+          <ForwardRef
             onClick={[Function]}
             selected={false}
             value="overview"
           >
             Proposal overview
-          </TabBarItem>,
-          <TabBarItem
+          </ForwardRef>,
+          <ForwardRef
             onClick={[Function]}
             selected={true}
             value="analytics"
           >
             Analytics
-          </TabBarItem>,
+          </ForwardRef>,
         ],
         "defaultValue": "analytics",
         "onSelect": [Function],
@@ -277,7 +585,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": ".0",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Proposal overview",
             "onClick": [Function],
@@ -286,12 +594,45 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Proposal overview",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": ".1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Analytics",
             "onClick": [Function],
@@ -300,27 +641,102 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Analytics",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "TabBar__Wrapper-bwtm1c-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:flex;flex-flow:row wrap;justify-content:",
+            [Function],
+            ";align-items:center;border-bottom:solid 1px ",
+            [Function],
+            ";margin:0;padding:0;min-height:",
+            [Function],
+            ";",
+            ".TabBarItem-sc-16sux8d-0",
+            "{font-size:",
+            [Function],
+            ";line-height:",
+            [Function],
+            ";",
+            [Function],
+            ";}",
+          ],
+        },
+        "displayName": "TabBar__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -331,45 +747,47 @@ ShallowWrapper {
     align="left"
     size="normal"
   >
-    <TabBarItem
+    <ForwardRef
       value="overview"
     >
       Proposal overview
-    </TabBarItem>
-    <TabBarItem
+    </ForwardRef>
+    <ForwardRef
       value="analytics"
     >
       Analytics
-    </TabBarItem>
+    </ForwardRef>
   </TabBar>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "align": "left",
       "children": Array [
-        <TabBarItem
+        <ForwardRef
           onClick={[Function]}
           selected={false}
           value="overview"
         >
           Proposal overview
-        </TabBarItem>,
-        <TabBarItem
+        </ForwardRef>,
+        <ForwardRef
           onClick={[Function]}
           selected={false}
           value="analytics"
         >
           Analytics
-        </TabBarItem>,
+        </ForwardRef>,
       ],
       "size": "normal",
     },
@@ -378,7 +796,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": ".0",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Proposal overview",
           "onClick": [Function],
@@ -387,12 +805,45 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Proposal overview",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": ".1",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Analytics",
           "onClick": [Function],
@@ -401,33 +852,98 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Analytics",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "TabBarItem-sc-16sux8d-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;position:relative;color:",
+              [Function],
+              ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+              [Function],
+              " ",
+              [Function],
+              " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+              [Function],
+              ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "TabBarItem",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "children": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "TabBarItem-sc-16sux8d-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "TabBar__Wrapper-bwtm1c-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;flex-flow:row wrap;justify-content:",
+          [Function],
+          ";align-items:center;border-bottom:solid 1px ",
+          [Function],
+          ";margin:0;padding:0;min-height:",
+          [Function],
+          ";",
+          ".TabBarItem-sc-16sux8d-0",
+          "{font-size:",
+          [Function],
+          ";line-height:",
+          [Function],
+          ";",
+          [Function],
+          ";}",
+        ],
+      },
+      "displayName": "TabBar__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "align": "left",
         "children": Array [
-          <TabBarItem
+          <ForwardRef
             onClick={[Function]}
             selected={false}
             value="overview"
           >
             Proposal overview
-          </TabBarItem>,
-          <TabBarItem
+          </ForwardRef>,
+          <ForwardRef
             onClick={[Function]}
             selected={false}
             value="analytics"
           >
             Analytics
-          </TabBarItem>,
+          </ForwardRef>,
         ],
         "size": "normal",
       },
@@ -436,7 +952,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": ".0",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Proposal overview",
             "onClick": [Function],
@@ -445,12 +961,45 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Proposal overview",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": ".1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Analytics",
             "onClick": [Function],
@@ -459,26 +1008,101 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Analytics",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "TabBarItem-sc-16sux8d-0",
+              "isStatic": false,
+              "rules": Array [
+                "display:block;position:relative;color:",
+                [Function],
+                ";background-color:transparent;cursor:pointer;outline:0 none;border:0 none;overflow:visible;border-radius:",
+                [Function],
+                " ",
+                [Function],
+                " 0 0;transform:translateY(1px);[data-whatintent='mouse'] &:hover,[data-whatintent='keyboard'] &:focus{background-color:",
+                [Function],
+                ";}&:disabled{&,&:hover,&:focus{cursor:not-allowed;background-color:transparent;&::after{display:none;}}}",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "TabBarItem",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "children": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "TabBarItem-sc-16sux8d-0",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "TabBar__Wrapper-bwtm1c-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:flex;flex-flow:row wrap;justify-content:",
+            [Function],
+            ";align-items:center;border-bottom:solid 1px ",
+            [Function],
+            ";margin:0;padding:0;min-height:",
+            [Function],
+            ";",
+            ".TabBarItem-sc-16sux8d-0",
+            "{font-size:",
+            [Function],
+            ";line-height:",
+            [Function],
+            ";",
+            [Function],
+            ";}",
+          ],
+        },
+        "displayName": "TabBar__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "TabBar__Wrapper-bwtm1c-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

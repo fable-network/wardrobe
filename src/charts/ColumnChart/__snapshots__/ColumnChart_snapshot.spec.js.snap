@@ -3,7 +3,7 @@
 exports[`ColumnChart Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(ColumnChart)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     caption={[Function]}
     data={
       Array [
@@ -34,105 +34,84 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "allowUpdate": false,
-      "caption": [Function],
-      "data": Array [
-        Object {
-          "name": "Immediate",
-          "y": 231,
-        },
-        Object {
-          "name": "Jan 15, 2019 — Jan 28, 2019",
-          "y": 91,
-        },
-        Object {
-          "name": "Feb 15, 2019 — Mar 28, 2019",
-          "y": 321,
-        },
-        Object {
-          "name": "Apr 15, 2019 — May 28, 2019",
-          "y": 81,
-        },
-        Object {
-          "name": "Jun 15, 2019 — Jul 28, 2019",
-          "y": 263,
-        },
-      ],
-      "height": null,
-      "subtitle": "Total: 480 pieces",
-      "theme": undefined,
-      "title": "Distribution of delivery",
-      "width": null,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "allowUpdate": false,
-        "caption": [Function],
-        "data": Array [
-          Object {
-            "name": "Immediate",
-            "y": 231,
-          },
-          Object {
-            "name": "Jan 15, 2019 — Jan 28, 2019",
-            "y": 91,
-          },
-          Object {
-            "name": "Feb 15, 2019 — Mar 28, 2019",
-            "y": 321,
-          },
-          Object {
-            "name": "Apr 15, 2019 — May 28, 2019",
-            "y": 81,
-          },
-          Object {
-            "name": "Jun 15, 2019 — Jul 28, 2019",
-            "y": 263,
-          },
-        ],
-        "height": null,
-        "subtitle": "Total: 480 pieces",
-        "theme": undefined,
-        "title": "Distribution of delivery",
-        "width": null,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -140,7 +119,7 @@ ShallowWrapper {
 exports[`ColumnChart Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(ColumnChart)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     caption={[Function]}
     data={
       Array [
@@ -156,73 +135,84 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "allowUpdate": false,
-      "caption": [Function],
-      "data": Array [
-        Object {
-          "name": "Immediate",
-          "y": 42,
-        },
-      ],
-      "height": 300,
-      "subtitle": "Total: 42 pieces",
-      "theme": undefined,
-      "title": "Distribution of delivery",
-      "width": null,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "allowUpdate": false,
-        "caption": [Function],
-        "data": Array [
-          Object {
-            "name": "Immediate",
-            "y": 42,
-          },
-        ],
-        "height": 300,
-        "subtitle": "Total: 42 pieces",
-        "theme": undefined,
-        "title": "Distribution of delivery",
-        "width": null,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

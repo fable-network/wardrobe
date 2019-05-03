@@ -3,23 +3,55 @@
 exports[`Ruler Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Ruler
+  Symbol(enzyme.__unrendered__): <ForwardRef
     direction="horizontal"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
-      "className": "Ruler-dqXWVT fjFjoR",
       "direction": "horizontal",
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Ruler-ek30on-0",
+          "isStatic": false,
+          "rules": Array [
+            "display:block;background-color:",
+            [Function],
+            ";",
+            [Function],
+            ";",
+          ],
+        },
+        "defaultProps": Object {
+          "direction": "horizontal",
+        },
+        "displayName": "Ruler",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "direction": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "Ruler-ek30on-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
     },
     "ref": null,
     "rendered": null,
@@ -29,10 +61,40 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
-        "className": "Ruler-dqXWVT fjFjoR",
         "direction": "horizontal",
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Ruler-ek30on-0",
+            "isStatic": false,
+            "rules": Array [
+              "display:block;background-color:",
+              [Function],
+              ";",
+              [Function],
+              ";",
+            ],
+          },
+          "defaultProps": Object {
+            "direction": "horizontal",
+          },
+          "displayName": "Ruler",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "direction": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "Ruler-ek30on-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
       },
       "ref": null,
       "rendered": null,
@@ -43,16 +105,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

@@ -214,7 +214,7 @@ class ToggleMenu extends Component {
         className={className}
         disabled={disabled}
         fluid={fluid}
-        innerRef={c => {
+        ref={c => {
           this.wrapperRef = c;
           if (innerRef) {
             innerRef(c);
@@ -223,7 +223,7 @@ class ToggleMenu extends Component {
       >
         {renderTrigger({ toggle: this.toggleMenu })}
         <MenuWrapper
-          innerRef={c => {
+          ref={c => {
             this.menuRef = c;
           }}
           top={top}

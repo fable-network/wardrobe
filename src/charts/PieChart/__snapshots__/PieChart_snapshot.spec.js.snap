@@ -3,7 +3,7 @@
 exports[`PieChart Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(PieChart)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     data={
       Array [
         Object {
@@ -48,129 +48,84 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "allowUpdate": false,
-      "data": Array [
-        Object {
-          "name": "Christmas",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-        Object {
-          "name": "New Year",
-          "price": "EUR 5.282,90",
-          "y": 20,
-        },
-        Object {
-          "name": "Glitter",
-          "price": "EUR 5.282,90",
-          "y": 30,
-        },
-        Object {
-          "name": "Hip Hop",
-          "price": "EUR 5.282,90",
-          "y": 40,
-        },
-        Object {
-          "name": "Street",
-          "price": "EUR 5.282,90",
-          "y": 50,
-        },
-        Object {
-          "name": "Sunny",
-          "price": "EUR 5.282,90",
-          "y": 60,
-        },
-        Object {
-          "name": "Casual",
-          "price": "EUR 5.282,90",
-          "y": 70,
-        },
-      ],
-      "theme": undefined,
-      "title": "Distribution of themes",
-      "tooltip": [Function],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "allowUpdate": false,
-        "data": Array [
-          Object {
-            "name": "Christmas",
-            "price": "EUR 5.282,90",
-            "y": 10,
-          },
-          Object {
-            "name": "New Year",
-            "price": "EUR 5.282,90",
-            "y": 20,
-          },
-          Object {
-            "name": "Glitter",
-            "price": "EUR 5.282,90",
-            "y": 30,
-          },
-          Object {
-            "name": "Hip Hop",
-            "price": "EUR 5.282,90",
-            "y": 40,
-          },
-          Object {
-            "name": "Street",
-            "price": "EUR 5.282,90",
-            "y": 50,
-          },
-          Object {
-            "name": "Sunny",
-            "price": "EUR 5.282,90",
-            "y": 60,
-          },
-          Object {
-            "name": "Casual",
-            "price": "EUR 5.282,90",
-            "y": 70,
-          },
-        ],
-        "theme": undefined,
-        "title": "Distribution of themes",
-        "tooltip": [Function],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -178,7 +133,7 @@ ShallowWrapper {
 exports[`PieChart Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(PieChart)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     colors={
       Array [
         "#d8d8d8",
@@ -221,123 +176,84 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "allowUpdate": false,
-      "colors": Array [
-        "#d8d8d8",
-        "#b1b1b1",
-        "#7e7e7e",
-        "#474747",
-        "#1a1a1a",
-      ],
-      "data": Array [
-        Object {
-          "name": "Light Light Grey",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-        Object {
-          "name": "Light Grey",
-          "price": "EUR 5.282,90",
-          "y": 20,
-        },
-        Object {
-          "name": "Grey",
-          "price": "EUR 5.282,90",
-          "y": 30,
-        },
-        Object {
-          "name": "Dark Grey",
-          "price": "EUR 5.282,90",
-          "y": 40,
-        },
-        Object {
-          "name": "Dark Dark Grey",
-          "price": "EUR 5.282,90",
-          "y": 50,
-        },
-      ],
-      "theme": undefined,
-      "title": "Distribution of themes",
-      "tooltip": [Function],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "allowUpdate": false,
-        "colors": Array [
-          "#d8d8d8",
-          "#b1b1b1",
-          "#7e7e7e",
-          "#474747",
-          "#1a1a1a",
-        ],
-        "data": Array [
-          Object {
-            "name": "Light Light Grey",
-            "price": "EUR 5.282,90",
-            "y": 10,
-          },
-          Object {
-            "name": "Light Grey",
-            "price": "EUR 5.282,90",
-            "y": 20,
-          },
-          Object {
-            "name": "Grey",
-            "price": "EUR 5.282,90",
-            "y": 30,
-          },
-          Object {
-            "name": "Dark Grey",
-            "price": "EUR 5.282,90",
-            "y": 40,
-          },
-          Object {
-            "name": "Dark Dark Grey",
-            "price": "EUR 5.282,90",
-            "y": 50,
-          },
-        ],
-        "theme": undefined,
-        "title": "Distribution of themes",
-        "tooltip": [Function],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -345,7 +261,7 @@ ShallowWrapper {
 exports[`PieChart Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(PieChart)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     colors={
       Array [
         "#6F94AE",
@@ -364,73 +280,84 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "allowUpdate": false,
-      "colors": Array [
-        "#6F94AE",
-      ],
-      "data": Array [
-        Object {
-          "name": "Christmas",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-      ],
-      "theme": undefined,
-      "tooltip": [Function],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "allowUpdate": false,
-        "colors": Array [
-          "#6F94AE",
-        ],
-        "data": Array [
-          Object {
-            "name": "Christmas",
-            "price": "EUR 5.282,90",
-            "y": 10,
-          },
-        ],
-        "theme": undefined,
-        "tooltip": [Function],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

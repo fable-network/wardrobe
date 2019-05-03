@@ -155,7 +155,7 @@ class Modal extends Component {
       >
         <ModalWrapper
           {...otherProps}
-          innerRef={this.handleRef}
+          ref={this.handleRef}
           onClick={this.handleModalClick}
           tabIndex="-1"
           role="dialog"

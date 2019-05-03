@@ -3,11 +3,13 @@
 exports[`LoadingSpinner Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner) />,
+  Symbol(enzyme.__unrendered__): <ForwardRef />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -16,14 +18,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "primary",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -31,30 +42,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "primary",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -62,13 +91,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     speed=".5s"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -77,14 +108,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "primary",
-      "size": "20px",
-      "speed": ".5s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -92,30 +132,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "primary",
-        "size": "20px",
-        "speed": ".5s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -123,13 +181,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     size="40px"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -138,14 +198,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "primary",
-      "size": "40px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -153,30 +222,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "primary",
-        "size": "40px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -184,13 +271,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="secondary"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -199,14 +288,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -214,30 +312,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -245,13 +361,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="success"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -260,14 +378,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "success",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -275,30 +402,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "success",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -306,13 +451,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="warning"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -321,14 +468,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "warning",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -336,30 +492,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "warning",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -367,13 +541,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 7`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="danger"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -382,14 +558,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "danger",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -397,30 +582,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "danger",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -428,13 +631,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 8`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="light"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -443,14 +648,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "light",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -458,30 +672,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "light",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -489,13 +721,15 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 9`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="dark"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -504,14 +738,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "dark",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -519,30 +762,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "dark",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -550,14 +811,16 @@ ShallowWrapper {
 exports[`LoadingSpinner Component snapshots should match snapshot 10`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     color="blue"
     gapColor="red"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -566,16 +829,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "appearance": "primary",
-      "color": "blue",
-      "gapColor": "red",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
+      },
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -583,32 +853,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "appearance": "primary",
-        "color": "blue",
-        "gapColor": "red",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

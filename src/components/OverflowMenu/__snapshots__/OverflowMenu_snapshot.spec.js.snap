@@ -3,149 +3,98 @@
 exports[`OverflowMenu Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)>
-    <DropdownItem
+  Symbol(enzyme.__unrendered__): <ForwardRef>
+    <ForwardRef
       onClick={[Function]}
     >
       Edit
-    </DropdownItem>
-    <DropdownItem
+    </ForwardRef>
+    <ForwardRef
       onClick={[Function]}
     >
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -153,151 +102,100 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     size="medium"
   >
-    <DropdownItem
+    <ForwardRef
       onClick={[Function]}
     >
       Edit
-    </DropdownItem>
-    <DropdownItem
+    </ForwardRef>
+    <ForwardRef
       onClick={[Function]}
     >
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "medium",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "medium",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -305,151 +203,100 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     size="large"
   >
-    <DropdownItem
+    <ForwardRef
       onClick={[Function]}
     >
       Edit
-    </DropdownItem>
-    <DropdownItem
+    </ForwardRef>
+    <ForwardRef
       onClick={[Function]}
     >
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "large",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "large",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -457,96 +304,93 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     persist={true}
   >
     <p>
       Some sample text
     </p>
-  </WithTheme(OverflowMenu)>,
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": <p>
-        Some sample text
-      </p>,
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": true,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Some sample text",
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      "ref": null,
-      "rendered": "Some sample text",
-      "type": "p",
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
     },
-    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": <p>
-          Some sample text
-        </p>,
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": true,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Some sample text",
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        "ref": null,
-        "rendered": "Some sample text",
-        "type": "p",
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
       },
-      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -554,135 +398,96 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 5`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     position="left"
   >
-    <DropdownItem>
+    <ForwardRef>
       Edit
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "left",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "left",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -690,135 +495,96 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 6`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="primary"
   >
-    <DropdownItem>
+    <ForwardRef>
       Edit
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "primary",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "primary",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -826,135 +592,96 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 7`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="danger"
   >
-    <DropdownItem>
+    <ForwardRef>
       Edit
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "danger",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "danger",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -962,137 +689,96 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 8`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     color="red"
   >
-    <DropdownItem>
+    <ForwardRef>
       Action 1
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "color": "red",
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "color": "red",
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -1100,137 +786,96 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 9`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     activeColor="blue"
   >
-    <DropdownItem>
+    <ForwardRef>
       Action 1
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "activeColor": "blue",
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "activeColor": "blue",
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -1238,168 +883,99 @@ ShallowWrapper {
 exports[`OverflowMenu Component snapshots should match snapshot 10`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
+  Symbol(enzyme.__unrendered__): <ForwardRef
     open={true}
   >
     <DropdownTitle>
       You can't close me
     </DropdownTitle>
-    <DropdownItem>
+    <ForwardRef>
       Action 1
-    </DropdownItem>
-    <DropdownItem>
+    </ForwardRef>
+    <ForwardRef>
       Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
+    </ForwardRef>
+  </ForwardRef>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownTitle>
-          You can't close me
-        </DropdownTitle>,
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "open": true,
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": "You can't close me",
-        },
-        "ref": null,
-        "rendered": "You can't close me",
-        "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "Consumer": [Circular],
+      "Provider": Object {
+        "$$typeof": Symbol(react.provider),
+        "context": [Circular],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
+      "_calculateChangedBits": null,
+      "_changedBits": 0,
+      "_currentRenderer": null,
+      "_currentValue": undefined,
+      "_defaultValue": undefined,
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownTitle>
-            You can't close me
-          </DropdownTitle>,
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "open": true,
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "You can't close me",
-          },
-          "ref": null,
-          "rendered": "You can't close me",
-          "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "context": [Circular],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
+        "_calculateChangedBits": null,
+        "_changedBits": 0,
+        "_currentRenderer": null,
+        "_currentValue": undefined,
+        "_defaultValue": undefined,
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

@@ -3,7 +3,7 @@
 exports[`ProgressBar Component snapshots should match snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ProgressBar
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="primary"
     hideBorder={false}
     max={100}
@@ -11,18 +11,58 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
       "appearance": "primary",
-      "className": "ProgressBar-dEgehY Xerim",
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ProgressBar-sc-1qbundh-0",
+          "isStatic": false,
+          "rules": Array [
+            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+            [Function],
+            ";border:",
+            [Function],
+            ";&:before{background-color:",
+            [Function],
+            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+            [Function],
+            "%;transition:width 1s ease;}",
+          ],
+        },
+        "defaultProps": Object {
+          "appearance": "primary",
+          "hideBorder": false,
+        },
+        "displayName": "ProgressBar",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "appearance": [Function],
+          "hideBorder": [Function],
+          "max": [Function],
+          "value": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "ProgressBar-sc-1qbundh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
       "hideBorder": false,
       "max": 100,
       "value": 0,
@@ -35,10 +75,48 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
         "appearance": "primary",
-        "className": "ProgressBar-dEgehY Xerim",
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ProgressBar-sc-1qbundh-0",
+            "isStatic": false,
+            "rules": Array [
+              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+              [Function],
+              ";border:",
+              [Function],
+              ";&:before{background-color:",
+              [Function],
+              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+              [Function],
+              "%;transition:width 1s ease;}",
+            ],
+          },
+          "defaultProps": Object {
+            "appearance": "primary",
+            "hideBorder": false,
+          },
+          "displayName": "ProgressBar",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "appearance": [Function],
+            "hideBorder": [Function],
+            "max": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "ProgressBar-sc-1qbundh-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
         "hideBorder": false,
         "max": 100,
         "value": 0,
@@ -52,16 +130,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -69,7 +156,7 @@ ShallowWrapper {
 exports[`ProgressBar Component snapshots should match snapshot 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ProgressBar
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="primary"
     hideBorder={false}
     max={100}
@@ -77,18 +164,58 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
       "appearance": "primary",
-      "className": "ProgressBar-dEgehY hckykp",
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ProgressBar-sc-1qbundh-0",
+          "isStatic": false,
+          "rules": Array [
+            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+            [Function],
+            ";border:",
+            [Function],
+            ";&:before{background-color:",
+            [Function],
+            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+            [Function],
+            "%;transition:width 1s ease;}",
+          ],
+        },
+        "defaultProps": Object {
+          "appearance": "primary",
+          "hideBorder": false,
+        },
+        "displayName": "ProgressBar",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "appearance": [Function],
+          "hideBorder": [Function],
+          "max": [Function],
+          "value": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "ProgressBar-sc-1qbundh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
       "hideBorder": false,
       "max": 100,
       "value": 42,
@@ -101,10 +228,48 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
         "appearance": "primary",
-        "className": "ProgressBar-dEgehY hckykp",
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ProgressBar-sc-1qbundh-0",
+            "isStatic": false,
+            "rules": Array [
+              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+              [Function],
+              ";border:",
+              [Function],
+              ";&:before{background-color:",
+              [Function],
+              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+              [Function],
+              "%;transition:width 1s ease;}",
+            ],
+          },
+          "defaultProps": Object {
+            "appearance": "primary",
+            "hideBorder": false,
+          },
+          "displayName": "ProgressBar",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "appearance": [Function],
+            "hideBorder": [Function],
+            "max": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "ProgressBar-sc-1qbundh-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
         "hideBorder": false,
         "max": 100,
         "value": 42,
@@ -118,16 +283,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -135,7 +309,7 @@ ShallowWrapper {
 exports[`ProgressBar Component snapshots should match snapshot 3`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ProgressBar
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="primary"
     hideBorder={false}
     max={100}
@@ -143,18 +317,58 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
       "appearance": "primary",
-      "className": "ProgressBar-dEgehY hSfOqa",
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ProgressBar-sc-1qbundh-0",
+          "isStatic": false,
+          "rules": Array [
+            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+            [Function],
+            ";border:",
+            [Function],
+            ";&:before{background-color:",
+            [Function],
+            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+            [Function],
+            "%;transition:width 1s ease;}",
+          ],
+        },
+        "defaultProps": Object {
+          "appearance": "primary",
+          "hideBorder": false,
+        },
+        "displayName": "ProgressBar",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "appearance": [Function],
+          "hideBorder": [Function],
+          "max": [Function],
+          "value": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "ProgressBar-sc-1qbundh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
       "hideBorder": false,
       "max": 100,
       "value": 100,
@@ -167,10 +381,48 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
         "appearance": "primary",
-        "className": "ProgressBar-dEgehY hSfOqa",
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ProgressBar-sc-1qbundh-0",
+            "isStatic": false,
+            "rules": Array [
+              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+              [Function],
+              ";border:",
+              [Function],
+              ";&:before{background-color:",
+              [Function],
+              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+              [Function],
+              "%;transition:width 1s ease;}",
+            ],
+          },
+          "defaultProps": Object {
+            "appearance": "primary",
+            "hideBorder": false,
+          },
+          "displayName": "ProgressBar",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "appearance": [Function],
+            "hideBorder": [Function],
+            "max": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "ProgressBar-sc-1qbundh-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
         "hideBorder": false,
         "max": 100,
         "value": 100,
@@ -184,16 +436,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -201,7 +462,7 @@ ShallowWrapper {
 exports[`ProgressBar Component snapshots should match snapshot 4`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ProgressBar
+  Symbol(enzyme.__unrendered__): <ForwardRef
     appearance="warning"
     hideBorder={false}
     max={100}
@@ -209,18 +470,58 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
       "appearance": "warning",
-      "className": "ProgressBar-dEgehY hckykp",
+      "forwardedComponent": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ProgressBar-sc-1qbundh-0",
+          "isStatic": false,
+          "rules": Array [
+            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+            [Function],
+            ";border:",
+            [Function],
+            ";&:before{background-color:",
+            [Function],
+            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+            [Function],
+            "%;transition:width 1s ease;}",
+          ],
+        },
+        "defaultProps": Object {
+          "appearance": "primary",
+          "hideBorder": false,
+        },
+        "displayName": "ProgressBar",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "appearance": [Function],
+          "hideBorder": [Function],
+          "max": [Function],
+          "value": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "ProgressBar-sc-1qbundh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+      "forwardedRef": null,
       "hideBorder": false,
       "max": 100,
       "value": 42,
@@ -233,10 +534,48 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "class",
       "props": Object {
         "appearance": "warning",
-        "className": "ProgressBar-dEgehY hckykp",
+        "forwardedComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ProgressBar-sc-1qbundh-0",
+            "isStatic": false,
+            "rules": Array [
+              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
+              [Function],
+              ";border:",
+              [Function],
+              ";&:before{background-color:",
+              [Function],
+              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
+              [Function],
+              "%;transition:width 1s ease;}",
+            ],
+          },
+          "defaultProps": Object {
+            "appearance": "primary",
+            "hideBorder": false,
+          },
+          "displayName": "ProgressBar",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "appearance": [Function],
+            "hideBorder": [Function],
+            "max": [Function],
+            "value": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "ProgressBar-sc-1qbundh-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+        "forwardedRef": null,
         "hideBorder": false,
         "max": 100,
         "value": 42,
@@ -250,16 +589,25 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

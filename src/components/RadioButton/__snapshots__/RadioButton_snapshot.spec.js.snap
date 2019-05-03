@@ -9,26 +9,28 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <div>
-          <RadioButton__RadioInput
+          <ForwardRef
             onClick={[Function]}
           />
-          <RadioButton__StyledRadioInput />
+          <ForwardRef />
         </div>,
-        <RadioButton__Label>
+        <ForwardRef>
           Radio label
-        </RadioButton__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
     },
@@ -40,10 +42,10 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <RadioButton__RadioInput
+            <ForwardRef
               onClick={[Function]}
             />,
-            <RadioButton__StyledRadioInput />,
+            <ForwardRef />,
           ],
         },
         "ref": null,
@@ -51,7 +53,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": undefined,
               "name": undefined,
@@ -59,16 +61,70 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [
+                Object {
+                  "type": "radio",
+                },
+              ],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "isStatic": false,
+                "rules": Array [
+                  "opacity:0;left:0;position:absolute;cursor:",
+                  [Function],
+                  ";width:1em;height:1em;&:checked{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";}}&:focus{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0 0 0.3em ",
+                  [Function],
+                  ";}}",
+                ],
+              },
+              "displayName": "RadioButton__RadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+              "target": "input",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "isStatic": false,
+                "rules": Array [
+                  "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                ],
+              },
+              "displayName": "RadioButton__StyledRadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
         "type": "div",
@@ -76,33 +132,71 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Radio label",
         },
         "ref": null,
         "rendered": "Radio label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "RadioButton__Label-sc-11tunvs-2",
+            "isStatic": true,
+            "rules": Array [
+              "margin-left:0.5em;",
+            ],
+          },
+          "displayName": "RadioButton__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "isStatic": false,
+        "rules": Array [
+          "position:relative;display:inline-flex;margin:0;align-items:center;",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "RadioButton__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+      "target": "label",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <div>
-            <RadioButton__RadioInput
+            <ForwardRef
               onClick={[Function]}
             />
-            <RadioButton__StyledRadioInput />
+            <ForwardRef />
           </div>,
-          <RadioButton__Label>
+          <ForwardRef>
             Radio label
-          </RadioButton__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
       },
@@ -114,10 +208,10 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <RadioButton__RadioInput
+              <ForwardRef
                 onClick={[Function]}
               />,
-              <RadioButton__StyledRadioInput />,
+              <ForwardRef />,
             ],
           },
           "ref": null,
@@ -125,7 +219,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checked": undefined,
                 "name": undefined,
@@ -133,16 +227,70 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  Object {
+                    "type": "radio",
+                  },
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                  "isStatic": false,
+                  "rules": Array [
+                    "opacity:0;left:0;position:absolute;cursor:",
+                    [Function],
+                    ";width:1em;height:1em;&:checked{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:",
+                    [Function],
+                    ";}}&:focus{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0 0 0.3em ",
+                    [Function],
+                    ";}}",
+                  ],
+                },
+                "displayName": "RadioButton__RadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {},
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "isStatic": false,
+                  "rules": Array [
+                    "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                  ],
+                },
+                "displayName": "RadioButton__StyledRadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
           "type": "div",
@@ -150,32 +298,79 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Radio label",
           },
           "ref": null,
           "rendered": "Radio label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "RadioButton__Label-sc-11tunvs-2",
+              "isStatic": true,
+              "rules": Array [
+                "margin-left:0.5em;",
+              ],
+            },
+            "displayName": "RadioButton__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+          "isStatic": false,
+          "rules": Array [
+            "position:relative;display:inline-flex;margin:0;align-items:center;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "RadioButton__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "target": "label",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -190,27 +385,29 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <div>
-          <RadioButton__RadioInput
+          <ForwardRef
             checked={true}
             onClick={[Function]}
           />
-          <RadioButton__StyledRadioInput />
+          <ForwardRef />
         </div>,
-        <RadioButton__Label>
+        <ForwardRef>
           Radio label
-        </RadioButton__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
     },
@@ -222,11 +419,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <RadioButton__RadioInput
+            <ForwardRef
               checked={true}
               onClick={[Function]}
             />,
-            <RadioButton__StyledRadioInput />,
+            <ForwardRef />,
           ],
         },
         "ref": null,
@@ -234,7 +431,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": true,
               "name": undefined,
@@ -242,16 +439,70 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [
+                Object {
+                  "type": "radio",
+                },
+              ],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "isStatic": false,
+                "rules": Array [
+                  "opacity:0;left:0;position:absolute;cursor:",
+                  [Function],
+                  ";width:1em;height:1em;&:checked{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";}}&:focus{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0 0 0.3em ",
+                  [Function],
+                  ";}}",
+                ],
+              },
+              "displayName": "RadioButton__RadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+              "target": "input",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "isStatic": false,
+                "rules": Array [
+                  "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                ],
+              },
+              "displayName": "RadioButton__StyledRadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
         "type": "div",
@@ -259,34 +510,72 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Radio label",
         },
         "ref": null,
         "rendered": "Radio label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "RadioButton__Label-sc-11tunvs-2",
+            "isStatic": true,
+            "rules": Array [
+              "margin-left:0.5em;",
+            ],
+          },
+          "displayName": "RadioButton__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "isStatic": false,
+        "rules": Array [
+          "position:relative;display:inline-flex;margin:0;align-items:center;",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "RadioButton__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+      "target": "label",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <div>
-            <RadioButton__RadioInput
+            <ForwardRef
               checked={true}
               onClick={[Function]}
             />
-            <RadioButton__StyledRadioInput />
+            <ForwardRef />
           </div>,
-          <RadioButton__Label>
+          <ForwardRef>
             Radio label
-          </RadioButton__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
       },
@@ -298,11 +587,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <RadioButton__RadioInput
+              <ForwardRef
                 checked={true}
                 onClick={[Function]}
               />,
-              <RadioButton__StyledRadioInput />,
+              <ForwardRef />,
             ],
           },
           "ref": null,
@@ -310,7 +599,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checked": true,
                 "name": undefined,
@@ -318,16 +607,70 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  Object {
+                    "type": "radio",
+                  },
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                  "isStatic": false,
+                  "rules": Array [
+                    "opacity:0;left:0;position:absolute;cursor:",
+                    [Function],
+                    ";width:1em;height:1em;&:checked{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:",
+                    [Function],
+                    ";}}&:focus{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0 0 0.3em ",
+                    [Function],
+                    ";}}",
+                  ],
+                },
+                "displayName": "RadioButton__RadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {},
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "isStatic": false,
+                  "rules": Array [
+                    "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                  ],
+                },
+                "displayName": "RadioButton__StyledRadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
           "type": "div",
@@ -335,32 +678,79 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Radio label",
           },
           "ref": null,
           "rendered": "Radio label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "RadioButton__Label-sc-11tunvs-2",
+              "isStatic": true,
+              "rules": Array [
+                "margin-left:0.5em;",
+              ],
+            },
+            "displayName": "RadioButton__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+          "isStatic": false,
+          "rules": Array [
+            "position:relative;display:inline-flex;margin:0;align-items:center;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "RadioButton__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "target": "label",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -375,27 +765,29 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <div>
-          <RadioButton__RadioInput
+          <ForwardRef
             checked={false}
             onClick={[Function]}
           />
-          <RadioButton__StyledRadioInput />
+          <ForwardRef />
         </div>,
-        <RadioButton__Label>
+        <ForwardRef>
           Radio label
-        </RadioButton__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
     },
@@ -407,11 +799,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <RadioButton__RadioInput
+            <ForwardRef
               checked={false}
               onClick={[Function]}
             />,
-            <RadioButton__StyledRadioInput />,
+            <ForwardRef />,
           ],
         },
         "ref": null,
@@ -419,7 +811,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": false,
               "name": undefined,
@@ -427,16 +819,70 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [
+                Object {
+                  "type": "radio",
+                },
+              ],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "isStatic": false,
+                "rules": Array [
+                  "opacity:0;left:0;position:absolute;cursor:",
+                  [Function],
+                  ";width:1em;height:1em;&:checked{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";}}&:focus{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0 0 0.3em ",
+                  [Function],
+                  ";}}",
+                ],
+              },
+              "displayName": "RadioButton__RadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+              "target": "input",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "isStatic": false,
+                "rules": Array [
+                  "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                ],
+              },
+              "displayName": "RadioButton__StyledRadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
         "type": "div",
@@ -444,34 +890,72 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Radio label",
         },
         "ref": null,
         "rendered": "Radio label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "RadioButton__Label-sc-11tunvs-2",
+            "isStatic": true,
+            "rules": Array [
+              "margin-left:0.5em;",
+            ],
+          },
+          "displayName": "RadioButton__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "isStatic": false,
+        "rules": Array [
+          "position:relative;display:inline-flex;margin:0;align-items:center;",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "RadioButton__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+      "target": "label",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <div>
-            <RadioButton__RadioInput
+            <ForwardRef
               checked={false}
               onClick={[Function]}
             />
-            <RadioButton__StyledRadioInput />
+            <ForwardRef />
           </div>,
-          <RadioButton__Label>
+          <ForwardRef>
             Radio label
-          </RadioButton__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
       },
@@ -483,11 +967,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <RadioButton__RadioInput
+              <ForwardRef
                 checked={false}
                 onClick={[Function]}
               />,
-              <RadioButton__StyledRadioInput />,
+              <ForwardRef />,
             ],
           },
           "ref": null,
@@ -495,7 +979,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checked": false,
                 "name": undefined,
@@ -503,16 +987,70 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  Object {
+                    "type": "radio",
+                  },
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                  "isStatic": false,
+                  "rules": Array [
+                    "opacity:0;left:0;position:absolute;cursor:",
+                    [Function],
+                    ";width:1em;height:1em;&:checked{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:",
+                    [Function],
+                    ";}}&:focus{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0 0 0.3em ",
+                    [Function],
+                    ";}}",
+                  ],
+                },
+                "displayName": "RadioButton__RadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {},
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "isStatic": false,
+                  "rules": Array [
+                    "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                  ],
+                },
+                "displayName": "RadioButton__StyledRadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
           "type": "div",
@@ -520,32 +1058,79 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Radio label",
           },
           "ref": null,
           "rendered": "Radio label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "RadioButton__Label-sc-11tunvs-2",
+              "isStatic": true,
+              "rules": Array [
+                "margin-left:0.5em;",
+              ],
+            },
+            "displayName": "RadioButton__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+          "isStatic": false,
+          "rules": Array [
+            "position:relative;display:inline-flex;margin:0;align-items:center;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "RadioButton__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "target": "label",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -560,27 +1145,29 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <div>
-          <RadioButton__RadioInput
+          <ForwardRef
             disabled={true}
             onClick={[Function]}
           />
-          <RadioButton__StyledRadioInput />
+          <ForwardRef />
         </div>,
-        <RadioButton__Label>
+        <ForwardRef>
           Radio label
-        </RadioButton__Label>,
+        </ForwardRef>,
       ],
       "disabled": true,
     },
@@ -592,11 +1179,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <RadioButton__RadioInput
+            <ForwardRef
               disabled={true}
               onClick={[Function]}
             />,
-            <RadioButton__StyledRadioInput />,
+            <ForwardRef />,
           ],
         },
         "ref": null,
@@ -604,7 +1191,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": undefined,
               "disabled": true,
@@ -613,16 +1200,70 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [
+                Object {
+                  "type": "radio",
+                },
+              ],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "isStatic": false,
+                "rules": Array [
+                  "opacity:0;left:0;position:absolute;cursor:",
+                  [Function],
+                  ";width:1em;height:1em;&:checked{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";}}&:focus{+ ",
+                  ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "{box-shadow:0 0 0.3em ",
+                  [Function],
+                  ";}}",
+                ],
+              },
+              "displayName": "RadioButton__RadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+              "target": "input",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "isStatic": false,
+                "rules": Array [
+                  "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                  [Function],
+                  ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                ],
+              },
+              "displayName": "RadioButton__StyledRadioInput",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
         "type": "div",
@@ -630,34 +1271,72 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Radio label",
         },
         "ref": null,
         "rendered": "Radio label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "RadioButton__Label-sc-11tunvs-2",
+            "isStatic": true,
+            "rules": Array [
+              "margin-left:0.5em;",
+            ],
+          },
+          "displayName": "RadioButton__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "isStatic": false,
+        "rules": Array [
+          "position:relative;display:inline-flex;margin:0;align-items:center;",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "RadioButton__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+      "target": "label",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <div>
-            <RadioButton__RadioInput
+            <ForwardRef
               disabled={true}
               onClick={[Function]}
             />
-            <RadioButton__StyledRadioInput />
+            <ForwardRef />
           </div>,
-          <RadioButton__Label>
+          <ForwardRef>
             Radio label
-          </RadioButton__Label>,
+          </ForwardRef>,
         ],
         "disabled": true,
       },
@@ -669,11 +1348,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <RadioButton__RadioInput
+              <ForwardRef
                 disabled={true}
                 onClick={[Function]}
               />,
-              <RadioButton__StyledRadioInput />,
+              <ForwardRef />,
             ],
           },
           "ref": null,
@@ -681,7 +1360,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "checked": undefined,
                 "disabled": true,
@@ -690,16 +1369,70 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  Object {
+                    "type": "radio",
+                  },
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                  "isStatic": false,
+                  "rules": Array [
+                    "opacity:0;left:0;position:absolute;cursor:",
+                    [Function],
+                    ";width:1em;height:1em;&:checked{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:",
+                    [Function],
+                    ";}}&:focus{+ ",
+                    ".RadioButton__StyledRadioInput-sc-11tunvs-1",
+                    "{box-shadow:0 0 0.3em ",
+                    [Function],
+                    ";}}",
+                  ],
+                },
+                "displayName": "RadioButton__RadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__RadioInput-sc-11tunvs-3",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {},
               "ref": null,
               "rendered": null,
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                  "isStatic": false,
+                  "rules": Array [
+                    "width:0.776em;height:0.776em;border-radius:50%;box-shadow:0px 0px 0px 0.05em ",
+                    [Function],
+                    ";background:transparent;border:solid 0.05em #fff;outline:none;",
+                  ],
+                },
+                "displayName": "RadioButton__StyledRadioInput",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "RadioButton__StyledRadioInput-sc-11tunvs-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
           "type": "div",
@@ -707,32 +1440,79 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Radio label",
           },
           "ref": null,
           "rendered": "Radio label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "RadioButton__Label-sc-11tunvs-2",
+              "isStatic": true,
+              "rules": Array [
+                "margin-left:0.5em;",
+              ],
+            },
+            "displayName": "RadioButton__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "RadioButton__Label-sc-11tunvs-2",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "RadioButton__Wrapper-sc-11tunvs-0",
+          "isStatic": false,
+          "rules": Array [
+            "position:relative;display:inline-flex;margin:0;align-items:center;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "RadioButton__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "RadioButton__Wrapper-sc-11tunvs-0",
+        "target": "label",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

@@ -12,15 +12,17 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <use
         xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -44,13 +46,36 @@ ShallowWrapper {
       "rendered": null,
       "type": "use",
     },
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Icon__Svg-sf8tqo-0",
+        "isStatic": false,
+        "rules": Array [
+          "width:",
+          [Function],
+          ";height ",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "Icon__Svg",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Icon__Svg-sf8tqo-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <use
           xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -74,23 +99,55 @@ ShallowWrapper {
         "rendered": null,
         "type": "use",
       },
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Icon__Svg-sf8tqo-0",
+          "isStatic": false,
+          "rules": Array [
+            "width:",
+            [Function],
+            ";height ",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "Icon__Svg",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Icon__Svg-sf8tqo-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -108,15 +165,17 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <use
         xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -140,13 +199,36 @@ ShallowWrapper {
       "rendered": null,
       "type": "use",
     },
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Icon__Svg-sf8tqo-0",
+        "isStatic": false,
+        "rules": Array [
+          "width:",
+          [Function],
+          ";height ",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "Icon__Svg",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Icon__Svg-sf8tqo-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <use
           xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -170,23 +252,55 @@ ShallowWrapper {
         "rendered": null,
         "type": "use",
       },
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Icon__Svg-sf8tqo-0",
+          "isStatic": false,
+          "rules": Array [
+            "width:",
+            [Function],
+            ";height ",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "Icon__Svg",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Icon__Svg-sf8tqo-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -209,15 +323,17 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <use
         xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -245,13 +361,36 @@ ShallowWrapper {
       "rendered": null,
       "type": "use",
     },
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Icon__Svg-sf8tqo-0",
+        "isStatic": false,
+        "rules": Array [
+          "width:",
+          [Function],
+          ";height ",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "Icon__Svg",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Icon__Svg-sf8tqo-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <use
           xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -279,23 +418,55 @@ ShallowWrapper {
         "rendered": null,
         "type": "use",
       },
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Icon__Svg-sf8tqo-0",
+          "isStatic": false,
+          "rules": Array [
+            "width:",
+            [Function],
+            ";height ",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "Icon__Svg",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Icon__Svg-sf8tqo-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -318,15 +489,17 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <use
         xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -354,13 +527,36 @@ ShallowWrapper {
       "rendered": null,
       "type": "use",
     },
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Icon__Svg-sf8tqo-0",
+        "isStatic": false,
+        "rules": Array [
+          "width:",
+          [Function],
+          ";height ",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "Icon__Svg",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Icon__Svg-sf8tqo-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <use
           xlinkHref="/iconsprite.svg#icon-caret-down"
@@ -388,23 +584,55 @@ ShallowWrapper {
         "rendered": null,
         "type": "use",
       },
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Icon__Svg-sf8tqo-0",
+          "isStatic": false,
+          "rules": Array [
+            "width:",
+            [Function],
+            ";height ",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "Icon__Svg",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Icon__Svg-sf8tqo-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

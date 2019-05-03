@@ -1,4 +1,4 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import 'what-input';
 import { normalize, theme } from '../theme';
 
@@ -26,7 +26,7 @@ const fontFaces = `
 }
 `;
 
-const injectGlobalStyles = () => injectGlobal`
+const GlobalStyle = createGlobalStyle`
   ${fontFaces}
   ${normalize};
   html, body {
@@ -38,4 +38,4 @@ const injectGlobalStyles = () => injectGlobal`
   }
 `;
 
-injectGlobalStyles();
+export default GlobalStyle;

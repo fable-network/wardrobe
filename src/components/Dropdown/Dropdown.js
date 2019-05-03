@@ -89,15 +89,17 @@ const Input = styled.input`
   }
 `;
 
-const StyledIcon = styled(Icon).attrs({
-  color: props => {
-    // Set Icon color attribute
-    if (props.disabled) {
-      return props.theme.grey04;
-    }
-    return props.selected ? props.theme.success : props.theme.grey01;
-  },
-})`
+const getIconColor = props => {
+  // Set Icon color attribute
+  if (props.disabled) {
+    return props.theme.grey04;
+  }
+  return props.selected ? props.theme.success : props.theme.grey01;
+};
+
+const StyledIcon = styled(Icon).attrs(props => ({
+  color: getIconColor(props),
+}))`
   transform: rotateX(${p => (p.open && !p.selected ? '-180deg' : '0deg')});
   transition: transform 150ms ease-in-out;
 `;
@@ -443,7 +445,7 @@ class Dropdown extends Component {
         fluid={fluid}
         title={typeof label === 'string' ? label : undefined}
         tabIndex={showInput ? -1 : 0}
-        innerRef={node => {
+        ref={node => {
           this.dropdownButton = node;
         }}
         role="button"
@@ -455,7 +457,7 @@ class Dropdown extends Component {
             onClick={this.handleInputClick}
             placeholder={placeholder}
             value={searchText}
-            innerRef={node => {
+            ref={node => {
               this.input = node;
             }}
           />
@@ -513,7 +515,7 @@ class Dropdown extends Component {
           onKeyDown={this.handlePanelKeyDown}
           onKeyDownCapture={this.handleKeyDownCapture}
           onMouseMove={this.handlePanelMouseMove}
-          innerRef={node => {
+          ref={node => {
             this.panel = node;
           }}
         >

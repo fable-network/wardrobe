@@ -132,7 +132,7 @@ class OverflowMenu extends Component {
 
   renderTrigger = ({ toggle }) => {
     const { menuOpen } = this.state;
-    const { color: propsColor, activeColor, ...otherProps } = this.props;
+    const { color: propsColor, activeColor, onOpen, ...otherProps } = this.props;
     const defaultColor = propsColor || this.getColorFromAppearance();
     const color = menuOpen ? activeColor || this.getActiveColor() : defaultColor;
     const borderColor = propsColor || this.getBorderColorFromAppearance();

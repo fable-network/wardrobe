@@ -17,15 +17,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -52,13 +54,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -85,24 +105,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -123,15 +171,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -158,13 +208,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -191,24 +259,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -230,15 +326,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -265,13 +363,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -298,24 +414,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -336,15 +480,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -371,13 +517,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -404,24 +568,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -443,15 +635,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -478,13 +672,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -511,24 +723,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -550,15 +790,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -585,13 +827,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -618,24 +878,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -657,15 +945,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -692,13 +982,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -725,24 +1033,52 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -764,15 +1100,17 @@ ShallowWrapper {
   </ToolTip>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <span>
@@ -799,13 +1137,31 @@ ShallowWrapper {
       },
       null,
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "isStatic": true,
+        "rules": Array [
+          "display:inline-block;position:relative;",
+        ],
+      },
+      "displayName": "ToolTip__TriggerWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <span>
@@ -832,23 +1188,51 @@ ShallowWrapper {
         },
         null,
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:inline-block;position:relative;",
+          ],
+        },
+        "displayName": "ToolTip__TriggerWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ToolTip__TriggerWrapper-sc-1xdhxa8-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

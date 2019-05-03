@@ -13,7 +13,11 @@ const defaultCss = css`
   position: relative;
   &:before {
     content: '';
-    ${p => p.animating && `animation: ${skeleton(p.color)} 2.5s ease-in-out infinite;`};
+    ${p =>
+      p.animating &&
+      css`
+        animation: ${skeleton(p.color)} 2.5s ease-in-out infinite;
+      `};
   }
 `;
 

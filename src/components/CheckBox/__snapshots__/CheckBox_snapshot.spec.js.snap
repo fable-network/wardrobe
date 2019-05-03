@@ -9,19 +9,21 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input>
+        <ForwardRef>
+          <ForwardRef>
             <Icon
               color="inherit"
               height="0.5em"
@@ -29,11 +31,11 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef>
           Checkbox Label
-        </CheckBox__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
       "onClick": [Function],
@@ -43,9 +45,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <CheckBox__Input>
+          "children": <ForwardRef>
             <Icon
               color="inherit"
               height="0.5em"
@@ -53,13 +55,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>,
+          </ForwardRef>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "checked": undefined,
             "children": <Icon
@@ -87,34 +89,120 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                [Function],
+                ";box-shadow:0px 0px 0px 1px ",
+                [Function],
+                ";background:",
+                [Function],
+                ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                [Function],
+                ";fill:none;",
+              ],
+            },
+            "displayName": "CheckBox__Input",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;align-items:center;",
+            ],
+          },
+          "displayName": "CheckBox__InputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Checkbox Label",
           "disabled": undefined,
         },
         "ref": null,
         "rendered": "Checkbox Label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "isStatic": false,
+            "rules": Array [
+              "display:inline-block;margin-left:8px;user-select:none;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CheckBox__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "isStatic": false,
+        "rules": Array [
+          "pointer-events:",
+          [Function],
+          ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+        ],
+      },
+      "displayName": "CheckBox__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input>
+          <ForwardRef>
+            <ForwardRef>
               <Icon
                 color="inherit"
                 height="0.5em"
@@ -122,11 +210,11 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef>
             Checkbox Label
-          </CheckBox__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
         "onClick": [Function],
@@ -136,9 +224,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <CheckBox__Input>
+            "children": <ForwardRef>
               <Icon
                 color="inherit"
                 height="0.5em"
@@ -146,13 +234,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>,
+            </ForwardRef>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": undefined,
               "children": <Icon
@@ -180,40 +268,135 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+                "isStatic": false,
+                "rules": Array [
+                  "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                  [Function],
+                  ";box-shadow:0px 0px 0px 1px ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                  [Function],
+                  ";fill:none;",
+                ],
+              },
+              "displayName": "CheckBox__Input",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+              "isStatic": true,
+              "rules": Array [
+                "display:flex;align-items:center;",
+              ],
+            },
+            "displayName": "CheckBox__InputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Checkbox Label",
             "disabled": undefined,
           },
           "ref": null,
           "rendered": "Checkbox Label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-block;margin-left:8px;user-select:none;opacity:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CheckBox__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+          "isStatic": false,
+          "rules": Array [
+            "pointer-events:",
+            [Function],
+            ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+          ],
+        },
+        "displayName": "CheckBox__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -228,19 +411,21 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
+        <ForwardRef>
+          <ForwardRef
             checked={true}
           >
             <Icon
@@ -250,11 +435,11 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef>
           Checkbox Label
-        </CheckBox__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
       "onClick": [Function],
@@ -264,9 +449,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <CheckBox__Input
+          "children": <ForwardRef
             checked={true}
           >
             <Icon
@@ -276,13 +461,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>,
+          </ForwardRef>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "checked": true,
             "children": <Icon
@@ -310,34 +495,120 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                [Function],
+                ";box-shadow:0px 0px 0px 1px ",
+                [Function],
+                ";background:",
+                [Function],
+                ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                [Function],
+                ";fill:none;",
+              ],
+            },
+            "displayName": "CheckBox__Input",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;align-items:center;",
+            ],
+          },
+          "displayName": "CheckBox__InputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Checkbox Label",
           "disabled": undefined,
         },
         "ref": null,
         "rendered": "Checkbox Label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "isStatic": false,
+            "rules": Array [
+              "display:inline-block;margin-left:8px;user-select:none;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CheckBox__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "isStatic": false,
+        "rules": Array [
+          "pointer-events:",
+          [Function],
+          ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+        ],
+      },
+      "displayName": "CheckBox__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
+          <ForwardRef>
+            <ForwardRef
               checked={true}
             >
               <Icon
@@ -347,11 +618,11 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef>
             Checkbox Label
-          </CheckBox__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
         "onClick": [Function],
@@ -361,9 +632,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <CheckBox__Input
+            "children": <ForwardRef
               checked={true}
             >
               <Icon
@@ -373,13 +644,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>,
+            </ForwardRef>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": true,
               "children": <Icon
@@ -407,40 +678,135 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+                "isStatic": false,
+                "rules": Array [
+                  "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                  [Function],
+                  ";box-shadow:0px 0px 0px 1px ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                  [Function],
+                  ";fill:none;",
+                ],
+              },
+              "displayName": "CheckBox__Input",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+              "isStatic": true,
+              "rules": Array [
+                "display:flex;align-items:center;",
+              ],
+            },
+            "displayName": "CheckBox__InputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Checkbox Label",
             "disabled": undefined,
           },
           "ref": null,
           "rendered": "Checkbox Label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-block;margin-left:8px;user-select:none;opacity:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CheckBox__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+          "isStatic": false,
+          "rules": Array [
+            "pointer-events:",
+            [Function],
+            ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+          ],
+        },
+        "displayName": "CheckBox__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -455,19 +821,21 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
+        <ForwardRef>
+          <ForwardRef
             disabled={true}
           >
             <Icon
@@ -477,13 +845,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef
           disabled={true}
         >
           Checkbox Label
-        </CheckBox__Label>,
+        </ForwardRef>,
       ],
       "disabled": true,
       "onClick": [Function],
@@ -493,9 +861,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <CheckBox__Input
+          "children": <ForwardRef
             disabled={true}
           >
             <Icon
@@ -505,13 +873,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>,
+          </ForwardRef>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "checked": undefined,
             "children": <Icon
@@ -539,34 +907,120 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                [Function],
+                ";box-shadow:0px 0px 0px 1px ",
+                [Function],
+                ";background:",
+                [Function],
+                ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                [Function],
+                ";fill:none;",
+              ],
+            },
+            "displayName": "CheckBox__Input",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;align-items:center;",
+            ],
+          },
+          "displayName": "CheckBox__InputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Checkbox Label",
           "disabled": true,
         },
         "ref": null,
         "rendered": "Checkbox Label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "isStatic": false,
+            "rules": Array [
+              "display:inline-block;margin-left:8px;user-select:none;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CheckBox__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "isStatic": false,
+        "rules": Array [
+          "pointer-events:",
+          [Function],
+          ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+        ],
+      },
+      "displayName": "CheckBox__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
+          <ForwardRef>
+            <ForwardRef
               disabled={true}
             >
               <Icon
@@ -576,13 +1030,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef
             disabled={true}
           >
             Checkbox Label
-          </CheckBox__Label>,
+          </ForwardRef>,
         ],
         "disabled": true,
         "onClick": [Function],
@@ -592,9 +1046,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <CheckBox__Input
+            "children": <ForwardRef
               disabled={true}
             >
               <Icon
@@ -604,13 +1058,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>,
+            </ForwardRef>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": undefined,
               "children": <Icon
@@ -638,40 +1092,135 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+                "isStatic": false,
+                "rules": Array [
+                  "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                  [Function],
+                  ";box-shadow:0px 0px 0px 1px ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                  [Function],
+                  ";fill:none;",
+                ],
+              },
+              "displayName": "CheckBox__Input",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+              "isStatic": true,
+              "rules": Array [
+                "display:flex;align-items:center;",
+              ],
+            },
+            "displayName": "CheckBox__InputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Checkbox Label",
             "disabled": true,
           },
           "ref": null,
           "rendered": "Checkbox Label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-block;margin-left:8px;user-select:none;opacity:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CheckBox__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+          "isStatic": false,
+          "rules": Array [
+            "pointer-events:",
+            [Function],
+            ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+          ],
+        },
+        "displayName": "CheckBox__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -687,19 +1236,21 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
+        <ForwardRef>
+          <ForwardRef
             checked={true}
             disabled={true}
           >
@@ -710,13 +1261,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef
           disabled={true}
         >
           Checkbox Label
-        </CheckBox__Label>,
+        </ForwardRef>,
       ],
       "disabled": true,
       "onClick": [Function],
@@ -726,9 +1277,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <CheckBox__Input
+          "children": <ForwardRef
             checked={true}
             disabled={true}
           >
@@ -739,13 +1290,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>,
+          </ForwardRef>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "checked": true,
             "children": <Icon
@@ -773,34 +1324,120 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                [Function],
+                ";box-shadow:0px 0px 0px 1px ",
+                [Function],
+                ";background:",
+                [Function],
+                ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                [Function],
+                ";fill:none;",
+              ],
+            },
+            "displayName": "CheckBox__Input",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;align-items:center;",
+            ],
+          },
+          "displayName": "CheckBox__InputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Checkbox Label",
           "disabled": true,
         },
         "ref": null,
         "rendered": "Checkbox Label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "isStatic": false,
+            "rules": Array [
+              "display:inline-block;margin-left:8px;user-select:none;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CheckBox__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "isStatic": false,
+        "rules": Array [
+          "pointer-events:",
+          [Function],
+          ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+        ],
+      },
+      "displayName": "CheckBox__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
+          <ForwardRef>
+            <ForwardRef
               checked={true}
               disabled={true}
             >
@@ -811,13 +1448,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef
             disabled={true}
           >
             Checkbox Label
-          </CheckBox__Label>,
+          </ForwardRef>,
         ],
         "disabled": true,
         "onClick": [Function],
@@ -827,9 +1464,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <CheckBox__Input
+            "children": <ForwardRef
               checked={true}
               disabled={true}
             >
@@ -840,13 +1477,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>,
+            </ForwardRef>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": true,
               "children": <Icon
@@ -874,40 +1511,135 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+                "isStatic": false,
+                "rules": Array [
+                  "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                  [Function],
+                  ";box-shadow:0px 0px 0px 1px ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                  [Function],
+                  ";fill:none;",
+                ],
+              },
+              "displayName": "CheckBox__Input",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+              "isStatic": true,
+              "rules": Array [
+                "display:flex;align-items:center;",
+              ],
+            },
+            "displayName": "CheckBox__InputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Checkbox Label",
             "disabled": true,
           },
           "ref": null,
           "rendered": "Checkbox Label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-block;margin-left:8px;user-select:none;opacity:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CheckBox__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+          "isStatic": false,
+          "rules": Array [
+            "pointer-events:",
+            [Function],
+            ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+          ],
+        },
+        "displayName": "CheckBox__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
@@ -922,19 +1654,21 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
+        <ForwardRef>
+          <ForwardRef
             checked={null}
           >
             <Icon
@@ -944,11 +1678,11 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef>
           Checkbox Label
-        </CheckBox__Label>,
+        </ForwardRef>,
       ],
       "disabled": undefined,
       "onClick": [Function],
@@ -958,9 +1692,9 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <CheckBox__Input
+          "children": <ForwardRef
             checked={null}
           >
             <Icon
@@ -970,13 +1704,13 @@ ShallowWrapper {
               strokeWidth={1}
               width="0.5em"
             />
-          </CheckBox__Input>,
+          </ForwardRef>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "checked": null,
             "children": <Icon
@@ -1004,34 +1738,120 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                [Function],
+                ";box-shadow:0px 0px 0px 1px ",
+                [Function],
+                ";background:",
+                [Function],
+                ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                [Function],
+                ";fill:none;",
+              ],
+            },
+            "displayName": "CheckBox__Input",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;align-items:center;",
+            ],
+          },
+          "displayName": "CheckBox__InputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "Checkbox Label",
           "disabled": undefined,
         },
         "ref": null,
         "rendered": "Checkbox Label",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "isStatic": false,
+            "rules": Array [
+              "display:inline-block;margin-left:8px;user-select:none;opacity:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CheckBox__Label",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "isStatic": false,
+        "rules": Array [
+          "pointer-events:",
+          [Function],
+          ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+        ],
+      },
+      "displayName": "CheckBox__Wrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
+          <ForwardRef>
+            <ForwardRef
               checked={null}
             >
               <Icon
@@ -1041,11 +1861,11 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef>
             Checkbox Label
-          </CheckBox__Label>,
+          </ForwardRef>,
         ],
         "disabled": undefined,
         "onClick": [Function],
@@ -1055,9 +1875,9 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <CheckBox__Input
+            "children": <ForwardRef
               checked={null}
             >
               <Icon
@@ -1067,13 +1887,13 @@ ShallowWrapper {
                 strokeWidth={1}
                 width="0.5em"
               />
-            </CheckBox__Input>,
+            </ForwardRef>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "checked": null,
               "children": <Icon
@@ -1101,40 +1921,135 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CheckBox__Input-sc-1fsvwp6-1",
+                "isStatic": false,
+                "rules": Array [
+                  "display:inline-flex;justify-content:center;align-items:center;position:relative;width:1em;height:1em;border-radius:",
+                  [Function],
+                  ";box-shadow:0px 0px 0px 1px ",
+                  [Function],
+                  ";background:",
+                  [Function],
+                  ";border:solid 0.05em #fff;box-sizing:border-box;transition:background 0.3s ease-out;color:",
+                  [Function],
+                  ";fill:none;",
+                ],
+              },
+              "displayName": "CheckBox__Input",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CheckBox__Input-sc-1fsvwp6-1",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+              "isStatic": true,
+              "rules": Array [
+                "display:flex;align-items:center;",
+              ],
+            },
+            "displayName": "CheckBox__InputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__InputWrapper-sc-1fsvwp6-3",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "Checkbox Label",
             "disabled": undefined,
           },
           "ref": null,
           "rendered": "Checkbox Label",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CheckBox__Label-sc-1fsvwp6-2",
+              "isStatic": false,
+              "rules": Array [
+                "display:inline-block;margin-left:8px;user-select:none;opacity:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CheckBox__Label",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CheckBox__Label-sc-1fsvwp6-2",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+          "isStatic": false,
+          "rules": Array [
+            "pointer-events:",
+            [Function],
+            ";cursor:pointer;line-height:1;display:inline-flex;align-items:center;",
+          ],
+        },
+        "displayName": "CheckBox__Wrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "CheckBox__Wrapper-sc-1fsvwp6-0",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
           "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
