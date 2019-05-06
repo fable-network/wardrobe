@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [5.7.1] - 2019-05-06
+
 ### Changed
 
 - Fix [Checkbox](/#/Components?id=checkbox) icon color (should be transparent when disabled).
