@@ -9,8 +9,8 @@ const getBackground = ({ disabled, checked, theme }) => {
 };
 
 const getColor = ({ disabled, checked, theme }) => {
-  if (disabled) return theme.grey03;
-  return !checked ? 'transparent' : theme.white;
+  if (!checked) return 'transparent';
+  return disabled ? theme.grey03 : theme.white;
 };
 
 const Wrapper = styled('span')`
