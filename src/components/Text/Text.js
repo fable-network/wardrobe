@@ -17,7 +17,6 @@ const sizeToFont = {
 const Text = styled(({ size, bold, renderAs, children, ...otherProps }) =>
   React.createElement(renderAs, otherProps, children)
 )`
-  margin: 0;
   font-size: ${p => p.theme[`fontSize${sizeToFont[p.size]}`]};
   line-height: ${p => p.theme[`lineHeight${sizeToFont[p.size]}`]};
   font-weight: ${p => (p.bold ? p.theme.fontWeightBold : p.theme.fontWeightNormal)};

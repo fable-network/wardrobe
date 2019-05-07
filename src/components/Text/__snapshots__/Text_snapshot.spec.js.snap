@@ -24,7 +24,7 @@ ShallowWrapper {
     "props": Object {
       "bold": true,
       "children": "Some text in the h1 style",
-      "className": "Text-bbIbrg irjVpy",
+      "className": "Text-bbIbrg jseUUx",
       "renderAs": "h1",
       "size": "XXXL",
     },
@@ -40,7 +40,7 @@ ShallowWrapper {
       "props": Object {
         "bold": true,
         "children": "Some text in the h1 style",
-        "className": "Text-bbIbrg irjVpy",
+        "className": "Text-bbIbrg jseUUx",
         "renderAs": "h1",
         "size": "XXXL",
       },

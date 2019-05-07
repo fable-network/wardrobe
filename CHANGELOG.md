@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [5.7.2] - 2019-05-07
+
+### Changed
+
+- Remove margin on [Text](/#/Components?id=text) so that it doesn't override Box's margin.
+
 ## [5.7.1] - 2019-05-06
 
 ### Changed
