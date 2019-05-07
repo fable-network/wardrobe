@@ -1,19 +1,22 @@
 /* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import ToolTip from './ToolTip';
+
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
 
 describe('ToolTip Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
-      const wrapper1 = shallow(
+      const wrapper1 = mount(
         <ToolTip trigger={<span>Hover on me</span>} position="right">Tool tip body text</ToolTip>
       );
       expect(wrapper1).toMatchSnapshot();
 
-      const wrapper2 = shallow(
+      const wrapper2 = mount(
         <ToolTip
           trigger={<span>Click me</span>}
           position="right"
@@ -24,7 +27,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper2).toMatchSnapshot();
 
-      const wrapper3 = shallow(
+      const wrapper3 = mount(
         <ToolTip
           trigger={<span>Click me</span>}
           position="right"
@@ -36,7 +39,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper3).toMatchSnapshot();
 
-      const wrapper4 = shallow(
+      const wrapper4 = mount(
         <ToolTip
           trigger={<span>Hover</span>}
           appearance="dark"
@@ -47,7 +50,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper4).toMatchSnapshot();
 
-      const wrapper5 = shallow(
+      const wrapper5 = mount(
         <ToolTip
           trigger={<span>Hover</span>}
           position="right"
@@ -58,7 +61,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper5).toMatchSnapshot();
 
-      const wrapper6 = shallow(
+      const wrapper6 = mount(
         <ToolTip
           trigger={<span>Hover</span>}
           position="top"
@@ -69,7 +72,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper6).toMatchSnapshot();
 
-      const wrapper7 = shallow(
+      const wrapper7 = mount(
         <ToolTip
           trigger={<span>Hover</span>}
           position="bottom"
@@ -80,7 +83,7 @@ describe('ToolTip Component', () => {
       );
       expect(wrapper7).toMatchSnapshot();
 
-      const wrapper8 = shallow(
+      const wrapper8 = mount(
         <ToolTip
           trigger={<span>Hover</span>}
           position="left"

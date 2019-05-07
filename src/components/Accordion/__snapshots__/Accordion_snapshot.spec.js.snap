@@ -1,965 +1,925 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Accordion Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Accordion>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      tabIndex={0}
-      title="A title"
-    >
-      <p>
-        some body text
-      </p>
-    </AccordionItem>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      tabIndex={0}
-      title="Another title"
-    >
-      <p>
-        some more body text
-      </p>
-    </AccordionItem>
-  </Accordion>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          tabIndex={0}
-          title="A title"
-        >
-          <p>
-            some body text
-          </p>
-        </AccordionItem>,
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          tabIndex={0}
-          title="Another title"
-        >
-          <p>
-            some more body text
-          </p>
-        </AccordionItem>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "tabIndex": 0,
-          "title": "A title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some body text",
-          },
-          "ref": null,
-          "rendered": "some body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some more body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "tabIndex": 0,
-          "title": "Another title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some more body text",
-          },
-          "ref": null,
-          "rendered": "some more body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
-            onToggle={[Function]}
-            tabIndex={0}
-            title="A title"
-          >
-            <p>
-              some body text
-            </p>
-          </AccordionItem>,
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
-            onToggle={[Function]}
-            tabIndex={0}
-            title="Another title"
-          >
-            <p>
-              some more body text
-            </p>
-          </AccordionItem>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "tabIndex": 0,
-            "title": "A title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some body text",
-            },
-            "ref": null,
-            "rendered": "some body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some more body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "tabIndex": 0,
-            "title": "Another title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some more body text",
-            },
-            "ref": null,
-            "rendered": "some more body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c5 {
+  width: 16px;
+  height: 9px;
 }
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px;
+  border-bottom: solid 1px #d2d9dd;
+  cursor: pointer;
+}
+
+.c3 {
+  font-weight: 500;
+}
+
+.c6 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: none;
+  opacity: 0;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c0 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.c0:first-child .c1 {
+  border-top: solid 1px #d2d9dd;
+}
+
+.c4 {
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+<Accordion__Wrapper>
+  <div
+    className="Accordion__Wrapper-sc-1fl4boc-0 "
+  >
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                A title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={false}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={false}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={false}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={false}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={false}
+          >
+            <p>
+              some body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                Another title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={false}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={false}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={false}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={false}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={false}
+          >
+            <p>
+              some more body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+  </div>
+</Accordion__Wrapper>
 `;
 
 exports[`Accordion Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Accordion>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      tabIndex={0}
-      title="A title"
-    >
-      <p>
-        some body text
-      </p>
-    </AccordionItem>
-    <AccordionItem
-      defaultOpen={true}
-      disabled={false}
-      onToggle={[Function]}
-      tabIndex={0}
-      title="Another title"
-    >
-      <p>
-        some more body text
-      </p>
-    </AccordionItem>
-  </Accordion>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          tabIndex={0}
-          title="A title"
-        >
-          <p>
-            some body text
-          </p>
-        </AccordionItem>,
-        <AccordionItem
-          defaultOpen={true}
-          disabled={false}
-          onToggle={[Function]}
-          tabIndex={0}
-          title="Another title"
-        >
-          <p>
-            some more body text
-          </p>
-        </AccordionItem>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "tabIndex": 0,
-          "title": "A title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some body text",
-          },
-          "ref": null,
-          "rendered": "some body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some more body text
-          </p>,
-          "defaultOpen": true,
-          "disabled": false,
-          "onToggle": [Function],
-          "tabIndex": 0,
-          "title": "Another title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some more body text",
-          },
-          "ref": null,
-          "rendered": "some more body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
-            onToggle={[Function]}
-            tabIndex={0}
-            title="A title"
-          >
-            <p>
-              some body text
-            </p>
-          </AccordionItem>,
-          <AccordionItem
-            defaultOpen={true}
-            disabled={false}
-            onToggle={[Function]}
-            tabIndex={0}
-            title="Another title"
-          >
-            <p>
-              some more body text
-            </p>
-          </AccordionItem>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "tabIndex": 0,
-            "title": "A title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some body text",
-            },
-            "ref": null,
-            "rendered": "some body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some more body text
-            </p>,
-            "defaultOpen": true,
-            "disabled": false,
-            "onToggle": [Function],
-            "tabIndex": 0,
-            "title": "Another title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some more body text",
-            },
-            "ref": null,
-            "rendered": "some more body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c5 {
+  width: 16px;
+  height: 9px;
 }
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px;
+  border-bottom: solid 1px #d2d9dd;
+  cursor: pointer;
+}
+
+.c3 {
+  font-weight: 500;
+}
+
+.c6 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: none;
+  opacity: 0;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c8 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: block;
+  opacity: 1;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c0 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.c0:first-child .c1 {
+  border-top: solid 1px #d2d9dd;
+}
+
+.c4 {
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+.c7 {
+  -webkit-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+<Accordion__Wrapper>
+  <div
+    className="Accordion__Wrapper-sc-1fl4boc-0 "
+  >
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                A title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={false}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={false}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={false}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={false}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={false}
+          >
+            <p>
+              some body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={true}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                Another title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={true}
+              width={16}
+            >
+              <Icon__Svg
+                className="c7"
+                fill="inherit"
+                height={9}
+                open={true}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c7 c5"
+                  fill="inherit"
+                  open={true}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={true}
+        >
+          <div
+            className="c8"
+            data-testid="accordion-item--children-wrapper"
+            open={true}
+          >
+            <p>
+              some more body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+  </div>
+</Accordion__Wrapper>
 `;
 
 exports[`Accordion Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Accordion>
-    <AccordionItem
-      defaultOpen={false}
+.c5 {
+  width: 16px;
+  height: 9px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px;
+  border-bottom: solid 1px #d2d9dd;
+  cursor: pointer;
+}
+
+.c3 {
+  font-weight: 500;
+}
+
+.c8 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: none;
+  opacity: 0;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c6 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: block;
+  opacity: 1;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c0 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.c0:first-child .c1 {
+  border-top: solid 1px #d2d9dd;
+}
+
+.c7 {
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+.c4 {
+  -webkit-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+<Accordion__Wrapper>
+  <div
+    className="Accordion__Wrapper-sc-1fl4boc-0 "
+  >
+    <AccordionItem__Wrapper
       disabled={false}
-      onToggle={[Function]}
-      open={true}
-      tabIndex={0}
-      title="A title"
     >
-      <p>
-        some body text
-      </p>
-    </AccordionItem>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      open={false}
-      tabIndex={0}
-      title="Another title"
-    >
-      <p>
-        some more body text
-      </p>
-    </AccordionItem>
-  </Accordion>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <AccordionItem
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
           defaultOpen={false}
-          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
           onToggle={[Function]}
           open={true}
+          role="button"
           tabIndex={0}
-          title="A title"
         >
-          <p>
-            some body text
-          </p>
-        </AccordionItem>,
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          open={false}
-          tabIndex={0}
-          title="Another title"
-        >
-          <p>
-            some more body text
-          </p>
-        </AccordionItem>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "open": true,
-          "tabIndex": 0,
-          "title": "A title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some body text",
-          },
-          "ref": null,
-          "rendered": "some body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some more body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "open": false,
-          "tabIndex": 0,
-          "title": "Another title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some more body text",
-          },
-          "ref": null,
-          "rendered": "some more body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
             onToggle={[Function]}
             open={true}
+            role="button"
             tabIndex={0}
-            title="A title"
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                A title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={true}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={true}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={true}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={true}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={true}
           >
             <p>
               some body text
             </p>
-          </AccordionItem>,
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          open={false}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
             onToggle={[Function]}
             open={false}
+            role="button"
             tabIndex={0}
-            title="Another title"
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                Another title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={false}
+              width={16}
+            >
+              <Icon__Svg
+                className="c7"
+                fill="inherit"
+                height={9}
+                open={false}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c7 c5"
+                  fill="inherit"
+                  open={false}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={false}
+        >
+          <div
+            className="c8"
+            data-testid="accordion-item--children-wrapper"
+            open={false}
           >
             <p>
               some more body text
             </p>
-          </AccordionItem>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "open": true,
-            "tabIndex": 0,
-            "title": "A title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some body text",
-            },
-            "ref": null,
-            "rendered": "some body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some more body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "open": false,
-            "tabIndex": 0,
-            "title": "Another title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some more body text",
-            },
-            "ref": null,
-            "rendered": "some more body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+  </div>
+</Accordion__Wrapper>
 `;
 
 exports[`Accordion Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Accordion>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      open={true}
-      tabIndex={0}
-      title="A title"
-    >
-      <p>
-        some body text
-      </p>
-    </AccordionItem>
-    <AccordionItem
-      defaultOpen={false}
-      disabled={false}
-      onToggle={[Function]}
-      open={true}
-      tabIndex={0}
-      title="Another title"
-    >
-      <p>
-        some more body text
-      </p>
-    </AccordionItem>
-  </Accordion>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          open={true}
-          tabIndex={0}
-          title="A title"
-        >
-          <p>
-            some body text
-          </p>
-        </AccordionItem>,
-        <AccordionItem
-          defaultOpen={false}
-          disabled={false}
-          onToggle={[Function]}
-          open={true}
-          tabIndex={0}
-          title="Another title"
-        >
-          <p>
-            some more body text
-          </p>
-        </AccordionItem>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "open": true,
-          "tabIndex": 0,
-          "title": "A title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some body text",
-          },
-          "ref": null,
-          "rendered": "some body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <p>
-            some more body text
-          </p>,
-          "defaultOpen": false,
-          "disabled": false,
-          "onToggle": [Function],
-          "open": true,
-          "tabIndex": 0,
-          "title": "Another title",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "some more body text",
-          },
-          "ref": null,
-          "rendered": "some more body text",
-          "type": "p",
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
-            onToggle={[Function]}
-            open={true}
-            tabIndex={0}
-            title="A title"
-          >
-            <p>
-              some body text
-            </p>
-          </AccordionItem>,
-          <AccordionItem
-            defaultOpen={false}
-            disabled={false}
-            onToggle={[Function]}
-            open={true}
-            tabIndex={0}
-            title="Another title"
-          >
-            <p>
-              some more body text
-            </p>
-          </AccordionItem>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "open": true,
-            "tabIndex": 0,
-            "title": "A title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some body text",
-            },
-            "ref": null,
-            "rendered": "some body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <p>
-              some more body text
-            </p>,
-            "defaultOpen": false,
-            "disabled": false,
-            "onToggle": [Function],
-            "open": true,
-            "tabIndex": 0,
-            "title": "Another title",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "some more body text",
-            },
-            "ref": null,
-            "rendered": "some more body text",
-            "type": "p",
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c5 {
+  width: 16px;
+  height: 9px;
 }
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px;
+  border-bottom: solid 1px #d2d9dd;
+  cursor: pointer;
+}
+
+.c3 {
+  font-weight: 500;
+}
+
+.c6 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  display: block;
+  opacity: 1;
+  padding: 0 24px;
+  border-bottom: solid 1px #d2d9dd;
+  -webkit-animation: cAOaqK 0.3s ease;
+  animation: cAOaqK 0.3s ease;
+}
+
+.c0 {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.c0:first-child .c1 {
+  border-top: solid 1px #d2d9dd;
+}
+
+.c4 {
+  -webkit-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+}
+
+<Accordion__Wrapper>
+  <div
+    className="Accordion__Wrapper-sc-1fl4boc-0 "
+  >
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          open={true}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            open={true}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                A title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={true}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={true}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={true}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={true}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={true}
+          >
+            <p>
+              some body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+    <AccordionItem__Wrapper
+      disabled={false}
+    >
+      <div
+        className="c0"
+        disabled={false}
+      >
+        <AccordionItem__TitleWrapper
+          data-testid="accordion-item--title-wrapper"
+          defaultOpen={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onToggle={[Function]}
+          open={true}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="c1 c2"
+            data-testid="accordion-item--title-wrapper"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onToggle={[Function]}
+            open={true}
+            role="button"
+            tabIndex={0}
+          >
+            <AccordionItem__Title>
+              <span
+                className="c3"
+              >
+                Another title
+              </span>
+            </AccordionItem__Title>
+            <AccordionItem__StyledIcon
+              height={9}
+              name="caret-down"
+              open={true}
+              width={16}
+            >
+              <Icon__Svg
+                className="c4"
+                fill="inherit"
+                height={9}
+                open={true}
+                strokeWidth={1}
+                width={16}
+              >
+                <svg
+                  className="c4 c5"
+                  fill="inherit"
+                  open={true}
+                  strokeWidth={1}
+                >
+                  <use
+                    xlinkHref="/iconsprite.svg#icon-caret-down"
+                  />
+                </svg>
+              </Icon__Svg>
+            </AccordionItem__StyledIcon>
+          </div>
+        </AccordionItem__TitleWrapper>
+        <AccordionItem__ChildrenWrapper
+          data-testid="accordion-item--children-wrapper"
+          open={true}
+        >
+          <div
+            className="c6"
+            data-testid="accordion-item--children-wrapper"
+            open={true}
+          >
+            <p>
+              some more body text
+            </p>
+          </div>
+        </AccordionItem__ChildrenWrapper>
+      </div>
+    </AccordionItem__Wrapper>
+  </div>
+</Accordion__Wrapper>
 `;

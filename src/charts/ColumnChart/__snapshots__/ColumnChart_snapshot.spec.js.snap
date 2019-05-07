@@ -1,228 +1,204 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColumnChart Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(ColumnChart)
-    caption={[Function]}
-    data={
-      Array [
-        Object {
-          "name": "Immediate",
-          "y": 231,
-        },
-        Object {
-          "name": "Jan 15, 2019 — Jan 28, 2019",
-          "y": 91,
-        },
-        Object {
-          "name": "Feb 15, 2019 — Mar 28, 2019",
-          "y": 321,
-        },
-        Object {
-          "name": "Apr 15, 2019 — May 28, 2019",
-          "y": 81,
-        },
-        Object {
-          "name": "Jun 15, 2019 — Jul 28, 2019",
-          "y": 263,
-        },
-      ]
-    }
-    subtitle="Total: 480 pieces"
-    title="Distribution of delivery"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "allowUpdate": false,
-      "caption": [Function],
-      "data": Array [
-        Object {
-          "name": "Immediate",
-          "y": 231,
-        },
-        Object {
-          "name": "Jan 15, 2019 — Jan 28, 2019",
-          "y": 91,
-        },
-        Object {
-          "name": "Feb 15, 2019 — Mar 28, 2019",
-          "y": 321,
-        },
-        Object {
-          "name": "Apr 15, 2019 — May 28, 2019",
-          "y": 81,
-        },
-        Object {
-          "name": "Jun 15, 2019 — Jul 28, 2019",
-          "y": 263,
-        },
-      ],
-      "height": null,
-      "subtitle": "Total: 480 pieces",
-      "theme": undefined,
-      "title": "Distribution of delivery",
-      "width": null,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "allowUpdate": false,
-        "caption": [Function],
-        "data": Array [
-          Object {
-            "name": "Immediate",
-            "y": 231,
-          },
-          Object {
-            "name": "Jan 15, 2019 — Jan 28, 2019",
-            "y": 91,
-          },
-          Object {
-            "name": "Feb 15, 2019 — Mar 28, 2019",
-            "y": 321,
-          },
-          Object {
-            "name": "Apr 15, 2019 — May 28, 2019",
-            "y": 81,
-          },
-          Object {
-            "name": "Jun 15, 2019 — Jul 28, 2019",
-            "y": 263,
-          },
-        ],
-        "height": null,
-        "subtitle": "Total: 480 pieces",
-        "theme": undefined,
-        "title": "Distribution of delivery",
-        "width": null,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  position: relative;
 }
+
+.c0 .ft-wardrobe-column-chart .highcharts-point.highcharts-color-0,
+.c0 .ft-wardrobe-column-chart .highcharts-point.highcharts-color-0.highcharts-point-hover {
+  fill: #e7f1f7;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-yaxis-grid {
+  display: none;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-xaxis .highcharts-axis-line {
+  stroke: #034a76;
+  stroke-width: 2px;
+}
+
+.c0 .ft-wardrobe-column-chart div.highcharts-xaxis-labels {
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-credits {
+  display: none;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block {
+  display: block;
+  padding-top: 0.25rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block .ft-label.ft-label-value {
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.3333333333333333;
+  font-weight: 500;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block .ft-label.ft-label-caption {
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  font-weight: 400;
+  color: #949ea3;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block.ft-label-block-disabled .ft-label.ft-label-value {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block.ft-label-block-disabled .ft-label.ft-label-caption {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-subtitle {
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+<WithTheme(ColumnChart)
+  caption={[Function]}
+  data={
+    Array [
+      Object {
+        "name": "Immediate",
+        "y": 231,
+      },
+      Object {
+        "name": "Jan 15, 2019 — Jan 28, 2019",
+        "y": 91,
+      },
+      Object {
+        "name": "Feb 15, 2019 — Mar 28, 2019",
+        "y": 321,
+      },
+      Object {
+        "name": "Apr 15, 2019 — May 28, 2019",
+        "y": 81,
+      },
+      Object {
+        "name": "Jun 15, 2019 — Jul 28, 2019",
+        "y": 263,
+      },
+    ]
+  }
+  subtitle="Total: 480 pieces"
+  title="Distribution of delivery"
+>
+  <ColumnChart__Wrapper
+    highlighted={false}
+  >
+    <div
+      className="c0"
+    >
+      <high-charts />
+    </div>
+  </ColumnChart__Wrapper>
+</WithTheme(ColumnChart)>
 `;
 
 exports[`ColumnChart Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(ColumnChart)
-    caption={[Function]}
-    data={
-      Array [
-        Object {
-          "name": "Immediate",
-          "y": 42,
-        },
-      ]
-    }
-    height={300}
-    subtitle="Total: 42 pieces"
-    title="Distribution of delivery"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "allowUpdate": false,
-      "caption": [Function],
-      "data": Array [
-        Object {
-          "name": "Immediate",
-          "y": 42,
-        },
-      ],
-      "height": 300,
-      "subtitle": "Total: 42 pieces",
-      "theme": undefined,
-      "title": "Distribution of delivery",
-      "width": null,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "allowUpdate": false,
-        "caption": [Function],
-        "data": Array [
-          Object {
-            "name": "Immediate",
-            "y": 42,
-          },
-        ],
-        "height": 300,
-        "subtitle": "Total: 42 pieces",
-        "theme": undefined,
-        "title": "Distribution of delivery",
-        "width": null,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  position: relative;
 }
+
+.c0 .ft-wardrobe-column-chart .highcharts-point.highcharts-color-0,
+.c0 .ft-wardrobe-column-chart .highcharts-point.highcharts-color-0.highcharts-point-hover {
+  fill: #e7f1f7;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-yaxis-grid {
+  display: none;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-xaxis .highcharts-axis-line {
+  stroke: #034a76;
+  stroke-width: 2px;
+}
+
+.c0 .ft-wardrobe-column-chart div.highcharts-xaxis-labels {
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-credits {
+  display: none;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block {
+  display: block;
+  padding-top: 0.25rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block .ft-label.ft-label-value {
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.3333333333333333;
+  font-weight: 500;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block .ft-label.ft-label-caption {
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  font-weight: 400;
+  color: #949ea3;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block.ft-label-block-disabled .ft-label.ft-label-value {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-column-chart .ft-label-block.ft-label-block-disabled .ft-label.ft-label-caption {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-column-chart .highcharts-subtitle {
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+<WithTheme(ColumnChart)
+  caption={[Function]}
+  data={
+    Array [
+      Object {
+        "name": "Immediate",
+        "y": 42,
+      },
+    ]
+  }
+  height={300}
+  subtitle="Total: 42 pieces"
+  title="Distribution of delivery"
+>
+  <ColumnChart__Wrapper
+    highlighted={false}
+  >
+    <div
+      className="c0"
+    >
+      <high-charts />
+    </div>
+  </ColumnChart__Wrapper>
+</WithTheme(ColumnChart)>
 `;

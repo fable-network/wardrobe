@@ -1,14 +1,17 @@
 /* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import Table from './Table';
+
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
 
 describe('Table Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
-      const wrapper1 = shallow(
+      const wrapper1 = mount(
         <Table>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -42,7 +45,7 @@ describe('Table Component', () => {
       );
       expect(wrapper1).toMatchSnapshot();
 
-      const wrapper2 = shallow(
+      const wrapper2 = mount(
         <Table layout={[1, 1, 1, 2, 1]}>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -76,7 +79,7 @@ describe('Table Component', () => {
       );
       expect(wrapper2).toMatchSnapshot();
 
-      const wrapper3 = shallow(
+      const wrapper3 = mount(
         <Table appearance="light" showBorders>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -110,7 +113,7 @@ describe('Table Component', () => {
       );
       expect(wrapper3).toMatchSnapshot();
 
-      const wrapper4 = shallow(
+      const wrapper4 = mount(
         <Table appearance="dark">
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -144,7 +147,7 @@ describe('Table Component', () => {
       );
       expect(wrapper4).toMatchSnapshot();
 
-      const wrapper5 = shallow(
+      const wrapper5 = mount(
         <Table appearance="dark" showBorders>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -178,7 +181,7 @@ describe('Table Component', () => {
       );
       expect(wrapper5).toMatchSnapshot();
 
-      const wrapper6 = shallow(
+      const wrapper6 = mount(
         <Table appearance="light" alternatingRowColors={false}>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -212,7 +215,7 @@ describe('Table Component', () => {
       );
       expect(wrapper6).toMatchSnapshot();
 
-      const wrapper7 = shallow(
+      const wrapper7 = mount(
         <Table appearance="dark" alternatingRowColors={false}>
           <Table.Header>
             <Table.Cell>Name</Table.Cell>
@@ -246,7 +249,7 @@ describe('Table Component', () => {
       );
       expect(wrapper7).toMatchSnapshot();
 
-      const wrapper8 = shallow(
+      const wrapper8 = mount(
         <Table appearance="light" minWidth="2200px">
           <Table.Header>
             <Table.Cell>Name</Table.Cell>

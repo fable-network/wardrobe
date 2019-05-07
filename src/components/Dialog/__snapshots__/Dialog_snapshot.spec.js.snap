@@ -1,1472 +1,1439 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dialog Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    onClose={[Function]}
-    showCloseButton={false}
+.c2 {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.c0 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+  border-top: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+  margin-top: 20px;
+}
+
+.c0 .Dialog__BodyStyled-sc-17jq4z8-2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 24px 48px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+}
+
+.c3:hover:disabled {
+  box-shadow: none;
+}
+
+.c3:hover,
+[data-whatintent='keyboard'] .c3:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c3:disabled,
+.c3:hover:disabled,
+[data-whatintent='keyboard'] .c3:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c4:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+}
+
+.c4:hover:disabled {
+  box-shadow: none;
+}
+
+.c4:hover,
+[data-whatintent='keyboard'] .c4:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c4:disabled,
+.c4:hover:disabled,
+[data-whatintent='keyboard'] .c4:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+@media screen and (max-width:900px) {
+  .c0 {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+    -webkit-flex-flow: row-reverse wrap;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+    margin-top: 0;
+  }
+}
+
+<ForwardRef
+  onClose={[Function]}
+  showCloseButton={false}
+  size="normal"
+>
+  <Dialog__Wrapper
     size="normal"
   >
-    <Dialog__HeaderStyled>
-      You are changing the status of this order to Shipped
-    </Dialog__HeaderStyled>
-    <Dialog__BodyStyled>
-      This body has pre-defined paddings.
-    </Dialog__BodyStyled>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Let us do that!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Cancel
-      </Button>
-    </Dialog__FooterStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
+    <div
+      className="c0"
+      size="normal"
+    >
+      <Dialog__HeaderStyled>
+        <header
+          className="c1 c2"
+          tabIndex={0}
+        >
+          You are changing the status of this order to Shipped
+        </header>
+      </Dialog__HeaderStyled>
+      <Dialog__BodyStyled>
+        <div
+          className="Dialog__BodyStyled-sc-17jq4z8-2 "
+        >
+          This body has pre-defined paddings.
+        </div>
+      </Dialog__BodyStyled>
+      <Dialog__FooterStyled>
+        <footer
+          className="Dialog__FooterStyled-sc-17jq4z8-1 "
+        >
+          <Button
+            appearance="primary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c3"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
+            </button>
+          </Button>
+          <Button
+            appearance="secondary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c4"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Cancel
-            </Button>
-          </Dialog__FooterStyled>,
-        ],
-        false,
-      ],
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "You are changing the status of this order to Shipped",
-        },
-        "ref": null,
-        "rendered": "You are changing the status of this order to Shipped",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "This body has pre-defined paddings.",
-        },
-        "ref": null,
-        "rendered": "This body has pre-defined paddings.",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Let us do that!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Cancel
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Let us do that!",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Let us do that!",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Cancel",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Cancel",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      false,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          Array [
-            <Dialog__HeaderStyled>
-              You are changing the status of this order to Shipped
-            </Dialog__HeaderStyled>,
-            <Dialog__BodyStyled>
-              This body has pre-defined paddings.
-            </Dialog__BodyStyled>,
-            <Dialog__FooterStyled>
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>
-            </Dialog__FooterStyled>,
-          ],
-          false,
-        ],
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "You are changing the status of this order to Shipped",
-          },
-          "ref": null,
-          "rendered": "You are changing the status of this order to Shipped",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "This body has pre-defined paddings.",
-          },
-          "ref": null,
-          "rendered": "This body has pre-defined paddings.",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Let us do that!",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Let us do that!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Cancel",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Cancel",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        false,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+            </button>
+          </Button>
+        </footer>
+      </Dialog__FooterStyled>
+    </div>
+  </Dialog__Wrapper>
+</ForwardRef>
 `;
 
 exports[`Dialog Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    onClose={[Function]}
-    showCloseButton={false}
+.c2 {
+  outline: none;
+}
+
+.c5 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.c0 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 16px 24px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+  border-top: solid 1px #d2d9dd;
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+  margin-top: 20px;
+}
+
+.c0 .Dialog__BodyStyled-sc-17jq4z8-2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 16px 24px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+}
+
+.c3:hover:disabled {
+  box-shadow: none;
+}
+
+.c3:hover,
+[data-whatintent='keyboard'] .c3:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c3:disabled,
+.c3:hover:disabled,
+[data-whatintent='keyboard'] .c3:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c4:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+}
+
+.c4:hover:disabled {
+  box-shadow: none;
+}
+
+.c4:hover,
+[data-whatintent='keyboard'] .c4:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c4:disabled,
+.c4:hover:disabled,
+[data-whatintent='keyboard'] .c4:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+@media screen and (min-width:900px) {
+  .c5 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .c0 {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .c1 {
+    font-size: 1.25em;
+  }
+}
+
+<ForwardRef
+  onClose={[Function]}
+  showCloseButton={false}
+  size="small"
+>
+  <Dialog__Wrapper
     size="small"
   >
-    <Dialog__HeaderStyled>
-      You are changing the status of this order to Shipped
-    </Dialog__HeaderStyled>
-    <Dialog__BodyStyled>
-      This body has pre-defined paddings.
-    </Dialog__BodyStyled>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Let us do that!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Cancel
-      </Button>
-    </Dialog__FooterStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
+    <div
+      className="c0"
+      size="small"
+    >
+      <Dialog__HeaderStyled>
+        <header
+          className="c1 c2"
+          tabIndex={0}
+        >
+          You are changing the status of this order to Shipped
+        </header>
+      </Dialog__HeaderStyled>
+      <Dialog__BodyStyled>
+        <div
+          className="Dialog__BodyStyled-sc-17jq4z8-2 "
+        >
+          This body has pre-defined paddings.
+        </div>
+      </Dialog__BodyStyled>
+      <Dialog__FooterStyled>
+        <footer
+          className="Dialog__FooterStyled-sc-17jq4z8-1 "
+        >
+          <Button
+            appearance="primary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c3"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
+            </button>
+          </Button>
+          <Button
+            appearance="secondary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c4"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Cancel
-            </Button>
-          </Dialog__FooterStyled>,
-        ],
-        false,
-      ],
-      "size": "small",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "You are changing the status of this order to Shipped",
-        },
-        "ref": null,
-        "rendered": "You are changing the status of this order to Shipped",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "This body has pre-defined paddings.",
-        },
-        "ref": null,
-        "rendered": "This body has pre-defined paddings.",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Let us do that!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Cancel
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Let us do that!",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Let us do that!",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Cancel",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Cancel",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      false,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          Array [
-            <Dialog__HeaderStyled>
-              You are changing the status of this order to Shipped
-            </Dialog__HeaderStyled>,
-            <Dialog__BodyStyled>
-              This body has pre-defined paddings.
-            </Dialog__BodyStyled>,
-            <Dialog__FooterStyled>
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>
-            </Dialog__FooterStyled>,
-          ],
-          false,
-        ],
-        "size": "small",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "You are changing the status of this order to Shipped",
-          },
-          "ref": null,
-          "rendered": "You are changing the status of this order to Shipped",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "This body has pre-defined paddings.",
-          },
-          "ref": null,
-          "rendered": "This body has pre-defined paddings.",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Let us do that!",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Let us do that!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Cancel",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Cancel",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        false,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+            </button>
+          </Button>
+        </footer>
+      </Dialog__FooterStyled>
+    </div>
+  </Dialog__Wrapper>
+</ForwardRef>
 `;
 
 exports[`Dialog Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    onClose={[Function]}
-    showCloseButton={false}
+.c2 {
+  outline: none;
+}
+
+.c5 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c6 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 16px 24px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.c0 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+  border-top: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+  margin-top: 20px;
+}
+
+.c0 .Dialog__BodyStyled-sc-17jq4z8-2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 24px 48px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+}
+
+.c3:hover:disabled {
+  box-shadow: none;
+}
+
+.c3:hover,
+[data-whatintent='keyboard'] .c3:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c3:disabled,
+.c3:hover:disabled,
+[data-whatintent='keyboard'] .c3:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c4:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+}
+
+.c4:hover:disabled {
+  box-shadow: none;
+}
+
+.c4:hover,
+[data-whatintent='keyboard'] .c4:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c4:disabled,
+.c4:hover:disabled,
+[data-whatintent='keyboard'] .c4:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+@media screen and (min-width:900px) {
+  .c5 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c6 .c1 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .c0 {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+    -webkit-flex-flow: row-reverse wrap;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+    margin-top: 0;
+  }
+}
+
+<ForwardRef
+  onClose={[Function]}
+  showCloseButton={false}
+  size="large"
+>
+  <Dialog__Wrapper
     size="large"
   >
-    <Dialog__HeaderStyled>
-      You are changing the status of this order to Shipped
-    </Dialog__HeaderStyled>
-    <Dialog__BodyStyled>
-      This body has pre-defined paddings.
-    </Dialog__BodyStyled>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Let us do that!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Cancel
-      </Button>
-    </Dialog__FooterStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
+    <div
+      className="c0"
+      size="large"
+    >
+      <Dialog__HeaderStyled>
+        <header
+          className="c1 c2"
+          tabIndex={0}
+        >
+          You are changing the status of this order to Shipped
+        </header>
+      </Dialog__HeaderStyled>
+      <Dialog__BodyStyled>
+        <div
+          className="Dialog__BodyStyled-sc-17jq4z8-2 "
+        >
+          This body has pre-defined paddings.
+        </div>
+      </Dialog__BodyStyled>
+      <Dialog__FooterStyled>
+        <footer
+          className="Dialog__FooterStyled-sc-17jq4z8-1 "
+        >
+          <Button
+            appearance="primary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c3"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
+            </button>
+          </Button>
+          <Button
+            appearance="secondary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c4"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Cancel
-            </Button>
-          </Dialog__FooterStyled>,
-        ],
-        false,
-      ],
-      "size": "large",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "You are changing the status of this order to Shipped",
-        },
-        "ref": null,
-        "rendered": "You are changing the status of this order to Shipped",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "This body has pre-defined paddings.",
-        },
-        "ref": null,
-        "rendered": "This body has pre-defined paddings.",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Let us do that!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Cancel
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Let us do that!",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Let us do that!",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Cancel",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Cancel",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      false,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          Array [
-            <Dialog__HeaderStyled>
-              You are changing the status of this order to Shipped
-            </Dialog__HeaderStyled>,
-            <Dialog__BodyStyled>
-              This body has pre-defined paddings.
-            </Dialog__BodyStyled>,
-            <Dialog__FooterStyled>
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>
-            </Dialog__FooterStyled>,
-          ],
-          false,
-        ],
-        "size": "large",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "You are changing the status of this order to Shipped",
-          },
-          "ref": null,
-          "rendered": "You are changing the status of this order to Shipped",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "This body has pre-defined paddings.",
-          },
-          "ref": null,
-          "rendered": "This body has pre-defined paddings.",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Let us do that!",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Let us do that!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Cancel",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Cancel",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        false,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+            </button>
+          </Button>
+        </footer>
+      </Dialog__FooterStyled>
+    </div>
+  </Dialog__Wrapper>
+</ForwardRef>
 `;
 
 exports[`Dialog Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    onClose={[Function]}
-    showCloseButton={false}
+.c2 {
+  outline: none;
+}
+
+.c5 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c6 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 16px 24px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c7 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.c0 .c1 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+  border-top: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+  margin-top: 20px;
+}
+
+.c0 .Dialog__BodyStyled-sc-17jq4z8-2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 24px 48px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c3:disabled {
+  cursor: not-allowed;
+}
+
+.c3:hover:disabled {
+  box-shadow: none;
+}
+
+.c3:hover,
+[data-whatintent='keyboard'] .c3:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c3:disabled,
+.c3:hover:disabled,
+[data-whatintent='keyboard'] .c3:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c4:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c4:disabled {
+  cursor: not-allowed;
+}
+
+.c4:hover:disabled {
+  box-shadow: none;
+}
+
+.c4:hover,
+[data-whatintent='keyboard'] .c4:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c4:disabled,
+.c4:hover:disabled,
+[data-whatintent='keyboard'] .c4:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+@media screen and (min-width:900px) {
+  .c5 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c6 .c1 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c7 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .c0 {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: auto;
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .c1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+    -webkit-flex-flow: row-reverse wrap;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+    margin-top: 0;
+  }
+}
+
+<ForwardRef
+  onClose={[Function]}
+  showCloseButton={false}
+  size="auto"
+>
+  <Dialog__Wrapper
     size="auto"
   >
-    <Dialog__HeaderStyled>
-      You are changing the status of this order to Shipped
-    </Dialog__HeaderStyled>
-    <Dialog__BodyStyled>
-      This body has pre-defined paddings.
-    </Dialog__BodyStyled>
-    <Dialog__FooterStyled>
-      <Button
-        appearance="primary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Let us do that!
-      </Button>
-      <Button
-        appearance="secondary"
-        disabled={false}
-        onClick={[Function]}
-        renderAs="button"
-        size="normal"
-      >
-        Cancel
-      </Button>
-    </Dialog__FooterStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        Array [
-          <Dialog__HeaderStyled>
-            You are changing the status of this order to Shipped
-          </Dialog__HeaderStyled>,
-          <Dialog__BodyStyled>
-            This body has pre-defined paddings.
-          </Dialog__BodyStyled>,
-          <Dialog__FooterStyled>
-            <Button
-              appearance="primary"
+    <div
+      className="c0"
+      size="auto"
+    >
+      <Dialog__HeaderStyled>
+        <header
+          className="c1 c2"
+          tabIndex={0}
+        >
+          You are changing the status of this order to Shipped
+        </header>
+      </Dialog__HeaderStyled>
+      <Dialog__BodyStyled>
+        <div
+          className="Dialog__BodyStyled-sc-17jq4z8-2 "
+        >
+          This body has pre-defined paddings.
+        </div>
+      </Dialog__BodyStyled>
+      <Dialog__FooterStyled>
+        <footer
+          className="Dialog__FooterStyled-sc-17jq4z8-1 "
+        >
+          <Button
+            appearance="primary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c3"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Let us do that!
-            </Button>
-            <Button
-              appearance="secondary"
+            </button>
+          </Button>
+          <Button
+            appearance="secondary"
+            disabled={false}
+            onClick={[Function]}
+            renderAs="button"
+            size="normal"
+          >
+            <button
+              className="c4"
               disabled={false}
               onClick={[Function]}
-              renderAs="button"
-              size="normal"
             >
               Cancel
-            </Button>
-          </Dialog__FooterStyled>,
-        ],
-        false,
-      ],
-      "size": "auto",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "You are changing the status of this order to Shipped",
-        },
-        "ref": null,
-        "rendered": "You are changing the status of this order to Shipped",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "This body has pre-defined paddings.",
-        },
-        "ref": null,
-        "rendered": "This body has pre-defined paddings.",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Button
-              appearance="primary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Let us do that!
-            </Button>,
-            <Button
-              appearance="secondary"
-              disabled={false}
-              onClick={[Function]}
-              renderAs="button"
-              size="normal"
-            >
-              Cancel
-            </Button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "primary",
-              "children": "Let us do that!",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Let us do that!",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "appearance": "secondary",
-              "children": "Cancel",
-              "disabled": false,
-              "onClick": [Function],
-              "renderAs": "button",
-              "size": "normal",
-            },
-            "ref": null,
-            "rendered": "Cancel",
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      false,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          Array [
-            <Dialog__HeaderStyled>
-              You are changing the status of this order to Shipped
-            </Dialog__HeaderStyled>,
-            <Dialog__BodyStyled>
-              This body has pre-defined paddings.
-            </Dialog__BodyStyled>,
-            <Dialog__FooterStyled>
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>
-            </Dialog__FooterStyled>,
-          ],
-          false,
-        ],
-        "size": "auto",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "You are changing the status of this order to Shipped",
-          },
-          "ref": null,
-          "rendered": "You are changing the status of this order to Shipped",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "This body has pre-defined paddings.",
-          },
-          "ref": null,
-          "rendered": "This body has pre-defined paddings.",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Button
-                appearance="primary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Let us do that!
-              </Button>,
-              <Button
-                appearance="secondary"
-                disabled={false}
-                onClick={[Function]}
-                renderAs="button"
-                size="normal"
-              >
-                Cancel
-              </Button>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "primary",
-                "children": "Let us do that!",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Let us do that!",
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "appearance": "secondary",
-                "children": "Cancel",
-                "disabled": false,
-                "onClick": [Function],
-                "renderAs": "button",
-                "size": "normal",
-              },
-              "ref": null,
-              "rendered": "Cancel",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        false,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+            </button>
+          </Button>
+        </footer>
+      </Dialog__FooterStyled>
+    </div>
+  </Dialog__Wrapper>
+</ForwardRef>
 `;
 
 exports[`Dialog Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Dialog
-    onClose={[Function]}
-    showCloseButton={true}
+.c2 {
+  width: 1em;
+  height: 1em;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.c0 .c3 {
+  border-bottom: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #146292;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+  border-top: solid 1px #d2d9dd;
+  padding: 24px 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+  margin-top: 20px;
+}
+
+.c0 .Dialog__BodyStyled-sc-17jq4z8-2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 24px 48px;
+}
+
+.c1 {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0.5714285714285714rem;
+  background: none;
+  color: #146292;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  overflow: hidden;
+}
+
+.c1,
+.c1:link,
+.c1:active,
+.c1:hover,
+.c1:focus,
+.c1:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:hover,
+.c1:active,
+.c1:focus {
+  color: #034a76;
+}
+
+@media screen and (max-width:900px) {
+  .c0 {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .c3 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 {
+    -webkit-flex-flow: row-reverse wrap;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .c0 .Dialog__FooterStyled-sc-17jq4z8-1 > * + * {
+    margin-top: 0;
+  }
+}
+
+<ForwardRef
+  onClose={[Function]}
+  showCloseButton={true}
+  size="normal"
+>
+  <Dialog__Wrapper
     size="normal"
   >
-    <Dialog__BodyStyled>
-      Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
-    </Dialog__BodyStyled>
-  </Dialog>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <Dialog__BodyStyled>
-          Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
-        </Dialog__BodyStyled>,
-        <Dialog__CloseButton
-          appearance="primary"
-          onClick={[Function]}
+    <div
+      className="c0"
+      size="normal"
+    >
+      <Dialog__BodyStyled>
+        <div
+          className="Dialog__BodyStyled-sc-17jq4z8-2 "
         >
-          <Icon
-            color="inherit"
+          Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
+        </div>
+      </Dialog__BodyStyled>
+      <Dialog__CloseButton
+        appearance="primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <button
+          className="IconButton-sc-1n6emqy-0 c1"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <Icon__Svg
+            className="ft-icon"
             fill="currentColor"
             height="1em"
-            name="cross"
             strokeWidth={1}
             width="1em"
-          />
-        </Dialog__CloseButton>,
-      ],
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
-        },
-        "ref": null,
-        "rendered": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "appearance": "primary",
-          "children": <Icon
-            color="inherit"
-            fill="currentColor"
-            height="1em"
-            name="cross"
-            strokeWidth={1}
-            width="1em"
-          />,
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "inherit",
-            "fill": "currentColor",
-            "height": "1em",
-            "name": "cross",
-            "strokeWidth": 1,
-            "width": "1em",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <Dialog__BodyStyled>
-            Body-only dialogs can be used for modals with complex structure (e.g. to display product details).
-          </Dialog__BodyStyled>,
-          <Dialog__CloseButton
-            appearance="primary"
-            onClick={[Function]}
           >
-            <Icon
-              color="inherit"
+            <svg
+              className="ft-icon c2"
               fill="currentColor"
-              height="1em"
-              name="cross"
               strokeWidth={1}
-              width="1em"
-            />
-          </Dialog__CloseButton>,
-        ],
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
-          },
-          "ref": null,
-          "rendered": "Body-only dialogs can be used for modals with complex structure (e.g. to display product details).",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "appearance": "primary",
-            "children": <Icon
-              color="inherit"
-              fill="currentColor"
-              height="1em"
-              name="cross"
-              strokeWidth={1}
-              width="1em"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "fill": "currentColor",
-              "height": "1em",
-              "name": "cross",
-              "strokeWidth": 1,
-              "width": "1em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-cross"
+              />
+            </svg>
+          </Icon__Svg>
+        </button>
+      </Dialog__CloseButton>
+    </div>
+  </Dialog__Wrapper>
+</ForwardRef>
 `;

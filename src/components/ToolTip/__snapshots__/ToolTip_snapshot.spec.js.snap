@@ -1,854 +1,193 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ToolTip Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    position="right"
-    trigger={
-      <span>
-        Hover on me
-      </span>
-    }
-    triggerAction="hover"
-  >
-    Tool tip body text
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover on me
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover on me",
-        },
-        "ref": null,
-        "rendered": "Hover on me",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover on me
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover on me",
-          },
-          "ref": null,
-          "rendered": "Hover on me",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover on me
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    position="right"
-    trigger={
-      <span>
-        Click me
-      </span>
-    }
-    triggerAction="click"
-  >
-    Tool tip body text
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Click me
-        </span>,
-        null,
-      ],
-      "onClick": [Function],
-      "onMouseEnter": null,
-      "onMouseLeave": null,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Click me",
-        },
-        "ref": null,
-        "rendered": "Click me",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Click me
-          </span>,
-          null,
-        ],
-        "onClick": [Function],
-        "onMouseEnter": null,
-        "onMouseLeave": null,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Click me",
-          },
-          "ref": null,
-          "rendered": "Click me",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={[Function]}
+  onMouseEnter={null}
+  onMouseLeave={null}
+>
+  <div
+    className="c0"
+    onClick={[Function]}
+    onMouseEnter={null}
+    onMouseLeave={null}
+  >
+    <span>
+      Click me
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    displayTime={3000}
-    position="right"
-    trigger={
-      <span>
-        Click me
-      </span>
-    }
-    triggerAction="click"
-  >
-    Count to 3
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Click me
-        </span>,
-        null,
-      ],
-      "onClick": [Function],
-      "onMouseEnter": null,
-      "onMouseLeave": null,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Click me",
-        },
-        "ref": null,
-        "rendered": "Click me",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Click me
-          </span>,
-          null,
-        ],
-        "onClick": [Function],
-        "onMouseEnter": null,
-        "onMouseLeave": null,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Click me",
-          },
-          "ref": null,
-          "rendered": "Click me",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={[Function]}
+  onMouseEnter={null}
+  onMouseLeave={null}
+>
+  <div
+    className="c0"
+    onClick={[Function]}
+    onMouseEnter={null}
+    onMouseLeave={null}
+  >
+    <span>
+      Click me
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="dark"
-    position="right"
-    trigger={
-      <span>
-        Hover
-      </span>
-    }
-    triggerAction="hover"
-  >
-    Tool tip body text
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover",
-        },
-        "ref": null,
-        "rendered": "Hover",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover",
-          },
-          "ref": null,
-          "rendered": "Hover",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    fluid={true}
-    position="right"
-    trigger={
-      <span>
-        Hover
-      </span>
-    }
-    triggerAction="hover"
-  >
-    Takes up width of the content.
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover",
-        },
-        "ref": null,
-        "rendered": "Hover",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover",
-          },
-          "ref": null,
-          "rendered": "Hover",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    fluid={true}
-    position="top"
-    trigger={
-      <span>
-        Hover
-      </span>
-    }
-    triggerAction="hover"
-  >
-    I'm on top now
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover",
-        },
-        "ref": null,
-        "rendered": "Hover",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover",
-          },
-          "ref": null,
-          "rendered": "Hover",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    fluid={true}
-    position="bottom"
-    trigger={
-      <span>
-        Hover
-      </span>
-    }
-    triggerAction="hover"
-  >
-    I'm on the bottom now
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover",
-        },
-        "ref": null,
-        "rendered": "Hover",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover",
-          },
-          "ref": null,
-          "rendered": "Hover",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;
 
 exports[`ToolTip Component snapshots should match snapshot 8`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ToolTip
-    appearance="light"
-    fluid={true}
-    position="left"
-    trigger={
-      <span>
-        Hover
-      </span>
-    }
-    triggerAction="hover"
-  >
-    I'm on the left now
-  </ToolTip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <span>
-          Hover
-        </span>,
-        null,
-      ],
-      "onClick": null,
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hover",
-        },
-        "ref": null,
-        "rendered": "Hover",
-        "type": "span",
-      },
-      null,
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <span>
-            Hover
-          </span>,
-          null,
-        ],
-        "onClick": null,
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hover",
-          },
-          "ref": null,
-          "rendered": "Hover",
-          "type": "span",
-        },
-        null,
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  position: relative;
 }
+
+<ToolTip__TriggerWrapper
+  onClick={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="c0"
+    onClick={null}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span>
+      Hover
+    </span>
+  </div>
+</ToolTip__TriggerWrapper>
 `;

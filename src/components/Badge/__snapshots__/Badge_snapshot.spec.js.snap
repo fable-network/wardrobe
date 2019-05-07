@@ -1,427 +1,201 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Badge Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={false}
-    appearance="primary"
-    inverse={false}
+.c0 {
+  display: inline-block;
+  padding: 1px 0.75em 1px;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  border-radius: 1em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #146292;
+  color: #ffffff;
+  border-color: #146292;
+}
+
+<Badge__BadgeWrapper
+  animated={false}
+  appearance="primary"
+  inverse={false}
+  radius="large"
+  size="normal"
+>
+  <span
+    className="c0"
     radius="large"
     size="normal"
   >
     9
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": false,
-      "appearance": "primary",
-      "children": "9",
-      "inverse": false,
-      "radius": "large",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "9",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": false,
-        "appearance": "primary",
-        "children": "9",
-        "inverse": false,
-        "radius": "large",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "9",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;
 
 exports[`Badge Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={false}
-    appearance="primary"
-    inverse={false}
+.c0 {
+  display: inline-block;
+  padding: 1px 0.75em 1px;
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  border-radius: 1em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #146292;
+  color: #ffffff;
+  border-color: #146292;
+}
+
+<Badge__BadgeWrapper
+  animated={false}
+  appearance="primary"
+  inverse={false}
+  radius="large"
+  size="small"
+>
+  <span
+    className="c0"
     radius="large"
     size="small"
   >
     9
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": false,
-      "appearance": "primary",
-      "children": "9",
-      "inverse": false,
-      "radius": "large",
-      "size": "small",
-    },
-    "ref": null,
-    "rendered": "9",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": false,
-        "appearance": "primary",
-        "children": "9",
-        "inverse": false,
-        "radius": "large",
-        "size": "small",
-      },
-      "ref": null,
-      "rendered": "9",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;
 
 exports[`Badge Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={false}
-    appearance="danger"
-    inverse={false}
+.c0 {
+  display: inline-block;
+  padding: calc(0.5em - 1px) 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1.75em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #e05f6e;
+  color: #ffffff;
+  border-color: #e05f6e;
+}
+
+<Badge__BadgeWrapper
+  animated={false}
+  appearance="danger"
+  inverse={false}
+  radius="large"
+  size="large"
+>
+  <span
+    className="c0"
     radius="large"
     size="large"
   >
     9
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": false,
-      "appearance": "danger",
-      "children": "9",
-      "inverse": false,
-      "radius": "large",
-      "size": "large",
-    },
-    "ref": null,
-    "rendered": "9",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": false,
-        "appearance": "danger",
-        "children": "9",
-        "inverse": false,
-        "radius": "large",
-        "size": "large",
-      },
-      "ref": null,
-      "rendered": "9",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;
 
 exports[`Badge Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={true}
-    appearance="success"
-    inverse={false}
+.c0 {
+  display: inline-block;
+  padding: 1px 0.75em 1px;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  border-radius: 1em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #30c0b8;
+  color: #ffffff;
+  border-color: #30c0b8;
+  -webkit-animation: pACoH 3s infinite ease;
+  animation: pACoH 3s infinite ease;
+}
+
+<Badge__BadgeWrapper
+  animated={true}
+  appearance="success"
+  inverse={false}
+  radius="large"
+  size="normal"
+>
+  <span
+    className="c0"
     radius="large"
     size="normal"
   >
     9
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": true,
-      "appearance": "success",
-      "children": "9",
-      "inverse": false,
-      "radius": "large",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "9",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": true,
-        "appearance": "success",
-        "children": "9",
-        "inverse": false,
-        "radius": "large",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "9",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;
 
 exports[`Badge Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={false}
-    appearance="info"
-    inverse={false}
+.c0 {
+  display: inline-block;
+  padding: calc(0.5em - 1px) 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #146292;
+  color: #ffffff;
+  border-color: #146292;
+}
+
+<Badge__BadgeWrapper
+  animated={false}
+  appearance="info"
+  inverse={false}
+  radius="none"
+  size="large"
+>
+  <span
+    className="c0"
     radius="none"
     size="large"
   >
     Pre-pack
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": false,
-      "appearance": "info",
-      "children": "Pre-pack",
-      "inverse": false,
-      "radius": "none",
-      "size": "large",
-    },
-    "ref": null,
-    "rendered": "Pre-pack",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": false,
-        "appearance": "info",
-        "children": "Pre-pack",
-        "inverse": false,
-        "radius": "none",
-        "size": "large",
-      },
-      "ref": null,
-      "rendered": "Pre-pack",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;
 
 exports[`Badge Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Badge
-    animated={false}
-    appearance="warning"
-    inverse={true}
+.c0 {
+  display: inline-block;
+  padding: 1px 0.75em 1px;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  border-radius: 2px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #146292;
+  border: solid 1px;
+  background-color: #ffffff;
+  color: #f5a623;
+  border-color: #f5a623;
+}
+
+<Badge__BadgeWrapper
+  animated={false}
+  appearance="warning"
+  inverse={true}
+  radius="small"
+  size="normal"
+>
+  <span
+    className="c0"
     radius="small"
     size="normal"
   >
     Acknowledged
-  </Badge>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "animated": false,
-      "appearance": "warning",
-      "children": "Acknowledged",
-      "inverse": true,
-      "radius": "small",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Acknowledged",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "animated": false,
-        "appearance": "warning",
-        "children": "Acknowledged",
-        "inverse": true,
-        "radius": "small",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Acknowledged",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+  </span>
+</Badge__BadgeWrapper>
 `;

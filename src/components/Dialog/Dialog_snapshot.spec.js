@@ -1,15 +1,18 @@
 /* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import Dialog from './Dialog';
 
 import Button from '../Button'
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
+
 describe('Dialog Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
-      const wrapper1 = shallow(
+      const wrapper1 = mount(
         <Dialog size="normal">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
@@ -23,7 +26,7 @@ describe('Dialog Component', () => {
       );
       expect(wrapper1).toMatchSnapshot();
 
-      const wrapper2 = shallow(
+      const wrapper2 = mount(
         <Dialog size="small">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
@@ -37,7 +40,7 @@ describe('Dialog Component', () => {
       );
       expect(wrapper2).toMatchSnapshot();
 
-      const wrapper3 = shallow(
+      const wrapper3 = mount(
         <Dialog size="large">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
@@ -51,7 +54,7 @@ describe('Dialog Component', () => {
       );
       expect(wrapper3).toMatchSnapshot();
 
-      const wrapper4 = shallow(
+      const wrapper4 = mount(
         <Dialog size="auto">
           <Dialog.Header>You are changing the status of this order to Shipped</Dialog.Header>
           <Dialog.Body>This body has pre-defined paddings.</Dialog.Body>
@@ -65,7 +68,7 @@ describe('Dialog Component', () => {
       );
       expect(wrapper4).toMatchSnapshot();
 
-      const wrapper5 = shallow(
+      const wrapper5 = mount(
         <Dialog showCloseButton={true} onClose={() => alert('close!')}>
           <Dialog.Body>
             Body-only dialogs can be used for modals with complex structure (e.g. to display product details).

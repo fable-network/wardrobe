@@ -24,7 +24,7 @@ const FieldError = styled.div`
 
 const Field = ({ label, renderInput, errorMessage, reserveSpaceForError, ...otherProps }) => (
   <Box stack="S">
-    <LabelAndInput label={label} stack="S" {...otherProps}>
+    <LabelAndInput label={label} stack="S">
       {renderInput(otherProps)}
     </LabelAndInput>
     {(reserveSpaceForError || errorMessage) && (

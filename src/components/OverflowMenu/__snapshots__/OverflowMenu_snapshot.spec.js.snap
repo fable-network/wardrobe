@@ -1,1405 +1,1672 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OverflowMenu Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)>
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Edit
-    </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    size="medium"
-  >
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Edit
-    </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "medium",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "medium",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 2rem;
+  height: 2rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  size="medium"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="medium"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="medium"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="2rem"
+            strokeWidth={1}
+            width="2rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    size="large"
-  >
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Edit
-    </DropdownItem>
-    <DropdownItem
-      onClick={[Function]}
-    >
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Edit
-        </DropdownItem>,
-        <DropdownItem
-          onClick={[Function]}
-        >
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "large",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Edit
-          </DropdownItem>,
-          <DropdownItem
-            onClick={[Function]}
-          >
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "large",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 2.5rem;
+  height: 2.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  size="large"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="large"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="large"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="2.5rem"
+            strokeWidth={1}
+            width="2.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem
+                onClick={[Function]}
+              >
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    persist={true}
-  >
-    <p>
-      Some sample text
-    </p>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": <p>
-        Some sample text
-      </p>,
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": true,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Some sample text",
-      },
-      "ref": null,
-      "rendered": "Some sample text",
-      "type": "p",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": <p>
-          Some sample text
-        </p>,
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": true,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Some sample text",
-        },
-        "ref": null,
-        "rendered": "Some sample text",
-        "type": "p",
-      },
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  persist={true}
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={true}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <p>
+                Some sample text
+              </p>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    position="left"
-  >
-    <DropdownItem>
-      Edit
-    </DropdownItem>
-    <DropdownItem>
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "left",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "left",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  right: 100%;
+  margin: 0 0.25rem 0 0;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  position="left"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="left"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        margin="0 0.25rem 0 0"
+        right="100%"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    appearance="primary"
-  >
-    <DropdownItem>
-      Edit
-    </DropdownItem>
-    <DropdownItem>
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  color: #146292;
+  background-color: #ffffff;
+  border: solid 1px #146292;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #034a76;
+  color: #034a76;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  appearance="primary"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#034a76"
+        appearance="primary"
+        borderColor="#146292"
+        color="#146292"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          color="#146292"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    appearance="danger"
-  >
-    <DropdownItem>
-      Edit
-    </DropdownItem>
-    <DropdownItem>
-      Delete
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "danger",
-      "children": Array [
-        <DropdownItem>
-          Edit
-        </DropdownItem>,
-        <DropdownItem>
-          Delete
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Edit",
-        },
-        "ref": null,
-        "rendered": "Edit",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Delete",
-        },
-        "ref": null,
-        "rendered": "Delete",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "danger",
-        "children": Array [
-          <DropdownItem>
-            Edit
-          </DropdownItem>,
-          <DropdownItem>
-            Delete
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Edit",
-          },
-          "ref": null,
-          "rendered": "Edit",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Delete",
-          },
-          "ref": null,
-          "rendered": "Delete",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  color: #e05f6e;
+  background-color: #ffffff;
+  border: solid 1px #e05f6e;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #e05f6e;
+  color: #e05f6e;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  appearance="danger"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#e05f6e"
+        appearance="danger"
+        borderColor="#e05f6e"
+        color="#e05f6e"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          color="#e05f6e"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Edit
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Delete
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 8`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    color="red"
-  >
-    <DropdownItem>
-      Action 1
-    </DropdownItem>
-    <DropdownItem>
-      Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "color": "red",
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "color": "red",
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  color: red;
+  background-color: #ffffff;
+  border: solid 1px red;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  color="red"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="red"
+        color="red"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          color="red"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 1
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 2
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 9`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    activeColor="blue"
-  >
-    <DropdownItem>
-      Action 1
-    </DropdownItem>
-    <DropdownItem>
-      Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "activeColor": "blue",
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "activeColor": "blue",
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c5 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c5:hover {
+  background-color: #e4e8ea;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: blue;
+  color: blue;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  activeColor="blue"
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="blue"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={false}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 1
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c5"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 2
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;
 
 exports[`OverflowMenu Component snapshots should match snapshot 10`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(OverflowMenu)
-    open={true}
-  >
-    <DropdownTitle>
-      You can't close me
-    </DropdownTitle>
-    <DropdownItem>
-      Action 1
-    </DropdownItem>
-    <DropdownItem>
-      Action 2
-    </DropdownItem>
-  </WithTheme(OverflowMenu)>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": Array [
-        <DropdownTitle>
-          You can't close me
-        </DropdownTitle>,
-        <DropdownItem>
-          Action 1
-        </DropdownItem>,
-        <DropdownItem>
-          Action 2
-        </DropdownItem>,
-      ],
-      "onClose": [Function],
-      "onOpen": [Function],
-      "open": true,
-      "persist": false,
-      "position": "right",
-      "size": "small",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": "You can't close me",
-        },
-        "ref": null,
-        "rendered": "You can't close me",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 1",
-        },
-        "ref": null,
-        "rendered": "Action 1",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Action 2",
-        },
-        "ref": null,
-        "rendered": "Action 2",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": Array [
-          <DropdownTitle>
-            You can't close me
-          </DropdownTitle>,
-          <DropdownItem>
-            Action 1
-          </DropdownItem>,
-          <DropdownItem>
-            Action 2
-          </DropdownItem>,
-        ],
-        "onClose": [Function],
-        "onOpen": [Function],
-        "open": true,
-        "persist": false,
-        "position": "right",
-        "size": "small",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "You can't close me",
-          },
-          "ref": null,
-          "rendered": "You can't close me",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 1",
-          },
-          "ref": null,
-          "rendered": "Action 1",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Action 2",
-          },
-          "ref": null,
-          "rendered": "Action 2",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c2 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
+
+.c0 {
+  display: inline-block;
+  position: relative;
+  pointer-events: initial;
+  max-width: 100%;
+}
+
+.c3 {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  top: 0;
+  left: 100%;
+  margin: 0 0 0 0.25rem;
+  min-width: 100%;
+}
+
+.c6 {
+  padding: 0.625rem 1rem;
+  color: #556269;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+.c6:hover {
+  background-color: #e4e8ea;
+}
+
+.c5 {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: calc(0.25rem - 1px);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color 0.1s linear,color 0.1s linear;
+  transition: border-color 0.1s linear,color 0.1s linear;
+  background-color: #ffffff;
+  border: solid 1px #d2d9dd;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover,
+[data-whatintent='keyboard'] .c1:focus {
+  outline: none;
+  border-color: #146292;
+  color: #146292;
+}
+
+.c4 {
+  display: block;
+  margin-top: 4px;
+  background: #ffffff;
+  min-width: 100px;
+  border: solid 1px #d2d9dd;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+<WithTheme(OverflowMenu)
+  open={true}
+>
+  <ToggleMenu__TriggerWrapper
+    fluid={false}
+  >
+    <span
+      className="c0"
+    >
+      <OverflowMenu__Trigger
+        active={false}
+        activeColor="#146292"
+        appearance="secondary"
+        borderColor="#d2d9dd"
+        onClick={[Function]}
+        onClose={[Function]}
+        open={true}
+        persist={false}
+        position="right"
+        role="button"
+        size="small"
+        tabIndex={0}
+      >
+        <div
+          className="c1"
+          onClick={[Function]}
+          onClose={[Function]}
+          open={true}
+          role="button"
+          size="small"
+          tabIndex={0}
+        >
+          <Icon__Svg
+            className="ft-icon"
+            fill="inherit"
+            height="1.5rem"
+            strokeWidth={1}
+            width="1.5rem"
+          >
+            <svg
+              className="ft-icon c2"
+              fill="inherit"
+              strokeWidth={1}
+            >
+              <use
+                xlinkHref="/iconsprite.svg#icon-vertical-menu"
+              />
+            </svg>
+          </Icon__Svg>
+        </div>
+      </OverflowMenu__Trigger>
+      <ToggleMenu__MenuWrapper
+        left="100%"
+        margin="0 0 0 0.25rem"
+        top="0"
+        visible={true}
+      >
+        <div
+          className="c3"
+        >
+          <OverflowMenu__Menu>
+            <div
+              className="c4"
+            >
+              <DropdownTitle__Wrapper>
+                <div
+                  className="c5"
+                >
+                  You can't close me
+                </div>
+              </DropdownTitle__Wrapper>
+              <DropdownItem>
+                <div
+                  className="c6"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 1
+                </div>
+              </DropdownItem>
+              <DropdownItem>
+                <div
+                  className="c6"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  Action 2
+                </div>
+              </DropdownItem>
+            </div>
+          </OverflowMenu__Menu>
+        </div>
+      </ToggleMenu__MenuWrapper>
+    </span>
+  </ToggleMenu__TriggerWrapper>
+</WithTheme(OverflowMenu)>
 `;

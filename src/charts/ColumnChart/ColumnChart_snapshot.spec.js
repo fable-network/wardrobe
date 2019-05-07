@@ -1,14 +1,17 @@
 /* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import ColumnChart from './ColumnChart';
+
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
 
 describe('ColumnChart Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
-      const wrapper1 = shallow(
+      const wrapper1 = mount(
         <ColumnChart
           title="Distribution of delivery"
           subtitle="Total: 480 pieces"
@@ -18,7 +21,7 @@ describe('ColumnChart Component', () => {
       );
       expect(wrapper1).toMatchSnapshot();
 
-      const wrapper2 = shallow(
+      const wrapper2 = mount(
         <ColumnChart
           title="Distribution of delivery"
           subtitle="Total: 42 pieces"

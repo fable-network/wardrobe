@@ -7,7 +7,7 @@ Default (Uncontrolled):
 Selected (Controlled):
 
 ```jsx
-<RadioButton selected label="Radio label" />
+<RadioButton selected label="Radio label" readOnly />
 ```
 
 Not selected (Controlled):

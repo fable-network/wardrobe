@@ -1,614 +1,320 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LoadingSpinner Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner) />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "primary",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "primary",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #146292;
+  border-left-color: rgba(20,98,146,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)>
+  <LoadingSpinner__StyledSpinner
+    color="#146292"
+    gapColor="rgba(20, 98, 146, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#146292"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    speed=".5s"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "primary",
-      "size": "20px",
-      "speed": ".5s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "primary",
-        "size": "20px",
-        "speed": ".5s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #146292;
+  border-left-color: rgba(20,98,146,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp .5s linear infinite;
+  animation: kOBPdp .5s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  speed=".5s"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#146292"
+    gapColor="rgba(20, 98, 146, 0.25)"
+    size="20px"
+    speed=".5s"
+  >
+    <span
+      className="c0"
+      color="#146292"
+      size="20px"
+      speed=".5s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    size="40px"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "primary",
-      "size": "40px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "primary",
-        "size": "40px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: calc(40px / 10) solid #146292;
+  border-left-color: rgba(20,98,146,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  size="40px"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#146292"
+    gapColor="rgba(20, 98, 146, 0.25)"
+    size="40px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#146292"
+      size="40px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="secondary"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "secondary",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "secondary",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #949ea3;
+  border-left-color: rgba(148,158,163,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="secondary"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#949ea3"
+    gapColor="rgba(148, 158, 163, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#949ea3"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="success"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "success",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "success",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #30c0b8;
+  border-left-color: rgba(48,192,184,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="success"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#30c0b8"
+    gapColor="rgba(48, 192, 184, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#30c0b8"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="warning"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "warning",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "warning",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #f5a623;
+  border-left-color: rgba(245,166,35,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="warning"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#f5a623"
+    gapColor="rgba(245, 166, 35, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#f5a623"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="danger"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "danger",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "danger",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #e05f6e;
+  border-left-color: rgba(224,95,110,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="danger"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#e05f6e"
+    gapColor="rgba(224, 95, 110, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#e05f6e"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 8`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="light"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "light",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "light",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #e4e8ea;
+  border-left-color: rgba(228,232,234,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="light"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#e4e8ea"
+    gapColor="rgba(228, 232, 234, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#e4e8ea"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 9`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
-    appearance="dark"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "dark",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "dark",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #2d3b43;
+  border-left-color: rgba(45,59,67,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
 }
+
+<WithTheme(LoadingSpinner)
+  appearance="dark"
+>
+  <LoadingSpinner__StyledSpinner
+    color="#2d3b43"
+    gapColor="rgba(45, 59, 67, 0.25)"
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="#2d3b43"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;
 
 exports[`LoadingSpinner Component snapshots should match snapshot 10`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithTheme(LoadingSpinner)
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid blue;
+  border-left-color: red;
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
+}
+
+<WithTheme(LoadingSpinner)
+  color="blue"
+  gapColor="red"
+>
+  <LoadingSpinner__StyledSpinner
     color="blue"
     gapColor="red"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "appearance": "primary",
-      "color": "blue",
-      "gapColor": "red",
-      "size": "20px",
-      "speed": "1s",
-      "theme": undefined,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "appearance": "primary",
-        "color": "blue",
-        "gapColor": "red",
-        "size": "20px",
-        "speed": "1s",
-        "theme": undefined,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+    size="20px"
+    speed="1s"
+  >
+    <span
+      className="c0"
+      color="blue"
+      size="20px"
+      speed="1s"
+    />
+  </LoadingSpinner__StyledSpinner>
+</WithTheme(LoadingSpinner)>
 `;

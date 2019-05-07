@@ -101,10 +101,10 @@ const CloseButton = styled(IconButton)`
 /**
  * Dialog component.
  */
-function Dialog(props) {
+const Dialog = React.forwardRef((props, ref) => {
   const { size, children, showCloseButton, onClose, ...otherProps } = props;
   return (
-    <Wrapper {...otherProps} size={size}>
+    <Wrapper {...otherProps} ref={ref} size={size}>
       {children}
       {showCloseButton && (
         <CloseButton onClick={onClose} appearance="primary">
@@ -113,7 +113,7 @@ function Dialog(props) {
       )}
     </Wrapper>
   );
-}
+});
 
 Dialog.defaultProps = {
   size: 'normal',

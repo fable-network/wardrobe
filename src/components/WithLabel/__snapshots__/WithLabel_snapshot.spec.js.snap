@@ -1,572 +1,262 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`WithLabel Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithLabel
-    direction="vertical"
-    ellipsis={false}
-    label="Total WSP"
-  >
-    EUR 
-    <span
-      style={
-        Object {
-          "textDecoration": "line-through",
-        }
-      }
-    >
-      15,982.09
-    </span>
-     
-    <span
-      style={
-        Object {
-          "color": "red",
-        }
-      }
-    >
-      12,345.67
-    </span>
-  </WithLabel>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <WithLabel__Label
-          ellipsis={false}
-        >
-          Total WSP
-        </WithLabel__Label>,
-        <WithLabel__Content
-          ellipsis={false}
-        >
-          EUR 
-          <span
-            style={
-              Object {
-                "textDecoration": "line-through",
-              }
-            }
-          >
-            15,982.09
-          </span>
-           
-          <span
-            style={
-              Object {
-                "color": "red",
-              }
-            }
-          >
-            12,345.67
-          </span>
-        </WithLabel__Content>,
-      ],
-      "direction": "vertical",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Total WSP",
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": "Total WSP",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            "EUR ",
-            <span
-              style={
-                Object {
-                  "textDecoration": "line-through",
-                }
-              }
-            >
-              15,982.09
-            </span>,
-            " ",
-            <span
-              style={
-                Object {
-                  "color": "red",
-                }
-              }
-            >
-              12,345.67
-            </span>,
-          ],
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": Array [
-          "EUR ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "15,982.09",
-              "style": Object {
-                "textDecoration": "line-through",
-              },
-            },
-            "ref": null,
-            "rendered": "15,982.09",
-            "type": "span",
-          },
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "12,345.67",
-              "style": Object {
-                "color": "red",
-              },
-            },
-            "ref": null,
-            "rendered": "12,345.67",
-            "type": "span",
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <WithLabel__Label
-            ellipsis={false}
-          >
-            Total WSP
-          </WithLabel__Label>,
-          <WithLabel__Content
-            ellipsis={false}
-          >
-            EUR 
-            <span
-              style={
-                Object {
-                  "textDecoration": "line-through",
-                }
-              }
-            >
-              15,982.09
-            </span>
-             
-            <span
-              style={
-                Object {
-                  "color": "red",
-                }
-              }
-            >
-              12,345.67
-            </span>
-          </WithLabel__Content>,
-        ],
-        "direction": "vertical",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Total WSP",
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": "Total WSP",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              "EUR ",
-              <span
-                style={
-                  Object {
-                    "textDecoration": "line-through",
-                  }
-                }
-              >
-                15,982.09
-              </span>,
-              " ",
-              <span
-                style={
-                  Object {
-                    "color": "red",
-                  }
-                }
-              >
-                12,345.67
-              </span>,
-            ],
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": Array [
-            "EUR ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "15,982.09",
-                "style": Object {
-                  "textDecoration": "line-through",
-                },
-              },
-              "ref": null,
-              "rendered": "15,982.09",
-              "type": "span",
-            },
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "12,345.67",
-                "style": Object {
-                  "color": "red",
-                },
-              },
-              "ref": null,
-              "rendered": "12,345.67",
-              "type": "span",
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c1 {
+  max-width: 100%;
+  font-weight: 500;
+  color: #2d3b43;
 }
+
+.c2 {
+  max-width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  color: #556269;
+}
+
+.c0 > * + * {
+  margin-top: 0;
+}
+
+<WithLabel__Wrapper
+  direction="vertical"
+  padding="0"
+  renderAs="div"
+  stack="0"
+>
+  <div
+    className="Box-jf8k8y-0 c0"
+  >
+    <WithLabel__Label
+      ellipsis={false}
+    >
+      <div
+        className="c1"
+      >
+        Total WSP
+      </div>
+    </WithLabel__Label>
+    <WithLabel__Content
+      ellipsis={false}
+    >
+      <div
+        className="c2"
+      >
+        EUR 
+        <span
+          style={
+            Object {
+              "textDecoration": "line-through",
+            }
+          }
+        >
+          15,982.09
+        </span>
+         
+        <span
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          12,345.67
+        </span>
+      </div>
+    </WithLabel__Content>
+  </div>
+</WithLabel__Wrapper>
 `;
 
 exports[`WithLabel Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithLabel
-    direction="vertical"
-    ellipsis={false}
-    label="Pieces"
-  >
-    0
-  </WithLabel>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <WithLabel__Label
-          ellipsis={false}
-        >
-          Pieces
-        </WithLabel__Label>,
-        <WithLabel__Content
-          ellipsis={false}
-        >
-          0
-        </WithLabel__Content>,
-      ],
-      "direction": "vertical",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Pieces",
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": "Pieces",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "0",
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": "0",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <WithLabel__Label
-            ellipsis={false}
-          >
-            Pieces
-          </WithLabel__Label>,
-          <WithLabel__Content
-            ellipsis={false}
-          >
-            0
-          </WithLabel__Content>,
-        ],
-        "direction": "vertical",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Pieces",
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": "Pieces",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "0",
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": "0",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c1 {
+  max-width: 100%;
+  font-weight: 500;
+  color: #2d3b43;
 }
+
+.c2 {
+  max-width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  color: #556269;
+}
+
+.c0 > * + * {
+  margin-top: 0;
+}
+
+<WithLabel__Wrapper
+  direction="vertical"
+  padding="0"
+  renderAs="div"
+  stack="0"
+>
+  <div
+    className="Box-jf8k8y-0 c0"
+  >
+    <WithLabel__Label
+      ellipsis={false}
+    >
+      <div
+        className="c1"
+      >
+        Pieces
+      </div>
+    </WithLabel__Label>
+    <WithLabel__Content
+      ellipsis={false}
+    >
+      <div
+        className="c2"
+      >
+        0
+      </div>
+    </WithLabel__Content>
+  </div>
+</WithLabel__Wrapper>
 `;
 
 exports[`WithLabel Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <WithLabel
-    direction="horizontal"
-    ellipsis={false}
-    label="RRP"
+.c1 {
+  max-width: 100%;
+  font-weight: 500;
+  color: #2d3b43;
+}
+
+.c2 {
+  max-width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  color: #556269;
+}
+
+.c0 > * + * {
+  margin-left: 0;
+}
+
+.c0 > * {
+  width: 50%;
+}
+
+<WithLabel__Wrapper
+  direction="horizontal"
+  padding="0"
+  renderAs="div"
+  stack="0"
+  style={
+    Object {
+      "width": "300px",
+    }
+  }
+>
+  <div
+    className="Box-jf8k8y-0 c0"
     style={
       Object {
         "width": "300px",
       }
     }
   >
-    EUR 69.99
-  </WithLabel>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <WithLabel__Label
-          ellipsis={false}
-        >
-          RRP
-        </WithLabel__Label>,
-        <WithLabel__Content
-          ellipsis={false}
-        >
-          EUR 69.99
-        </WithLabel__Content>,
-      ],
-      "direction": "horizontal",
-      "style": Object {
-        "width": "300px",
-      },
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "RRP",
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": "RRP",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "EUR 69.99",
-          "ellipsis": false,
-        },
-        "ref": null,
-        "rendered": "EUR 69.99",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <WithLabel__Label
-            ellipsis={false}
-          >
-            RRP
-          </WithLabel__Label>,
-          <WithLabel__Content
-            ellipsis={false}
-          >
-            EUR 69.99
-          </WithLabel__Content>,
-        ],
-        "direction": "horizontal",
-        "style": Object {
-          "width": "300px",
-        },
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "RRP",
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": "RRP",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "EUR 69.99",
-            "ellipsis": false,
-          },
-          "ref": null,
-          "rendered": "EUR 69.99",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+    <WithLabel__Label
+      ellipsis={false}
+    >
+      <div
+        className="c1"
+      >
+        RRP
+      </div>
+    </WithLabel__Label>
+    <WithLabel__Content
+      ellipsis={false}
+    >
+      <div
+        className="c2"
+      >
+        EUR 69.99
+      </div>
+    </WithLabel__Content>
+  </div>
+</WithLabel__Wrapper>
 `;

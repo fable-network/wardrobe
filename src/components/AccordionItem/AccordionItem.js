@@ -99,7 +99,7 @@ class AccordionItem extends Component {
         <ChildrenWrapper
           data-testid="accordion-item--children-wrapper"
           open={open}
-          innerRef={c => {
+          ref={c => {
             this.bodyRef = c;
           }}
         >

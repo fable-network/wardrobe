@@ -1,1140 +1,593 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CheckBox Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CheckBox
-    label="Checkbox Label"
-    onToggle={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input>
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
-          Checkbox Label
-        </CheckBox__Label>,
-      ],
-      "disabled": undefined,
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <CheckBox__Input>
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "checked": undefined,
-            "children": <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />,
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "height": "0.5em",
-              "name": "check",
-              "strokeWidth": 1,
-              "width": "0.5em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Checkbox Label",
-          "disabled": undefined,
-        },
-        "ref": null,
-        "rendered": "Checkbox Label",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input>
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
-            Checkbox Label
-          </CheckBox__Label>,
-        ],
-        "disabled": undefined,
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <CheckBox__Input>
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "checked": undefined,
-              "children": <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />,
-              "disabled": undefined,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "color": "inherit",
-                "height": "0.5em",
-                "name": "check",
-                "strokeWidth": 1,
-                "width": "0.5em",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Checkbox Label",
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": "Checkbox Label",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c3 {
+  width: 0.5em;
+  height: 0.5em;
 }
+
+.c0 {
+  pointer-events: initial;
+  cursor: pointer;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 0px 1px #c1c7cb;
+  background: #ffffff;
+  border: solid 0.05em #fff;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  color: transparent;
+  fill: none;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: initial;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<CheckBox__Wrapper
+  onClick={[Function]}
+>
+  <span
+    className="c0"
+    onClick={[Function]}
+  >
+    <CheckBox__InputWrapper>
+      <span
+        className="c1"
+      >
+        <CheckBox__Input>
+          <span
+            className="c2"
+          >
+            <Icon__Svg
+              className="ft-icon"
+              fill="inherit"
+              height="0.5em"
+              strokeWidth={1}
+              width="0.5em"
+            >
+              <svg
+                className="ft-icon c3"
+                fill="inherit"
+                strokeWidth={1}
+              >
+                <use
+                  xlinkHref="/iconsprite.svg#icon-check"
+                />
+              </svg>
+            </Icon__Svg>
+          </span>
+        </CheckBox__Input>
+      </span>
+    </CheckBox__InputWrapper>
+    <CheckBox__Label>
+      <span
+        className="c4"
+      >
+        Checkbox Label
+      </span>
+    </CheckBox__Label>
+  </span>
+</CheckBox__Wrapper>
 `;
 
 exports[`CheckBox Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CheckBox
-    checked={true}
-    label="Checkbox Label"
-    onToggle={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
-            checked={true}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
-          Checkbox Label
-        </CheckBox__Label>,
-      ],
-      "disabled": undefined,
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <CheckBox__Input
-            checked={true}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "checked": true,
-            "children": <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />,
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "height": "0.5em",
-              "name": "check",
-              "strokeWidth": 1,
-              "width": "0.5em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Checkbox Label",
-          "disabled": undefined,
-        },
-        "ref": null,
-        "rendered": "Checkbox Label",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
-              checked={true}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
-            Checkbox Label
-          </CheckBox__Label>,
-        ],
-        "disabled": undefined,
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <CheckBox__Input
-              checked={true}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "checked": true,
-              "children": <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />,
-              "disabled": undefined,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "color": "inherit",
-                "height": "0.5em",
-                "name": "check",
-                "strokeWidth": 1,
-                "width": "0.5em",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Checkbox Label",
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": "Checkbox Label",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c3 {
+  width: 0.5em;
+  height: 0.5em;
 }
+
+.c0 {
+  pointer-events: initial;
+  cursor: pointer;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 0px 1px #c1c7cb;
+  background: #146292;
+  border: solid 0.05em #fff;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  color: #ffffff;
+  fill: none;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: initial;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<CheckBox__Wrapper
+  onClick={[Function]}
+>
+  <span
+    className="c0"
+    onClick={[Function]}
+  >
+    <CheckBox__InputWrapper>
+      <span
+        className="c1"
+      >
+        <CheckBox__Input
+          checked={true}
+        >
+          <span
+            className="c2"
+          >
+            <Icon__Svg
+              className="ft-icon"
+              fill="inherit"
+              height="0.5em"
+              strokeWidth={1}
+              width="0.5em"
+            >
+              <svg
+                className="ft-icon c3"
+                fill="inherit"
+                strokeWidth={1}
+              >
+                <use
+                  xlinkHref="/iconsprite.svg#icon-check"
+                />
+              </svg>
+            </Icon__Svg>
+          </span>
+        </CheckBox__Input>
+      </span>
+    </CheckBox__InputWrapper>
+    <CheckBox__Label>
+      <span
+        className="c4"
+      >
+        Checkbox Label
+      </span>
+    </CheckBox__Label>
+  </span>
+</CheckBox__Wrapper>
 `;
 
 exports[`CheckBox Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CheckBox
+.c3 {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.c0 {
+  pointer-events: none;
+  cursor: pointer;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 0px 1px #c1c7cb;
+  background: #e4e8ea;
+  border: solid 0.05em #fff;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  color: transparent;
+  fill: none;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<CheckBox__Wrapper
+  disabled={true}
+  onClick={[Function]}
+>
+  <span
+    className="c0"
     disabled={true}
-    label="Checkbox Label"
-    onToggle={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
-            disabled={true}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label
+    onClick={[Function]}
+  >
+    <CheckBox__InputWrapper>
+      <span
+        className="c1"
+      >
+        <CheckBox__Input
           disabled={true}
         >
-          Checkbox Label
-        </CheckBox__Label>,
-      ],
-      "disabled": true,
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <CheckBox__Input
-            disabled={true}
+          <span
+            className="c2"
           >
-            <Icon
-              color="inherit"
+            <Icon__Svg
+              className="ft-icon"
+              fill="inherit"
               height="0.5em"
-              name="check"
               strokeWidth={1}
               width="0.5em"
-            />
-          </CheckBox__Input>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "checked": undefined,
-            "children": <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />,
-            "disabled": true,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "height": "0.5em",
-              "name": "check",
-              "strokeWidth": 1,
-              "width": "0.5em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Checkbox Label",
-          "disabled": true,
-        },
-        "ref": null,
-        "rendered": "Checkbox Label",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
-              disabled={true}
             >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
+              <svg
+                className="ft-icon c3"
+                fill="inherit"
                 strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label
-            disabled={true}
-          >
-            Checkbox Label
-          </CheckBox__Label>,
-        ],
-        "disabled": true,
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <CheckBox__Input
-              disabled={true}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "checked": undefined,
-              "children": <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />,
-              "disabled": true,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "color": "inherit",
-                "height": "0.5em",
-                "name": "check",
-                "strokeWidth": 1,
-                "width": "0.5em",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Checkbox Label",
-            "disabled": true,
-          },
-          "ref": null,
-          "rendered": "Checkbox Label",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+              >
+                <use
+                  xlinkHref="/iconsprite.svg#icon-check"
+                />
+              </svg>
+            </Icon__Svg>
+          </span>
+        </CheckBox__Input>
+      </span>
+    </CheckBox__InputWrapper>
+    <CheckBox__Label
+      disabled={true}
+    >
+      <span
+        className="c4"
+      >
+        Checkbox Label
+      </span>
+    </CheckBox__Label>
+  </span>
+</CheckBox__Wrapper>
 `;
 
 exports[`CheckBox Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CheckBox
-    checked={true}
+.c3 {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.c0 {
+  pointer-events: none;
+  cursor: pointer;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 0px 1px #c1c7cb;
+  background: #e4e8ea;
+  border: solid 0.05em #fff;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  color: #949ea3;
+  fill: none;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<CheckBox__Wrapper
+  disabled={true}
+  onClick={[Function]}
+>
+  <span
+    className="c0"
     disabled={true}
-    label="Checkbox Label"
-    onToggle={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
-            checked={true}
-            disabled={true}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label
+    onClick={[Function]}
+  >
+    <CheckBox__InputWrapper>
+      <span
+        className="c1"
+      >
+        <CheckBox__Input
+          checked={true}
           disabled={true}
         >
-          Checkbox Label
-        </CheckBox__Label>,
-      ],
-      "disabled": true,
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <CheckBox__Input
-            checked={true}
-            disabled={true}
+          <span
+            className="c2"
           >
-            <Icon
-              color="inherit"
+            <Icon__Svg
+              className="ft-icon"
+              fill="inherit"
               height="0.5em"
-              name="check"
               strokeWidth={1}
               width="0.5em"
-            />
-          </CheckBox__Input>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "checked": true,
-            "children": <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />,
-            "disabled": true,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "height": "0.5em",
-              "name": "check",
-              "strokeWidth": 1,
-              "width": "0.5em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Checkbox Label",
-          "disabled": true,
-        },
-        "ref": null,
-        "rendered": "Checkbox Label",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
-              checked={true}
-              disabled={true}
             >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
+              <svg
+                className="ft-icon c3"
+                fill="inherit"
                 strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label
-            disabled={true}
-          >
-            Checkbox Label
-          </CheckBox__Label>,
-        ],
-        "disabled": true,
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <CheckBox__Input
-              checked={true}
-              disabled={true}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "checked": true,
-              "children": <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />,
-              "disabled": true,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "color": "inherit",
-                "height": "0.5em",
-                "name": "check",
-                "strokeWidth": 1,
-                "width": "0.5em",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Checkbox Label",
-            "disabled": true,
-          },
-          "ref": null,
-          "rendered": "Checkbox Label",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
+              >
+                <use
+                  xlinkHref="/iconsprite.svg#icon-check"
+                />
+              </svg>
+            </Icon__Svg>
+          </span>
+        </CheckBox__Input>
+      </span>
+    </CheckBox__InputWrapper>
+    <CheckBox__Label
+      disabled={true}
+    >
+      <span
+        className="c4"
+      >
+        Checkbox Label
+      </span>
+    </CheckBox__Label>
+  </span>
+</CheckBox__Wrapper>
 `;
 
 exports[`CheckBox Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CheckBox
-    checked={null}
-    label="Checkbox Label"
-    onToggle={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <CheckBox__InputWrapper>
-          <CheckBox__Input
-            checked={null}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>
-        </CheckBox__InputWrapper>,
-        <CheckBox__Label>
-          Checkbox Label
-        </CheckBox__Label>,
-      ],
-      "disabled": undefined,
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <CheckBox__Input
-            checked={null}
-          >
-            <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />
-          </CheckBox__Input>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "checked": null,
-            "children": <Icon
-              color="inherit"
-              height="0.5em"
-              name="check"
-              strokeWidth={1}
-              width="0.5em"
-            />,
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "color": "inherit",
-              "height": "0.5em",
-              "name": "check",
-              "strokeWidth": 1,
-              "width": "0.5em",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Checkbox Label",
-          "disabled": undefined,
-        },
-        "ref": null,
-        "rendered": "Checkbox Label",
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <CheckBox__InputWrapper>
-            <CheckBox__Input
-              checked={null}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>
-          </CheckBox__InputWrapper>,
-          <CheckBox__Label>
-            Checkbox Label
-          </CheckBox__Label>,
-        ],
-        "disabled": undefined,
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <CheckBox__Input
-              checked={null}
-            >
-              <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />
-            </CheckBox__Input>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "checked": null,
-              "children": <Icon
-                color="inherit"
-                height="0.5em"
-                name="check"
-                strokeWidth={1}
-                width="0.5em"
-              />,
-              "disabled": undefined,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "color": "inherit",
-                "height": "0.5em",
-                "name": "check",
-                "strokeWidth": 1,
-                "width": "0.5em",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Checkbox Label",
-            "disabled": undefined,
-          },
-          "ref": null,
-          "rendered": "Checkbox Label",
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
+.c3 {
+  width: 0.5em;
+  height: 0.5em;
 }
+
+.c0 {
+  pointer-events: initial;
+  cursor: pointer;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 0px 1px #c1c7cb;
+  background: #146292;
+  border: solid 0.05em #fff;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+  color: transparent;
+  fill: none;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: initial;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<CheckBox__Wrapper
+  onClick={[Function]}
+>
+  <span
+    className="c0"
+    onClick={[Function]}
+  >
+    <CheckBox__InputWrapper>
+      <span
+        className="c1"
+      >
+        <CheckBox__Input
+          checked={null}
+        >
+          <span
+            className="c2"
+          >
+            <Icon__Svg
+              className="ft-icon"
+              fill="inherit"
+              height="0.5em"
+              strokeWidth={1}
+              width="0.5em"
+            >
+              <svg
+                className="ft-icon c3"
+                fill="inherit"
+                strokeWidth={1}
+              >
+                <use
+                  xlinkHref="/iconsprite.svg#icon-check"
+                />
+              </svg>
+            </Icon__Svg>
+          </span>
+        </CheckBox__Input>
+      </span>
+    </CheckBox__InputWrapper>
+    <CheckBox__Label>
+      <span
+        className="c4"
+      >
+        Checkbox Label
+      </span>
+    </CheckBox__Label>
+  </span>
+</CheckBox__Wrapper>
 `;

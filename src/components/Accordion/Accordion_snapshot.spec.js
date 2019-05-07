@@ -1,14 +1,17 @@
 /* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import Accordion from './Accordion';
+
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
 
 describe('Accordion Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
     
-      const wrapper1 = shallow(
+      const wrapper1 = mount(
         <Accordion>
           <Accordion.Item title="A title">
             <p>some body text</p>
@@ -20,7 +23,7 @@ describe('Accordion Component', () => {
       );
       expect(wrapper1).toMatchSnapshot();
 
-      const wrapper2 = shallow(
+      const wrapper2 = mount(
         <Accordion>
           <Accordion.Item title="A title">
             <p>some body text</p>
@@ -32,7 +35,7 @@ describe('Accordion Component', () => {
       );
       expect(wrapper2).toMatchSnapshot();
 
-      const wrapper3 = shallow(
+      const wrapper3 = mount(
         <Accordion>
           <Accordion.Item title="A title" open={true}>
             <p>some body text</p>
@@ -44,7 +47,7 @@ describe('Accordion Component', () => {
       );
       expect(wrapper3).toMatchSnapshot();
 
-      const wrapper4 = shallow(
+      const wrapper4 = mount(
         <Accordion>
           <Accordion.Item title="A title" open={true}>
             <p>some body text</p>
