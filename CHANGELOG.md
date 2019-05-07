@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [6.0.0] - 2019-05-07
+
 ### Changed
 
 - Add a missing `forwardRef` on [Dialog](/#/Components?id=dialog).
