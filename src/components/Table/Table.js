@@ -81,6 +81,11 @@ const StyledTable = styled('div')`
   }
 `;
 
+const extractNameFromId = (componentId = '') => {
+  const [displayName] = componentId.split('-');
+  return displayName;
+};
+
 // Checks if a component (or its target) is of a certain type (Cell, or Row)
 const isComponentTypeOf = (type, component) => {
   if (!component || !component.type) {
@@ -90,8 +95,15 @@ const isComponentTypeOf = (type, component) => {
   const componentName = get(component, 'type.displayName', '');
   const targetName = get(component, 'type.target.displayName', '');
 
-  // true if the component name matches the type, or the component target name matches the type.
-  return componentName === type || targetName === type;
+  // true if the component name matches the type, or the component target name matches the type,
+  // or one of the folded components matches the type.
+  return (
+    componentName === type ||
+    targetName === type ||
+    get(component, 'type.foldedComponentIds', [])
+      .map(extractNameFromId)
+      .some(name => name === type)
+  );
 };
 
 const isTableRow = component => isComponentTypeOf('Table__Row', component);
