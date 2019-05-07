@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [6.0.1] - 2019-05-07
+
 ### Changed
 
 - Fix Table.Row detection in [Table](/#/Components?id=table).
