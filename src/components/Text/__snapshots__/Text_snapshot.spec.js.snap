@@ -1,173 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Text Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    bold={true}
-    renderAs="h1"
-    size="XXXL"
+.c0 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+<Text
+  bold={true}
+  renderAs="h1"
+  size="XXXL"
+>
+  <h1
+    className="c0"
   >
     Some text in the h1 style
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "bold": true,
-      "children": "Some text in the h1 style",
-<<<<<<< HEAD
-      "className": "Text-bbIbrg jseUUx",
-=======
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "H1": [Function],
-        "H2": [Function],
-        "H3": [Function],
-        "H4": [Function],
-        "H5": [Function],
-        "H6": [Function],
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Text-m61igh-0",
-          "isStatic": false,
-          "rules": Array [
-            "margin:0;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";font-weight:",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "bold": false,
-          "renderAs": "p",
-          "size": "M",
-        },
-        "displayName": "Text",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "bold": [Function],
-          "children": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Text-m61igh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
->>>>>>> change(*): update to styled-components v4
-      "renderAs": "h1",
-      "size": "XXXL",
-    },
-    "ref": null,
-    "rendered": "Some text in the h1 style",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "bold": true,
-        "children": "Some text in the h1 style",
-<<<<<<< HEAD
-        "className": "Text-bbIbrg jseUUx",
-=======
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "H1": [Function],
-          "H2": [Function],
-          "H3": [Function],
-          "H4": [Function],
-          "H5": [Function],
-          "H6": [Function],
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Text-m61igh-0",
-            "isStatic": false,
-            "rules": Array [
-              "margin:0;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";font-weight:",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "bold": false,
-            "renderAs": "p",
-            "size": "M",
-          },
-          "displayName": "Text",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "bold": [Function],
-            "children": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Text-m61igh-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
->>>>>>> change(*): update to styled-components v4
-        "renderAs": "h1",
-        "size": "XXXL",
-      },
-      "ref": null,
-      "rendered": "Some text in the h1 style",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </h1>
+</Text>
 `;

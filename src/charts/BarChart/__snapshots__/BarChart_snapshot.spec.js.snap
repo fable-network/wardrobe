@@ -1,430 +1,448 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BarChart Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    data={
-      Array [
-        Object {
-          "name": "Jeans",
-          "y": 2600,
-        },
-        Object {
-          "name": "Tops",
-          "y": 1900,
-        },
-        Object {
-          "name": "Shirts",
-          "y": 1625,
-        },
-        Object {
-          "name": "Cardigans",
-          "y": 1475,
-        },
-        Object {
-          "name": "Pull-overs",
-          "y": 1000,
-        },
-        Object {
-          "name": "Jackets and tops",
-          "y": 800,
-        },
-        Object {
-          "name": "Chino pants",
-          "y": 400,
-        },
-        Object {
-          "name": "Ridiculous White Board Fancy Irregular Shorts",
-          "y": 200,
-        },
-      ]
-    }
-    title="Category mix"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0,
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0.highcharts-point-hover {
+  -webkit-transition: fill 250ms;
+  transition: fill 250ms;
+  stroke-width: 0;
+  fill: #034a76;
+  fill-opacity: 1;
 }
+
+.c0 .ft-wardrobe-bar-chart .highcharts-yaxis-grid .highcharts-grid-line {
+  stroke-dasharray: 4;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-xaxis .highcharts-axis-line {
+  stroke: #c1c7cb;
+  stroke-width: 2px;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels {
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block {
+  display: block;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block .ft-label.ft-label-category {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block.ft-label-block-disabled .ft-label.ft-label-category {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(BarChart)
+  data={
+    Array [
+      Object {
+        "name": "Jeans",
+        "y": 2600,
+      },
+      Object {
+        "name": "Tops",
+        "y": 1900,
+      },
+      Object {
+        "name": "Shirts",
+        "y": 1625,
+      },
+      Object {
+        "name": "Cardigans",
+        "y": 1475,
+      },
+      Object {
+        "name": "Pull-overs",
+        "y": 1000,
+      },
+      Object {
+        "name": "Jackets and tops",
+        "y": 800,
+      },
+      Object {
+        "name": "Chino pants",
+        "y": 400,
+      },
+      Object {
+        "name": "Ridiculous White Board Fancy Irregular Shorts",
+        "y": 200,
+      },
+    ]
+  }
+  title="Category mix"
+>
+  <BarChart__Wrapper
+    highlighted={false}
+    orientation="horizontal"
+  >
+    <div
+      className="c0"
+      orientation="horizontal"
+    >
+      <high-charts />
+    </div>
+  </BarChart__Wrapper>
+</WithTheme(BarChart)>
 `;
 
 exports[`BarChart Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    data={
-      Array [
-        Object {
-          "name": "Jeans",
-          "y": 2600,
-        },
-        Object {
-          "name": "Tops",
-          "y": 1900,
-        },
-        Object {
-          "name": "Shirts",
-          "y": 1625,
-        },
-        Object {
-          "name": "Cardigans",
-          "y": 1475,
-        },
-        Object {
-          "name": "Pull-overs",
-          "y": 1000,
-        },
-        Object {
-          "name": "Jackets and tops",
-          "y": 800,
-        },
-        Object {
-          "name": "Chino pants",
-          "y": 400,
-        },
-        Object {
-          "name": "Ridiculous White Board Fancy Irregular Shorts",
-          "y": 200,
-        },
-        Object {
-          "name": "Hats",
-          "y": 100,
-        },
-        Object {
-          "name": "Panamas",
-          "y": 90,
-        },
-        Object {
-          "name": "Accessories",
-          "y": 80,
-        },
-        Object {
-          "name": "Jewelry",
-          "y": 50,
-        },
-      ]
-    }
-    title="Category mix"
-    tooltip={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0,
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0.highcharts-point-hover {
+  -webkit-transition: fill 250ms;
+  transition: fill 250ms;
+  stroke-width: 0;
+  fill: #034a76;
+  fill-opacity: 1;
 }
+
+.c0 .ft-wardrobe-bar-chart .highcharts-yaxis-grid .highcharts-grid-line {
+  stroke-dasharray: 4;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-xaxis .highcharts-axis-line {
+  stroke: #c1c7cb;
+  stroke-width: 2px;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels {
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block {
+  display: block;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block .ft-label.ft-label-category {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block.ft-label-block-disabled .ft-label.ft-label-category {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(BarChart)
+  data={
+    Array [
+      Object {
+        "name": "Jeans",
+        "y": 2600,
+      },
+      Object {
+        "name": "Tops",
+        "y": 1900,
+      },
+      Object {
+        "name": "Shirts",
+        "y": 1625,
+      },
+      Object {
+        "name": "Cardigans",
+        "y": 1475,
+      },
+      Object {
+        "name": "Pull-overs",
+        "y": 1000,
+      },
+      Object {
+        "name": "Jackets and tops",
+        "y": 800,
+      },
+      Object {
+        "name": "Chino pants",
+        "y": 400,
+      },
+      Object {
+        "name": "Ridiculous White Board Fancy Irregular Shorts",
+        "y": 200,
+      },
+      Object {
+        "name": "Hats",
+        "y": 100,
+      },
+      Object {
+        "name": "Panamas",
+        "y": 90,
+      },
+      Object {
+        "name": "Accessories",
+        "y": 80,
+      },
+      Object {
+        "name": "Jewelry",
+        "y": 50,
+      },
+    ]
+  }
+  title="Category mix"
+  tooltip={[Function]}
+>
+  <BarChart__Wrapper
+    highlighted={false}
+    orientation="horizontal"
+  >
+    <div
+      className="c0"
+      orientation="horizontal"
+    >
+      <high-charts />
+    </div>
+  </BarChart__Wrapper>
+</WithTheme(BarChart)>
 `;
 
 exports[`BarChart Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    data={
-      Array [
-        Object {
-          "name": "€10-",
-          "y": 50,
-        },
-        Object {
-          "name": "€10—19.99",
-          "y": 90,
-        },
-        Object {
-          "name": "€20—29.99",
-          "y": 70,
-        },
-        Object {
-          "name": "€30—39.99",
-          "y": 30,
-        },
-        Object {
-          "name": "€40—49.99",
-          "y": 104,
-        },
-        Object {
-          "name": "€50—59.99",
-          "y": 60,
-        },
-        Object {
-          "name": "€60—69.99",
-          "y": 200,
-        },
-        Object {
-          "name": "€70—79.99",
-          "y": 176,
-        },
-        Object {
-          "name": "€80—89.99",
-          "y": 43,
-        },
-        Object {
-          "name": "€90—99.99",
-          "y": 182,
-        },
-        Object {
-          "name": "€100—109.99",
-          "y": 90,
-        },
-        Object {
-          "name": "€110—119.99",
-          "y": 21,
-        },
-        Object {
-          "name": "€120—129.99",
-          "y": 37,
-        },
-        Object {
-          "name": "€130—139.99",
-          "y": 23,
-        },
-        Object {
-          "name": "€140—149.99",
-          "y": 34,
-        },
-        Object {
-          "name": "€150+",
-          "y": 10,
-        },
-      ]
-    }
-    orientation="vertical"
-    title="Price point"
-    tooltip={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0,
+.c0 .ft-wardrobe-bar-chart .highcharts-point.highcharts-color-0.highcharts-point-hover {
+  -webkit-transition: fill 250ms;
+  transition: fill 250ms;
+  stroke-width: 0;
+  fill: #034a76;
+  fill-opacity: 1;
 }
+
+.c0 .ft-wardrobe-bar-chart .highcharts-yaxis-grid .highcharts-grid-line {
+  stroke-dasharray: 4;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-xaxis .highcharts-axis-line {
+  stroke: #c1c7cb;
+  stroke-width: 2px;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels {
+  font-size: 0.75rem;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  color: #2d3b43;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block {
+  display: block;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block .ft-label.ft-label-category {
+  display: block;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.c0 .ft-wardrobe-bar-chart div.highcharts-xaxis-labels .ft-label-block.ft-label-block-disabled .ft-label.ft-label-category {
+  color: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-bar-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(BarChart)
+  data={
+    Array [
+      Object {
+        "name": "€10-",
+        "y": 50,
+      },
+      Object {
+        "name": "€10—19.99",
+        "y": 90,
+      },
+      Object {
+        "name": "€20—29.99",
+        "y": 70,
+      },
+      Object {
+        "name": "€30—39.99",
+        "y": 30,
+      },
+      Object {
+        "name": "€40—49.99",
+        "y": 104,
+      },
+      Object {
+        "name": "€50—59.99",
+        "y": 60,
+      },
+      Object {
+        "name": "€60—69.99",
+        "y": 200,
+      },
+      Object {
+        "name": "€70—79.99",
+        "y": 176,
+      },
+      Object {
+        "name": "€80—89.99",
+        "y": 43,
+      },
+      Object {
+        "name": "€90—99.99",
+        "y": 182,
+      },
+      Object {
+        "name": "€100—109.99",
+        "y": 90,
+      },
+      Object {
+        "name": "€110—119.99",
+        "y": 21,
+      },
+      Object {
+        "name": "€120—129.99",
+        "y": 37,
+      },
+      Object {
+        "name": "€130—139.99",
+        "y": 23,
+      },
+      Object {
+        "name": "€140—149.99",
+        "y": 34,
+      },
+      Object {
+        "name": "€150+",
+        "y": 10,
+      },
+    ]
+  }
+  orientation="vertical"
+  title="Price point"
+  tooltip={[Function]}
+>
+  <BarChart__Wrapper
+    highlighted={false}
+    orientation="vertical"
+  >
+    <div
+      className="c0"
+      orientation="vertical"
+    >
+      <high-charts />
+    </div>
+  </BarChart__Wrapper>
+</WithTheme(BarChart)>
 `;

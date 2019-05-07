@@ -46,9 +46,12 @@ const allComponents = COMPONENTS_PATHS.reduce((acc, path) => {
 const boilerPlate = `/* eslint-disable */
 // This file was automatically generated
 import React from 'react';
-import { shallow } from 'enzyme';
+import 'jest-styled-components';
 import ~COMPONENT_NAME~ from './~COMPONENT_NAME~';
 ~OPTIONAL_IMPORTS~
+
+jest.mock('../../charts/HighChart', () => () => <high-charts />);
+
 describe('~COMPONENT_NAME~ Component', () => {
   describe('snapshots', () => {
     it('should match snapshot', () => {
@@ -156,7 +159,7 @@ const getMatchingComponents = (file, componentName) => {
 };
 
 const getSnapshotCode = (component, index) => `
-      const wrapper${index + 1} = shallow(${component}
+      const wrapper${index + 1} = mount(${component}
       );
       expect(wrapper${index + 1}).toMatchSnapshot();
 `;

@@ -1,1226 +1,259 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SkeletonLoading Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  background: #e4e8ea;
+  position: relative;
+  height: 24px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  shape="header"
+  width="100%"
+>
+  <div
+    className="c0"
     shape="header"
     width="100%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": undefined,
-      "shape": "header",
-      "width": "100%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": undefined,
-        "shape": "header",
-        "width": "100%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  background: #e4e8ea;
+  position: relative;
+  height: 16px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  shape="text"
+  width="100%"
+>
+  <div
+    className="c0"
     shape="text"
     width="100%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": undefined,
-      "shape": "text",
-      "width": "100%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": undefined,
-        "shape": "text",
-        "width": "100%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 200px;
+  background: #e4e8ea;
+  position: relative;
+  padding-top: 200px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  shape="square"
+  width="200px"
+>
+  <div
+    className="c0"
     shape="square"
     width="200px"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": undefined,
-      "shape": "square",
-      "width": "200px",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": undefined,
-        "shape": "square",
-        "width": "200px",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 200px;
+  background: #e4e8ea;
+  position: relative;
+  padding-top: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  shape="circle"
+  width="200px"
+>
+  <div
+    className="c0"
     shape="circle"
     width="200px"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": undefined,
-      "shape": "circle",
-      "width": "200px",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": undefined,
-        "shape": "circle",
-        "width": "200px",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 50%;
+  background: #e4e8ea;
+  position: relative;
+  height: 100px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  height="100px"
+  width="50%"
+>
+  <div
+    className="c0"
     height="100px"
     width="50%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": "100px",
-      "shape": undefined,
-      "width": "50%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": "100px",
-        "shape": undefined,
-        "width": "50%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  background: #e4e8ea;
+  position: relative;
+  height: 16px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: jEudrg 2.5s ease-in-out infinite;
+  animation: jEudrg 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#e4e8ea"
+  color="cyan"
+  shape="text"
+  width="100%"
+>
+  <div
+    className="c0"
     color="cyan"
     shape="text"
     width="100%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#e4e8ea",
-      "color": "cyan",
-      "height": undefined,
-      "shape": "text",
-      "width": "100%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#e4e8ea",
-        "color": "cyan",
-        "height": undefined,
-        "shape": "text",
-        "width": "100%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={true}
-    baseColor="#333"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  background: #333;
+  position: relative;
+  height: 16px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+  -webkit-animation: gxxoUf 2.5s ease-in-out infinite;
+  animation: gxxoUf 2.5s ease-in-out infinite;
+}
+
+<SkeletonLoading__Wrapper
+  animating={true}
+  baseColor="#333"
+  shape="text"
+  width="100%"
+>
+  <div
+    className="c0"
     shape="text"
     width="100%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": true,
-      "baseColor": "#333",
-      "color": undefined,
-      "height": undefined,
-      "shape": "text",
-      "width": "100%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": true,
-        "baseColor": "#333",
-        "color": undefined,
-        "height": undefined,
-        "shape": "text",
-        "width": "100%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;
 
 exports[`SkeletonLoading Component snapshots should match snapshot 8`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SkeletonLoading
-    animating={false}
-    baseColor="#e4e8ea"
+.c0 {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  background: #e4e8ea;
+  position: relative;
+  height: 24px;
+  -webkit-animation: bcCCNc 500ms ease;
+  animation: bcCCNc 500ms ease;
+}
+
+.c0:before {
+  content: '';
+}
+
+<SkeletonLoading__Wrapper
+  animating={false}
+  baseColor="#e4e8ea"
+  shape="header"
+  width="100%"
+>
+  <div
+    className="c0"
     shape="header"
     width="100%"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "animating": false,
-      "baseColor": "#e4e8ea",
-      "color": undefined,
-      "height": undefined,
-      "shape": "header",
-      "width": "100%",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:block;min-height:1px;width:",
-          [Function],
-          ";background:",
-          [Function],
-          ";position:relative;&:before{content:'';",
-          [Function],
-          ";}",
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";animation:",
-          [Function],
-          " 500ms ease;",
-        ],
-      },
-      "displayName": "SkeletonLoading__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "animating": false,
-        "baseColor": "#e4e8ea",
-        "color": undefined,
-        "height": undefined,
-        "shape": "header",
-        "width": "100%",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "SkeletonLoading__Wrapper-ze32fw-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:block;min-height:1px;width:",
-            [Function],
-            ";background:",
-            [Function],
-            ";position:relative;&:before{content:'';",
-            [Function],
-            ";}",
-            ";",
-            [Function],
-            " ",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";animation:",
-            [Function],
-            " 500ms ease;",
-          ],
-        },
-        "displayName": "SkeletonLoading__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "SkeletonLoading__Wrapper-ze32fw-0",
-        "target": "div",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  />
+</SkeletonLoading__Wrapper>
 `;

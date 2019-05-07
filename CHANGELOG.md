@@ -3,6 +3,7 @@
 ### Changed
 
 - Add a missing `forwardRef` on [Dialog](/#/Components?id=dialog).
+- Improve test setup and snapshots.
 
 ### Breaking changes
 

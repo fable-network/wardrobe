@@ -1,2234 +1,927 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="primary"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+  padding-left: calc(1.7777777777777777rem - 1px);
+  padding-right: calc(1.7777777777777777rem - 1px);
+  padding-top: calc(0.8888888888888888rem - 1px);
+  padding-bottom: calc(0.8888888888888888rem - 1px);
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="primary"
+  disabled={false}
+  renderAs="button"
+  size="large"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="large"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "large",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "large",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="primary"
+  disabled={true}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={true}
-    renderAs="button"
-    size="normal"
   >
     Don't Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "children": "Don't Push Me",
-      "disabled": true,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Don't Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "children": "Don't Push Me",
-        "disabled": true,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Don't Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="secondary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="secondary"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="secondary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #146292;
+  background-color: #ffffff;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="secondary"
+  disabled={true}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={true}
-    renderAs="button"
-    size="normal"
   >
     Don't Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "secondary",
-      "children": "Don't Push Me",
-      "disabled": true,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Don't Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "secondary",
-        "children": "Don't Push Me",
-        "disabled": true,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Don't Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="danger"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #e05f6e;
+  border-color: #e05f6e;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="danger"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Dangerous action
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "danger",
-      "children": "Dangerous action",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Dangerous action",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "danger",
-        "children": "Dangerous action",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Dangerous action",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="success"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #30c0b8;
+  border-color: #30c0b8;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="success"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "success",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "success",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 8`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="warning"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #f5a623;
+  border-color: #f5a623;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="warning"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "warning",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "warning",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 9`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="link"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0,
+.c0:link,
+.c0:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #146292;
+  box-shadow: none;
+}
+
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #c1c7cb;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0:active,
+.c0:hover {
+  box-shadow: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #034a76;
+}
+
+.c0:disabled,
+.c0:disabled:link,
+.c0:disabled:active,
+.c0:disabled:hover,
+.c0:disabled:visited,
+[data-whatintent='keyboard'] .c0:disabled:focus {
+  cursor: not-allowed;
+  background: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #c1c7cb;
+}
+
+<Button
+  appearance="link"
+  disabled={false}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={false}
-    renderAs="button"
-    size="normal"
   >
     Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "link",
-      "children": "Push Me",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "link",
-        "children": "Push Me",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 10`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="link"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0,
+.c0:link,
+.c0:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #146292;
+  box-shadow: none;
+}
+
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #c1c7cb;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0:active,
+.c0:hover {
+  box-shadow: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #034a76;
+}
+
+.c0:disabled,
+.c0:disabled:link,
+.c0:disabled:active,
+.c0:disabled:hover,
+.c0:disabled:visited,
+[data-whatintent='keyboard'] .c0:disabled:focus {
+  cursor: not-allowed;
+  background: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #c1c7cb;
+}
+
+<Button
+  appearance="link"
+  disabled={true}
+  renderAs="button"
+  size="normal"
+>
+  <button
+    className="c0"
     disabled={true}
-    renderAs="button"
-    size="normal"
   >
     Don't Push Me
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "link",
-      "children": "Don't Push Me",
-      "disabled": true,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "button",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "Don't Push Me",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "link",
-        "children": "Don't Push Me",
-        "disabled": true,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "button",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "Don't Push Me",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </button>
+</Button>
 `;
 
 exports[`Button Component snapshots should match snapshot 11`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  padding-left: calc(1.5rem - 1px);
+  padding-right: calc(1.5rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px transparent;
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #146292;
+  border-color: #146292;
+  border-radius: 0.25rem;
+}
+
+.c0:hover {
+  box-shadow: 0 2px 4px 0 rgba(49,50,51,0.2);
+  -webkit-transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+  transition: border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+}
+
+.c0:hover:disabled {
+  box-shadow: none;
+}
+
+.c0:hover,
+[data-whatintent='keyboard'] .c0:focus {
+  background-color: #034a76;
+  border-color: #034a76;
+}
+
+.c0:disabled,
+.c0:hover:disabled,
+[data-whatintent='keyboard'] .c0:focus:disabled {
+  color: #949ea3;
+  background-color: #e4e8ea;
+  border-color: #e4e8ea;
+}
+
+<Button
+  appearance="primary"
+  disabled={false}
+  renderAs="span"
+  size="normal"
+>
+  <span
+    className="c0"
     disabled={false}
-    renderAs="span"
-    size="normal"
   >
     I'm not a button
-  </ForwardRef>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "children": "I'm not a button",
-      "disabled": false,
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-1i0dne9-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-            [Function],
-            ";line-height:",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-            [Function],
-            ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-            [Function],
-            ";}",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-            [Function],
-            ";",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "secondary",
-          "disabled": false,
-          "renderAs": "button",
-          "size": "normal",
-        },
-        "displayName": "Button",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "children": [Function],
-          "className": [Function],
-          "disabled": [Function],
-          "renderAs": [Function],
-          "size": [Function],
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button-sc-1i0dne9-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "renderAs": "span",
-      "size": "normal",
-    },
-    "ref": null,
-    "rendered": "I'm not a button",
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "children": "I'm not a button",
-        "disabled": false,
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Button-sc-1i0dne9-0",
-            "isStatic": false,
-            "rules": Array [
-              "display:inline-flex;flex-wrap:nowrap;justify-content:center;align-items:center;box-sizing:border-box;font-size:",
-              [Function],
-              ";line-height:",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";border:solid 1px transparent;transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-family:inherit;font-weight:normal;&:hover{box-shadow:",
-              [Function],
-              ";transition:border-color 150ms linear,background-color 150ms linear,box-shadow 150ms linear;}&:disabled{cursor:not-allowed;}&:hover:disabled{box-shadow:",
-              [Function],
-              ";}",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-              [Function],
-              ";",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "secondary",
-            "disabled": false,
-            "renderAs": "button",
-            "size": "normal",
-          },
-          "displayName": "Button",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "children": [Function],
-            "className": [Function],
-            "disabled": [Function],
-            "renderAs": [Function],
-            "size": [Function],
-            "type": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "Button-sc-1i0dne9-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "renderAs": "span",
-        "size": "normal",
-      },
-      "ref": null,
-      "rendered": "I'm not a button",
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  </span>
+</Button>
 `;

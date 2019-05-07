@@ -1,139 +1,251 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PieChart Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    data={
-      Array [
-        Object {
-          "name": "Christmas",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-        Object {
-          "name": "New Year",
-          "price": "EUR 5.282,90",
-          "y": 20,
-        },
-        Object {
-          "name": "Glitter",
-          "price": "EUR 5.282,90",
-          "y": 30,
-        },
-        Object {
-          "name": "Hip Hop",
-          "price": "EUR 5.282,90",
-          "y": 40,
-        },
-        Object {
-          "name": "Street",
-          "price": "EUR 5.282,90",
-          "y": 50,
-        },
-        Object {
-          "name": "Sunny",
-          "price": "EUR 5.282,90",
-          "y": 60,
-        },
-        Object {
-          "name": "Casual",
-          "price": "EUR 5.282,90",
-          "y": 70,
-        },
-      ]
-    }
-    title="Distribution of themes"
-    tooltip={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 .ft-wardrobe-pie-chart .highcharts-color-0 {
+  fill: #33556C !important;
+  stroke: #33556C;
 }
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-1 {
+  fill: #4C7B9B !important;
+  stroke: #4C7B9B;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-2 {
+  fill: #6F94AE !important;
+  stroke: #6F94AE;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-3 {
+  fill: #DDEDF7 !important;
+  stroke: #DDEDF7;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-4 {
+  fill: #F7F7F7 !important;
+  stroke: #F7F7F7;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-5 {
+  fill: #C4E8E8 !important;
+  stroke: #C4E8E8;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-6 {
+  fill: #95C9CC !important;
+  stroke: #95C9CC;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-7 {
+  fill: #65B3B6 !important;
+  stroke: #65B3B6;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-8 {
+  fill: #339CA0 !important;
+  stroke: #339CA0;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-9 {
+  fill: #018489 !important;
+  stroke: #018489;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(PieChart)
+  data={
+    Array [
+      Object {
+        "name": "Christmas",
+        "price": "EUR 5.282,90",
+        "y": 10,
+      },
+      Object {
+        "name": "New Year",
+        "price": "EUR 5.282,90",
+        "y": 20,
+      },
+      Object {
+        "name": "Glitter",
+        "price": "EUR 5.282,90",
+        "y": 30,
+      },
+      Object {
+        "name": "Hip Hop",
+        "price": "EUR 5.282,90",
+        "y": 40,
+      },
+      Object {
+        "name": "Street",
+        "price": "EUR 5.282,90",
+        "y": 50,
+      },
+      Object {
+        "name": "Sunny",
+        "price": "EUR 5.282,90",
+        "y": 60,
+      },
+      Object {
+        "name": "Casual",
+        "price": "EUR 5.282,90",
+        "y": 70,
+      },
+    ]
+  }
+  title="Distribution of themes"
+  tooltip={[Function]}
+>
+  <PieChart__Wrapper>
+    <div
+      className="c0"
+    >
+      <high-charts />
+    </div>
+  </PieChart__Wrapper>
+</WithTheme(PieChart)>
 `;
 
 exports[`PieChart Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
+.c0 .ft-wardrobe-pie-chart .highcharts-color-0 {
+  fill: #d8d8d8 !important;
+  stroke: #d8d8d8;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-1 {
+  fill: #b1b1b1 !important;
+  stroke: #b1b1b1;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-2 {
+  fill: #7e7e7e !important;
+  stroke: #7e7e7e;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-3 {
+  fill: #474747 !important;
+  stroke: #474747;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-color-4 {
+  fill: #1a1a1a !important;
+  stroke: #1a1a1a;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(PieChart)
+  colors={
+    Array [
+      "#d8d8d8",
+      "#b1b1b1",
+      "#7e7e7e",
+      "#474747",
+      "#1a1a1a",
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "name": "Light Light Grey",
+        "price": "EUR 5.282,90",
+        "y": 10,
+      },
+      Object {
+        "name": "Light Grey",
+        "price": "EUR 5.282,90",
+        "y": 20,
+      },
+      Object {
+        "name": "Grey",
+        "price": "EUR 5.282,90",
+        "y": 30,
+      },
+      Object {
+        "name": "Dark Grey",
+        "price": "EUR 5.282,90",
+        "y": 40,
+      },
+      Object {
+        "name": "Dark Dark Grey",
+        "price": "EUR 5.282,90",
+        "y": 50,
+      },
+    ]
+  }
+  title="Distribution of themes"
+>
+  <PieChart__Wrapper
     colors={
       Array [
         "#d8d8d8",
@@ -143,221 +255,88 @@ ShallowWrapper {
         "#1a1a1a",
       ]
     }
-    data={
-      Array [
-        Object {
-          "name": "Light Light Grey",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-        Object {
-          "name": "Light Grey",
-          "price": "EUR 5.282,90",
-          "y": 20,
-        },
-        Object {
-          "name": "Grey",
-          "price": "EUR 5.282,90",
-          "y": 30,
-        },
-        Object {
-          "name": "Dark Grey",
-          "price": "EUR 5.282,90",
-          "y": 40,
-        },
-        Object {
-          "name": "Dark Dark Grey",
-          "price": "EUR 5.282,90",
-          "y": 50,
-        },
-      ]
-    }
-    title="Distribution of themes"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  >
+    <div
+      className="c0"
+    >
+      <high-charts />
+    </div>
+  </PieChart__Wrapper>
+</WithTheme(PieChart)>
 `;
 
 exports[`PieChart Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
+.c0 .ft-wardrobe-pie-chart .highcharts-color-0 {
+  fill: #6F94AE !important;
+  stroke: #6F94AE;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip {
+  stroke: #c1c7cb;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .highcharts-tooltip-box {
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip {
+  display: block;
+  position: relative;
+  padding: 16px;
+  top: -7px;
+  left: -7px;
+  margin-bottom: -17px;
+  margin-right: -17px;
+  background-color: #ffffff;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-header {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-tooltip .ft-tooltip .ft-tooltip-body {
+  font-size: 0.875rem;
+  line-height: 1.4285714285714286;
+  font-weight: 400;
+}
+
+.c0 .ft-wardrobe-pie-chart .highcharts-credits {
+  display: none;
+}
+
+<WithTheme(PieChart)
+  colors={
+    Array [
+      "#6F94AE",
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "name": "Christmas",
+        "price": "EUR 5.282,90",
+        "y": 10,
+      },
+    ]
+  }
+  tooltip={[Function]}
+>
+  <PieChart__Wrapper
     colors={
       Array [
         "#6F94AE",
       ]
     }
-    data={
-      Array [
-        Object {
-          "name": "Christmas",
-          "price": "EUR 5.282,90",
-          "y": 10,
-        },
-      ]
-    }
-    tooltip={[Function]}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+  >
+    <div
+      className="c0"
+    >
+      <high-charts />
+    </div>
+  </PieChart__Wrapper>
+</WithTheme(PieChart)>
 `;

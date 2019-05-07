@@ -1,1685 +1,464 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColorSelector Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#e25454"
-    disableInteraction={true}
-    selected={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          color="#e25454"
-          disableInteraction={true}
-          isMissingColor={false}
-          selected={false}
-        />,
-        undefined,
-      ],
-      "onClick": null,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": "#e25454",
-          "disableInteraction": true,
-          "fixedSize": undefined,
-          "isMissingColor": false,
-          "patternImage": undefined,
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      undefined,
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            color="#e25454"
-            disableInteraction={true}
-            isMissingColor={false}
-            selected={false}
-          />,
-          undefined,
-        ],
-        "onClick": null,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "#e25454",
-            "disableInteraction": true,
-            "fixedSize": undefined,
-            "isMissingColor": false,
-            "patternImage": undefined,
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        undefined,
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: initial;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  -webkit-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  transform: scale(1) !important;
+  background: #e25454;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+<ColorSelector__Wrapper
+  onClick={null}
+>
+  <span
+    className="c0"
+    onClick={null}
+  >
+    <ColorSelector__ColorCircle
+      color="#e25454"
+      disableInteraction={true}
+      isMissingColor={false}
+      selected={false}
+    >
+      <span
+        className="c1"
+        color="#e25454"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#5F9DC7"
-    disableInteraction={false}
-    onClick={[Function]}
-    selected={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          color="#5F9DC7"
-          disableInteraction={false}
-          isMissingColor={false}
-          selected={false}
-        />,
-        undefined,
-      ],
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": "#5F9DC7",
-          "disableInteraction": false,
-          "fixedSize": undefined,
-          "isMissingColor": false,
-          "patternImage": undefined,
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      undefined,
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            color="#5F9DC7"
-            disableInteraction={false}
-            isMissingColor={false}
-            selected={false}
-          />,
-          undefined,
-        ],
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "#5F9DC7",
-            "disableInteraction": false,
-            "fixedSize": undefined,
-            "isMissingColor": false,
-            "patternImage": undefined,
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        undefined,
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  background: #5F9DC7;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+<ColorSelector__Wrapper
+  onClick={[Function]}
+>
+  <span
+    className="c0"
+    onClick={[Function]}
+  >
+    <ColorSelector__ColorCircle
+      color="#5F9DC7"
+      disableInteraction={false}
+      isMissingColor={false}
+      selected={false}
+    >
+      <span
+        className="c1"
+        color="#5F9DC7"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    disableInteraction={false}
-    patternImage="images/patternImage.jpg"
-    selected={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          disableInteraction={false}
-          isMissingColor={false}
-          patternImage="images/patternImage.jpg"
-          selected={false}
-        />,
-        undefined,
-      ],
-      "onClick": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": undefined,
-          "disableInteraction": false,
-          "fixedSize": undefined,
-          "isMissingColor": false,
-          "patternImage": "images/patternImage.jpg",
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      undefined,
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            disableInteraction={false}
-            isMissingColor={false}
-            patternImage="images/patternImage.jpg"
-            selected={false}
-          />,
-          undefined,
-        ],
-        "onClick": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": undefined,
-            "disableInteraction": false,
-            "fixedSize": undefined,
-            "isMissingColor": false,
-            "patternImage": "images/patternImage.jpg",
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        undefined,
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: initial;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  background-image: url(images/patternImage.jpg);
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+<ColorSelector__Wrapper>
+  <span
+    className="c0"
+  >
+    <ColorSelector__ColorCircle
+      disableInteraction={false}
+      isMissingColor={false}
+      patternImage="images/patternImage.jpg"
+      selected={false}
+    >
+      <span
+        className="c1"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#aecc76"
-    disableInteraction={false}
-    selected={false}
-    text="Lime green"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          color="#aecc76"
-          disableInteraction={false}
-          isMissingColor={false}
-          selected={false}
-        />,
-        <ForwardRef
-          selected={false}
-        >
-          Lime green
-        </ForwardRef>,
-      ],
-      "onClick": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": "#aecc76",
-          "disableInteraction": false,
-          "fixedSize": undefined,
-          "isMissingColor": false,
-          "patternImage": undefined,
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": "Lime green",
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": "Lime green",
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__Text-sc-1g3pghm-2",
-            "isStatic": false,
-            "rules": Array [
-              "margin-left:8px;font-weight:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "ColorSelector__Text",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            color="#aecc76"
-            disableInteraction={false}
-            isMissingColor={false}
-            selected={false}
-          />,
-          <ForwardRef
-            selected={false}
-          >
-            Lime green
-          </ForwardRef>,
-        ],
-        "onClick": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "#aecc76",
-            "disableInteraction": false,
-            "fixedSize": undefined,
-            "isMissingColor": false,
-            "patternImage": undefined,
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Lime green",
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": "Lime green",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__Text-sc-1g3pghm-2",
-              "isStatic": false,
-              "rules": Array [
-                "margin-left:8px;font-weight:",
-                [Function],
-                ";",
-              ],
-            },
-            "displayName": "ColorSelector__Text",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: initial;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  background: #aecc76;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+.c2 {
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+<ColorSelector__Wrapper>
+  <span
+    className="c0"
+  >
+    <ColorSelector__ColorCircle
+      color="#aecc76"
+      disableInteraction={false}
+      isMissingColor={false}
+      selected={false}
+    >
+      <span
+        className="c1"
+        color="#aecc76"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+    <ColorSelector__Text
+      selected={false}
+    >
+      <span
+        className="c2"
+        selected={false}
+      >
+        Lime green
+      </span>
+    </ColorSelector__Text>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#aecc76"
-    disableInteraction={false}
-    selected={true}
-    text="Lime green"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          color="#aecc76"
-          disableInteraction={false}
-          isMissingColor={false}
-          selected={true}
-        />,
-        <ForwardRef
-          selected={true}
-        >
-          Lime green
-        </ForwardRef>,
-      ],
-      "onClick": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": "#aecc76",
-          "disableInteraction": false,
-          "fixedSize": undefined,
-          "isMissingColor": false,
-          "patternImage": undefined,
-          "selected": true,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": "Lime green",
-          "selected": true,
-        },
-        "ref": null,
-        "rendered": "Lime green",
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__Text-sc-1g3pghm-2",
-            "isStatic": false,
-            "rules": Array [
-              "margin-left:8px;font-weight:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "ColorSelector__Text",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            color="#aecc76"
-            disableInteraction={false}
-            isMissingColor={false}
-            selected={true}
-          />,
-          <ForwardRef
-            selected={true}
-          >
-            Lime green
-          </ForwardRef>,
-        ],
-        "onClick": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "#aecc76",
-            "disableInteraction": false,
-            "fixedSize": undefined,
-            "isMissingColor": false,
-            "patternImage": undefined,
-            "selected": true,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Lime green",
-            "selected": true,
-          },
-          "ref": null,
-          "rendered": "Lime green",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__Text-sc-1g3pghm-2",
-              "isStatic": false,
-              "rules": Array [
-                "margin-left:8px;font-weight:",
-                [Function],
-                ";",
-              ],
-            },
-            "displayName": "ColorSelector__Text",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__Text-sc-1g3pghm-2",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: initial;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  -webkit-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  transform: scale(1) !important;
+  background: #aecc76;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+.c2 {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+<ColorSelector__Wrapper>
+  <span
+    className="c0"
+  >
+    <ColorSelector__ColorCircle
+      color="#aecc76"
+      disableInteraction={false}
+      isMissingColor={false}
+      selected={true}
+    >
+      <span
+        className="c1"
+        color="#aecc76"
+        selected={true}
+      />
+    </ColorSelector__ColorCircle>
+    <ColorSelector__Text
+      selected={true}
+    >
+      <span
+        className="c2"
+        selected={true}
+      >
+        Lime green
+      </span>
+    </ColorSelector__Text>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 6`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    color="#e25454"
-    disableInteraction={false}
-    fixedSize="40px"
-    onClick={[Function]}
-    selected={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          color="#e25454"
-          disableInteraction={false}
-          fixedSize="40px"
-          isMissingColor={false}
-          selected={false}
-        />,
-        undefined,
-      ],
-      "onClick": [Function],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": "#e25454",
-          "disableInteraction": false,
-          "fixedSize": "40px",
-          "isMissingColor": false,
-          "patternImage": undefined,
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      undefined,
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            color="#e25454"
-            disableInteraction={false}
-            fixedSize="40px"
-            isMissingColor={false}
-            selected={false}
-          />,
-          undefined,
-        ],
-        "onClick": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": "#e25454",
-            "disableInteraction": false,
-            "fixedSize": "40px",
-            "isMissingColor": false,
-            "patternImage": undefined,
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        undefined,
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 40px;
+  height: 40px;
+  background: #e25454;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+<ColorSelector__Wrapper
+  onClick={[Function]}
+>
+  <span
+    className="c0"
+    onClick={[Function]}
+  >
+    <ColorSelector__ColorCircle
+      color="#e25454"
+      disableInteraction={false}
+      fixedSize="40px"
+      isMissingColor={false}
+      selected={false}
+    >
+      <span
+        className="c1"
+        color="#e25454"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+  </span>
+</ColorSelector__Wrapper>
 `;
 
 exports[`ColorSelector Component snapshots should match snapshot 7`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ColorSelector
-    disableInteraction={false}
-    selected={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ForwardRef
-          disableInteraction={false}
-          isMissingColor={true}
-          selected={false}
-        />,
-        undefined,
-      ],
-      "onClick": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "color": undefined,
-          "disableInteraction": false,
-          "fixedSize": undefined,
-          "isMissingColor": true,
-          "patternImage": undefined,
-          "selected": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "isStatic": false,
-            "rules": Array [
-              "background-color:",
-              [Function],
-              ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-              [Function],
-              ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-              " ",
-              [Function],
-            ],
-          },
-          "displayName": "ColorSelector__ColorCircle",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        },
-      },
-      undefined,
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "isStatic": false,
-        "rules": Array [
-          "display:inline-flex;align-items:center;cursor:",
-          [Function],
-          ";",
-        ],
-      },
-      "displayName": "ColorSelector__Wrapper",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-      "target": "span",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef
-            disableInteraction={false}
-            isMissingColor={true}
-            selected={false}
-          />,
-          undefined,
-        ],
-        "onClick": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "color": undefined,
-            "disableInteraction": false,
-            "fixedSize": undefined,
-            "isMissingColor": true,
-            "patternImage": undefined,
-            "selected": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-              "isStatic": false,
-              "rules": Array [
-                "background-color:",
-                [Function],
-                ";border-radius:100%;box-shadow:0px 0px 0px 1px #cecece;border:2px solid ",
-                [Function],
-                ";transform:scale(.8);display:inline-block;vertical-align:middle;overflow:hidden;transition:all .3s ease;background-repeat:no-repeat;background-position:50% 50%;&:hover{transform:scale(.9);}",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-                " ",
-                [Function],
-              ],
-            },
-            "displayName": "ColorSelector__ColorCircle",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "ColorSelector__ColorCircle-sc-1g3pghm-1",
-            "target": "span",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        undefined,
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-          "isStatic": false,
-          "rules": Array [
-            "display:inline-flex;align-items:center;cursor:",
-            [Function],
-            ";",
-          ],
-        },
-        "displayName": "ColorSelector__Wrapper",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "ColorSelector__Wrapper-sc-1g3pghm-0",
-        "target": "span",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: initial;
 }
+
+.c1 {
+  background-color: #ffffff;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 1px #cecece;
+  border: 2px solid #ffffff;
+  -webkit-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transform: scale(.8);
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: .75em;
+  position: relative;
+  background: #ffffff;
+}
+
+.c1:hover {
+  -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
+  transform: scale(.9);
+}
+
+.c1::after {
+  position: absolute;
+  content: '?';
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: 500;
+}
+
+<ColorSelector__Wrapper>
+  <span
+    className="c0"
+  >
+    <ColorSelector__ColorCircle
+      disableInteraction={false}
+      isMissingColor={true}
+      selected={false}
+    >
+      <span
+        className="c1"
+        selected={false}
+      />
+    </ColorSelector__ColorCircle>
+  </span>
+</ColorSelector__Wrapper>
 `;

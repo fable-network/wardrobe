@@ -1,453 +1,673 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Searchbar Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: calc(0.5714285714285714rem - 1px);
+  padding-right: calc(0.5714285714285714rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  outline: none;
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  text-overflow: ellipsis;
+  cursor: text;
 }
+
+.c3::-webkit-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::-moz-placeholder {
+  color: #949ea3;
+}
+
+.c3:-ms-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::placeholder {
+  color: #949ea3;
+}
+
+.c3:focus {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-color: #146292;
+  box-shadow: 0 0 2px #146292 inset;
+}
+
+.c0 {
+  position: relative;
+  background: #fff;
+  color: #2d3b43;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+}
+
+.c2 {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.c1 {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0;
+  line-height: 1;
+}
+
+<WithTheme(Searchbar)>
+  <Searchbar__Wrapper>
+    <div
+      className="c0"
+    >
+      <Searchbar__IconWrapper
+        iconPosition="right"
+      >
+        <div
+          className="c1"
+        >
+          <svg
+            height="21px"
+            version="1.1"
+            viewBox="0 0 53 53"
+            width="21px"
+            xmlSpace="preserve"
+          >
+            <path
+              d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z"
+              fill="#146292"
+            />
+          </svg>
+        </div>
+      </Searchbar__IconWrapper>
+      <Searchbar__Input
+        iconPosition="right"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      >
+        <Input__StyledInput
+          className="c2"
+          iconPosition="right"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+        >
+          <input
+            className="c2 c3"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+          />
+        </Input__StyledInput>
+      </Searchbar__Input>
+    </div>
+  </Searchbar__Wrapper>
+</WithTheme(Searchbar)>
 `;
 
 exports[`Searchbar Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    iconPosition="left"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: calc(0.5714285714285714rem - 1px);
+  padding-right: calc(0.5714285714285714rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  outline: none;
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  text-overflow: ellipsis;
+  cursor: text;
 }
+
+.c3::-webkit-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::-moz-placeholder {
+  color: #949ea3;
+}
+
+.c3:-ms-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::placeholder {
+  color: #949ea3;
+}
+
+.c3:focus {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-color: #146292;
+  box-shadow: 0 0 2px #146292 inset;
+}
+
+.c0 {
+  position: relative;
+  background: #fff;
+  color: #2d3b43;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+}
+
+.c2 {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.c1 {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0;
+  line-height: 1;
+}
+
+<WithTheme(Searchbar)
+  iconPosition="left"
+>
+  <Searchbar__Wrapper>
+    <div
+      className="c0"
+    >
+      <Searchbar__IconWrapper
+        iconPosition="left"
+      >
+        <div
+          className="c1"
+        >
+          <svg
+            height="21px"
+            version="1.1"
+            viewBox="0 0 53 53"
+            width="21px"
+            xmlSpace="preserve"
+          >
+            <path
+              d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z"
+              fill="#146292"
+            />
+          </svg>
+        </div>
+      </Searchbar__IconWrapper>
+      <Searchbar__Input
+        iconPosition="left"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      >
+        <Input__StyledInput
+          className="c2"
+          iconPosition="left"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+        >
+          <input
+            className="c2 c3"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+          />
+        </Input__StyledInput>
+      </Searchbar__Input>
+    </div>
+  </Searchbar__Wrapper>
+</WithTheme(Searchbar)>
 `;
 
 exports[`Searchbar Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    placeholder="Search for dresses"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: calc(0.5714285714285714rem - 1px);
+  padding-right: calc(0.5714285714285714rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  outline: none;
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  text-overflow: ellipsis;
+  cursor: text;
 }
+
+.c3::-webkit-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::-moz-placeholder {
+  color: #949ea3;
+}
+
+.c3:-ms-input-placeholder {
+  color: #949ea3;
+}
+
+.c3::placeholder {
+  color: #949ea3;
+}
+
+.c3:focus {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-color: #146292;
+  box-shadow: 0 0 2px #146292 inset;
+}
+
+.c0 {
+  position: relative;
+  background: #fff;
+  color: #2d3b43;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+}
+
+.c2 {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.c1 {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0;
+  line-height: 1;
+}
+
+<WithTheme(Searchbar)
+  placeholder="Search for dresses"
+>
+  <Searchbar__Wrapper>
+    <div
+      className="c0"
+    >
+      <Searchbar__IconWrapper
+        iconPosition="right"
+      >
+        <div
+          className="c1"
+        >
+          <svg
+            height="21px"
+            version="1.1"
+            viewBox="0 0 53 53"
+            width="21px"
+            xmlSpace="preserve"
+          >
+            <path
+              d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z"
+              fill="#146292"
+            />
+          </svg>
+        </div>
+      </Searchbar__IconWrapper>
+      <Searchbar__Input
+        iconPosition="right"
+        onChange={[Function]}
+        placeholder="Search for dresses"
+        type="text"
+      >
+        <Input__StyledInput
+          className="c2"
+          iconPosition="right"
+          onChange={[Function]}
+          placeholder="Search for dresses"
+          type="text"
+        >
+          <input
+            className="c2 c3"
+            onChange={[Function]}
+            placeholder="Search for dresses"
+            type="text"
+          />
+        </Input__StyledInput>
+      </Searchbar__Input>
+    </div>
+  </Searchbar__Wrapper>
+</WithTheme(Searchbar)>
 `;
 
 exports[`Searchbar Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    defaultValue="Floral dress"
-    iconPosition="left"
-    loading={true}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: calc(0.5714285714285714rem - 1px);
+  padding-right: calc(0.5714285714285714rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  outline: none;
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  text-overflow: ellipsis;
+  cursor: text;
 }
+
+.c4::-webkit-input-placeholder {
+  color: #949ea3;
+}
+
+.c4::-moz-placeholder {
+  color: #949ea3;
+}
+
+.c4:-ms-input-placeholder {
+  color: #949ea3;
+}
+
+.c4::placeholder {
+  color: #949ea3;
+}
+
+.c4:focus {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-color: #146292;
+  box-shadow: 0 0 2px #146292 inset;
+}
+
+.c2 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #146292;
+  border-left-color: rgba(20,98,146,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
+}
+
+.c0 {
+  position: relative;
+  background: #fff;
+  color: #2d3b43;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+}
+
+.c3 {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.c1 {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0;
+  line-height: 1;
+}
+
+<WithTheme(Searchbar)
+  defaultValue="Floral dress"
+  iconPosition="left"
+  loading={true}
+>
+  <Searchbar__Wrapper>
+    <div
+      className="c0"
+    >
+      <Searchbar__IconWrapper
+        iconPosition="left"
+      >
+        <div
+          className="c1"
+        >
+          <WithTheme(LoadingSpinner)
+            size="20px"
+          >
+            <LoadingSpinner__StyledSpinner
+              color="#146292"
+              gapColor="rgba(20, 98, 146, 0.25)"
+              size="20px"
+              speed="1s"
+            >
+              <span
+                className="c2"
+                color="#146292"
+                size="20px"
+                speed="1s"
+              />
+            </LoadingSpinner__StyledSpinner>
+          </WithTheme(LoadingSpinner)>
+        </div>
+      </Searchbar__IconWrapper>
+      <Searchbar__Input
+        defaultValue="Floral dress"
+        iconPosition="left"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      >
+        <Input__StyledInput
+          className="c3"
+          defaultValue="Floral dress"
+          iconPosition="left"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+        >
+          <input
+            className="c3 c4"
+            defaultValue="Floral dress"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+          />
+        </Input__StyledInput>
+      </Searchbar__Input>
+    </div>
+  </Searchbar__Wrapper>
+</WithTheme(Searchbar)>
 `;
 
 exports[`Searchbar Component snapshots should match snapshot 5`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    defaultValue="Floral dress"
-    iconPosition="right"
-    loading={true}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": [Function],
-    },
-    "ref": null,
-    "rendered": [Function],
-    "type": Object {
-      "$$typeof": Symbol(react.context),
-      "Consumer": [Circular],
-      "Provider": Object {
-        "$$typeof": Symbol(react.provider),
-        "context": [Circular],
-      },
-      "_calculateChangedBits": null,
-      "_changedBits": 0,
-      "_currentRenderer": null,
-      "_currentValue": undefined,
-      "_defaultValue": undefined,
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": [Function],
-      },
-      "ref": null,
-      "rendered": [Function],
-      "type": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": [Circular],
-        "Provider": Object {
-          "$$typeof": Symbol(react.provider),
-          "context": [Circular],
-        },
-        "_calculateChangedBits": null,
-        "_changedBits": 0,
-        "_currentRenderer": null,
-        "_currentValue": undefined,
-        "_defaultValue": undefined,
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: calc(0.5714285714285714rem - 1px);
+  padding-right: calc(0.5714285714285714rem - 1px);
+  padding-top: calc(0.625rem - 1px);
+  padding-bottom: calc(0.625rem - 1px);
+  border: solid 1px #d2d9dd;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  outline: none;
+  color: #2d3b43;
+  font-size: 0.875rem;
+  line-height: 1.1428571428571428;
+  text-overflow: ellipsis;
+  cursor: text;
 }
+
+.c4::-webkit-input-placeholder {
+  color: #949ea3;
+}
+
+.c4::-moz-placeholder {
+  color: #949ea3;
+}
+
+.c4:-ms-input-placeholder {
+  color: #949ea3;
+}
+
+.c4::placeholder {
+  color: #949ea3;
+}
+
+.c4:focus {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  border-color: #146292;
+  box-shadow: 0 0 2px #146292 inset;
+}
+
+.c2 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: calc(20px / 10) solid #146292;
+  border-left-color: rgba(20,98,146,0.25);
+  border-radius: 100%;
+  -webkit-animation: kOBPdp 1s linear infinite;
+  animation: kOBPdp 1s linear infinite;
+}
+
+.c0 {
+  position: relative;
+  background: #fff;
+  color: #2d3b43;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+}
+
+.c3 {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.c1 {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0;
+  line-height: 1;
+}
+
+<WithTheme(Searchbar)
+  defaultValue="Floral dress"
+  iconPosition="right"
+  loading={true}
+>
+  <Searchbar__Wrapper>
+    <div
+      className="c0"
+    >
+      <Searchbar__IconWrapper
+        iconPosition="right"
+      >
+        <div
+          className="c1"
+        >
+          <WithTheme(LoadingSpinner)
+            size="20px"
+          >
+            <LoadingSpinner__StyledSpinner
+              color="#146292"
+              gapColor="rgba(20, 98, 146, 0.25)"
+              size="20px"
+              speed="1s"
+            >
+              <span
+                className="c2"
+                color="#146292"
+                size="20px"
+                speed="1s"
+              />
+            </LoadingSpinner__StyledSpinner>
+          </WithTheme(LoadingSpinner)>
+        </div>
+      </Searchbar__IconWrapper>
+      <Searchbar__Input
+        defaultValue="Floral dress"
+        iconPosition="right"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      >
+        <Input__StyledInput
+          className="c3"
+          defaultValue="Floral dress"
+          iconPosition="right"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+        >
+          <input
+            className="c3 c4"
+            defaultValue="Floral dress"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+          />
+        </Input__StyledInput>
+      </Searchbar__Input>
+    </div>
+  </Searchbar__Wrapper>
+</WithTheme(Searchbar)>
 `;

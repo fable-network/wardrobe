@@ -1,613 +1,157 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProgressBar Component snapshots should match snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
-    hideBorder={false}
-    max={100}
-    value={0}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ProgressBar-sc-1qbundh-0",
-          "isStatic": false,
-          "rules": Array [
-            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-            [Function],
-            ";border:",
-            [Function],
-            ";&:before{background-color:",
-            [Function],
-            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-            [Function],
-            "%;transition:width 1s ease;}",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "primary",
-          "hideBorder": false,
-        },
-        "displayName": "ProgressBar",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "hideBorder": [Function],
-          "max": [Function],
-          "value": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "ProgressBar-sc-1qbundh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "hideBorder": false,
-      "max": 100,
-      "value": 0,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ProgressBar-sc-1qbundh-0",
-            "isStatic": false,
-            "rules": Array [
-              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-              [Function],
-              ";border:",
-              [Function],
-              ";&:before{background-color:",
-              [Function],
-              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-              [Function],
-              "%;transition:width 1s ease;}",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "primary",
-            "hideBorder": false,
-          },
-          "displayName": "ProgressBar",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "hideBorder": [Function],
-            "max": [Function],
-            "value": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "ProgressBar-sc-1qbundh-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "hideBorder": false,
-        "max": 100,
-        "value": 0,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-width: 240px;
+  height: 0.25rem;
+  border-radius: 0.125rem;
+  background-color: #ffffff;
+  border: solid 1px #034a76;
 }
+
+.c0:before {
+  background-color: #034a76;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: width;
+  width: 0%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+<ProgressBar
+  appearance="primary"
+  hideBorder={false}
+  max={100}
+  value={0}
+>
+  <div
+    className="c0"
+  />
+</ProgressBar>
 `;
 
 exports[`ProgressBar Component snapshots should match snapshot 2`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
-    hideBorder={false}
-    max={100}
-    value={42}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ProgressBar-sc-1qbundh-0",
-          "isStatic": false,
-          "rules": Array [
-            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-            [Function],
-            ";border:",
-            [Function],
-            ";&:before{background-color:",
-            [Function],
-            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-            [Function],
-            "%;transition:width 1s ease;}",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "primary",
-          "hideBorder": false,
-        },
-        "displayName": "ProgressBar",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "hideBorder": [Function],
-          "max": [Function],
-          "value": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "ProgressBar-sc-1qbundh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "hideBorder": false,
-      "max": 100,
-      "value": 42,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ProgressBar-sc-1qbundh-0",
-            "isStatic": false,
-            "rules": Array [
-              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-              [Function],
-              ";border:",
-              [Function],
-              ";&:before{background-color:",
-              [Function],
-              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-              [Function],
-              "%;transition:width 1s ease;}",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "primary",
-            "hideBorder": false,
-          },
-          "displayName": "ProgressBar",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "hideBorder": [Function],
-            "max": [Function],
-            "value": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "ProgressBar-sc-1qbundh-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "hideBorder": false,
-        "max": 100,
-        "value": 42,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-width: 240px;
+  height: 0.25rem;
+  border-radius: 0.125rem;
+  background-color: #ffffff;
+  border: solid 1px #034a76;
 }
+
+.c0:before {
+  background-color: #034a76;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: width;
+  width: 42%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+<ProgressBar
+  appearance="primary"
+  hideBorder={false}
+  max={100}
+  value={42}
+>
+  <div
+    className="c0"
+  />
+</ProgressBar>
 `;
 
 exports[`ProgressBar Component snapshots should match snapshot 3`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="primary"
-    hideBorder={false}
-    max={100}
-    value={100}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "primary",
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ProgressBar-sc-1qbundh-0",
-          "isStatic": false,
-          "rules": Array [
-            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-            [Function],
-            ";border:",
-            [Function],
-            ";&:before{background-color:",
-            [Function],
-            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-            [Function],
-            "%;transition:width 1s ease;}",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "primary",
-          "hideBorder": false,
-        },
-        "displayName": "ProgressBar",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "hideBorder": [Function],
-          "max": [Function],
-          "value": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "ProgressBar-sc-1qbundh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "hideBorder": false,
-      "max": 100,
-      "value": 100,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "primary",
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ProgressBar-sc-1qbundh-0",
-            "isStatic": false,
-            "rules": Array [
-              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-              [Function],
-              ";border:",
-              [Function],
-              ";&:before{background-color:",
-              [Function],
-              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-              [Function],
-              "%;transition:width 1s ease;}",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "primary",
-            "hideBorder": false,
-          },
-          "displayName": "ProgressBar",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "hideBorder": [Function],
-            "max": [Function],
-            "value": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "ProgressBar-sc-1qbundh-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "hideBorder": false,
-        "max": 100,
-        "value": 100,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-width: 240px;
+  height: 0.25rem;
+  border-radius: 0.125rem;
+  background-color: #ffffff;
+  border: solid 1px #034a76;
 }
+
+.c0:before {
+  background-color: #034a76;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: width;
+  width: 100%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+<ProgressBar
+  appearance="primary"
+  hideBorder={false}
+  max={100}
+  value={100}
+>
+  <div
+    className="c0"
+  />
+</ProgressBar>
 `;
 
 exports[`ProgressBar Component snapshots should match snapshot 4`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ForwardRef
-    appearance="warning"
-    hideBorder={false}
-    max={100}
-    value={42}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "appearance": "warning",
-      "forwardedComponent": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "ProgressBar-sc-1qbundh-0",
-          "isStatic": false,
-          "rules": Array [
-            "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-            [Function],
-            ";border:",
-            [Function],
-            ";&:before{background-color:",
-            [Function],
-            ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-            [Function],
-            "%;transition:width 1s ease;}",
-          ],
-        },
-        "defaultProps": Object {
-          "appearance": "primary",
-          "hideBorder": false,
-        },
-        "displayName": "ProgressBar",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "appearance": [Function],
-          "hideBorder": [Function],
-          "max": [Function],
-          "value": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "ProgressBar-sc-1qbundh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      },
-      "forwardedRef": null,
-      "hideBorder": false,
-      "max": 100,
-      "value": 42,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "appearance": "warning",
-        "forwardedComponent": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "ProgressBar-sc-1qbundh-0",
-            "isStatic": false,
-            "rules": Array [
-              "box-sizing:border-box;display:inline-block;position:relative;overflow:hidden;min-width:240px;height:0.25rem;border-radius:0.125rem;background-color:",
-              [Function],
-              ";border:",
-              [Function],
-              ";&:before{background-color:",
-              [Function],
-              ";content:'';display:block;position:absolute;top:0;left:0;bottom:0;will-change:width;width:",
-              [Function],
-              "%;transition:width 1s ease;}",
-            ],
-          },
-          "defaultProps": Object {
-            "appearance": "primary",
-            "hideBorder": false,
-          },
-          "displayName": "ProgressBar",
-          "foldedComponentIds": Array [],
-          "propTypes": Object {
-            "appearance": [Function],
-            "hideBorder": [Function],
-            "max": [Function],
-            "value": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "ProgressBar-sc-1qbundh-0",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-          Symbol(Symbol.hasInstance): [Function],
-        },
-        "forwardedRef": null,
-        "hideBorder": false,
-        "max": 100,
-        "value": 42,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
+.c0 {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-width: 240px;
+  height: 0.25rem;
+  border-radius: 0.125rem;
+  background-color: #ffffff;
+  border: solid 1px #f5a623;
 }
+
+.c0:before {
+  background-color: #f5a623;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: width;
+  width: 42%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+<ProgressBar
+  appearance="warning"
+  hideBorder={false}
+  max={100}
+  value={42}
+>
+  <div
+    className="c0"
+  />
+</ProgressBar>
 `;
