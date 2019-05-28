@@ -112,7 +112,7 @@
     "svg4everybody": "2.1.9",
     "url-loader": "1.0.1",
     "webpack": "4.1.1",
-    "webpack-bundle-analyzer": "3.0.3",
+    "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "2.0.12",
     "webpack-node-externals": "1.7.2",
     "what-input": "5.1.3"
